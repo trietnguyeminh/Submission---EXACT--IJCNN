@@ -1,0 +1,1010 @@
+{
+  "0": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nEvidence:\n[3] states that John has a GPA of 3.8, and [4] states that a GPA of 3.8 qualifies for the graduate fellowship program, so option A is entailed.",
+      "B": "Support:\nNo\nEvidence:\n[]\nReasoning:\nThe statement that John needs faculty recommendation for the fellowship is not supported by the premises. The premises state that John has a GPA of 3.8, has completed a research project, and has a faculty recommendation, but they do not explicitly state that faculty recommendation is a requirement for the fellowship.",
+      "C": "Support:\nNo\nEvidence:\n[]\nReasoning:\nThe statement that John must complete an internship to qualify is not supported by the premises. The premises state that John has a GPA of 3.8, which qualifies him for honors, and that he needs a faculty recommendation, but they do not mention an internship requirement.",
+      "D": "Support:\nNo\nEvidence:\n[]"
+    }
+  },
+  "2": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not specify whether Professor John can supervise research, making it impossible to confirm option A.",
+      "B": "Support:\nNo\nReason:\nThe premises do not mention Professor John's ability to supervise Master's students or his research capabilities, so we cannot infer option B.",
+      "C": "Support:\nYes\nEvidence:\nPremises 1 and 2 state that Professor John has a PhD and has published research, which implies he has the qualifications to teach graduate courses and supervise research.",
+      "D": "Support:\nNo\nReason:\nThe premises state that Professor John has a PhD, which qualifies him to supervise research and teach graduate courses. Option D is not entailed because the premises do not mention any requirement for additional certification."
+    }
+  },
+  "4": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\nPremise 3 states that Dr. John has a PhD, but premise 4 says he needs a Master's degree to teach undergraduates. Since he has a PhD, he does not need a Master's degree, so he cannot teach undergraduates. Therefore, option A is not entailed.",
+      "B": "Support:\nNo\nReason:\nThe premises do not support option B. The statement that Dr. John qualifies as department head but cannot teach is not entailed by the premises.",
+      "C": "Support:\nNo\nReason:\nThe premises do not mention that a Master's degree is required for teaching undergraduates.",
+      "D": "Support:\nNo\nReason:\nThe premises state that Dr. John has a PhD and can teach undergraduate courses, but they do not mention whether a PhD is sufficient for teaching. Therefore, option D is not entailed by the premises."
+    }
+  },
+  "6": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not provide information about Alex's ability to use equipment or book training, so we cannot determine if option A is correct.",
+      "B": "Reasoning:\nThe premises state that Alex has a personal training session booked, which means Alex can book personal training sessions. Therefore, option B is entailed by the premises.\nSupported: Yes\nEvidence: Premise 2",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Reasoning:\nThe premises do not mention anything about Alex needing to pay additional fees, so option D is not entailed.\nSupported: No\nEvidence: []"
+    }
+  },
+  "8": {
+    "support": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nReasoning:\nThe statement that Minh has met the criteria to pursue Biochemistry is supported because the premises state that Minh has completed Chemistry 101 with a B+ and has a strong foundation in organic chemistry, both of which are prerequisites for Biochemistry.",
+      "B": "Support:\nYes\nReasoning:\nPremise 3 states that Minh has not completed Lab Safety Certification, and premise 4 states that Lab Safety Certification is a prerequisite for Biochemistry. Therefore, it is logically supported that Minh cannot take Biochemistry without Lab Safety Certification.",
+      "C": "Support:\nNo\nReason:\nThe premises do not provide information about Minh's eligibility for Organic Chemistry, so option C is not entailed.",
+      "D": "Support:\nNo\nReason:\nThe premises do not mention Minh needing to repeat Chemistry 101, so option D is not entailed."
+    }
+  },
+  "10": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nYes\nEvidence:\nPremise 3 states that students who develop through the quantum theory chain can make academic contributions through publication or seminar, directly supporting option A.",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nNo\nEvidence:\nPremise 3 states that research positions require both quantum theory development and publication/seminar participation, contradicting option C.",
+      "D": "Support:\nYes\nEvidence:\nPremise 3 states that understanding wave-particle duality guarantees lab access, directly supporting option D."
+    }
+  },
+  "12": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nEvidence:\nPremise 2 states that spaced repetition improves memory, and premise 3 states that spaced repetition improves academic performance. Therefore, option A is entailed.",
+      "B": "Support:\nNo\nReason:\nThe premises state that spaced repetition improves memory and academic performance, and that excessively long intervals can lead to forgetting. Option B is not entailed by the premises.",
+      "C": "Support:\nNo\nEvidence:\nPremise 3 states that AI can optimize study schedules, contradicting option C.",
+      "D": "Support:\nNo\nReason:\nThe premises do not mention the effectiveness of passive reading compared to active recall, so option D is not entailed."
+    }
+  },
+  "13": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement that review timing has no impact on retention is false because the forgetting curve research shows that optimal intervals prevent both premature review and excessive forgetting, indicating that review timing does impact retention.",
+      "B": "Support:\nYes\nEvidence:\nPremise 3 states that 'Optimal intervals prevent both premature review and excessive forgetting', which directly supports option B.",
+      "C": "Support:\nNo\nEvidence:\nPremise 3 states that sleep enhances memory consolidation, contradicting option C.",
+      "D": "Support:\nNo\n\nReasoning:\nThe statement that all learning methods yield identical results is not supported by the forgetting curve research, which focuses on the optimal timing of reviews to maximize retention."
+    }
+  },
+  "15": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not state that anyone with experience in their field must be hardworking.",
+      "B": "Support:\nNo\nReason:\nThe premises do not mention punctuality, so we cannot infer that some people are responsible but not punctual.",
+      "C": "Support:\nNo\nReason:\nThe premises do not state that all hardworking people are responsible.",
+      "D": ""
+    }
+  },
+  "17": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not support option A. The premises state that students who perform well in internships are more likely to receive full-time job offers, but they do not state that students who do not perform well will never receive full-time job offers.",
+      "B": "Support:\nYes\nEvidence:\nPremise 3 states that students with industry connections gain practical experience, and premise 4 states that students with industry connections gain practical experience indirectly. Therefore, option B is entailed by the premises.",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\nReason:\nThe premises do not provide information about the relationship between having a mentor and making career decisions, so option D is not entailed."
+    }
+  },
+  "19": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": true,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nYes\nEvidence:\nPremise 3 states that if a student gains academic recognition, they must have received a research grant.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises. The premises do not provide information about students who do not publish research receiving research grants.",
+      "C": "Support:\nYes\nEvidence:\n[3]\nReasoning:\nThe statement 'If a student does not engage in independent study, they will never publish research' is entailed because the premise states that engaging in independent study is necessary for publishing research, implying that not engaging in it prevents publishing.",
+      "D": "Support:\nYes\nEvidence:\n[3] If a student engages in independent study, they are likely to publish research and may gain academic recognition."
+    }
+  },
+  "21": {
+    "support": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nReasoning:\nThe statement 'If a student maintains a high GPA, they are more likely to receive a scholarship' is supported by the premise that 'Students with a high GPA are more likely to receive scholarships.'",
+      "B": "Support:\nYes\nReasoning:\nOption B is entailed because the premise states that maintaining a high GPA is not the only factor in receiving a scholarship, implying that students without a high GPA can still qualify.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide information about the relationship between extracurricular activities and scholarships, so we cannot infer that a student who does not engage in extracurricular activities will never receive a scholarship.",
+      "D": ""
+    }
+  },
+  "23": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement that practicing Python regularly always results in worse coding skills is not supported by the premises. The premises do not provide evidence that practicing Python has a negative effect on coding skills.",
+      "B": "Support:\nYes\nEvidence:\nPremise 2 states that practicing Python regularly improves coding skills, directly supporting option B.",
+      "C": "Support:\nNo\nEvidence:\n[]\nReasoning:\nThe statement that students who do not practice Python regularly become proficient in Python is not supported by the premises. The premises do not provide information about the proficiency of students who do not practice Python regularly.",
+      "D": "Support:\nNo\nEvidence:\n[]"
+    }
+  },
+  "25": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement that if a Python project is not optimized, then it is unlikely to be well-tested is not entailed by the premises. The premises do not provide information about the relationship between optimization and testing.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises. The premises do not provide information about the relationship between well-structured projects and optimized projects, so we cannot infer option B.",
+      "C": "Support:\nNo\nEvidence:\nPremise 1 states that all Python projects are well-structured, premise 2 states that all Python projects are optimized, premise 3 states that all Python projects follow PEP 8 standards, and premise 4 states that all Python projects are well-tested. Option C is not entailed by the premises because the premises do not state that all Python projects are well-tested.",
+      "D": "Support:\nYes\n\nReasoning:\nOption D is entailed because if a project is not well-structured, it might not follow PEP 8 standards, as per the premises."
+    }
+  },
+  "32": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement 'If a student does not complete their assignments, then they do not achieve high scores' is not entailed by the premises. The premises do not provide information about the relationship between completing assignments and achieving high scores.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises. The premises do not mention anything about submitting homework on time or receiving bonus points, so we cannot infer this statement.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide information about the relationship between attending class and achieving high scores, so we cannot infer option C.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises. The premises do not provide information about the relationship between achieving high scores and studying regularly, so we cannot infer option D."
+    }
+  },
+  "34": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement 'If a student does not achieve good grades, then they do not receive extra credit' is not entailed by the premises. The premises state that students who achieve good grades receive extra credit, but they do not explicitly state that students who do not achieve good grades do not receive extra credit.",
+      "B": "Support:\nYes\nEvidence:\nPremise 1 states that if a student receives extra credit, then they achieve good grades. Premise 2 states that if a student does not achieve good grades, then they do not receive extra credit. Option B states that if a student receives extra credit, then they achieve good grades. This is entailed by the premises because if a student receives extra credit, then they achieve good grades.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide information about the relationship between attending class and receiving extra credit, so we cannot infer option C.",
+      "D": "Support:\nNo\nReason:\nThe statement that if a student submits assignments on time, then they do not receive extra credit is not entailed by the premises. The premises do not mention anything about submitting assignments on time, so we cannot infer this statement."
+    }
+  },
+  "36": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises. The premises state that winning a scholarship implies taking advanced courses, and publishing research implies taking advanced courses, but they do not explicitly state that winning a scholarship implies publishing research.",
+      "B": "Support:\nYes\nEvidence:\nPremises 1 and 2: If a student wins a scholarship, then they publish research. If a student publishes research, then they take advanced courses.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide information about students who are not students, so we cannot infer that they do not win a scholarship.",
+      "D": "Support:\nYes\nEvidence:\nPremises 1, 2, 3"
+    }
+  },
+  "38": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not provide information about the relationship between academic performance, scholarships, and examination regulations. Therefore, we cannot infer option A.",
+      "B": "Support:\nNo\nReason:\nThe premises do not provide information about the relationship between academic performance, scholarships, and examination regulations. Therefore, we cannot infer option B.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide sufficient information to infer that if at least one student has achieved outstanding academic performance and if having at least one student achieve outstanding academic performance leads to at least one student receiving a scholarship, then some students must comply with the examination regulations.",
+      "D": "Support:\nNo\nReason:\nThe premises do not provide information about the relationship between academic performance, scholarships, and examination regulations. Therefore, we cannot infer option D."
+    }
+  },
+  "40": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises because the premises do not explicitly state that if a student does not follow the school rules and if a student violates the school rules, they will be disciplined and banned from extracurricular activities, and if a student does not follow the dress code, they will be asked to change their clothes.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises state that students who violate school rules will be disciplined and banned from extracurricular activities, but option B claims they will not be disciplined and banned, which contradicts the premises.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not support the claim that if a student does not follow the dress code, they will not be asked to change their clothes.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not provide information about the conditions under which a student will be asked to change their clothes if they do not follow the dress code."
+    }
+  },
+  "42": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\n\nReason:\nOption A is not entailed by the premises. The premises do not provide sufficient information to infer that ((ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x)))) ∧ ¬(ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x)))) is true.",
+      "B": "Support:\nYes\nEvidence:\nPremise 1 states that if all students are enrolled in research projects, then if all students are enrolled in extracurricular activities, then if a student is enrolled, they have access to resources. Premise 2 states that if all students are enrolled in research projects, then if all students are enrolled in extracurricular activities, then if a student is enrolled, they have access to resources. Option B is entailed because it states",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide sufficient information to infer that ¬(ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x)))).",
+      "D": "Support:\nYes\nEvidence:\nPremise 1 states that all students are enrolled, premise 2 states that all students have access to resources, premise 3 states that all students participate in extracurricular activities, and premise 4 states that all students conduct research projects. Option D is entailed because if all students conduct research projects, then if all students participate in extracurricular activities, then if all students are enrolled, they have access to resources."
+    }
+  },
+  "44": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises. The premises do not provide information about the truth of the statement, and the statement itself is a contradiction.",
+      "B": "Support:\nYes\nEvidence:\nPremise 1 states that ∀x U(x) → (R(x) → P(x)), and premise 2 states that ¬(∀x U(x) → (R(x) → P(x))). Option B is ¬(∀x U(x) → (R(x) → P(x))), which is directly stated in premise 2.",
+      "C": "Support:\nYes\nEvidence:\nPremise 1 states that if all x satisfy U(x), then for all x, if R(x) holds, then P(x) holds. Option C is (∀x U(x) → (R(x) → P(x))), which is explicitly stated in premise 1.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises. The premises do not provide sufficient information to conclude that ((∀x U(x) → (R(x) → P(x))) → (∀x U(x) → (R(x) → P(x))))."
+    }
+  },
+  "46": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\n[]",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not provide information about the relationship between homework and class attendance.",
+      "C": "Support:\nNo\nEvidence:\nPremise 1 states that if not doing homework leads to failing the course, then all students attend class regularly. Premise 2 states that if not doing homework leads to failing the course, then all students attend class regularly. Option C claims that the statement is both true and false simultaneously, which contradicts the premises.",
+      "D": "Support:\nNo\nEvidence:\n[]"
+    }
+  },
+  "48": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed because the premises do not provide sufficient information to infer that if all students attend class, then at least one student is conducting research.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not provide information about the truth of the statement 'If all students attend class, then at least one student is conducting research'.",
+      "C": "Support:\nYes\nEvidence:\nPremises 1 and 2 state that all students attend class and that at least one student is conducting research. From these, we can infer that the statement 'If all students attend class, then at least one student is conducting research' is always true.",
+      "D": "Support:\nNo\nReasoning:\nOption D is not entailed because the premises do not support the claim that the statement is both true and false."
+    }
+  },
+  "56": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement that if a programmer understands loops, then they understand object-oriented programming is not supported by the premises. The premises do not provide a direct link between understanding loops and object-oriented programming.",
+      "B": "Support:\nNo\nReason:\nOption B cannot be inferred from the premises because the premises do not provide information about the relationship between understanding recursion and understanding loops.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not mention anything about studying regularly or improving debugging skills, so we cannot infer option C.",
+      "D": "Support:\nYes\nEvidence:\nPremise 3 states that if a programmer does not use functions, then they do not understand modular programming. Option D is a direct restatement of this premise."
+    }
+  },
+  "58": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not provide enough information to infer that John has enough social work days to graduate.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not explicitly state that John has spent 6 years at BK university.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not mention that John will have to study more if he does not graduate within 6 years and is out of school.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not explicitly state that John can graduate as long as he has 15 social work days and has not spent 6 years at BK university."
+    }
+  },
+  "60": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement that Kahne will not receive guidance because they are not a BK student is not supported by the premises. The premises do not mention anything about Kahne's status as a BK student or the conditions for receiving guidance.",
+      "B": "Support:\nYes\nEvidence:\nPremise 3 states that Kahne can write a science article if they receive guidance and broaden their knowledge through training, which directly supports option B.",
+      "C": "Support:\nYes\nEvidence:\nPremise 3 states that Kahne has not published an article, and premise 4 states that not publishing an article means they will not get plus points in their graduation thesis. Therefore, option C is entailed.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises. The premises do not state that Kahne needs to complete more training before writing the article, even though they are a lab member."
+    }
+  },
+  "62": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\nPremise numbers used: []\nReasoning:\nThe statement that the Titan computer is likely to have a strong cooling unit because it runs complex software and supports multitasking efficiently is not entailed by the premises. The premises do not provide information about the Titan computer's cooling unit, so we cannot infer this statement.",
+      "B": "Support:\nNo\n\nEvidence:\nPremise 3 states that the Titan computer supports multitasking efficiently, and premise 4 states that the Titan computer has enough RAM. Option B contradicts premise 3 by claiming the Titan computer does not support multitasking efficiently, so it is not entailed by the premises.",
+      "C": "Support:\nNo\n\nReasoning:\nOption C is not entailed because the premises do not state that the Titan computer does not require a cooling unit.",
+      "D": "Support:\nNo\n\nReasoning:\nOption D is not entailed by the premises. The premises state that the Titan computer supports multitasking efficiently, but they do not explicitly state that this is because it has enough RAM. While it is possible that having enough RAM contributes to efficient multitasking, the premises do not provide a direct causal link between the two. Therefore, option D cannot be inferred from the premises."
+    }
+  },
+  "68": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not provide information about positive peer feedback, so option A cannot be inferred.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not explicitly state that participating in the workshop implies teamwork improvement.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not support the claim that participating in the workshop implies not improving teamwork ability.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises. The premises state that participating in the workshop implies teamwork improvement, but they do not provide information about whether not improving teamwork ability affects selection for a school event. Therefore, option D cannot be inferred from the premises."
+    }
+  },
+  "70": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises because the premises do not provide information about the existence of someone who attended the final exam.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not provide sufficient information to infer that if a person did not complete the required attendance, then they did not attend the course.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide information about the relationship between completing required attendance and attending the course, so we cannot infer that if a person did not complete the required attendance, they still attended the course.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises. The premises do not provide information about the relationship between attending the course and attending the final exam, so we cannot infer that if a person did not attend the course, they did not attend the final exam."
+    }
+  },
+  "72": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not explicitly state that if a person uses university facilities responsibly, they respect the university’s policies. Option A makes an additional claim that is not supported by the premises.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises. The premises state that if a person uses university facilities responsibly, they respect the university’s policies, but option B claims the opposite.",
+      "C": "Reasoning:\nThe statement that if there exists someone who uses university facilities responsibly, then a person having the maturity to use facilities responsibly implies they use them responsibly, and if a person misuses university facilities, they cannot understand the proper rules and usage is not entailed by the premises because the premises do not provide information about the relationship between misusing university facilities and understanding the proper rules and usage.\nSupport:\nNo",
+      "D": "Reasoning:\nThe statement that if there exists someone who uses university facilities responsibly, then a person having the maturity to use facilities responsibly implies they use them responsibly, but if a person misuses university facilities, they can still understand the proper rules and usage is not entailed by the premises because the premises do not provide information about the relationship between misusing university facilities and understanding the proper rules and usage.\nSupport:\nNo"
+    }
+  },
+  "74": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not state that all students are enrolled in the PE course, nor do they confirm that if a person has not attended the PE course, they are not attending the PE course this semester. Therefore, option A cannot be inferred.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not support the claim that there does not exist a student who is enrolled in the PE course.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide information about whether a person who has not attended the PE course has fulfilled all course requirements, so we cannot infer that part of option C.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises. The premises do not provide information about whether a person who has not attended the PE course has fulfilled all course requirements, so we cannot infer that statement."
+    }
+  },
+  "76": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nEvidence:\nPremise 1 states that if someone is eligible for the seminar, they have completed registration requirements. Option A is a direct restatement of this premise.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not state that everyone who submits a report has both certifications.",
+      "C": "Support:\nYes\nEvidence:\nPremises 1 and 2 support option C. Premise 1 states that everyone who submits a report has both certifications, and premise 2 states that if someone is eligible for the seminar, they have completed registration requirements. Together, these premises imply that someone eligible for the seminar has both certifications.",
+      "D": "Support:\nNo\nReason:\nThe statement 'Not registering for the seminar means you have certifications' is not entailed by the premises. The premises do not provide information about the relationship between seminar registration and certifications."
+    }
+  },
+  "78": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\nPremises do not mention eligibility criteria, so we cannot infer that all individuals are eligible.",
+      "B": "Support:\nYes\nEvidence:\nPremise 3 states that 'Not all individuals are eligible for healthcare services', which implies that some individuals are not eligible.",
+      "C": "Support:\nNo\nEvidence:\nPremise 1 states that all individuals are eligible for healthcare services, which contradicts option C.",
+      "D": "Support:\nNo\nEvidence:\n[]"
+    }
+  },
+  "80": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not provide information about students completing the subject successfully, so option A cannot be inferred.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not state that attending the lab prevents enrollment.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide information about whether all students are required to attend the lab.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed because the premises do not provide information about students completing the subject successfully."
+    }
+  },
+  "82": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\nPremises do not mention eligibility for training, so option A cannot be inferred.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not state that all students raised issues about paying fees.",
+      "C": "Support:\nYes\nEvidence:\nPremises 1 and 2 state that all students paid fees and that all students raised issues about paying fees. Premise 3 states that all students are eligible for training. Option C, 'No students received confirmation of payment,' is not entailed by the premises because the premises do not mention confirmation of payment.",
+      "D": "Support:\nNo\nReason:\nOption D cannot be inferred because the premises do not provide information about students' eligibility for training."
+    }
+  },
+  "84": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not provide information about students' eligibility for the final exam, so we cannot infer that all students are eligible.",
+      "B": "Support:\nNo\nReason:\nOption B cannot be inferred because the premises do not provide information about students completing course requirements.",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\nReason:\nOption D cannot be inferred because the premises do not provide information about students completing quizzes or their eligibility."
+    }
+  },
+  "86": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not state that all students have met the safety requirements for the lab.",
+      "B": "Support:\nNo\nReason:\nThe premises do not provide information about students' enrollment in the chemistry course, so option B cannot be inferred.",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\nReason:\nOption D cannot be inferred because the premises do not provide information about students wearing blouses."
+    }
+  },
+  "88": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\n[]",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nYes\nEvidence:\nPremise 1 states that all students have passed the exam, and premise 2 states that all students have completed the course. From these, we can infer that if a student has completed the course, they have passed the exam.",
+      "D": "Support:\nNo\n\nReasoning:\nOption D is a contradiction because it asserts both ∀x (T(x) → R(x)) and ¬∀x (T(x) → R(x)), which cannot be true simultaneously. The premises do not support this contradiction."
+    }
+  },
+  "90": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\n[]",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\nEvidence:\n[]"
+    }
+  },
+  "92": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed because the premises do not establish that there exists at least one student who is asking questions.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not support the claim that there does not exist at least one student who is asking questions.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed because the premises do not state that every student is studying.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed because the premises do not provide information about whether every student is studying."
+    }
+  },
+  "94": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not support option A. The premises state that if a student is not understanding the material, then they are not revising, and if a student is attending tutorials, then they are revising. However, the premises do not provide information about the relationship between attending tutorials and revising, so option A cannot be inferred.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not support the claim that attending tutorials implies not revising.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises state that if a student is not understanding the material, then they are not revising, but they do not provide information about whether every student is revising. Therefore, we cannot infer option C from the premises.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not provide information about whether every student is revising."
+    }
+  },
+  "96": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises because the premises do not provide information about the relationship between studying math diligently and understanding trigonometry.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not support the claim that studying math diligently leads to not understanding trigonometry.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not provide information about the existence of high school students who understand trigonometry.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not provide information about the existence of students who understand trigonometry."
+    }
+  },
+  "98": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nEvidence:\nPremise 2 states that there exists at least one student who has passed the exam, which implies that there exists at least one student who has passed the exam.",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\nEvidence:\n[]"
+    }
+  },
+  "100": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not provide sufficient information to infer option A.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not support the claim that researchers who write publications do not provide novel insights that sustain student excellence in advanced courses.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises do not provide sufficient information to infer that if a researcher writes a publication, then the researcher provides novel insights, ensuring that students who excel continue to excel.",
+      "D": "Support:\nYes\nEvidence:\nPremise 1: All researchers write publications.\nPremise 2: If a researcher writes a publication, then the researcher provides novel insights.\nPremise 3: If a researcher writes a publication, then the researcher provides novel insights, ensuring that students who excel continue to excel.\nOption D: If publishing a paper leads to providing novel insights, then publishing a paper leads to providing novel insights.\nOption D is entailed because if publishing a paper"
+    }
+  },
+  "101": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed because the premises do not support the claim that both the statement and its negation are simultaneously true.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not provide information about the relationship between qualifying for graduation and using digital resources.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed because the premises do not support the claim that the statement about students qualifying for graduation implies all programs use digital resources implies itself.",
+      "D": "Support:\nYes\nEvidence:\nPremise 3 states that if all students qualify for graduation, then all educational programs use digital resources. Option D is a direct restatement of this premise, so it is entailed."
+    }
+  },
+  "103": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe existence of a student who completed an immersion program does not logically entail that the necessary connection between native speaker engagement, immersion program completion, and conversational fluency is logically inconsistent. The premises do not provide enough information to infer this statement.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not provide sufficient information to infer that it is not the case that failure to engage with native speakers preventing immersion program completion implies completing immersion programs develops conversational fluency.",
+      "C": "Support:\nYes\nEvidence:\nPremise 1 states that completing immersion programs leads to conversational fluency, premise 2 states that engaging with native speakers is necessary for immersion program completion, and premise 3 states that not engaging with native speakers prevents immersion program completion. Option C follows from these premises because if not engaging with native speakers prevents immersion program completion, then completing immersion programs leads to conversational fluency.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises. The premises state that engaging with native speakers leads to immersion program completion, which leads to conversational fluency. Option D claims that language students who engage with native speakers both do and do not achieve conversational fluency through immersion programs, which contradicts the premises."
+    }
+  },
+  "104": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nEvidence:\nPremise 2 states that 'Some policies are effective', which directly supports option A.",
+      "B": "Support:\nNo\nEvidence:\nPremise numbers used: []\nReasoning:\nThe statement that all policies are effective cannot be inferred from the premises, which only state that effective policies exist.",
+      "C": "Support:\nNo\nEvidence:\nPremise numbers used: []\nReasoning:\nThe statement 'No policies are effective' is not entailed by the premises. The premises do not provide information about the effectiveness of policies, so we cannot infer that no policies are effective.",
+      "D": "Support:\nNo\nEvidence:\n[]"
+    }
+  },
+  "106": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\n[]",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nYes\nEvidence:\nPremise 3 states that students with clear learning objectives are more likely to achieve better academic results, and premise 4 states that students with clear learning objectives are more likely to set better academic goals. Therefore, option D is entailed by the premises."
+    }
+  },
+  "108": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not provide information about office hours attendance, so we cannot infer option A.",
+      "B": "Support:\nNo\nReason:\nThe statement that there exists a student with no good chance to pass the exam is not entailed by the premises. The premises state that every student attends office hours and participates in a study group, but they do not provide information about the chances of passing the exam.",
+      "C": "Support:\nYes\nEvidence:\nPremise 2 states that 'There exists a student who attends office hours', and premise 3 states that 'Attending office hours increases the chance of passing the exam'. From these, we can infer that there exists a student likely to pass the exam.",
+      "D": "Support:\nNo\nReason:\nThe premises do not mention anything about students participating in study groups, so we cannot infer option D."
+    }
+  },
+  "110": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\n\nReasoning:\nThe premises do not mention error handling in scripts, so we cannot infer that there exists a script without error handling.",
+      "B": "Support:\nNo\n\nReasoning:\nThe statement that there exists a program that does not produce reliable outputs is not entailed by the premises. The premises state that all programs produce reliable outputs, so it is not true that there exists a program that does not produce reliable outputs.",
+      "C": "Support:\nNo\n\nReasoning:\nOption C is not entailed by the premises. The premises do not provide information about Python programs being optimized, so we cannot infer that all Python programs are optimized.",
+      "D": "Support:\nYes\n\nReasoning:\nThe statement that there exists a program that does not follow best practices is supported by the premise that there exists a program that does not produce reliable outputs, as unreliable outputs suggest a lack of adherence to best practices."
+    }
+  },
+  "112": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not mention Mia lacking knowledge or receiving help, so option A is not entailed.",
+      "B": "Support:\nNo\nReason:\nThe premises do not mention Mia studying hard, so option B is not entailed.",
+      "C": "Support:\nNo\nReason:\nThe premises do not mention Mia helping others, so option C is not entailed.",
+      "D": "Support:\nNo\nReason:\nThe premises do not state that Mia did well without helping others."
+    }
+  },
+  "114": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not mention Iruma completing a graduation project, so option A is not entailed.",
+      "B": "Support:\nNo\nReason:\nThe premises do not mention anything about Iruma gaining enough labor days, so it cannot be inferred.",
+      "C": "Support:\nYes\nReasoning:\nThe statement that Iruma’s graduation status is uncertain is supported by the premise that Iruma has not completed the graduation project, which is a requirement for graduation.",
+      "D": "Support:\nYes\nReasoning:\nThe statement that Iruma is eligible for the graduation project is supported by the premise that Iruma completed a graduation project, which implies that Iruma met the requirements to be eligible for the graduation project."
+    }
+  },
+  "116": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not mention anything about students taught by teachers learning or not learning, so it cannot be inferred that they don’t learn.",
+      "B": "Support:\nYes\nEvidence:\nPremise 2 states that students taught by teachers have motivation, which directly supports option B.",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\nEvidence:\n[]"
+    }
+  },
+  "118": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement that if a student cannot apply concepts, they cannot engage in the learning process is not entailed by the premises. The premises state that applying concepts is necessary for engaging in the learning process, but they do not explicitly state that the inability to apply concepts necessarily prevents engagement.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed because the premises do not explicitly state that not engaging leads to not understanding core concepts.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises. The premises state that all students engage in the learning process and that engaging in the learning process implies applying concepts, but they do not explicitly state that all students apply concepts.",
+      "D": "Support:\nNo\nReason:\nThe premises do not provide information about students who do not apply concepts but engage in the learning process."
+    }
+  },
+  "120": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\n\nReasoning:\nThe statement that ∀x (B(x) → P2(x)) is not entailed by the premises. The premises do not provide information about the relationship between B(x) and P2(x), so we cannot infer this statement.",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\n\nReasoning:\nThe statement that ∀x (T2(x) → ¬L2(x)) is not entailed by the premises. The premises do not provide information about the relationship between T2(x) and L2(x), so we cannot infer this statement."
+    }
+  },
+  "122": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\n[]",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nYes\nEvidence:\nPremise 1 states that all students are required to submit a Research project, and premise 2 states that the rule 'No Research → No Thesis' ensures Thesis completion. Option C is entailed because the rule ensures Thesis completion, as stated in premise 2.",
+      "D": "Support:\nNo\n\nReasoning:\nThe statement that the rule is both true and false is not supported by the premises. The premises state that all students are required to submit a Research project, but they do not provide information about the truth value of the rule being both true and false."
+    }
+  },
+  "124": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe statement that if there exists at least one object with property R, then every object has property P cannot be logically deduced from the premises. The premises do not provide information about the relationship between property R and property P, so we cannot infer the conditional statement.",
+      "B": "Support:\nNo\nReason:\nOption B cannot be logically deduced from the premises. The premises do not provide information about the relationship between property R and property P, so we cannot infer whether it is true or false that if there exists at least one object with property R, then every object has property P.",
+      "C": "Support:\nNo\nReason:\nOption C cannot be logically deduced from the premises. The premises do not provide information about the relationship between property R and property P, so we cannot infer that it is both true and not true that if there exists at least one object with property R then every object has property P.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises. The premises do not provide enough information to deduce that if it is true that if there exists at least one object with property R then every object has property P, then if there exists at least one object with property R every object has property P."
+    }
+  },
+  "126": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed because the premises do not support the claim that it is both true and false that if there exists at least one student who has completed the Thesis Writing course, then all students are enrolled in Research Methods.",
+      "B": "Support:\nNo\nReasoning:\nOption B is not entailed because the premises do not provide sufficient information to infer that it is false that if there exists at least one student who has completed the Thesis Writing course, then all students are enrolled in Research Methods.",
+      "C": "Support:\nYes\nReasoning:\nOption C is entailed because the premise states that if there exists at least one student who has completed the Thesis Writing course, then all students are enrolled in Research Methods.",
+      "D": "Support:\nNo\nReasoning:\nOption D is not entailed because the premises do not support the claim that if there exists at least one student who has completed the Thesis Writing course, then all students can't enroll in Research Methods."
+    }
+  },
+  "128": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\nPremise 1 states that Tuan has five A grades, but premise 2 states that Tuan has only four A grades. Therefore, option A is not entailed by the premises.",
+      "B": "Support:\nNo.\nEvidence:\nPremise 1 states that Tuan has five A grades, and premise 2 states that having five A grades is sufficient to receive a scholarship. Option B, which states that Tuan cannot receive a scholarship, is not entailed by the premises because the premises explicitly state that he can.",
+      "C": "Support:\nNo\nReason:\nThe premises do not state that Tuan can only receive a scholarship with A+ grades.",
+      "D": "Support:\nNo\nReasoning:\nThe premises do not mention anything about friends understanding, so we cannot infer that Tuan can receive a scholarship only if friends understand."
+    }
+  },
+  "131": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not state that all students passed Programming Fundamentals and Mathematics for Computer Science.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not explicitly state that all students have passed Advanced Programming and Programming Fundamentals.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not explicitly state that all students have passed Mathematics for Computer Science and Advanced Programming.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not state that all students passed Programming Fundamentals, Advanced Programming, and Mathematics for Computer Science."
+    }
+  },
+  "133": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\nPremise 1 states that all students meet the standard, but it does not explicitly state that all students complete the assignment or receive a passing grade.\nPremise 2 states that all students complete the assignment, but it does not explicitly state that all students meet the standard or receive a passing grade.\nPremise 3 states that all students receive a passing grade, but it does not explicitly state that all students meet the standard or complete the assignment.\n",
+      "B": "Support:\nNo\nEvidence:\nPremise 1 states that all students meet the standard, but it does not explicitly state that all students attend the course.\nPremise 2 states that all students complete the assignment, but it does not explicitly state that all students attend the course.\nPremise 3 states that all students receive a passing grade, but it does not explicitly state that all students attend the course.\nTherefore, option B is not entailed by the premises.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not explicitly state that all students complete the assignment, undergo the assessment process, and attend the course.",
+      "D": "Support:\nNo\nEvidence:\nPremise 1 states that all students meet the standard, premise 2 states that all students complete the assignment, and premise 3 states that all students receive a passing grade. Option D is not entailed by the premises because it adds 'completing training' which is not stated in the premises."
+    }
+  },
+  "134": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\n[]",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nNo\nEvidence:\nPremises do not mention R(x) → ¬H(x)",
+      "D": "Support:\nNo\nReason:\nThe premises do not provide enough information to infer option D."
+    }
+  },
+  "136": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\nPremises do not support the statement that for all x, if x is not a student, then x is not a researcher and x is not a professor.",
+      "B": "Support:\nNo\nEvidence:\n[]",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\n\nReasoning:\nThe statement that ∀x (¬S(x) → F(x)) is not entailed by the premises. The premises do not provide information about the relationship between S(x) and F(x), so we cannot infer this statement."
+    }
+  },
+  "138": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nEvidence:\nPremise 3 states that if Kelvin submitted his CH3002 lab report on time, then he is allowed to take the exam for CH3002. Premise 4 states that Kelvin submitted his CH3002 lab report on time. Therefore, option A is entailed by the premises.",
+      "B": "Support:\nNo\nEvidence:\nPremise 1 states that Kelvin submitted his CH3002 lab report on time, but it does not mention Liam. Premise 2 states that submitting the lab report on time allows a student to take the exam, but it does not specify that Liam is allowed to take the exam. Therefore, option B is not entailed by the premises.",
+      "C": "Support:\nNo\nReason:\nThe premises do not provide information about Kelvin needing to submit a project for CH3002, so we cannot infer option C.",
+      "D": "Support:\nNo\nReason:\nThe premises do not mention Kelvin’s Homework score in CH3001 affecting his eligibility for CH3002’s exam."
+    }
+  },
+  "140": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nThe premises do not support the statement that all students in the AI program can build trustworthy systems.",
+      "B": "Support:\nNo\nReason:\nThe premises do not provide information about students who study AI ethics and their ability to build trustworthy systems, so option B cannot be inferred.",
+      "C": "Support:\nYes\nEvidence:\nPremise 3 states that 'Following ethical guidelines ensures trustworthy systems', which directly supports option C.",
+      "D": "Support:\nNo\nReason:\nThe premises state that all students in the AI program study AI ethics and can build trustworthy systems, but they do not mention whether studying AI ethics is optional. Therefore, option D is not entailed by the premises."
+    }
+  },
+  "142": {
+    "support": {
+      "A": false,
+      "B": true,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\n[]",
+      "B": "Support:\nYes\nEvidence:\nPremise 1 states that all students must meet the eligibility requirements to enroll in the advanced courses, and premise 2 states that completing the prerequisite course implies eligibility for the advanced courses. Therefore, option B is entailed by the premises.",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed because the premises state that completing the prerequisite course implies eligibility, and the negation of this implication is false."
+    }
+  },
+  "145": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": true
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises because the premises do not explicitly state that all students participate in research, take a thesis course, are registered, and receive a scholarship.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not explicitly state that all students participate in research, are registered, and participate in the honors program.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not explicitly state that all students take a thesis course, receive a scholarship, and participate in an honors program.",
+      "D": "Support:\nYes\nReasoning:\nOption D is entailed because all students participate in research, take thesis courses, and join the honors program, as stated in the premises."
+    }
+  },
+  "147": {
+    "support": {
+      "A": true,
+      "B": false,
+      "C": true,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nYes\nReasoning:\nThe premises state that all students possess problem-solving, communication, critical thinking, teamwork, and research skills. Option A lists these skills, so it is entailed.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not explicitly state that all students possess the skill of completing a capstone project.",
+      "C": "Support:\nYes\nReasoning:\nOption C is entailed because all students possess critical thinking, teamwork, and research skills, as stated in the premises.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not explicitly state that all students possess communication, critical thinking, and completing a capstone project."
+    }
+  },
+  "149": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises because the premises do not explicitly state that all students perform all four activities.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not explicitly state that all students write papers.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not explicitly state that all students participate in a project, earn a certification, and write a paper.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not explicitly state that all students receive a recommendation."
+    }
+  },
+  "151": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises because the premises do not explicitly state that all students perform all four activities.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not explicitly state that all students enroll in a research program.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not explicitly state that all students perform the activities listed in option C.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not explicitly state that all students enroll in a research program."
+    }
+  },
+  "153": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nReason:\nOption A is not entailed by the premises because the premises do not explicitly state that all students perform the activities listed in option A.",
+      "B": "Support:\nNo\nReason:\nOption B is not entailed by the premises because the premises do not explicitly state that all students join discussion forums.",
+      "C": "Support:\nNo\nReason:\nOption C is not entailed by the premises because the premises do not explicitly state that all students join discussion forums.",
+      "D": "Support:\nNo\nReason:\nOption D is not entailed by the premises because the premises do not explicitly state that all students submit final assignments."
+    }
+  },
+  "154": {
+    "support": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false
+    },
+    "raw": {
+      "A": "Support:\nNo\nEvidence:\n[]",
+      "B": "Support:\nNo\nReason:\nThe statement that there exists an x such that x is not a friend and x is loyal is not entailed by the premises. The premises do not provide information about the relationship between being a friend and being loyal.",
+      "C": "Support:\nNo\nEvidence:\n[]",
+      "D": "Support:\nNo\n\nReasoning:\nThe statement that all students who passed the exam did not attend the course is not supported by the premises. The premises do not provide information about the relationship between passing the exam and attending the course."
+    }
+  }
+}
