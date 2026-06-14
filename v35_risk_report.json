@@ -1,0 +1,17 @@
+{
+ "version": "v35_symbolic_approval_layer_fixed_risk_report",
+ "fulltest_decision": "APPLY_V35_FULLTEST",
+ "val_decision": "KEEP_V34_3",
+ "artifact_risk": "LOW_RELOADED_SAVED_PREDS",
+ "overfit_risk": "LOW_CLASSICAL_SYMBOLIC_RULES_NO_SWEEP_CROSS_DATASET_GATED",
+ "underfit_risk": "REMAINING: MC option-proof analysis-only; statement-form YNU out of scope; predicate matching imperfect",
+ "label_collapse": false,
+ "notes": [
+  "E1 existential rule is classical logic: forall not Q entails no exists Q.",
+  "Universal/atomic PROVE_NO still abstains under positive-proof conflict.",
+  "Validation branch uses gold only for offline audit gate; hidden/test must use certificates only.",
+  "MC option-proof is not applied in v35."
+ ],
+ "fulltest_summary_file": "v35_fulltest_summary.json",
+ "val_summary_file": "v35_val_summary.json"
+}
