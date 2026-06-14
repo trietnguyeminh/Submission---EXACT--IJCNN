@@ -1,0 +1,1831 @@
+[
+  {
+    "i": 0,
+    "id": 0,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": false,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 1,
+    "id": 1,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 3,
+    "id": 3,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 5,
+    "id": 5,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": false,
+    "implication": false,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 6,
+    "id": 6,
+    "gold": "B",
+    "pred": "B",
+    "quantifier": false,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 7,
+    "id": 7,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 10,
+    "id": 10,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": false,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 11,
+    "id": 11,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 13,
+    "id": 13,
+    "gold": "B",
+    "pred": "B",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 14,
+    "id": 14,
+    "gold": "Yes",
+    "pred": "UNPARSEABLE",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 15,
+    "id": 15,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 16,
+    "id": 16,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 18,
+    "id": 18,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 19,
+    "id": 19,
+    "gold": "D",
+    "pred": "D",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 20,
+    "id": 20,
+    "gold": "Unknown",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 21,
+    "id": 21,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 22,
+    "id": 22,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 23,
+    "id": 23,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 24,
+    "id": 24,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 25,
+    "id": 25,
+    "gold": "B",
+    "pred": "D",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 26,
+    "id": 26,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 27,
+    "id": 27,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 28,
+    "id": 28,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 29,
+    "id": 29,
+    "gold": "Unknown",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 30,
+    "id": 30,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 31,
+    "id": 31,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 32,
+    "id": 32,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 33,
+    "id": 33,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 34,
+    "id": 34,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 35,
+    "id": 35,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 36,
+    "id": 36,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 37,
+    "id": 37,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 38,
+    "id": 38,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 39,
+    "id": 39,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 40,
+    "id": 40,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 41,
+    "id": 41,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 42,
+    "id": 42,
+    "gold": "D",
+    "pred": "B",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 43,
+    "id": 43,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 44,
+    "id": 44,
+    "gold": "C",
+    "pred": "B",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 45,
+    "id": 45,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 46,
+    "id": 46,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 47,
+    "id": 47,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 48,
+    "id": 48,
+    "gold": "A",
+    "pred": "C",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 49,
+    "id": 49,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 50,
+    "id": 50,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 51,
+    "id": 51,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 52,
+    "id": 52,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 53,
+    "id": 53,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 54,
+    "id": 54,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 55,
+    "id": 55,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 56,
+    "id": 56,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 57,
+    "id": 57,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 58,
+    "id": 58,
+    "gold": "C",
+    "pred": "Unknown",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 59,
+    "id": 59,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 60,
+    "id": 60,
+    "gold": "B",
+    "pred": "B",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 61,
+    "id": 61,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 62,
+    "id": 62,
+    "gold": "A",
+    "pred": "Unknown",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 63,
+    "id": 63,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 64,
+    "id": 64,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 65,
+    "id": 65,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 66,
+    "id": 66,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 67,
+    "id": 67,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 68,
+    "id": 68,
+    "gold": "B",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 69,
+    "id": 69,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 70,
+    "id": 70,
+    "gold": "A",
+    "pred": "D",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 71,
+    "id": 71,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 72,
+    "id": 72,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 73,
+    "id": 73,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 74,
+    "id": 74,
+    "gold": "A",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 75,
+    "id": 75,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 76,
+    "id": 76,
+    "gold": "C",
+    "pred": "A",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 77,
+    "id": 77,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 78,
+    "id": 78,
+    "gold": "A",
+    "pred": "B",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 79,
+    "id": 79,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 80,
+    "id": 80,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 81,
+    "id": 81,
+    "gold": "Unknown",
+    "pred": "No",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 82,
+    "id": 82,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 83,
+    "id": 83,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 84,
+    "id": 84,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 85,
+    "id": 85,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 86,
+    "id": 86,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 87,
+    "id": 87,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 88,
+    "id": 88,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 89,
+    "id": 89,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 90,
+    "id": 90,
+    "gold": "A",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 91,
+    "id": 91,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 92,
+    "id": 92,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 93,
+    "id": 93,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 94,
+    "id": 94,
+    "gold": "A",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 95,
+    "id": 95,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 96,
+    "id": 96,
+    "gold": "C",
+    "pred": "A",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 97,
+    "id": 97,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 98,
+    "id": 98,
+    "gold": "D",
+    "pred": "A",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 99,
+    "id": 99,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 100,
+    "id": 100,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 101,
+    "id": 101,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 102,
+    "id": 102,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 103,
+    "id": 103,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 104,
+    "id": 104,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 105,
+    "id": 105,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 106,
+    "id": 106,
+    "gold": "D",
+    "pred": "D",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 108,
+    "id": 108,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 109,
+    "id": 109,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 110,
+    "id": 110,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 111,
+    "id": 111,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 113,
+    "id": 113,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 115,
+    "id": 115,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 116,
+    "id": 116,
+    "gold": "B",
+    "pred": "B",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 117,
+    "id": 117,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 118,
+    "id": 118,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 119,
+    "id": 119,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 120,
+    "id": 120,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 121,
+    "id": 121,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 122,
+    "id": 122,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 123,
+    "id": 123,
+    "gold": "No",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 124,
+    "id": 124,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 125,
+    "id": 125,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 126,
+    "id": 126,
+    "gold": "A",
+    "pred": "C",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 127,
+    "id": 127,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 128,
+    "id": 128,
+    "gold": "B",
+    "pred": "B",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 129,
+    "id": 129,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 130,
+    "id": 130,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 131,
+    "id": 131,
+    "gold": "A",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 132,
+    "id": 132,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 133,
+    "id": 133,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 134,
+    "id": 134,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 135,
+    "id": 135,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 136,
+    "id": 136,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 137,
+    "id": 137,
+    "gold": "No",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 138,
+    "id": 138,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 139,
+    "id": 139,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": false,
+    "implication": true,
+    "overclaim": false,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 140,
+    "id": 140,
+    "gold": "A",
+    "pred": "C",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 141,
+    "id": 141,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 142,
+    "id": 142,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 143,
+    "id": 143,
+    "gold": "No",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 144,
+    "id": 144,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 145,
+    "id": 145,
+    "gold": "A",
+    "pred": "D",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 146,
+    "id": 146,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 147,
+    "id": 147,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 148,
+    "id": 148,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  },
+  {
+    "i": 149,
+    "id": 149,
+    "gold": "A",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 150,
+    "id": 150,
+    "gold": "Yes",
+    "pred": "No",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "No": 1
+    }
+  },
+  {
+    "i": 151,
+    "id": 151,
+    "gold": "A",
+    "pred": "A",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 152,
+    "id": 152,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": true,
+    "cand_counts": {
+      "Unknown": 1
+    }
+  },
+  {
+    "i": 153,
+    "id": 153,
+    "gold": "A",
+    "pred": "Unknown",
+    "quantifier": true,
+    "implication": false,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {}
+  },
+  {
+    "i": 154,
+    "id": 154,
+    "gold": "A",
+    "pred": "UNPARSEABLE",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": false,
+    "negation": true,
+    "cand_counts": {}
+  },
+  {
+    "i": 155,
+    "id": 155,
+    "gold": "Yes",
+    "pred": "Yes",
+    "quantifier": true,
+    "implication": true,
+    "overclaim": true,
+    "negation": false,
+    "cand_counts": {
+      "Yes": 1
+    }
+  }
+]
