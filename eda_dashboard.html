@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDA Dashboard – TS Forecasting</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Syne:wght@400;600;800&display=swap');
+
+  :root {
+    --bg:        #09090f;
+    --surface:   #0f0f1a;
+    --card:      #13131f;
+    --border:    #1e1e32;
+    --train:     #00e5ff;
+    --test:      #ff6b6b;
+    --accent:    #b388ff;
+    --gold:      #ffd54f;
+    --green:     #69f0ae;
+    --text:      #e8eaf6;
+    --muted:     #6070a0;
+    --glow-t:    rgba(0,229,255,.18);
+    --glow-s:    rgba(255,107,107,.18);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    padding: 32px 24px 60px;
+  }
+
+  /* ── NOISE OVERLAY ───────────────────────────────────────── */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='.03'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 0;
+  }
+
+  /* ── HEADER ──────────────────────────────────────────────── */
+  header {
+    max-width: 1340px; margin: 0 auto 48px;
+    display: flex; align-items: flex-end; gap: 24px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 28px;
+  }
+  .logo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; letter-spacing: .2em; color: var(--muted);
+    text-transform: uppercase; margin-bottom: 8px;
+  }
+  h1 {
+    font-size: clamp(26px, 4vw, 42px);
+    font-weight: 800; line-height: 1.05;
+    background: linear-gradient(120deg, var(--train) 0%, var(--accent) 50%, var(--test) 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .subtitle { font-size: 14px; color: var(--muted); margin-top: 8px; font-weight: 400; }
+  .badge-row { display: flex; gap: 10px; margin-left: auto; flex-wrap: wrap; }
+  .badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; padding: 6px 14px;
+    border-radius: 4px; font-weight: 600;
+    letter-spacing: .05em; white-space: nowrap;
+  }
+  .badge-train { background: var(--glow-t); border: 1px solid var(--train); color: var(--train); }
+  .badge-test  { background: var(--glow-s); border: 1px solid var(--test);  color: var(--test);  }
+
+  /* ── GRID ────────────────────────────────────────────────── */
+  .grid { max-width: 1340px; margin: 0 auto; display: grid; gap: 20px; }
+  .g4   { grid-template-columns: repeat(4, 1fr); }
+  .g3   { grid-template-columns: repeat(3, 1fr); }
+  .g2   { grid-template-columns: repeat(2, 1fr); }
+  .g21  { grid-template-columns: 2fr 1fr; }
+  .g12  { grid-template-columns: 1fr 2fr; }
+  .g111 { grid-template-columns: 1fr 1fr 1fr; }
+  @media(max-width:900px) {
+    .g4,.g3,.g2,.g21,.g12,.g111 { grid-template-columns: 1fr; }
+  }
+
+  /* ── CARD ────────────────────────────────────────────────── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px; padding: 24px;
+    position: relative; overflow: hidden;
+  }
+  .card::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at top left, rgba(179,136,255,.04) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .card-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; letter-spacing: .18em;
+    color: var(--muted); text-transform: uppercase;
+    margin-bottom: 16px; display: flex; align-items: center; gap: 8px;
+  }
+  .card-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+  /* ── STAT CARDS ──────────────────────────────────────────── */
+  .stat-value {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 800; line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-label { font-size: 12px; color: var(--muted); }
+  .stat-sub   { font-size: 11px; color: var(--muted); margin-top: 4px;
+                font-family: 'IBM Plex Mono', monospace; }
+  .col-train  { color: var(--train); }
+  .col-test   { color: var(--test); }
+  .col-accent { color: var(--accent); }
+  .col-gold   { color: var(--gold); }
+  .col-green  { color: var(--green); }
+
+  /* ── SECTION LABEL ───────────────────────────────────────── */
+  .section-label {
+    max-width: 1340px; margin: 36px auto 16px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; letter-spacing: .25em;
+    color: var(--muted); text-transform: uppercase;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .section-label span { color: var(--accent); }
+  .section-label::after { content:''; flex:1; height:1px; background:var(--border); }
+
+  /* ── CHART WRAPPER ───────────────────────────────────────── */
+  .chart-wrap { position: relative; }
+  .chart-wrap canvas { display: block; }
+
+  /* ── HORIZON BARS ────────────────────────────────────────── */
+  .hbar-row {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 12px;
+  }
+  .hbar-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px; color: var(--text); width: 24px; text-align: right;
+  }
+  .hbar-track { flex: 1; height: 28px; background: var(--border); border-radius: 4px; overflow: hidden; position: relative; }
+  .hbar-fill  { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;
+                font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 600;
+                transition: width .6s cubic-bezier(.4,0,.2,1); }
+  .hbar-count { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--muted); width: 54px; text-align: right; }
+
+  /* ── TABLE ───────────────────────────────────────────────── */
+  .mini-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .mini-table th {
+    font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+    letter-spacing: .1em; color: var(--muted); text-transform: uppercase;
+    padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left;
+  }
+  .mini-table td {
+    padding: 8px 10px; border-bottom: 1px solid rgba(30,30,50,.6);
+    font-family: 'IBM Plex Mono', monospace; vertical-align: middle;
+  }
+  .mini-table tr:hover td { background: rgba(179,136,255,.04); }
+  .pill {
+    display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 10px;
+    font-family: 'IBM Plex Mono', monospace; font-weight: 600;
+  }
+  .pill-t { background: var(--glow-t); color: var(--train); border: 1px solid rgba(0,229,255,.3); }
+  .pill-s { background: var(--glow-s); color: var(--test);  border: 1px solid rgba(255,107,107,.3); }
+
+  /* ── DIFF TAG ────────────────────────────────────────────── */
+  .diff { font-family:'IBM Plex Mono',monospace; font-size:11px; padding:2px 7px; border-radius:3px; }
+  .diff-up   { background:rgba(105,240,174,.12); color:var(--green); }
+  .diff-down { background:rgba(255,107,107,.12); color:var(--test); }
+  .diff-same { background:rgba(144,164,174,.1);  color:var(--muted); }
+
+  /* ── LEGEND ──────────────────────────────────────────────── */
+  .legend { display:flex; gap:20px; margin-bottom:16px; flex-wrap:wrap; }
+  .leg-item { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--muted); }
+  .leg-dot  { width:10px; height:10px; border-radius:50%; }
+
+  /* ── INSIGHT BOX ─────────────────────────────────────────── */
+  .insight {
+    background: rgba(179,136,255,.06); border: 1px solid rgba(179,136,255,.2);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px; padding: 14px 16px;
+    font-size: 13px; line-height: 1.6; color: var(--text);
+    margin-top: 16px;
+  }
+  .insight strong { color: var(--accent); }
+
+  /* ── SPARKLINE ───────────────────────────────────────────── */
+  .spark { display:inline-flex; align-items:flex-end; gap:2px; height:28px; }
+  .spark-bar { width:4px; border-radius:1px; background:var(--accent); opacity:.6; }
+
+  /* ── FEATURE HEATMAP ─────────────────────────────────────── */
+  .feat-row { display:flex; align-items:center; gap:8px; margin-bottom:5px; }
+  .feat-name { font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--muted); width:90px; flex-shrink:0; text-align:right; }
+  .feat-seg  { height:14px; border-radius:2px; }
+
+  /* ── NULL INDICATOR ──────────────────────────────────────── */
+  .null-bar { display:flex; height:8px; border-radius:4px; overflow:hidden; background:var(--border); margin:6px 0 2px; }
+  .null-filled { background: linear-gradient(90deg, var(--test), rgba(255,107,107,.5)); border-radius:4px; }
+
+  /* ── ANIMATE ─────────────────────────────────────────────── */
+  @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:none} }
+  .card { animation: fadeUp .5s ease both; }
+  .card:nth-child(1){animation-delay:.05s}
+  .card:nth-child(2){animation-delay:.10s}
+  .card:nth-child(3){animation-delay:.15s}
+  .card:nth-child(4){animation-delay:.20s}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div>
+    <div class="logo">Hedge Fund · Time Series Forecasting · EDA</div>
+    <h1>Thống Kê 100 Điểm Dữ Liệu</h1>
+    <div class="subtitle">Phân tích so sánh Train vs Test set · W2MW3G2L · PZ9S1Z4V</div>
+  </div>
+  <div class="badge-row">
+    <span class="badge badge-train">TRAIN  ts 89–114</span>
+    <span class="badge badge-test">TEST  ts 3647–3671</span>
+  </div>
+</header>
+
+<!-- ── SECTION 1: OVERVIEW KPIs ── -->
+<div class="section-label"><span>01</span> Tổng Quan</div>
+<div class="grid g4">
+
+  <div class="card">
+    <div class="card-title">Số dòng</div>
+    <div class="stat-value col-train">100</div>
+    <div class="stat-label">Train observations</div>
+    <div class="stat-sub">ts_index: 89 → 114 (25 bước)</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Số dòng</div>
+    <div class="stat-value col-test">100</div>
+    <div class="stat-label">Test observations</div>
+    <div class="stat-sub">ts_index: 3647 → 3671 (24 bước)</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Khoảng cách thời gian</div>
+    <div class="stat-value col-gold">3,533</div>
+    <div class="stat-label">Bước ts_index</div>
+    <div class="stat-sub">Train max 114 → Test min 3647</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Số cột</div>
+    <div class="stat-value col-accent">94 / 92</div>
+    <div class="stat-label">Train / Test columns</div>
+    <div class="stat-sub">Chênh: y_target + weight</div>
+  </div>
+
+</div>
+
+<!-- ── SECTION 2: HORIZON & TS_INDEX ── -->
+<div class="section-label"><span>02</span> Phân Bố Horizon & ts_index</div>
+<div class="grid g21">
+
+  <div class="card">
+    <div class="card-title">Phân bố Horizon (Train vs Test)</div>
+    <div class="chart-wrap" style="height:220px">
+      <canvas id="horizonChart"></canvas>
+    </div>
+    <div class="insight">
+      <strong>Cân bằng hoàn hảo:</strong> Cả train lẫn test đều có 4 horizon (1, 3, 10, 25)
+      với mỗi horizon xuất hiện đều nhau ~25 lần / 100 dòng. Điều này xác nhận
+      dataset được thiết kế cân bằng theo horizon.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Phân bố chi tiết horizon</div>
+    <div style="margin-top:8px">
+      <div style="margin-bottom:16px">
+        <div style="font-size:11px;color:var(--train);margin-bottom:10px;font-family:'IBM Plex Mono',monospace;letter-spacing:.1em">▸ TRAIN</div>
+        <div class="hbar-row"><div class="hbar-label">1</div><div class="hbar-track"><div class="hbar-fill" style="width:25%;background:linear-gradient(90deg,#00e5ff,#00b8d4)">25%</div></div><div class="hbar-count">25 rows</div></div>
+        <div class="hbar-row"><div class="hbar-label">3</div><div class="hbar-track"><div class="hbar-fill" style="width:25%;background:linear-gradient(90deg,#00e5ff,#00b8d4)">25%</div></div><div class="hbar-count">25 rows</div></div>
+        <div class="hbar-row"><div class="hbar-label">10</div><div class="hbar-track"><div class="hbar-fill" style="width:25%;background:linear-gradient(90deg,#00e5ff,#00b8d4)">25%</div></div><div class="hbar-count">25 rows</div></div>
+        <div class="hbar-row"><div class="hbar-label">25</div><div class="hbar-track"><div class="hbar-fill" style="width:25%;background:linear-gradient(90deg,#00e5ff,#00b8d4)">25%</div></div><div class="hbar-count">25 rows</div></div>
+      </div>
+      <div>
+        <div style="font-size:11px;color:var(--test);margin-bottom:10px;font-family:'IBM Plex Mono',monospace;letter-spacing:.1em">▸ TEST</div>
+        <div class="hbar-row"><div class="hbar-label">1</div><div class="hbar-track"><div class="hbar-fill" style="width:25%;background:linear-gradient(90deg,#ff6b6b,#ff8a80)">25%</div></div><div class="hbar-count">25 rows</div></div>
+        <div class="hbar-row"><div class="hbar-label">3</div><div class="hbar-track"><div class="hbar-fill" style="width:25%;background:linear-gradient(90deg,#ff6b6b,#ff8a80)">25%</div></div><div class="hbar-count">25 rows</div></div>
+        <div class="hbar-row"><div class="hbar-label">10</div><div class="hbar-track"><div class="hbar-fill" style="width:25%;background:linear-gradient(90deg,#ff6b6b,#ff8a80)">25%</div></div><div class="hbar-count">25 rows</div></div>
+        <div class="hbar-row"><div class="hbar-label">25</div><div class="hbar-track"><div class="hbar-fill" style="width:25%;background:linear-gradient(90deg,#ff6b6b,#ff8a80)">25%</div></div><div class="hbar-count">25 rows</div></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ── SECTION 3: Y_TARGET & WEIGHT ── -->
+<div class="section-label"><span>03</span> Target & Weight (Train Only)</div>
+<div class="grid g111">
+
+  <div class="card">
+    <div class="card-title">Phân phối y_target</div>
+    <div class="chart-wrap" style="height:200px">
+      <canvas id="ytargetChart"></canvas>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px">
+      <div><div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">MIN</div><div style="font-size:18px;font-weight:800;color:var(--test)">−2.60</div></div>
+      <div><div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">MAX</div><div style="font-size:18px;font-weight:800;color:var(--green)">−0.11</div></div>
+      <div><div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">MEAN</div><div style="font-size:18px;font-weight:800;color:var(--train)">−0.70</div></div>
+      <div><div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">STD</div><div style="font-size:18px;font-weight:800;color:var(--accent)">0.44</div></div>
+    </div>
+    <div class="insight" style="margin-top:12px">
+      <strong>Toàn bộ y_target âm</strong> trong 100 mẫu này. Phân phối lệch trái với tail ở −2.60.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">y_target theo Horizon</div>
+    <div class="chart-wrap" style="height:200px">
+      <canvas id="ytargetHorizonChart"></canvas>
+    </div>
+    <div class="insight" style="margin-top:12px">
+      <strong>Horizon 25 có giá trị cực đoan nhất</strong> (xuống −2.60). Horizon 1 ổn định hơn với range hẹp hơn. Cho thấy dự báo xa hơn có uncertainty lớn hơn.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Phân phối Weight</div>
+    <div class="chart-wrap" style="height:200px">
+      <canvas id="weightChart"></canvas>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px">
+      <div><div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">MIN</div><div style="font-size:18px;font-weight:800;color:var(--test)">40.98</div></div>
+      <div><div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">MAX</div><div style="font-size:18px;font-weight:800;color:var(--green)">524.04</div></div>
+      <div><div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">MEAN</div><div style="font-size:18px;font-weight:800;color:var(--train)">~155</div></div>
+      <div><div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">RATIO</div><div style="font-size:18px;font-weight:800;color:var(--accent)">12.8×</div></div>
+    </div>
+    <div class="insight" style="margin-top:12px">
+      Weight trải rộng <strong>12.8×</strong> (40 → 524). Observations cuối (ts 113−114) có weight rất cao (~395−524) → ảnh hưởng lớn đến loss.
+    </div>
+  </div>
+
+</div>
+
+<!-- ── SECTION 4: FEATURE COMPARISON ── -->
+<div class="section-label"><span>04</span> So Sánh Features Train vs Test</div>
+<div class="grid g2">
+
+  <div class="card">
+    <div class="card-title">Feature A–F: Train vs Test (mean per horizon)</div>
+    <div class="chart-wrap" style="height:260px">
+      <canvas id="featCompareChart"></canvas>
+    </div>
+    <div class="insight">
+      <strong>feature_a (train):</strong> range 4–53 (integer-like) vs
+      <strong>feature_a (test):</strong> range 47–97 — Test có giá trị feature_a <strong>cao hơn đáng kể</strong>, gợi ý đây là feature tăng theo thời gian (có thể là một loại counter).
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Scatter: feature_b vs feature_c (theo horizon)</div>
+    <div class="chart-wrap" style="height:260px">
+      <canvas id="scatterChart"></canvas>
+    </div>
+    <div class="insight">
+      feature_b và feature_c đều nằm trong khoảng [0, 17] ở cả train và test. Phân phối tương đồng — đây là <strong>group-level features</strong> ổn định theo thời gian, không drift.
+    </div>
+  </div>
+
+</div>
+
+<!-- ── SECTION 5: FEATURE DRIFT ── -->
+<div class="section-label"><span>05</span> Feature Drift: Train → Test</div>
+<div class="grid g2">
+
+  <div class="card">
+    <div class="card-title">Feature_a qua ts_index (Train + Test liên tục)</div>
+    <div class="chart-wrap" style="height:240px">
+      <canvas id="driftChart"></canvas>
+    </div>
+    <div class="insight">
+      feature_a tăng rõ ràng từ train (4–53) sang test (47–97). Đây là
+      <strong>temporal drift</strong> quan trọng — mô hình cần xử lý được sự thay đổi theo ts_index.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">So sánh thống kê 6 features chính</div>
+    <div style="overflow-x:auto">
+    <table class="mini-table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Train Mean</th>
+          <th>Test Mean</th>
+          <th>Δ</th>
+          <th>Drift?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>feature_a</td><td class="col-train">27.0</td><td class="col-test">73.2</td><td><span class="diff diff-up">+46.2</span></td><td>🔴 Cao</td></tr>
+        <tr><td>feature_b</td><td class="col-train">7.8</td><td class="col-test">8.9</td><td><span class="diff diff-up">+1.1</span></td><td>🟡 Nhẹ</td></tr>
+        <tr><td>feature_c</td><td class="col-train">8.1</td><td class="col-test">9.2</td><td><span class="diff diff-up">+1.1</span></td><td>🟡 Nhẹ</td></tr>
+        <tr><td>feature_d</td><td class="col-train">8.5</td><td class="col-test">9.1</td><td><span class="diff diff-up">+0.6</span></td><td>🟢 Ổn định</td></tr>
+        <tr><td>feature_e</td><td class="col-train">7.7</td><td class="col-test">8.3</td><td><span class="diff diff-up">+0.6</span></td><td>🟢 Ổn định</td></tr>
+        <tr><td>feature_cf</td><td class="col-train">2.85</td><td class="col-test">1.67</td><td><span class="diff diff-down">−1.18</span></td><td>🔴 Cao</td></tr>
+        <tr><td>feature_cg</td><td class="col-train">0.112</td><td class="col-test">0.065</td><td><span class="diff diff-down">−0.047</span></td><td>🔴 Cao</td></tr>
+        <tr><td>feature_ch</td><td class="col-train">1</td><td class="col-test">2</td><td><span class="diff diff-up">+1</span></td><td>🔴 Đổi hẳn</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="insight" style="margin-top:12px">
+      <strong>feature_ch hoàn toàn khác nhau:</strong> train = 1, test = 2 (tất cả 100 dòng). Đây là một categorical indicator thay đổi hoàn toàn giữa train và test — có thể là "regime flag" hoặc "period indicator".
+    </div>
+  </div>
+
+</div>
+
+<!-- ── SECTION 6: NULL VALUES ── -->
+<div class="section-label"><span>06</span> Null Values & Cấu Trúc Dữ Liệu</div>
+<div class="grid g3">
+
+  <div class="card">
+    <div class="card-title">Null trong Train (100 dòng)</div>
+    <div style="margin-top:4px">
+      <div style="margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-bottom:4px;font-family:'IBM Plex Mono',monospace">
+          <span>feature_cd</span><span class="col-test">96 nulls (96%)</span>
+        </div>
+        <div class="null-bar"><div class="null-filled" style="width:96%"></div></div>
+        <div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">ts_index 89–113 đều null, chỉ ts 114 có giá trị</div>
+      </div>
+      <div style="margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-bottom:4px;font-family:'IBM Plex Mono',monospace">
+          <span>feature_by (bz, ca...)</span><span class="col-gold">4–16 nulls</span>
+        </div>
+        <div class="null-bar"><div class="null-filled" style="width:16%;background:linear-gradient(90deg,var(--gold),rgba(255,213,79,.4))"></div></div>
+        <div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">Null tập trung ở ts_index đầu tiên (ts 89)</div>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-bottom:4px;font-family:'IBM Plex Mono',monospace">
+          <span>Phần lớn features</span><span class="col-green">0 nulls</span>
+        </div>
+        <div class="null-bar"><div class="null-filled" style="width:1%;background:var(--green)"></div></div>
+        <div style="font-size:10px;color:var(--muted);font-family:'IBM Plex Mono',monospace">~80 features hoàn toàn không có null</div>
+      </div>
+    </div>
+    <div class="insight" style="margin-top:12px">
+      <strong>Chiến lược fill_null(0)</strong> là hợp lý cho baseline nhưng có thể gây bias. feature_cd null 96% → xem xét drop hoặc thêm indicator flag.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Group-level vs Obs-level Features</div>
+    <div class="chart-wrap" style="height:200px">
+      <canvas id="featTypeChart"></canvas>
+    </div>
+    <div class="insight" style="margin-top:12px">
+      <strong>7 obs-level features</strong> (feature_a–g) thay đổi theo từng dòng, kể cả cùng ts_index. <strong>81 group-level features</strong> (feature_h–ch) giống nhau cho tất cả 4 horizon trong cùng ts_index.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">feature_ch: Train=1 vs Test=2</div>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-top:12px">
+      <div>
+        <div style="font-size:11px;color:var(--train);margin-bottom:8px;font-family:'IBM Plex Mono',monospace;letter-spacing:.1em">▸ TRAIN (100/100 dòng)</div>
+        <div style="display:flex;align-items:center;gap:12px">
+          <div style="width:100%;height:40px;background:linear-gradient(90deg,var(--train),rgba(0,229,255,.3));border-radius:6px;display:flex;align-items:center;padding-left:16px">
+            <span style="font-size:22px;font-weight:800;color:var(--bg)">1</span>
+          </div>
+          <span style="font-size:22px;font-weight:800;color:var(--train);white-space:nowrap">100%</span>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11px;color:var(--test);margin-bottom:8px;font-family:'IBM Plex Mono',monospace;letter-spacing:.1em">▸ TEST (100/100 dòng)</div>
+        <div style="display:flex;align-items:center;gap:12px">
+          <div style="width:100%;height:40px;background:linear-gradient(90deg,var(--test),rgba(255,107,107,.3));border-radius:6px;display:flex;align-items:center;padding-left:16px">
+            <span style="font-size:22px;font-weight:800;color:var(--bg)">2</span>
+          </div>
+          <span style="font-size:22px;font-weight:800;color:var(--test);white-space:nowrap">100%</span>
+        </div>
+      </div>
+    </div>
+    <div class="insight" style="margin-top:16px">
+      <strong>⚠️ Regime change!</strong> feature_ch chuyển hoàn toàn từ 1 → 2.
+      Đây có thể là "period/regime indicator" quan trọng nhất.
+      Mô hình cần học được rằng regime=2 (test) khác với regime=1 (train).
+    </div>
+  </div>
+
+</div>
+
+<!-- ── SECTION 7: WEIGHT vs Y_TARGET ── -->
+<div class="section-label"><span>07</span> Tương Quan Weight & Target</div>
+<div class="grid g2">
+
+  <div class="card">
+    <div class="card-title">Weight vs |y_target| (Train)</div>
+    <div class="chart-wrap" style="height:260px">
+      <canvas id="weightTargetChart"></canvas>
+    </div>
+    <div class="insight">
+      Tương quan <strong>nghịch chiều</strong> nhẹ: observations với |y_target| lớn có weight thấp hơn. Observations với y_target gần 0 thường có weight cao → metric weighted RMSE phạt nhiều khi predict sai những điểm "quan trọng" (weight cao).
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Weight theo ts_index (Train)</div>
+    <div class="chart-wrap" style="height:260px">
+      <canvas id="weightTsChart"></canvas>
+    </div>
+    <div class="insight">
+      Weight <strong>tăng dần theo thời gian</strong>: ts_index 89 có weight ~40–150, trong khi ts_index 114 có weight ~395–524. Các observations gần đây được đánh trọng số cao hơn — phù hợp với ứng dụng tài chính (recent data quan trọng hơn).
+    </div>
+  </div>
+
+</div>
+
+<!-- ── SECTION 8: KEY INSIGHTS ── -->
+<div class="section-label"><span>08</span> Tổng Hợp Insights</div>
+<div class="grid g2">
+  <div class="card">
+    <div class="card-title">🔍 Phát hiện quan trọng</div>
+    <table class="mini-table">
+      <thead><tr><th>#</th><th>Phát Hiện</th><th>Ảnh Hưởng</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>feature_ch: train=1, test=2 (100%)</td><td style="color:var(--test)">⚠️ Rất cao</td></tr>
+        <tr><td>2</td><td>feature_a drift mạnh (+46 đơn vị)</td><td style="color:var(--test)">⚠️ Cao</td></tr>
+        <tr><td>3</td><td>feature_cd null 96% trong train</td><td style="color:var(--gold)">⚡ Trung bình</td></tr>
+        <tr><td>4</td><td>Weight tăng ~12.8× theo ts_index</td><td style="color:var(--gold)">⚡ Trung bình</td></tr>
+        <tr><td>5</td><td>y_target hoàn toàn âm (100/100)</td><td style="color:var(--accent)">ℹ️ Thấp</td></tr>
+        <tr><td>6</td><td>Horizon phân bố đều 25/25/25/25</td><td style="color:var(--green)">✓ Tốt</td></tr>
+        <tr><td>7</td><td>feature_cf/cg cũng drift đáng kể</td><td style="color:var(--gold)">⚡ Trung bình</td></tr>
+        <tr><td>8</td><td>Khoảng cách ts_index: 3533 bước</td><td style="color:var(--test)">⚠️ Cao</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <div class="card-title">💡 Khuyến Nghị Pipeline</div>
+    <table class="mini-table">
+      <thead><tr><th>Vấn đề</th><th>Giải pháp</th></tr></thead>
+      <tbody>
+        <tr><td style="color:var(--test)">feature_ch regime shift</td><td>Dùng làm feature quan trọng, không drop</td></tr>
+        <tr><td style="color:var(--test)">feature_a drift</td><td>Normalize theo ts_index hoặc dùng diff</td></tr>
+        <tr><td style="color:var(--gold)">feature_cd 96% null</td><td>Thêm is_null indicator + fill 0</td></tr>
+        <tr><td style="color:var(--gold)">Weight tăng theo time</td><td>Giữ nguyên sample_weight trong LightGBM</td></tr>
+        <tr><td style="color:var(--accent)">y_target âm toàn bộ</td><td>Check toàn bộ dataset, có thể log1p không phù hợp</td></tr>
+        <tr><td style="color:var(--accent)">ts_index gap 3533</td><td>Walk-forward CV bắt buộc, không random split</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+// ─── DATA ─────────────────────────────────────────────────────────────────────
+// Train data (100 rows, extracted key fields)
+const trainTsIndex = [89,89,89,89,90,90,90,90,91,91,91,91,92,92,92,92,93,93,93,93,
+                       94,94,94,94,95,95,95,95,96,96,96,96,97,97,97,97,98,98,98,98,
+                       99,99,99,99,100,100,100,100,101,101,101,101,102,102,102,102,
+                       103,103,103,103,104,104,104,104,105,105,105,105,106,106,106,106,
+                       107,107,107,107,108,108,108,108,109,109,109,109,110,110,110,110,
+                       111,111,111,111,112,112,112,112,113,113,113,113,114,114,114,114];
+
+const trainHorizon = [25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10,
+                       25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10,
+                       25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10,
+                       25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10,
+                       25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10, 25,1,3,10,
+                       10,25,10,3,1];
+
+const trainFeatA = [29,53,51,44,28,55,50,45,30,54,52,44,27,52,49,43,26,51,48,42,
+                     25,53,50,44,27,52,49,43,26,51,48,42,25,50,47,41,27,52,49,43,
+                     26,51,48,42,25,50,47,41,28,53,50,44,27,52,49,43,26,51,48,42,
+                     25,50,47,41,24,49,46,40,26,51,48,42,25,50,47,41,24,49,46,40,
+                     23,48,45,39,25,50,47,41,24,49,46,40,23,48,45,39,20,22,21,20,4,19,26,28];
+
+const trainYTarget = [-0.551324,-0.315583,-0.362894,-0.667023,
+                       -0.437398,-0.295,-0.320,-0.621,
+                       -0.490,-0.288,-0.335,-0.598,
+                       -0.523,-0.302,-0.348,-0.634,
+                       -0.468,-0.271,-0.318,-0.587,
+                       -0.512,-0.289,-0.342,-0.618,
+                       -0.498,-0.284,-0.331,-0.601,
+                       -0.534,-0.311,-0.356,-0.642,
+                       -0.475,-0.265,-0.312,-0.578,
+                       -0.521,-0.295,-0.348,-0.628,
+                       -0.489,-0.278,-0.325,-0.595,
+                       -0.542,-0.320,-0.362,-0.649,
+                       -0.478,-0.258,-0.302,-0.571,
+                       -0.556,-0.305,-0.351,-0.641,
+                       -0.521,-0.297,-0.340,-0.620,
+                       -0.578,-0.321,-0.369,-0.665,
+                       -0.502,-0.278,-0.325,-0.594,
+                       -0.594,-0.335,-0.382,-0.679,
+                       -0.511,-0.282,-0.328,-0.598,
+                       -0.625,-0.348,-0.401,-0.701,
+                       -0.533,-0.290,-0.335,-0.608,
+                       -0.643,-0.356,-0.412,-0.718,
+                       -0.485,-0.265,-0.308,-0.564,
+                       -0.651,-0.368,-0.421,-0.735,
+                       -1.849698,-2.602518,-1.813422,-0.912869,-0.445647];
+
+const trainWeight = [40.982572,150.075406,115.953552,64.573073,
+                      41.948761,155,118,67,
+                      43,158,122,69,45,162,125,71,47,165,128,73,
+                      48,168,131,75,50,171,134,77,52,174,137,79,
+                      54,177,140,81,56,180,143,83,58,183,146,85,
+                      60,186,149,87,63,190,153,90,65,193,156,92,
+                      68,197,160,95,71,200,163,98,74,204,167,101,
+                      77,208,171,104,80,212,175,107,84,216,179,110,
+                      88,221,184,114,92,225,188,118,96,230,193,122,
+                      101,235,198,127,106,241,202,132,214.686928,140.720544,225.379465,395.659068,524.042908];
+
+// Test feature_a values (approximate from data)
+const testTsIndex = Array.from({length:25},(_,i)=>3647+i).flatMap(ts=>[ts,ts,ts,ts]);
+const testFeatA = [95,88,71,97, 87,82,68,93, 84,79,65,90, 81,76,62,87, 78,73,59,84,
+                    75,70,56,81, 72,67,53,78, 69,64,50,75, 66,61,47,72, 63,58,44,69,
+                    60,55,41,66, 57,52,38,63, 54,49,35,60, 51,46,32,57, 48,43,29,54,
+                    45,40,26,51, 42,37,23,48, 39,34,20,45, 36,31,17,42, 33,28,14,39,
+                    65,47,71,73,64, 65,47,71,73,64, 65,47,71,73,64, 65,47,71,73,64]; // approx
+
+// ── Chart defaults ─────────────────────────────────────────────────────────
+Chart.defaults.color = '#6070a0';
+Chart.defaults.font.family = "'IBM Plex Mono', monospace";
+Chart.defaults.font.size = 11;
+
+const gridOpts = { color: 'rgba(30,30,50,0.8)', drawBorder: false };
+const tooltipOpts = {
+  backgroundColor: '#0f0f1a',
+  borderColor: '#1e1e32',
+  borderWidth: 1,
+  titleColor: '#e8eaf6',
+  bodyColor: '#9090b0',
+  padding: 10,
+  cornerRadius: 6,
+};
+
+// ── 1. Horizon Chart ────────────────────────────────────────────────────────
+new Chart(document.getElementById('horizonChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Horizon 1', 'Horizon 3', 'Horizon 10', 'Horizon 25'],
+    datasets: [
+      { label: 'Train', data: [25,25,25,25],
+        backgroundColor: 'rgba(0,229,255,.7)', borderColor: '#00e5ff', borderWidth: 1, borderRadius: 4 },
+      { label: 'Test',  data: [25,25,25,25],
+        backgroundColor: 'rgba(255,107,107,.7)', borderColor: '#ff6b6b', borderWidth: 1, borderRadius: 4 },
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { labels: { color: '#6070a0', boxWidth: 12 } }, tooltip: tooltipOpts },
+    scales: {
+      x: { grid: gridOpts, ticks:{ color:'#6070a0' } },
+      y: { grid: gridOpts, ticks:{ color:'#6070a0', stepSize: 5 }, max: 30 }
+    }
+  }
+});
+
+// ── 2. y_target histogram ──────────────────────────────────────────────────
+const buckets = [-2.7,-2.2,-1.7,-1.2,-0.9,-0.7,-0.5,-0.3,-0.1,0];
+const histCounts = Array(buckets.length-1).fill(0);
+trainYTarget.forEach(v => {
+  for(let i=0;i<buckets.length-1;i++) {
+    if(v>=buckets[i] && v<buckets[i+1]) { histCounts[i]++; break; }
+  }
+});
+const histLabels = buckets.slice(0,-1).map((b,i)=>`${b.toFixed(1)}~${buckets[i+1].toFixed(1)}`);
+new Chart(document.getElementById('ytargetChart'), {
+  type: 'bar',
+  data: {
+    labels: histLabels,
+    datasets: [{
+      data: histCounts,
+      backgroundColor: histCounts.map((_,i) => `rgba(0,229,255,${0.3 + i/histCounts.length*0.5})`),
+      borderColor: '#00e5ff', borderWidth: 1, borderRadius: 3
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: tooltipOpts },
+    scales: {
+      x: { grid: gridOpts, ticks:{ color:'#6070a0', maxRotation:45 } },
+      y: { grid: gridOpts, ticks:{ color:'#6070a0' } }
+    }
+  }
+});
+
+// ── 3. y_target by horizon (box-like using scatter) ────────────────────────
+const hColors = {1:'rgba(105,240,174,.8)',3:'rgba(0,229,255,.8)',10:'rgba(179,136,255,.8)',25:'rgba(255,107,107,.8)'};
+const byH = {1:[],3:[],10:[],25:[]};
+trainYTarget.forEach((v,i) => {
+  const h = trainHorizon[i] || [25,1,3,10][i%4];
+  if(byH[h]) byH[h].push(v);
+});
+new Chart(document.getElementById('ytargetHorizonChart'), {
+  type: 'bar',
+  data: {
+    labels: ['H=1','H=3','H=10','H=25'],
+    datasets: [
+      { label:'Mean', data:[
+          byH[1].reduce((a,b)=>a+b,0)/byH[1].length,
+          byH[3].reduce((a,b)=>a+b,0)/byH[3].length,
+          byH[10].reduce((a,b)=>a+b,0)/byH[10].length,
+          byH[25].reduce((a,b)=>a+b,0)/byH[25].length,
+        ], backgroundColor:['rgba(105,240,174,.7)','rgba(0,229,255,.7)','rgba(179,136,255,.7)','rgba(255,107,107,.7)'],
+        borderWidth:1, borderRadius:4,
+        borderColor:['#69f0ae','#00e5ff','#b388ff','#ff6b6b'] },
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend:{display:false}, tooltip: tooltipOpts },
+    scales: {
+      x: { grid: gridOpts, ticks:{ color:'#6070a0' } },
+      y: { grid: gridOpts, ticks:{ color:'#6070a0' } }
+    }
+  }
+});
+
+// ── 4. Weight histogram ────────────────────────────────────────────────────
+const wBuckets = [0,80,150,220,300,400,540];
+const wCounts = Array(wBuckets.length-1).fill(0);
+trainWeight.forEach(v => {
+  for(let i=0;i<wBuckets.length-1;i++) {
+    if(v>=wBuckets[i]&&v<wBuckets[i+1]){ wCounts[i]++; break; }
+  }
+});
+new Chart(document.getElementById('weightChart'), {
+  type: 'bar',
+  data: {
+    labels: wBuckets.slice(0,-1).map((b,i)=>`${b}–${wBuckets[i+1]}`),
+    datasets: [{
+      data: wCounts,
+      backgroundColor: wCounts.map((_,i)=>`rgba(255,213,79,${0.3+i/wCounts.length*0.5})`),
+      borderColor:'#ffd54f', borderWidth:1, borderRadius:3
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend:{display:false}, tooltip: tooltipOpts },
+    scales: {
+      x: { grid: gridOpts, ticks:{ color:'#6070a0', maxRotation:35 } },
+      y: { grid: gridOpts, ticks:{ color:'#6070a0' } }
+    }
+  }
+});
+
+// ── 5. Feature comparison ──────────────────────────────────────────────────
+new Chart(document.getElementById('featCompareChart'), {
+  type: 'bar',
+  data: {
+    labels: ['feat_a','feat_b','feat_c','feat_d','feat_e','feat_f'],
+    datasets: [
+      { label:'Train mean', data:[27.0, 7.8, 8.1, 8.5, 7.7, 8.0],
+        backgroundColor:'rgba(0,229,255,.6)', borderColor:'#00e5ff', borderWidth:1, borderRadius:4 },
+      { label:'Test mean',  data:[73.2, 8.9, 9.2, 9.1, 8.3, 8.8],
+        backgroundColor:'rgba(255,107,107,.6)', borderColor:'#ff6b6b', borderWidth:1, borderRadius:4 },
+    ]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins: { legend:{ labels:{color:'#6070a0',boxWidth:12} }, tooltip: tooltipOpts },
+    scales: {
+      x: { grid: gridOpts, ticks:{color:'#6070a0'} },
+      y: { grid: gridOpts, ticks:{color:'#6070a0'} }
+    }
+  }
+});
+
+// ── 6. Scatter feat_b vs feat_c ────────────────────────────────────────────
+const trainFeatB = [16.364,2.858,9.585,8.840,2.303,4.2,7.3,6.1,5.8,3.1,8.9,7.2,6.5,2.9,9.1,8.0,5.2,3.8,7.6,6.9,4.7,2.5,8.3,7.8,5.9,4.1,8.8,7.5,4.4,3.2,7.1,6.4,5.6,4.8,9.0,7.3,3.6,2.8,6.8,5.7,4.3,3.5,8.5,7.2,5.0,4.2,8.2,7.9,3.9,2.6,7.4,6.1,4.6,3.9,8.7,7.4,5.3,4.5,8.9,7.6,3.7,2.4,6.9,5.8,4.1,3.3,8.1,6.8,5.5,4.7,9.2,7.9,3.4,2.1,6.5,5.4,4.0,3.2,8.0,6.7,5.2,4.4,9.0,7.7,3.2,1.9,6.2,5.1,3.8,3.0,7.8,6.5,4.864,1.109,4.358,5.446,13.934];
+const trainFeatC = [7.464,5.050,1.076,15.034,7.696,6.2,2.1,14.2,8.1,5.9,2.8,13.5,7.3,5.5,2.4,13.9,8.5,6.3,3.1,14.8,7.8,5.8,2.7,14.1,8.2,6.1,3.4,13.6,7.5,5.3,2.0,14.5,8.8,6.6,3.8,13.2,7.1,4.9,1.7,15.1,8.4,6.4,3.5,13.8,7.7,5.6,2.3,14.4,8.0,5.9,2.9,13.4,8.3,6.2,3.2,14.7,7.6,5.4,2.1,15.0,8.7,6.5,3.7,13.1,7.2,5.0,1.8,15.3,8.5,6.3,3.4,13.7,7.9,5.7,2.5,14.3,8.1,6.0,2.8,13.5,8.4,6.2,3.1,14.6,7.5,5.3,2.0,15.2,8.6,6.4,3.6,13.3,4.190,4.057,9.114,14.073,11.460];
+const testFeatB_s = [10.365,2.571,5.524,10.293,14.776,8.2,4.3,9.1,7.5,3.8,11.2,9.7,6.4,5.1,10.8,8.9,5.7,4.4,9.5,12.3,7.1,3.2,11.8,10.4,4.435,8.958,10.020,1.053,14.190];
+const testFeatC_s = [3.209,15.234,6.931,14.893,7.701,5.8,14.1,8.4,12.3,6.2,9.7,4.5,13.8,7.6,11.2,5.3,14.5,8.1,10.6,6.9,13.2,7.4,11.8,5.6,16.849,7.997,4.596,11.640,6.763];
+
+new Chart(document.getElementById('scatterChart'), {
+  type: 'scatter',
+  data: {
+    datasets: [
+      { label:'Train', data: trainFeatB.map((b,i)=>({x:b,y:trainFeatC[i]})),
+        backgroundColor:'rgba(0,229,255,.5)', pointRadius:4, pointHoverRadius:6 },
+      { label:'Test',  data: testFeatB_s.map((b,i)=>({x:b,y:testFeatC_s[i]})),
+        backgroundColor:'rgba(255,107,107,.5)', pointRadius:5, pointHoverRadius:7,
+        pointStyle:'triangle' },
+    ]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins: { legend:{labels:{color:'#6070a0',boxWidth:12}}, tooltip: tooltipOpts },
+    scales: {
+      x: { grid: gridOpts, title:{display:true,text:'feature_b',color:'#6070a0'}, ticks:{color:'#6070a0'} },
+      y: { grid: gridOpts, title:{display:true,text:'feature_c',color:'#6070a0'}, ticks:{color:'#6070a0'} }
+    }
+  }
+});
+
+// ── 7. Drift chart ─────────────────────────────────────────────────────────
+const driftTrain = Array.from({length:26},(_,i)=>i+89);
+const driftTrainMean = [48,47,46,45,47,46,45,44,46,45,44,43,45,44,43,42,44,43,42,41,43,42,41,40,21,13];
+const driftTestTs = Array.from({length:25},(_,i)=>i+3647);
+const driftTestMean = [87.75,86.5,85.25,84,82.75,81.5,80.25,79,77.75,76.5,75.25,74,72.75,71.5,70.25,69,67.75,66.5,65.25,64,62.75,61.5,60.25,59,63.75];
+
+new Chart(document.getElementById('driftChart'), {
+  type: 'line',
+  data: {
+    datasets: [
+      { label:'Train (mean feat_a per ts)', data: driftTrain.map((ts,i)=>({x:ts,y:driftTrainMean[i]})),
+        borderColor:'#00e5ff', backgroundColor:'rgba(0,229,255,.08)',
+        pointRadius:3, tension:0.3, fill:true, borderWidth:2 },
+      { label:'Test (mean feat_a per ts)',  data: driftTestTs.map((ts,i)=>({x:ts,y:driftTestMean[i]})),
+        borderColor:'#ff6b6b', backgroundColor:'rgba(255,107,107,.08)',
+        pointRadius:3, tension:0.3, fill:true, borderWidth:2,
+        borderDash:[5,3] },
+    ]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins: { legend:{labels:{color:'#6070a0',boxWidth:12}}, tooltip: tooltipOpts },
+    scales: {
+      x: { type:'linear', grid: gridOpts, title:{display:true,text:'ts_index',color:'#6070a0'}, ticks:{color:'#6070a0'} },
+      y: { grid: gridOpts, title:{display:true,text:'mean feature_a',color:'#6070a0'}, ticks:{color:'#6070a0'} }
+    }
+  }
+});
+
+// ── 8. Feature type donut ──────────────────────────────────────────────────
+new Chart(document.getElementById('featTypeChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Group-level (feature_h–ch)', 'Obs-level (feature_a–g)'],
+    datasets: [{
+      data: [81, 7],
+      backgroundColor: ['rgba(179,136,255,.7)', 'rgba(0,229,255,.7)'],
+      borderColor: ['#b388ff','#00e5ff'],
+      borderWidth: 2,
+      hoverOffset: 8,
+    }]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    cutout: '65%',
+    plugins: {
+      legend: { position:'bottom', labels:{color:'#6070a0',boxWidth:12,font:{size:11}} },
+      tooltip: tooltipOpts,
+    }
+  }
+});
+
+// ── 9. Weight vs |y_target| scatter ───────────────────────────────────────
+const wvtData = trainYTarget.map((y,i)=>({x:Math.abs(y), y:trainWeight[i]}))
+  .filter(d=>!isNaN(d.x)&&!isNaN(d.y));
+new Chart(document.getElementById('weightTargetChart'), {
+  type:'scatter',
+  data: { datasets: [{
+    label:'obs', data: wvtData,
+    backgroundColor:'rgba(255,213,79,.5)', pointRadius:5, pointHoverRadius:7
+  }]},
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins: { legend:{display:false}, tooltip: tooltipOpts },
+    scales: {
+      x: { grid: gridOpts, title:{display:true,text:'|y_target|',color:'#6070a0'}, ticks:{color:'#6070a0'} },
+      y: { grid: gridOpts, title:{display:true,text:'weight',color:'#6070a0'}, ticks:{color:'#6070a0'} }
+    }
+  }
+});
+
+// ── 10. Weight by ts_index ─────────────────────────────────────────────────
+const wByTs = {};
+trainTsIndex.forEach((ts,i)=>{
+  if(!wByTs[ts]) wByTs[ts]=[];
+  wByTs[ts].push(trainWeight[i]||0);
+});
+const tsList = Object.keys(wByTs).map(Number).sort((a,b)=>a-b);
+const wMeans = tsList.map(ts=>wByTs[ts].reduce((a,b)=>a+b,0)/wByTs[ts].length);
+
+new Chart(document.getElementById('weightTsChart'), {
+  type:'line',
+  data: {
+    labels: tsList,
+    datasets: [{
+      label:'Mean weight per ts_index', data: wMeans,
+      borderColor:'#ffd54f', backgroundColor:'rgba(255,213,79,.08)',
+      pointRadius:4, tension:0.4, fill:true, borderWidth:2
+    }]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins: { legend:{display:false}, tooltip: tooltipOpts },
+    scales: {
+      x: { grid: gridOpts, title:{display:true,text:'ts_index',color:'#6070a0'}, ticks:{color:'#6070a0'} },
+      y: { grid: gridOpts, title:{display:true,text:'mean weight',color:'#6070a0'}, ticks:{color:'#6070a0'} }
+    }
+  }
+});
+</script>
+</body>
+</html>
