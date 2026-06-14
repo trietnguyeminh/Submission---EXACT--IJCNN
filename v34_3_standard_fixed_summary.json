@@ -1,0 +1,629 @@
+{
+ "version": "v34_3_targeted_recheck_fixed_alignment",
+ "selection_status": "SELECT_V34_3_FIXED",
+ "selected_source": "v32.2 + v34.3 fixed targeted Horn flips",
+ "rule": "G1 direct universal interrogative + G2 affirmative conclusion only + G3 old Final=No + G4 Horn proof with contrapositive; nested questions[]/premises-FOL alignment fixed",
+ "loaded_paths": {
+  "v27": "/kaggle/input/datasets/yixuanisthebest/v2333333/v27_standard_preds.json",
+  "v30_1": "/kaggle/input/datasets/yixuanisthebest/v2333333/v30_1_full_preds.json",
+  "v32_2": "/kaggle/input/datasets/yixuanisthebest/v2333333/v32_2_independent_full_preds.json",
+  "v34": "/kaggle/input/datasets/yixuanisthebest/v2333333/v34_unified_cpu_best_preds.json",
+  "dataset": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/Logic_Based_Educational_Queries_v5_repair_tier1_dedup_normfol_drop_logicfallacy.json"
+ },
+ "kept_flips": [
+  132,
+  144,
+  146,
+  150
+ ],
+ "removed_flips": [
+  [
+   69,
+   "G1 not_interrogative"
+  ],
+  [
+   79,
+   "G4 NOT_DERIVABLE AttendsAppointment from seeds=[]"
+  ],
+  [
+   141,
+   "G4 no target predicate match (score=0.00)"
+  ]
+ ],
+ "certificates": [
+  {
+   "idx": 69,
+   "question": "Based on the above premises, is the following statement true?\nStatement: If all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person participated in the workshop, they improved their teamwork ability.",
+   "old_pred": "No",
+   "v34_pred": "Yes",
+   "gold_for_audit_only": "No",
+   "kept": false,
+   "reason": "G1 not_interrogative",
+   "dataset_aligned": false
+  },
+  {
+   "idx": 79,
+   "question": "Are all individuals attending the healthcare appointment?",
+   "old_pred": "No",
+   "v34_pred": "Yes",
+   "gold_for_audit_only": "Yes",
+   "conclusion": "Thus, all attend",
+   "finals": [
+    "No"
+   ],
+   "dataset_aligned": true,
+   "dataset_rec_i": 185,
+   "dataset_q_i": 1,
+   "horn_certificate": {
+    "target": "AttendsAppointment",
+    "target_score": 0.5,
+    "seeds": [],
+    "closure_positive": [
+     "EligibleForServices",
+     "RegisteredForServices",
+     "RequiredToAttend"
+    ],
+    "closure_negative": [],
+    "proof_edge": null,
+    "premises_fol_used": [
+     "∀x (¬RequiredToAttend(x) → ¬AttendsAppointment(x))",
+     "∀x (¬EligibleForServices(x) → ¬RegisteredForServices(x))",
+     "∀x (RequiredToAttend(x))",
+     "∀x (¬RequiredToAttend(x) → ¬AttendsAppointment(x)) → ∀x (RequiredToAttend(x))",
+     "∀x (¬RequiredToAttend(x) → ¬AttendsAppointment(x)) → ∀x (AttendsAppointment(x))",
+     "∀x (RequiredToAttend(x) → EligibleForServices(x))",
+     "∀x (RegisteredForServices(x))"
+    ]
+   },
+   "kept": false,
+   "reason": "G4 NOT_DERIVABLE AttendsAppointment from seeds=[]"
+  },
+  {
+   "idx": 132,
+   "question": "Do all students receive a passing grade?",
+   "old_pred": "No",
+   "v34_pred": "Yes",
+   "gold_for_audit_only": "Yes",
+   "conclusion": "Therefore, all students receive a passing grade",
+   "finals": [
+    "No"
+   ],
+   "dataset_aligned": true,
+   "dataset_rec_i": 358,
+   "dataset_q_i": 0,
+   "horn_certificate": {
+    "target": "PassGrade",
+    "target_score": 0.5,
+    "seeds": [],
+    "closure_positive": [
+     "AssessmentProcess",
+     "Assignment",
+     "MeetsStandard",
+     "PassGrade"
+    ],
+    "closure_negative": [],
+    "proof_edge": "∀x (Assignment(x) → PassGrade(x))",
+    "premises_fol_used": [
+     "∀x (MeetsStandard(x))",
+     "∀x (AttendCourse(x) → Assignment(x))",
+     "∀x (Assignment(x) → PassGrade(x))",
+     "∀x (AssessmentProcess(x) → Assignment(x))",
+     "∀x (AssessmentProcess(x))"
+    ]
+   },
+   "kept": true,
+   "reason": "G4 PROVEN PassGrade from seeds=[]"
+  },
+  {
+   "idx": 141,
+   "question": "Do all students in the AI program build trustworthy systems, according to the premises?",
+   "old_pred": "No",
+   "v34_pred": "Yes",
+   "gold_for_audit_only": "Yes",
+   "conclusion": "Thus, all students in the AI program build trustworthy systems, requiring premises 2, 3, and 4",
+   "finals": [
+    "No"
+   ],
+   "dataset_aligned": true,
+   "dataset_rec_i": 377,
+   "dataset_q_i": 1,
+   "horn_certificate": {
+    "seeds": [],
+    "target_score": 0.0,
+    "kb_names": [
+     "E",
+     "G",
+     "T",
+     "U"
+    ]
+   },
+   "kept": false,
+   "reason": "G4 no target predicate match (score=0.00)"
+  },
+  {
+   "idx": 144,
+   "question": "Do all students participate in research?",
+   "old_pred": "No",
+   "v34_pred": "Yes",
+   "gold_for_audit_only": "Yes",
+   "conclusion": "Thus, all students participate in research",
+   "finals": [
+    "No"
+   ],
+   "dataset_aligned": true,
+   "dataset_rec_i": 379,
+   "dataset_q_i": 0,
+   "horn_certificate": {
+    "target": "ParticipatesInResearch",
+    "target_score": 1.0,
+    "seeds": [],
+    "closure_positive": [
+     "BelongsToUniversity",
+     "IsRegistered",
+     "ParticipatesInResearch",
+     "ReceivesScholarship",
+     "TakesThesisCourse"
+    ],
+    "closure_negative": [],
+    "proof_edge": "CONTRAPOSITIVE_OF: ∀x (¬ParticipatesInResearch(x) → ¬BelongsToUniversity(x))",
+    "premises_fol_used": [
+     "∀x (BelongsToUniversity(x))",
+     "∀x (¬ParticipatesInResearch(x) → ¬BelongsToUniversity(x))",
+     "∀x (¬ParticipatesInResearch(x) → ¬TakesThesisCourse(x))",
+     "∀x (IsRegistered(x))",
+     "∀x (BelongsToUniversity(x) → TakesThesisCourse(x))",
+     "∀x (ReceivesScholarship(x))",
+     "∀x (TakesThesisCourse(x))"
+    ]
+   },
+   "kept": true,
+   "reason": "G4 PROVEN ParticipatesInResearch from seeds=[]"
+  },
+  {
+   "idx": 146,
+   "question": "Do all students complete the capstone project?",
+   "old_pred": "No",
+   "v34_pred": "Yes",
+   "gold_for_audit_only": "Yes",
+   "conclusion": "Therefore, all students complete the capstone project",
+   "finals": [
+    "No"
+   ],
+   "dataset_aligned": true,
+   "dataset_rec_i": 380,
+   "dataset_q_i": 0,
+   "horn_certificate": {
+    "target": "CompletesCapstoneProject",
+    "target_score": 1.0,
+    "seeds": [],
+    "closure_positive": [
+     "CompletesCapstoneProject",
+     "GainsTeamworkSkills",
+     "HasCommunicationSkills",
+     "HasCriticalThinkingSkills",
+     "HasProblemSolvingAbility"
+    ],
+    "closure_negative": [],
+    "proof_edge": "CONTRAPOSITIVE_OF: ∀x (¬CompletesCapstoneProject(x) → ¬HasProblemSolvingAbility(x))",
+    "premises_fol_used": [
+     "∀x (CompletesCapstoneProject(x) → GainsTeamworkSkills(x))",
+     "∀x (HasProblemSolvingAbility(x))",
+     "∀x (¬GainsTeamworkSkills(x) → ¬HasCriticalThinkingSkills(x))",
+     "∀x (HasCommunicationSkills(x))",
+     "∀x (HasCriticalThinkingSkills(x))",
+     "∀x (¬CompletesCapstoneProject(x) → ¬HasProblemSolvingAbility(x))",
+     "∀x (HasProblemSolvingAbility(x) → GainsTeamworkSkills(x))"
+    ]
+   },
+   "kept": true,
+   "reason": "G4 PROVEN CompletesCapstoneProject from seeds=[]"
+  },
+  {
+   "idx": 150,
+   "question": "Do all students complete the training session?",
+   "old_pred": "No",
+   "v34_pred": "Yes",
+   "gold_for_audit_only": "Yes",
+   "conclusion": "Therefore, all students complete the training session",
+   "finals": [
+    "No"
+   ],
+   "dataset_aligned": true,
+   "dataset_rec_i": 386,
+   "dataset_q_i": 0,
+   "horn_certificate": {
+    "target": "CompletedTraining",
+    "target_score": 0.5,
+    "seeds": [],
+    "closure_positive": [
+     "CompletedTraining",
+     "EligibleForResearch",
+     "MeetsQualification",
+     "PresentedAtSeminar",
+     "SubmittedProposal"
+    ],
+    "closure_negative": [],
+    "proof_edge": "CONTRAPOSITIVE_OF: ∀x (¬CompletedTraining(x) → ¬EligibleForResearch(x))",
+    "premises_fol_used": [
+     "∀x (EligibleForResearch(x))",
+     "∀x (CompletedTraining(x) → SubmittedProposal(x))",
+     "∀x (¬SubmittedProposal(x) → ¬EligibleForResearch(x))",
+     "∀x (¬CompletedTraining(x) → ¬EligibleForResearch(x))",
+     "∀x (CompletedTraining(x) → PresentedAtSeminar(x))",
+     "∀x (MeetsQualification(x))"
+    ]
+   },
+   "kept": true,
+   "reason": "G4 PROVEN CompletedTraining from seeds=[]"
+  }
+ ],
+ "candidate_metrics": {
+  "n": 156,
+  "acc": 0.6666666666666666,
+  "macro_f1": 0.6140155562868364,
+  "weighted_f1": 0.6609359760637119,
+  "mc_macro": 0.551470588235294,
+  "ynu_macro": 0.6974088470222259,
+  "per_label": {
+   "A": {
+    "precision": 0.8125,
+    "recall": 0.4642857142857143,
+    "f1": 0.5909090909090908,
+    "support": 28,
+    "pred_count": 16
+   },
+   "B": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1": 0.7058823529411765,
+    "support": 8,
+    "pred_count": 9
+   },
+   "C": {
+    "precision": 0.4,
+    "recall": 0.3333333333333333,
+    "f1": 0.3636363636363636,
+    "support": 6,
+    "pred_count": 5
+   },
+   "D": {
+    "precision": 0.5,
+    "recall": 0.6,
+    "f1": 0.5454545454545454,
+    "support": 5,
+    "pred_count": 6
+   },
+   "Yes": {
+    "precision": 0.6060606060606061,
+    "recall": 0.5882352941176471,
+    "f1": 0.5970149253731343,
+    "support": 34,
+    "pred_count": 33
+   },
+   "No": {
+    "precision": 0.6511627906976745,
+    "recall": 0.7,
+    "f1": 0.674698795180723,
+    "support": 40,
+    "pred_count": 43
+   },
+   "Unknown": {
+    "precision": 0.7441860465116279,
+    "recall": 0.9142857142857143,
+    "f1": 0.8205128205128205,
+    "support": 35,
+    "pred_count": 43
+   }
+  },
+  "gold_count": {
+   "A": 28,
+   "Yes": 34,
+   "C": 6,
+   "B": 8,
+   "No": 40,
+   "Unknown": 35,
+   "D": 5
+  },
+  "pred_count": {
+   "A": 16,
+   "Yes": 33,
+   "C": 5,
+   "Unknown": 43,
+   "No": 43,
+   "B": 9,
+   "D": 6,
+   "UNPARSEABLE": 1
+  }
+ },
+ "selected_metrics": {
+  "n": 156,
+  "acc": 0.6666666666666666,
+  "macro_f1": 0.6140155562868364,
+  "weighted_f1": 0.6609359760637119,
+  "mc_macro": 0.551470588235294,
+  "ynu_macro": 0.6974088470222259,
+  "per_label": {
+   "A": {
+    "precision": 0.8125,
+    "recall": 0.4642857142857143,
+    "f1": 0.5909090909090908,
+    "support": 28,
+    "pred_count": 16
+   },
+   "B": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1": 0.7058823529411765,
+    "support": 8,
+    "pred_count": 9
+   },
+   "C": {
+    "precision": 0.4,
+    "recall": 0.3333333333333333,
+    "f1": 0.3636363636363636,
+    "support": 6,
+    "pred_count": 5
+   },
+   "D": {
+    "precision": 0.5,
+    "recall": 0.6,
+    "f1": 0.5454545454545454,
+    "support": 5,
+    "pred_count": 6
+   },
+   "Yes": {
+    "precision": 0.6060606060606061,
+    "recall": 0.5882352941176471,
+    "f1": 0.5970149253731343,
+    "support": 34,
+    "pred_count": 33
+   },
+   "No": {
+    "precision": 0.6511627906976745,
+    "recall": 0.7,
+    "f1": 0.674698795180723,
+    "support": 40,
+    "pred_count": 43
+   },
+   "Unknown": {
+    "precision": 0.7441860465116279,
+    "recall": 0.9142857142857143,
+    "f1": 0.8205128205128205,
+    "support": 35,
+    "pred_count": 43
+   }
+  },
+  "gold_count": {
+   "A": 28,
+   "Yes": 34,
+   "C": 6,
+   "B": 8,
+   "No": 40,
+   "Unknown": 35,
+   "D": 5
+  },
+  "pred_count": {
+   "A": 16,
+   "Yes": 33,
+   "C": 5,
+   "Unknown": 43,
+   "No": 43,
+   "B": 9,
+   "D": 6,
+   "UNPARSEABLE": 1
+  }
+ },
+ "v32_2_baseline": {
+  "n": 156,
+  "acc": 0.6410256410256411,
+  "macro_f1": 0.596858548901435,
+  "weighted_f1": 0.63356744040158,
+  "mc_macro": 0.551470588235294,
+  "ynu_macro": 0.657375829789623,
+  "per_label": {
+   "A": {
+    "precision": 0.8125,
+    "recall": 0.4642857142857143,
+    "f1": 0.5909090909090908,
+    "support": 28,
+    "pred_count": 16
+   },
+   "B": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1": 0.7058823529411765,
+    "support": 8,
+    "pred_count": 9
+   },
+   "C": {
+    "precision": 0.4,
+    "recall": 0.3333333333333333,
+    "f1": 0.3636363636363636,
+    "support": 6,
+    "pred_count": 5
+   },
+   "D": {
+    "precision": 0.5,
+    "recall": 0.6,
+    "f1": 0.5454545454545454,
+    "support": 5,
+    "pred_count": 6
+   },
+   "Yes": {
+    "precision": 0.5517241379310345,
+    "recall": 0.47058823529411764,
+    "f1": 0.507936507936508,
+    "support": 34,
+    "pred_count": 29
+   },
+   "No": {
+    "precision": 0.5957446808510638,
+    "recall": 0.7,
+    "f1": 0.6436781609195402,
+    "support": 40,
+    "pred_count": 47
+   },
+   "Unknown": {
+    "precision": 0.7441860465116279,
+    "recall": 0.9142857142857143,
+    "f1": 0.8205128205128205,
+    "support": 35,
+    "pred_count": 43
+   }
+  },
+  "gold_count": {
+   "A": 28,
+   "Yes": 34,
+   "C": 6,
+   "B": 8,
+   "No": 40,
+   "Unknown": 35,
+   "D": 5
+  },
+  "pred_count": {
+   "A": 16,
+   "Yes": 29,
+   "C": 5,
+   "Unknown": 43,
+   "No": 47,
+   "B": 9,
+   "D": 6,
+   "UNPARSEABLE": 1
+  }
+ },
+ "v34_2_reference_macro_f1": 0.6098313451254628,
+ "v34_sweep_reference": {
+  "n": 156,
+  "acc": 0.6730769230769231,
+  "macro_f1": 0.6185666574322036,
+  "weighted_f1": 0.6678909074836676,
+  "mc_macro": 0.551470588235294,
+  "ynu_macro": 0.7080280830280831,
+  "per_label": {
+   "A": {
+    "precision": 0.8125,
+    "recall": 0.4642857142857143,
+    "f1": 0.5909090909090908,
+    "support": 28,
+    "pred_count": 16
+   },
+   "B": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1": 0.7058823529411765,
+    "support": 8,
+    "pred_count": 9
+   },
+   "C": {
+    "precision": 0.4,
+    "recall": 0.3333333333333333,
+    "f1": 0.3636363636363636,
+    "support": 6,
+    "pred_count": 5
+   },
+   "D": {
+    "precision": 0.5,
+    "recall": 0.6,
+    "f1": 0.5454545454545454,
+    "support": 5,
+    "pred_count": 6
+   },
+   "Yes": {
+    "precision": 0.6111111111111112,
+    "recall": 0.6470588235294118,
+    "f1": 0.6285714285714287,
+    "support": 34,
+    "pred_count": 36
+   },
+   "No": {
+    "precision": 0.675,
+    "recall": 0.675,
+    "f1": 0.675,
+    "support": 40,
+    "pred_count": 40
+   },
+   "Unknown": {
+    "precision": 0.7441860465116279,
+    "recall": 0.9142857142857143,
+    "f1": 0.8205128205128205,
+    "support": 35,
+    "pred_count": 43
+   }
+  },
+  "gold_count": {
+   "A": 28,
+   "Yes": 34,
+   "C": 6,
+   "B": 8,
+   "No": 40,
+   "Unknown": 35,
+   "D": 5
+  },
+  "pred_count": {
+   "A": 16,
+   "Yes": 36,
+   "C": 5,
+   "Unknown": 43,
+   "No": 40,
+   "B": 9,
+   "D": 6,
+   "UNPARSEABLE": 1
+  }
+ },
+ "risk_report": {
+  "version": "v34_3_targeted_recheck_fixed_alignment_risk_report",
+  "final_decision": "SELECT_V34_3_FIXED",
+  "artifact_risk": "LOW_RELOADED_SAVED_PREDS",
+  "overfit_risk": "LOWER_THAN_V34_NO_NEW_SWEEP_TARGETED_PROOF_FILTER",
+  "rule_provenance": "Fixed semantic guards over the 7 v34 proposed flips only; nested-schema premises-FOL alignment; Horn proof with contrapositive; no broad sweep.",
+  "label_collapse": false,
+  "underfit_risk": "STILL_PRESENT_MC_UNTOUCHED_AND_RESIDUAL_YNU",
+  "kept_flips": [
+   132,
+   144,
+   146,
+   150
+  ],
+  "removed_flips": [
+   [
+    69,
+    "G1 not_interrogative"
+   ],
+   [
+    79,
+    "G4 NOT_DERIVABLE AttendsAppointment from seeds=[]"
+   ],
+   [
+    141,
+    "G4 no target predicate match (score=0.00)"
+   ]
+  ],
+  "metrics": {
+   "n": 156,
+   "acc": 0.6666666666666666,
+   "macro_f1": 0.6140155562868364,
+   "weighted_f1": 0.6609359760637119,
+   "mc_macro": 0.551470588235294,
+   "ynu_macro": 0.6974088470222259
+  },
+  "candidate_metrics_before_selection": {
+   "n": 156,
+   "acc": 0.6666666666666666,
+   "macro_f1": 0.6140155562868364,
+   "weighted_f1": 0.6609359760637119,
+   "mc_macro": 0.551470588235294,
+   "ynu_macro": 0.6974088470222259
+  },
+  "delta_vs_v32_2": {
+   "acc": 0.02564102564102555,
+   "macro_f1": 0.01715700738540138,
+   "weighted_f1": 0.027368535662131932,
+   "mc_macro": 0.0,
+   "ynu_macro": 0.040033017232602996
+  },
+  "delta_candidate_vs_v34_2": {
+   "macro_f1": 0.004184211161373574
+  },
+  "v34_reference_macro_f1": 0.6185666574322036
+ }
+}
