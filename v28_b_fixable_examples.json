@@ -1,0 +1,122 @@
+[
+  {
+    "idx": 18,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Is there a logical chain from applying for internships to increasing one’s earning potential, according to the premises?"
+  },
+  {
+    "idx": 61,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the premises, is the following statement true?\nStatement: Kahne will receive plus points for their graduation thesis if they write a science article and it is successfully"
+  },
+  {
+    "idx": 63,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the premises, is the following statement true?\nStatement: The Titan computer remains stable during heavy use because it runs complex software and supports multitasking eff"
+  },
+  {
+    "idx": 71,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the above premises, is the following statement true?\nStatement: If there exists someone who attended the midterm exam, then all students attend the course, and there exist"
+  },
+  {
+    "idx": 89,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the above premises, is the statement true?\nStatement: All students have understanding."
+  },
+  {
+    "idx": 91,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the above premises, is the statement true?\nStatement: All students have qualifications."
+  },
+  {
+    "idx": 99,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student does not participate in extracurricular activities, they cannot develop leadership skills."
+  },
+  {
+    "idx": 105,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Do well-structured curricula improve learning outcomes?"
+  },
+  {
+    "idx": 109,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the above premises, is the statement true?\nStatement: Exists(x, ParticipatesInStudyGroup(x))"
+  },
+  {
+    "idx": 113,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Did Mia rely on her own performance to pass?"
+  },
+  {
+    "idx": 121,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the above premises, is the following statement true?\nStatement: A student who uses security measures will protect user data on their website."
+  },
+  {
+    "idx": 125,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "If there exists at least one object x that has property R, does it follow that every object has property P?"
+  },
+  {
+    "idx": 135,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the above premises, is the following statement true?\nStatement: If students receive low grades, they will seek additional support."
+  },
+  {
+    "idx": 137,
+    "gold": "No",
+    "base_pred": "Yes",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student did not sign the academic integrity agreement, then they did not receive course recognition."
+  },
+  {
+    "idx": 143,
+    "gold": "No",
+    "base_pred": "Unknown",
+    "oracle_pred": "No",
+    "is_mc": false,
+    "question": "If all students must meet the eligibility requirements to enroll in the advanced courses, does it follow that if a student has failed to meet the standards for a course, they are n"
+  }
+]
