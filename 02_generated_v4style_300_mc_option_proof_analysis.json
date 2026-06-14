@@ -1,0 +1,6708 @@
+[
+  {
+    "flat_id": "generated_v4style_300_3_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one student joins the study group.\nB. No student joins the study group.\nC. Every student completes the group project.\nD. At least one student completes the group project.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (JoinsStudyGroup(x) → ParticipatesInDiscussion(x))"
+      },
+      "C": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_5_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every employee accesses sensitive data.\nB. No employee accesses sensitive data.\nC. Only some employees accesses sensitive data.\nD. The premises do not support any conclusion about accessesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "AccessesSensitiveData",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ReceivesClearance(x) → AccessesSensitiveData(x))"
+      },
+      "B": {
+        "target": "AccessesSensitiveData",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AccessesSensitiveData",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ReceivesClearance(x) → AccessesSensitiveData(x))"
+      },
+      "D": {
+        "target": "AccessesSensitiveData",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_6_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student completes the coursework.\nB. It cannot be determined whether every student completes the coursework.\nC. No student completes the coursework.\nD. Every student who earns course credit must completes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "EarnsCredit",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x EarnsCredit"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_7_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one researcher designs a study.\nB. Every researcher designs a study.\nC. No researcher designs a study.\nD. At least one researcher reads the literature, but nothing about designs a study.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_8_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every researcher collects data.\nB. No researcher collects data.\nC. Only some researchers collects data.\nD. The premises do not support any conclusion about collectsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "CollectsData",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (DesignsStudy(x) → CollectsData(x))"
+      },
+      "B": {
+        "target": "CollectsData",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CollectsData",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (DesignsStudy(x) → CollectsData(x))"
+      },
+      "D": {
+        "target": "CollectsData",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_9_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one student earns course credit.\nB. Every student earns course credit.\nC. No student earns course credit.\nD. At least one student completes the coursework, but nothing about earns course credit.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "EarnsCredit",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "EarnsCredit",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "EarnsCredit",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "EXISTS_OR_UNIVERSAL: CompletesCoursework"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_11_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one mentor provides feedback.\nB. Every mentor provides feedback.\nC. No mentor provides feedback.\nD. At least one mentor schedules a session, but nothing about provides feedback.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_12_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student completes the lab work.\nB. It cannot be determined whether every student completes the lab work.\nC. No student completes the lab work.\nD. Every student who passes the lab component must completes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesLabComponent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x PassesLabComponent"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_13_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every developer writes the code.\nB. It cannot be determined whether every developer writes the code.\nC. No developer writes the code.\nD. Every developer who passes the code review must writes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x PassesCodeReview"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_16_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every librarian catalogs new books.\nB. At least one librarian updates the database.\nC. No librarian catalogs new books.\nD. Some librarians notifies patrons.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "UpdatesDatabase",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CatalogsNewBooks(x) → UpdatesDatabase(x))"
+      },
+      "D": {
+        "target": "NotifiesPatrons",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_20_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student performs well on the exam.\nB. No student performs well on the exam.\nC. Only some students performs well on the exam.\nD. The premises do not support any conclusion about performsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PerformsWellOnExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (SolvesProblems(x) → PerformsWellOnExam(x))"
+      },
+      "B": {
+        "target": "PerformsWellOnExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PerformsWellOnExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (SolvesProblems(x) → PerformsWellOnExam(x))"
+      },
+      "D": {
+        "target": "PerformsWellOnExam",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_21_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student enrolls in the course.\nB. It cannot be determined whether every student enrolls in the course.\nC. No student enrolls in the course.\nD. Every student who submits all assignments must enrolls.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "EnrollsInCourse",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "EnrollsInCourse",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "EnrollsInCourse",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "SubmitsAllAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x SubmitsAllAssignments"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_22_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No student passes the final exam.\nB. Every student passes the final exam.\nC. At least one student passes the final exam.\nD. It cannot be determined whether any student passes the final exam.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PassesFinalExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesFinalExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PassesFinalExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesFinalExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_24_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every volunteer signs up for the event.\nB. It cannot be determined whether every volunteer signs up for the event.\nC. No volunteer signs up for the event.\nD. Every volunteer who assists with activities must signs.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x AssistsWithActivities"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_25_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every employee completes the onboarding program.\nB. At least one employee passes the probation period.\nC. No employee completes the onboarding program.\nD. Some employees receives full benefits.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesProbation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CompletesOnboarding(x) → PassesProbation(x))"
+      },
+      "D": {
+        "target": "ReceivesFullBenefits",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_29_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one student submits all assignments.\nB. Every student submits all assignments.\nC. No student submits all assignments.\nD. At least one student enrolls in the course, but nothing about submits all assignments.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "SubmitsAllAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SubmitsAllAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SubmitsAllAssignments",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "EnrollsInCourse",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_31_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one trainee submits a portfolio.\nB. Every trainee submits a portfolio.\nC. No trainee submits a portfolio.\nD. At least one trainee attends the seminar, but nothing about submits a portfolio.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "SubmitsPortfolio",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SubmitsPortfolio",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SubmitsPortfolio",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "EXISTS_OR_UNIVERSAL: AttendsSeminar"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_34_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No intern completes the assigned task.\nB. Every intern completes the assigned task.\nC. At least one intern completes the assigned task.\nD. It cannot be determined whether any intern completes the assigned task.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_35_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student qualifies for the degree.\nB. No student qualifies for the degree.\nC. Only some students qualifies for the degree.\nD. The premises do not support any conclusion about qualifiesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "QualifiesForDegree",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (EarnsCredit(x) → QualifiesForDegree(x))"
+      },
+      "B": {
+        "target": "QualifiesForDegree",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "QualifiesForDegree",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (EarnsCredit(x) → QualifiesForDegree(x))"
+      },
+      "D": {
+        "target": "ParticipatesInSeminar",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_38_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No student understands the concepts.\nB. Every student understands the concepts.\nC. At least one student understands the concepts.\nD. It cannot be determined whether any student understands the concepts.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_39_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one participant registers for the program.\nB. No participant registers for the program.\nC. Every participant finishes all modules.\nD. At least one participant finishes all modules.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "RegistersForProgram",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "RegistersForProgram",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (RegistersForProgram(x) → CompletesOrientation(x))"
+      },
+      "C": {
+        "target": "FinishesAllModules",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "FinishesAllModules",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_43_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one student reviews mistakes.\nB. Every student reviews mistakes.\nC. No student reviews mistakes.\nD. At least one student registers for the exam, but nothing about reviews mistakes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "ReviewsMistakes",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReviewsMistakes",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReviewsMistakes",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "EXISTS_OR_UNIVERSAL: RegistersForExam"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_44_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every volunteer signs up for the event.\nB. It cannot be determined whether every volunteer signs up for the event.\nC. No volunteer signs up for the event.\nD. Every volunteer who assists with activities must signs.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x AssistsWithActivities"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_47_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every teacher prepares the curriculum.\nB. It cannot be determined whether every teacher prepares the curriculum.\nC. No teacher prepares the curriculum.\nD. Every teacher who grades the assignments must prepares.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "PreparesCurriculum",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PreparesCurriculum",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PreparesCurriculum",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "GradesAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x GradesAssignments"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_48_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every candidate receives an offer.\nB. No candidate receives an offer.\nC. Only some candidates receives an offer.\nD. The premises do not support any conclusion about receivesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ReceivesOffer",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ClearsInterview(x) → ReceivesOffer(x))"
+      },
+      "B": {
+        "target": "ReceivesOffer",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReceivesOffer",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ClearsInterview(x) → ReceivesOffer(x))"
+      },
+      "D": {
+        "target": "ReceivesOffer",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_49_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student joins the study group.\nB. It cannot be determined whether every student joins the study group.\nC. No student joins the study group.\nD. Every student who completes the group project must joins.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x CompletesGroupProject"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_50_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No student takes a practice test.\nB. Every student takes a practice test.\nC. At least one student takes a practice test.\nD. It cannot be determined whether any student takes a practice test.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "TakesPracticeTest",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "TakesPracticeTest",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "TakesPracticeTest",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "TakesPracticeTest",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_52_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student meets the graduation requirement.\nB. No student meets the graduation requirement.\nC. Only some students meets the graduation requirement.\nD. The premises do not support any conclusion about meetsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "MeetsGraduationRequirement",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (PassesLabComponent(x) → MeetsGraduationRequirement(x))"
+      },
+      "B": {
+        "target": "MeetsGraduationRequirement",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "MeetsGraduationRequirement",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (PassesLabComponent(x) → MeetsGraduationRequirement(x))"
+      },
+      "D": {
+        "target": "EnrollsInElective",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_53_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every developer writes the code.\nB. At least one developer runs the unit tests.\nC. No developer writes the code.\nD. Some developers passes the code review.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "RunsUnitTests",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (WritesCode(x) → RunsUnitTests(x))"
+      },
+      "D": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_54_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one candidate clears the interview.\nB. Every candidate clears the interview.\nC. No candidate clears the interview.\nD. At least one candidate submits the application, but nothing about clears the interview.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_55_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every developer writes the code.\nB. It cannot be determined whether every developer writes the code.\nC. No developer writes the code.\nD. Every developer who passes the code review must writes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x PassesCodeReview"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_57_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No intern completes the assigned task.\nB. Every intern completes the assigned task.\nC. At least one intern completes the assigned task.\nD. It cannot be determined whether any intern completes the assigned task.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_58_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No researcher receives a grant.\nB. Every researcher receives a grant.\nC. At least one researcher receives a grant.\nD. It cannot be determined whether any researcher receives a grant.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ReceivesGrant",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReceivesGrant",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReceivesGrant",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReceivesGrant",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_59_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No student attends all lectures.\nB. Every student attends all lectures.\nC. At least one student attends all lectures.\nD. It cannot be determined whether any student attends all lectures.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_60_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No employee passes the compliance quiz.\nB. Every employee passes the compliance quiz.\nC. At least one employee passes the compliance quiz.\nD. It cannot be determined whether any employee passes the compliance quiz.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PassesComplianceQuiz",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesComplianceQuiz",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PassesComplianceQuiz",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesComplianceQuiz",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_62_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No librarian updates the database.\nB. Every librarian updates the database.\nC. At least one librarian updates the database.\nD. It cannot be determined whether any librarian updates the database.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "UpdatesDatabase",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "UpdatesDatabase",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "UpdatesDatabase",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "UpdatesDatabase",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_63_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every researcher reads the literature.\nB. At least one researcher identifies a research gap.\nC. No researcher reads the literature.\nD. Some researchers designs a study.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "IdentifiesGap",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (ReadsLiterature(x) → IdentifiesGap(x))"
+      },
+      "D": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_67_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every mentor schedules a session.\nB. At least one mentor reviews the mentee's work.\nC. No mentor schedules a session.\nD. Some mentors provides feedback.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReviewsMenteeWork",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (SchedulesSession(x) → ReviewsMenteeWork(x))"
+      },
+      "D": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_68_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one student passes the lab component.\nB. Every student passes the lab component.\nC. No student passes the lab component.\nD. At least one student completes the lab work, but nothing about passes the lab component.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "PassesLabComponent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesLabComponent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PassesLabComponent",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "EXISTS_OR_UNIVERSAL: CompletesLabWork"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_69_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student joins the study group.\nB. It cannot be determined whether every student joins the study group.\nC. No student joins the study group.\nD. Every student who completes the group project must joins.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x CompletesGroupProject"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_72_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every librarian catalogs new books.\nB. It cannot be determined whether every librarian catalogs new books.\nC. No librarian catalogs new books.\nD. Every librarian who notifies patrons must catalogs.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "NotifiesPatrons",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x NotifiesPatrons"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_74_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every librarian catalogs new books.\nB. It cannot be determined whether every librarian catalogs new books.\nC. No librarian catalogs new books.\nD. Every librarian who notifies patrons must catalogs.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "NotifiesPatrons",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x NotifiesPatrons"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_75_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one teacher prepares the curriculum.\nB. No teacher prepares the curriculum.\nC. Every teacher grades the assignments.\nD. At least one teacher grades the assignments.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "PreparesCurriculum",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PreparesCurriculum",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (PreparesCurriculum(x) → DeliversLectures(x))"
+      },
+      "C": {
+        "target": "GradesAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "GradesAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_81_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every researcher writes a research proposal.\nB. At least one researcher receives a grant.\nC. No researcher writes a research proposal.\nD. Some researchers conducts experiments.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReceivesGrant",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (WritesProposal(x) → ReceivesGrant(x))"
+      },
+      "D": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_82_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No participant completes the orientation.\nB. Every participant completes the orientation.\nC. At least one participant completes the orientation.\nD. It cannot be determined whether any participant completes the orientation.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_83_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student joins the study group.\nB. At least one student participates in discussion.\nC. No student joins the study group.\nD. Some students completes the group project.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ParticipatesInDiscussion",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "JoinsStudyGroup",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (JoinsStudyGroup(x) → ParticipatesInDiscussion(x))"
+      },
+      "D": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_85_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every candidate submits the application.\nB. It cannot be determined whether every candidate submits the application.\nC. No candidate submits the application.\nD. Every candidate who clears the interview must submits.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ClearsInterview"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_86_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student qualifies for the degree.\nB. No student qualifies for the degree.\nC. Only some students qualifies for the degree.\nD. The premises do not support any conclusion about qualifiesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "QualifiesForDegree",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (EarnsCredit(x) → QualifiesForDegree(x))"
+      },
+      "B": {
+        "target": "QualifiesForDegree",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "QualifiesForDegree",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (EarnsCredit(x) → QualifiesForDegree(x))"
+      },
+      "D": {
+        "target": "EnrollsInElective",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_87_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one intern joins the team.\nB. No intern joins the team.\nC. Every intern receives mentor feedback.\nD. At least one intern receives mentor feedback.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "JoinsTeam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "JoinsTeam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (JoinsTeam(x) → CompletesAssignedTask(x))"
+      },
+      "C": {
+        "target": "ReceivesMentorFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReceivesMentorFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_88_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one developer passes the code review.\nB. Every developer passes the code review.\nC. No developer passes the code review.\nD. At least one developer writes the code, but nothing about passes the code review.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_92_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every developer merges the branch.\nB. No developer merges the branch.\nC. Only some developers merges the branch.\nD. The premises do not support any conclusion about mergesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "MergesBranch",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (PassesCodeReview(x) → MergesBranch(x))"
+      },
+      "B": {
+        "target": "MergesBranch",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "MergesBranch",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (PassesCodeReview(x) → MergesBranch(x))"
+      },
+      "D": {
+        "target": "MergesBranch",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_93_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every researcher reads the literature.\nB. At least one researcher identifies a research gap.\nC. No researcher reads the literature.\nD. Some researchers designs a study.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "IdentifiesGap",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (ReadsLiterature(x) → IdentifiesGap(x))"
+      },
+      "D": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_95_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one employee completes the onboarding program.\nB. No employee completes the onboarding program.\nC. Every employee receives full benefits.\nD. At least one employee receives full benefits.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CompletesOnboarding(x) → PassesProbation(x))"
+      },
+      "C": {
+        "target": "ReceivesFullBenefits",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReceivesFullBenefits",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_97_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one student completes the coursework.\nB. No student completes the coursework.\nC. Every student earns course credit.\nD. At least one student earns course credit.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CompletesCoursework(x) → PassesFinalExam(x))"
+      },
+      "C": {
+        "target": "EarnsCredit",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "EarnsCredit",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_104_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every analyst gathers the requirements.\nB. At least one analyst documents the findings.\nC. No analyst gathers the requirements.\nD. Some analysts builds a model.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "DocumentsFindings",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (GathersRequirements(x) → DocumentsFindings(x))"
+      },
+      "D": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_105_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one employee attends compliance training.\nB. No employee attends compliance training.\nC. Every employee receives security clearance.\nD. At least one employee receives security clearance.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (AttendsComplianceTraining(x) → PassesComplianceQuiz(x))"
+      },
+      "C": {
+        "target": "ReceivesClearance",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReceivesClearance",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_106_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one student completes the group project.\nB. Every student completes the group project.\nC. No student completes the group project.\nD. At least one student joins the study group, but nothing about completes the group project.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesGroupProject",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_107_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student registers for the exam.\nB. It cannot be determined whether every student registers for the exam.\nC. No student registers for the exam.\nD. Every student who reviews mistakes must registers.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReviewsMistakes",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ReviewsMistakes"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_109_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every trainee earns a certificate.\nB. No trainee earns a certificate.\nC. Only some trainees earns a certificate.\nD. The premises do not support any conclusion about earnsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "EarnsCertificate",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (SubmitsPortfolio(x) → EarnsCertificate(x))"
+      },
+      "B": {
+        "target": "EarnsCertificate",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "EarnsCertificate",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (SubmitsPortfolio(x) → EarnsCertificate(x))"
+      },
+      "D": {
+        "target": "EarnsCertificate",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_110_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every employee is eligible for promotion.\nB. No employee is eligible for promotion.\nC. Only some employees is eligible for promotion.\nD. The premises do not support any conclusion about ising.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "EligibleForPromotion",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))"
+      },
+      "B": {
+        "target": "EligibleForPromotion",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "EligibleForPromotion",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))"
+      },
+      "D": {
+        "target": null,
+        "target_score": 0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_111_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every analyst validates the results.\nB. No analyst validates the results.\nC. Only some analysts validates the results.\nD. The premises do not support any conclusion about validatesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ValidatesResults",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (BuildsModel(x) → ValidatesResults(x))"
+      },
+      "B": {
+        "target": "ValidatesResults",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ValidatesResults",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (BuildsModel(x) → ValidatesResults(x))"
+      },
+      "D": {
+        "target": "ValidatesResults",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_112_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No teacher delivers the lectures.\nB. Every teacher delivers the lectures.\nC. At least one teacher delivers the lectures.\nD. It cannot be determined whether any teacher delivers the lectures.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_118_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every mentor sets development goals.\nB. No mentor sets development goals.\nC. Only some mentors sets development goals.\nD. The premises do not support any conclusion about setsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "SetsDevelopmentGoals",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ProvidesFeedback(x) → SetsDevelopmentGoals(x))"
+      },
+      "B": {
+        "target": "SetsDevelopmentGoals",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SetsDevelopmentGoals",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ProvidesFeedback(x) → SetsDevelopmentGoals(x))"
+      },
+      "D": {
+        "target": "SetsDevelopmentGoals",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_119_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every employee attends compliance training.\nB. It cannot be determined whether every employee attends compliance training.\nC. No employee attends compliance training.\nD. Every employee who receives security clearance must attends.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReceivesClearance",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ReceivesClearance"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_121_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every librarian processes reservations.\nB. No librarian processes reservations.\nC. Only some librarians processes reservations.\nD. The premises do not support any conclusion about processesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ProcessesReservations",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (NotifiesPatrons(x) → ProcessesReservations(x))"
+      },
+      "B": {
+        "target": "ProcessesReservations",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ProcessesReservations",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (NotifiesPatrons(x) → ProcessesReservations(x))"
+      },
+      "D": {
+        "target": "ProcessesReservations",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_128_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every mentor schedules a session.\nB. It cannot be determined whether every mentor schedules a session.\nC. No mentor schedules a session.\nD. Every mentor who provides feedback must schedules.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ProvidesFeedback"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_130_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one student completes the lab work.\nB. No student completes the lab work.\nC. Every student passes the lab component.\nD. At least one student passes the lab component.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CompletesLabWork(x) → SubmitsLabReport(x))"
+      },
+      "C": {
+        "target": "PassesLabComponent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesLabComponent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_131_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one researcher reads the literature.\nB. No researcher reads the literature.\nC. Every researcher designs a study.\nD. At least one researcher designs a study.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (ReadsLiterature(x) → IdentifiesGap(x))"
+      },
+      "C": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_133_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student achieves a high GPA.\nB. No student achieves a high GPA.\nC. Only some students achieves a high GPA.\nD. The premises do not support any conclusion about achievesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "AchievesHighGPA",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))"
+      },
+      "B": {
+        "target": "AchievesHighGPA",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AchievesHighGPA",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))"
+      },
+      "D": {
+        "target": "AchievesHighGPA",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_135_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student completes the lab work.\nB. At least one student submits the lab report.\nC. No student completes the lab work.\nD. Some students passes the lab component.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SubmitsLabReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CompletesLabWork(x) → SubmitsLabReport(x))"
+      },
+      "D": {
+        "target": "PassesLabComponent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_137_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every volunteer signs up for the event.\nB. At least one volunteer attends the training session.\nC. No volunteer signs up for the event.\nD. Some volunteers assists with activities.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsTrainingSession",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (SignsUpForEvent(x) → AttendsTrainingSession(x))"
+      },
+      "D": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_140_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No student submits the lab report.\nB. Every student submits the lab report.\nC. At least one student submits the lab report.\nD. It cannot be determined whether any student submits the lab report.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "SubmitsLabReport",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SubmitsLabReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SubmitsLabReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "SubmitsLabReport",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_141_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one librarian catalogs new books.\nB. No librarian catalogs new books.\nC. Every librarian notifies patrons.\nD. At least one librarian notifies patrons.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CatalogsNewBooks(x) → UpdatesDatabase(x))"
+      },
+      "C": {
+        "target": "NotifiesPatrons",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "NotifiesPatrons",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_142_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student enrolls in the course.\nB. At least one student attends all lectures.\nC. No student enrolls in the course.\nD. Some students submits all assignments.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "EnrollsInCourse",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "EnrollsInCourse",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (EnrollsInCourse(x) → AttendsAllLectures(x))"
+      },
+      "D": {
+        "target": "SubmitsAllAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_145_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No student attends all lectures.\nB. Every student attends all lectures.\nC. At least one student attends all lectures.\nD. It cannot be determined whether any student attends all lectures.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AttendsAllLectures",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_146_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one trainee attends the seminar.\nB. No trainee attends the seminar.\nC. Every trainee submits a portfolio.\nD. At least one trainee submits a portfolio.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (AttendsSeminar(x) → CompletesWorkshop(x))"
+      },
+      "C": {
+        "target": "SubmitsPortfolio",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "SubmitsPortfolio",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_147_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every teacher submits the grade report.\nB. No teacher submits the grade report.\nC. Only some teachers submits the grade report.\nD. The premises do not support any conclusion about submitsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "SubmitsGradeReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (GradesAssignments(x) → SubmitsGradeReport(x))"
+      },
+      "B": {
+        "target": "SubmitsGradeReport",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SubmitsGradeReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (GradesAssignments(x) → SubmitsGradeReport(x))"
+      },
+      "D": {
+        "target": "EnrollsInElective",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_148_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one analyst gathers the requirements.\nB. No analyst gathers the requirements.\nC. Every analyst builds a model.\nD. At least one analyst builds a model.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (GathersRequirements(x) → DocumentsFindings(x))"
+      },
+      "C": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_150_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one researcher writes a research proposal.\nB. No researcher writes a research proposal.\nC. Every researcher conducts experiments.\nD. At least one researcher conducts experiments.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (WritesProposal(x) → ReceivesGrant(x))"
+      },
+      "C": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_152_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student performs well on the exam.\nB. No student performs well on the exam.\nC. Only some students performs well on the exam.\nD. The premises do not support any conclusion about performsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PerformsWellOnExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (SolvesProblems(x) → PerformsWellOnExam(x))"
+      },
+      "B": {
+        "target": "PerformsWellOnExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PerformsWellOnExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (SolvesProblems(x) → PerformsWellOnExam(x))"
+      },
+      "D": {
+        "target": "PerformsWellOnExam",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_154_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No participant completes the orientation.\nB. Every participant completes the orientation.\nC. At least one participant completes the orientation.\nD. It cannot be determined whether any participant completes the orientation.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_156_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No mentor reviews the mentee's work.\nB. Every mentor reviews the mentee's work.\nC. At least one mentor reviews the mentee's work.\nD. It cannot be determined whether any mentor reviews the mentee's work.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ReviewsMenteeWork",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReviewsMenteeWork",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReviewsMenteeWork",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReviewsMenteeWork",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_157_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every mentor schedules a session.\nB. It cannot be determined whether every mentor schedules a session.\nC. No mentor schedules a session.\nD. Every mentor who provides feedback must schedules.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ProvidesFeedback"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_158_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every analyst gathers the requirements.\nB. It cannot be determined whether every analyst gathers the requirements.\nC. No analyst gathers the requirements.\nD. Every analyst who builds a model must gathers.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x BuildsModel"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_160_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every employee completes the onboarding program.\nB. It cannot be determined whether every employee completes the onboarding program.\nC. No employee completes the onboarding program.\nD. Every employee who receives full benefits must completes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReceivesFullBenefits",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ReceivesFullBenefits"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_161_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No student participates in discussion.\nB. Every student participates in discussion.\nC. At least one student participates in discussion.\nD. It cannot be determined whether any student participates in discussion.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ParticipatesInDiscussion",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ParticipatesInDiscussion",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ParticipatesInDiscussion",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ParticipatesInDiscussion",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_164_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every researcher writes a research proposal.\nB. It cannot be determined whether every researcher writes a research proposal.\nC. No researcher writes a research proposal.\nD. Every researcher who conducts experiments must writes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ConductsExperiment"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_167_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No candidate passes the written test.\nB. Every candidate passes the written test.\nC. At least one candidate passes the written test.\nD. It cannot be determined whether any candidate passes the written test.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PassesWrittenTest",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesWrittenTest",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PassesWrittenTest",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesWrittenTest",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_169_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every candidate receives an offer.\nB. No candidate receives an offer.\nC. Only some candidates receives an offer.\nD. The premises do not support any conclusion about receivesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ReceivesOffer",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ClearsInterview(x) → ReceivesOffer(x))"
+      },
+      "B": {
+        "target": "ReceivesOffer",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReceivesOffer",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ClearsInterview(x) → ReceivesOffer(x))"
+      },
+      "D": {
+        "target": "ReceivesOffer",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_170_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every trainee earns a certificate.\nB. No trainee earns a certificate.\nC. Only some trainees earns a certificate.\nD. The premises do not support any conclusion about earnsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "EarnsCertificate",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (SubmitsPortfolio(x) → EarnsCertificate(x))"
+      },
+      "B": {
+        "target": "EarnsCertificate",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "EarnsCertificate",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (SubmitsPortfolio(x) → EarnsCertificate(x))"
+      },
+      "D": {
+        "target": "EarnsCertificate",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_172_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every employee is eligible for promotion.\nB. No employee is eligible for promotion.\nC. Only some employees is eligible for promotion.\nD. The premises do not support any conclusion about ising.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "EligibleForPromotion",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))"
+      },
+      "B": {
+        "target": "EligibleForPromotion",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "EligibleForPromotion",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))"
+      },
+      "D": {
+        "target": null,
+        "target_score": 0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_174_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No trainee completes the workshop.\nB. Every trainee completes the workshop.\nC. At least one trainee completes the workshop.\nD. It cannot be determined whether any trainee completes the workshop.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "CompletesWorkshop",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesWorkshop",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesWorkshop",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesWorkshop",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_176_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one volunteer signs up for the event.\nB. No volunteer signs up for the event.\nC. Every volunteer assists with activities.\nD. At least one volunteer assists with activities.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SignsUpForEvent",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (SignsUpForEvent(x) → AttendsTrainingSession(x))"
+      },
+      "C": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_177_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every participant passes the certification exam.\nB. No participant passes the certification exam.\nC. Only some participants passes the certification exam.\nD. The premises do not support any conclusion about passesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PassesCertificationExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (FinishesAllModules(x) → PassesCertificationExam(x))"
+      },
+      "B": {
+        "target": "PassesCertificationExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PassesCertificationExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (FinishesAllModules(x) → PassesCertificationExam(x))"
+      },
+      "D": {
+        "target": "EnrollsInElective",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_179_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every employee attends compliance training.\nB. At least one employee passes the compliance quiz.\nC. No employee attends compliance training.\nD. Some employees receives security clearance.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesComplianceQuiz",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (AttendsComplianceTraining(x) → PassesComplianceQuiz(x))"
+      },
+      "D": {
+        "target": "ReceivesClearance",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_181_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No teacher delivers the lectures.\nB. Every teacher delivers the lectures.\nC. At least one teacher delivers the lectures.\nD. It cannot be determined whether any teacher delivers the lectures.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_186_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No student understands the concepts.\nB. Every student understands the concepts.\nC. At least one student understands the concepts.\nD. It cannot be determined whether any student understands the concepts.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_188_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one student solves the problems.\nB. Every student solves the problems.\nC. No student solves the problems.\nD. At least one student studies regularly, but nothing about solves the problems.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "SolvesProblems",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SolvesProblems",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SolvesProblems",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "SolvesProblems",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_189_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every researcher writes a research proposal.\nB. It cannot be determined whether every researcher writes a research proposal.\nC. No researcher writes a research proposal.\nD. Every researcher who conducts experiments must writes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "WritesProposal",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ConductsExperiment"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_190_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one volunteer assists with activities.\nB. Every volunteer assists with activities.\nC. No volunteer assists with activities.\nD. At least one volunteer signs up for the event, but nothing about assists with activities.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AssistsWithActivities",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_191_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every volunteer logs service hours.\nB. No volunteer logs service hours.\nC. Only some volunteers logs service hours.\nD. The premises do not support any conclusion about logsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "LogsServiceHours",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (AssistsWithActivities(x) → LogsServiceHours(x))"
+      },
+      "B": {
+        "target": "LogsServiceHours",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "LogsServiceHours",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (AssistsWithActivities(x) → LogsServiceHours(x))"
+      },
+      "D": {
+        "target": "LogsServiceHours",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_194_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every teacher prepares the curriculum.\nB. At least one teacher delivers the lectures.\nC. No teacher prepares the curriculum.\nD. Some teachers grades the assignments.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "PreparesCurriculum",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "DeliversLectures",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PreparesCurriculum",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (PreparesCurriculum(x) → DeliversLectures(x))"
+      },
+      "D": {
+        "target": "GradesAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_195_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one intern receives mentor feedback.\nB. Every intern receives mentor feedback.\nC. No intern receives mentor feedback.\nD. At least one intern joins the team, but nothing about receives mentor feedback.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "ReceivesMentorFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReceivesMentorFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReceivesMentorFeedback",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "JoinsTeam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "EXISTS_OR_UNIVERSAL: JoinsTeam"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_201_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every intern joins the team.\nB. It cannot be determined whether every intern joins the team.\nC. No intern joins the team.\nD. Every intern who receives mentor feedback must joins.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "JoinsTeam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "JoinsTeam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "JoinsTeam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReceivesMentorFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ReceivesMentorFeedback"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_202_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every researcher reads the literature.\nB. It cannot be determined whether every researcher reads the literature.\nC. No researcher reads the literature.\nD. Every researcher who designs a study must reads.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReadsLiterature",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "DesignsStudy",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x DesignsStudy"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_204_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one employee receives full benefits.\nB. Every employee receives full benefits.\nC. No employee receives full benefits.\nD. At least one employee completes the onboarding program, but nothing about receives full benefits.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "ReceivesFullBenefits",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReceivesFullBenefits",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReceivesFullBenefits",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "EXISTS_OR_UNIVERSAL: CompletesOnboarding"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_205_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student registers for the exam.\nB. At least one student takes a practice test.\nC. No student registers for the exam.\nD. Some students reviews mistakes.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "TakesPracticeTest",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (RegistersForExam(x) → TakesPracticeTest(x))"
+      },
+      "D": {
+        "target": "ReviewsMistakes",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_207_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one student registers for the exam.\nB. No student registers for the exam.\nC. Every student reviews mistakes.\nD. At least one student reviews mistakes.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (RegistersForExam(x) → TakesPracticeTest(x))"
+      },
+      "C": {
+        "target": "ReviewsMistakes",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReviewsMistakes",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_209_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one developer writes the code.\nB. No developer writes the code.\nC. Every developer passes the code review.\nD. At least one developer passes the code review.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "WritesCode",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (WritesCode(x) → RunsUnitTests(x))"
+      },
+      "C": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesCodeReview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_212_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student completes the coursework.\nB. At least one student passes the final exam.\nC. No student completes the coursework.\nD. Some students earns course credit.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesFinalExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CompletesCoursework(x) → PassesFinalExam(x))"
+      },
+      "D": {
+        "target": "EarnsCredit",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_214_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every participant registers for the program.\nB. At least one participant completes the orientation.\nC. No participant registers for the program.\nD. Some participants finishes all modules.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "RegistersForProgram",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesOrientation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "RegistersForProgram",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (RegistersForProgram(x) → CompletesOrientation(x))"
+      },
+      "D": {
+        "target": "FinishesAllModules",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_215_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one employee receives security clearance.\nB. Every employee receives security clearance.\nC. No employee receives security clearance.\nD. At least one employee attends compliance training, but nothing about receives security clearance.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "ReceivesClearance",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ReceivesClearance",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReceivesClearance",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "EXISTS_OR_UNIVERSAL: AttendsComplianceTraining"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_216_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one librarian notifies patrons.\nB. Every librarian notifies patrons.\nC. No librarian notifies patrons.\nD. At least one librarian catalogs new books, but nothing about notifies patrons.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "NotifiesPatrons",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "NotifiesPatrons",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "NotifiesPatrons",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "CatalogsNewBooks",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "EXISTS_OR_UNIVERSAL: CatalogsNewBooks"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_218_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every employee attends compliance training.\nB. It cannot be determined whether every employee attends compliance training.\nC. No employee attends compliance training.\nD. Every employee who receives security clearance must attends.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsComplianceTraining",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReceivesClearance",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ReceivesClearance"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_219_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every analyst gathers the requirements.\nB. It cannot be determined whether every analyst gathers the requirements.\nC. No analyst gathers the requirements.\nD. Every analyst who builds a model must gathers.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "GathersRequirements",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x BuildsModel"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_220_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student studies regularly.\nB. At least one student understands the concepts.\nC. No student studies regularly.\nD. Some students solves the problems.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "StudiesRegularly",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "UnderstandsConcepts",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "StudiesRegularly",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (StudiesRegularly(x) → UnderstandsConcepts(x))"
+      },
+      "D": {
+        "target": "SolvesProblems",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_227_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one researcher conducts experiments.\nB. Every researcher conducts experiments.\nC. No researcher conducts experiments.\nD. At least one researcher writes a research proposal, but nothing about conducts experiments.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ConductsExperiment",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_228_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one student enrolls in the course.\nB. No student enrolls in the course.\nC. Every student submits all assignments.\nD. At least one student submits all assignments.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "EnrollsInCourse",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "EnrollsInCourse",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (EnrollsInCourse(x) → AttendsAllLectures(x))"
+      },
+      "C": {
+        "target": "SubmitsAllAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "SubmitsAllAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_229_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No developer runs the unit tests.\nB. Every developer runs the unit tests.\nC. At least one developer runs the unit tests.\nD. It cannot be determined whether any developer runs the unit tests.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "RunsUnitTests",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "RunsUnitTests",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "RunsUnitTests",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "RunsUnitTests",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_231_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student receives the group grade.\nB. No student receives the group grade.\nC. Only some students receives the group grade.\nD. The premises do not support any conclusion about receivesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ReceivesGroupGrade",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))"
+      },
+      "B": {
+        "target": "ReceivesGroupGrade",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ReceivesGroupGrade",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))"
+      },
+      "D": {
+        "target": "EnrollsInElective",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_234_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student improves technique.\nB. No student improves technique.\nC. Only some students improves technique.\nD. The premises do not support any conclusion about improvesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "ImprovesTechnique",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ReviewsMistakes(x) → ImprovesTechnique(x))"
+      },
+      "B": {
+        "target": "ImprovesTechnique",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "ImprovesTechnique",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ReviewsMistakes(x) → ImprovesTechnique(x))"
+      },
+      "D": {
+        "target": "ImprovesTechnique",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_236_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every candidate submits the application.\nB. At least one candidate passes the written test.\nC. No candidate submits the application.\nD. Some candidates clears the interview.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesWrittenTest",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (SubmitsApplication(x) → PassesWrittenTest(x))"
+      },
+      "D": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_238_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student registers for the exam.\nB. It cannot be determined whether every student registers for the exam.\nC. No student registers for the exam.\nD. Every student who reviews mistakes must registers.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "RegistersForExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ReviewsMistakes",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x ReviewsMistakes"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_240_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every intern joins the team.\nB. At least one intern completes the assigned task.\nC. No intern joins the team.\nD. Some interns receives mentor feedback.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "JoinsTeam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesAssignedTask",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "JoinsTeam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (JoinsTeam(x) → CompletesAssignedTask(x))"
+      },
+      "D": {
+        "target": "ReceivesMentorFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_243_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every teacher submits the grade report.\nB. No teacher submits the grade report.\nC. Only some teachers submits the grade report.\nD. The premises do not support any conclusion about submitsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "SubmitsGradeReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (GradesAssignments(x) → SubmitsGradeReport(x))"
+      },
+      "B": {
+        "target": "SubmitsGradeReport",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SubmitsGradeReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (GradesAssignments(x) → SubmitsGradeReport(x))"
+      },
+      "D": {
+        "target": "SubmitsGradeReport",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_246_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every trainee attends the seminar.\nB. At least one trainee completes the workshop.\nC. No trainee attends the seminar.\nD. Some trainees submits a portfolio.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesWorkshop",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (AttendsSeminar(x) → CompletesWorkshop(x))"
+      },
+      "D": {
+        "target": "SubmitsPortfolio",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_247_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one student studies regularly.\nB. No student studies regularly.\nC. Every student solves the problems.\nD. At least one student solves the problems.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "StudiesRegularly",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "StudiesRegularly",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (StudiesRegularly(x) → UnderstandsConcepts(x))"
+      },
+      "C": {
+        "target": "SolvesProblems",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "SolvesProblems",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_248_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every trainee attends the seminar.\nB. It cannot be determined whether every trainee attends the seminar.\nC. No trainee attends the seminar.\nD. Every trainee who submits a portfolio must attends.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "SubmitsPortfolio",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x SubmitsPortfolio"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_252_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one candidate submits the application.\nB. No candidate submits the application.\nC. Every candidate clears the interview.\nD. At least one candidate clears the interview.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (SubmitsApplication(x) → PassesWrittenTest(x))"
+      },
+      "C": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_256_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every employee completes the onboarding program.\nB. At least one employee passes the probation period.\nC. No employee completes the onboarding program.\nD. Some employees receives full benefits.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesProbation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesOnboarding",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CompletesOnboarding(x) → PassesProbation(x))"
+      },
+      "D": {
+        "target": "ReceivesFullBenefits",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_257_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student achieves a high GPA.\nB. No student achieves a high GPA.\nC. Only some students achieves a high GPA.\nD. The premises do not support any conclusion about achievesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "AchievesHighGPA",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))"
+      },
+      "B": {
+        "target": "AchievesHighGPA",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AchievesHighGPA",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))"
+      },
+      "D": {
+        "target": "AchievesHighGPA",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_258_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one teacher grades the assignments.\nB. Every teacher grades the assignments.\nC. No teacher grades the assignments.\nD. At least one teacher prepares the curriculum, but nothing about grades the assignments.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "GradesAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "GradesAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "GradesAssignments",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "GradesAssignments",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_261_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one analyst builds a model.\nB. Every analyst builds a model.\nC. No analyst builds a model.\nD. At least one analyst gathers the requirements, but nothing about builds a model.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "BuildsModel",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_266_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every candidate submits the application.\nB. At least one candidate passes the written test.\nC. No candidate submits the application.\nD. Some candidates clears the interview.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesWrittenTest",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "SubmitsApplication",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (SubmitsApplication(x) → PassesWrittenTest(x))"
+      },
+      "D": {
+        "target": "ClearsInterview",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_267_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No analyst documents the findings.\nB. Every analyst documents the findings.\nC. At least one analyst documents the findings.\nD. It cannot be determined whether any analyst documents the findings.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "DocumentsFindings",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "DocumentsFindings",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "DocumentsFindings",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "DocumentsFindings",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_269_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which conclusion follows?\nA. At least one participant finishes all modules.\nB. Every participant finishes all modules.\nC. No participant finishes all modules.\nD. At least one participant registers for the program, but nothing about finishes all modules.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "FinishesAllModules",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "FinishesAllModules",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "FinishesAllModules",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "FinishesAllModules",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_272_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student completes the lab work.\nB. It cannot be determined whether every student completes the lab work.\nC. No student completes the lab work.\nD. Every student who passes the lab component must completes.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesLabWork",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesLabComponent",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x PassesLabComponent"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_274_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. At least one mentor schedules a session.\nB. No mentor schedules a session.\nC. Every mentor provides feedback.\nD. At least one mentor provides feedback.",
+    "proven_options": [
+      "B"
+    ],
+    "candidate": "B",
+    "proofs": {
+      "A": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "SchedulesSession",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (SchedulesSession(x) → ReviewsMenteeWork(x))"
+      },
+      "C": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "ProvidesFeedback",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_275_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every participant passes the certification exam.\nB. No participant passes the certification exam.\nC. Only some participants passes the certification exam.\nD. The premises do not support any conclusion about passesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PassesCertificationExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (FinishesAllModules(x) → PassesCertificationExam(x))"
+      },
+      "B": {
+        "target": "PassesCertificationExam",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PassesCertificationExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (FinishesAllModules(x) → PassesCertificationExam(x))"
+      },
+      "D": {
+        "target": "PassesCertificationExam",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_277_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every intern writes the internship report.\nB. No intern writes the internship report.\nC. Only some interns writes the internship report.\nD. The premises do not support any conclusion about writesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "WritesInternshipReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ReceivesMentorFeedback(x) → WritesInternshipReport(x))"
+      },
+      "B": {
+        "target": "WritesInternshipReport",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "WritesInternshipReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ReceivesMentorFeedback(x) → WritesInternshipReport(x))"
+      },
+      "D": {
+        "target": "ParticipatesInSeminar",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_283_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every student studies regularly.\nB. It cannot be determined whether every student studies regularly.\nC. No student studies regularly.\nD. Every student who solves the problems must studies.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "StudiesRegularly",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "StudiesRegularly",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "StudiesRegularly",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "SolvesProblems",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x SolvesProblems"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_285_0",
+    "gold": "B",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. Every participant registers for the program.\nB. It cannot be determined whether every participant registers for the program.\nC. No participant registers for the program.\nD. Every participant who finishes all modules must registers.",
+    "proven_options": [
+      "D"
+    ],
+    "candidate": "D",
+    "proofs": {
+      "A": {
+        "target": "RegistersForProgram",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "RegistersForProgram",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "RegistersForProgram",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "FinishesAllModules",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "GIVEN ∀x FinishesAllModules"
+      }
+    },
+    "posthoc": "BAD"
+  },
+  {
+    "flat_id": "generated_v4style_300_287_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No volunteer attends the training session.\nB. Every volunteer attends the training session.\nC. At least one volunteer attends the training session.\nD. It cannot be determined whether any volunteer attends the training session.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "AttendsTrainingSession",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "AttendsTrainingSession",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsTrainingSession",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "AttendsTrainingSession",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_289_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every trainee attends the seminar.\nB. At least one trainee completes the workshop.\nC. No trainee attends the seminar.\nD. Some trainees submits a portfolio.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "CompletesWorkshop",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AttendsSeminar",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (AttendsSeminar(x) → CompletesWorkshop(x))"
+      },
+      "D": {
+        "target": "SubmitsPortfolio",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_290_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every researcher analyzes the data.\nB. No researcher analyzes the data.\nC. Only some researchers analyzes the data.\nD. The premises do not support any conclusion about analyzesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "AnalyzesData",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ConductsExperiment(x) → AnalyzesData(x))"
+      },
+      "B": {
+        "target": "AnalyzesData",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "AnalyzesData",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ConductsExperiment(x) → AnalyzesData(x))"
+      },
+      "D": {
+        "target": "AnalyzesData",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_291_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every intern writes the internship report.\nB. No intern writes the internship report.\nC. Only some interns writes the internship report.\nD. The premises do not support any conclusion about writesing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "WritesInternshipReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (ReceivesMentorFeedback(x) → WritesInternshipReport(x))"
+      },
+      "B": {
+        "target": "WritesInternshipReport",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "WritesInternshipReport",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (ReceivesMentorFeedback(x) → WritesInternshipReport(x))"
+      },
+      "D": {
+        "target": "WritesInternshipReport",
+        "target_score": 0.3333333333333333,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_294_0",
+    "gold": "C",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every student completes the coursework.\nB. At least one student passes the final exam.\nC. No student completes the coursework.\nD. Some students earns course credit.",
+    "proven_options": [
+      "C"
+    ],
+    "candidate": "C",
+    "proofs": {
+      "A": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesFinalExam",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CompletesCoursework",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": true,
+        "path": "CONTRAPOSITIVE_OF: ∀x (CompletesCoursework(x) → PassesFinalExam(x))"
+      },
+      "D": {
+        "target": "EarnsCredit",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": "GOOD"
+  },
+  {
+    "flat_id": "generated_v4style_300_296_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No researcher identifies a research gap.\nB. Every researcher identifies a research gap.\nC. At least one researcher identifies a research gap.\nD. It cannot be determined whether any researcher identifies a research gap.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "IdentifiesGap",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "IdentifiesGap",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "IdentifiesGap",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "IdentifiesGap",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_298_0",
+    "gold": "A",
+    "pred": null,
+    "question": "Based on the premises, which statement can be inferred?\nA. Every researcher collects data.\nB. No researcher collects data.\nC. Only some researchers collects data.\nD. The premises do not support any conclusion about collectsing.",
+    "proven_options": [
+      "A",
+      "C"
+    ],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "CollectsData",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": true,
+        "path": "∀x (DesignsStudy(x) → CollectsData(x))"
+      },
+      "B": {
+        "target": "CollectsData",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "CollectsData",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": true,
+        "path": "∀x (DesignsStudy(x) → CollectsData(x))"
+      },
+      "D": {
+        "target": "CollectsData",
+        "target_score": 0.5,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  },
+  {
+    "flat_id": "generated_v4style_300_299_0",
+    "gold": "D",
+    "pred": null,
+    "question": "Based on the premises, which statement is correct?\nA. No employee passes the probation period.\nB. Every employee passes the probation period.\nC. At least one employee passes the probation period.\nD. It cannot be determined whether any employee passes the probation period.",
+    "proven_options": [],
+    "candidate": null,
+    "proofs": {
+      "A": {
+        "target": "PassesProbation",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      },
+      "B": {
+        "target": "PassesProbation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "universal",
+        "proven": false,
+        "path": null
+      },
+      "C": {
+        "target": "PassesProbation",
+        "target_score": 1.0,
+        "polarity": "pos",
+        "quant": "existential",
+        "proven": false,
+        "path": null
+      },
+      "D": {
+        "target": "PassesProbation",
+        "target_score": 1.0,
+        "polarity": "neg",
+        "quant": "unknown",
+        "proven": false,
+        "path": null
+      }
+    },
+    "posthoc": null
+  }
+]
