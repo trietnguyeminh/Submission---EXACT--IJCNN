@@ -1,0 +1,289 @@
+[
+  {
+    "record": 11,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 16,
+    "question": 1,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 20,
+    "question": 1,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 24,
+    "question": 1,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 24,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 99,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 102,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 103,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 169,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 173,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 192,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 221,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 222,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 224,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 227,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 228,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 229,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 230,
+    "question": 2,
+    "type": "answer_fix",
+    "old": "No",
+    "new": "Yes",
+    "reason": "Explanation kết luận tích cực, mâu thuẫn với answer=No"
+  },
+  {
+    "record": 273,
+    "question": 1,
+    "type": "mcq_fix",
+    "old": "A",
+    "new": "C",
+    "reason": "Explanation xác nhận C correct, không phải A"
+  },
+  {
+    "record": 274,
+    "question": 1,
+    "type": "mcq_fix",
+    "old": "A",
+    "new": "B",
+    "reason": "Explanation xác nhận B correct, không phải A"
+  },
+  {
+    "record": 275,
+    "question": 1,
+    "type": "mcq_fix",
+    "old": "A",
+    "new": "C",
+    "reason": "Explanation xác nhận C correct, không phải A"
+  },
+  {
+    "record": 282,
+    "question": 2,
+    "type": "mcq_fix",
+    "old": "D",
+    "new": "A",
+    "reason": "Explanation xác nhận A correct, không phải D"
+  },
+  {
+    "record": 25,
+    "question": 2,
+    "type": "idx_fix",
+    "old_idx": [
+      14,
+      17
+    ],
+    "new_idx": [
+      14
+    ],
+    "reason": "idx=17 vượt phạm vi (chỉ có 15 premises), đã loại bỏ"
+  },
+  {
+    "record": 4,
+    "type": "fol_dedup",
+    "old_premise_count": 12,
+    "new_premise_count": 11,
+    "removed": 1
+  },
+  {
+    "record": 8,
+    "type": "fol_dedup",
+    "old_premise_count": 7,
+    "new_premise_count": 5,
+    "removed": 2
+  },
+  {
+    "record": 29,
+    "type": "fol_dedup",
+    "old_premise_count": 13,
+    "new_premise_count": 12,
+    "removed": 1
+  },
+  {
+    "record": 31,
+    "type": "fol_dedup",
+    "old_premise_count": 11,
+    "new_premise_count": 8,
+    "removed": 3
+  },
+  {
+    "record": 106,
+    "type": "fol_dedup",
+    "old_premise_count": 16,
+    "new_premise_count": 15,
+    "removed": 1
+  },
+  {
+    "record": 108,
+    "type": "fol_dedup",
+    "old_premise_count": 16,
+    "new_premise_count": 15,
+    "removed": 1
+  },
+  {
+    "record": 109,
+    "type": "fol_dedup",
+    "old_premise_count": 16,
+    "new_premise_count": 15,
+    "removed": 1
+  },
+  {
+    "record": 110,
+    "type": "fol_dedup",
+    "old_premise_count": 15,
+    "new_premise_count": 13,
+    "removed": 2
+  },
+  {
+    "record": 247,
+    "type": "fol_dedup",
+    "old_premise_count": 15,
+    "new_premise_count": 12,
+    "removed": 3
+  },
+  {
+    "record": 248,
+    "type": "fol_dedup",
+    "old_premise_count": 15,
+    "new_premise_count": 11,
+    "removed": 4
+  },
+  {
+    "record": 249,
+    "type": "fol_dedup",
+    "old_premise_count": 15,
+    "new_premise_count": 11,
+    "removed": 4
+  },
+  {
+    "record": 250,
+    "type": "fol_dedup",
+    "old_premise_count": 13,
+    "new_premise_count": 11,
+    "removed": 2
+  },
+  {
+    "record": 251,
+    "type": "fol_dedup",
+    "old_premise_count": 15,
+    "new_premise_count": 14,
+    "removed": 1
+  },
+  {
+    "record": 290,
+    "type": "fol_dedup",
+    "old_premise_count": 9,
+    "new_premise_count": 8,
+    "removed": 1
+  }
+]
