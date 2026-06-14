@@ -1,0 +1,399 @@
+6.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.8s 3 0.00s - to python to disable frozen modules.
+6.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.4s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.4s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.4s 7 0.00s - to python to disable frozen modules.
+7.4s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+32.3s 9 Kaggle T4 fixes applied
+34.6s 10 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.9/58.9 kB 2.4 MB/s eta 0:00:00
+34.8s 11 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.9/58.9 kB 2.4 MB/s eta 0:00:00
+37.7s 12 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.6/71.6 MB 27.4 MB/s eta 0:00:00
+37.7s 13 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 kB 30.8 MB/s eta 0:00:00
+37.8s 14 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 506.8/506.8 kB 32.1 MB/s eta 0:00:00
+37.9s 15 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.6/71.6 MB 27.4 MB/s eta 0:00:00
+37.9s 16 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 kB 30.8 MB/s eta 0:00:00
+37.9s 17 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 506.8/506.8 kB 32.1 MB/s eta 0:00:00
+38.3s 18 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.7/60.7 MB 32.6 MB/s eta 0:00:00
+38.3s 19 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.7/119.7 kB 10.7 MB/s eta 0:00:00
+38.5s 20 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 110.5 MB/s eta 0:00:00
+38.5s 21 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.7/60.7 MB 32.6 MB/s eta 0:00:00
+38.5s 22 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.7/119.7 kB 10.7 MB/s eta 0:00:00
+38.5s 23 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 110.5 MB/s eta 0:00:00
+38.6s 24 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 110.6 MB/s eta 0:00:00
+38.6s 25 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 924.4/924.4 kB 53.0 MB/s eta 0:00:00
+38.7s 26 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 87.3 MB/s eta 0:00:00
+38.7s 27 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 94.8 MB/s eta 0:00:00
+38.7s 28 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 185.2/185.2 kB 15.7 MB/s eta 0:00:00
+38.8s 29 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 110.6 MB/s eta 0:00:00
+38.8s 30 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 924.4/924.4 kB 53.0 MB/s eta 0:00:00
+38.8s 31 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 87.3 MB/s eta 0:00:00
+38.8s 32 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 94.8 MB/s eta 0:00:00
+38.8s 33 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 185.2/185.2 kB 15.7 MB/s eta 0:00:00
+38.8s 34 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 98.5 MB/s eta 0:00:00
+38.8s 35 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.0/225.0 kB 15.9 MB/s eta 0:00:00
+39.0s 36 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 98.5 MB/s eta 0:00:00
+39.0s 37 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.0/225.0 kB 15.9 MB/s eta 0:00:00
+57.8s 38 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+57.8s 39 dask-cuda 26.2.0 requires cuda-core==0.3.*, but you have cuda-core 1.0.1 which is incompatible.
+57.8s 40 dask-cuda 26.2.0 requires numba-cuda<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+57.8s 41 distributed-ucxx-cu12 0.48.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+57.8s 42 cuml-cu12 26.2.0 requires numba<0.62.0,>=0.60.0, but you have numba 0.65.1 which is incompatible.
+57.8s 43 cuml-cu12 26.2.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+57.8s 44 ucxx-cu12 0.48.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+57.8s 45 cudf-cu12 26.2.1 requires numba<0.62.0,>=0.60.0, but you have numba 0.65.1 which is incompatible.
+57.8s 46 cudf-cu12 26.2.1 requires numba-cuda[cu12]<0.23.0,>=0.22.2, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 47 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+58.0s 48 dask-cuda 26.2.0 requires cuda-core==0.3.*, but you have cuda-core 1.0.1 which is incompatible.
+58.0s 49 dask-cuda 26.2.0 requires numba-cuda<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 50 distributed-ucxx-cu12 0.48.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 51 cuml-cu12 26.2.0 requires numba<0.62.0,>=0.60.0, but you have numba 0.65.1 which is incompatible.
+58.0s 52 cuml-cu12 26.2.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 53 ucxx-cu12 0.48.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 54 cudf-cu12 26.2.1 requires numba<0.62.0,>=0.60.0, but you have numba 0.65.1 which is incompatible.
+58.0s 55 cudf-cu12 26.2.1 requires numba-cuda[cu12]<0.23.0,>=0.22.2, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 56 
+58.0s 57 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+58.0s 58 dask-cuda 26.2.0 requires cuda-core==0.3.*, but you have cuda-core 1.0.1 which is incompatible.
+58.0s 59 dask-cuda 26.2.0 requires numba-cuda<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 60 distributed-ucxx-cu12 0.48.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 61 cuml-cu12 26.2.0 requires numba<0.62.0,>=0.60.0, but you have numba 0.65.1 which is incompatible.
+58.0s 62 cuml-cu12 26.2.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 63 ucxx-cu12 0.48.0 requires numba-cuda[cu12]<0.23.0,>=0.22.1, but you have numba-cuda 0.30.2 which is incompatible.
+58.0s 64 cudf-cu12 26.2.1 requires numba<0.62.0,>=0.60.0, but you have numba 0.65.1 which is incompatible.
+58.0s 65 cudf-cu12 26.2.1 requires numba-cuda[cu12]<0.23.0,>=0.22.2, but you have numba-cuda 0.30.2 which is incompatible.
+59.5s 66 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 680.7/680.7 kB 16.3 MB/s eta 0:00:00
+59.7s 67 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 680.7/680.7 kB 16.3 MB/s eta 0:00:00
+67.6s 68 PyTorch 2.10.0+cu128 CUDA True
+67.6s 69 ======================================================================
+67.6s 70 Resolving Kaggle paths...
+67.6s 71 ======================================================================
+67.6s 72 [PATH] resolved MODEL   : /kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1
+67.6s 73 [PATH] resolved TRAIN   : /kaggle/input/datasets/nguyenminhtric/test-pipeline/Logic_Based_Educational_Queries_v5_repair_tier1_dedup_normfol_drop_logicfallacy.json
+67.6s 74 [PATH] resolved TEST    : /kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json
+67.6s 75 
+67.6s 76 ======================================================================
+67.6s 77 v16 Training Configuration
+67.6s 78 ======================================================================
+67.6s 79 Model              : qwen-3-8b (load_in_4bit=True)
+67.6s 80 Method             : LoRA SFT (responses-only)
+67.6s 81 LoRA r / alpha     : 16 / 16
+67.6s 82 LoRA dropout       : 0
+67.6s 83 Target modules     : 7 = ['q_proj', 'k_proj', 'v_proj', 'o_proj', 'gate_proj', 'up_proj', 'down_proj']
+67.6s 84 Max seq length     : 4096
+67.6s 85 Epochs             : 2
+67.6s 86 Per-device batch   : 2
+67.6s 87 Grad accumulation  : 4 (effective batch = 8)
+67.6s 88 Learning rate      : 0.0001
+67.6s 89 LR scheduler       : cosine
+67.6s 90 Warmup steps       : 10
+67.6s 91 Weight decay       : 0.01
+67.6s 92 Optimizer          : adamw_8bit
+67.6s 93 Logging steps      : 5
+67.6s 94 Seed               : 42
+67.6s 95 Train ratio        : 0.8
+67.6s 96 enable_thinking    : False
+67.6s 97 NEFTune (v17 only) : False (alpha=0)
+67.6s 98 Class balance (v17): True (No=3x  Unknown=1x)
+67.6s 99 LoRA output        : /kaggle/working/qwen3_cot_lora_v20_v5
+67.6s 100 ======================================================================
+67.6s 101 v16 config loaded (v20 = single-intervention class-balanced training: NEFTune OFF, No oversample 3x, Unknown 1x)
+68.0s 102 🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+94.6s 103 🦥 Unsloth Zoo will now patch everything to make training faster!
+98.1s 104 ==((====))==  Unsloth 2026.6.1: Fast Qwen3 patching. Transformers: 5.5.0.
+98.1s 105 \\   /|    Tesla T4. Num GPUs = 2. Max memory: 14.563 GB. Platform: Linux.
+98.1s 106 O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 7.5. CUDA Toolkit: 12.8. Triton: 3.6.0
+98.1s 107 \        /    Bfloat16 = FALSE. FA [Xformers = 0.0.35. FA2 = False]
+98.1s 108 "-____-"     Free license: http://github.com/unslothai/unsloth
+98.1s 109 Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+186.9s 110 Unsloth 2026.6.1 patched 36 layers with 36 QKV layers, 36 O layers and 36 MLP layers.
+186.9s 111 
+186.9s 112 Unsloth 2026.6.1 patched 36 layers with 36 QKV layers, 36 O layers and 36 MLP layers.
+189.0s 113 Trainable: 43,646,976/4,761,498,624 (0.92%)
+189.1s 114 ======================================================================
+189.1s 115 Dataset loaded: 399 records
+189.1s 116 ======================================================================
+189.1s 117 Total questions       : 784
+189.1s 118 Total premises        : 4294
+189.1s 119 Premises with FOL     : 4326 (100.7%)
+189.1s 120 Avg premises/record   : 10.8
+189.1s 121 Avg questions/record  : 2.0
+189.1s 122 
+189.1s 123 Class distribution (full dataset, n=784):
+189.1s 124 No:  233 ( 29.7%) ##############
+189.1s 125 Unknown:  187 ( 23.9%) ###########
+189.1s 126 Yes:  170 ( 21.7%) ##########
+189.1s 127 A:  111 ( 14.2%) #######
+189.1s 128 B:   47 (  6.0%) ##
+189.1s 129 C:   20 (  2.6%) #
+189.1s 130 D:   16 (  2.0%) #
+189.1s 131 
+189.1s 132 Split (seed=42, ratio=0.8):
+189.1s 133 Train: 319 records (79.9%)
+189.1s 134 Val  : 80 records (20.1%)
+189.1s 135 
+189.1s 136 Class distribution (train, n=628):
+189.1s 137 A:   83 ( 13.2%)
+189.1s 138 B:   39 (  6.2%)
+189.1s 139 C:   14 (  2.2%)
+189.1s 140 D:   11 (  1.8%)
+189.1s 141 No:  193 ( 30.7%)
+189.1s 142 Unknown:  152 ( 24.2%)
+189.1s 143 Yes:  136 ( 21.7%)
+189.1s 144 
+189.1s 145 Class distribution (val, n=156):
+189.1s 146 A:   28 ( 17.9%)
+189.1s 147 B:    8 (  5.1%)
+189.1s 148 C:    6 (  3.8%)
+189.1s 149 D:    5 (  3.2%)
+189.1s 150 No:   40 ( 25.6%)
+189.1s 151 Unknown:   35 ( 22.4%)
+189.1s 152 Yes:   34 ( 21.8%)
+189.1s 153 
+189.1s 154 Train SFT records (after oversample=True):
+189.1s 155 A:   83 (  8.2%)
+189.1s 156 B:   39 (  3.8%)
+189.1s 157 C:   14 (  1.4%)
+189.1s 158 D:   11 (  1.1%)
+189.1s 159 No:  579 ( 57.1%)  <- oversampled 3x
+189.1s 160 Unknown:  152 ( 15.0%)
+189.1s 161 Yes:  136 ( 13.4%)
+189.1s 162 Total train examples: 1014
+189.1s 163 
+189.1s 164 --- Sample training record ---
+189.1s 165 USER     : ### Premises
+189.1s 166 P1. If a Python code is well-tested, then the project is optimized.
+189.1s 167 P2. If a Python code does not follow PEP 8 standards, then it is not well-tested.
+189.1s 168 P3. All Python projects are easy to maintain.
+189.1s 169 P4. All Python code is well-tested.
+189.1s 170 P5. If a Python code follows PEP 8 standards, then it i...
+189.1s 171 ASSISTANT: Premise 1 states that if a Python project is well-tested, it is optimized. By logical contraposition, if a project is not optimized, it is not well-tested, supporting option A with the fewest premises. Option B is false because optimization does not imply well-structured projects. Option C follows from premises 4, 1, and 9 but requires more steps. Option D follows from premises 1 and 6 but is less
+189.1s 172 
+189.1s 173 HF Dataset: Dataset({
+189.1s 174 features: ['conversations'],
+189.1s 175 num_rows: 1014
+189.1s 176 })
+189.2s 177 ======================================================================
+189.2s 178 Building SFTTrainer
+189.2s 179 ======================================================================
+189.2s 180 [v16] NEFTune OFF (control)
+204.4s 181 🦥 Unsloth: Padding-free auto-enabled, enabling faster training.
+206.1s 182 
+206.1s 183 Trainer ready:
+206.1s 184 Training examples : 1014
+206.1s 185 Effective batch   : 8
+206.1s 186 Total steps       : ~252
+206.1s 187 Steps per epoch   : ~126
+206.1s 188 Will log every    : 5 steps
+206.6s 189 The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+206.6s 190 
+206.6s 191 The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+206.6s 192 ======================================================================
+206.6s 193 STARTING v20 TRAINING (v5 + No 3x oversample, no NEFTune)
+206.6s 194 ======================================================================
+206.6s 195 Watch for per-step loss/lr/grad_norm below...
+207.4s 196 ==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+207.4s 197 \\   /|    Num examples = 1,014 | Num Epochs = 2 | Total steps = 254
+207.4s 198 O^O/ \_/ \    Batch size per device = 2 | Gradient accumulation steps = 4
+207.4s 199 \        /    Data Parallel GPUs = 1 | Total batch size (2 x 4 x 1) = 8
+207.4s 200 "-____-"     Trainable parameters = 43,646,976 of 8,234,382,336 (0.53% trained)
+207.4s 201 
+207.4s 202 ==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+207.4s 203 \\   /|    Num examples = 1,014 | Num Epochs = 2 | Total steps = 254
+207.4s 204 O^O/ \_/ \    Batch size per device = 2 | Gradient accumulation steps = 4
+207.4s 205 \        /    Data Parallel GPUs = 1 | Total batch size (2 x 4 x 1) = 8
+207.4s 206 "-____-"     Trainable parameters = 43,646,976 of 8,234,382,336 (0.53% trained)
+207.8s 207 `use_return_dict` is deprecated! Use `return_dict` instead!
+207.8s 208 
+207.8s 209 `use_return_dict` is deprecated! Use `return_dict` instead!
+208.1s 210 Unsloth: Will smartly offload gradients to save VRAM!
+219.6s 211 Unsloth: Double buffering enabled (parallel H2D + compute) for backward pass.
+1845.5s 212 Unsloth: Restored added_tokens_decoder metadata in /kaggle/working/cot_lora_ckpt_v20_v5/checkpoint-127/tokenizer_config.json.
+1845.5s 213 
+1845.5s 214 Unsloth: Restored added_tokens_decoder metadata in /kaggle/working/cot_lora_ckpt_v20_v5/checkpoint-127/tokenizer_config.json.
+3492.0s 215 Unsloth: Restored added_tokens_decoder metadata in /kaggle/working/cot_lora_ckpt_v20_v5/checkpoint-254/tokenizer_config.json.
+3492.0s 216 
+3492.0s 217 Unsloth: Restored added_tokens_decoder metadata in /kaggle/working/cot_lora_ckpt_v20_v5/checkpoint-254/tokenizer_config.json.
+3493.1s 218 
+3493.1s 219 ======================================================================
+3493.1s 220 TRAINING COMPLETE
+3493.1s 221 ======================================================================
+3493.1s 222 Duration         : 54.78 min
+3493.1s 223 Final train loss : 0.4241
+3493.1s 224 Log entries      : train=50  eval=0
+3493.1s 225 
+3493.1s 226 Loss curve (every 5 steps):
+3493.1s 227 step    5: loss=2.4676  lr=3.00e-05  grad_norm=1.947
+3493.1s 228 step   10: loss=1.4622  lr=8.00e-05  grad_norm=1.541
+3493.1s 229 step   15: loss=1.0977  lr=1.00e-04  grad_norm=0.713
+3493.1s 230 step   20: loss=0.7893  lr=9.97e-05  grad_norm=0.695
+3493.1s 231 step   25: loss=0.8091  lr=9.93e-05  grad_norm=0.590
+3493.1s 232 step   30: loss=0.6069  lr=9.87e-05  grad_norm=0.440
+3493.1s 233 step   35: loss=0.5899  lr=9.78e-05  grad_norm=0.447
+3493.1s 234 step   40: loss=0.4981  lr=9.68e-05  grad_norm=0.571
+3493.1s 235 step   45: loss=0.5048  lr=9.56e-05  grad_norm=0.437
+3493.1s 236 step   50: loss=0.4915  lr=9.41e-05  grad_norm=0.368
+3493.1s 237 step   55: loss=0.4193  lr=9.25e-05  grad_norm=0.503
+3493.1s 238 step   60: loss=0.4995  lr=9.08e-05  grad_norm=0.438
+3493.1s 239 step   65: loss=0.4135  lr=8.88e-05  grad_norm=0.390
+3493.1s 240 step   70: loss=0.3889  lr=8.67e-05  grad_norm=0.438
+3493.1s 241 step   75: loss=0.3773  lr=8.44e-05  grad_norm=0.379
+3493.1s 242 step   80: loss=0.4084  lr=8.20e-05  grad_norm=0.663
+3493.1s 243 step   85: loss=0.3444  lr=7.95e-05  grad_norm=0.692
+3493.1s 244 step   90: loss=0.3044  lr=7.68e-05  grad_norm=0.454
+3493.1s 245 step   95: loss=0.3669  lr=7.41e-05  grad_norm=0.527
+3493.1s 246 step  100: loss=0.4653  lr=7.12e-05  grad_norm=0.403
+3493.1s 247 step  105: loss=0.5147  lr=6.82e-05  grad_norm=0.529
+3493.1s 248 step  110: loss=0.2946  lr=6.52e-05  grad_norm=0.483
+3493.1s 249 step  115: loss=0.3891  lr=6.21e-05  grad_norm=0.549
+3493.1s 250 step  120: loss=0.2767  lr=5.90e-05  grad_norm=0.443
+3493.1s 251 step  125: loss=0.4361  lr=5.58e-05  grad_norm=0.808
+3493.1s 252 step  130: loss=0.2619  lr=5.26e-05  grad_norm=0.639
+3493.1s 253 step  135: loss=0.2795  lr=4.94e-05  grad_norm=0.892
+3493.1s 254 step  140: loss=0.3349  lr=4.61e-05  grad_norm=1.074
+3493.1s 255 step  145: loss=0.3007  lr=4.29e-05  grad_norm=0.741
+3493.1s 256 step  150: loss=0.2166  lr=3.98e-05  grad_norm=0.548
+3493.1s 257 step  155: loss=0.2581  lr=3.66e-05  grad_norm=0.615
+3493.1s 258 step  160: loss=0.2891  lr=3.36e-05  grad_norm=1.208
+3493.1s 259 step  165: loss=0.2765  lr=3.06e-05  grad_norm=0.643
+3493.1s 260 step  170: loss=0.2597  lr=2.76e-05  grad_norm=0.960
+3493.1s 261 step  175: loss=0.2160  lr=2.48e-05  grad_norm=0.864
+3493.1s 262 step  180: loss=0.1961  lr=2.21e-05  grad_norm=0.912
+3493.1s 263 step  185: loss=0.2817  lr=1.95e-05  grad_norm=0.583
+3493.1s 264 step  190: loss=0.2156  lr=1.70e-05  grad_norm=0.544
+3493.1s 265 step  195: loss=0.2337  lr=1.46e-05  grad_norm=0.424
+3493.1s 266 step  200: loss=0.2277  lr=1.24e-05  grad_norm=0.751
+3493.1s 267 step  205: loss=0.2281  lr=1.04e-05  grad_norm=0.793
+3493.1s 268 step  210: loss=0.1823  lr=8.52e-06  grad_norm=0.635
+3493.1s 269 step  215: loss=0.2697  lr=6.81e-06  grad_norm=0.543
+3493.1s 270 step  220: loss=0.2388  lr=5.28e-06  grad_norm=0.941
+3493.1s 271 step  225: loss=0.1964  lr=3.93e-06  grad_norm=0.718
+3493.1s 272 step  230: loss=0.2963  lr=2.78e-06  grad_norm=1.068
+3493.1s 273 step  235: loss=0.2184  lr=1.82e-06  grad_norm=0.554
+3493.1s 274 step  240: loss=0.1830  lr=1.06e-06  grad_norm=0.811
+3493.1s 275 step  245: loss=0.1709  lr=5.01e-07  grad_norm=0.815
+3493.1s 276 step  250: loss=0.2806  lr=1.49e-07  grad_norm=0.710
+3493.2s 277 Unsloth: Restored added_tokens_decoder metadata in /kaggle/working/qwen3_cot_lora_v20_v5/tokenizer_config.json.
+3493.2s 278 
+3493.2s 279 Unsloth: Restored added_tokens_decoder metadata in /kaggle/working/qwen3_cot_lora_v20_v5/tokenizer_config.json.
+3493.2s 280 
+3493.2s 281 Saved LoRA -> /kaggle/working/qwen3_cot_lora_v20_v5
+3493.2s 282 Contents: ['chat_template.jinja', 'tokenizer.json', 'adapter_model.safetensors', 'tokenizer_config.json', 'adapter_config.json', 'README.md']
+3493.2s 283 Saved config snapshot: /kaggle/working/qwen3_cot_lora_v20_v5/v20_train_config.json
+3493.2s 284 ======================================================================
+3493.2s 285 QUICK SANITY (12 val questions, greedy)
+3493.2s 286 ======================================================================
+3493.3s 287 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+3493.3s 288 
+3493.3s 289 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+3493.4s 290 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3493.4s 291 
+3493.4s 292 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3493.5s 293 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3493.5s 294 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3493.5s 295 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3493.5s 296 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3493.5s 297 
+3493.5s 298 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3493.5s 299 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3493.5s 300 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3493.5s 301 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3494.5s 302 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3494.5s 303 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3494.5s 304 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3494.5s 305 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3494.5s 306 
+3494.5s 307 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3494.5s 308 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3494.5s 309 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3494.5s 310 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3499.0s 311 [ 1/12] gold=      No pred=      No OK
+3499.0s 312 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3499.0s 313 
+3499.0s 314 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3509.6s 315 [ 2/12] gold=     Yes pred=      No X
+3509.6s 316 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3509.6s 317 
+3509.6s 318 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3523.4s 319 [ 3/12] gold= Unknown pred= Unknown OK
+3523.4s 320 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3523.4s 321 
+3523.4s 322 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3528.6s 323 [ 4/12] gold=      No pred=      No OK
+3528.6s 324 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3528.6s 325 
+3528.6s 326 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3529.3s 327 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3529.3s 328 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3529.3s 329 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3529.3s 330 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3529.3s 331 
+3529.3s 332 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3529.3s 333 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3529.3s 334 /usr/local/lib/python3.12/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+3529.3s 335 warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+3532.9s 336 [ 5/12] gold=     Yes pred=     Yes OK
+3532.9s 337 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3532.9s 338 
+3532.9s 339 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3536.8s 340 [ 6/12] gold=      No pred=      No OK
+3536.8s 341 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3536.8s 342 
+3536.8s 343 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3540.9s 344 [ 7/12] gold= Unknown pred= Unknown OK
+3540.9s 345 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3540.9s 346 
+3540.9s 347 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3551.4s 348 [ 8/12] gold=       A pred= Unknown X
+3551.4s 349 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3551.4s 350 
+3551.4s 351 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3555.2s 352 [ 9/12] gold=       A pred=       A OK
+3555.2s 353 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3555.2s 354 
+3555.2s 355 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3563.8s 356 [10/12] gold=       D pred=       D OK
+3563.8s 357 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3563.8s 358 
+3563.8s 359 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3582.4s 360 [11/12] gold=       A pred=       A OK
+3582.5s 361 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3582.5s 362 
+3582.5s 363 Both `max_new_tokens` (=256) and `max_length`(=40960) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+3587.2s 364 [12/12] gold=      No pred=      No OK
+3587.2s 365 ----------------------------------------------------------------------
+3587.2s 366 Sanity acc: 10/12 = 83%  (looks healthy)
+3587.2s 367 (Day chi la sanity, KHONG phai final metric. Full eval o v16.1/v17.1.)
+3587.3s 368 ======================================================================
+3587.3s 369 ZIPPING ADAPTER
+3587.3s 370 ======================================================================
+3587.3s 371 + chat_template.jinja (0.0 MB)
+3587.6s 372 + tokenizer.json (11.4 MB)
+3596.2s 373 + adapter_model.safetensors (174.7 MB)
+3596.2s 374 + tokenizer_config.json (0.0 MB)
+3596.2s 375 + adapter_config.json (0.0 MB)
+3596.2s 376 + v20_train_config.json (0.0 MB)
+3596.2s 377 
+3596.2s 378 Zip created: /kaggle/working/qwen3_cot_lora_v20_v5.zip (163.9 MB)
+3596.2s 379 
+3596.2s 380 ======================================================================
+3596.2s 381 FINAL SANITY CHECK
+3596.2s 382 ======================================================================
+3596.2s 383 [OK] adapter_config.json       (1266 bytes)
+3596.2s 384 [OK] adapter_model.safetensors (174.7 MB)
+3596.2s 385 [OK] qwen3_cot_lora_v20_v5.zip (163.9 MB)
+3596.2s 386 
+3596.2s 387 ======================================================================
+3596.2s 388 NOTEBOOK FINETUNE COMPLETED SUCCESSFULLY
+3596.2s 389 ======================================================================
+3596.3s 390 Next: Save Version, then in the inference notebook Add Data ->
+3596.3s 391 this notebook's output, and it will find qwen3_cot_lora_v20_v5.zip.
+3601.9s 392 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+3601.9s 393 cells[i][c] = re.sub('\\\\\|', '|', cell)
+3602.1s 394 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+3602.1s 395 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+3602.7s 396 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+3603.0s 397 [NbConvertApp] Writing 114933 bytes to __notebook__.ipynb
+3605.3s 398 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+3606.3s 399 [NbConvertApp] Writing 458685 bytes to __results__.html
