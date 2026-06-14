@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+accelerate
+peft
+trl
+bitsandbytes
+sentencepiece
+sympy
+pyyaml
+scikit-learn
