@@ -1,0 +1,2546 @@
+{
+ "version": "rebuild_from_scratch_two_tests_v35",
+ "summaries": {
+  "generated_v4style_300": {
+   "version": "rebuild_from_scratch_v35",
+   "dataset": "generated_v4style_300",
+   "input_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json",
+   "n": 600,
+   "n_mc": 150,
+   "n_ynu": 450,
+   "metrics_raw": {
+    "n": 600,
+    "correct": 366,
+    "acc": 0.61,
+    "micro_f1": 0.61,
+    "macro7": 0.5734564536413621,
+    "weighted_f1": 0.5875702035594739,
+    "mc_macro": 0.5451039570757881,
+    "ynu_macro": 0.6112597823954607,
+    "per_label": {
+     "A": {
+      "precision": 0.5434782608695652,
+      "recall": 1.0,
+      "f1": 0.704225352112676,
+      "support": 50,
+      "pred_count": 92
+     },
+     "B": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "support": 50,
+      "pred_count": 25
+     },
+     "C": {
+      "precision": 1.0,
+      "recall": 0.68,
+      "f1": 0.8095238095238095,
+      "support": 25,
+      "pred_count": 17
+     },
+     "D": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 25,
+      "pred_count": 16
+     },
+     "Yes": {
+      "precision": 0.5921052631578947,
+      "recall": 0.7941176470588235,
+      "f1": 0.678391959798995,
+      "support": 170,
+      "pred_count": 228
+     },
+     "No": {
+      "precision": 0.6620689655172414,
+      "recall": 0.9142857142857143,
+      "f1": 0.768,
+      "support": 105,
+      "pred_count": 145
+     },
+     "Unknown": {
+      "precision": 0.9148936170212766,
+      "recall": 0.24571428571428572,
+      "f1": 0.38738738738738737,
+      "support": 175,
+      "pred_count": 47
+     }
+    },
+    "pred_distribution": {
+     "Unknown": 47,
+     "Yes": 228,
+     "B": 25,
+     "No": 145,
+     "A": 92,
+     "D": 16,
+     "UNPARSEABLE": 30,
+     "C": 17
+    },
+    "gold_distribution": {
+     "Unknown": 175,
+     "Yes": 170,
+     "No": 105,
+     "B": 50,
+     "A": 50,
+     "C": 25,
+     "D": 25
+    }
+   },
+   "metrics_parsefix": {
+    "n": 600,
+    "correct": 366,
+    "acc": 0.61,
+    "micro_f1": 0.61,
+    "macro7": 0.5734564536413621,
+    "weighted_f1": 0.5875702035594739,
+    "mc_macro": 0.5451039570757881,
+    "ynu_macro": 0.6112597823954607,
+    "per_label": {
+     "A": {
+      "precision": 0.5434782608695652,
+      "recall": 1.0,
+      "f1": 0.704225352112676,
+      "support": 50,
+      "pred_count": 92
+     },
+     "B": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "support": 50,
+      "pred_count": 25
+     },
+     "C": {
+      "precision": 1.0,
+      "recall": 0.68,
+      "f1": 0.8095238095238095,
+      "support": 25,
+      "pred_count": 17
+     },
+     "D": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 25,
+      "pred_count": 16
+     },
+     "Yes": {
+      "precision": 0.5921052631578947,
+      "recall": 0.7941176470588235,
+      "f1": 0.678391959798995,
+      "support": 170,
+      "pred_count": 228
+     },
+     "No": {
+      "precision": 0.6620689655172414,
+      "recall": 0.9142857142857143,
+      "f1": 0.768,
+      "support": 105,
+      "pred_count": 145
+     },
+     "Unknown": {
+      "precision": 0.9148936170212766,
+      "recall": 0.24571428571428572,
+      "f1": 0.38738738738738737,
+      "support": 175,
+      "pred_count": 47
+     }
+    },
+    "pred_distribution": {
+     "Unknown": 47,
+     "Yes": 228,
+     "B": 25,
+     "No": 145,
+     "A": 92,
+     "D": 16,
+     "UNPARSEABLE": 30,
+     "C": 17
+    },
+    "gold_distribution": {
+     "Unknown": 175,
+     "Yes": 170,
+     "No": 105,
+     "B": 50,
+     "A": 50,
+     "C": 25,
+     "D": 25
+    }
+   },
+   "metrics_v35": {
+    "n": 600,
+    "correct": 374,
+    "acc": 0.6233333333333333,
+    "micro_f1": 0.6233333333333333,
+    "macro7": 0.5808992477975626,
+    "weighted_f1": 0.598207851378164,
+    "mc_macro": 0.5451039570757881,
+    "ynu_macro": 0.6286263020932622,
+    "per_label": {
+     "A": {
+      "precision": 0.5434782608695652,
+      "recall": 1.0,
+      "f1": 0.704225352112676,
+      "support": 50,
+      "pred_count": 92
+     },
+     "B": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "support": 50,
+      "pred_count": 25
+     },
+     "C": {
+      "precision": 1.0,
+      "recall": 0.68,
+      "f1": 0.8095238095238095,
+      "support": 25,
+      "pred_count": 17
+     },
+     "D": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 25,
+      "pred_count": 16
+     },
+     "Yes": {
+      "precision": 0.6108597285067874,
+      "recall": 0.7941176470588235,
+      "f1": 0.6905370843989771,
+      "support": 170,
+      "pred_count": 221
+     },
+     "No": {
+      "precision": 0.6797385620915033,
+      "recall": 0.9904761904761905,
+      "f1": 0.8062015503875969,
+      "support": 105,
+      "pred_count": 153
+     },
+     "Unknown": {
+      "precision": 0.9347826086956522,
+      "recall": 0.24571428571428572,
+      "f1": 0.3891402714932127,
+      "support": 175,
+      "pred_count": 46
+     }
+    },
+    "pred_distribution": {
+     "Unknown": 46,
+     "Yes": 221,
+     "No": 153,
+     "B": 25,
+     "A": 92,
+     "D": 16,
+     "UNPARSEABLE": 30,
+     "C": 17
+    },
+    "gold_distribution": {
+     "Unknown": 175,
+     "Yes": 170,
+     "No": 105,
+     "B": 50,
+     "A": 50,
+     "C": 25,
+     "D": 25
+    }
+   },
+   "v35_flips": [
+    {
+     "flat_id": "generated_v4style_300:1:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one student improves technique?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ImprovesTechnique",
+      "target_score": 1.0,
+      "target_words": [
+       "improves",
+       "technique"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": true,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+      "pos_proof_path": "∀x RegistersForExam(x) + ∀x (RegistersForExam(x) → TakesPracticeTest(x)) + ∀x (TakesPracticeTest(x) → ReviewsMistakes(x)) + ∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "generated_v4style_300:14:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one trainee earns a certificate?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "EarnsCertificate",
+      "target_score": 1.0,
+      "target_words": [
+       "certificate",
+       "earns"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": true,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsCertificate(x) → JoinsProfessionalBody(x))",
+      "pos_proof_path": "∀x AttendsSeminar(x) + ∀x (AttendsSeminar(x) → CompletesWorkshop(x)) + ∀x (CompletesWorkshop(x) → SubmitsPortfolio(x)) + ∀x (SubmitsPortfolio(x) → EarnsCertificate(x))",
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "generated_v4style_300:36:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one researcher data?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "AnalyzesData",
+      "target_score": 0.5,
+      "target_words": [
+       "analyzes",
+       "data"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": true,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AnalyzesData(x) → PresentsAtConference(x))",
+      "pos_proof_path": "∀x WritesProposal(x) + ∀x (WritesProposal(x) → ReceivesGrant(x)) + ∀x (ReceivesGrant(x) → ConductsExperiment(x)) + ∀x (ConductsExperiment(x) → AnalyzesData(x))",
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "generated_v4style_300:71:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one researcher collects data?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "CollectsData",
+      "target_score": 1.0,
+      "target_words": [
+       "collects",
+       "data"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": true,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CollectsData(x) → PublishesPaper(x))",
+      "pos_proof_path": "∀x ReadsLiterature(x) + ∀x (ReadsLiterature(x) → IdentifiesGap(x)) + ∀x (IdentifiesGap(x) → DesignsStudy(x)) + ∀x (DesignsStudy(x) → CollectsData(x))",
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "generated_v4style_300:127:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one employee is eligible for promotion?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "EligibleForPromotion",
+      "target_score": 1.0,
+      "target_words": [
+       "eligible",
+       "for",
+       "promotion"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": true,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EligibleForPromotion(x) → LeadsProject(x))",
+      "pos_proof_path": "∀x CompletesOnboarding(x) + ∀x (CompletesOnboarding(x) → PassesProbation(x)) + ∀x (PassesProbation(x) → ReceivesFullBenefits(x)) + ∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "generated_v4style_300:224:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one student group grade?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ReceivesGroupGrade",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "grade",
+       "group",
+       "receives"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": true,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+      "pos_proof_path": "∀x JoinsStudyGroup(x) + ∀x (JoinsStudyGroup(x) → ParticipatesInDiscussion(x)) + ∀x (ParticipatesInDiscussion(x) → CompletesGroupProject(x)) + ∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))",
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "generated_v4style_300:263:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one student improves technique?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ImprovesTechnique",
+      "target_score": 1.0,
+      "target_words": [
+       "improves",
+       "technique"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": true,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+      "pos_proof_path": "∀x RegistersForExam(x) + ∀x (RegistersForExam(x) → TakesPracticeTest(x)) + ∀x (TakesPracticeTest(x) → ReviewsMistakes(x)) + ∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "generated_v4style_300:276:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one employee is eligible for promotion?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "EligibleForPromotion",
+      "target_score": 1.0,
+      "target_words": [
+       "eligible",
+       "for",
+       "promotion"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": true,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EligibleForPromotion(x) → LeadsProject(x))",
+      "pos_proof_path": "∀x CompletesOnboarding(x) + ∀x (CompletesOnboarding(x) → PassesProbation(x)) + ∀x (PassesProbation(x) → ReceivesFullBenefits(x)) + ∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    }
+   ],
+   "n_v35_flips": 8,
+   "posthoc_good": 8,
+   "posthoc_bad": 0,
+   "latency": {
+    "total_sec": 7627.148582935333,
+    "mean_sec": 12.711914304892222
+   },
+   "invalid_counts": {
+    "raw": 30,
+    "parsefix": 30,
+    "v35": 30
+   },
+   "output_pred_file": "rebuild_generated_v4style_300_preds.json"
+  },
+  "benchmark_v2_1000": {
+   "version": "rebuild_from_scratch_v35",
+   "dataset": "benchmark_v2_1000",
+   "input_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/benchmark_v2_1000.json",
+   "n": 2000,
+   "n_mc": 500,
+   "n_ynu": 1500,
+   "metrics_raw": {
+    "n": 2000,
+    "correct": 1622,
+    "acc": 0.811,
+    "micro_f1": 0.811,
+    "macro7": 0.7933146200048736,
+    "weighted_f1": 0.8241785289998551,
+    "mc_macro": 0.7521627413448986,
+    "ynu_macro": 0.8481837915515072,
+    "per_label": {
+     "A": {
+      "precision": 0.5172413793103449,
+      "recall": 0.96,
+      "f1": 0.6722689075630253,
+      "support": 125,
+      "pred_count": 232
+     },
+     "B": {
+      "precision": 0.9239130434782609,
+      "recall": 0.68,
+      "f1": 0.783410138248848,
+      "support": 125,
+      "pred_count": 92
+     },
+     "C": {
+      "precision": 0.9540229885057471,
+      "recall": 0.664,
+      "f1": 0.7830188679245284,
+      "support": 125,
+      "pred_count": 87
+     },
+     "D": {
+      "precision": 0.9318181818181818,
+      "recall": 0.656,
+      "f1": 0.7699530516431925,
+      "support": 125,
+      "pred_count": 88
+     },
+     "Yes": {
+      "precision": 0.8544776119402985,
+      "recall": 0.916,
+      "f1": 0.8841698841698842,
+      "support": 500,
+      "pred_count": 536
+     },
+     "No": {
+      "precision": 0.8837209302325582,
+      "recall": 0.76,
+      "f1": 0.8172043010752689,
+      "support": 500,
+      "pred_count": 430
+     },
+     "Unknown": {
+      "precision": 0.8589211618257261,
+      "recall": 0.828,
+      "f1": 0.8431771894093686,
+      "support": 500,
+      "pred_count": 482
+     }
+    },
+    "pred_distribution": {
+     "No": 430,
+     "C": 87,
+     "A": 232,
+     "Unknown": 482,
+     "Yes": 536,
+     "B": 92,
+     "D": 88,
+     "UNPARSEABLE": 53
+    },
+    "gold_distribution": {
+     "Unknown": 500,
+     "No": 500,
+     "C": 125,
+     "A": 125,
+     "B": 125,
+     "Yes": 500,
+     "D": 125
+    }
+   },
+   "metrics_parsefix": {
+    "n": 2000,
+    "correct": 1622,
+    "acc": 0.811,
+    "micro_f1": 0.811,
+    "macro7": 0.7933146200048736,
+    "weighted_f1": 0.8241785289998551,
+    "mc_macro": 0.7521627413448986,
+    "ynu_macro": 0.8481837915515072,
+    "per_label": {
+     "A": {
+      "precision": 0.5172413793103449,
+      "recall": 0.96,
+      "f1": 0.6722689075630253,
+      "support": 125,
+      "pred_count": 232
+     },
+     "B": {
+      "precision": 0.9239130434782609,
+      "recall": 0.68,
+      "f1": 0.783410138248848,
+      "support": 125,
+      "pred_count": 92
+     },
+     "C": {
+      "precision": 0.9540229885057471,
+      "recall": 0.664,
+      "f1": 0.7830188679245284,
+      "support": 125,
+      "pred_count": 87
+     },
+     "D": {
+      "precision": 0.9318181818181818,
+      "recall": 0.656,
+      "f1": 0.7699530516431925,
+      "support": 125,
+      "pred_count": 88
+     },
+     "Yes": {
+      "precision": 0.8544776119402985,
+      "recall": 0.916,
+      "f1": 0.8841698841698842,
+      "support": 500,
+      "pred_count": 536
+     },
+     "No": {
+      "precision": 0.8837209302325582,
+      "recall": 0.76,
+      "f1": 0.8172043010752689,
+      "support": 500,
+      "pred_count": 430
+     },
+     "Unknown": {
+      "precision": 0.8589211618257261,
+      "recall": 0.828,
+      "f1": 0.8431771894093686,
+      "support": 500,
+      "pred_count": 482
+     }
+    },
+    "pred_distribution": {
+     "No": 430,
+     "C": 87,
+     "A": 232,
+     "Unknown": 482,
+     "Yes": 536,
+     "B": 92,
+     "D": 88,
+     "UNPARSEABLE": 53
+    },
+    "gold_distribution": {
+     "Unknown": 500,
+     "No": 500,
+     "C": 125,
+     "A": 125,
+     "B": 125,
+     "Yes": 500,
+     "D": 125
+    }
+   },
+   "metrics_v35": {
+    "n": 2000,
+    "correct": 1700,
+    "acc": 0.85,
+    "micro_f1": 0.85,
+    "macro7": 0.8162165366389595,
+    "weighted_f1": 0.8642568831095053,
+    "mc_macro": 0.7521627413448986,
+    "ynu_macro": 0.9016215970310409,
+    "per_label": {
+     "A": {
+      "precision": 0.5172413793103449,
+      "recall": 0.96,
+      "f1": 0.6722689075630253,
+      "support": 125,
+      "pred_count": 232
+     },
+     "B": {
+      "precision": 0.9239130434782609,
+      "recall": 0.68,
+      "f1": 0.783410138248848,
+      "support": 125,
+      "pred_count": 92
+     },
+     "C": {
+      "precision": 0.9540229885057471,
+      "recall": 0.664,
+      "f1": 0.7830188679245284,
+      "support": 125,
+      "pred_count": 87
+     },
+     "D": {
+      "precision": 0.9318181818181818,
+      "recall": 0.656,
+      "f1": 0.7699530516431925,
+      "support": 125,
+      "pred_count": 88
+     },
+     "Yes": {
+      "precision": 0.9561586638830898,
+      "recall": 0.916,
+      "f1": 0.9356486210418795,
+      "support": 500,
+      "pred_count": 479
+     },
+     "No": {
+      "precision": 0.8984375,
+      "recall": 0.92,
+      "f1": 0.9090909090909092,
+      "support": 500,
+      "pred_count": 512
+     },
+     "Unknown": {
+      "precision": 0.8995633187772926,
+      "recall": 0.824,
+      "f1": 0.860125260960334,
+      "support": 500,
+      "pred_count": 458
+     }
+    },
+    "pred_distribution": {
+     "No": 512,
+     "C": 87,
+     "A": 232,
+     "Unknown": 458,
+     "Yes": 479,
+     "B": 92,
+     "D": 88,
+     "UNPARSEABLE": 52
+    },
+    "gold_distribution": {
+     "Unknown": 500,
+     "No": 500,
+     "C": 125,
+     "A": 125,
+     "B": 125,
+     "Yes": 500,
+     "D": 125
+    }
+   },
+   "v35_flips": [
+    {
+     "flat_id": "benchmark_v2_1000:10:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Can we conclude that some workshop participant shares a project?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "SharesProject",
+      "target_score": 1.0,
+      "target_words": [
+       "project",
+       "shares"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SharesProject(x) → ReceivesCertificate(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:14:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one intern who shadows a mentor.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ShadowsMentor",
+      "target_score": 1.0,
+      "target_words": [
+       "shadows"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ShadowsMentor(x) → ReceivesStipend(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:41:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one library patron attend the book club?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "AttendsBookClub",
+      "target_score": 0.5,
+      "target_words": [
+       "attends",
+       "book"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AttendsBookClub(x) → UsesArchives(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:44:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Is it true that every library patron borrows laptops?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "BorrowsLaptops",
+      "target_score": 1.0,
+      "target_words": [
+       "borrows",
+       "laptops"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (BorrowsLaptops(x) → RegistersOnline(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:48:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one athlete respect the curfew?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "RespectsCurfew",
+      "target_score": 0.5,
+      "target_words": [
+       "curfew",
+       "respects"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (RespectsCurfew(x) → PassesFitnessTest(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:72:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some workshop participant who asks questions?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "AsksQuestions",
+      "target_score": 1.0,
+      "target_words": [
+       "asks",
+       "questions"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AsksQuestions(x) → FillsSurvey(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:96:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some researcher who passes the ethics review?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PassesEthicsReview",
+      "target_score": 1.0,
+      "target_words": [
+       "ethics",
+       "passes",
+       "review"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesEthicsReview(x) → MentorsJuniors(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:131:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one exam candidate pass the identity check?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PassesIdentityCheck",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "check",
+       "identity",
+       "passes"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesIdentityCheck(x) → EarnsDistinction(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:139:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one volunteer attend orientation?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "AttendsOrientation",
+      "target_score": 0.5,
+      "target_words": [
+       "attends",
+       "orientation"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AttendsOrientation(x) → LogsServiceHours(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:146:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one researcher write a proposal?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "WritesProposal",
+      "target_score": 0.5,
+      "target_words": [
+       "proposal",
+       "writes"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (WritesProposal(x) → SharesDataset(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:151:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one library patron reserve a study room?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ReservesStudyRoom",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "reserves",
+       "room",
+       "study"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReservesStudyRoom(x) → ReturnsBooksOnTime(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:151:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one library patron who attends the book club.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "AttendsBookClub",
+      "target_score": 1.0,
+      "target_words": [
+       "attends",
+       "book"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AttendsBookClub(x) → DonatesBooks(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:159:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one intern who passes the evaluation.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PassesEvaluation",
+      "target_score": 1.0,
+      "target_words": [
+       "evaluation",
+       "passes"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesEvaluation(x) → AttendsWorkshops(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:173:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one startup team keep a healthy runway?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "KeepsRunwayHealthy",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "healthy",
+       "keeps",
+       "runway"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (KeepsRunwayHealthy(x) → RaisesFunding(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:192:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some exam candidate who earns a distinction?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "EarnsDistinction",
+      "target_score": 1.0,
+      "target_words": [
+       "distinction",
+       "earns"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsDistinction(x) → ReceivesAdmitCard(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:205:0",
+     "old": "UNPARSEABLE",
+     "new": "No",
+     "gold": "No",
+     "question": "Can we conclude that every software project deploys cleanly, according to the premises?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "DeploysCleanly",
+      "target_score": 1.0,
+      "target_words": [
+       "cleanly",
+       "deploys"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (DeploysCleanly(x) → ScalesWell(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:223:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Do all software projects deploy cleanly?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "DeploysCleanly",
+      "target_score": 0.5,
+      "target_words": [
+       "cleanly",
+       "deploys"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (DeploysCleanly(x) → FollowsStyleGuide(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:232:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Can we conclude that some volunteer updates the logbook?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "UpdatesLogbook",
+      "target_score": 1.0,
+      "target_words": [
+       "logbook",
+       "updates"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (UpdatesLogbook(x) → CompletesTraining(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:233:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: All scholarship applicants attend the ceremony.",
+     "certificate": {
+      "qtype": "universal",
+      "target": "AttendsCeremony",
+      "target_score": 0.5,
+      "target_words": [
+       "attends",
+       "ceremony"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AttendsCeremony(x) → DemonstratesNeed(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:235:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one student submit assignments?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "SubmitsAssignments",
+      "target_score": 0.5,
+      "target_words": [
+       "assignments",
+       "submits"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SubmitsAssignments(x) → MeetsAdvisor(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:270:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one startup team reach profitability?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ReachesProfitability",
+      "target_score": 0.5,
+      "target_words": [
+       "profitability",
+       "reaches"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReachesProfitability(x) → KeepsRunwayHealthy(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:294:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one software project who deploys cleanly.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "DeploysCleanly",
+      "target_score": 1.0,
+      "target_words": [
+       "cleanly",
+       "deploys"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (DeploysCleanly(x) → UsesVersionControl(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:304:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one library patron hold a valid card?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "HoldsValidCard",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "card",
+       "holds",
+       "valid"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (HoldsValidCard(x) → ReturnsBooksOnTime(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:308:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one workshop participant who pays the registration fee.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PaysRegistrationFee",
+      "target_score": 1.0,
+      "target_words": [
+       "fee",
+       "pays",
+       "registration"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PaysRegistrationFee(x) → ReceivesCertificate(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:320:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some intern who writes the final report?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "WritesReport",
+      "target_score": 1.0,
+      "target_words": [
+       "report",
+       "writes"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (WritesReport(x) → GetsReturnOffer(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:326:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: All exam candidates receive an admit card.",
+     "certificate": {
+      "qtype": "universal",
+      "target": "ReceivesAdmitCard",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "admit",
+       "card",
+       "receives"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesAdmitCard(x) → BringsValidID(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:355:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one software project get approved?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "GetsApproved",
+      "target_score": 0.5,
+      "target_words": [
+       "approved",
+       "gets"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (GetsApproved(x) → HandlesErrors(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:360:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one athlete who earns a starting spot.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "EarnsStartingSpot",
+      "target_score": 1.0,
+      "target_words": [
+       "earns",
+       "spot",
+       "starting"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsStartingSpot(x) → LiftsWeights(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:366:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one student complete the capstone project?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "CompletesCapstone",
+      "target_score": 0.5,
+      "target_words": [
+       "capstone",
+       "completes"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CompletesCapstone(x) → SubmitsAssignments(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:374:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some student who passes the final exam?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PassesFinalExam",
+      "target_score": 1.0,
+      "target_words": [
+       "exam",
+       "final",
+       "passes"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesFinalExam(x) → ReceivesScholarship(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:401:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one intern join daily standups?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "JoinsStandups",
+      "target_score": 0.5,
+      "target_words": [
+       "joins",
+       "standups"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (JoinsStandups(x) → CompletesOnboarding(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:404:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Is it true that every lab member calibrates the equipment?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "CalibratesEquipment",
+      "target_score": 1.0,
+      "target_words": [
+       "calibrates",
+       "equipment"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CalibratesEquipment(x) → FollowsProtocol(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:427:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one volunteer who handles donations.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "HandlesDonations",
+      "target_score": 1.0,
+      "target_words": [
+       "donations",
+       "handles"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (HandlesDonations(x) → LeadsShift(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:430:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one graduate student win a fellowship?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "WinsFellowship",
+      "target_score": 0.5,
+      "target_words": [
+       "fellowship",
+       "wins"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (WinsFellowship(x) → JoinsLabRotation(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:448:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one library patron pay no fines?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PaysNoFines",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "fines",
+       "no",
+       "pays"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PaysNoFines(x) → DonatesBooks(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:450:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some volunteer who gets a recommendation letter?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "GetsRecommendation",
+      "target_score": 1.0,
+      "target_words": [
+       "gets",
+       "recommendation"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (GetsRecommendation(x) → LeadsShift(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:454:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one scholarship applicant who submits a transcript.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "SubmitsTranscript",
+      "target_score": 1.0,
+      "target_words": [
+       "submits",
+       "transcript"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SubmitsTranscript(x) → AttendsCeremony(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:462:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one library patron register online?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "RegistersOnline",
+      "target_score": 0.5,
+      "target_words": [
+       "online",
+       "registers"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (RegistersOnline(x) → AttendsBookClub(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:482:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: All graduate students meet the committee.",
+     "certificate": {
+      "qtype": "universal",
+      "target": "MeetsCommittee",
+      "target_score": 0.5,
+      "target_words": [
+       "committee",
+       "meets"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (MeetsCommittee(x) → DefendsThesis(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:491:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some scholarship applicant who submits a transcript?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "SubmitsTranscript",
+      "target_score": 1.0,
+      "target_words": [
+       "submits",
+       "transcript"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SubmitsTranscript(x) → MeetsGPACutoff(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:519:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one scholarship applicant demonstrate financial need?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "DemonstratesNeed",
+      "target_score": 0.5,
+      "target_words": [
+       "demonstrates",
+       "need"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (DemonstratesNeed(x) → AppliesBeforeDeadline(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:529:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one athlete avoid injury?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "AvoidsInjury",
+      "target_score": 0.5,
+      "target_words": [
+       "avoids",
+       "injury"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AvoidsInjury(x) → FollowsDietPlan(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:537:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one software project pass code review?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PassesCodeReview",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "code",
+       "passes",
+       "review"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesCodeReview(x) → DeploysCleanly(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:538:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some course who provides lecture recordings?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ProvidesRecordings",
+      "target_score": 1.0,
+      "target_words": [
+       "provides",
+       "recordings"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ProvidesRecordings(x) → HasPrerequisites(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:550:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one teacher who grades promptly.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "GradesPromptly",
+      "target_score": 1.0,
+      "target_words": [
+       "grades",
+       "promptly"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (GradesPromptly(x) → RunsOfficeHours(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:574:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: All workshop participants fill the survey.",
+     "certificate": {
+      "qtype": "universal",
+      "target": "FillsSurvey",
+      "target_score": 0.5,
+      "target_words": [
+       "fills",
+       "survey"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (FillsSurvey(x) → BringsLaptop(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:622:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one lab member record results?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "RecordsResults",
+      "target_score": 0.5,
+      "target_words": [
+       "records",
+       "results"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (RecordsResults(x) → CleansWorkstation(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:628:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Is it true that every workshop participant joins a breakout room?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "JoinsBreakoutRoom",
+      "target_score": 1.0,
+      "target_words": [
+       "breakout",
+       "joins",
+       "room"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (JoinsBreakoutRoom(x) → NetworksActively(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:633:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one course have prerequisites?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "HasPrerequisites",
+      "target_score": 0.5,
+      "target_words": [
+       "has",
+       "prerequisites"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (HasPrerequisites(x) → UsesPeerReview(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:633:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one course include a project component?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "IncludesProject",
+      "target_score": 0.5,
+      "target_words": [
+       "includes",
+       "project"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (IncludesProject(x) → MeetsAccreditation(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:674:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Can we conclude that some graduate student files a progress report?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "FilesProgressReport",
+      "target_score": 1.0,
+      "target_words": [
+       "files",
+       "progress",
+       "report"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (FilesProgressReport(x) → MeetsCommittee(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:675:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Do all library patrons attend the book club?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "AttendsBookClub",
+      "target_score": 0.5,
+      "target_words": [
+       "attends",
+       "book"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AttendsBookClub(x) → DonatesBooks(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:675:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "Unknown",
+     "question": "Based on the above premises, is the following statement true?\nStatement: If a library patron returns books on time, then the library patron uses the archives.",
+     "certificate": {
+      "qtype": "atomic",
+      "target": "DonatesBooks",
+      "target_score": 0.5,
+      "target_words": [
+       "books",
+       "donates"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "∀x ¬DonatesBooks(x)",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "BAD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:691:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, do all startup teams reach profitability?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "ReachesProfitability",
+      "target_score": 0.5,
+      "target_words": [
+       "profitability",
+       "reaches"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReachesProfitability(x) → RaisesFunding(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:707:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: All library patrons return books on time.",
+     "certificate": {
+      "qtype": "universal",
+      "target": "ReturnsBooksOnTime",
+      "target_score": 0.75,
+      "target_words": [
+       "books",
+       "on",
+       "returns",
+       "time"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReturnsBooksOnTime(x) → GetsExtendedLoan(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:725:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one volunteer who handles donations.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "HandlesDonations",
+      "target_score": 1.0,
+      "target_words": [
+       "donations",
+       "handles"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (HandlesDonations(x) → RecruitsFriends(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:758:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Is it true that every course uses peer review?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "UsesPeerReview",
+      "target_score": 1.0,
+      "target_words": [
+       "peer",
+       "review",
+       "uses"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (UsesPeerReview(x) → HasSyllabus(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:760:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some software project who passes code review?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PassesCodeReview",
+      "target_score": 1.0,
+      "target_words": [
+       "code",
+       "passes",
+       "review"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesCodeReview(x) → ScalesWell(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:767:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one startup team reach profitability?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ReachesProfitability",
+      "target_score": 0.5,
+      "target_words": [
+       "profitability",
+       "reaches"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReachesProfitability(x) → TestsPrototypes(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:778:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "Unknown",
+     "question": "Based on the above premises, is the following statement true?\nStatement: If a library patron returns books on time, then the library patron borrows laptops.",
+     "certificate": {
+      "qtype": "atomic",
+      "target": "DonatesBooks",
+      "target_score": 0.5,
+      "target_words": [
+       "books",
+       "donates"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (DonatesBooks(x) → ReservesStudyRoom(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "BAD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:781:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one startup team raise funding?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "RaisesFunding",
+      "target_score": 0.5,
+      "target_words": [
+       "funding",
+       "raises"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (RaisesFunding(x) → TracksMetrics(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:783:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one volunteer lead a shift?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "LeadsShift",
+      "target_score": 0.5,
+      "target_words": [
+       "leads",
+       "shift"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (LeadsShift(x) → AttendsOrientation(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:786:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one startup team who runs retrospectives.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "RunsRetros",
+      "target_score": 0.5,
+      "target_words": [
+       "retros",
+       "runs"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (RunsRetros(x) → ShipsWeekly(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:793:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some startup team who tracks key metrics?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "TracksMetrics",
+      "target_score": 1.0,
+      "target_words": [
+       "metrics",
+       "tracks"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (TracksMetrics(x) → RaisesFunding(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:804:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one course use peer review?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "UsesPeerReview",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "peer",
+       "review",
+       "uses"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (UsesPeerReview(x) → HasPrerequisites(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:816:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Can we conclude that some software project gets approved?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "GetsApproved",
+      "target_score": 1.0,
+      "target_words": [
+       "approved",
+       "gets"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (GetsApproved(x) → HasUnitTests(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:817:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some intern who logs working hours?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "LogsHours",
+      "target_score": 1.0,
+      "target_words": [
+       "hours",
+       "logs"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (LogsHours(x) → ReceivesStipend(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:825:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one volunteer who updates the logbook.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "UpdatesLogbook",
+      "target_score": 1.0,
+      "target_words": [
+       "logbook",
+       "updates"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (UpdatesLogbook(x) → LogsServiceHours(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:834:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some intern who passes the evaluation?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PassesEvaluation",
+      "target_score": 1.0,
+      "target_words": [
+       "evaluation",
+       "passes"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesEvaluation(x) → DeliversProject(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:834:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one intern receive a stipend?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ReceivesStipend",
+      "target_score": 0.5,
+      "target_words": [
+       "receives",
+       "stipend"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesStipend(x) → JoinsStandups(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:835:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one researcher pass the ethics review?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PassesEthicsReview",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "ethics",
+       "passes",
+       "review"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesEthicsReview(x) → PresentsFindings(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:846:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one teacher receive tenure?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ReceivesTenure",
+      "target_score": 0.5,
+      "target_words": [
+       "receives",
+       "tenure"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesTenure(x) → MentorsNewStaff(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:886:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Do all startup teams reach profitability?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "ReachesProfitability",
+      "target_score": 0.5,
+      "target_words": [
+       "profitability",
+       "reaches"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReachesProfitability(x) → RunsRetros(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:899:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one teacher prepare lesson plans?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "PreparesLessonPlans",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "lesson",
+       "plans",
+       "prepares"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PreparesLessonPlans(x) → EngagesParents(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:900:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one student who submits assignments.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "SubmitsAssignments",
+      "target_score": 1.0,
+      "target_words": [
+       "assignments",
+       "submits"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SubmitsAssignments(x) → EarnsHonors(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:905:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "According to the premises, does at least one student review instructor feedback?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "ReviewsFeedback",
+      "target_score": 0.5,
+      "target_words": [
+       "feedback",
+       "reviews"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReviewsFeedback(x) → AttendsLectures(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:924:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Is there some graduate student who meets the committee?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "MeetsCommittee",
+      "target_score": 1.0,
+      "target_words": [
+       "committee",
+       "meets"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (MeetsCommittee(x) → JoinsLabRotation(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:931:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one intern who delivers the assigned project.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "DeliversProject",
+      "target_score": 1.0,
+      "target_words": [
+       "delivers",
+       "project"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (DeliversProject(x) → CompletesOnboarding(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:944:0",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: There is at least one lab member who cleans the workstation.",
+     "certificate": {
+      "qtype": "existential",
+      "target": "CleansWorkstation",
+      "target_score": 1.0,
+      "target_words": [
+       "cleans",
+       "workstation"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CleansWorkstation(x) → RecordsResults(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:944:1",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Based on the above premises, is the following statement true?\nStatement: All lab members wear safety gear.",
+     "certificate": {
+      "qtype": "universal",
+      "target": "WearsSafetyGear",
+      "target_score": 0.6666666666666666,
+      "target_words": [
+       "gear",
+       "safety",
+       "wears"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (WearsSafetyGear(x) → BooksLabTime(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:992:1",
+     "old": "Yes",
+     "new": "No",
+     "gold": "No",
+     "question": "Does at least one teacher use grading rubrics?",
+     "certificate": {
+      "qtype": "existential",
+      "target": "UsesRubrics",
+      "target_score": 0.5,
+      "target_words": [
+       "rubrics",
+       "uses"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (UsesRubrics(x) → PreparesLessonPlans(x))",
+      "pos_proof_path": null,
+      "rule": "E1 forall-neg entails not-exists"
+     },
+     "posthoc": "GOOD_FLIP"
+    },
+    {
+     "flat_id": "benchmark_v2_1000:998:0",
+     "old": "Unknown",
+     "new": "No",
+     "gold": "No",
+     "question": "Is it true that every club member attends meetings?",
+     "certificate": {
+      "qtype": "universal",
+      "target": "AttendsMeetings",
+      "target_score": 1.0,
+      "target_words": [
+       "attends",
+       "meetings"
+      ],
+      "neg_proof_universal": true,
+      "pos_proof_universal": false,
+      "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AttendsMeetings(x) → VotesInElections(x))",
+      "pos_proof_path": null,
+      "rule": "typed PROVE_NO no-positive-conflict"
+     },
+     "posthoc": "GOOD_FLIP"
+    }
+   ],
+   "n_v35_flips": 82,
+   "posthoc_good": 80,
+   "posthoc_bad": 2,
+   "latency": {
+    "total_sec": 24235.309352636337,
+    "mean_sec": 12.11765467631817
+   },
+   "invalid_counts": {
+    "raw": 53,
+    "parsefix": 53,
+    "v35": 52
+   },
+   "output_pred_file": "rebuild_benchmark_v2_1000_preds.json"
+  }
+ },
+ "risk_report": {
+  "version": "rebuild_from_scratch_v35_risk_report",
+  "artifact_risk": "LOW_RELOADED_SAVED_PREDS_WITH_CHECKPOINTS",
+  "overfit_risk": "LOW_SYMBOLIC_RULES_NO_SWEEP_APPLIED_AFTER_MODEL_INFERENCE",
+  "underfit_risk": "REMAINING: MC option-proof not applied; statement-form YNU limited; predicate matching imperfect; generation quality still matters",
+  "label_collapse": false,
+  "notes": [
+   "This notebook rebuilds predictions from model inference; it does not consume old v2/v3.2 prediction artifacts.",
+   "v35 only applies proof-certified No corrections; MC symbolic proof remains disabled.",
+   "Use benchmark_v2_1000 issue report to separate direct-conflict/canary subsets if needed."
+  ]
+ }
+}
