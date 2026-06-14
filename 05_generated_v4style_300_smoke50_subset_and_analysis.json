@@ -1,0 +1,612 @@
+{
+  "subset_metrics": {
+    "all": {
+      "n": 50,
+      "correct": 36,
+      "acc": 0.72,
+      "micro_f1": 0.72,
+      "macro7": 0.7105718355718356,
+      "weighted_f1": 0.7138247863247864,
+      "mc_macro": 0.7307692307692307,
+      "ynu_macro": 0.6836419753086419,
+      "per_label": {
+        "A": {
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923,
+          "support": 6,
+          "pred_count": 7
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 6,
+          "pred_count": 6
+        },
+        "C": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "pred_count": 1
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 0.5333333333333333,
+          "recall": 0.6666666666666666,
+          "f1": 0.5925925925925926,
+          "support": 12,
+          "pred_count": 15
+        },
+        "No": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333,
+          "support": 5,
+          "pred_count": 7
+        },
+        "Unknown": {
+          "precision": 0.7692307692307693,
+          "recall": 0.5263157894736842,
+          "f1": 0.625,
+          "support": 19,
+          "pred_count": 13
+        }
+      },
+      "pred_distribution": {
+        "Unknown": 13,
+        "Yes": 15,
+        "No": 7,
+        "B": 6,
+        "A": 7,
+        "UNPARSEABLE": 1,
+        "C": 1
+      },
+      "gold_distribution": {
+        "Unknown": 19,
+        "Yes": 12,
+        "No": 5,
+        "B": 6,
+        "A": 6,
+        "C": 1,
+        "D": 1
+      }
+    },
+    "mc": {
+      "n": 14,
+      "correct": 13,
+      "acc": 0.9285714285714286,
+      "micro_f1": 0.9285714285714286,
+      "macro7": 0.41758241758241754,
+      "weighted_f1": 0.8956043956043956,
+      "mc_macro": 0.7307692307692307,
+      "ynu_macro": 0.0,
+      "per_label": {
+        "A": {
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923,
+          "support": 6,
+          "pred_count": 7
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 6,
+          "pred_count": 6
+        },
+        "C": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "pred_count": 1
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "No": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "Unknown": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        }
+      },
+      "pred_distribution": {
+        "B": 6,
+        "A": 7,
+        "C": 1
+      },
+      "gold_distribution": {
+        "B": 6,
+        "A": 6,
+        "C": 1,
+        "D": 1
+      }
+    },
+    "ynu": {
+      "n": 36,
+      "correct": 23,
+      "acc": 0.6388888888888888,
+      "micro_f1": 0.6388888888888888,
+      "macro7": 0.29298941798941797,
+      "weighted_f1": 0.6431327160493827,
+      "mc_macro": 0.0,
+      "ynu_macro": 0.6836419753086419,
+      "per_label": {
+        "A": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "B": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "C": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 0.5333333333333333,
+          "recall": 0.6666666666666666,
+          "f1": 0.5925925925925926,
+          "support": 12,
+          "pred_count": 15
+        },
+        "No": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333,
+          "support": 5,
+          "pred_count": 7
+        },
+        "Unknown": {
+          "precision": 0.7692307692307693,
+          "recall": 0.5263157894736842,
+          "f1": 0.625,
+          "support": 19,
+          "pred_count": 13
+        }
+      },
+      "pred_distribution": {
+        "Unknown": 13,
+        "Yes": 15,
+        "No": 7,
+        "UNPARSEABLE": 1
+      },
+      "gold_distribution": {
+        "Unknown": 19,
+        "Yes": 12,
+        "No": 5
+      }
+    },
+    "conflict": {
+      "n": 4,
+      "correct": 3,
+      "acc": 0.75,
+      "micro_f1": 0.75,
+      "macro7": 0.23809523809523808,
+      "weighted_f1": 0.8333333333333333,
+      "mc_macro": 0.0,
+      "ynu_macro": 0.5555555555555555,
+      "per_label": {
+        "A": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "B": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "C": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 2,
+          "pred_count": 1
+        },
+        "No": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2,
+          "pred_count": 2
+        },
+        "Unknown": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 1
+        }
+      },
+      "pred_distribution": {
+        "Yes": 1,
+        "No": 2,
+        "Unknown": 1
+      },
+      "gold_distribution": {
+        "Yes": 2,
+        "No": 2
+      }
+    },
+    "clean_no_conflict": {
+      "n": 46,
+      "correct": 33,
+      "acc": 0.717391304347826,
+      "micro_f1": 0.717391304347826,
+      "macro7": 0.7002245066761196,
+      "weighted_f1": 0.7147795519113892,
+      "mc_macro": 0.7307692307692307,
+      "ynu_macro": 0.6594982078853047,
+      "per_label": {
+        "A": {
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923,
+          "support": 6,
+          "pred_count": 7
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 6,
+          "pred_count": 6
+        },
+        "C": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "pred_count": 1
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 0.5,
+          "recall": 0.7,
+          "f1": 0.5833333333333334,
+          "support": 10,
+          "pred_count": 14
+        },
+        "No": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.7499999999999999,
+          "support": 3,
+          "pred_count": 5
+        },
+        "Unknown": {
+          "precision": 0.8333333333333334,
+          "recall": 0.5263157894736842,
+          "f1": 0.6451612903225806,
+          "support": 19,
+          "pred_count": 12
+        }
+      },
+      "pred_distribution": {
+        "Unknown": 12,
+        "Yes": 14,
+        "B": 6,
+        "No": 5,
+        "A": 7,
+        "UNPARSEABLE": 1,
+        "C": 1
+      },
+      "gold_distribution": {
+        "Unknown": 19,
+        "Yes": 10,
+        "B": 6,
+        "No": 3,
+        "A": 6,
+        "C": 1,
+        "D": 1
+      }
+    },
+    "grammar_noisy": {
+      "n": 3,
+      "correct": 3,
+      "acc": 1.0,
+      "micro_f1": 1.0,
+      "macro7": 0.14285714285714285,
+      "weighted_f1": 1.0,
+      "mc_macro": 0.0,
+      "ynu_macro": 0.3333333333333333,
+      "per_label": {
+        "A": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "B": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "C": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "No": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "Unknown": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3,
+          "pred_count": 3
+        }
+      },
+      "pred_distribution": {
+        "Unknown": 3
+      },
+      "gold_distribution": {
+        "Unknown": 3
+      }
+    },
+    "existential": {
+      "n": 14,
+      "correct": 13,
+      "acc": 0.9285714285714286,
+      "micro_f1": 0.9285714285714286,
+      "macro7": 0.5604395604395604,
+      "weighted_f1": 0.8956043956043956,
+      "mc_macro": 0.7307692307692307,
+      "ynu_macro": 0.3333333333333333,
+      "per_label": {
+        "A": {
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923,
+          "support": 6,
+          "pred_count": 7
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "pred_count": 1
+        },
+        "C": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "pred_count": 1
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "No": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "pred_count": 5
+        },
+        "Unknown": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        }
+      },
+      "pred_distribution": {
+        "No": 5,
+        "B": 1,
+        "A": 7,
+        "C": 1
+      },
+      "gold_distribution": {
+        "No": 5,
+        "B": 1,
+        "A": 6,
+        "C": 1,
+        "D": 1
+      }
+    },
+    "universal": {
+      "n": 31,
+      "correct": 21,
+      "acc": 0.6774193548387096,
+      "micro_f1": 0.6774193548387096,
+      "macro7": 0.3221978021978022,
+      "weighted_f1": 0.6885359801488834,
+      "mc_macro": 0.25,
+      "ynu_macro": 0.41846153846153844,
+      "per_label": {
+        "A": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "pred_count": 5
+        },
+        "C": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 0.5714285714285714,
+          "recall": 0.6666666666666666,
+          "f1": 0.6153846153846153,
+          "support": 12,
+          "pred_count": 14
+        },
+        "No": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "Unknown": {
+          "precision": 0.7272727272727273,
+          "recall": 0.5714285714285714,
+          "f1": 0.64,
+          "support": 14,
+          "pred_count": 11
+        }
+      },
+      "pred_distribution": {
+        "Unknown": 11,
+        "Yes": 14,
+        "B": 5,
+        "UNPARSEABLE": 1
+      },
+      "gold_distribution": {
+        "Unknown": 14,
+        "Yes": 12,
+        "B": 5
+      }
+    },
+    "statement_conditional": {
+      "n": 0
+    }
+  },
+  "mc_analysis": {
+    "mode": "ANALYSIS_ONLY",
+    "n": 14,
+    "errors": 1,
+    "error_gold_distribution": {
+      "D": 1
+    },
+    "error_pred_distribution": {
+      "A": 1
+    },
+    "note": "MC correction disabled. Build polarity-aware unique-entailment prover separately; require >=0.9 precision on generated and benchmark v2.1 before apply."
+  },
+  "statement_analysis": {
+    "mode": "ANALYSIS_ONLY",
+    "n": 0,
+    "errors": 0,
+    "error_gold_distribution": {},
+    "error_pred_distribution": {},
+    "note": "Statement correction disabled. Need antecedent->consequent proof and counterexample witness support before apply."
+  }
+}
