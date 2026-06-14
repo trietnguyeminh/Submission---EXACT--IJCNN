@@ -1,0 +1,389 @@
+{
+  "version": "full_model_eval_v2_flatten",
+  "data_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/Logic_Based_Educational_Queries_v5_repair_tier1_dedup_normfol_drop_logicfallacy.json",
+  "test_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json",
+  "base_model_path": "/kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1",
+  "adapter_path": "/kaggle/input/datasets/yixuanisthebest/v2333333",
+  "load_mode": "base_plus_adapter_sharded_dtype",
+  "load_error": null,
+  "raw_test_rows": 300,
+  "flattened_samples": 600,
+  "gold_available": 600,
+  "mc_count": 150,
+  "ynu_count": 450,
+  "pred_distribution": {
+    "Unknown": 161,
+    "Yes": 162,
+    "B": 38,
+    "A": 92,
+    "No": 93,
+    "C": 32,
+    "D": 12,
+    "UNPARSEABLE": 10
+  },
+  "gold_distribution": {
+    "Unknown": 175,
+    "Yes": 170,
+    "No": 105,
+    "B": 50,
+    "A": 50,
+    "C": 25,
+    "D": 25
+  },
+  "invalid_unparseable_count": 10,
+  "invalid_unparseable_rate": 0.016666666666666666,
+  "latency_sec": {
+    "total": 14665.078648328781,
+    "mean": 24.441797747214636,
+    "min": 23.724169492721558,
+    "max": 25.444068670272827
+  },
+  "metrics": {
+    "all": {
+      "n": 600,
+      "correct": 476,
+      "acc": 0.7933333333333333,
+      "micro_f1": 0.7933333333333333,
+      "macro_f1": 0.7590893360826848,
+      "weighted_f1": 0.803973325598224,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "per_label": {
+        "A": {
+          "tp": 48,
+          "fp": 44,
+          "fn": 2,
+          "precision": 0.5217391304347826,
+          "recall": 0.96,
+          "f1": 0.6760563380281689,
+          "support": 50,
+          "pred_count": 92
+        },
+        "B": {
+          "tp": 38,
+          "fp": 0,
+          "fn": 12,
+          "precision": 1.0,
+          "recall": 0.76,
+          "f1": 0.8636363636363636,
+          "support": 50,
+          "pred_count": 38
+        },
+        "C": {
+          "tp": 20,
+          "fp": 12,
+          "fn": 5,
+          "precision": 0.625,
+          "recall": 0.8,
+          "f1": 0.7017543859649122,
+          "support": 25,
+          "pred_count": 32
+        },
+        "D": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 13,
+          "precision": 1.0,
+          "recall": 0.48,
+          "f1": 0.6486486486486487,
+          "support": 25,
+          "pred_count": 12
+        },
+        "Yes": {
+          "tp": 146,
+          "fp": 16,
+          "fn": 24,
+          "precision": 0.9012345679012346,
+          "recall": 0.8588235294117647,
+          "f1": 0.8795180722891566,
+          "support": 170,
+          "pred_count": 162
+        },
+        "No": {
+          "tp": 68,
+          "fp": 25,
+          "fn": 37,
+          "precision": 0.7311827956989247,
+          "recall": 0.6476190476190476,
+          "f1": 0.6868686868686869,
+          "support": 105,
+          "pred_count": 93
+        },
+        "Unknown": {
+          "tp": 144,
+          "fp": 17,
+          "fn": 31,
+          "precision": 0.8944099378881988,
+          "recall": 0.8228571428571428,
+          "f1": 0.8571428571428571,
+          "support": 175,
+          "pred_count": 161
+        }
+      },
+      "confusion_matrix": {
+        "A": {
+          "A": 48,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "Yes": 0,
+          "No": 0,
+          "Unknown": 0,
+          "UNPARSEABLE": 2,
+          "OTHER": 0
+        },
+        "B": {
+          "A": 1,
+          "B": 38,
+          "C": 8,
+          "D": 0,
+          "Yes": 0,
+          "No": 0,
+          "Unknown": 0,
+          "UNPARSEABLE": 3,
+          "OTHER": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0,
+          "Yes": 0,
+          "No": 0,
+          "Unknown": 0,
+          "UNPARSEABLE": 5,
+          "OTHER": 0
+        },
+        "D": {
+          "A": 9,
+          "B": 0,
+          "C": 4,
+          "D": 12,
+          "Yes": 0,
+          "No": 0,
+          "Unknown": 0,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        },
+        "Yes": {
+          "A": 7,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "Yes": 146,
+          "No": 11,
+          "Unknown": 6,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        },
+        "No": {
+          "A": 15,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "Yes": 11,
+          "No": 68,
+          "Unknown": 11,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        },
+        "Unknown": {
+          "A": 12,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "Yes": 5,
+          "No": 14,
+          "Unknown": 144,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        }
+      }
+    },
+    "mc": {
+      "n": 150,
+      "correct": 118,
+      "acc": 0.7866666666666666,
+      "micro_f1": 0.7866666666666666,
+      "macro_f1": 0.7757320717847034,
+      "weighted_f1": 0.8092422566106776,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "per_label": {
+        "A": {
+          "tp": 48,
+          "fp": 10,
+          "fn": 2,
+          "precision": 0.8275862068965517,
+          "recall": 0.96,
+          "f1": 0.888888888888889,
+          "support": 50,
+          "pred_count": 58
+        },
+        "B": {
+          "tp": 38,
+          "fp": 0,
+          "fn": 12,
+          "precision": 1.0,
+          "recall": 0.76,
+          "f1": 0.8636363636363636,
+          "support": 50,
+          "pred_count": 38
+        },
+        "C": {
+          "tp": 20,
+          "fp": 12,
+          "fn": 5,
+          "precision": 0.625,
+          "recall": 0.8,
+          "f1": 0.7017543859649122,
+          "support": 25,
+          "pred_count": 32
+        },
+        "D": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 13,
+          "precision": 1.0,
+          "recall": 0.48,
+          "f1": 0.6486486486486487,
+          "support": 25,
+          "pred_count": 12
+        }
+      },
+      "confusion_matrix": {
+        "A": {
+          "A": 48,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "UNPARSEABLE": 2,
+          "OTHER": 0
+        },
+        "B": {
+          "A": 1,
+          "B": 38,
+          "C": 8,
+          "D": 0,
+          "UNPARSEABLE": 3,
+          "OTHER": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0,
+          "UNPARSEABLE": 5,
+          "OTHER": 0
+        },
+        "D": {
+          "A": 9,
+          "B": 0,
+          "C": 4,
+          "D": 12,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        }
+      }
+    },
+    "ynu": {
+      "n": 450,
+      "correct": 358,
+      "acc": 0.7955555555555556,
+      "micro_f1": 0.7955555555555556,
+      "macro_f1": 0.8078432054335668,
+      "weighted_f1": 0.8258650764674861,
+      "labels": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "per_label": {
+        "Yes": {
+          "tp": 146,
+          "fp": 16,
+          "fn": 24,
+          "precision": 0.9012345679012346,
+          "recall": 0.8588235294117647,
+          "f1": 0.8795180722891566,
+          "support": 170,
+          "pred_count": 162
+        },
+        "No": {
+          "tp": 68,
+          "fp": 25,
+          "fn": 37,
+          "precision": 0.7311827956989247,
+          "recall": 0.6476190476190476,
+          "f1": 0.6868686868686869,
+          "support": 105,
+          "pred_count": 93
+        },
+        "Unknown": {
+          "tp": 144,
+          "fp": 17,
+          "fn": 31,
+          "precision": 0.8944099378881988,
+          "recall": 0.8228571428571428,
+          "f1": 0.8571428571428571,
+          "support": 175,
+          "pred_count": 161
+        }
+      },
+      "confusion_matrix": {
+        "Yes": {
+          "Yes": 146,
+          "No": 11,
+          "Unknown": 6,
+          "UNPARSEABLE": 0,
+          "OTHER": 7
+        },
+        "No": {
+          "Yes": 11,
+          "No": 68,
+          "Unknown": 11,
+          "UNPARSEABLE": 0,
+          "OTHER": 15
+        },
+        "Unknown": {
+          "Yes": 5,
+          "No": 14,
+          "Unknown": 144,
+          "UNPARSEABLE": 0,
+          "OTHER": 12
+        }
+      }
+    }
+  },
+  "error_count": 124,
+  "error_rate": 0.20666666666666667,
+  "error_type_counts": {
+    "No->Yes": 11,
+    "Unknown->A": 12,
+    "Unknown->No": 14,
+    "Yes->Unknown": 6,
+    "No->Unknown": 11,
+    "D->A": 9,
+    "Unknown->Yes": 5,
+    "No->A": 15,
+    "B->C": 8,
+    "Yes->A": 7,
+    "D->C": 4,
+    "B->UNPARSEABLE": 3,
+    "Yes->No": 11,
+    "C->UNPARSEABLE": 5,
+    "A->UNPARSEABLE": 2,
+    "B->A": 1
+  }
+}
