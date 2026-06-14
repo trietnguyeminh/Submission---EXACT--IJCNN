@@ -1,0 +1,11 @@
+{
+ "version": "v34_4_formula_mp_targeted",
+ "selection_status": "KEEP_V34_3",
+ "flips": [],
+ "metrics": {
+  "acc": 0.6666666666666666,
+  "macro_f1": 0.6140155562868364,
+  "mc_macro": 0.551470588235294
+ },
+ "note": "formula-level modus ponens extension; only proof-certified flips; else keep v34.3"
+}
