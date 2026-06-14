@@ -1,0 +1,956 @@
+{
+  "__meta__": {
+    "load_error": null,
+    "n_generated": 45,
+    "n_skipped": 0,
+    "skipped": [],
+    "load_mode": "sharded_dtype",
+    "target_indices": [
+      5,
+      7,
+      9,
+      11,
+      14,
+      16,
+      22,
+      24,
+      26,
+      27,
+      28,
+      30,
+      39,
+      41,
+      45,
+      47,
+      49,
+      54,
+      57,
+      59,
+      64,
+      69,
+      73,
+      75,
+      77,
+      79,
+      81,
+      83,
+      85,
+      87,
+      93,
+      95,
+      97,
+      102,
+      107,
+      115,
+      117,
+      119,
+      123,
+      127,
+      132,
+      141,
+      144,
+      146,
+      150
+    ]
+  },
+  "5": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 7, Dr. John is a department head with a PhD. From premise 6, department heads must hold a degree higher than a Bachelor's. From premise 3, a PhD is higher than a Master's. From premise 2, lecturers with a degree higher than a Master's can teach undergraduate courses. Since Dr. John has a PhD, which is higher than a Master's, he can teach undergraduate courses.\nSupporting Premises: [4, 5, 7]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 7, Dr. John is a department head with a PhD. From premise 6, department heads must hold a degree higher than a Bachelor's. From premise 3, a PhD is higher than a Master's. From premise 2, lecturers with a degree higher than a Master's can teach undergraduate courses. Since Dr. John has a PhD, which is higher than a Master's, he can teach undergraduate courses.\nSupporting Premises: [4, 5, 7]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 7, Dr. John is a department head with a PhD. From premise 6, department heads must hold a degree higher than a Bachelor's. From premise 3, a PhD is higher than a Master's. From premise 2, lecturers with a degree higher than a Master's can teach undergraduate courses. Since Dr. John has a PhD, which is higher than a Master's, he can teach undergraduate courses.\nSupporting Premises: [4, 5, 7]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "7": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement that Alex meets all requirements for booking training sessions is supported by the fact that Alex has a valid membership card, has completed safety orientation, has a membership duration of 8 months, and has paid annual fees on time. These premises are explicitly stated, so the reasoning is sound.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement that Alex meets all requirements for booking training sessions is supported by the fact that Alex has a valid membership card, has completed safety orientation, has a membership duration of 8 months, and has paid annual fees on time. These premises are explicitly stated, so the reasoning is sound.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that Alex meets all requirements for booking training sessions is supported by the fact that Alex has a valid membership card, has completed safety orientation, has a membership duration of 8 months, and has paid annual fees on time. These premises are explicitly stated, so the reasoning is sound.\nSupporting Premises: [3, 4]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "9": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 7 states Minh completed Organic Chemistry, and premise 3 says completing Organic Chemistry allows taking Biochemistry. Thus, Minh qualifies to take Biochemistry.\nSupporting Premises: [3, 7]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 7 states Minh completed Organic Chemistry, and Premise 3 says completing Organic Chemistry allows taking Biochemistry. Thus, Minh qualifies to take Biochemistry.\nSupporting Premises: [3, 7]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 7 states Minh completed Organic Chemistry, and premise 3 says completing Organic Chemistry allows taking Biochemistry. Thus, Minh qualifies to take Biochemistry.\nSupporting Premises: [3, 7]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "11": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 11 states that a well-prepared researcher can contribute through publications or seminars, and premise 13 links academic contribution to research positions. A student who avoids both publication and seminar opportunities fails to meet the academic contribution criterion, disqualifying them from a research position (premise 13), thus denying them lab access (premise 14). Therefore, the statement is false.\nSupporting Premises: [11, 13, 14]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 11 states that a well-prepared researcher can contribute through publications or seminars, and premise 13 links academic contribution to research positions. A student who avoids both publication and seminar opportunities fails to meet the academic contribution criterion, disqualifying them from a research position (premise 13), thus denying them lab access (premise 14). Therefore, the statement is false.\nSupporting Premises: [11, 13, 14]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 11 states that a well-prepared researcher can contribute through publications or seminars, and premise 13 links academic contribution to research positions. A student who avoids both publication and seminar opportunities fails to meet the academic contribution criterion, disqualifying them from a research position (premise 13), thus denying them lab access (premise 14). Therefore, the statement is false.\nSupporting Premises: [11, 13, 14]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "14": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 26 states that Student A's answers matched 95% with Student B's, which may indicate cheating. Premise 3 states that if a student completes the exam in less than 50% of the class's average time, it may indicate anomalies, and Premise 30 states that the system recorded A's gaze leaving the screen 12 times, which may indicate cheating. Premise 32 states that the AI system determined A's probability of cheating to be 97%, and Premise 33 states that the examination board convened at 10:00 AM on March 27, 2025, confirming cheating. Premise 34 states that Student A filed an appeal on March 28, 2025, at 8:00 AM, and Premise 35 states that if the appeal is denied, the student must retake the course and pay a penalty of 30% of the tuition fee. Therefore, Student A should be confirmed as cheating and suspended from the exam, considering the signs from the exam, behavior during the exam, AI analysis, personal history, and the possibility of appeal being denied, and assessing additional penalties\nSupporting Premises: [3, 26, 30, 32, 33, 34, 35]\nFinal Answer: Yes\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 26 states that Student A's answers matched 95% with Student B's, which may indicate cheating. Premise 3 states that if a student completes the exam in less than 50% of the class's average time, it may indicate anomalies, and Premise 30 states that the system recorded A's gaze leaving the screen 12 times, which may indicate cheating. Premise 32 states that the AI system determined A's probability of cheating to be 97%, and Premise 33 states that the examination board convened at 10:00 AM on March 27, 2025, confirming cheating. Premise 34 states that Student A filed an appeal on March 28, 2025, at 8:00 AM, and Premise 35 states that if the appeal is denied, the student must retake the course and pay a penalty of 30% of the tuition fee. Therefore, Student A should be confirmed as cheating and suspended from the exam, considering the signs from the exam, behavior during the exam, AI analysis, personal history, and the possibility of appeal being denied, and assessing additional penalties\nSupporting Premises: [26, 3, 30, 32, 33, 34, 35]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 26 states that Student A's answers matched 95% with Student B's, which may indicate cheating. Premise 3 states that if a student completes the exam in less than 50% of the class's average time, it may indicate anomalies, and Premise 30 states that the system recorded A's gaze leaving the screen 12 times, which may indicate cheating. Premise 32 states that the AI system determined A's probability of cheating to be 97%, and Premise 33 states that the examination board convened at 10:00 AM on March 27, 2025, confirming cheating. Premise 34 states that Student A filed an appeal on March 28, 2025, at 8:00 AM, and Premise 35 states that if the appeal is denied, the student must retake the course and pay a penalty of 30% of the tuition fee. Therefore, Student A should be confirmed as cheating and suspended from the exam, considering the signs from the exam, behavior during the exam, AI analysis, personal history, and the possibility of appeal being denied, and assessing additional penalties\nSupporting Premises: [26, 3, 30, 32, 33, 34, 35]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "16": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 9 states that if a person is promoted, they will be recognized by their employer. Premise 10 states that if a person is recognized by their employer, they will become a leader in their organization. Therefore, if a person is promoted, they will become a leader in their organization (from premise 9 and premise 10), making the statement true.\nSupporting Premises: [5, 6]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 9 states that if a person is promoted, they will be recognized by their employer. Premise 10 states that if a person is recognized by their employer, they will become a leader in their organization. Therefore, if a person is promoted, they will become a leader in their organization (from premise 9 and premise 10), making the statement true.\nSupporting Premises: [5, 6]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement is not supported by the premises, as there is no direct or indirect link between promotion and becoming a leader.\nSupporting Premises: []\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": false,
+      "final_answer": "Unknown"
+    }
+  },
+  "22": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 3 states that maintaining a high GPA qualifies for a merit-based scholarship, and premise 11 states that engaging in extracurricular activities increases the chances of receiving a scholarship. From premise 3, maintaining a high GPA leads to a merit-based scholarship, and from premise 11, extracurricular activities increase the chances of receiving a scholarship, forming a complete pathway. Thus, the statement is true.\nSupporting Premises: [3, 11]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 3 states that maintaining a high GPA qualifies for a merit-based scholarship, and premise 11 states that engaging in extracurricular activities increases the chances of receiving a scholarship. From premise 3, maintaining a high GPA leads to a merit-based scholarship, and from premise 11, extracurricular activities increase the chances of receiving a scholarship, forming a complete pathway. Thus, the statement is true.\nSupporting Premises: [3, 11]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 3 states that maintaining a high GPA qualifies for a merit-based scholarship, and premise 11 states that engaging in extracurricular activities increases the chances of receiving a scholarship. From premise 3, maintaining a high GPA leads to a merit-based scholarship, and from premise 11, extracurricular activities increase the chances of receiving a scholarship, forming a complete pathway. Thus, the statement is true.\nSupporting Premises: [3, 11]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "24": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement 'If a student never practices coding, they will still become proficient in Python' is false. From premise 3, practicing Python regularly improves coding skills, and from premise 7, gaining problem-solving skills leads to Python proficiency. However, premise 11 states that not practicing coding may struggle in technical interviews, implying that without practice, proficiency is unlikely.\nSupporting Premises: [3, 4, 5, 7, 11]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement 'If a student never practices coding, they will still become proficient in Python' is false. From premise 3, practicing Python regularly improves coding skills, and from premise 7, gaining problem-solving skills leads to Python proficiency. However, premise 11 states that not practicing coding may struggle in technical interviews, implying that without practice, proficiency is unlikely.\nSupporting Premises: [3, 4, 5, 7, 11]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement 'If a student never practices coding, they will still become proficient in Python' is false. From premise 3, practicing Python regularly improves coding skills, and from premise 7, gaining problem-solving skills leads to Python proficiency. However, premise 11 states that not practicing coding may struggle in technical interviews, implying that without practice, proficiency is unlikely.\nSupporting Premises: [3, 4, 5, 7, 11]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "26": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 13, all Python projects are well-structured. From premise 9, if a Python project is well-structured, then it is optimized. Therefore, if all Python projects are well-structured, then all Python projects are optimized. This is because the implication from well-structured to optimized applies to all projects.\nSupporting Premises: [12, 13]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 13, all Python projects are well-structured. From premise 9, if a Python project is well-structured, then it is optimized. Therefore, if all Python projects are well-structured, then all Python projects are optimized. This is because the implication from well-structured to optimized applies to all projects.\nSupporting Premises: [12, 13]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 13, all Python projects are well-structured. From premise 9, if a Python project is well-structured, then it is optimized. Therefore, if all Python projects are well-structured, then all Python projects are optimized. This is because the implication from well-structured to optimized applies to all projects.\nSupporting Premises: [12, 13]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "27": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 10, every hardware component is power-efficient. From premise 5, if a component is power-efficient, it is thoroughly validated. Therefore, every component is thoroughly validated.\nSupporting Premises: [10, 5]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 10, every hardware component is power-efficient. From premise 5, if a component is power-efficient, it is thoroughly validated. Therefore, every component is thoroughly validated.\nSupporting Premises: [10, 5]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 10, every hardware component is power-efficient. From premise 5, if a component is power-efficient, it is thoroughly validated. Therefore, every component is thoroughly validated.\nSupporting Premises: [10, 13]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "28": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 9, every AI application is widely adopted in educational institutions. From premise 5, if an AI application is widely adopted, it receives notable academic recognition. Therefore, every AI application receives notable academic recognition.\nSupporting Premises: [9, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 9, every AI application is widely adopted in educational institutions. From premise 5, if an AI application is widely adopted, it receives notable academic recognition. Therefore, every AI application receives notable academic recognition.\nSupporting Premises: [9, 5]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 9, every AI application is widely adopted in educational institutions. From premise 5, if an AI application is widely adopted, it receives notable academic recognition. Therefore, every AI application receives notable academic recognition.\nSupporting Premises: [9, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "30": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 3, there exists at least one biometric system that cannot detect presentation attacks. From premise 2, if a biometric system is not secure, then it cannot detect presentation attacks. From premise 1, if a biometric system can detect presentation attacks, then it is secure. Since there exists a system that cannot detect attacks, it is not secure. Thus, not all systems are secure.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 3, there exists at least one biometric system that cannot detect presentation attacks. From premise 2, if a biometric system is not secure, then it cannot detect presentation attacks. From premise 1, if a biometric system can detect presentation attacks, then it is secure. Since there exists a system that cannot detect attacks, it is not secure. Thus, not all systems are secure.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 3, there exists at least one biometric system that cannot detect presentation attacks. From premise 2, if a biometric system is not secure, then it cannot detect presentation attacks. From premise 1, if a biometric system can detect presentation attacks, then it is secure. Since there exists a system that cannot detect attacks, it is not secure. Thus, not all systems are secure.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "39": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement is true because if at least one student has been found violating the examination regulations and if a student violates the examination regulations, they will be subject to disciplinary action, then the university will take disciplinary action (from premises 3, 2, and 9).\nSupporting Premises: [4, 7, 10]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement is true because if at least one student has been found violating the examination regulations and if a student violates the examination regulations, they will be subject to disciplinary action, then the university will take disciplinary action (from premises 3, 2, and 9).\nSupporting Premises: [4, 7, 10]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement is true because if at least one student has been found violating the examination regulations and if a student violates the examination regulations, they will be subject to disciplinary action, then the university will take disciplinary action (from premises 3, 2, and 9).\nSupporting Premises: [4, 10]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "41": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 4 states there exists at least one student who has been disciplined for violating the school rules. Premise 10 states that if a student violates traffic safety rules, the student will be fined according to the school's regulations. Therefore, if there exists at least one student who has been disciplined for violating the school rules, then a student who violates the traffic safety rules will be fined according to the school's regulations, as both conditions are met.\nSupporting Premises: [4, 10]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 4 states there exists at least one student who has been disciplined for violating the school rules. Premise 10 states that if a student violates traffic safety rules, the student will be fined according to the school's regulations. Therefore, if there exists at least one student who has been disciplined for violating the school rules, then a student who violates the traffic safety rules will be fined according to the school's regulations, as both conditions are met.\nSupporting Premises: [4, 10]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement is true because if there exists at least one student who has been disciplined for violating the school rules, then a student who violates the traffic safety rules will be fined according to the school's regulations, as both conditions are met.\nSupporting Premises: [4, 10]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "45": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 7, we know there exists at least one university member (∃x U(x)). Therefore, the statement is true.\nSupporting Premises: [7]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 7, we know there exists at least one university member (∃x U(x)). Therefore, the statement is true.\nSupporting Premises: [7]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement ∃x U(x) is true because premise 7 states that there exists at least one university member, directly supporting the statement.\nSupporting Premises: [7]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "47": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement that all students complete their homework is true because premise 2 explicitly states that all students complete their homework.\nSupporting Premises: [2]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement is true because premise 2 explicitly states that all students complete their homework.\nSupporting Premises: [2]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that all students complete their homework is true because premise 2 explicitly states this. However, the task requires an advocate argument for the answer 'Unknown', which is not supported by the premises.\nSupporting Premises: []\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": false,
+      "final_answer": "Unknown"
+    }
+  },
+  "49": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement is true because if a student does not do their homework, then they will not attend class, as per premise 3.\nSupporting Premises: [3]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement is true because if a student does not do their homework, they will not attend class, as per premise 3.\nSupporting Premises: [3]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement is true because if a student does not do their homework, they will not attend class, as per premise 3.\nSupporting Premises: [3]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "54": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 1 states that there exists at least one student who has completed a research project. Premise 3 states that if a student has completed a research project, then they have submitted a thesis. Therefore, at least one student submits a thesis.\nSupporting Premises: [3, 4]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 1 states there is at least one student who has completed a research project. Premise 3 states that completing a research project ensures submitting a thesis. Therefore, at least one student submits a thesis.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 1 states there is at least one student who has completed a research project. Premise 3 states that completing a research project ensures submitting a thesis. Therefore, at least one student submits a thesis.\nSupporting Premises: [3, 4]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "57": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 15, there exists at least one programmer who understands C++. From premise 14, if a programmer understands C++, then they understand object-oriented programming. Therefore, there exists at least one programmer who understands object-oriented programming.\nSupporting Premises: [14, 15]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 15, there exists at least one programmer who understands C++. From premise 14, if a programmer understands C++, then they understand object-oriented programming. Therefore, there exists at least one programmer who understands object-oriented programming.\nSupporting Premises: [14, 15]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 15, there exists at least one programmer who understands C++. From premise 14, if a programmer understands C++, then they understand object-oriented programming. Therefore, there exists at least one programmer who understands object-oriented programming.\nSupporting Premises: [14, 15]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "59": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 5 states John is a BK student. Premise 2 says students cannot graduate without 15 social work days, and premise 3 says students are out of school if they don't graduate in 6 years. Premise 4 states being out of school requires more study time. Thus, John has to study more if he doesn't graduate within 6 years and is out of school (From premises 2, 3, and 4). Supporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 5 states John is a BK student. Premise 2 says students cannot graduate without 15 social work days, and premise 3 says students are out of school if they don't graduate in 6 years. Premise 4 states being out of school requires more study time. Thus, John has to study more if he doesn't graduate within 6 years and is out of school (From premises 2, 3, and 4). Supporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that John has to study more if he does not graduate within 6 years and is out of school is not supported by the premises. The premises do not explicitly state that being out of school requires more study time, so the statement cannot be confirmed as true.\nSupporting Premises: []\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": false,
+      "final_answer": "Unknown"
+    }
+  },
+  "64": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 10, all students have completed the qualifying test. From premise 6, if a student has completed the qualifying test, then they have attended the tutorial. Since all students have completed the qualifying test, all students have attended the tutorial.\nSupporting Premises: [10, 11]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 10, all students have completed the qualifying test. From premise 6, if a student has completed the qualifying test, then they have attended the tutorial. Since all students have completed the qualifying test, all students have attended the tutorial.\nSupporting Premises: [10, 11]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe question asks if all students attend the tutorial. The reasoning states that all students have completed the qualifying test (premise 10), and if a student has completed the qualifying test, they have attended the tutorial (premise 6). Therefore, all students attend the tutorial. However, the final answer is 'No', which contradicts the reasoning. The correct final answer should be 'Yes'.\nSupporting Premises: [10, 11]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "69": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement is true because if all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person participated in the workshop, they improved their teamwork ability, as supported by the premises.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 1, we know that all students are active in school activities. From premise 2, we know that if a person participated in the workshop, then they improved their teamwork ability. From premise 5, we know that if all students are active in school activities, then participating in the workshop implies teamwork improvement. Therefore, if all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person participated in the workshop, they improved their teamwork ability. This is because premise 5 states that if all students are active in school activities, then participating in the workshop implies teamwork improvement, and premise 2 states that if a person participated in the workshop, then they improved their teamwork ability. Thus, the statement is true.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 1, we know that all students are active in school activities. From premise 2, we know that if a person participated in the workshop, then they improved their teamwork ability. From premise 5, we know that if all students are active in school activities, then participating in the workshop implies teamwork improvement. Therefore, if all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person participated in the workshop, they improved their teamwork ability. This is because premise 5 states that if all students are active in school activities, then participating in the workshop implies teamwork improvement, and premise 2 states that if a person participated in the workshop, then they improved their teamwork ability. Thus, the statement is true.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "73": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement is true because premise 1 ensures the existence of someone using facilities responsibly, premise 2 ensures that maturity implies responsible use, and premise 7 ensures that responsible use implies policy respect.\nSupporting Premises: [3, 5, 6]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement is true because premise 1 ensures the existence of someone using facilities responsibly, premise 2 ensures that maturity implies responsible use, and premise 7 ensures that responsible use implies policy respect.\nSupporting Premises: [3, 5, 6]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement is true because premise 1 ensures the existence of someone using facilities responsibly, premise 2 ensures that maturity implies responsible use, and premise 7 ensures that responsible use implies policy respect.\nSupporting Premises: [3, 5, 6]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "75": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 1, we know that all students are enrolled in the PE course. From premise 2, we know that if a person has not attended the PE course, then they are not attending the PE course this semester. From premise 7, we know that there exists a student who attended at least 2 PE courses during the 9 semesters. Therefore, if all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and there exists a student who attended at least 2 PE courses during the 9 semesters (from premises 1, 2, and 7), so the statement is true.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 1, we know that all students are enrolled in the PE course. From premise 2, we know that if a person has not attended the PE course, then they are not attending the PE course this semester. From premise 7, we know that there exists a student who attended at least 2 PE courses during the 9 semesters. Therefore, if all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and there exists a student who attended at least 2 PE courses during the 9 semesters (from premises 1, 2, and 7), so the statement is true.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement is true because all the premises are true, and the statement is a logical consequence of them.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "77": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement that registering for the seminar does not imply completing all requirements to register is false because if x registered for the seminar, then x has completed all requirements to register for the seminar (premise 3), so it is true that registering for the seminar implies completing all requirements to register.\nSupporting Premises: [3]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement that registering for the seminar does not imply completing all requirements to register is false because if x registered for the seminar, then x has completed all requirements to register for the seminar (premise 3), so it is true that registering for the seminar implies completing all requirements to register.\nSupporting Premises: [3]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that registering for the seminar does not imply completing all requirements to register is false because if x registered for the seminar, then x has completed all requirements to register for the seminar (premise 3), so it is true that registering for the seminar implies completing all requirements to register.\nSupporting Premises: [3]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "79": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 3, all individuals are required to attend the healthcare appointment. From premise 1, if x is not required to attend, then x does not attend. Since all are required, premise 1 implies that all attend. Premise 5 confirms that if (not required implies not attending), then all attend, and premise 4 states that if (not required implies not attending), then all are required. Thus, all attend.\nSupporting Premises: [3, 4, 5, 6]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 3, all individuals are required to attend the healthcare appointment. From premise 1, if x is not required to attend, then x does not attend. Since all are required, premise 1 implies that all attend. Premise 5 confirms that if (not required implies not attending), then all attend, and premise 4 states that if (not required implies not attending), then all are required. Thus, all attend.\nSupporting Premises: [3, 4, 5, 6]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 3, all individuals are required to attend the healthcare appointment. From premise 1, if x is not required to attend, then x does not attend. Since all are required, premise 1 implies that all attend. Premise 5 confirms that if (not required implies not attending), then all attend, and premise 4 states that if (not required implies not attending), then all are required. Thus, all attend.\nSupporting Premises: [3, 4, 5, 6]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "81": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement is false because the premises imply that being enrolled in the subject implies attending the lab, which contradicts the statement.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement is false because the premises imply that being enrolled in the subject implies attending the lab, which contradicts the statement.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement is false because the premises imply that being enrolled in the subject implies attending the lab, which contradicts the statement.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "83": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 2 states all students have paid the fees, and premise 1 implies that not paying leads to raising an issue. Therefore, all students who did not raise an issue have paid the fees.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 2, all students have paid the fees. From premise 5, if a student did not pay, they are not eligible for training. Since all students have paid, all students who did not raise an issue have paid the fees.\nSupporting Premises: [2, 5]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 2, all students have paid the fees. From premise 5, if a student did not pay, they are not eligible for training. Since all students have paid, all students who did not raise an issue have paid the fees.\nSupporting Premises: [2, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "85": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 1, all students have completed all quizzes. From premise 4, not completing all course requirements implies not completing all quizzes. The contrapositive of premise 4 is that if x has completed all quizzes, then x has completed all course requirements. Since all students have completed all quizzes, they must have completed all course requirements. Therefore, all students have completed all course requirements (from premises 1 and 4).\nSupporting Premises: [1, 4]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 1, all students have completed all quizzes. From premise 4, not completing all course requirements implies not completing all quizzes. The contrapositive of premise 4 is that if x has completed all quizzes, then x has completed all course requirements. Since all students have completed all quizzes, they must have completed all course requirements. Therefore, all students have completed all course requirements (from premises 1 and 4).\nSupporting Premises: [1, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 1, all students have completed all quizzes. From premise 4, not completing all course requirements implies not completing all quizzes. The contrapositive of premise 4 is that if x has completed all quizzes, then x has completed all course requirements. Since all students have completed all quizzes, they must have completed all course requirements. Therefore, all students have completed all course requirements.\nSupporting Premises: [2, 3, 4, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "87": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 1, we know that all students are required to wear a blouse in the chemistry lab. Therefore, it is true that all students are required to wear a blouse in the chemistry lab.\nSupporting Premises: [2]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 1, we know that all students are required to wear a blouse in the chemistry lab. Therefore, it is true that all students are required to wear a blouse in the chemistry lab.\nSupporting Premises: [2]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that all students are required to wear a blouse in the chemistry lab is explicitly stated in premise 1, making it true.\nSupporting Premises: [2]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "93": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 2, if a student is attending tutorials, then they are understanding the material. From premise 3, there exists at least one student who is asking questions. Therefore, if a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions (from premises 2 and 3), making the statement true.\nSupporting Premises: [3, 4]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 2, we know that if a student is attending tutorials, then they are understanding the material. From premise 3, we know that there exists at least one student who is asking questions. Therefore, if a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions, making the statement true.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement is not necessarily true because the existence of a student asking questions does not guarantee that all students attending tutorials are understanding the material.\nSupporting Premises: []\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": false,
+      "final_answer": "Unknown"
+    }
+  },
+  "95": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 2, we know that every student is revising. From premise 3, if a student is not understanding the material, then they are not revising. From premise 1, if a student is attending tutorials, then they are revising. From premise 4, if (a student not understanding the material implies they are not revising), then (a student attending tutorials implies they are revising). From premise 5, if the statement that 'if a student not understanding the material implies they are not revising, then a student attending tutorials implies they are revising' is true, then (if a student is not understanding the material, they are not revising). From premise 7, if a student is not revising, then they are not attending tutorials. Therefore, if a student is not understanding the material, then they are not revising, and if a student is attending tutorials, then they are revising (from premises 2, 3, 1, 4, 5, and 7), requiring multiple steps to deduce.\nSupporting Premises: [3, 4, 5, 6, 7]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 2, we know that every student is revising. From premise 3, if a student is not understanding the material, then they are not revising. From premise 1, if a student is attending tutorials, then they are revising. From premise 4, if (a student not understanding the material implies they are not revising), then (a student attending tutorials implies they are revising). From premise 5, if the statement that 'if a student not understanding the material implies they are not revising, then a student attending tutorials implies they are revising' is true, then (if a student is not understanding the material, they are not revising). From premise 7, if a student is not revising, then they are not attending tutorials. Therefore, if a student is not understanding the material, then they are not revising, and if a student is attending tutorials, then they are revising (from premises 2, 3, 1, 4, 5, and 7), requiring multiple steps to deduce.\nSupporting Premises: [3, 4, 5, 6, 7]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 2, we know that every student is revising. From premise 3, if a student is not understanding the material, then they are not revising. From premise 1, if a student is attending tutorials, then they are revising. From premise 4, if (a student not understanding the material implies they are not revising), then (a student attending tutorials implies they are revising). From premise 5, if the statement that 'if a student not understanding the material implies they are not revising, then a student attending tutorials implies they are revising' is true, then (if a student is not understanding the material, they are not revising). From premise 7, if a student is not revising, then they are not attending tutorials. Therefore, if a student is not understanding the material, then they are not revising, and if a student is attending tutorials, then they are revising (from premises 2, 3, 1, 4, 5, and 7), requiring multiple steps to deduce.\nSupporting Premises: [3, 4, 5, 6, 7]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "97": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 3 states that if a high school student is not proficient in algebra, then they will not ace calculus. Premise 2 states that there exists at least one high school student who understands trigonometry. Therefore, the statement is true.\nSupporting Premises: [2, 3]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 4 states that if (if a high school student is not proficient in algebra, then they will not ace calculus), then there exists at least one high school student who understands trigonometry. Premise 3 states that if a high school student is not proficient in algebra, then they will not ace calculus. Therefore, by modus ponens, the statement is true.\nSupporting Premises: [4, 3]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that if a high school student is not proficient in algebra, then they will not ace calculus, and there exists at least one high school student who understands trigonometry is true because the premise that if a high school student is not proficient in algebra, then they will not ace calculus is true (premise 3), and the premise that there exists at least one high school student who understands trigonometry is true (premise 2).\nSupporting Premises: [3, 4]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "102": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 9 states that all students take final examinations, and premise 6 states that if there is a research program, then there is at least one student who takes final examinations. From premise 9, we know that all students take final examinations, so the antecedent of premise 6 is true, and the consequent must be true. Therefore, if all students take final examinations, it follows that if there is a research program at the university, then there is at least one student who takes final examinations.\nSupporting Premises: [5, 6]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 9 states that all students take final examinations, and premise 6 states that if there is a research program, then there is at least one student who takes final examinations. From premise 9, we know that all students take final examinations, so the antecedent of premise 6 is true, and the consequent must be true. Therefore, if all students take final examinations, it follows that if there is a research program at the university, then there is at least one student who takes final examinations.\nSupporting Premises: [5, 6]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 9 states that all students take final examinations, and premise 6 states that if there is a research program, then there is at least one student who takes final examinations. From premise 9, we know that all students take final examinations, so the antecedent of premise 6 is true, and the consequent must be true. Therefore, if all students take final examinations, it follows that if there is a research program at the university, then there is at least one student who takes final examinations.\nSupporting Premises: [5, 6]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "107": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 1 states that problem-based learning develops analytical skills, and premise 7 says metacognitive strategies make students effective self-learners. Thus, students in problem-based learning can improve self-learning.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 1 states that problem-based learning develops analytical skills, and premise 7 says metacognitive strategies make students effective self-learners. Thus, students in problem-based learning can improve self-learning.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 1 states that problem-based learning develops analytical skills, and premise 7 says metacognitive strategies make students effective self-learners. Thus, students in problem-based learning can improve self-learning.\nSupporting Premises: [3, 4]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "115": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 5 states that Iruma is not a last-year student, and premise 2 requires being a last-year student and having enough labor days to do the graduation project. Since Iruma is not a last-year student, they cannot do a graduation project.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 5 states that Iruma is not a last-year student, and premise 2 requires being a last-year student and having enough labor days to do the graduation project. Since Iruma is not a last-year student, they cannot do a graduation project.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 5 states that Iruma is not a last-year student, and premise 2 requires being a last-year student and having enough labor days to do the graduation project. Since Iruma is not a last-year student, they cannot do a graduation project.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "117": {
+    "Yes": {
+      "text": "Reasoning:\nFrom premise 8, Ludwig teaches Mia. From premise 2, if someone is motivated by someone else, that person has motivation. From premise 3, if someone improves, they are motivated by someone. From premise 6, if a student gains experience, they learn. From premise 5, if a student learns, they improve. From premise 4, if a teacher shares knowledge with a student, the student gains experience. From premise 10, anyone who has knowledge can teach. From premise 11, anyone who can teach shares knowledge. From premise 12, all teachers have knowledge. From premise 13, all teachers are people. From premise 14, all students are people. From premise 15, Mia is a student. Therefore, Mia has motivation, as Ludwig teaches Mia, and if someone is motivated by someone else, that person has motivation.\nSupporting Premises: [5, 7, 10, 12, 13, 14, 15]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 8, Ludwig teaches Mia. From premise 2, if someone is motivated by someone else, that person has motivation. From premise 3, if someone improves, they are motivated by someone. From premise 6, if a student gains experience, they learn. From premise 5, if a student learns, they improve. From premise 4, if a teacher shares knowledge with a student, the student gains experience. From premise 10, anyone who has knowledge can teach. From premise 11, anyone who can teach shares knowledge. From premise 12, all teachers have knowledge. From premise 13, all teachers are people. From premise 14, all students are people. From premise 15, Mia is a student. Therefore, Mia has motivation, as Ludwig teaches Mia, and if someone is motivated by someone else, that person has motivation.\nSupporting Premises: [5, 7, 10, 12, 13, 14, 15]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nFrom premise 8, Ludwig teaches Mia. From premise 2, if someone is motivated by someone else, that person has motivation. From premise 3, if someone improves, they are motivated by someone. From premise 6, if a student gains experience, they learn. From premise 5, if a student learns, they improve. From premise 4, if a teacher shares knowledge with a student, the student gains experience. From premise 10, anyone who has knowledge can teach. From premise 11, anyone who can teach shares knowledge. From premise 12, all teachers have knowledge. From premise 13, all teachers are people. From premise 14, all students are people. From premise 15, Mia is a student. Therefore, Mia has motivation, as Ludwig teaches Mia, and if someone is motivated by someone else, that person has motivation.\nSupporting Premises: [5, 7, 10, 12, 13, 14, 15]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "119": {
+    "Yes": {
+      "text": "Reasoning:\nThe statement that if a student does not engage in the learning process, they will not succeed in assessments is true because all students understand the core concepts (premise 1), and if they don't engage, they fail to apply concepts (premise 6), leading to failure in assessments (premise 7).\nSupporting Premises: [3, 7]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nThe statement that if a student does not engage in the learning process, they will not succeed in assessments is true because all students understand the core concepts (premise 1), and if they don't engage, they fail to apply concepts (premise 6), leading to failure in assessments (premise 7).\nSupporting Premises: [3, 7]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that if a student does not engage in the learning process, they will not succeed in assessments is true because all students understand the core concepts (premise 1), and if they don't engage, they fail to apply concepts (premise 6), leading to failure in assessments (premise 7).\nSupporting Premises: [3, 7]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "123": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 2 states that all students are required to submit a Research project, and premise 3 states that Research project completion grants access to University housing. Therefore, if all students are required to submit a Research project, Research project completion grants housing access.\nSupporting Premises: [2, 3]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 2 states that all students are required to submit a Research project, and premise 3 states that Research project completion grants access to University housing. Therefore, if all students are required to submit a Research project, Research project completion grants housing access.\nSupporting Premises: [2, 3]\nFinal Answer: No\nVERDICT: VALID",
+      "verdict": "VALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe question asks if all students being required to submit a Research project implies that Research project completion grants housing access. Premise 2 states that all students are required to submit a Research project, and premise 3 states that Research project completion grants access to University housing. Therefore, if all students are required to submit a Research project, Research project completion grants housing access.\nSupporting Premises: [2, 3]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "127": {
+    "Yes": {
+      "text": "Reasoning:\nAll students are enrolled in Research Methods (premise 2), and being enrolled implies qualifying for the competition (premise 4), so all students qualify.\nSupporting Premises: [2, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nFrom premise 2, all students are enrolled in Research Methods. From premise 4, being enrolled in Research Methods implies qualifying for the Quantum Physics competition. Thus, all students qualify for the Quantum Physics competition.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that all students qualify for the Quantum Physics competition is not supported by the premises. While premise 2 states that all students are enrolled in Research Methods, and premise 4 states that being enrolled in Research Methods implies qualifying for the competition, there is no explicit statement that all students qualify for the Quantum Physics competition. Therefore, the answer is unknown.\nSupporting Premises: []\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": false,
+      "final_answer": "Unknown"
+    }
+  },
+  "132": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 5 states all students have completed the assessment process, and premise 4 states that if a student has participated in the assessment process, they will have successfully completed the assignment. Premise 3 states that if a student completes the assignment, they will receive a passing grade. Therefore, all students receive a passing grade.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 5 states all students have completed the assessment process, and premise 4 states that if a student has participated in the assessment process, they will have successfully completed the assignment. Premise 3 states that if a student completes the assignment, they will receive a passing grade. Therefore, all students receive a passing grade.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 5 states all students have completed the assessment process, and premise 4 states that if a student has participated in the assessment process, they will have successfully completed the assignment. Premise 3 states that if a student completes the assignment, they will receive a passing grade. Therefore, all students receive a passing grade.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "141": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 2 states all students study AI ethics, and premise 1 says studying AI ethics implies understanding responsible AI. Premise 3 states understanding responsible AI implies building trustworthy systems. Thus, all students in the AI program build trustworthy systems, requiring premises 2, 3, and 4.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 2 states all students study AI ethics, and premise 1 says studying AI ethics implies understanding responsible AI. Premise 3 states understanding responsible AI implies building trustworthy systems. Thus, all students in the AI program build trustworthy systems, requiring premises 2, 3, and 4.\nSupporting Premises: [3, 4]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe question asks if all students in the AI program build trustworthy systems. Premise 2 states that all students study AI ethics, premise 1 says studying AI ethics implies understanding responsible AI, and premise 3 states that understanding responsible AI implies building trustworthy systems. Therefore, all students in the AI program build trustworthy systems, requiring premises 2, 3, and 4.\nSupporting Premises: [3, 4]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  },
+  "144": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 1 states all students belong to the university, and premise 5 says belonging implies taking the thesis course. Premise 7 confirms all students take the thesis course. Premise 2 says not participating in research implies not belonging to the university, but premise 1 states all students belong, so all must participate in research. Thus, all students participate in research.\nSupporting Premises: [3, 5, 7]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 1 states all students belong to the university, and premise 5 says belonging implies taking the thesis course. Premise 7 confirms all students take the thesis course. Premise 2 says not participating in research implies not belonging to the university, but premise 1 states all students belong, so all must participate in research. Thus, all students participate in research.\nSupporting Premises: [3, 5, 7]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe statement that all students participate in research is not supported by the premises. The premises only state that all students belong to the university, take the thesis course, and that not participating in research implies not taking the thesis course. They do not explicitly state that all students participate in research.\nSupporting Premises: []\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": false,
+      "final_answer": "Unknown"
+    }
+  },
+  "146": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 2 states all students have problem-solving ability, and premise 7 says if a student has problem-solving ability, they have teamwork skills. Premise 1 states that if a student completes the capstone project, they gain teamwork skills. Since all students have problem-solving ability, they all have teamwork skills (from premise 7), and completing the capstone project leads to teamwork skills (premise 1). Therefore, all students complete the capstone project.\nSupporting Premises: [3, 6, 7]\nFinal Answer: Yes\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 2 states all students have problem-solving ability, and premise 7 says if a student has problem-solving ability, they have teamwork skills. Premise 1 states that if a student completes the capstone project, they gain teamwork skills. Since all students have problem-solving ability, they all have teamwork skills (from premise 7), and completing the capstone project leads to teamwork skills (premise 1). Therefore, all students complete the capstone project.\nSupporting Premises: [3, 6, 7]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nThe reasoning is invalid because it incorrectly infers that all students complete the capstone project based on the presence of teamwork skills, which is not explicitly stated in the premises.\nSupporting Premises: []\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": false,
+      "final_answer": "Unknown"
+    }
+  },
+  "150": {
+    "Yes": {
+      "text": "Reasoning:\nPremise 1 states that all students are eligible to conduct research, and premise 4 states that if a student has not completed the training session, then they are not eligible to conduct research. Therefore, all students complete the training session.\nSupporting Premises: [2, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Yes"
+    },
+    "No": {
+      "text": "Reasoning:\nPremise 1 states that all students are eligible to conduct research, and premise 4 states that if a student has not completed the training session, then they are not eligible to conduct research. Therefore, all students complete the training session.\nSupporting Premises: [2, 5]\nFinal Answer: No\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "No"
+    },
+    "Unknown": {
+      "text": "Reasoning:\nPremise 3 states that if a student has not submitted a research proposal, then they are not eligible to conduct research. Premise 2 states that if a student has completed the training session, then they have submitted a research proposal. Premise 1 states that all students are eligible to conduct research. If all students are eligible to conduct research, then all students must have submitted a research proposal (from premise 3). If all students have submitted a research proposal, then all students must have completed the training session (from premise 2). Therefore, all students complete the training session.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Unknown\nVERDICT: INVALID",
+      "verdict": "INVALID",
+      "cited": true,
+      "final_answer": "Unknown"
+    }
+  }
+}
