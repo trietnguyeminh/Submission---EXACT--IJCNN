@@ -1,0 +1,1035 @@
+{
+  "summary": {
+    "input_count": 393,
+    "output_count": 307,
+    "conflict_pairs_resolved": 86,
+    "rule_applied": "Trong mỗi cặp mâu thuẫn (cùng premises + cùng questions, khác answers), giữ item có index cao hơn (phiên bản đã sửa lỗi nhãn) và bỏ item index thấp hơn.",
+    "justification": "Trên 54/86 cặp, đáp án của item index cao nhất quán với explanation; 0/86 cặp item index thấp nhất quán hơn; 32/86 cặp hòa nhưng không bác bỏ pattern."
+  },
+  "removed_items": [
+    {
+      "removed_index": 98,
+      "kept_index": 198,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Unknown"
+      ]
+    },
+    {
+      "removed_index": 100,
+      "kept_index": 200,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 101,
+      "kept_index": 201,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 104,
+      "kept_index": 204,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 105,
+      "kept_index": 205,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 106,
+      "kept_index": 206,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 107,
+      "kept_index": 207,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 108,
+      "kept_index": 208,
+      "removed_answers": [
+        "A",
+        "Yes"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 109,
+      "kept_index": 209,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 110,
+      "kept_index": 210,
+      "removed_answers": [
+        "B",
+        "Yes"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 111,
+      "kept_index": 211,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 112,
+      "kept_index": 212,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 113,
+      "kept_index": 213,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 114,
+      "kept_index": 214,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 115,
+      "kept_index": 215,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 116,
+      "kept_index": 216,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 117,
+      "kept_index": 217,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 118,
+      "kept_index": 218,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 119,
+      "kept_index": 219,
+      "removed_answers": [
+        "C",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 120,
+      "kept_index": 220,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 121,
+      "kept_index": 221,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 122,
+      "kept_index": 222,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 123,
+      "kept_index": 223,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 125,
+      "kept_index": 224,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 126,
+      "kept_index": 225,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 127,
+      "kept_index": 226,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 128,
+      "kept_index": 227,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 132,
+      "kept_index": 228,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 133,
+      "kept_index": 229,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 135,
+      "kept_index": 230,
+      "removed_answers": [
+        "C",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 136,
+      "kept_index": 231,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 138,
+      "kept_index": 232,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 139,
+      "kept_index": 233,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 140,
+      "kept_index": 234,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 141,
+      "kept_index": 235,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 142,
+      "kept_index": 236,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 143,
+      "kept_index": 237,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 144,
+      "kept_index": 238,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 145,
+      "kept_index": 239,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 146,
+      "kept_index": 240,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 147,
+      "kept_index": 241,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 148,
+      "kept_index": 242,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 149,
+      "kept_index": 243,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 150,
+      "kept_index": 244,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 151,
+      "kept_index": 245,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 152,
+      "kept_index": 246,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 153,
+      "kept_index": 247,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 154,
+      "kept_index": 248,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 155,
+      "kept_index": 249,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 156,
+      "kept_index": 250,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 157,
+      "kept_index": 251,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 158,
+      "kept_index": 252,
+      "removed_answers": [
+        "D",
+        "No"
+      ],
+      "kept_answers": [
+        "D",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 159,
+      "kept_index": 253,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 160,
+      "kept_index": 254,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "D",
+        "No"
+      ]
+    },
+    {
+      "removed_index": 161,
+      "kept_index": 255,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 162,
+      "kept_index": 256,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 163,
+      "kept_index": 257,
+      "removed_answers": [
+        "C",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 164,
+      "kept_index": 258,
+      "removed_answers": [
+        "Unknown",
+        "Yes"
+      ],
+      "kept_answers": [
+        "C",
+        "No"
+      ]
+    },
+    {
+      "removed_index": 165,
+      "kept_index": 259,
+      "removed_answers": [
+        "Unknown",
+        "Yes"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 166,
+      "kept_index": 260,
+      "removed_answers": [
+        "Unknown",
+        "Yes"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 167,
+      "kept_index": 261,
+      "removed_answers": [
+        "Unknown",
+        "Yes"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 168,
+      "kept_index": 262,
+      "removed_answers": [
+        "Unknown",
+        "Yes"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 170,
+      "kept_index": 264,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 171,
+      "kept_index": 265,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 172,
+      "kept_index": 266,
+      "removed_answers": [
+        "C",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 174,
+      "kept_index": 268,
+      "removed_answers": [
+        "Unknown"
+      ],
+      "kept_answers": [
+        "C"
+      ]
+    },
+    {
+      "removed_index": 175,
+      "kept_index": 269,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 176,
+      "kept_index": 270,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 177,
+      "kept_index": 271,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "D",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 178,
+      "kept_index": 272,
+      "removed_answers": [
+        "Unknown"
+      ],
+      "kept_answers": [
+        "A"
+      ]
+    },
+    {
+      "removed_index": 179,
+      "kept_index": 273,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "D",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 180,
+      "kept_index": 274,
+      "removed_answers": [
+        "Unknown"
+      ],
+      "kept_answers": [
+        "D"
+      ]
+    },
+    {
+      "removed_index": 181,
+      "kept_index": 275,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 182,
+      "kept_index": 276,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 183,
+      "kept_index": 277,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "D",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 184,
+      "kept_index": 278,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 185,
+      "kept_index": 279,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "D",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 186,
+      "kept_index": 280,
+      "removed_answers": [
+        "Unknown"
+      ],
+      "kept_answers": [
+        "C"
+      ]
+    },
+    {
+      "removed_index": 187,
+      "kept_index": 281,
+      "removed_answers": [
+        "A",
+        "Yes"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 188,
+      "kept_index": 282,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "B",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 189,
+      "kept_index": 283,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "C",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 190,
+      "kept_index": 284,
+      "removed_answers": [
+        "Unknown",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 191,
+      "kept_index": 285,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 194,
+      "kept_index": 288,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 195,
+      "kept_index": 289,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    },
+    {
+      "removed_index": 196,
+      "kept_index": 290,
+      "removed_answers": [
+        "A",
+        "No"
+      ],
+      "kept_answers": [
+        "A",
+        "Yes"
+      ]
+    }
+  ]
+}
