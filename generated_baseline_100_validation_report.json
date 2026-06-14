@@ -1,0 +1,34 @@
+{
+  "file": "generated_baseline_100_records.json",
+  "records": 100,
+  "questions": 200,
+  "duplicates": 0,
+  "duplicate_pairs": [],
+  "schema_errors": [],
+  "answer_distribution": {
+    "B": 30,
+    "Unknown": 30,
+    "No": 30,
+    "A": 50,
+    "Yes": 40,
+    "C": 20
+  },
+  "mcq_distribution": {
+    "B": 30,
+    "A": 50,
+    "C": 20
+  },
+  "yes_no_unknown_distribution": {
+    "Unknown": 30,
+    "No": 30,
+    "Yes": 40
+  },
+  "premise_count_min": 5,
+  "premise_count_max": 6,
+  "premise_count_avg": 5.2,
+  "notes": [
+    "Generated as a baseline synthetic dataset following the uploaded JSON schema.",
+    "Records intentionally include valid forward chaining, valid contraposition, conjunction, existential propagation, and Unknown cases caused by invalid reverse inference.",
+    "This report checks structural validity, answer format, idx range, length consistency, and exact duplicate records."
+  ]
+}
