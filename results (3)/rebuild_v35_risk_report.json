@@ -1,0 +1,12 @@
+{
+ "version": "rebuild_from_scratch_v35_risk_report",
+ "artifact_risk": "LOW_RELOADED_SAVED_PREDS_WITH_CHECKPOINTS",
+ "overfit_risk": "LOW_SYMBOLIC_RULES_NO_SWEEP_APPLIED_AFTER_MODEL_INFERENCE",
+ "underfit_risk": "REMAINING: MC option-proof not applied; statement-form YNU limited; predicate matching imperfect; generation quality still matters",
+ "label_collapse": false,
+ "notes": [
+  "This notebook rebuilds predictions from model inference; it does not consume old v2/v3.2 prediction artifacts.",
+  "v35 only applies proof-certified No corrections; MC symbolic proof remains disabled.",
+  "Use benchmark_v2_1000 issue report to separate direct-conflict/canary subsets if needed."
+ ]
+}
