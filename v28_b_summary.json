@@ -1,0 +1,299 @@
+{
+  "version": "v28_b_oracle_error_analysis",
+  "note": "Analysis only; do not submit",
+  "base_path": "/kaggle/input/datasets/yixuanisthebest/v2333333/v27_standard_preds.json",
+  "candidate_path": "/kaggle/input/datasets/yixuanisthebest/v2333333/v23_val_candidates.json",
+  "base_metric": {
+    "name": "base",
+    "n": 156,
+    "acc": 0.6153846153846154,
+    "macro_f1": 0.5833102471757934,
+    "weighted_f1": 0.6110345160118915,
+    "mc_macro_f1": 0.551470588235294,
+    "ynu_macro_f1": 0.6257631257631258,
+    "per_label": {
+      "A": {
+        "precision": 0.8125,
+        "recall": 0.4642857142857143,
+        "f1": 0.5909090909090908,
+        "support": 28,
+        "pred_count": 16,
+        "tp": 13,
+        "fp": 3,
+        "fn": 15
+      },
+      "B": {
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1": 0.7058823529411765,
+        "support": 8,
+        "pred_count": 9,
+        "tp": 6,
+        "fp": 3,
+        "fn": 2
+      },
+      "C": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.3636363636363636,
+        "support": 6,
+        "pred_count": 5,
+        "tp": 2,
+        "fp": 3,
+        "fn": 4
+      },
+      "D": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support": 5,
+        "pred_count": 6,
+        "tp": 3,
+        "fp": 3,
+        "fn": 2
+      },
+      "Yes": {
+        "precision": 0.4838709677419355,
+        "recall": 0.4411764705882353,
+        "f1": 0.4615384615384615,
+        "support": 34,
+        "pred_count": 31,
+        "tp": 15,
+        "fp": 16,
+        "fn": 19
+      },
+      "No": {
+        "precision": 0.5681818181818182,
+        "recall": 0.625,
+        "f1": 0.5952380952380952,
+        "support": 40,
+        "pred_count": 44,
+        "tp": 25,
+        "fp": 19,
+        "fn": 15
+      },
+      "Unknown": {
+        "precision": 0.7441860465116279,
+        "recall": 0.9142857142857143,
+        "f1": 0.8205128205128205,
+        "support": 35,
+        "pred_count": 43,
+        "tp": 32,
+        "fp": 11,
+        "fn": 3
+      }
+    }
+  },
+  "oracle_metric": {
+    "name": "v28_b_oracle_analysis_only",
+    "n": 156,
+    "acc": 0.7115384615384616,
+    "macro_f1": 0.6333381837583518,
+    "weighted_f1": 0.6956137544372839,
+    "mc_macro_f1": 0.551470588235294,
+    "ynu_macro_f1": 0.7424949777890953,
+    "per_label": {
+      "A": {
+        "precision": 0.8125,
+        "recall": 0.4642857142857143,
+        "f1": 0.5909090909090908,
+        "support": 28,
+        "pred_count": 16,
+        "tp": 13,
+        "fp": 3,
+        "fn": 15
+      },
+      "B": {
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1": 0.7058823529411765,
+        "support": 8,
+        "pred_count": 9,
+        "tp": 6,
+        "fp": 3,
+        "fn": 2
+      },
+      "C": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.3636363636363636,
+        "support": 6,
+        "pred_count": 5,
+        "tp": 2,
+        "fp": 3,
+        "fn": 4
+      },
+      "D": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support": 5,
+        "pred_count": 6,
+        "tp": 3,
+        "fp": 3,
+        "fn": 2
+      },
+      "Yes": {
+        "precision": 0.8823529411764706,
+        "recall": 0.4411764705882353,
+        "f1": 0.5882352941176471,
+        "support": 34,
+        "pred_count": 17,
+        "tp": 15,
+        "fp": 2,
+        "fn": 19
+      },
+      "No": {
+        "precision": 0.6779661016949152,
+        "recall": 1.0,
+        "f1": 0.8080808080808081,
+        "support": 40,
+        "pred_count": 59,
+        "tp": 40,
+        "fp": 19,
+        "fn": 0
+      },
+      "Unknown": {
+        "precision": 0.7619047619047619,
+        "recall": 0.9142857142857143,
+        "f1": 0.8311688311688312,
+        "support": 35,
+        "pred_count": 42,
+        "tp": 32,
+        "fp": 10,
+        "fn": 3
+      }
+    }
+  },
+  "headroom_report": {
+    "base_macro_f1": 0.5833102471757934,
+    "oracle_macro_f1": 0.6333381837583518,
+    "macro_headroom": 0.05002793658255844,
+    "base_ynu_macro": 0.6257631257631258,
+    "oracle_ynu_macro": 0.7424949777890953,
+    "ynu_headroom": 0.11673185202596958,
+    "n_fixable_by_oracle": 15,
+    "first_fixable_examples": [
+      {
+        "idx": 18,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Is there a logical chain from applying for internships to increasing one’s earning potential, according to the premises?"
+      },
+      {
+        "idx": 61,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the premises, is the following statement true?\nStatement: Kahne will receive plus points for their graduation thesis if they write a science article and it is successfully"
+      },
+      {
+        "idx": 63,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the premises, is the following statement true?\nStatement: The Titan computer remains stable during heavy use because it runs complex software and supports multitasking eff"
+      },
+      {
+        "idx": 71,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the above premises, is the following statement true?\nStatement: If there exists someone who attended the midterm exam, then all students attend the course, and there exist"
+      },
+      {
+        "idx": 89,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the above premises, is the statement true?\nStatement: All students have understanding."
+      },
+      {
+        "idx": 91,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the above premises, is the statement true?\nStatement: All students have qualifications."
+      },
+      {
+        "idx": 99,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the above premises, is the statement true?\nStatement: If a student does not participate in extracurricular activities, they cannot develop leadership skills."
+      },
+      {
+        "idx": 105,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Do well-structured curricula improve learning outcomes?"
+      },
+      {
+        "idx": 109,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the above premises, is the statement true?\nStatement: Exists(x, ParticipatesInStudyGroup(x))"
+      },
+      {
+        "idx": 113,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Did Mia rely on her own performance to pass?"
+      },
+      {
+        "idx": 121,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the above premises, is the following statement true?\nStatement: A student who uses security measures will protect user data on their website."
+      },
+      {
+        "idx": 125,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "If there exists at least one object x that has property R, does it follow that every object has property P?"
+      },
+      {
+        "idx": 135,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the above premises, is the following statement true?\nStatement: If students receive low grades, they will seek additional support."
+      },
+      {
+        "idx": 137,
+        "gold": "No",
+        "base_pred": "Yes",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "Based on the above premises, is the following statement true?\nStatement: If a student did not sign the academic integrity agreement, then they did not receive course recognition."
+      },
+      {
+        "idx": 143,
+        "gold": "No",
+        "base_pred": "Unknown",
+        "oracle_pred": "No",
+        "is_mc": false,
+        "question": "If all students must meet the eligibility requirements to enroll in the advanced courses, does it follow that if a student has failed to meet the standards for a course, they are n"
+      }
+    ]
+  }
+}
