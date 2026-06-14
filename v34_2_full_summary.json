@@ -1,0 +1,490 @@
+{
+  "version": "v34_2_alignment_hotfix",
+  "selection_status": "SELECT_V34_2",
+  "selected_source": "v32.2 + v34.2 kept flips",
+  "rule": "post-sweep fixed guard: remove form-fail idx69; G1 direct universal + G2 affirmative body + G3 Final=No + G4 dataset-or-explanation certificate",
+  "kept_flips": [
+    132,
+    146,
+    150
+  ],
+  "removed_flips": [
+    [
+      69,
+      "fallback_G1 statement_form"
+    ],
+    [
+      79,
+      "fallback_G2 negative_near_conclusion"
+    ],
+    [
+      141,
+      "fallback_G4 insufficient_supports:[3, 4]"
+    ],
+    [
+      144,
+      "fallback_G2 negative_near_conclusion"
+    ]
+  ],
+  "certificates": [
+    {
+      "idx": 69,
+      "kept": false,
+      "reason": "fallback_G1 statement_form",
+      "question": "Based on the above premises, is the following statement true?\nStatement: If all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person participated in the workshop, they improved their teamwork ability.",
+      "old_pred": "No",
+      "new_pred": "Yes",
+      "gold_for_audit_only": "No",
+      "dataset_aligned": false,
+      "certificate": {}
+    },
+    {
+      "idx": 79,
+      "kept": false,
+      "reason": "fallback_G2 negative_near_conclusion",
+      "question": "Are all individuals attending the healthcare appointment?",
+      "old_pred": "No",
+      "new_pred": "Yes",
+      "gold_for_audit_only": "Yes",
+      "dataset_aligned": false,
+      "certificate": {
+        "tail": "reasoning:\nfrom premise 3, all individuals are required to attend the healthcare appointment. from premise 1, if x is not required to attend, then x does not attend. since all are required, premise 1 implies that all attend. premise 5 confirms that if (not required implies not attending), then all attend, and premise 4 states that if (not required implies not attending), then all are required. thus, all attend.\nsupporting premises: [3, 4, 5, 6]\n"
+      }
+    },
+    {
+      "idx": 132,
+      "kept": true,
+      "reason": "fallback_G4_explanation_certificate_pass",
+      "question": "Do all students receive a passing grade?",
+      "old_pred": "No",
+      "new_pred": "Yes",
+      "gold_for_audit_only": "Yes",
+      "dataset_aligned": false,
+      "certificate": {
+        "supports": [
+          3,
+          4,
+          5
+        ],
+        "horn_cues": 5,
+        "affirmative_pattern_count": 1,
+        "body_tail": "reasoning:\npremise 5 states all students have completed the assessment process, and premise 4 states that if a student has participated in the assessment process, they will have successfully completed the assignment. premise 3 states that if a student completes the assignment, they will receive a passing grade. therefore, all students receive a passing grade.\nsupporting premises: [3, 4, 5]\n"
+      }
+    },
+    {
+      "idx": 141,
+      "kept": false,
+      "reason": "fallback_G4 insufficient_supports:[3, 4]",
+      "question": "Do all students in the AI program build trustworthy systems, according to the premises?",
+      "old_pred": "No",
+      "new_pred": "Yes",
+      "gold_for_audit_only": "Yes",
+      "dataset_aligned": false,
+      "certificate": {
+        "supports": [
+          3,
+          4
+        ],
+        "affirmative_pattern_count": 2,
+        "body_tail": "reasoning:\npremise 2 states all students study ai ethics, and premise 1 says studying ai ethics implies understanding responsible ai. premise 3 states understanding responsible ai implies building trustworthy systems. thus, all students in the ai program build trustworthy systems, requiring premises 2, 3, and 4.\nsupporting premises: [3, 4]\n"
+      }
+    },
+    {
+      "idx": 144,
+      "kept": false,
+      "reason": "fallback_G2 negative_near_conclusion",
+      "question": "Do all students participate in research?",
+      "old_pred": "No",
+      "new_pred": "Yes",
+      "gold_for_audit_only": "Yes",
+      "dataset_aligned": false,
+      "certificate": {
+        "tail": "reasoning:\npremise 1 states all students belong to the university, and premise 5 says belonging implies taking the thesis course. premise 7 confirms all students take the thesis course. premise 2 says not participating in research implies not belonging to the university, but premise 1 states all students belong, so all must participate in research. thus, all students participate in research.\nsupporting premises: [3, 5, 7]\n"
+      }
+    },
+    {
+      "idx": 146,
+      "kept": true,
+      "reason": "fallback_G4_explanation_certificate_pass",
+      "question": "Do all students complete the capstone project?",
+      "old_pred": "No",
+      "new_pred": "Yes",
+      "gold_for_audit_only": "Yes",
+      "dataset_aligned": false,
+      "certificate": {
+        "supports": [
+          3,
+          6,
+          7
+        ],
+        "horn_cues": 8,
+        "affirmative_pattern_count": 2,
+        "body_tail": "\npremise 2 states all students have problem-solving ability, and premise 7 says if a student has problem-solving ability, they have teamwork skills. premise 1 states that if a student completes the capstone project, they gain teamwork skills. since all students have problem-solving ability, they all have teamwork skills (from premise 7), and completing the capstone project leads to teamwork skills (premise 1). therefore, all students complete the capstone project.\nsupporting premises: [3, 6, 7]\n"
+      }
+    },
+    {
+      "idx": 150,
+      "kept": true,
+      "reason": "fallback_G4_explanation_certificate_pass",
+      "question": "Do all students complete the training session?",
+      "old_pred": "No",
+      "new_pred": "Yes",
+      "gold_for_audit_only": "Yes",
+      "dataset_aligned": false,
+      "certificate": {
+        "supports": [
+          3,
+          4,
+          5
+        ],
+        "horn_cues": 17,
+        "affirmative_pattern_count": 1,
+        "body_tail": "student has completed the training session, then they have submitted a research proposal. premise 1 states that all students are eligible to conduct research. if all students are eligible to conduct research, then all students must have submitted a research proposal (from premise 3). if all students have submitted a research proposal, then all students must have completed the training session (from premise 2). therefore, all students complete the training session.\nsupporting premises: [3, 4, 5]\n"
+      }
+    }
+  ],
+  "candidate_metrics": {
+    "n": 156,
+    "acc": 0.6602564102564102,
+    "macro_f1": 0.6098313451254628,
+    "weighted_f1": 0.654243443836204,
+    "mc_macro": 0.551470588235294,
+    "ynu_macro": 0.6876456876456877,
+    "per_label": {
+      "A": {
+        "precision": 0.8125,
+        "recall": 0.4642857142857143,
+        "f1": 0.5909090909090908,
+        "support": 28,
+        "pred_count": 16
+      },
+      "B": {
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1": 0.7058823529411765,
+        "support": 8,
+        "pred_count": 9
+      },
+      "C": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.3636363636363636,
+        "support": 6,
+        "pred_count": 5
+      },
+      "D": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support": 5,
+        "pred_count": 6
+      },
+      "Yes": {
+        "precision": 0.59375,
+        "recall": 0.5588235294117647,
+        "f1": 0.5757575757575757,
+        "support": 34,
+        "pred_count": 32
+      },
+      "No": {
+        "precision": 0.6363636363636364,
+        "recall": 0.7,
+        "f1": 0.6666666666666666,
+        "support": 40,
+        "pred_count": 44
+      },
+      "Unknown": {
+        "precision": 0.7441860465116279,
+        "recall": 0.9142857142857143,
+        "f1": 0.8205128205128205,
+        "support": 35,
+        "pred_count": 43
+      }
+    },
+    "gold_count": {
+      "A": 28,
+      "Yes": 34,
+      "C": 6,
+      "B": 8,
+      "No": 40,
+      "Unknown": 35,
+      "D": 5
+    },
+    "pred_count": {
+      "A": 16,
+      "Yes": 32,
+      "C": 5,
+      "Unknown": 43,
+      "No": 44,
+      "B": 9,
+      "D": 6,
+      "UNPARSEABLE": 1
+    }
+  },
+  "metrics": {
+    "n": 156,
+    "acc": 0.6602564102564102,
+    "macro_f1": 0.6098313451254628,
+    "weighted_f1": 0.654243443836204,
+    "mc_macro": 0.551470588235294,
+    "ynu_macro": 0.6876456876456877,
+    "per_label": {
+      "A": {
+        "precision": 0.8125,
+        "recall": 0.4642857142857143,
+        "f1": 0.5909090909090908,
+        "support": 28,
+        "pred_count": 16
+      },
+      "B": {
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1": 0.7058823529411765,
+        "support": 8,
+        "pred_count": 9
+      },
+      "C": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.3636363636363636,
+        "support": 6,
+        "pred_count": 5
+      },
+      "D": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support": 5,
+        "pred_count": 6
+      },
+      "Yes": {
+        "precision": 0.59375,
+        "recall": 0.5588235294117647,
+        "f1": 0.5757575757575757,
+        "support": 34,
+        "pred_count": 32
+      },
+      "No": {
+        "precision": 0.6363636363636364,
+        "recall": 0.7,
+        "f1": 0.6666666666666666,
+        "support": 40,
+        "pred_count": 44
+      },
+      "Unknown": {
+        "precision": 0.7441860465116279,
+        "recall": 0.9142857142857143,
+        "f1": 0.8205128205128205,
+        "support": 35,
+        "pred_count": 43
+      }
+    },
+    "gold_count": {
+      "A": 28,
+      "Yes": 34,
+      "C": 6,
+      "B": 8,
+      "No": 40,
+      "Unknown": 35,
+      "D": 5
+    },
+    "pred_count": {
+      "A": 16,
+      "Yes": 32,
+      "C": 5,
+      "Unknown": 43,
+      "No": 44,
+      "B": 9,
+      "D": 6,
+      "UNPARSEABLE": 1
+    }
+  },
+  "baseline_v32_2": {
+    "n": 156,
+    "acc": 0.6410256410256411,
+    "macro_f1": 0.596858548901435,
+    "weighted_f1": 0.63356744040158,
+    "mc_macro": 0.551470588235294,
+    "ynu_macro": 0.657375829789623,
+    "per_label": {
+      "A": {
+        "precision": 0.8125,
+        "recall": 0.4642857142857143,
+        "f1": 0.5909090909090908,
+        "support": 28,
+        "pred_count": 16
+      },
+      "B": {
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1": 0.7058823529411765,
+        "support": 8,
+        "pred_count": 9
+      },
+      "C": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.3636363636363636,
+        "support": 6,
+        "pred_count": 5
+      },
+      "D": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support": 5,
+        "pred_count": 6
+      },
+      "Yes": {
+        "precision": 0.5517241379310345,
+        "recall": 0.47058823529411764,
+        "f1": 0.507936507936508,
+        "support": 34,
+        "pred_count": 29
+      },
+      "No": {
+        "precision": 0.5957446808510638,
+        "recall": 0.7,
+        "f1": 0.6436781609195402,
+        "support": 40,
+        "pred_count": 47
+      },
+      "Unknown": {
+        "precision": 0.7441860465116279,
+        "recall": 0.9142857142857143,
+        "f1": 0.8205128205128205,
+        "support": 35,
+        "pred_count": 43
+      }
+    },
+    "gold_count": {
+      "A": 28,
+      "Yes": 34,
+      "C": 6,
+      "B": 8,
+      "No": 40,
+      "Unknown": 35,
+      "D": 5
+    },
+    "pred_count": {
+      "A": 16,
+      "Yes": 29,
+      "C": 5,
+      "Unknown": 43,
+      "No": 47,
+      "B": 9,
+      "D": 6,
+      "UNPARSEABLE": 1
+    }
+  },
+  "v34_sweep_reference": {
+    "n": 156,
+    "acc": 0.6730769230769231,
+    "macro_f1": 0.6185666574322036,
+    "weighted_f1": 0.6678909074836676,
+    "mc_macro": 0.551470588235294,
+    "ynu_macro": 0.7080280830280831,
+    "per_label": {
+      "A": {
+        "precision": 0.8125,
+        "recall": 0.4642857142857143,
+        "f1": 0.5909090909090908,
+        "support": 28,
+        "pred_count": 16
+      },
+      "B": {
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1": 0.7058823529411765,
+        "support": 8,
+        "pred_count": 9
+      },
+      "C": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.3636363636363636,
+        "support": 6,
+        "pred_count": 5
+      },
+      "D": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support": 5,
+        "pred_count": 6
+      },
+      "Yes": {
+        "precision": 0.6111111111111112,
+        "recall": 0.6470588235294118,
+        "f1": 0.6285714285714287,
+        "support": 34,
+        "pred_count": 36
+      },
+      "No": {
+        "precision": 0.675,
+        "recall": 0.675,
+        "f1": 0.675,
+        "support": 40,
+        "pred_count": 40
+      },
+      "Unknown": {
+        "precision": 0.7441860465116279,
+        "recall": 0.9142857142857143,
+        "f1": 0.8205128205128205,
+        "support": 35,
+        "pred_count": 43
+      }
+    },
+    "gold_count": {
+      "A": 28,
+      "Yes": 34,
+      "C": 6,
+      "B": 8,
+      "No": 40,
+      "Unknown": 35,
+      "D": 5
+    },
+    "pred_count": {
+      "A": 16,
+      "Yes": 36,
+      "C": 5,
+      "Unknown": 43,
+      "No": 40,
+      "B": 9,
+      "D": 6,
+      "UNPARSEABLE": 1
+    }
+  },
+  "candidate_gain_vs_v32_2": 0.012972796224027805,
+  "passes": {
+    "nonempty_kept": true,
+    "strict_gain_vs_v32_2": true,
+    "mc_frozen": true,
+    "unknown_not_down": true,
+    "no_not_collapsed": true,
+    "yes_not_exploded": true,
+    "removed_69": true,
+    "artifact_expected_diffs_match": true
+  },
+  "diffs_vs_v32_2": [
+    132,
+    146,
+    150
+  ],
+  "diffs_vs_v27": [
+    14,
+    71,
+    109,
+    125,
+    132,
+    146,
+    150
+  ],
+  "risk_report": {
+    "artifact_risk": "LOW_RELOADED_SAVED_PREDS",
+    "overfit_risk": "LOWER_THAN_V34_POST_SWEEP_FILTER",
+    "rule_provenance": "No new sweep; only filters the 7 v34-selected flips with semantic guards and fallback certificate.",
+    "label_collapse": false,
+    "underfit_risk": "STILL_HIGH_MC_UNTOUCHED_AND_YES_NO_RESIDUAL"
+  }
+}
