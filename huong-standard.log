@@ -1,0 +1,318 @@
+5.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+5.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+5.9s 3 0.00s - to python to disable frozen modules.
+5.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+6.5s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.5s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.5s 7 0.00s - to python to disable frozen modules.
+6.5s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.5s 9 DATA_PATH: /kaggle/input/datasets/nguyenminhtric/test-pipeline/Logic_Based_Educational_Queries_v5_repair_tier1_dedup_normfol_drop_logicfallacy.json exists= True
+7.5s 10 TEST_PATH: /kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json exists= True
+7.5s 11 OUT_DIR: /kaggle/working
+7.5s 12 Loaded raw data rows: 399 raw test rows: 300
+7.5s 13 First test keys: ['idx', 'premises-FOL', 'premises-NL', 'questions', 'answers', 'explanation']
+7.5s 14 Flattened test samples: 600 bad rows: 0
+7.5s 15 First flat sample:
+7.5s 16 {
+7.5s 17 "flat_id": "test_0_0",
+7.5s 18 "question": "Do all students course?",
+7.5s 19 "gold": "Unknown",
+7.5s 20 "is_mc": false,
+7.5s 21 "is_ynu": true,
+7.5s 22 "idx_component": [
+7.5s 23 1,
+7.5s 24 2
+7.5s 25 ]
+7.5s 26 }
+7.5s 27 Gold distribution: Counter({'Unknown': 175, 'Yes': 170, 'No': 105, 'B': 50, 'A': 50, 'C': 25, 'D': 25})
+7.5s 28 MC: 150 YNU: 450
+7.6s 29 Prompt preview:
+7.6s 30 You are solving a logic-based educational QA problem. Use only the given premises. Do not use outside knowledge.
+7.6s 31 
+7.6s 32 Premises:
+7.6s 33 1. If a student enrolls in the course, then the student attends all lectures.
+7.6s 34 2. At least one student attends all lectures.
+7.6s 35 3. If a student submits all assignments, then the student achieves a high GPA.
+7.6s 36 4. Every student achieves a high GPA.
+7.6s 37 5. At least one student receives a scholarship.
+7.6s 38 6. If a student reads supplementary material, then the student takes a tutoring session.
+7.6s 39 7. Every student completes an internship.
+7.6s 40 8. At least one student attends a peer review session.
+7.6s 41 9. At least one student takes a tutoring session.
+7.6s 42 
+7.6s 43 Question:
+7.6s 44 Do all students course?
+7.6s 45 
+7.6s 46 Reason step by step briefly, cite supporting premises if useful, and End with exactly one line: Final Answer: <Yes, No, or Unknown>
+7.6s 47 
+8.1s 48 Model candidates top 10:
+8.1s 49 /kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1
+8.1s 50 Adapter candidates top 10:
+8.1s 51 /kaggle/input/datasets/yixuanisthebest/v2333333
+8.1s 52 Using BASE_MODEL_PATH: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1
+8.1s 53 Using ADAPTER_PATH: /kaggle/input/datasets/yixuanisthebest/v2333333
+173.6s 54 MODEL LOADED: base_plus_adapter_sharded_dtype
+173.6s 55 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+173.6s 56 
+173.6s 57 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+198.9s 58 [1/600] pred=Unknown gold=Unknown mc=False avg_latency=25.14s
+418.7s 59 [10/600] pred=Yes gold=Yes mc=False avg_latency=24.49s
+664.6s 60 [20/600] pred=Yes gold=Yes mc=False avg_latency=24.54s
+909.4s 61 [30/600] pred=Yes gold=No mc=False avg_latency=24.52s
+1153.2s 62 [40/600] pred=Yes gold=Yes mc=False avg_latency=24.49s
+1399.1s 63 [50/600] pred=Unknown gold=Unknown mc=False avg_latency=24.51s
+1643.6s 64 [60/600] pred=Yes gold=Yes mc=False avg_latency=24.50s
+1885.7s 65 [70/600] pred=Unknown gold=Unknown mc=False avg_latency=24.46s
+2130.0s 66 [80/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+2372.7s 67 [90/600] pred=Unknown gold=Unknown mc=False avg_latency=24.43s
+2615.5s 68 [100/600] pred=Unknown gold=Unknown mc=False avg_latency=24.42s
+2860.9s 69 [110/600] pred=Yes gold=Yes mc=False avg_latency=24.43s
+3105.9s 70 [120/600] pred=Unknown gold=Unknown mc=False avg_latency=24.43s
+3350.8s 71 [130/600] pred=A gold=No mc=False avg_latency=24.44s
+3595.3s 72 [140/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+3839.8s 73 [150/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+4082.7s 74 [160/600] pred=No gold=No mc=False avg_latency=24.43s
+4326.6s 75 [170/600] pred=Unknown gold=Unknown mc=False avg_latency=24.43s
+4572.4s 76 [180/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+4816.1s 77 [190/600] pred=Unknown gold=Unknown mc=False avg_latency=24.43s
+5060.6s 78 [200/600] pred=A gold=No mc=False avg_latency=24.43s
+5303.6s 79 [210/600] pred=No gold=No mc=False avg_latency=24.43s
+5549.7s 80 [220/600] pred=Yes gold=Yes mc=False avg_latency=24.44s
+5793.3s 81 [230/600] pred=Unknown gold=Unknown mc=False avg_latency=24.43s
+6038.7s 82 [240/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+6283.3s 83 [250/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+6528.2s 84 [260/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+6773.3s 85 [270/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+7019.3s 86 [280/600] pred=A gold=Unknown mc=False avg_latency=24.45s
+7263.9s 87 [290/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+7509.1s 88 [300/600] pred=No gold=No mc=False avg_latency=24.45s
+7753.3s 89 [310/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+7997.6s 90 [320/600] pred=Unknown gold=No mc=False avg_latency=24.45s
+8242.9s 91 [330/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+8486.6s 92 [340/600] pred=Yes gold=Yes mc=False avg_latency=24.45s
+8730.9s 93 [350/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+8975.2s 94 [360/600] pred=No gold=No mc=False avg_latency=24.45s
+9218.3s 95 [370/600] pred=A gold=No mc=False avg_latency=24.44s
+9463.3s 96 [380/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+9707.1s 97 [390/600] pred=No gold=No mc=False avg_latency=24.44s
+9950.4s 98 [400/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+10194.2s 99 [410/600] pred=Yes gold=Yes mc=False avg_latency=24.44s
+10438.9s 100 [420/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+10682.5s 101 [430/600] pred=No gold=No mc=False avg_latency=24.44s
+10927.6s 102 [440/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+11173.3s 103 [450/600] pred=A gold=No mc=False avg_latency=24.44s
+11418.5s 104 [460/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+11662.5s 105 [470/600] pred=Yes gold=Yes mc=False avg_latency=24.44s
+11907.8s 106 [480/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+12152.7s 107 [490/600] pred=Yes gold=Yes mc=False avg_latency=24.45s
+12397.8s 108 [500/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+12641.8s 109 [510/600] pred=No gold=No mc=False avg_latency=24.45s
+12887.9s 110 [520/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+13132.7s 111 [530/600] pred=No gold=No mc=False avg_latency=24.45s
+13377.2s 112 [540/600] pred=Yes gold=Yes mc=False avg_latency=24.45s
+13620.6s 113 [550/600] pred=Unknown gold=Unknown mc=False avg_latency=24.45s
+13864.4s 114 [560/600] pred=No gold=No mc=False avg_latency=24.45s
+14107.6s 115 [570/600] pred=No gold=No mc=False avg_latency=24.44s
+14352.0s 116 [580/600] pred=Yes gold=No mc=False avg_latency=24.44s
+14596.0s 117 [590/600] pred=No gold=No mc=False avg_latency=24.44s
+14839.2s 118 [600/600] pred=Unknown gold=Unknown mc=False avg_latency=24.44s
+14839.2s 119 Total inference time sec: 14665.65496301651
+14839.2s 120 Saved preds: /kaggle/working/full_model_eval_v2_flatten_preds.json
+14839.3s 121 Saved summary: /kaggle/working/full_model_eval_v2_flatten_summary.json
+14839.3s 122 Saved error cases: /kaggle/working/full_model_eval_v2_flatten_error_cases.json
+14839.3s 123 
+14839.3s 124 === SUMMARY ===
+14839.3s 125 {
+14839.3s 126 "flattened_samples": 600,
+14839.3s 127 "gold_available": 600,
+14839.3s 128 "mc_count": 150,
+14839.3s 129 "ynu_count": 450,
+14839.3s 130 "pred_distribution": {
+14839.3s 131 "Unknown": 161,
+14839.3s 132 "Yes": 162,
+14839.3s 133 "B": 38,
+14839.3s 134 "A": 92,
+14839.3s 135 "No": 93,
+14839.3s 136 "C": 32,
+14839.3s 137 "D": 12,
+14839.3s 138 "UNPARSEABLE": 10
+14839.3s 139 },
+14839.3s 140 "gold_distribution": {
+14839.3s 141 "Unknown": 175,
+14839.3s 142 "Yes": 170,
+14839.3s 143 "No": 105,
+14839.3s 144 "B": 50,
+14839.3s 145 "A": 50,
+14839.3s 146 "C": 25,
+14839.3s 147 "D": 25
+14839.3s 148 },
+14839.3s 149 "invalid_unparseable_rate": 0.016666666666666666,
+14839.3s 150 "latency_sec": {
+14839.3s 151 "total": 14665.078648328781,
+14839.3s 152 "mean": 24.441797747214636,
+14839.3s 153 "min": 23.724169492721558,
+14839.3s 154 "max": 25.444068670272827
+14839.3s 155 },
+14839.3s 156 "all_metrics": {
+14839.3s 157 "n": 600,
+14839.3s 158 "correct": 476,
+14839.3s 159 "acc": 0.7933333333333333,
+14839.3s 160 "micro_f1": 0.7933333333333333,
+14839.3s 161 "macro_f1": 0.7590893360826848,
+14839.3s 162 "weighted_f1": 0.803973325598224
+14839.3s 163 },
+14839.3s 164 "mc_metrics": {
+14839.3s 165 "n": 150,
+14839.3s 166 "correct": 118,
+14839.3s 167 "acc": 0.7866666666666666,
+14839.3s 168 "micro_f1": 0.7866666666666666,
+14839.3s 169 "macro_f1": 0.7757320717847034,
+14839.3s 170 "weighted_f1": 0.8092422566106776
+14839.3s 171 },
+14839.3s 172 "ynu_metrics": {
+14839.3s 173 "n": 450,
+14839.3s 174 "correct": 358,
+14839.3s 175 "acc": 0.7955555555555556,
+14839.3s 176 "micro_f1": 0.7955555555555556,
+14839.3s 177 "macro_f1": 0.8078432054335668,
+14839.3s 178 "weighted_f1": 0.8258650764674861
+14839.3s 179 },
+14839.3s 180 "error_count": 124,
+14839.3s 181 "error_type_counts": {
+14839.3s 182 "No->Yes": 11,
+14839.3s 183 "Unknown->A": 12,
+14839.3s 184 "Unknown->No": 14,
+14839.3s 185 "Yes->Unknown": 6,
+14839.3s 186 "No->Unknown": 11,
+14839.3s 187 "D->A": 9,
+14839.3s 188 "Unknown->Yes": 5,
+14839.3s 189 "No->A": 15,
+14839.3s 190 "B->C": 8,
+14839.3s 191 "Yes->A": 7,
+14839.3s 192 "D->C": 4,
+14839.3s 193 "B->UNPARSEABLE": 3,
+14839.3s 194 "Yes->No": 11,
+14839.3s 195 "C->UNPARSEABLE": 5,
+14839.3s 196 "A->UNPARSEABLE": 2,
+14839.3s 197 "B->A": 1
+14839.3s 198 }
+14839.3s 199 }
+14839.3s 200 Saved per-label CSV: /kaggle/working/full_model_eval_v2_flatten_per_label_metrics.csv
+14839.3s 201 Saved confusion CSV: /kaggle/working/full_model_eval_v2_flatten_confusion_matrix.csv
+14839.3s 202 
+14839.3s 203 === PER LABEL: ALL ===
+14839.3s 204 A        P=0.5217 R=0.9600 F1=0.6761 support=50 pred=92
+14839.3s 205 B        P=1.0000 R=0.7600 F1=0.8636 support=50 pred=38
+14839.3s 206 C        P=0.6250 R=0.8000 F1=0.7018 support=25 pred=32
+14839.3s 207 D        P=1.0000 R=0.4800 F1=0.6486 support=25 pred=12
+14839.3s 208 Yes      P=0.9012 R=0.8588 F1=0.8795 support=170 pred=162
+14839.3s 209 No       P=0.7312 R=0.6476 F1=0.6869 support=105 pred=93
+14839.3s 210 Unknown  P=0.8944 R=0.8229 F1=0.8571 support=175 pred=161
+14839.3s 211 
+14839.3s 212 === CONFUSION MATRIX: ALL ===
+14839.3s 213 gold\pred ['A', 'B', 'C', 'D', 'Yes', 'No', 'Unknown', 'UNPARSEABLE', 'OTHER']
+14839.3s 214 A [48, 0, 0, 0, 0, 0, 0, 2, 0]
+14839.3s 215 B [1, 38, 8, 0, 0, 0, 0, 3, 0]
+14839.3s 216 C [0, 0, 20, 0, 0, 0, 0, 5, 0]
+14839.3s 217 D [9, 0, 4, 12, 0, 0, 0, 0, 0]
+14839.3s 218 Yes [7, 0, 0, 0, 146, 11, 6, 0, 0]
+14839.3s 219 No [15, 0, 0, 0, 11, 68, 11, 0, 0]
+14839.3s 220 Unknown [12, 0, 0, 0, 5, 14, 144, 0, 0]
+14839.3s 221 
+14839.3s 222 === TOP ERROR TYPES ===
+14839.3s 223 No->A 15
+14839.3s 224 Unknown->No 14
+14839.3s 225 Unknown->A 12
+14839.3s 226 No->Yes 11
+14839.3s 227 No->Unknown 11
+14839.3s 228 Yes->No 11
+14839.3s 229 D->A 9
+14839.3s 230 B->C 8
+14839.3s 231 Yes->A 7
+14839.3s 232 Yes->Unknown 6
+14839.3s 233 Unknown->Yes 5
+14839.3s 234 C->UNPARSEABLE 5
+14839.3s 235 D->C 4
+14839.3s 236 B->UNPARSEABLE 3
+14839.3s 237 A->UNPARSEABLE 2
+14839.3s 238 B->A 1
+14839.3s 239 
+14839.3s 240 === ERROR PREVIEW ===
+14839.3s 241 ---
+14839.3s 242 flat_id: test_1_1 gold: No pred: Yes is_mc: False
+14839.3s 243 Q: Does at least one student improves technique?
+14839.3s 244 RAW: Reasoning:
+14839.3s 245 Premise 1 states that every student registers for the exam. Premise 2 states that if a student registers for the exam, then the student takes a practice test. Therefore, every student takes a practice test. Premise 3 states that if a student takes a practice test, then the student reviews mistakes. Therefore, every student reviews mistakes. Premise 4 states that if a student reviews mistakes, then the student improves technique. Therefore, every student improves technique. Thus, at le
+14839.3s 246 ---
+14839.3s 247 flat_id: test_3_1 gold: Unknown pred: A is_mc: False
+14839.3s 248 Q: According to the premises, is the following statement true? Every student receives the group grade.
+14839.3s 249 RAW: Reasoning:
+14839.3s 250 Premise 3 states that no student completes the group project, and premise 2 states that if a student participates in discussion, then they complete the group project. By contraposition, if a student does not complete the group project, they do not participate in discussion. Since no student completes the group project, no student participates in discussion. Premise 1 states that if a student joins the study group, they participate in discussion. By contraposition, if a student does no
+14839.3s 251 ---
+14839.3s 252 flat_id: test_6_1 gold: Unknown pred: No is_mc: False
+14839.3s 253 Q: According to the premises, is the following statement true? If a student earns course credit, then the student completes the coursework.
+14839.3s 254 RAW: Reasoning:
+14839.3s 255 Premise 3 states that every student earns course credit, and premise 1 states that completing coursework leads to passing the final exam. However, there is no direct link between earning course credit and completing coursework. While premise 2 connects passing the exam to earning credit, it does not confirm that earning credit implies completing coursework. Therefore, the statement is not necessarily true based on the given premises.
+14839.3s 256 Final Answer: No
+14839.3s 257 
+14839.3s 258 Reasoning:
+14839.3s 259 The statement 'If a st
+14839.3s 260 ---
+14839.3s 261 flat_id: test_12_1 gold: Unknown pred: No is_mc: False
+14839.3s 262 Q: According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work.
+14839.3s 263 RAW: Reasoning:
+14839.3s 264 Premise 1 states that completing lab work implies submitting the lab report (C → S), and premise 2 states that submitting the lab report implies passing the lab component (S → P). By hypothetical syllogism, completing lab work implies passing the lab component (C → P). However, the question asks if passing the lab component implies completing the lab work (P → C), which is the converse of the derived implication. Since the converse is not necessarily true, the statement is not necessa
+14839.3s 265 ---
+14839.3s 266 flat_id: test_14_1 gold: No pred: Yes is_mc: False
+14839.3s 267 Q: Does at least one trainee earns a certificate?
+14839.3s 268 RAW: Reasoning:
+14839.3s 269 Premise 1 states that every trainee attends the seminar. Premise 2 says that if a trainee attends the seminar, then they complete the workshop. From these, we can infer that every trainee completes the workshop. Premise 3 states that if a trainee completes the workshop, then they submit a portfolio. Therefore, every trainee submits a portfolio. Premise 4 says that if a trainee submits a portfolio, then they earn a certificate. Thus, every trainee earns a certificate. Since every train
+14839.3s 270 ---
+14839.3s 271 flat_id: test_15_0 gold: Yes pred: Unknown is_mc: False
+14839.3s 272 Q: Do all developers code review?
+14839.3s 273 RAW: Reasoning:
+14839.3s 274 Premise 1 states that every developer writes the code. Premise 2 states that if a developer writes the code, then the developer runs the unit tests. Premise 3 states that if a developer runs the unit tests, then the developer passes the code review. From these, we can infer that every developer passes the code review. However, the question asks whether all developers code review, which is not explicitly stated. The premises do not directly state that passing the code review implies th
+14839.3s 275 ---
+14839.3s 276 flat_id: test_16_1 gold: No pred: Unknown is_mc: False
+14839.3s 277 Q: According to the premises, is the following statement true? At least one librarian updates the database.
+14839.3s 278 RAW: Reasoning:
+14839.3s 279 Premise 4 states that at least one librarian processes reservations, and premise 5 states that if a librarian processes reservations, then the librarian completes the inventory. However, there is no premise that directly states that a librarian updates the database. Therefore, we cannot conclude that at least one librarian updates the database.
+14839.3s 280 Final Answer: Unknown
+14839.3s 281 
+14839.3s 282 Reasoning:
+14839.3s 283 Premise 4 states that at least one librarian processes reservations, and premise 5 states that if a libraria
+14839.3s 284 ---
+14839.3s 285 flat_id: test_22_0 gold: D pred: A is_mc: True
+14839.3s 286 Q: Based on the premises, which statement is correct?
+14839.3s 287 A. No student passes the final exam.
+14839.3s 288 B. Every student passes the final exam.
+14839.3s 289 C. At least one student passes the final exam.
+14839.3s 290 D. It cannot be determined whether any student passes the final exam.
+14839.3s 291 RAW: Reason:
+14839.3s 292 Premise 2 states that no student completes the coursework, and premise 1 states that completing coursework implies passing the final exam. Using modus tollens, if completing coursework leads to passing the exam, but no one completes coursework, then no one passes the exam. Therefore, the correct statement is A.
+14839.3s 293 Final Answer: A
+14839.3s 294 
+14839.3s 295 Reason:
+14839.3s 296 Premise 2 states that no student completes the coursework, and premise 1 states that completing coursework implies passing the final exam. Using modus tol
+14839.3s 297 ---
+14839.3s 298 flat_id: test_22_1 gold: Unknown pred: Yes is_mc: False
+14839.3s 299 Q: According to the premises, is the following statement true? No student passes the final exam.
+14839.3s 300 RAW: Reasoning:
+14839.3s 301 Premise 2 states that no student completes the coursework, and premise 1 states that completing coursework implies passing the final exam. Using modus tollens, if completing coursework leads to passing the exam, but no one completes coursework, then no one passes the exam. Therefore, the statement is true.
+14839.3s 302 Final Answer: Yes
+14839.3s 303 
+14839.3s 304 Reasoning:
+14839.3s 305 Premise 2 states that no student completes the coursework, and premise 1 states that completing coursework implies passing the final exam. Using modus
+14839.3s 306 ---
+14839.3s 307 flat_id: test_32_1 gold: No pred: Yes is_mc: False
+14839.3s 308 Q: Does at least one trainee earns a certificate?
+14839.3s 309 RAW: Reasoning:
+14839.3s 310 Premise 1 states that every trainee attends the seminar. Premise 2 states that if a trainee attends the seminar, then the trainee completes the workshop. From these, we can infer that every trainee completes the workshop. Premise 3 states that if a trainee completes the workshop, then the trainee submits a portfolio. From this, we can infer that every trainee submits a portfolio. Premise 4 states that if a trainee submits a portfolio, then the trainee earns a certificate. From this, w
+14845.0s 311 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+14845.0s 312 cells[i][c] = re.sub('\\\\\|', '|', cell)
+14845.2s 313 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+14845.2s 314 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+14845.8s 315 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+14846.1s 316 [NbConvertApp] Writing 59141 bytes to __notebook__.ipynb
+14848.4s 317 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+14849.2s 318 [NbConvertApp] Writing 409537 bytes to __results__.html
