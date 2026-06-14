@@ -1,0 +1,976 @@
+[
+  {
+    "idx": 5,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Can Dr. John teach undergraduate courses, according to the premises?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "support_count": 6,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 1,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [4, 5, 7]"
+    }
+  },
+  {
+    "idx": 7,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Does the logical sequence demonstrate that Alex meets all requirements for booking training sessions?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 1,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [2, 3, 4]"
+    }
+  },
+  {
+    "idx": 9,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Does Minh qualify to take Biochemistry based on her completed coursework, according to the premises?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        3,
+        7
+      ],
+      "support_count": 2,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 1,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 7]"
+    }
+  },
+  {
+    "idx": 11,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "According to the premises, is the following statement true?\nStatement: A student who reaches advanced research preparation but avoids both publication and seminar opportunities will still qualify for laboratory access",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        11,
+        13,
+        14
+      ],
+      "support_count": 3,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 2,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [11, 13, 14]"
+    }
+  },
+  {
+    "idx": 16,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "According to the premises, is the following statement true?\nStatement: If a person is promoted, they will become a leader in their organization.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [5, 6]"
+    }
+  },
+  {
+    "idx": 22,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "According to the premises, is the following statement true?\nStatement: There exists a complete pathway from maintaining a high GPA to receiving a scholarship.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        3,
+        11
+      ],
+      "support_count": 2,
+      "affirmative_cue_count": 4,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 11]"
+    }
+  },
+  {
+    "idx": 24,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student never practices coding, they will still become proficient in Python.",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        3,
+        4,
+        5,
+        7,
+        11
+      ],
+      "support_count": 5,
+      "affirmative_cue_count": 1,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5, 7, 11]"
+    }
+  },
+  {
+    "idx": 26,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "According to the above premises, is the following statement true?\nStatement: If all Python projects are well-structured, then all Python projects are optimized.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        9,
+        12,
+        13
+      ],
+      "support_count": 3,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 5,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [12, 13]"
+    }
+  },
+  {
+    "idx": 27,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Does it follow that every hardware component is thoroughly validated?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        5,
+        10,
+        13
+      ],
+      "support_count": 3,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [10, 13]"
+    }
+  },
+  {
+    "idx": 28,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Does every AI application receive notable academic recognition?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        5,
+        9
+      ],
+      "support_count": 2,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [9, 5]"
+    }
+  },
+  {
+    "idx": 30,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Are all biometric systems secure?",
+    "rule_would_flip": true,
+    "reason": "R1b_affirmative_multi_premise_chain",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "support_count": 5,
+      "affirmative_cue_count": 4,
+      "horn_cue_count": 6,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  },
+  {
+    "idx": 39,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If at least one student has been found violating the examination regulations and if a student violates the examination regulations, they will be subject to disciplinary action, then the university will take disciplinary action.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        4,
+        10
+      ],
+      "support_count": 2,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [4, 10]"
+    }
+  },
+  {
+    "idx": 41,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the rules above, is the following statement true?\nStatement: If there exists at least one student who has been disciplined for violating the school rules, then a student who violates the traffic safety rules will be fined according to the school's regulations.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        4,
+        10
+      ],
+      "support_count": 2,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [4, 10]"
+    }
+  },
+  {
+    "idx": 45,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the premises, is the following statement true?\nStatement: ∃x U(x)",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        7
+      ],
+      "support_count": 1,
+      "affirmative_cue_count": 4,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [7]"
+    }
+  },
+  {
+    "idx": 47,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: All students complete their homework.",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        2
+      ],
+      "support_count": 1,
+      "affirmative_cue_count": 4,
+      "horn_cue_count": 1,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [2]"
+    }
+  },
+  {
+    "idx": 49,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student does not do their homework, then they will not attend class.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        3
+      ],
+      "support_count": 1,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3]"
+    }
+  },
+  {
+    "idx": 54,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Does at least one student submit a thesis?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        1,
+        3,
+        4
+      ],
+      "support_count": 3,
+      "affirmative_cue_count": 1,
+      "horn_cue_count": 1,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4]"
+    }
+  },
+  {
+    "idx": 57,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: There exists at least one programmer who understands object-oriented programming.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        5,
+        10,
+        14,
+        15
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 5,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [5, 10]"
+    }
+  },
+  {
+    "idx": 59,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the premises, is the following statement true?\nStatement: John has to study more if he does not graduate within 6 years and is out of school.",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 1,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  },
+  {
+    "idx": 64,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Do all students attend the tutorial?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        6,
+        10,
+        11
+      ],
+      "support_count": 3,
+      "affirmative_cue_count": 1,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [10, 11]"
+    }
+  },
+  {
+    "idx": 69,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person participated in the workshop, they improved their teamwork ability.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "support_count": 5,
+      "affirmative_cue_count": 5,
+      "horn_cue_count": 7,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  },
+  {
+    "idx": 73,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If there exists someone who uses university facilities responsibly, then a person having the maturity to use facilities responsibly implies they use them responsibly, and if a person uses university facilities responsibly, they",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "support_count": 6,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 1,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 5, 6]"
+    }
+  },
+  {
+    "idx": 75,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and there exists a student who attended at least 2 PE courses during the 9 seme",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "support_count": 6,
+      "affirmative_cue_count": 6,
+      "horn_cue_count": 6,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  },
+  {
+    "idx": 77,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Is it true that registering for the seminar does not imply completing all requirements to register, according to the premises?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        3
+      ],
+      "support_count": 1,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3]"
+    }
+  },
+  {
+    "idx": 79,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Are all individuals attending the healthcare appointment?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "support_count": 5,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 6,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5, 6]"
+    }
+  },
+  {
+    "idx": 81,
+    "gold_for_audit_only": "Unknown",
+    "pred": "No",
+    "question": "Is the statement true?\nStatement: It is not true that: if a student is enrolled in the subject, then attending the lab is a requirement.",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        3,
+        4,
+        5
+      ],
+      "support_count": 3,
+      "affirmative_cue_count": 0,
+      "horn_cue_count": 1,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  },
+  {
+    "idx": 83,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Is it true that all students who did not raise an issue have paid the fees?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4]"
+    }
+  },
+  {
+    "idx": 85,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Is it true that all students have completed all course requirements?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "support_count": 5,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  },
+  {
+    "idx": 87,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Is it true that all students are required to wear a blouse in the chemistry lab?",
+    "rule_would_flip": true,
+    "reason": "R1b_affirmative_multi_premise_chain",
+    "details": {
+      "supporting_premises": [
+        1,
+        2
+      ],
+      "support_count": 2,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [2]"
+    }
+  },
+  {
+    "idx": 93,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        2,
+        3,
+        4
+      ],
+      "support_count": 3,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 5,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4]"
+    }
+  },
+  {
+    "idx": 95,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student is not understanding the material, then they are not revising, and if a student is attending tutorials, then they are revising.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "support_count": 7,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 6,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5, 6, 7]"
+    }
+  },
+  {
+    "idx": 97,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a high school student is not proficient in algebra, then they will not ace calculus, and there exists at least one high school student who understands trigonometry.",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        3,
+        4
+      ],
+      "support_count": 2,
+      "affirmative_cue_count": 5,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [4, 3]"
+    }
+  },
+  {
+    "idx": 102,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "If all students take final examinations, does it follow that if there is a research program at the university, then there is at least one student who takes final examinations?",
+    "rule_would_flip": false,
+    "reason": "not_yes_no_question_shape",
+    "details": {}
+  },
+  {
+    "idx": 107,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Can students in problem-based learning improve self-learning?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 1,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4]"
+    }
+  },
+  {
+    "idx": 115,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Can Iruma do a graduation project?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 0,
+      "horn_cue_count": 0,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  },
+  {
+    "idx": 117,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "Does Mia have motivation?",
+    "rule_would_flip": true,
+    "reason": "R1b_affirmative_multi_premise_chain",
+    "details": {
+      "supporting_premises": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "support_count": 13,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 4,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [5, 7, 10, 12, 13, 14, 15]"
+    }
+  },
+  {
+    "idx": 119,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Based on the above premises, is the following statement true?\nStatement: ForAll(x, (¬EngagesInLearningProcess(x) → ¬SucceedsInAssessments(x)))",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 2,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 7]"
+    }
+  },
+  {
+    "idx": 123,
+    "gold_for_audit_only": "No",
+    "pred": "No",
+    "question": "If all students are required to submit a Research project, does it follow that Research project completion grants housing access?",
+    "rule_would_flip": false,
+    "reason": "not_yes_no_question_shape",
+    "details": {}
+  },
+  {
+    "idx": 127,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Do all students qualify for the Quantum Physics competition?",
+    "rule_would_flip": false,
+    "reason": "no_strict_proof_signal",
+    "details": {
+      "supporting_premises": [
+        2,
+        4
+      ],
+      "support_count": 2,
+      "affirmative_cue_count": 1,
+      "horn_cue_count": 2,
+      "negative_near_conclusion": false,
+      "body_true_phrase": false,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [2, 4]"
+    }
+  },
+  {
+    "idx": 132,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Do all students receive a passing grade?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        3,
+        4,
+        5
+      ],
+      "support_count": 3,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  },
+  {
+    "idx": 141,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Do all students in the AI program build trustworthy systems, according to the premises?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "support_count": 4,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4]"
+    }
+  },
+  {
+    "idx": 144,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Do all students participate in research?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "support_count": 5,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 3,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 5, 7]"
+    }
+  },
+  {
+    "idx": 146,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Do all students complete the capstone project?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "support_count": 5,
+      "affirmative_cue_count": 2,
+      "horn_cue_count": 5,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 6, 7]"
+    }
+  },
+  {
+    "idx": 150,
+    "gold_for_audit_only": "Yes",
+    "pred": "No",
+    "question": "Do all students complete the training session?",
+    "rule_would_flip": true,
+    "reason": "R1_affirmative_horn_body_true_with_premises",
+    "details": {
+      "supporting_premises": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "support_count": 5,
+      "affirmative_cue_count": 3,
+      "horn_cue_count": 5,
+      "negative_near_conclusion": false,
+      "body_true_phrase": true,
+      "old_inner_final": "No",
+      "last_reasoning_sentence": "Supporting Premises: [3, 4, 5]"
+    }
+  }
+]
