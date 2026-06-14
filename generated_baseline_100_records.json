@@ -1,0 +1,3882 @@
+[
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (SubmitProject001(x) → ReceiveFeedback001(x))",
+      "∃x (ReceiveFeedback001(x))",
+      "∀x (UseLibrary001(x) → FindSources001(x))",
+      "∃x (UseLibrary001(x))",
+      "∀x (FindSources001(x) → WriteEssay001(x))"
+    ],
+    "premises-NL": [
+      "If a learner submits the project, then the learner receives feedback.",
+      "At least one learner receives feedback.",
+      "If a learner uses the library, then the learner finds sources.",
+      "At least one learner uses the library.",
+      "If a learner finds sources, then the learner writes the essay."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who receives feedback must submits the project.\nB. At least one learner receives feedback, but the premises do not show that this learner submits the project.\nC. No learner can receives feedback.\nD. Every learner submits the project is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner receives feedback, then the learner submits the project."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states SubmitProject001→ReceiveFeedback001, and premise 2 gives existence of ReceiveFeedback001. It does not provide the reverse implication ReceiveFeedback001→SubmitProject001. Therefore option B is the only supported statement.",
+      "The premises contain SubmitProject001→ReceiveFeedback001, not ReceiveFeedback001→SubmitProject001. Knowing that a learner receives feedback does not allow us to infer that the same learner submits the project."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CompleteModule002(x) → PassQuiz002(x))",
+      "∀x (¬PassQuiz002(x))",
+      "∀x (JoinDiscussion002(x) → HearExamples002(x))",
+      "∀x (HearExamples002(x) → ApplyMethod002(x))",
+      "∃x (JoinDiscussion002(x))"
+    ],
+    "premises-NL": [
+      "If a employee completes the module, then the employee passes the quiz.",
+      "No employee passes the quiz.",
+      "If a employee joins the discussion, then the employee hears examples.",
+      "If a employee hears examples, then the employee applies the method.",
+      "At least one employee joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees completes the module.\nB. No employee completes the module.\nC. Every employee passes the quiz.\nD. The premises prove that all employees joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who completes the module."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says CompleteModule002→PassQuiz002. Its valid contrapositive is ¬PassQuiz002→¬CompleteModule002. Since premise 2 states ¬PassQuiz002 for every employee, no employee completes the module.",
+      "Because every employee lacks passes the quiz, and completes the module would imply passes the quiz, no employee can satisfy CompleteModule002. Thus existence of a employee who completes the module is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (JoinLab003(x))",
+      "∀x (JoinLab003(x) → AccessDataset003(x))",
+      "∀x (AccessDataset003(x) → BuildPrototype003(x))",
+      "∀x (CheckRubric003(x) → MeetCriteria003(x))",
+      "∀x (¬ScoreHigh003(x) → ¬MeetCriteria003(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who joins the lab.",
+      "If a researcher joins the lab, then the researcher accesses the dataset.",
+      "If a researcher accesses the dataset, then the researcher builds a prototype.",
+      "If a researcher checks the rubric, then the researcher meets the criteria.",
+      "If a researcher does not scores highly, then the researcher does not meets the criteria."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher builds a prototype.\nB. No researcher builds a prototype.\nC. Every researcher joins the lab.\nD. Every researcher checks the rubric.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher accesses the dataset."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with JoinLab003. Premise 2 maps JoinLab003 to AccessDataset003, and premise 3 maps AccessDataset003 to BuildPrototype003. Therefore at least one researcher builds a prototype.",
+      "Since at least one researcher joins the lab and every JoinLab003 implies AccessDataset003, at least one researcher accesses the dataset."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((PracticeDaily004(x) ∧ VolunteerActivity004(x)) → PresentConfidently004(x))",
+      "∀x (PracticeDaily004(x))",
+      "∀x (VolunteerActivity004(x))",
+      "∀x (LeadershipExperience004(x) → MentorJunior004(x))",
+      "∃x (LeadershipExperience004(x))"
+    ],
+    "premises-NL": [
+      "If a participant both practices daily and volunteers for the activity, then the participant presents confidently.",
+      "Every participant practices daily.",
+      "Every participant volunteers for the activity.",
+      "If a participant gains leadership experience, then the participant mentors a junior peer.",
+      "At least one participant gains leadership experience."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant presents confidently.\nB. No participant practices daily.\nC. Only participants who gains leadership experience can presents confidently.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant gains leadership experience, then the participant mentors a junior peer."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant presents confidently.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReadGuide005(x) → FollowProcedure005(x))",
+      "∀x (UseLibrary005(x) → FindSources005(x))",
+      "∃x (ReadGuide005(x))",
+      "∀x (FindSources005(x) → WriteEssay005(x))",
+      "∃x (HasMotivation005(x))"
+    ],
+    "premises-NL": [
+      "If a intern reads the guide, then the intern follows the procedure.",
+      "If a intern uses the library, then the intern finds sources.",
+      "At least one intern reads the guide.",
+      "If a intern finds sources, then the intern writes the essay.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern follows the procedure.\nB. At least one intern writes the essay must exist.\nC. Every intern uses the library.\nD. No intern reads the guide.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern writes the essay."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with ReadGuide005; premise 1 maps ReadGuide005 to FollowProcedure005. Hence at least one intern follows the procedure.",
+      "The only route to WriteEssay005 is through UseLibrary005→FindSources005→WriteEssay005, but the premises do not assert that any intern uses the library. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendTraining006(x) → ¬CompleteAssessment006(x))",
+      "∀x (AttendTraining006(x))",
+      "∀x (JoinDiscussion006(x) → HearExamples006(x))",
+      "∃x (JoinDiscussion006(x))",
+      "∀x (HearExamples006(x) → ApplyMethod006(x))"
+    ],
+    "premises-NL": [
+      "If a teacher attends training, then the teacher does not completes the assessment.",
+      "Every teacher attends training.",
+      "If a teacher joins the discussion, then the teacher hears examples.",
+      "At least one teacher joins the discussion.",
+      "If a teacher hears examples, then the teacher applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher completes the assessment.\nB. No teacher completes the assessment.\nC. Some teachers are both attends training and completes the assessment.\nD. The premises prove nothing about completes the assessment.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who completes the assessment."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives AttendTraining006 for every teacher; premise 1 states AttendTraining006 implies not CompleteAssessment006. Therefore no teacher completes the assessment.",
+      "Since all teachers satisfy AttendTraining006 and AttendTraining006 excludes CompleteAssessment006, no existence claim for CompleteAssessment006 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (UseChecklist007(x) → (SubmitAccurateReport007(x) ∧ PassReview007(x)))",
+      "∃x (UseChecklist007(x))",
+      "∀x (CheckRubric007(x) → MeetCriteria007(x))",
+      "∀x (MeetCriteria007(x) → ScoreHigh007(x))",
+      "∀x (ReceivesSupport007(x))"
+    ],
+    "premises-NL": [
+      "If a assistant uses the checklist, then the assistant submits an accurate report and passes the review.",
+      "At least one assistant uses the checklist.",
+      "If a assistant checks the rubric, then the assistant meets the criteria.",
+      "If a assistant meets the criteria, then the assistant scores highly.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant submits an accurate report and passes the review.\nB. No assistant submits an accurate report.\nC. Every assistant checks the rubric.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant uses the checklist, then the assistant passes the review."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of UseChecklist007. Premise 1 says any such instance has both SubmitAccurateReport007 and PassReview007, so at least one assistant submits an accurate report and passes the review.",
+      "Premise 1 directly includes UseChecklist007→PassReview007 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AskQuestions008(x) → ClarifyConcepts008(x))",
+      "∀x (ClarifyConcepts008(x) → SolveExercises008(x))",
+      "∀x (¬SolveExercises008(x))",
+      "∀x (VolunteerActivity008(x) → LeadershipExperience008(x))",
+      "∃x (VolunteerActivity008(x))"
+    ],
+    "premises-NL": [
+      "If a member asks questions, then the member clarifies concepts.",
+      "If a member clarifies concepts, then the member solves exercises.",
+      "No member solves exercises.",
+      "If a member volunteers for the activity, then the member gains leadership experience.",
+      "At least one member volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member asks questions.\nB. At least one member solves exercises.\nC. No member asks questions.\nD. No member volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who asks questions."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, AskQuestions008 implies SolveExercises008. Premise 3 says no member has SolveExercises008. By valid contraposition of the chain, no member can have AskQuestions008.",
+      "Since AskQuestions008 would lead to SolveExercises008, and premise 3 rules out SolveExercises008 for every member, the existence of an AskQuestions008 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CollaborateTeam009(x) → ShareResources009(x))",
+      "∀x (FinishTask009(x) → ShareResources009(x))",
+      "∃x (ShareResources009(x))",
+      "∀x (UseLibrary009(x) → FindSources009(x))",
+      "∀x (FindSources009(x) → WriteEssay009(x))",
+      "∃x (UseLibrary009(x))"
+    ],
+    "premises-NL": [
+      "If a trainee collaborates with the team, then the trainee shares resources.",
+      "If a trainee finishes the task, then the trainee shares resources.",
+      "At least one trainee shares resources.",
+      "If a trainee uses the library, then the trainee finds sources.",
+      "If a trainee finds sources, then the trainee writes the essay.",
+      "At least one trainee uses the library."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee collaborates with the team must exist.\nB. At least one trainee finishes the task must exist.\nC. At least one trainee writes the essay exists.\nD. No trainee shares resources.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee shares resources, then the trainee collaborates with the team."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of UseLibrary009; premise 4 maps UseLibrary009 to FindSources009, and premise 5 maps FindSources009 to WriteEssay009. Therefore at least one trainee writes the essay, so option C follows.",
+      "Premise 1 states CollaborateTeam009→ShareResources009, but not ShareResources009→CollaborateTeam009. Premise 3 only provides existence of ShareResources009, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReviewLecture010(x) → RememberFormula010(x))",
+      "∀x (RememberFormula010(x) → AnswerExamQuestion010(x))",
+      "∀x (ReviewLecture010(x))",
+      "∃x (JoinDiscussion010(x))",
+      "∀x (JoinDiscussion010(x) → HearExamples010(x))",
+      "∀x (HearExamples010(x) → ApplyMethod010(x))"
+    ],
+    "premises-NL": [
+      "If a student reviews the lecture, then the student remembers the formula.",
+      "If a student remembers the formula, then the student answers the exam question.",
+      "Every student reviews the lecture.",
+      "There exists at least one student who joins the discussion.",
+      "If a student joins the discussion, then the student hears examples.",
+      "If a student hears examples, then the student applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students answers the exam question.\nB. No student answers the exam question.\nC. Only some students answers the exam question, and not all.\nD. It is impossible for any student to reviews the lecture.",
+      "According to the premises, is the following statement true?\nStatement: If a student reviews the lecture, then the student answers the exam question."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student reviews the lecture. Premise 1 gives ReviewLecture010→RememberFormula010, and premise 2 gives RememberFormula010→AnswerExamQuestion010. Therefore every student answers the exam question, so option A follows.",
+      "From premise 1, ReviewLecture010 implies RememberFormula010; from premise 2, RememberFormula010 implies AnswerExamQuestion010. By chaining the two conditionals, if a student reviews the lecture, then the student answers the exam question."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendOfficeHours011(x) → GetGuidance011(x))",
+      "∃x (GetGuidance011(x))",
+      "∀x (CheckRubric011(x) → MeetCriteria011(x))",
+      "∃x (CheckRubric011(x))",
+      "∀x (MeetCriteria011(x) → ScoreHigh011(x))"
+    ],
+    "premises-NL": [
+      "If a learner attends office hours, then the learner gets guidance.",
+      "At least one learner gets guidance.",
+      "If a learner checks the rubric, then the learner meets the criteria.",
+      "At least one learner checks the rubric.",
+      "If a learner meets the criteria, then the learner scores highly."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who gets guidance must attends office hours.\nB. At least one learner gets guidance, but the premises do not show that this learner attends office hours.\nC. No learner can gets guidance.\nD. Every learner attends office hours is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner gets guidance, then the learner attends office hours."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states AttendOfficeHours011→GetGuidance011, and premise 2 gives existence of GetGuidance011. It does not provide the reverse implication GetGuidance011→AttendOfficeHours011. Therefore option B is the only supported statement.",
+      "The premises contain AttendOfficeHours011→GetGuidance011, not GetGuidance011→AttendOfficeHours011. Knowing that a learner gets guidance does not allow us to infer that the same learner attends office hours."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendSeminar012(x) → TakeNotes012(x))",
+      "∀x (¬TakeNotes012(x))",
+      "∀x (VolunteerActivity012(x) → LeadershipExperience012(x))",
+      "∀x (LeadershipExperience012(x) → MentorJunior012(x))",
+      "∃x (VolunteerActivity012(x))"
+    ],
+    "premises-NL": [
+      "If a employee attends the seminar, then the employee takes notes.",
+      "No employee takes notes.",
+      "If a employee volunteers for the activity, then the employee gains leadership experience.",
+      "If a employee gains leadership experience, then the employee mentors a junior peer.",
+      "At least one employee volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees attends the seminar.\nB. No employee attends the seminar.\nC. Every employee takes notes.\nD. The premises prove that all employees volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who attends the seminar."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says AttendSeminar012→TakeNotes012. Its valid contrapositive is ¬TakeNotes012→¬AttendSeminar012. Since premise 2 states ¬TakeNotes012 for every employee, no employee attends the seminar.",
+      "Because every employee lacks takes notes, and attends the seminar would imply takes notes, no employee can satisfy AttendSeminar012. Thus existence of a employee who attends the seminar is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (SubmitProject013(x))",
+      "∀x (SubmitProject013(x) → ReceiveFeedback013(x))",
+      "∀x (ReceiveFeedback013(x) → ImproveWork013(x))",
+      "∀x (UseLibrary013(x) → FindSources013(x))",
+      "∀x (¬WriteEssay013(x) → ¬FindSources013(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who submits the project.",
+      "If a researcher submits the project, then the researcher receives feedback.",
+      "If a researcher receives feedback, then the researcher improves their work.",
+      "If a researcher uses the library, then the researcher finds sources.",
+      "If a researcher does not writes the essay, then the researcher does not finds sources."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher improves their work.\nB. No researcher improves their work.\nC. Every researcher submits the project.\nD. Every researcher uses the library.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher receives feedback."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with SubmitProject013. Premise 2 maps SubmitProject013 to ReceiveFeedback013, and premise 3 maps ReceiveFeedback013 to ImproveWork013. Therefore at least one researcher improves their work.",
+      "Since at least one researcher submits the project and every SubmitProject013 implies ReceiveFeedback013, at least one researcher receives feedback."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((CompleteModule014(x) ∧ JoinDiscussion014(x)) → EarnBadge014(x))",
+      "∀x (CompleteModule014(x))",
+      "∀x (JoinDiscussion014(x))",
+      "∀x (HearExamples014(x) → ApplyMethod014(x))",
+      "∃x (HearExamples014(x))"
+    ],
+    "premises-NL": [
+      "If a participant both completes the module and joins the discussion, then the participant earns a badge.",
+      "Every participant completes the module.",
+      "Every participant joins the discussion.",
+      "If a participant hears examples, then the participant applies the method.",
+      "At least one participant hears examples."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant earns a badge.\nB. No participant completes the module.\nC. Only participants who hears examples can earns a badge.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant hears examples, then the participant applies the method."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant earns a badge.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (JoinLab015(x) → AccessDataset015(x))",
+      "∀x (CheckRubric015(x) → MeetCriteria015(x))",
+      "∃x (JoinLab015(x))",
+      "∀x (MeetCriteria015(x) → ScoreHigh015(x))",
+      "∃x (HasMotivation015(x))"
+    ],
+    "premises-NL": [
+      "If a intern joins the lab, then the intern accesses the dataset.",
+      "If a intern checks the rubric, then the intern meets the criteria.",
+      "At least one intern joins the lab.",
+      "If a intern meets the criteria, then the intern scores highly.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern accesses the dataset.\nB. At least one intern scores highly must exist.\nC. Every intern checks the rubric.\nD. No intern joins the lab.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern scores highly."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with JoinLab015; premise 1 maps JoinLab015 to AccessDataset015. Hence at least one intern accesses the dataset.",
+      "The only route to ScoreHigh015 is through CheckRubric015→MeetCriteria015→ScoreHigh015, but the premises do not assert that any intern checks the rubric. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (PracticeDaily016(x) → ¬GainFluency016(x))",
+      "∀x (PracticeDaily016(x))",
+      "∀x (VolunteerActivity016(x) → LeadershipExperience016(x))",
+      "∃x (VolunteerActivity016(x))",
+      "∀x (LeadershipExperience016(x) → MentorJunior016(x))"
+    ],
+    "premises-NL": [
+      "If a teacher practices daily, then the teacher does not gains fluency.",
+      "Every teacher practices daily.",
+      "If a teacher volunteers for the activity, then the teacher gains leadership experience.",
+      "At least one teacher volunteers for the activity.",
+      "If a teacher gains leadership experience, then the teacher mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher gains fluency.\nB. No teacher gains fluency.\nC. Some teachers are both practices daily and gains fluency.\nD. The premises prove nothing about gains fluency.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who gains fluency."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives PracticeDaily016 for every teacher; premise 1 states PracticeDaily016 implies not GainFluency016. Therefore no teacher gains fluency.",
+      "Since all teachers satisfy PracticeDaily016 and PracticeDaily016 excludes GainFluency016, no existence claim for GainFluency016 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReadGuide017(x) → (FollowProcedure017(x) ∧ AvoidErrors017(x)))",
+      "∃x (ReadGuide017(x))",
+      "∀x (UseLibrary017(x) → FindSources017(x))",
+      "∀x (FindSources017(x) → WriteEssay017(x))",
+      "∀x (ReceivesSupport017(x))"
+    ],
+    "premises-NL": [
+      "If a assistant reads the guide, then the assistant follows the procedure and avoids errors.",
+      "At least one assistant reads the guide.",
+      "If a assistant uses the library, then the assistant finds sources.",
+      "If a assistant finds sources, then the assistant writes the essay.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant follows the procedure and avoids errors.\nB. No assistant follows the procedure.\nC. Every assistant uses the library.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant reads the guide, then the assistant avoids errors."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of ReadGuide017. Premise 1 says any such instance has both FollowProcedure017 and AvoidErrors017, so at least one assistant follows the procedure and avoids errors.",
+      "Premise 1 directly includes ReadGuide017→AvoidErrors017 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendTraining018(x) → CompleteAssessment018(x))",
+      "∀x (CompleteAssessment018(x) → ReceiveCertificate018(x))",
+      "∀x (¬ReceiveCertificate018(x))",
+      "∀x (JoinDiscussion018(x) → HearExamples018(x))",
+      "∃x (JoinDiscussion018(x))"
+    ],
+    "premises-NL": [
+      "If a member attends training, then the member completes the assessment.",
+      "If a member completes the assessment, then the member receives a certificate.",
+      "No member receives a certificate.",
+      "If a member joins the discussion, then the member hears examples.",
+      "At least one member joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member attends training.\nB. At least one member receives a certificate.\nC. No member attends training.\nD. No member joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who attends training."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, AttendTraining018 implies ReceiveCertificate018. Premise 3 says no member has ReceiveCertificate018. By valid contraposition of the chain, no member can have AttendTraining018.",
+      "Since AttendTraining018 would lead to ReceiveCertificate018, and premise 3 rules out ReceiveCertificate018 for every member, the existence of an AttendTraining018 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (UseChecklist019(x) → SubmitAccurateReport019(x))",
+      "∀x (PassReview019(x) → SubmitAccurateReport019(x))",
+      "∃x (SubmitAccurateReport019(x))",
+      "∀x (CheckRubric019(x) → MeetCriteria019(x))",
+      "∀x (MeetCriteria019(x) → ScoreHigh019(x))",
+      "∃x (CheckRubric019(x))"
+    ],
+    "premises-NL": [
+      "If a trainee uses the checklist, then the trainee submits an accurate report.",
+      "If a trainee passes the review, then the trainee submits an accurate report.",
+      "At least one trainee submits an accurate report.",
+      "If a trainee checks the rubric, then the trainee meets the criteria.",
+      "If a trainee meets the criteria, then the trainee scores highly.",
+      "At least one trainee checks the rubric."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee uses the checklist must exist.\nB. At least one trainee passes the review must exist.\nC. At least one trainee scores highly exists.\nD. No trainee submits an accurate report.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee submits an accurate report, then the trainee uses the checklist."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of CheckRubric019; premise 4 maps CheckRubric019 to MeetCriteria019, and premise 5 maps MeetCriteria019 to ScoreHigh019. Therefore at least one trainee scores highly, so option C follows.",
+      "Premise 1 states UseChecklist019→SubmitAccurateReport019, but not SubmitAccurateReport019→UseChecklist019. Premise 3 only provides existence of SubmitAccurateReport019, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AskQuestions020(x) → ClarifyConcepts020(x))",
+      "∀x (ClarifyConcepts020(x) → SolveExercises020(x))",
+      "∀x (AskQuestions020(x))",
+      "∃x (VolunteerActivity020(x))",
+      "∀x (VolunteerActivity020(x) → LeadershipExperience020(x))",
+      "∀x (LeadershipExperience020(x) → MentorJunior020(x))"
+    ],
+    "premises-NL": [
+      "If a student asks questions, then the student clarifies concepts.",
+      "If a student clarifies concepts, then the student solves exercises.",
+      "Every student asks questions.",
+      "There exists at least one student who volunteers for the activity.",
+      "If a student volunteers for the activity, then the student gains leadership experience.",
+      "If a student gains leadership experience, then the student mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students solves exercises.\nB. No student solves exercises.\nC. Only some students solves exercises, and not all.\nD. It is impossible for any student to asks questions.",
+      "According to the premises, is the following statement true?\nStatement: If a student asks questions, then the student solves exercises."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student asks questions. Premise 1 gives AskQuestions020→ClarifyConcepts020, and premise 2 gives ClarifyConcepts020→SolveExercises020. Therefore every student solves exercises, so option A follows.",
+      "From premise 1, AskQuestions020 implies ClarifyConcepts020; from premise 2, ClarifyConcepts020 implies SolveExercises020. By chaining the two conditionals, if a student asks questions, then the student solves exercises."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CollaborateTeam021(x) → ShareResources021(x))",
+      "∃x (ShareResources021(x))",
+      "∀x (UseLibrary021(x) → FindSources021(x))",
+      "∃x (UseLibrary021(x))",
+      "∀x (FindSources021(x) → WriteEssay021(x))"
+    ],
+    "premises-NL": [
+      "If a learner collaborates with the team, then the learner shares resources.",
+      "At least one learner shares resources.",
+      "If a learner uses the library, then the learner finds sources.",
+      "At least one learner uses the library.",
+      "If a learner finds sources, then the learner writes the essay."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who shares resources must collaborates with the team.\nB. At least one learner shares resources, but the premises do not show that this learner collaborates with the team.\nC. No learner can shares resources.\nD. Every learner collaborates with the team is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner shares resources, then the learner collaborates with the team."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states CollaborateTeam021→ShareResources021, and premise 2 gives existence of ShareResources021. It does not provide the reverse implication ShareResources021→CollaborateTeam021. Therefore option B is the only supported statement.",
+      "The premises contain CollaborateTeam021→ShareResources021, not ShareResources021→CollaborateTeam021. Knowing that a learner shares resources does not allow us to infer that the same learner collaborates with the team."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReviewLecture022(x) → RememberFormula022(x))",
+      "∀x (¬RememberFormula022(x))",
+      "∀x (JoinDiscussion022(x) → HearExamples022(x))",
+      "∀x (HearExamples022(x) → ApplyMethod022(x))",
+      "∃x (JoinDiscussion022(x))"
+    ],
+    "premises-NL": [
+      "If a employee reviews the lecture, then the employee remembers the formula.",
+      "No employee remembers the formula.",
+      "If a employee joins the discussion, then the employee hears examples.",
+      "If a employee hears examples, then the employee applies the method.",
+      "At least one employee joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees reviews the lecture.\nB. No employee reviews the lecture.\nC. Every employee remembers the formula.\nD. The premises prove that all employees joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who reviews the lecture."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says ReviewLecture022→RememberFormula022. Its valid contrapositive is ¬RememberFormula022→¬ReviewLecture022. Since premise 2 states ¬RememberFormula022 for every employee, no employee reviews the lecture.",
+      "Because every employee lacks remembers the formula, and reviews the lecture would imply remembers the formula, no employee can satisfy ReviewLecture022. Thus existence of a employee who reviews the lecture is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (AttendOfficeHours023(x))",
+      "∀x (AttendOfficeHours023(x) → GetGuidance023(x))",
+      "∀x (GetGuidance023(x) → ReviseAssignment023(x))",
+      "∀x (CheckRubric023(x) → MeetCriteria023(x))",
+      "∀x (¬ScoreHigh023(x) → ¬MeetCriteria023(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who attends office hours.",
+      "If a researcher attends office hours, then the researcher gets guidance.",
+      "If a researcher gets guidance, then the researcher revises the assignment.",
+      "If a researcher checks the rubric, then the researcher meets the criteria.",
+      "If a researcher does not scores highly, then the researcher does not meets the criteria."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher revises the assignment.\nB. No researcher revises the assignment.\nC. Every researcher attends office hours.\nD. Every researcher checks the rubric.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher gets guidance."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with AttendOfficeHours023. Premise 2 maps AttendOfficeHours023 to GetGuidance023, and premise 3 maps GetGuidance023 to ReviseAssignment023. Therefore at least one researcher revises the assignment.",
+      "Since at least one researcher attends office hours and every AttendOfficeHours023 implies GetGuidance023, at least one researcher gets guidance."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((AttendSeminar024(x) ∧ VolunteerActivity024(x)) → UnderstandTopic024(x))",
+      "∀x (AttendSeminar024(x))",
+      "∀x (VolunteerActivity024(x))",
+      "∀x (LeadershipExperience024(x) → MentorJunior024(x))",
+      "∃x (LeadershipExperience024(x))"
+    ],
+    "premises-NL": [
+      "If a participant both attends the seminar and volunteers for the activity, then the participant understands the topic.",
+      "Every participant attends the seminar.",
+      "Every participant volunteers for the activity.",
+      "If a participant gains leadership experience, then the participant mentors a junior peer.",
+      "At least one participant gains leadership experience."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant understands the topic.\nB. No participant attends the seminar.\nC. Only participants who gains leadership experience can understands the topic.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant gains leadership experience, then the participant mentors a junior peer."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant understands the topic.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (SubmitProject025(x) → ReceiveFeedback025(x))",
+      "∀x (UseLibrary025(x) → FindSources025(x))",
+      "∃x (SubmitProject025(x))",
+      "∀x (FindSources025(x) → WriteEssay025(x))",
+      "∃x (HasMotivation025(x))"
+    ],
+    "premises-NL": [
+      "If a intern submits the project, then the intern receives feedback.",
+      "If a intern uses the library, then the intern finds sources.",
+      "At least one intern submits the project.",
+      "If a intern finds sources, then the intern writes the essay.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern receives feedback.\nB. At least one intern writes the essay must exist.\nC. Every intern uses the library.\nD. No intern submits the project.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern writes the essay."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with SubmitProject025; premise 1 maps SubmitProject025 to ReceiveFeedback025. Hence at least one intern receives feedback.",
+      "The only route to WriteEssay025 is through UseLibrary025→FindSources025→WriteEssay025, but the premises do not assert that any intern uses the library. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CompleteModule026(x) → ¬PassQuiz026(x))",
+      "∀x (CompleteModule026(x))",
+      "∀x (JoinDiscussion026(x) → HearExamples026(x))",
+      "∃x (JoinDiscussion026(x))",
+      "∀x (HearExamples026(x) → ApplyMethod026(x))"
+    ],
+    "premises-NL": [
+      "If a teacher completes the module, then the teacher does not passes the quiz.",
+      "Every teacher completes the module.",
+      "If a teacher joins the discussion, then the teacher hears examples.",
+      "At least one teacher joins the discussion.",
+      "If a teacher hears examples, then the teacher applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher passes the quiz.\nB. No teacher passes the quiz.\nC. Some teachers are both completes the module and passes the quiz.\nD. The premises prove nothing about passes the quiz.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who passes the quiz."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives CompleteModule026 for every teacher; premise 1 states CompleteModule026 implies not PassQuiz026. Therefore no teacher passes the quiz.",
+      "Since all teachers satisfy CompleteModule026 and CompleteModule026 excludes PassQuiz026, no existence claim for PassQuiz026 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (JoinLab027(x) → (AccessDataset027(x) ∧ BuildPrototype027(x)))",
+      "∃x (JoinLab027(x))",
+      "∀x (CheckRubric027(x) → MeetCriteria027(x))",
+      "∀x (MeetCriteria027(x) → ScoreHigh027(x))",
+      "∀x (ReceivesSupport027(x))"
+    ],
+    "premises-NL": [
+      "If a assistant joins the lab, then the assistant accesses the dataset and builds a prototype.",
+      "At least one assistant joins the lab.",
+      "If a assistant checks the rubric, then the assistant meets the criteria.",
+      "If a assistant meets the criteria, then the assistant scores highly.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant accesses the dataset and builds a prototype.\nB. No assistant accesses the dataset.\nC. Every assistant checks the rubric.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant joins the lab, then the assistant builds a prototype."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of JoinLab027. Premise 1 says any such instance has both AccessDataset027 and BuildPrototype027, so at least one assistant accesses the dataset and builds a prototype.",
+      "Premise 1 directly includes JoinLab027→BuildPrototype027 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (PracticeDaily028(x) → GainFluency028(x))",
+      "∀x (GainFluency028(x) → PresentConfidently028(x))",
+      "∀x (¬PresentConfidently028(x))",
+      "∀x (VolunteerActivity028(x) → LeadershipExperience028(x))",
+      "∃x (VolunteerActivity028(x))"
+    ],
+    "premises-NL": [
+      "If a member practices daily, then the member gains fluency.",
+      "If a member gains fluency, then the member presents confidently.",
+      "No member presents confidently.",
+      "If a member volunteers for the activity, then the member gains leadership experience.",
+      "At least one member volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member practices daily.\nB. At least one member presents confidently.\nC. No member practices daily.\nD. No member volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who practices daily."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, PracticeDaily028 implies PresentConfidently028. Premise 3 says no member has PresentConfidently028. By valid contraposition of the chain, no member can have PracticeDaily028.",
+      "Since PracticeDaily028 would lead to PresentConfidently028, and premise 3 rules out PresentConfidently028 for every member, the existence of an PracticeDaily028 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReadGuide029(x) → FollowProcedure029(x))",
+      "∀x (AvoidErrors029(x) → FollowProcedure029(x))",
+      "∃x (FollowProcedure029(x))",
+      "∀x (UseLibrary029(x) → FindSources029(x))",
+      "∀x (FindSources029(x) → WriteEssay029(x))",
+      "∃x (UseLibrary029(x))"
+    ],
+    "premises-NL": [
+      "If a trainee reads the guide, then the trainee follows the procedure.",
+      "If a trainee avoids errors, then the trainee follows the procedure.",
+      "At least one trainee follows the procedure.",
+      "If a trainee uses the library, then the trainee finds sources.",
+      "If a trainee finds sources, then the trainee writes the essay.",
+      "At least one trainee uses the library."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee reads the guide must exist.\nB. At least one trainee avoids errors must exist.\nC. At least one trainee writes the essay exists.\nD. No trainee follows the procedure.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee follows the procedure, then the trainee reads the guide."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of UseLibrary029; premise 4 maps UseLibrary029 to FindSources029, and premise 5 maps FindSources029 to WriteEssay029. Therefore at least one trainee writes the essay, so option C follows.",
+      "Premise 1 states ReadGuide029→FollowProcedure029, but not FollowProcedure029→ReadGuide029. Premise 3 only provides existence of FollowProcedure029, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendTraining030(x) → CompleteAssessment030(x))",
+      "∀x (CompleteAssessment030(x) → ReceiveCertificate030(x))",
+      "∀x (AttendTraining030(x))",
+      "∃x (JoinDiscussion030(x))",
+      "∀x (JoinDiscussion030(x) → HearExamples030(x))",
+      "∀x (HearExamples030(x) → ApplyMethod030(x))"
+    ],
+    "premises-NL": [
+      "If a student attends training, then the student completes the assessment.",
+      "If a student completes the assessment, then the student receives a certificate.",
+      "Every student attends training.",
+      "There exists at least one student who joins the discussion.",
+      "If a student joins the discussion, then the student hears examples.",
+      "If a student hears examples, then the student applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students receives a certificate.\nB. No student receives a certificate.\nC. Only some students receives a certificate, and not all.\nD. It is impossible for any student to attends training.",
+      "According to the premises, is the following statement true?\nStatement: If a student attends training, then the student receives a certificate."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student attends training. Premise 1 gives AttendTraining030→CompleteAssessment030, and premise 2 gives CompleteAssessment030→ReceiveCertificate030. Therefore every student receives a certificate, so option A follows.",
+      "From premise 1, AttendTraining030 implies CompleteAssessment030; from premise 2, CompleteAssessment030 implies ReceiveCertificate030. By chaining the two conditionals, if a student attends training, then the student receives a certificate."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (UseChecklist031(x) → SubmitAccurateReport031(x))",
+      "∃x (SubmitAccurateReport031(x))",
+      "∀x (CheckRubric031(x) → MeetCriteria031(x))",
+      "∃x (CheckRubric031(x))",
+      "∀x (MeetCriteria031(x) → ScoreHigh031(x))"
+    ],
+    "premises-NL": [
+      "If a learner uses the checklist, then the learner submits an accurate report.",
+      "At least one learner submits an accurate report.",
+      "If a learner checks the rubric, then the learner meets the criteria.",
+      "At least one learner checks the rubric.",
+      "If a learner meets the criteria, then the learner scores highly."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who submits an accurate report must uses the checklist.\nB. At least one learner submits an accurate report, but the premises do not show that this learner uses the checklist.\nC. No learner can submits an accurate report.\nD. Every learner uses the checklist is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner submits an accurate report, then the learner uses the checklist."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states UseChecklist031→SubmitAccurateReport031, and premise 2 gives existence of SubmitAccurateReport031. It does not provide the reverse implication SubmitAccurateReport031→UseChecklist031. Therefore option B is the only supported statement.",
+      "The premises contain UseChecklist031→SubmitAccurateReport031, not SubmitAccurateReport031→UseChecklist031. Knowing that a learner submits an accurate report does not allow us to infer that the same learner uses the checklist."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AskQuestions032(x) → ClarifyConcepts032(x))",
+      "∀x (¬ClarifyConcepts032(x))",
+      "∀x (VolunteerActivity032(x) → LeadershipExperience032(x))",
+      "∀x (LeadershipExperience032(x) → MentorJunior032(x))",
+      "∃x (VolunteerActivity032(x))"
+    ],
+    "premises-NL": [
+      "If a employee asks questions, then the employee clarifies concepts.",
+      "No employee clarifies concepts.",
+      "If a employee volunteers for the activity, then the employee gains leadership experience.",
+      "If a employee gains leadership experience, then the employee mentors a junior peer.",
+      "At least one employee volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees asks questions.\nB. No employee asks questions.\nC. Every employee clarifies concepts.\nD. The premises prove that all employees volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who asks questions."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says AskQuestions032→ClarifyConcepts032. Its valid contrapositive is ¬ClarifyConcepts032→¬AskQuestions032. Since premise 2 states ¬ClarifyConcepts032 for every employee, no employee asks questions.",
+      "Because every employee lacks clarifies concepts, and asks questions would imply clarifies concepts, no employee can satisfy AskQuestions032. Thus existence of a employee who asks questions is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (CollaborateTeam033(x))",
+      "∀x (CollaborateTeam033(x) → ShareResources033(x))",
+      "∀x (ShareResources033(x) → FinishTask033(x))",
+      "∀x (UseLibrary033(x) → FindSources033(x))",
+      "∀x (¬WriteEssay033(x) → ¬FindSources033(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who collaborates with the team.",
+      "If a researcher collaborates with the team, then the researcher shares resources.",
+      "If a researcher shares resources, then the researcher finishes the task.",
+      "If a researcher uses the library, then the researcher finds sources.",
+      "If a researcher does not writes the essay, then the researcher does not finds sources."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher finishes the task.\nB. No researcher finishes the task.\nC. Every researcher collaborates with the team.\nD. Every researcher uses the library.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher shares resources."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with CollaborateTeam033. Premise 2 maps CollaborateTeam033 to ShareResources033, and premise 3 maps ShareResources033 to FinishTask033. Therefore at least one researcher finishes the task.",
+      "Since at least one researcher collaborates with the team and every CollaborateTeam033 implies ShareResources033, at least one researcher shares resources."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((ReviewLecture034(x) ∧ JoinDiscussion034(x)) → AnswerExamQuestion034(x))",
+      "∀x (ReviewLecture034(x))",
+      "∀x (JoinDiscussion034(x))",
+      "∀x (HearExamples034(x) → ApplyMethod034(x))",
+      "∃x (HearExamples034(x))"
+    ],
+    "premises-NL": [
+      "If a participant both reviews the lecture and joins the discussion, then the participant answers the exam question.",
+      "Every participant reviews the lecture.",
+      "Every participant joins the discussion.",
+      "If a participant hears examples, then the participant applies the method.",
+      "At least one participant hears examples."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant answers the exam question.\nB. No participant reviews the lecture.\nC. Only participants who hears examples can answers the exam question.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant hears examples, then the participant applies the method."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant answers the exam question.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendOfficeHours035(x) → GetGuidance035(x))",
+      "∀x (CheckRubric035(x) → MeetCriteria035(x))",
+      "∃x (AttendOfficeHours035(x))",
+      "∀x (MeetCriteria035(x) → ScoreHigh035(x))",
+      "∃x (HasMotivation035(x))"
+    ],
+    "premises-NL": [
+      "If a intern attends office hours, then the intern gets guidance.",
+      "If a intern checks the rubric, then the intern meets the criteria.",
+      "At least one intern attends office hours.",
+      "If a intern meets the criteria, then the intern scores highly.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern gets guidance.\nB. At least one intern scores highly must exist.\nC. Every intern checks the rubric.\nD. No intern attends office hours.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern scores highly."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with AttendOfficeHours035; premise 1 maps AttendOfficeHours035 to GetGuidance035. Hence at least one intern gets guidance.",
+      "The only route to ScoreHigh035 is through CheckRubric035→MeetCriteria035→ScoreHigh035, but the premises do not assert that any intern checks the rubric. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendSeminar036(x) → ¬TakeNotes036(x))",
+      "∀x (AttendSeminar036(x))",
+      "∀x (VolunteerActivity036(x) → LeadershipExperience036(x))",
+      "∃x (VolunteerActivity036(x))",
+      "∀x (LeadershipExperience036(x) → MentorJunior036(x))"
+    ],
+    "premises-NL": [
+      "If a teacher attends the seminar, then the teacher does not takes notes.",
+      "Every teacher attends the seminar.",
+      "If a teacher volunteers for the activity, then the teacher gains leadership experience.",
+      "At least one teacher volunteers for the activity.",
+      "If a teacher gains leadership experience, then the teacher mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher takes notes.\nB. No teacher takes notes.\nC. Some teachers are both attends the seminar and takes notes.\nD. The premises prove nothing about takes notes.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who takes notes."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives AttendSeminar036 for every teacher; premise 1 states AttendSeminar036 implies not TakeNotes036. Therefore no teacher takes notes.",
+      "Since all teachers satisfy AttendSeminar036 and AttendSeminar036 excludes TakeNotes036, no existence claim for TakeNotes036 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (SubmitProject037(x) → (ReceiveFeedback037(x) ∧ ImproveWork037(x)))",
+      "∃x (SubmitProject037(x))",
+      "∀x (UseLibrary037(x) → FindSources037(x))",
+      "∀x (FindSources037(x) → WriteEssay037(x))",
+      "∀x (ReceivesSupport037(x))"
+    ],
+    "premises-NL": [
+      "If a assistant submits the project, then the assistant receives feedback and improves their work.",
+      "At least one assistant submits the project.",
+      "If a assistant uses the library, then the assistant finds sources.",
+      "If a assistant finds sources, then the assistant writes the essay.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant receives feedback and improves their work.\nB. No assistant receives feedback.\nC. Every assistant uses the library.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant submits the project, then the assistant improves their work."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of SubmitProject037. Premise 1 says any such instance has both ReceiveFeedback037 and ImproveWork037, so at least one assistant receives feedback and improves their work.",
+      "Premise 1 directly includes SubmitProject037→ImproveWork037 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CompleteModule038(x) → PassQuiz038(x))",
+      "∀x (PassQuiz038(x) → EarnBadge038(x))",
+      "∀x (¬EarnBadge038(x))",
+      "∀x (JoinDiscussion038(x) → HearExamples038(x))",
+      "∃x (JoinDiscussion038(x))"
+    ],
+    "premises-NL": [
+      "If a member completes the module, then the member passes the quiz.",
+      "If a member passes the quiz, then the member earns a badge.",
+      "No member earns a badge.",
+      "If a member joins the discussion, then the member hears examples.",
+      "At least one member joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member completes the module.\nB. At least one member earns a badge.\nC. No member completes the module.\nD. No member joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who completes the module."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, CompleteModule038 implies EarnBadge038. Premise 3 says no member has EarnBadge038. By valid contraposition of the chain, no member can have CompleteModule038.",
+      "Since CompleteModule038 would lead to EarnBadge038, and premise 3 rules out EarnBadge038 for every member, the existence of an CompleteModule038 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (JoinLab039(x) → AccessDataset039(x))",
+      "∀x (BuildPrototype039(x) → AccessDataset039(x))",
+      "∃x (AccessDataset039(x))",
+      "∀x (CheckRubric039(x) → MeetCriteria039(x))",
+      "∀x (MeetCriteria039(x) → ScoreHigh039(x))",
+      "∃x (CheckRubric039(x))"
+    ],
+    "premises-NL": [
+      "If a trainee joins the lab, then the trainee accesses the dataset.",
+      "If a trainee builds a prototype, then the trainee accesses the dataset.",
+      "At least one trainee accesses the dataset.",
+      "If a trainee checks the rubric, then the trainee meets the criteria.",
+      "If a trainee meets the criteria, then the trainee scores highly.",
+      "At least one trainee checks the rubric."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee joins the lab must exist.\nB. At least one trainee builds a prototype must exist.\nC. At least one trainee scores highly exists.\nD. No trainee accesses the dataset.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee accesses the dataset, then the trainee joins the lab."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of CheckRubric039; premise 4 maps CheckRubric039 to MeetCriteria039, and premise 5 maps MeetCriteria039 to ScoreHigh039. Therefore at least one trainee scores highly, so option C follows.",
+      "Premise 1 states JoinLab039→AccessDataset039, but not AccessDataset039→JoinLab039. Premise 3 only provides existence of AccessDataset039, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (PracticeDaily040(x) → GainFluency040(x))",
+      "∀x (GainFluency040(x) → PresentConfidently040(x))",
+      "∀x (PracticeDaily040(x))",
+      "∃x (VolunteerActivity040(x))",
+      "∀x (VolunteerActivity040(x) → LeadershipExperience040(x))",
+      "∀x (LeadershipExperience040(x) → MentorJunior040(x))"
+    ],
+    "premises-NL": [
+      "If a student practices daily, then the student gains fluency.",
+      "If a student gains fluency, then the student presents confidently.",
+      "Every student practices daily.",
+      "There exists at least one student who volunteers for the activity.",
+      "If a student volunteers for the activity, then the student gains leadership experience.",
+      "If a student gains leadership experience, then the student mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students presents confidently.\nB. No student presents confidently.\nC. Only some students presents confidently, and not all.\nD. It is impossible for any student to practices daily.",
+      "According to the premises, is the following statement true?\nStatement: If a student practices daily, then the student presents confidently."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student practices daily. Premise 1 gives PracticeDaily040→GainFluency040, and premise 2 gives GainFluency040→PresentConfidently040. Therefore every student presents confidently, so option A follows.",
+      "From premise 1, PracticeDaily040 implies GainFluency040; from premise 2, GainFluency040 implies PresentConfidently040. By chaining the two conditionals, if a student practices daily, then the student presents confidently."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReadGuide041(x) → FollowProcedure041(x))",
+      "∃x (FollowProcedure041(x))",
+      "∀x (UseLibrary041(x) → FindSources041(x))",
+      "∃x (UseLibrary041(x))",
+      "∀x (FindSources041(x) → WriteEssay041(x))"
+    ],
+    "premises-NL": [
+      "If a learner reads the guide, then the learner follows the procedure.",
+      "At least one learner follows the procedure.",
+      "If a learner uses the library, then the learner finds sources.",
+      "At least one learner uses the library.",
+      "If a learner finds sources, then the learner writes the essay."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who follows the procedure must reads the guide.\nB. At least one learner follows the procedure, but the premises do not show that this learner reads the guide.\nC. No learner can follows the procedure.\nD. Every learner reads the guide is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner follows the procedure, then the learner reads the guide."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states ReadGuide041→FollowProcedure041, and premise 2 gives existence of FollowProcedure041. It does not provide the reverse implication FollowProcedure041→ReadGuide041. Therefore option B is the only supported statement.",
+      "The premises contain ReadGuide041→FollowProcedure041, not FollowProcedure041→ReadGuide041. Knowing that a learner follows the procedure does not allow us to infer that the same learner reads the guide."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendTraining042(x) → CompleteAssessment042(x))",
+      "∀x (¬CompleteAssessment042(x))",
+      "∀x (JoinDiscussion042(x) → HearExamples042(x))",
+      "∀x (HearExamples042(x) → ApplyMethod042(x))",
+      "∃x (JoinDiscussion042(x))"
+    ],
+    "premises-NL": [
+      "If a employee attends training, then the employee completes the assessment.",
+      "No employee completes the assessment.",
+      "If a employee joins the discussion, then the employee hears examples.",
+      "If a employee hears examples, then the employee applies the method.",
+      "At least one employee joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees attends training.\nB. No employee attends training.\nC. Every employee completes the assessment.\nD. The premises prove that all employees joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who attends training."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says AttendTraining042→CompleteAssessment042. Its valid contrapositive is ¬CompleteAssessment042→¬AttendTraining042. Since premise 2 states ¬CompleteAssessment042 for every employee, no employee attends training.",
+      "Because every employee lacks completes the assessment, and attends training would imply completes the assessment, no employee can satisfy AttendTraining042. Thus existence of a employee who attends training is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (UseChecklist043(x))",
+      "∀x (UseChecklist043(x) → SubmitAccurateReport043(x))",
+      "∀x (SubmitAccurateReport043(x) → PassReview043(x))",
+      "∀x (CheckRubric043(x) → MeetCriteria043(x))",
+      "∀x (¬ScoreHigh043(x) → ¬MeetCriteria043(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who uses the checklist.",
+      "If a researcher uses the checklist, then the researcher submits an accurate report.",
+      "If a researcher submits an accurate report, then the researcher passes the review.",
+      "If a researcher checks the rubric, then the researcher meets the criteria.",
+      "If a researcher does not scores highly, then the researcher does not meets the criteria."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher passes the review.\nB. No researcher passes the review.\nC. Every researcher uses the checklist.\nD. Every researcher checks the rubric.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher submits an accurate report."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with UseChecklist043. Premise 2 maps UseChecklist043 to SubmitAccurateReport043, and premise 3 maps SubmitAccurateReport043 to PassReview043. Therefore at least one researcher passes the review.",
+      "Since at least one researcher uses the checklist and every UseChecklist043 implies SubmitAccurateReport043, at least one researcher submits an accurate report."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((AskQuestions044(x) ∧ VolunteerActivity044(x)) → SolveExercises044(x))",
+      "∀x (AskQuestions044(x))",
+      "∀x (VolunteerActivity044(x))",
+      "∀x (LeadershipExperience044(x) → MentorJunior044(x))",
+      "∃x (LeadershipExperience044(x))"
+    ],
+    "premises-NL": [
+      "If a participant both asks questions and volunteers for the activity, then the participant solves exercises.",
+      "Every participant asks questions.",
+      "Every participant volunteers for the activity.",
+      "If a participant gains leadership experience, then the participant mentors a junior peer.",
+      "At least one participant gains leadership experience."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant solves exercises.\nB. No participant asks questions.\nC. Only participants who gains leadership experience can solves exercises.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant gains leadership experience, then the participant mentors a junior peer."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant solves exercises.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CollaborateTeam045(x) → ShareResources045(x))",
+      "∀x (UseLibrary045(x) → FindSources045(x))",
+      "∃x (CollaborateTeam045(x))",
+      "∀x (FindSources045(x) → WriteEssay045(x))",
+      "∃x (HasMotivation045(x))"
+    ],
+    "premises-NL": [
+      "If a intern collaborates with the team, then the intern shares resources.",
+      "If a intern uses the library, then the intern finds sources.",
+      "At least one intern collaborates with the team.",
+      "If a intern finds sources, then the intern writes the essay.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern shares resources.\nB. At least one intern writes the essay must exist.\nC. Every intern uses the library.\nD. No intern collaborates with the team.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern writes the essay."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with CollaborateTeam045; premise 1 maps CollaborateTeam045 to ShareResources045. Hence at least one intern shares resources.",
+      "The only route to WriteEssay045 is through UseLibrary045→FindSources045→WriteEssay045, but the premises do not assert that any intern uses the library. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReviewLecture046(x) → ¬RememberFormula046(x))",
+      "∀x (ReviewLecture046(x))",
+      "∀x (JoinDiscussion046(x) → HearExamples046(x))",
+      "∃x (JoinDiscussion046(x))",
+      "∀x (HearExamples046(x) → ApplyMethod046(x))"
+    ],
+    "premises-NL": [
+      "If a teacher reviews the lecture, then the teacher does not remembers the formula.",
+      "Every teacher reviews the lecture.",
+      "If a teacher joins the discussion, then the teacher hears examples.",
+      "At least one teacher joins the discussion.",
+      "If a teacher hears examples, then the teacher applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher remembers the formula.\nB. No teacher remembers the formula.\nC. Some teachers are both reviews the lecture and remembers the formula.\nD. The premises prove nothing about remembers the formula.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who remembers the formula."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives ReviewLecture046 for every teacher; premise 1 states ReviewLecture046 implies not RememberFormula046. Therefore no teacher remembers the formula.",
+      "Since all teachers satisfy ReviewLecture046 and ReviewLecture046 excludes RememberFormula046, no existence claim for RememberFormula046 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendOfficeHours047(x) → (GetGuidance047(x) ∧ ReviseAssignment047(x)))",
+      "∃x (AttendOfficeHours047(x))",
+      "∀x (CheckRubric047(x) → MeetCriteria047(x))",
+      "∀x (MeetCriteria047(x) → ScoreHigh047(x))",
+      "∀x (ReceivesSupport047(x))"
+    ],
+    "premises-NL": [
+      "If a assistant attends office hours, then the assistant gets guidance and revises the assignment.",
+      "At least one assistant attends office hours.",
+      "If a assistant checks the rubric, then the assistant meets the criteria.",
+      "If a assistant meets the criteria, then the assistant scores highly.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant gets guidance and revises the assignment.\nB. No assistant gets guidance.\nC. Every assistant checks the rubric.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant attends office hours, then the assistant revises the assignment."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of AttendOfficeHours047. Premise 1 says any such instance has both GetGuidance047 and ReviseAssignment047, so at least one assistant gets guidance and revises the assignment.",
+      "Premise 1 directly includes AttendOfficeHours047→ReviseAssignment047 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendSeminar048(x) → TakeNotes048(x))",
+      "∀x (TakeNotes048(x) → UnderstandTopic048(x))",
+      "∀x (¬UnderstandTopic048(x))",
+      "∀x (VolunteerActivity048(x) → LeadershipExperience048(x))",
+      "∃x (VolunteerActivity048(x))"
+    ],
+    "premises-NL": [
+      "If a member attends the seminar, then the member takes notes.",
+      "If a member takes notes, then the member understands the topic.",
+      "No member understands the topic.",
+      "If a member volunteers for the activity, then the member gains leadership experience.",
+      "At least one member volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member attends the seminar.\nB. At least one member understands the topic.\nC. No member attends the seminar.\nD. No member volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who attends the seminar."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, AttendSeminar048 implies UnderstandTopic048. Premise 3 says no member has UnderstandTopic048. By valid contraposition of the chain, no member can have AttendSeminar048.",
+      "Since AttendSeminar048 would lead to UnderstandTopic048, and premise 3 rules out UnderstandTopic048 for every member, the existence of an AttendSeminar048 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (SubmitProject049(x) → ReceiveFeedback049(x))",
+      "∀x (ImproveWork049(x) → ReceiveFeedback049(x))",
+      "∃x (ReceiveFeedback049(x))",
+      "∀x (UseLibrary049(x) → FindSources049(x))",
+      "∀x (FindSources049(x) → WriteEssay049(x))",
+      "∃x (UseLibrary049(x))"
+    ],
+    "premises-NL": [
+      "If a trainee submits the project, then the trainee receives feedback.",
+      "If a trainee improves their work, then the trainee receives feedback.",
+      "At least one trainee receives feedback.",
+      "If a trainee uses the library, then the trainee finds sources.",
+      "If a trainee finds sources, then the trainee writes the essay.",
+      "At least one trainee uses the library."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee submits the project must exist.\nB. At least one trainee improves their work must exist.\nC. At least one trainee writes the essay exists.\nD. No trainee receives feedback.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee receives feedback, then the trainee submits the project."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of UseLibrary049; premise 4 maps UseLibrary049 to FindSources049, and premise 5 maps FindSources049 to WriteEssay049. Therefore at least one trainee writes the essay, so option C follows.",
+      "Premise 1 states SubmitProject049→ReceiveFeedback049, but not ReceiveFeedback049→SubmitProject049. Premise 3 only provides existence of ReceiveFeedback049, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CompleteModule050(x) → PassQuiz050(x))",
+      "∀x (PassQuiz050(x) → EarnBadge050(x))",
+      "∀x (CompleteModule050(x))",
+      "∃x (JoinDiscussion050(x))",
+      "∀x (JoinDiscussion050(x) → HearExamples050(x))",
+      "∀x (HearExamples050(x) → ApplyMethod050(x))"
+    ],
+    "premises-NL": [
+      "If a student completes the module, then the student passes the quiz.",
+      "If a student passes the quiz, then the student earns a badge.",
+      "Every student completes the module.",
+      "There exists at least one student who joins the discussion.",
+      "If a student joins the discussion, then the student hears examples.",
+      "If a student hears examples, then the student applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students earns a badge.\nB. No student earns a badge.\nC. Only some students earns a badge, and not all.\nD. It is impossible for any student to completes the module.",
+      "According to the premises, is the following statement true?\nStatement: If a student completes the module, then the student earns a badge."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student completes the module. Premise 1 gives CompleteModule050→PassQuiz050, and premise 2 gives PassQuiz050→EarnBadge050. Therefore every student earns a badge, so option A follows.",
+      "From premise 1, CompleteModule050 implies PassQuiz050; from premise 2, PassQuiz050 implies EarnBadge050. By chaining the two conditionals, if a student completes the module, then the student earns a badge."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (JoinLab051(x) → AccessDataset051(x))",
+      "∃x (AccessDataset051(x))",
+      "∀x (CheckRubric051(x) → MeetCriteria051(x))",
+      "∃x (CheckRubric051(x))",
+      "∀x (MeetCriteria051(x) → ScoreHigh051(x))"
+    ],
+    "premises-NL": [
+      "If a learner joins the lab, then the learner accesses the dataset.",
+      "At least one learner accesses the dataset.",
+      "If a learner checks the rubric, then the learner meets the criteria.",
+      "At least one learner checks the rubric.",
+      "If a learner meets the criteria, then the learner scores highly."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who accesses the dataset must joins the lab.\nB. At least one learner accesses the dataset, but the premises do not show that this learner joins the lab.\nC. No learner can accesses the dataset.\nD. Every learner joins the lab is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner accesses the dataset, then the learner joins the lab."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states JoinLab051→AccessDataset051, and premise 2 gives existence of AccessDataset051. It does not provide the reverse implication AccessDataset051→JoinLab051. Therefore option B is the only supported statement.",
+      "The premises contain JoinLab051→AccessDataset051, not AccessDataset051→JoinLab051. Knowing that a learner accesses the dataset does not allow us to infer that the same learner joins the lab."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (PracticeDaily052(x) → GainFluency052(x))",
+      "∀x (¬GainFluency052(x))",
+      "∀x (VolunteerActivity052(x) → LeadershipExperience052(x))",
+      "∀x (LeadershipExperience052(x) → MentorJunior052(x))",
+      "∃x (VolunteerActivity052(x))"
+    ],
+    "premises-NL": [
+      "If a employee practices daily, then the employee gains fluency.",
+      "No employee gains fluency.",
+      "If a employee volunteers for the activity, then the employee gains leadership experience.",
+      "If a employee gains leadership experience, then the employee mentors a junior peer.",
+      "At least one employee volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees practices daily.\nB. No employee practices daily.\nC. Every employee gains fluency.\nD. The premises prove that all employees volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who practices daily."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says PracticeDaily052→GainFluency052. Its valid contrapositive is ¬GainFluency052→¬PracticeDaily052. Since premise 2 states ¬GainFluency052 for every employee, no employee practices daily.",
+      "Because every employee lacks gains fluency, and practices daily would imply gains fluency, no employee can satisfy PracticeDaily052. Thus existence of a employee who practices daily is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (ReadGuide053(x))",
+      "∀x (ReadGuide053(x) → FollowProcedure053(x))",
+      "∀x (FollowProcedure053(x) → AvoidErrors053(x))",
+      "∀x (UseLibrary053(x) → FindSources053(x))",
+      "∀x (¬WriteEssay053(x) → ¬FindSources053(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who reads the guide.",
+      "If a researcher reads the guide, then the researcher follows the procedure.",
+      "If a researcher follows the procedure, then the researcher avoids errors.",
+      "If a researcher uses the library, then the researcher finds sources.",
+      "If a researcher does not writes the essay, then the researcher does not finds sources."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher avoids errors.\nB. No researcher avoids errors.\nC. Every researcher reads the guide.\nD. Every researcher uses the library.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher follows the procedure."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with ReadGuide053. Premise 2 maps ReadGuide053 to FollowProcedure053, and premise 3 maps FollowProcedure053 to AvoidErrors053. Therefore at least one researcher avoids errors.",
+      "Since at least one researcher reads the guide and every ReadGuide053 implies FollowProcedure053, at least one researcher follows the procedure."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((AttendTraining054(x) ∧ JoinDiscussion054(x)) → ReceiveCertificate054(x))",
+      "∀x (AttendTraining054(x))",
+      "∀x (JoinDiscussion054(x))",
+      "∀x (HearExamples054(x) → ApplyMethod054(x))",
+      "∃x (HearExamples054(x))"
+    ],
+    "premises-NL": [
+      "If a participant both attends training and joins the discussion, then the participant receives a certificate.",
+      "Every participant attends training.",
+      "Every participant joins the discussion.",
+      "If a participant hears examples, then the participant applies the method.",
+      "At least one participant hears examples."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant receives a certificate.\nB. No participant attends training.\nC. Only participants who hears examples can receives a certificate.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant hears examples, then the participant applies the method."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant receives a certificate.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (UseChecklist055(x) → SubmitAccurateReport055(x))",
+      "∀x (CheckRubric055(x) → MeetCriteria055(x))",
+      "∃x (UseChecklist055(x))",
+      "∀x (MeetCriteria055(x) → ScoreHigh055(x))",
+      "∃x (HasMotivation055(x))"
+    ],
+    "premises-NL": [
+      "If a intern uses the checklist, then the intern submits an accurate report.",
+      "If a intern checks the rubric, then the intern meets the criteria.",
+      "At least one intern uses the checklist.",
+      "If a intern meets the criteria, then the intern scores highly.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern submits an accurate report.\nB. At least one intern scores highly must exist.\nC. Every intern checks the rubric.\nD. No intern uses the checklist.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern scores highly."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with UseChecklist055; premise 1 maps UseChecklist055 to SubmitAccurateReport055. Hence at least one intern submits an accurate report.",
+      "The only route to ScoreHigh055 is through CheckRubric055→MeetCriteria055→ScoreHigh055, but the premises do not assert that any intern checks the rubric. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AskQuestions056(x) → ¬ClarifyConcepts056(x))",
+      "∀x (AskQuestions056(x))",
+      "∀x (VolunteerActivity056(x) → LeadershipExperience056(x))",
+      "∃x (VolunteerActivity056(x))",
+      "∀x (LeadershipExperience056(x) → MentorJunior056(x))"
+    ],
+    "premises-NL": [
+      "If a teacher asks questions, then the teacher does not clarifies concepts.",
+      "Every teacher asks questions.",
+      "If a teacher volunteers for the activity, then the teacher gains leadership experience.",
+      "At least one teacher volunteers for the activity.",
+      "If a teacher gains leadership experience, then the teacher mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher clarifies concepts.\nB. No teacher clarifies concepts.\nC. Some teachers are both asks questions and clarifies concepts.\nD. The premises prove nothing about clarifies concepts.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who clarifies concepts."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives AskQuestions056 for every teacher; premise 1 states AskQuestions056 implies not ClarifyConcepts056. Therefore no teacher clarifies concepts.",
+      "Since all teachers satisfy AskQuestions056 and AskQuestions056 excludes ClarifyConcepts056, no existence claim for ClarifyConcepts056 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CollaborateTeam057(x) → (ShareResources057(x) ∧ FinishTask057(x)))",
+      "∃x (CollaborateTeam057(x))",
+      "∀x (UseLibrary057(x) → FindSources057(x))",
+      "∀x (FindSources057(x) → WriteEssay057(x))",
+      "∀x (ReceivesSupport057(x))"
+    ],
+    "premises-NL": [
+      "If a assistant collaborates with the team, then the assistant shares resources and finishes the task.",
+      "At least one assistant collaborates with the team.",
+      "If a assistant uses the library, then the assistant finds sources.",
+      "If a assistant finds sources, then the assistant writes the essay.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant shares resources and finishes the task.\nB. No assistant shares resources.\nC. Every assistant uses the library.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant collaborates with the team, then the assistant finishes the task."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of CollaborateTeam057. Premise 1 says any such instance has both ShareResources057 and FinishTask057, so at least one assistant shares resources and finishes the task.",
+      "Premise 1 directly includes CollaborateTeam057→FinishTask057 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReviewLecture058(x) → RememberFormula058(x))",
+      "∀x (RememberFormula058(x) → AnswerExamQuestion058(x))",
+      "∀x (¬AnswerExamQuestion058(x))",
+      "∀x (JoinDiscussion058(x) → HearExamples058(x))",
+      "∃x (JoinDiscussion058(x))"
+    ],
+    "premises-NL": [
+      "If a member reviews the lecture, then the member remembers the formula.",
+      "If a member remembers the formula, then the member answers the exam question.",
+      "No member answers the exam question.",
+      "If a member joins the discussion, then the member hears examples.",
+      "At least one member joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member reviews the lecture.\nB. At least one member answers the exam question.\nC. No member reviews the lecture.\nD. No member joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who reviews the lecture."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, ReviewLecture058 implies AnswerExamQuestion058. Premise 3 says no member has AnswerExamQuestion058. By valid contraposition of the chain, no member can have ReviewLecture058.",
+      "Since ReviewLecture058 would lead to AnswerExamQuestion058, and premise 3 rules out AnswerExamQuestion058 for every member, the existence of an ReviewLecture058 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendOfficeHours059(x) → GetGuidance059(x))",
+      "∀x (ReviseAssignment059(x) → GetGuidance059(x))",
+      "∃x (GetGuidance059(x))",
+      "∀x (CheckRubric059(x) → MeetCriteria059(x))",
+      "∀x (MeetCriteria059(x) → ScoreHigh059(x))",
+      "∃x (CheckRubric059(x))"
+    ],
+    "premises-NL": [
+      "If a trainee attends office hours, then the trainee gets guidance.",
+      "If a trainee revises the assignment, then the trainee gets guidance.",
+      "At least one trainee gets guidance.",
+      "If a trainee checks the rubric, then the trainee meets the criteria.",
+      "If a trainee meets the criteria, then the trainee scores highly.",
+      "At least one trainee checks the rubric."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee attends office hours must exist.\nB. At least one trainee revises the assignment must exist.\nC. At least one trainee scores highly exists.\nD. No trainee gets guidance.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee gets guidance, then the trainee attends office hours."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of CheckRubric059; premise 4 maps CheckRubric059 to MeetCriteria059, and premise 5 maps MeetCriteria059 to ScoreHigh059. Therefore at least one trainee scores highly, so option C follows.",
+      "Premise 1 states AttendOfficeHours059→GetGuidance059, but not GetGuidance059→AttendOfficeHours059. Premise 3 only provides existence of GetGuidance059, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendSeminar060(x) → TakeNotes060(x))",
+      "∀x (TakeNotes060(x) → UnderstandTopic060(x))",
+      "∀x (AttendSeminar060(x))",
+      "∃x (VolunteerActivity060(x))",
+      "∀x (VolunteerActivity060(x) → LeadershipExperience060(x))",
+      "∀x (LeadershipExperience060(x) → MentorJunior060(x))"
+    ],
+    "premises-NL": [
+      "If a student attends the seminar, then the student takes notes.",
+      "If a student takes notes, then the student understands the topic.",
+      "Every student attends the seminar.",
+      "There exists at least one student who volunteers for the activity.",
+      "If a student volunteers for the activity, then the student gains leadership experience.",
+      "If a student gains leadership experience, then the student mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students understands the topic.\nB. No student understands the topic.\nC. Only some students understands the topic, and not all.\nD. It is impossible for any student to attends the seminar.",
+      "According to the premises, is the following statement true?\nStatement: If a student attends the seminar, then the student understands the topic."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student attends the seminar. Premise 1 gives AttendSeminar060→TakeNotes060, and premise 2 gives TakeNotes060→UnderstandTopic060. Therefore every student understands the topic, so option A follows.",
+      "From premise 1, AttendSeminar060 implies TakeNotes060; from premise 2, TakeNotes060 implies UnderstandTopic060. By chaining the two conditionals, if a student attends the seminar, then the student understands the topic."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (SubmitProject061(x) → ReceiveFeedback061(x))",
+      "∃x (ReceiveFeedback061(x))",
+      "∀x (UseLibrary061(x) → FindSources061(x))",
+      "∃x (UseLibrary061(x))",
+      "∀x (FindSources061(x) → WriteEssay061(x))"
+    ],
+    "premises-NL": [
+      "If a learner submits the project, then the learner receives feedback.",
+      "At least one learner receives feedback.",
+      "If a learner uses the library, then the learner finds sources.",
+      "At least one learner uses the library.",
+      "If a learner finds sources, then the learner writes the essay."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who receives feedback must submits the project.\nB. At least one learner receives feedback, but the premises do not show that this learner submits the project.\nC. No learner can receives feedback.\nD. Every learner submits the project is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner receives feedback, then the learner submits the project."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states SubmitProject061→ReceiveFeedback061, and premise 2 gives existence of ReceiveFeedback061. It does not provide the reverse implication ReceiveFeedback061→SubmitProject061. Therefore option B is the only supported statement.",
+      "The premises contain SubmitProject061→ReceiveFeedback061, not ReceiveFeedback061→SubmitProject061. Knowing that a learner receives feedback does not allow us to infer that the same learner submits the project."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CompleteModule062(x) → PassQuiz062(x))",
+      "∀x (¬PassQuiz062(x))",
+      "∀x (JoinDiscussion062(x) → HearExamples062(x))",
+      "∀x (HearExamples062(x) → ApplyMethod062(x))",
+      "∃x (JoinDiscussion062(x))"
+    ],
+    "premises-NL": [
+      "If a employee completes the module, then the employee passes the quiz.",
+      "No employee passes the quiz.",
+      "If a employee joins the discussion, then the employee hears examples.",
+      "If a employee hears examples, then the employee applies the method.",
+      "At least one employee joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees completes the module.\nB. No employee completes the module.\nC. Every employee passes the quiz.\nD. The premises prove that all employees joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who completes the module."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says CompleteModule062→PassQuiz062. Its valid contrapositive is ¬PassQuiz062→¬CompleteModule062. Since premise 2 states ¬PassQuiz062 for every employee, no employee completes the module.",
+      "Because every employee lacks passes the quiz, and completes the module would imply passes the quiz, no employee can satisfy CompleteModule062. Thus existence of a employee who completes the module is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (JoinLab063(x))",
+      "∀x (JoinLab063(x) → AccessDataset063(x))",
+      "∀x (AccessDataset063(x) → BuildPrototype063(x))",
+      "∀x (CheckRubric063(x) → MeetCriteria063(x))",
+      "∀x (¬ScoreHigh063(x) → ¬MeetCriteria063(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who joins the lab.",
+      "If a researcher joins the lab, then the researcher accesses the dataset.",
+      "If a researcher accesses the dataset, then the researcher builds a prototype.",
+      "If a researcher checks the rubric, then the researcher meets the criteria.",
+      "If a researcher does not scores highly, then the researcher does not meets the criteria."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher builds a prototype.\nB. No researcher builds a prototype.\nC. Every researcher joins the lab.\nD. Every researcher checks the rubric.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher accesses the dataset."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with JoinLab063. Premise 2 maps JoinLab063 to AccessDataset063, and premise 3 maps AccessDataset063 to BuildPrototype063. Therefore at least one researcher builds a prototype.",
+      "Since at least one researcher joins the lab and every JoinLab063 implies AccessDataset063, at least one researcher accesses the dataset."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((PracticeDaily064(x) ∧ VolunteerActivity064(x)) → PresentConfidently064(x))",
+      "∀x (PracticeDaily064(x))",
+      "∀x (VolunteerActivity064(x))",
+      "∀x (LeadershipExperience064(x) → MentorJunior064(x))",
+      "∃x (LeadershipExperience064(x))"
+    ],
+    "premises-NL": [
+      "If a participant both practices daily and volunteers for the activity, then the participant presents confidently.",
+      "Every participant practices daily.",
+      "Every participant volunteers for the activity.",
+      "If a participant gains leadership experience, then the participant mentors a junior peer.",
+      "At least one participant gains leadership experience."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant presents confidently.\nB. No participant practices daily.\nC. Only participants who gains leadership experience can presents confidently.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant gains leadership experience, then the participant mentors a junior peer."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant presents confidently.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReadGuide065(x) → FollowProcedure065(x))",
+      "∀x (UseLibrary065(x) → FindSources065(x))",
+      "∃x (ReadGuide065(x))",
+      "∀x (FindSources065(x) → WriteEssay065(x))",
+      "∃x (HasMotivation065(x))"
+    ],
+    "premises-NL": [
+      "If a intern reads the guide, then the intern follows the procedure.",
+      "If a intern uses the library, then the intern finds sources.",
+      "At least one intern reads the guide.",
+      "If a intern finds sources, then the intern writes the essay.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern follows the procedure.\nB. At least one intern writes the essay must exist.\nC. Every intern uses the library.\nD. No intern reads the guide.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern writes the essay."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with ReadGuide065; premise 1 maps ReadGuide065 to FollowProcedure065. Hence at least one intern follows the procedure.",
+      "The only route to WriteEssay065 is through UseLibrary065→FindSources065→WriteEssay065, but the premises do not assert that any intern uses the library. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendTraining066(x) → ¬CompleteAssessment066(x))",
+      "∀x (AttendTraining066(x))",
+      "∀x (JoinDiscussion066(x) → HearExamples066(x))",
+      "∃x (JoinDiscussion066(x))",
+      "∀x (HearExamples066(x) → ApplyMethod066(x))"
+    ],
+    "premises-NL": [
+      "If a teacher attends training, then the teacher does not completes the assessment.",
+      "Every teacher attends training.",
+      "If a teacher joins the discussion, then the teacher hears examples.",
+      "At least one teacher joins the discussion.",
+      "If a teacher hears examples, then the teacher applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher completes the assessment.\nB. No teacher completes the assessment.\nC. Some teachers are both attends training and completes the assessment.\nD. The premises prove nothing about completes the assessment.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who completes the assessment."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives AttendTraining066 for every teacher; premise 1 states AttendTraining066 implies not CompleteAssessment066. Therefore no teacher completes the assessment.",
+      "Since all teachers satisfy AttendTraining066 and AttendTraining066 excludes CompleteAssessment066, no existence claim for CompleteAssessment066 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (UseChecklist067(x) → (SubmitAccurateReport067(x) ∧ PassReview067(x)))",
+      "∃x (UseChecklist067(x))",
+      "∀x (CheckRubric067(x) → MeetCriteria067(x))",
+      "∀x (MeetCriteria067(x) → ScoreHigh067(x))",
+      "∀x (ReceivesSupport067(x))"
+    ],
+    "premises-NL": [
+      "If a assistant uses the checklist, then the assistant submits an accurate report and passes the review.",
+      "At least one assistant uses the checklist.",
+      "If a assistant checks the rubric, then the assistant meets the criteria.",
+      "If a assistant meets the criteria, then the assistant scores highly.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant submits an accurate report and passes the review.\nB. No assistant submits an accurate report.\nC. Every assistant checks the rubric.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant uses the checklist, then the assistant passes the review."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of UseChecklist067. Premise 1 says any such instance has both SubmitAccurateReport067 and PassReview067, so at least one assistant submits an accurate report and passes the review.",
+      "Premise 1 directly includes UseChecklist067→PassReview067 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AskQuestions068(x) → ClarifyConcepts068(x))",
+      "∀x (ClarifyConcepts068(x) → SolveExercises068(x))",
+      "∀x (¬SolveExercises068(x))",
+      "∀x (VolunteerActivity068(x) → LeadershipExperience068(x))",
+      "∃x (VolunteerActivity068(x))"
+    ],
+    "premises-NL": [
+      "If a member asks questions, then the member clarifies concepts.",
+      "If a member clarifies concepts, then the member solves exercises.",
+      "No member solves exercises.",
+      "If a member volunteers for the activity, then the member gains leadership experience.",
+      "At least one member volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member asks questions.\nB. At least one member solves exercises.\nC. No member asks questions.\nD. No member volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who asks questions."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, AskQuestions068 implies SolveExercises068. Premise 3 says no member has SolveExercises068. By valid contraposition of the chain, no member can have AskQuestions068.",
+      "Since AskQuestions068 would lead to SolveExercises068, and premise 3 rules out SolveExercises068 for every member, the existence of an AskQuestions068 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CollaborateTeam069(x) → ShareResources069(x))",
+      "∀x (FinishTask069(x) → ShareResources069(x))",
+      "∃x (ShareResources069(x))",
+      "∀x (UseLibrary069(x) → FindSources069(x))",
+      "∀x (FindSources069(x) → WriteEssay069(x))",
+      "∃x (UseLibrary069(x))"
+    ],
+    "premises-NL": [
+      "If a trainee collaborates with the team, then the trainee shares resources.",
+      "If a trainee finishes the task, then the trainee shares resources.",
+      "At least one trainee shares resources.",
+      "If a trainee uses the library, then the trainee finds sources.",
+      "If a trainee finds sources, then the trainee writes the essay.",
+      "At least one trainee uses the library."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee collaborates with the team must exist.\nB. At least one trainee finishes the task must exist.\nC. At least one trainee writes the essay exists.\nD. No trainee shares resources.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee shares resources, then the trainee collaborates with the team."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of UseLibrary069; premise 4 maps UseLibrary069 to FindSources069, and premise 5 maps FindSources069 to WriteEssay069. Therefore at least one trainee writes the essay, so option C follows.",
+      "Premise 1 states CollaborateTeam069→ShareResources069, but not ShareResources069→CollaborateTeam069. Premise 3 only provides existence of ShareResources069, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReviewLecture070(x) → RememberFormula070(x))",
+      "∀x (RememberFormula070(x) → AnswerExamQuestion070(x))",
+      "∀x (ReviewLecture070(x))",
+      "∃x (JoinDiscussion070(x))",
+      "∀x (JoinDiscussion070(x) → HearExamples070(x))",
+      "∀x (HearExamples070(x) → ApplyMethod070(x))"
+    ],
+    "premises-NL": [
+      "If a student reviews the lecture, then the student remembers the formula.",
+      "If a student remembers the formula, then the student answers the exam question.",
+      "Every student reviews the lecture.",
+      "There exists at least one student who joins the discussion.",
+      "If a student joins the discussion, then the student hears examples.",
+      "If a student hears examples, then the student applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students answers the exam question.\nB. No student answers the exam question.\nC. Only some students answers the exam question, and not all.\nD. It is impossible for any student to reviews the lecture.",
+      "According to the premises, is the following statement true?\nStatement: If a student reviews the lecture, then the student answers the exam question."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student reviews the lecture. Premise 1 gives ReviewLecture070→RememberFormula070, and premise 2 gives RememberFormula070→AnswerExamQuestion070. Therefore every student answers the exam question, so option A follows.",
+      "From premise 1, ReviewLecture070 implies RememberFormula070; from premise 2, RememberFormula070 implies AnswerExamQuestion070. By chaining the two conditionals, if a student reviews the lecture, then the student answers the exam question."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendOfficeHours071(x) → GetGuidance071(x))",
+      "∃x (GetGuidance071(x))",
+      "∀x (CheckRubric071(x) → MeetCriteria071(x))",
+      "∃x (CheckRubric071(x))",
+      "∀x (MeetCriteria071(x) → ScoreHigh071(x))"
+    ],
+    "premises-NL": [
+      "If a learner attends office hours, then the learner gets guidance.",
+      "At least one learner gets guidance.",
+      "If a learner checks the rubric, then the learner meets the criteria.",
+      "At least one learner checks the rubric.",
+      "If a learner meets the criteria, then the learner scores highly."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who gets guidance must attends office hours.\nB. At least one learner gets guidance, but the premises do not show that this learner attends office hours.\nC. No learner can gets guidance.\nD. Every learner attends office hours is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner gets guidance, then the learner attends office hours."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states AttendOfficeHours071→GetGuidance071, and premise 2 gives existence of GetGuidance071. It does not provide the reverse implication GetGuidance071→AttendOfficeHours071. Therefore option B is the only supported statement.",
+      "The premises contain AttendOfficeHours071→GetGuidance071, not GetGuidance071→AttendOfficeHours071. Knowing that a learner gets guidance does not allow us to infer that the same learner attends office hours."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendSeminar072(x) → TakeNotes072(x))",
+      "∀x (¬TakeNotes072(x))",
+      "∀x (VolunteerActivity072(x) → LeadershipExperience072(x))",
+      "∀x (LeadershipExperience072(x) → MentorJunior072(x))",
+      "∃x (VolunteerActivity072(x))"
+    ],
+    "premises-NL": [
+      "If a employee attends the seminar, then the employee takes notes.",
+      "No employee takes notes.",
+      "If a employee volunteers for the activity, then the employee gains leadership experience.",
+      "If a employee gains leadership experience, then the employee mentors a junior peer.",
+      "At least one employee volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees attends the seminar.\nB. No employee attends the seminar.\nC. Every employee takes notes.\nD. The premises prove that all employees volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who attends the seminar."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says AttendSeminar072→TakeNotes072. Its valid contrapositive is ¬TakeNotes072→¬AttendSeminar072. Since premise 2 states ¬TakeNotes072 for every employee, no employee attends the seminar.",
+      "Because every employee lacks takes notes, and attends the seminar would imply takes notes, no employee can satisfy AttendSeminar072. Thus existence of a employee who attends the seminar is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (SubmitProject073(x))",
+      "∀x (SubmitProject073(x) → ReceiveFeedback073(x))",
+      "∀x (ReceiveFeedback073(x) → ImproveWork073(x))",
+      "∀x (UseLibrary073(x) → FindSources073(x))",
+      "∀x (¬WriteEssay073(x) → ¬FindSources073(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who submits the project.",
+      "If a researcher submits the project, then the researcher receives feedback.",
+      "If a researcher receives feedback, then the researcher improves their work.",
+      "If a researcher uses the library, then the researcher finds sources.",
+      "If a researcher does not writes the essay, then the researcher does not finds sources."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher improves their work.\nB. No researcher improves their work.\nC. Every researcher submits the project.\nD. Every researcher uses the library.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher receives feedback."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with SubmitProject073. Premise 2 maps SubmitProject073 to ReceiveFeedback073, and premise 3 maps ReceiveFeedback073 to ImproveWork073. Therefore at least one researcher improves their work.",
+      "Since at least one researcher submits the project and every SubmitProject073 implies ReceiveFeedback073, at least one researcher receives feedback."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((CompleteModule074(x) ∧ JoinDiscussion074(x)) → EarnBadge074(x))",
+      "∀x (CompleteModule074(x))",
+      "∀x (JoinDiscussion074(x))",
+      "∀x (HearExamples074(x) → ApplyMethod074(x))",
+      "∃x (HearExamples074(x))"
+    ],
+    "premises-NL": [
+      "If a participant both completes the module and joins the discussion, then the participant earns a badge.",
+      "Every participant completes the module.",
+      "Every participant joins the discussion.",
+      "If a participant hears examples, then the participant applies the method.",
+      "At least one participant hears examples."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant earns a badge.\nB. No participant completes the module.\nC. Only participants who hears examples can earns a badge.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant hears examples, then the participant applies the method."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant earns a badge.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (JoinLab075(x) → AccessDataset075(x))",
+      "∀x (CheckRubric075(x) → MeetCriteria075(x))",
+      "∃x (JoinLab075(x))",
+      "∀x (MeetCriteria075(x) → ScoreHigh075(x))",
+      "∃x (HasMotivation075(x))"
+    ],
+    "premises-NL": [
+      "If a intern joins the lab, then the intern accesses the dataset.",
+      "If a intern checks the rubric, then the intern meets the criteria.",
+      "At least one intern joins the lab.",
+      "If a intern meets the criteria, then the intern scores highly.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern accesses the dataset.\nB. At least one intern scores highly must exist.\nC. Every intern checks the rubric.\nD. No intern joins the lab.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern scores highly."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with JoinLab075; premise 1 maps JoinLab075 to AccessDataset075. Hence at least one intern accesses the dataset.",
+      "The only route to ScoreHigh075 is through CheckRubric075→MeetCriteria075→ScoreHigh075, but the premises do not assert that any intern checks the rubric. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (PracticeDaily076(x) → ¬GainFluency076(x))",
+      "∀x (PracticeDaily076(x))",
+      "∀x (VolunteerActivity076(x) → LeadershipExperience076(x))",
+      "∃x (VolunteerActivity076(x))",
+      "∀x (LeadershipExperience076(x) → MentorJunior076(x))"
+    ],
+    "premises-NL": [
+      "If a teacher practices daily, then the teacher does not gains fluency.",
+      "Every teacher practices daily.",
+      "If a teacher volunteers for the activity, then the teacher gains leadership experience.",
+      "At least one teacher volunteers for the activity.",
+      "If a teacher gains leadership experience, then the teacher mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher gains fluency.\nB. No teacher gains fluency.\nC. Some teachers are both practices daily and gains fluency.\nD. The premises prove nothing about gains fluency.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who gains fluency."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives PracticeDaily076 for every teacher; premise 1 states PracticeDaily076 implies not GainFluency076. Therefore no teacher gains fluency.",
+      "Since all teachers satisfy PracticeDaily076 and PracticeDaily076 excludes GainFluency076, no existence claim for GainFluency076 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReadGuide077(x) → (FollowProcedure077(x) ∧ AvoidErrors077(x)))",
+      "∃x (ReadGuide077(x))",
+      "∀x (UseLibrary077(x) → FindSources077(x))",
+      "∀x (FindSources077(x) → WriteEssay077(x))",
+      "∀x (ReceivesSupport077(x))"
+    ],
+    "premises-NL": [
+      "If a assistant reads the guide, then the assistant follows the procedure and avoids errors.",
+      "At least one assistant reads the guide.",
+      "If a assistant uses the library, then the assistant finds sources.",
+      "If a assistant finds sources, then the assistant writes the essay.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant follows the procedure and avoids errors.\nB. No assistant follows the procedure.\nC. Every assistant uses the library.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant reads the guide, then the assistant avoids errors."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of ReadGuide077. Premise 1 says any such instance has both FollowProcedure077 and AvoidErrors077, so at least one assistant follows the procedure and avoids errors.",
+      "Premise 1 directly includes ReadGuide077→AvoidErrors077 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendTraining078(x) → CompleteAssessment078(x))",
+      "∀x (CompleteAssessment078(x) → ReceiveCertificate078(x))",
+      "∀x (¬ReceiveCertificate078(x))",
+      "∀x (JoinDiscussion078(x) → HearExamples078(x))",
+      "∃x (JoinDiscussion078(x))"
+    ],
+    "premises-NL": [
+      "If a member attends training, then the member completes the assessment.",
+      "If a member completes the assessment, then the member receives a certificate.",
+      "No member receives a certificate.",
+      "If a member joins the discussion, then the member hears examples.",
+      "At least one member joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member attends training.\nB. At least one member receives a certificate.\nC. No member attends training.\nD. No member joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who attends training."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, AttendTraining078 implies ReceiveCertificate078. Premise 3 says no member has ReceiveCertificate078. By valid contraposition of the chain, no member can have AttendTraining078.",
+      "Since AttendTraining078 would lead to ReceiveCertificate078, and premise 3 rules out ReceiveCertificate078 for every member, the existence of an AttendTraining078 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (UseChecklist079(x) → SubmitAccurateReport079(x))",
+      "∀x (PassReview079(x) → SubmitAccurateReport079(x))",
+      "∃x (SubmitAccurateReport079(x))",
+      "∀x (CheckRubric079(x) → MeetCriteria079(x))",
+      "∀x (MeetCriteria079(x) → ScoreHigh079(x))",
+      "∃x (CheckRubric079(x))"
+    ],
+    "premises-NL": [
+      "If a trainee uses the checklist, then the trainee submits an accurate report.",
+      "If a trainee passes the review, then the trainee submits an accurate report.",
+      "At least one trainee submits an accurate report.",
+      "If a trainee checks the rubric, then the trainee meets the criteria.",
+      "If a trainee meets the criteria, then the trainee scores highly.",
+      "At least one trainee checks the rubric."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee uses the checklist must exist.\nB. At least one trainee passes the review must exist.\nC. At least one trainee scores highly exists.\nD. No trainee submits an accurate report.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee submits an accurate report, then the trainee uses the checklist."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of CheckRubric079; premise 4 maps CheckRubric079 to MeetCriteria079, and premise 5 maps MeetCriteria079 to ScoreHigh079. Therefore at least one trainee scores highly, so option C follows.",
+      "Premise 1 states UseChecklist079→SubmitAccurateReport079, but not SubmitAccurateReport079→UseChecklist079. Premise 3 only provides existence of SubmitAccurateReport079, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AskQuestions080(x) → ClarifyConcepts080(x))",
+      "∀x (ClarifyConcepts080(x) → SolveExercises080(x))",
+      "∀x (AskQuestions080(x))",
+      "∃x (VolunteerActivity080(x))",
+      "∀x (VolunteerActivity080(x) → LeadershipExperience080(x))",
+      "∀x (LeadershipExperience080(x) → MentorJunior080(x))"
+    ],
+    "premises-NL": [
+      "If a student asks questions, then the student clarifies concepts.",
+      "If a student clarifies concepts, then the student solves exercises.",
+      "Every student asks questions.",
+      "There exists at least one student who volunteers for the activity.",
+      "If a student volunteers for the activity, then the student gains leadership experience.",
+      "If a student gains leadership experience, then the student mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students solves exercises.\nB. No student solves exercises.\nC. Only some students solves exercises, and not all.\nD. It is impossible for any student to asks questions.",
+      "According to the premises, is the following statement true?\nStatement: If a student asks questions, then the student solves exercises."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student asks questions. Premise 1 gives AskQuestions080→ClarifyConcepts080, and premise 2 gives ClarifyConcepts080→SolveExercises080. Therefore every student solves exercises, so option A follows.",
+      "From premise 1, AskQuestions080 implies ClarifyConcepts080; from premise 2, ClarifyConcepts080 implies SolveExercises080. By chaining the two conditionals, if a student asks questions, then the student solves exercises."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CollaborateTeam081(x) → ShareResources081(x))",
+      "∃x (ShareResources081(x))",
+      "∀x (UseLibrary081(x) → FindSources081(x))",
+      "∃x (UseLibrary081(x))",
+      "∀x (FindSources081(x) → WriteEssay081(x))"
+    ],
+    "premises-NL": [
+      "If a learner collaborates with the team, then the learner shares resources.",
+      "At least one learner shares resources.",
+      "If a learner uses the library, then the learner finds sources.",
+      "At least one learner uses the library.",
+      "If a learner finds sources, then the learner writes the essay."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who shares resources must collaborates with the team.\nB. At least one learner shares resources, but the premises do not show that this learner collaborates with the team.\nC. No learner can shares resources.\nD. Every learner collaborates with the team is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner shares resources, then the learner collaborates with the team."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states CollaborateTeam081→ShareResources081, and premise 2 gives existence of ShareResources081. It does not provide the reverse implication ShareResources081→CollaborateTeam081. Therefore option B is the only supported statement.",
+      "The premises contain CollaborateTeam081→ShareResources081, not ShareResources081→CollaborateTeam081. Knowing that a learner shares resources does not allow us to infer that the same learner collaborates with the team."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReviewLecture082(x) → RememberFormula082(x))",
+      "∀x (¬RememberFormula082(x))",
+      "∀x (JoinDiscussion082(x) → HearExamples082(x))",
+      "∀x (HearExamples082(x) → ApplyMethod082(x))",
+      "∃x (JoinDiscussion082(x))"
+    ],
+    "premises-NL": [
+      "If a employee reviews the lecture, then the employee remembers the formula.",
+      "No employee remembers the formula.",
+      "If a employee joins the discussion, then the employee hears examples.",
+      "If a employee hears examples, then the employee applies the method.",
+      "At least one employee joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees reviews the lecture.\nB. No employee reviews the lecture.\nC. Every employee remembers the formula.\nD. The premises prove that all employees joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who reviews the lecture."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says ReviewLecture082→RememberFormula082. Its valid contrapositive is ¬RememberFormula082→¬ReviewLecture082. Since premise 2 states ¬RememberFormula082 for every employee, no employee reviews the lecture.",
+      "Because every employee lacks remembers the formula, and reviews the lecture would imply remembers the formula, no employee can satisfy ReviewLecture082. Thus existence of a employee who reviews the lecture is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (AttendOfficeHours083(x))",
+      "∀x (AttendOfficeHours083(x) → GetGuidance083(x))",
+      "∀x (GetGuidance083(x) → ReviseAssignment083(x))",
+      "∀x (CheckRubric083(x) → MeetCriteria083(x))",
+      "∀x (¬ScoreHigh083(x) → ¬MeetCriteria083(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who attends office hours.",
+      "If a researcher attends office hours, then the researcher gets guidance.",
+      "If a researcher gets guidance, then the researcher revises the assignment.",
+      "If a researcher checks the rubric, then the researcher meets the criteria.",
+      "If a researcher does not scores highly, then the researcher does not meets the criteria."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher revises the assignment.\nB. No researcher revises the assignment.\nC. Every researcher attends office hours.\nD. Every researcher checks the rubric.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher gets guidance."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with AttendOfficeHours083. Premise 2 maps AttendOfficeHours083 to GetGuidance083, and premise 3 maps GetGuidance083 to ReviseAssignment083. Therefore at least one researcher revises the assignment.",
+      "Since at least one researcher attends office hours and every AttendOfficeHours083 implies GetGuidance083, at least one researcher gets guidance."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((AttendSeminar084(x) ∧ VolunteerActivity084(x)) → UnderstandTopic084(x))",
+      "∀x (AttendSeminar084(x))",
+      "∀x (VolunteerActivity084(x))",
+      "∀x (LeadershipExperience084(x) → MentorJunior084(x))",
+      "∃x (LeadershipExperience084(x))"
+    ],
+    "premises-NL": [
+      "If a participant both attends the seminar and volunteers for the activity, then the participant understands the topic.",
+      "Every participant attends the seminar.",
+      "Every participant volunteers for the activity.",
+      "If a participant gains leadership experience, then the participant mentors a junior peer.",
+      "At least one participant gains leadership experience."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant understands the topic.\nB. No participant attends the seminar.\nC. Only participants who gains leadership experience can understands the topic.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant gains leadership experience, then the participant mentors a junior peer."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant understands the topic.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (SubmitProject085(x) → ReceiveFeedback085(x))",
+      "∀x (UseLibrary085(x) → FindSources085(x))",
+      "∃x (SubmitProject085(x))",
+      "∀x (FindSources085(x) → WriteEssay085(x))",
+      "∃x (HasMotivation085(x))"
+    ],
+    "premises-NL": [
+      "If a intern submits the project, then the intern receives feedback.",
+      "If a intern uses the library, then the intern finds sources.",
+      "At least one intern submits the project.",
+      "If a intern finds sources, then the intern writes the essay.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern receives feedback.\nB. At least one intern writes the essay must exist.\nC. Every intern uses the library.\nD. No intern submits the project.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern writes the essay."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with SubmitProject085; premise 1 maps SubmitProject085 to ReceiveFeedback085. Hence at least one intern receives feedback.",
+      "The only route to WriteEssay085 is through UseLibrary085→FindSources085→WriteEssay085, but the premises do not assert that any intern uses the library. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CompleteModule086(x) → ¬PassQuiz086(x))",
+      "∀x (CompleteModule086(x))",
+      "∀x (JoinDiscussion086(x) → HearExamples086(x))",
+      "∃x (JoinDiscussion086(x))",
+      "∀x (HearExamples086(x) → ApplyMethod086(x))"
+    ],
+    "premises-NL": [
+      "If a teacher completes the module, then the teacher does not passes the quiz.",
+      "Every teacher completes the module.",
+      "If a teacher joins the discussion, then the teacher hears examples.",
+      "At least one teacher joins the discussion.",
+      "If a teacher hears examples, then the teacher applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher passes the quiz.\nB. No teacher passes the quiz.\nC. Some teachers are both completes the module and passes the quiz.\nD. The premises prove nothing about passes the quiz.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who passes the quiz."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives CompleteModule086 for every teacher; premise 1 states CompleteModule086 implies not PassQuiz086. Therefore no teacher passes the quiz.",
+      "Since all teachers satisfy CompleteModule086 and CompleteModule086 excludes PassQuiz086, no existence claim for PassQuiz086 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (JoinLab087(x) → (AccessDataset087(x) ∧ BuildPrototype087(x)))",
+      "∃x (JoinLab087(x))",
+      "∀x (CheckRubric087(x) → MeetCriteria087(x))",
+      "∀x (MeetCriteria087(x) → ScoreHigh087(x))",
+      "∀x (ReceivesSupport087(x))"
+    ],
+    "premises-NL": [
+      "If a assistant joins the lab, then the assistant accesses the dataset and builds a prototype.",
+      "At least one assistant joins the lab.",
+      "If a assistant checks the rubric, then the assistant meets the criteria.",
+      "If a assistant meets the criteria, then the assistant scores highly.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant accesses the dataset and builds a prototype.\nB. No assistant accesses the dataset.\nC. Every assistant checks the rubric.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant joins the lab, then the assistant builds a prototype."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of JoinLab087. Premise 1 says any such instance has both AccessDataset087 and BuildPrototype087, so at least one assistant accesses the dataset and builds a prototype.",
+      "Premise 1 directly includes JoinLab087→BuildPrototype087 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (PracticeDaily088(x) → GainFluency088(x))",
+      "∀x (GainFluency088(x) → PresentConfidently088(x))",
+      "∀x (¬PresentConfidently088(x))",
+      "∀x (VolunteerActivity088(x) → LeadershipExperience088(x))",
+      "∃x (VolunteerActivity088(x))"
+    ],
+    "premises-NL": [
+      "If a member practices daily, then the member gains fluency.",
+      "If a member gains fluency, then the member presents confidently.",
+      "No member presents confidently.",
+      "If a member volunteers for the activity, then the member gains leadership experience.",
+      "At least one member volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member practices daily.\nB. At least one member presents confidently.\nC. No member practices daily.\nD. No member volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who practices daily."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, PracticeDaily088 implies PresentConfidently088. Premise 3 says no member has PresentConfidently088. By valid contraposition of the chain, no member can have PracticeDaily088.",
+      "Since PracticeDaily088 would lead to PresentConfidently088, and premise 3 rules out PresentConfidently088 for every member, the existence of an PracticeDaily088 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (ReadGuide089(x) → FollowProcedure089(x))",
+      "∀x (AvoidErrors089(x) → FollowProcedure089(x))",
+      "∃x (FollowProcedure089(x))",
+      "∀x (UseLibrary089(x) → FindSources089(x))",
+      "∀x (FindSources089(x) → WriteEssay089(x))",
+      "∃x (UseLibrary089(x))"
+    ],
+    "premises-NL": [
+      "If a trainee reads the guide, then the trainee follows the procedure.",
+      "If a trainee avoids errors, then the trainee follows the procedure.",
+      "At least one trainee follows the procedure.",
+      "If a trainee uses the library, then the trainee finds sources.",
+      "If a trainee finds sources, then the trainee writes the essay.",
+      "At least one trainee uses the library."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee reads the guide must exist.\nB. At least one trainee avoids errors must exist.\nC. At least one trainee writes the essay exists.\nD. No trainee follows the procedure.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee follows the procedure, then the trainee reads the guide."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of UseLibrary089; premise 4 maps UseLibrary089 to FindSources089, and premise 5 maps FindSources089 to WriteEssay089. Therefore at least one trainee writes the essay, so option C follows.",
+      "Premise 1 states ReadGuide089→FollowProcedure089, but not FollowProcedure089→ReadGuide089. Premise 3 only provides existence of FollowProcedure089, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendTraining090(x) → CompleteAssessment090(x))",
+      "∀x (CompleteAssessment090(x) → ReceiveCertificate090(x))",
+      "∀x (AttendTraining090(x))",
+      "∃x (JoinDiscussion090(x))",
+      "∀x (JoinDiscussion090(x) → HearExamples090(x))",
+      "∀x (HearExamples090(x) → ApplyMethod090(x))"
+    ],
+    "premises-NL": [
+      "If a student attends training, then the student completes the assessment.",
+      "If a student completes the assessment, then the student receives a certificate.",
+      "Every student attends training.",
+      "There exists at least one student who joins the discussion.",
+      "If a student joins the discussion, then the student hears examples.",
+      "If a student hears examples, then the student applies the method."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students receives a certificate.\nB. No student receives a certificate.\nC. Only some students receives a certificate, and not all.\nD. It is impossible for any student to attends training.",
+      "According to the premises, is the following statement true?\nStatement: If a student attends training, then the student receives a certificate."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student attends training. Premise 1 gives AttendTraining090→CompleteAssessment090, and premise 2 gives CompleteAssessment090→ReceiveCertificate090. Therefore every student receives a certificate, so option A follows.",
+      "From premise 1, AttendTraining090 implies CompleteAssessment090; from premise 2, CompleteAssessment090 implies ReceiveCertificate090. By chaining the two conditionals, if a student attends training, then the student receives a certificate."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (UseChecklist091(x) → SubmitAccurateReport091(x))",
+      "∃x (SubmitAccurateReport091(x))",
+      "∀x (CheckRubric091(x) → MeetCriteria091(x))",
+      "∃x (CheckRubric091(x))",
+      "∀x (MeetCriteria091(x) → ScoreHigh091(x))"
+    ],
+    "premises-NL": [
+      "If a learner uses the checklist, then the learner submits an accurate report.",
+      "At least one learner submits an accurate report.",
+      "If a learner checks the rubric, then the learner meets the criteria.",
+      "At least one learner checks the rubric.",
+      "If a learner meets the criteria, then the learner scores highly."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. All learners who submits an accurate report must uses the checklist.\nB. At least one learner submits an accurate report, but the premises do not show that this learner uses the checklist.\nC. No learner can submits an accurate report.\nD. Every learner uses the checklist is impossible.",
+      "According to the premises, is the following statement true?\nStatement: If a learner submits an accurate report, then the learner uses the checklist."
+    ],
+    "answers": [
+      "B",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 1 only states UseChecklist091→SubmitAccurateReport091, and premise 2 gives existence of SubmitAccurateReport091. It does not provide the reverse implication SubmitAccurateReport091→UseChecklist091. Therefore option B is the only supported statement.",
+      "The premises contain UseChecklist091→SubmitAccurateReport091, not SubmitAccurateReport091→UseChecklist091. Knowing that a learner submits an accurate report does not allow us to infer that the same learner uses the checklist."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AskQuestions092(x) → ClarifyConcepts092(x))",
+      "∀x (¬ClarifyConcepts092(x))",
+      "∀x (VolunteerActivity092(x) → LeadershipExperience092(x))",
+      "∀x (LeadershipExperience092(x) → MentorJunior092(x))",
+      "∃x (VolunteerActivity092(x))"
+    ],
+    "premises-NL": [
+      "If a employee asks questions, then the employee clarifies concepts.",
+      "No employee clarifies concepts.",
+      "If a employee volunteers for the activity, then the employee gains leadership experience.",
+      "If a employee gains leadership experience, then the employee mentors a junior peer.",
+      "At least one employee volunteers for the activity."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Some employees asks questions.\nB. No employee asks questions.\nC. Every employee clarifies concepts.\nD. The premises prove that all employees volunteers for the activity.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one employee who asks questions."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 1 says AskQuestions092→ClarifyConcepts092. Its valid contrapositive is ¬ClarifyConcepts092→¬AskQuestions092. Since premise 2 states ¬ClarifyConcepts092 for every employee, no employee asks questions.",
+      "Because every employee lacks clarifies concepts, and asks questions would imply clarifies concepts, no employee can satisfy AskQuestions092. Thus existence of a employee who asks questions is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∃x (CollaborateTeam093(x))",
+      "∀x (CollaborateTeam093(x) → ShareResources093(x))",
+      "∀x (ShareResources093(x) → FinishTask093(x))",
+      "∀x (UseLibrary093(x) → FindSources093(x))",
+      "∀x (¬WriteEssay093(x) → ¬FindSources093(x))"
+    ],
+    "premises-NL": [
+      "There exists at least one researcher who collaborates with the team.",
+      "If a researcher collaborates with the team, then the researcher shares resources.",
+      "If a researcher shares resources, then the researcher finishes the task.",
+      "If a researcher uses the library, then the researcher finds sources.",
+      "If a researcher does not writes the essay, then the researcher does not finds sources."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion follows?\nA. At least one researcher finishes the task.\nB. No researcher finishes the task.\nC. Every researcher collaborates with the team.\nD. Every researcher uses the library.",
+      "According to the premises, is the following statement true?\nStatement: At least one researcher shares resources."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 1 gives some researcher with CollaborateTeam093. Premise 2 maps CollaborateTeam093 to ShareResources093, and premise 3 maps ShareResources093 to FinishTask093. Therefore at least one researcher finishes the task.",
+      "Since at least one researcher collaborates with the team and every CollaborateTeam093 implies ShareResources093, at least one researcher shares resources."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x ((ReviewLecture094(x) ∧ JoinDiscussion094(x)) → AnswerExamQuestion094(x))",
+      "∀x (ReviewLecture094(x))",
+      "∀x (JoinDiscussion094(x))",
+      "∀x (HearExamples094(x) → ApplyMethod094(x))",
+      "∃x (HearExamples094(x))"
+    ],
+    "premises-NL": [
+      "If a participant both reviews the lecture and joins the discussion, then the participant answers the exam question.",
+      "Every participant reviews the lecture.",
+      "Every participant joins the discussion.",
+      "If a participant hears examples, then the participant applies the method.",
+      "At least one participant hears examples."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. Every participant answers the exam question.\nB. No participant reviews the lecture.\nC. Only participants who hears examples can answers the exam question.\nD. The premises contradict each other.",
+      "According to the premises, is the following statement true?\nStatement: If a participant hears examples, then the participant applies the method."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premises 2 and 3 ensure that every participant satisfies both antecedents of premise 1. Therefore every participant answers the exam question.",
+      "The statement is exactly premise 4, so it is true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendOfficeHours095(x) → GetGuidance095(x))",
+      "∀x (CheckRubric095(x) → MeetCriteria095(x))",
+      "∃x (AttendOfficeHours095(x))",
+      "∀x (MeetCriteria095(x) → ScoreHigh095(x))",
+      "∃x (HasMotivation095(x))"
+    ],
+    "premises-NL": [
+      "If a intern attends office hours, then the intern gets guidance.",
+      "If a intern checks the rubric, then the intern meets the criteria.",
+      "At least one intern attends office hours.",
+      "If a intern meets the criteria, then the intern scores highly.",
+      "There exists at least one intern who has motivation."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one intern gets guidance.\nB. At least one intern scores highly must exist.\nC. Every intern checks the rubric.\nD. No intern attends office hours.",
+      "According to the premises, is the following statement true?\nStatement: At least one intern scores highly."
+    ],
+    "answers": [
+      "A",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 3 gives at least one intern with AttendOfficeHours095; premise 1 maps AttendOfficeHours095 to GetGuidance095. Hence at least one intern gets guidance.",
+      "The only route to ScoreHigh095 is through CheckRubric095→MeetCriteria095→ScoreHigh095, but the premises do not assert that any intern checks the rubric. Therefore the statement is unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (AttendSeminar096(x) → ¬TakeNotes096(x))",
+      "∀x (AttendSeminar096(x))",
+      "∀x (VolunteerActivity096(x) → LeadershipExperience096(x))",
+      "∃x (VolunteerActivity096(x))",
+      "∀x (LeadershipExperience096(x) → MentorJunior096(x))"
+    ],
+    "premises-NL": [
+      "If a teacher attends the seminar, then the teacher does not takes notes.",
+      "Every teacher attends the seminar.",
+      "If a teacher volunteers for the activity, then the teacher gains leadership experience.",
+      "At least one teacher volunteers for the activity.",
+      "If a teacher gains leadership experience, then the teacher mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every teacher takes notes.\nB. No teacher takes notes.\nC. Some teachers are both attends the seminar and takes notes.\nD. The premises prove nothing about takes notes.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one teacher who takes notes."
+    ],
+    "answers": [
+      "B",
+      "No"
+    ],
+    "explanation": [
+      "Premise 2 gives AttendSeminar096 for every teacher; premise 1 states AttendSeminar096 implies not TakeNotes096. Therefore no teacher takes notes.",
+      "Since all teachers satisfy AttendSeminar096 and AttendSeminar096 excludes TakeNotes096, no existence claim for TakeNotes096 can be true."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (SubmitProject097(x) → (ReceiveFeedback097(x) ∧ ImproveWork097(x)))",
+      "∃x (SubmitProject097(x))",
+      "∀x (UseLibrary097(x) → FindSources097(x))",
+      "∀x (FindSources097(x) → WriteEssay097(x))",
+      "∀x (ReceivesSupport097(x))"
+    ],
+    "premises-NL": [
+      "If a assistant submits the project, then the assistant receives feedback and improves their work.",
+      "At least one assistant submits the project.",
+      "If a assistant uses the library, then the assistant finds sources.",
+      "If a assistant finds sources, then the assistant writes the essay.",
+      "Every assistant receives support."
+    ],
+    "questions": [
+      "Based on the premises, which conclusion is correct?\nA. At least one assistant receives feedback and improves their work.\nB. No assistant receives feedback.\nC. Every assistant uses the library.\nD. At least one assistant lacks receives support.",
+      "According to the premises, is the following statement true?\nStatement: If a assistant submits the project, then the assistant improves their work."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 2 provides an instance of SubmitProject097. Premise 1 says any such instance has both ReceiveFeedback097 and ImproveWork097, so at least one assistant receives feedback and improves their work.",
+      "Premise 1 directly includes SubmitProject097→ImproveWork097 as part of its conjunctive consequent."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (CompleteModule098(x) → PassQuiz098(x))",
+      "∀x (PassQuiz098(x) → EarnBadge098(x))",
+      "∀x (¬EarnBadge098(x))",
+      "∀x (JoinDiscussion098(x) → HearExamples098(x))",
+      "∃x (JoinDiscussion098(x))"
+    ],
+    "premises-NL": [
+      "If a member completes the module, then the member passes the quiz.",
+      "If a member passes the quiz, then the member earns a badge.",
+      "No member earns a badge.",
+      "If a member joins the discussion, then the member hears examples.",
+      "At least one member joins the discussion."
+    ],
+    "questions": [
+      "Based on the premises, which statement follows?\nA. Every member completes the module.\nB. At least one member earns a badge.\nC. No member completes the module.\nD. No member joins the discussion.",
+      "According to the premises, is the following statement true?\nStatement: There exists at least one member who completes the module."
+    ],
+    "answers": [
+      "C",
+      "No"
+    ],
+    "explanation": [
+      "From premises 1 and 2, CompleteModule098 implies EarnBadge098. Premise 3 says no member has EarnBadge098. By valid contraposition of the chain, no member can have CompleteModule098.",
+      "Since CompleteModule098 would lead to EarnBadge098, and premise 3 rules out EarnBadge098 for every member, the existence of an CompleteModule098 instance is false."
+    ]
+  },
+  {
+    "idx": [
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (JoinLab099(x) → AccessDataset099(x))",
+      "∀x (BuildPrototype099(x) → AccessDataset099(x))",
+      "∃x (AccessDataset099(x))",
+      "∀x (CheckRubric099(x) → MeetCriteria099(x))",
+      "∀x (MeetCriteria099(x) → ScoreHigh099(x))",
+      "∃x (CheckRubric099(x))"
+    ],
+    "premises-NL": [
+      "If a trainee joins the lab, then the trainee accesses the dataset.",
+      "If a trainee builds a prototype, then the trainee accesses the dataset.",
+      "At least one trainee accesses the dataset.",
+      "If a trainee checks the rubric, then the trainee meets the criteria.",
+      "If a trainee meets the criteria, then the trainee scores highly.",
+      "At least one trainee checks the rubric."
+    ],
+    "questions": [
+      "Based on the premises, which statement is correct?\nA. At least one trainee joins the lab must exist.\nB. At least one trainee builds a prototype must exist.\nC. At least one trainee scores highly exists.\nD. No trainee accesses the dataset.",
+      "According to the premises, is the following statement true?\nStatement: If a trainee accesses the dataset, then the trainee joins the lab."
+    ],
+    "answers": [
+      "C",
+      "Unknown"
+    ],
+    "explanation": [
+      "Premise 6 gives an instance of CheckRubric099; premise 4 maps CheckRubric099 to MeetCriteria099, and premise 5 maps MeetCriteria099 to ScoreHigh099. Therefore at least one trainee scores highly, so option C follows.",
+      "Premise 1 states JoinLab099→AccessDataset099, but not AccessDataset099→JoinLab099. Premise 3 only provides existence of AccessDataset099, so the reverse implication remains unknown."
+    ]
+  },
+  {
+    "idx": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "premises-FOL": [
+      "∀x (PracticeDaily100(x) → GainFluency100(x))",
+      "∀x (GainFluency100(x) → PresentConfidently100(x))",
+      "∀x (PracticeDaily100(x))",
+      "∃x (VolunteerActivity100(x))",
+      "∀x (VolunteerActivity100(x) → LeadershipExperience100(x))",
+      "∀x (LeadershipExperience100(x) → MentorJunior100(x))"
+    ],
+    "premises-NL": [
+      "If a student practices daily, then the student gains fluency.",
+      "If a student gains fluency, then the student presents confidently.",
+      "Every student practices daily.",
+      "There exists at least one student who volunteers for the activity.",
+      "If a student volunteers for the activity, then the student gains leadership experience.",
+      "If a student gains leadership experience, then the student mentors a junior peer."
+    ],
+    "questions": [
+      "Based on the premises, which statement can be inferred?\nA. All students presents confidently.\nB. No student presents confidently.\nC. Only some students presents confidently, and not all.\nD. It is impossible for any student to practices daily.",
+      "According to the premises, is the following statement true?\nStatement: If a student practices daily, then the student presents confidently."
+    ],
+    "answers": [
+      "A",
+      "Yes"
+    ],
+    "explanation": [
+      "Premise 3 states that every student practices daily. Premise 1 gives PracticeDaily100→GainFluency100, and premise 2 gives GainFluency100→PresentConfidently100. Therefore every student presents confidently, so option A follows.",
+      "From premise 1, PracticeDaily100 implies GainFluency100; from premise 2, GainFluency100 implies PresentConfidently100. By chaining the two conditionals, if a student practices daily, then the student presents confidently."
+    ]
+  }
+]
