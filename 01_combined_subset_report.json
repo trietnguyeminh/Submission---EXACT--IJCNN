@@ -1,0 +1,55 @@
+{
+  "benchmark_v2_1000": {
+    "dataset": "benchmark_v2_1000",
+    "input_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/benchmark_v2_1000.json",
+    "raw_records": 1000,
+    "flattened_samples": 2000,
+    "label_distribution": {
+      "Unknown": 500,
+      "No": 500,
+      "C": 125,
+      "A": 125,
+      "B": 125,
+      "Yes": 500,
+      "D": 125
+    },
+    "question_type_distribution": {
+      "existential": 480,
+      "statement_conditional": 520,
+      "mc": 500,
+      "universal": 500
+    },
+    "answer_explanation_mismatch_samples": 0,
+    "direct_fol_conflict_samples": 304,
+    "grammar_noisy_samples": 387,
+    "mc_samples": 500,
+    "ynu_samples": 1500
+  },
+  "generated_v4style_300": {
+    "dataset": "generated_v4style_300",
+    "input_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json",
+    "raw_records": 300,
+    "flattened_samples": 600,
+    "label_distribution": {
+      "Unknown": 175,
+      "Yes": 170,
+      "No": 105,
+      "B": 50,
+      "A": 50,
+      "C": 25,
+      "D": 25
+    },
+    "question_type_distribution": {
+      "universal": 294,
+      "existential": 105,
+      "mc": 150,
+      "other_ynu": 28,
+      "universal_negative": 23
+    },
+    "answer_explanation_mismatch_samples": 0,
+    "direct_fol_conflict_samples": 100,
+    "grammar_noisy_samples": 99,
+    "mc_samples": 150,
+    "ynu_samples": 450
+  }
+}
