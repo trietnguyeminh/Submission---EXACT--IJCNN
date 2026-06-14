@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "premises-NL": [
+      "All students who complete the required coursework receive a passing grade.",
+      "Any student who receives a passing grade can enroll in the next semester.",
+      "John is a student who has completed the required coursework."
+    ],
+    "premises-FOL": [
+      "forall x. (Student(x) ∧ CompletedCoursework(x) → PassingGrade(x))",
+      "forall x. (Student(x) ∧ PassingGrade(x) → CanEnroll(x))",
+      "Student(John) ∧ CompletedCoursework(John)"
+    ],
+    "questions": [
+      "Can John enroll in the next semester? (A) Yes (B) No (C) Cannot determine (D) Depends on other factors"
+    ],
+    "answers": ["A"],
+    "explanation": "Since John is a student who completed coursework, he gets a passing grade (P1). With a passing grade, he can enroll (P2). Therefore, John can enroll."
+  },
+  {
+    "id": 1,
+    "premises-NL": [
+      "If a student has a GPA of 3.5 or higher, they are eligible for a scholarship.",
+      "Students who receive a scholarship do not need to pay tuition fees.",
+      "Maria has a GPA of 3.8."
+    ],
+    "premises-FOL": [
+      "forall x. (Student(x) ∧ GPA_High(x) → EligibleScholarship(x))",
+      "forall x. (Student(x) ∧ HasScholarship(x) → NoTuition(x))",
+      "Student(Maria) ∧ GPA_High(Maria)"
+    ],
+    "questions": [
+      "Is Maria eligible for a scholarship? (A) Yes (B) No",
+      "Does Maria need to pay tuition? (A) Yes (B) No (C) Cannot determine"
+    ],
+    "answers": ["A", "C"],
+    "explanation": "Maria has GPA >= 3.5, so she is eligible (P1). But eligibility doesn't mean she received the scholarship. We cannot determine if she pays tuition."
+  },
+  {
+    "id": 2,
+    "premises-NL": [
+      "Every course that has more than 30 students requires a teaching assistant.",
+      "Programming 101 has 45 students.",
+      "Mathematics 201 has 25 students."
+    ],
+    "premises-FOL": [
+      "forall x. (Course(x) ∧ HasMoreThan30(x) → RequiresTA(x))",
+      "Course(Prog101) ∧ HasMoreThan30(Prog101)",
+      "Course(Math201) ∧ ¬HasMoreThan30(Math201)"
+    ],
+    "questions": [
+      "Does Programming 101 require a teaching assistant? (A) Yes (B) No",
+      "Does Mathematics 201 require a teaching assistant? (A) Yes (B) No (C) Cannot determine"
+    ],
+    "answers": ["A", "C"],
+    "explanation": "Prog101 has >30 students so requires TA (P1). Math201 has 25 (<=30), but P1 only says >30 requires TA, not that <=30 does NOT require TA."
+  }
+]
