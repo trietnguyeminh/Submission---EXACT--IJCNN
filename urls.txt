@@ -1,0 +1,4 @@
+PREDICTION_URL=https://shadows-binary-faq-bowl.trycloudflare.com/predict
+V1_MODELS_URL=https://shadows-binary-faq-bowl.trycloudflare.com/v1/models
+V1_COMPLETIONS_URL=https://shadows-binary-faq-bowl.trycloudflare.com/v1/completions
+HEALTH_URL=https://shadows-binary-faq-bowl.trycloudflare.com/health
