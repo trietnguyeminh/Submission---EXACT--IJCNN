@@ -1,0 +1,198 @@
+{
+  "version": "full_model_eval_metrics",
+  "data_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/Logic_Based_Educational_Queries_v5_repair_tier1_dedup_normfol_drop_logicfallacy.json",
+  "test_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json",
+  "base_model_path": "/kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1",
+  "adapter_path": "/kaggle/input/datasets/yixuanisthebest/v2333333",
+  "load_mode": "sharded_dtype",
+  "load_error": null,
+  "n_rows": 300,
+  "gold_available": 0,
+  "pred_distribution": {
+    "Unknown": 145,
+    "Yes": 130,
+    "A": 25
+  },
+  "gold_distribution": {
+    "NO_GOLD": 300
+  },
+  "invalid_unparseable_count": 0,
+  "invalid_unparseable_rate": 0.0,
+  "latency_sec": {
+    "total": 3857.672333717346,
+    "mean": 12.858907779057821,
+    "min": 5.727354288101196,
+    "max": 48.92675709724426
+  },
+  "metrics": {
+    "all": {
+      "n": 0,
+      "correct": 0,
+      "acc": null,
+      "micro_f1": null,
+      "macro_f1": null,
+      "weighted_f1": null,
+      "labels": [],
+      "per_label": {},
+      "confusion_matrix": {}
+    },
+    "mc": {
+      "n": 0,
+      "correct": 0,
+      "acc": null,
+      "micro_f1": null,
+      "macro_f1": 0.0,
+      "weighted_f1": null,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "per_label": {
+        "A": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "B": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "C": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "D": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        }
+      },
+      "confusion_matrix": {
+        "A": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        },
+        "B": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        }
+      }
+    },
+    "ynu": {
+      "n": 0,
+      "correct": 0,
+      "acc": null,
+      "micro_f1": null,
+      "macro_f1": 0.0,
+      "weighted_f1": null,
+      "labels": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "per_label": {
+        "Yes": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "No": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        },
+        "Unknown": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "pred_count": 0
+        }
+      },
+      "confusion_matrix": {
+        "Yes": {
+          "Yes": 0,
+          "No": 0,
+          "Unknown": 0,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        },
+        "No": {
+          "Yes": 0,
+          "No": 0,
+          "Unknown": 0,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        },
+        "Unknown": {
+          "Yes": 0,
+          "No": 0,
+          "Unknown": 0,
+          "UNPARSEABLE": 0,
+          "OTHER": 0
+        }
+      }
+    }
+  }
+}
