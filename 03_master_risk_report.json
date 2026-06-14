@@ -1,0 +1,168 @@
+{
+  "version": "v36_v37_master_selector",
+  "artifact_risk": "LOW_RELOADED_SAVED_PREDS",
+  "overfit_risk": "LOW_BY_DEFAULT_ANALYSIS_ONLY_GATED",
+  "underfit_risk": "MC_AND_STATEMENT_REMAIN_UNAPPLIED_UNLESS_GATES_PASS",
+  "label_collapse": false,
+  "datasets": {
+    "generated_v4style_300": {
+      "dataset": "generated_v4style_300",
+      "pred_input_path": "/kaggle/input/datasets/yixuanisthebest/v2333333/full_model_eval_v3_2_preds.json",
+      "base_metrics": {
+        "n": 600,
+        "correct": 491,
+        "acc": 0.8183333333333334,
+        "macro7": 0.791292894414504,
+        "mc_macro": 0.7757320717847034,
+        "ynu_macro": 0.8120406579209051,
+        "per_label": {
+          "A": {
+            "precision": 0.8275862068965517,
+            "recall": 0.96,
+            "f1": 0.888888888888889,
+            "support": 50,
+            "pred_count": 58
+          },
+          "B": {
+            "precision": 1.0,
+            "recall": 0.76,
+            "f1": 0.8636363636363636,
+            "support": 50,
+            "pred_count": 38
+          },
+          "C": {
+            "precision": 0.625,
+            "recall": 0.8,
+            "f1": 0.7017543859649122,
+            "support": 25,
+            "pred_count": 32
+          },
+          "D": {
+            "precision": 1.0,
+            "recall": 0.48,
+            "f1": 0.6486486486486487,
+            "support": 25,
+            "pred_count": 12
+          },
+          "Yes": {
+            "precision": 0.9012345679012346,
+            "recall": 0.8588235294117647,
+            "f1": 0.8795180722891566,
+            "support": 170,
+            "pred_count": 162
+          },
+          "No": {
+            "precision": 0.7395833333333334,
+            "recall": 0.6761904761904762,
+            "f1": 0.7064676616915423,
+            "support": 105,
+            "pred_count": 96
+          },
+          "Unknown": {
+            "precision": 0.8125,
+            "recall": 0.8914285714285715,
+            "f1": 0.8501362397820164,
+            "support": 175,
+            "pred_count": 192
+          }
+        },
+        "pred_distribution": {
+          "Unknown": 192,
+          "Yes": 162,
+          "B": 38,
+          "No": 96,
+          "A": 58,
+          "C": 32,
+          "D": 12,
+          "UNPARSEABLE": 10
+        }
+      },
+      "final_metrics": {
+        "n": 600,
+        "correct": 491,
+        "acc": 0.8183333333333334,
+        "macro7": 0.791292894414504,
+        "mc_macro": 0.7757320717847034,
+        "ynu_macro": 0.8120406579209051,
+        "per_label": {
+          "A": {
+            "precision": 0.8275862068965517,
+            "recall": 0.96,
+            "f1": 0.888888888888889,
+            "support": 50,
+            "pred_count": 58
+          },
+          "B": {
+            "precision": 1.0,
+            "recall": 0.76,
+            "f1": 0.8636363636363636,
+            "support": 50,
+            "pred_count": 38
+          },
+          "C": {
+            "precision": 0.625,
+            "recall": 0.8,
+            "f1": 0.7017543859649122,
+            "support": 25,
+            "pred_count": 32
+          },
+          "D": {
+            "precision": 1.0,
+            "recall": 0.48,
+            "f1": 0.6486486486486487,
+            "support": 25,
+            "pred_count": 12
+          },
+          "Yes": {
+            "precision": 0.9012345679012346,
+            "recall": 0.8588235294117647,
+            "f1": 0.8795180722891566,
+            "support": 170,
+            "pred_count": 162
+          },
+          "No": {
+            "precision": 0.7395833333333334,
+            "recall": 0.6761904761904762,
+            "f1": 0.7064676616915423,
+            "support": 105,
+            "pred_count": 96
+          },
+          "Unknown": {
+            "precision": 0.8125,
+            "recall": 0.8914285714285715,
+            "f1": 0.8501362397820164,
+            "support": 175,
+            "pred_count": 192
+          }
+        },
+        "pred_distribution": {
+          "Unknown": 192,
+          "Yes": 162,
+          "B": 38,
+          "No": 96,
+          "A": 58,
+          "C": 32,
+          "D": 12,
+          "UNPARSEABLE": 10
+        }
+      },
+      "mc_gate": {
+        "pass": false,
+        "n": 0,
+        "precision": null,
+        "reason": "no candidates"
+      },
+      "statement_gate": {
+        "pass": false,
+        "n": 0,
+        "precision": null,
+        "reason": "no candidates"
+      },
+      "allow_mc_apply": false,
+      "allow_statement_apply": false,
+      "n_applied": 0,
+      "applied_preview": [],
+      "decision": "KEEP_BASE_V35_OR_REBUILD"
+    }
+  }
+}
