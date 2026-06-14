@@ -1,0 +1,93 @@
+[
+  {
+    "record": 19,
+    "question": 1,
+    "old_answer": "No",
+    "new_answer": "Unknown",
+    "question_text": "Are all students ready?"
+  },
+  {
+    "record": 21,
+    "question": 1,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Do all students receive a scholarship?"
+  },
+  {
+    "record": 23,
+    "question": 1,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Are all students eligible for a scholarship?"
+  },
+  {
+    "record": 25,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Based on the above premises, is the following statement true?\nStatement: If an AI model performs classification, then it"
+  },
+  {
+    "record": 193,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Do modern facilities enhance learning environments?"
+  },
+  {
+    "record": 246,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Based on the above premises, is the following statement true?\nStatement: If a student does not meet academic standards, "
+  },
+  {
+    "record": 247,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Based on the above premises, is the following statement true?\nStatement: If a student demonstrates competence in one sub"
+  },
+  {
+    "record": 248,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Based on the above premises, is the following statement true?\nStatement: If a student demonstrates competence in one sub"
+  },
+  {
+    "record": 250,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Based on the above premises, is the following statement true?\nStatement: If an AI model is not trained, it cannot genera"
+  },
+  {
+    "record": 251,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Based on the above premises, is the following statement true?\nStatement: A student who manages their time and sets goals"
+  },
+  {
+    "record": 262,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "If there exists at least one object x that has property R, does it follow that there exists at least one object x that h"
+  },
+  {
+    "record": 289,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "According to the above premises, is the following statement true?\nStatement: If every student participates in a course, "
+  },
+  {
+    "record": 290,
+    "question": 2,
+    "old_answer": "No",
+    "new_answer": "Yes",
+    "question_text": "Based on the above premises, is the following statement true?\nStatement: If a student did not sign the academic integrit"
+  }
+]
