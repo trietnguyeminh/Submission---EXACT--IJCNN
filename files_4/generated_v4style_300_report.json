@@ -1,0 +1,42 @@
+{
+  "records": 300,
+  "questions": 600,
+  "validation_errors": 0,
+  "duplicates": 0,
+  "record_types": {
+    "MCQ_plus_YN": 150,
+    "YN_plus_YN": 150
+  },
+  "answer_distribution": {
+    "Unknown": 175,
+    "Yes": 170,
+    "No": 105,
+    "B": 50,
+    "A": 50,
+    "C": 25,
+    "D": 25
+  },
+  "mcq_distribution": {
+    "B": 50,
+    "A": 50,
+    "C": 25,
+    "D": 25
+  },
+  "ynu_distribution": {
+    "Unknown": 175,
+    "Yes": 170,
+    "No": 105
+  },
+  "constraint_checks": {
+    "unknown_pct": "29.2% (target ≥25%)",
+    "yes_is_dominant": false,
+    "multi_hop_questions": "330 (55.0%, target ≥20%)",
+    "contrapositive_questions": "150 (25.0%, target ≥15%)",
+    "invalid_reverse_questions": "140 (23.3%, target ≥15%)"
+  },
+  "premise_stats": {
+    "min": 7,
+    "max": 11,
+    "avg": 9.0
+  }
+}
