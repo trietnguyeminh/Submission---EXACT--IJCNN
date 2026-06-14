@@ -1,0 +1,32 @@
+{
+  "PRIMARY_Z3_FIRST": {
+    "acc": 0.8823529411764706,
+    "correct": 30,
+    "total": 34
+  },
+  "pure_qwen_LoRA_BoN": {
+    "acc": 0.8823529411764706,
+    "correct": 30,
+    "total": 34
+  },
+  "pure_z3_definite_else_unknown": {
+    "acc": 0.6764705882352942,
+    "correct": 23,
+    "total": 34
+  },
+  "qwen_first_reference": {
+    "acc": 0.8823529411764706,
+    "correct": 30,
+    "total": 34
+  },
+  "z3_first_reference": {
+    "acc": 0.8823529411764706,
+    "correct": 30,
+    "total": 34
+  },
+  "conf_hybrid_reference": {
+    "acc": 0.8823529411764706,
+    "correct": 30,
+    "total": 34
+  }
+}
