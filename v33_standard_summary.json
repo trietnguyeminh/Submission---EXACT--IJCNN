@@ -1,0 +1,337 @@
+{
+  "version": "v33_standard_horn_proof_rescue",
+  "selection_status": "ROLLBACK_v32_2",
+  "selected_source": "ROLLBACK_v32_2",
+  "baseline_v32_2": {
+    "n": 156,
+    "acc": 0.6410256410256411,
+    "macro_f1": 0.596858548901435,
+    "weighted_f1": 0.63356744040158,
+    "mc_macro": 0.551470588235294,
+    "ynu_macro": 0.657375829789623
+  },
+  "candidate_metrics": {
+    "n": 156,
+    "acc": 0.6346153846153846,
+    "macro_f1": 0.5910723263664439,
+    "weighted_f1": 0.6179316075243677,
+    "mc_macro": 0.551470588235294,
+    "ynu_macro": 0.6438746438746439
+  },
+  "metrics": {
+    "n": 156,
+    "acc": 0.6410256410256411,
+    "macro_f1": 0.596858548901435,
+    "weighted_f1": 0.63356744040158,
+    "mc_macro": 0.551470588235294,
+    "ynu_macro": 0.657375829789623
+  },
+  "per_label": {
+    "A": {
+      "precision": 0.8125,
+      "recall": 0.4642857142857143,
+      "f1": 0.5909090909090908,
+      "support": 28,
+      "pred_count": 16
+    },
+    "B": {
+      "precision": 0.6666666666666666,
+      "recall": 0.75,
+      "f1": 0.7058823529411765,
+      "support": 8,
+      "pred_count": 9
+    },
+    "C": {
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "f1": 0.3636363636363636,
+      "support": 6,
+      "pred_count": 5
+    },
+    "D": {
+      "precision": 0.5,
+      "recall": 0.6,
+      "f1": 0.5454545454545454,
+      "support": 5,
+      "pred_count": 6
+    },
+    "Yes": {
+      "precision": 0.5517241379310345,
+      "recall": 0.47058823529411764,
+      "f1": 0.507936507936508,
+      "support": 34,
+      "pred_count": 29
+    },
+    "No": {
+      "precision": 0.5957446808510638,
+      "recall": 0.7,
+      "f1": 0.6436781609195402,
+      "support": 40,
+      "pred_count": 47
+    },
+    "Unknown": {
+      "precision": 0.7441860465116279,
+      "recall": 0.9142857142857143,
+      "f1": 0.8205128205128205,
+      "support": 35,
+      "pred_count": 43
+    }
+  },
+  "candidate_per_label": {
+    "A": {
+      "precision": 0.8125,
+      "recall": 0.4642857142857143,
+      "f1": 0.5909090909090908,
+      "support": 28,
+      "pred_count": 16
+    },
+    "B": {
+      "precision": 0.6666666666666666,
+      "recall": 0.75,
+      "f1": 0.7058823529411765,
+      "support": 8,
+      "pred_count": 9
+    },
+    "C": {
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "f1": 0.3636363636363636,
+      "support": 6,
+      "pred_count": 5
+    },
+    "D": {
+      "precision": 0.5,
+      "recall": 0.6,
+      "f1": 0.5454545454545454,
+      "support": 5,
+      "pred_count": 6
+    },
+    "Yes": {
+      "precision": 0.5178571428571429,
+      "recall": 0.8529411764705882,
+      "f1": 0.6444444444444445,
+      "support": 34,
+      "pred_count": 56
+    },
+    "No": {
+      "precision": 0.7,
+      "recall": 0.35,
+      "f1": 0.4666666666666667,
+      "support": 40,
+      "pred_count": 20
+    },
+    "Unknown": {
+      "precision": 0.7441860465116279,
+      "recall": 0.9142857142857143,
+      "f1": 0.8205128205128205,
+      "support": 35,
+      "pred_count": 43
+    }
+  },
+  "n_candidate_flips": 27,
+  "candidate_flips": [
+    {
+      "idx": 16,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 22,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 26,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 27,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 28,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 30,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1b_affirmative_multi_premise_chain",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 39,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 41,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 45,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 49,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 57,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 69,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 75,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 79,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 83,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 85,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 87,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1b_affirmative_multi_premise_chain",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 93,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 95,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 97,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 117,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1b_affirmative_multi_premise_chain",
+      "gold_for_audit_only": "No"
+    },
+    {
+      "idx": 119,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 132,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 141,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 144,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 146,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    },
+    {
+      "idx": 150,
+      "old": "No",
+      "new": "Yes",
+      "rule": "R1_affirmative_horn_body_true_with_premises",
+      "gold_for_audit_only": "Yes"
+    }
+  ],
+  "selected_flips": [],
+  "gates": {
+    "macro_gain_candidate": -0.005786222534991059,
+    "strict_macro_gain_required": 0.01,
+    "no_drop": 0.17701149425287355,
+    "max_no_drop": 0.02,
+    "unknown_drop": 0.0,
+    "max_unknown_drop": 0.0,
+    "mc_changed": false,
+    "collapse": false,
+    "n_flips_ok": false,
+    "selected": false
+  },
+  "note": "If rollback, saved preds are exactly v32.2 baseline."
+}
