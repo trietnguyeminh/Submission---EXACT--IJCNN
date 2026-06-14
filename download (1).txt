@@ -1,0 +1,71 @@
+6.7s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.7s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.7s 3 0.00s - to python to disable frozen modules.
+6.7s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.3s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.3s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.3s 7 0.00s - to python to disable frozen modules.
+7.3s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.9s 9 3.1.3
+16.8s 10 ⏳ Đang đọc file và tính toán Feature Engineering bằng Polars...
+53.5s 11 
+53.5s 12 ======================================================================
+53.5s 13 🚀 HORIZON 1
+53.5s 14 ======================================================================
+57.9s 15 Data: train=1,394,653, test=379,617 | Features: 168
+61.8s 16 -> Đang huấn luyện Seed 1/3 (Trạng thái ngẫu nhiên: 42)...
+387.4s 17 -> Đang huấn luyện Seed 2/3 (Trạng thái ngẫu nhiên: 2024)...
+725.2s 18 -> Đang huấn luyện Seed 3/3 (Trạng thái ngẫu nhiên: 12345)...
+951.2s 19 💡 Local score=0.081719 | avg_best_iter=434.7 | elapsed=15.0 min
+951.4s 20 
+951.4s 21 ======================================================================
+951.4s 22 🚀 HORIZON 3
+951.4s 23 ======================================================================
+952.7s 24 Data: train=1,385,816, test=376,558 | Features: 168
+953.9s 25 -> Đang huấn luyện Seed 1/3 (Trạng thái ngẫu nhiên: 42)...
+1508.3s 26 -> Đang huấn luyện Seed 2/3 (Trạng thái ngẫu nhiên: 2024)...
+2240.8s 27 -> Đang huấn luyện Seed 3/3 (Trạng thái ngẫu nhiên: 12345)...
+2628.8s 28 💡 Local score=0.142678 | avg_best_iter=1032.7 | elapsed=28.0 min
+2628.8s 29 
+2628.8s 30 ======================================================================
+2628.8s 31 🚀 HORIZON 10
+2628.8s 32 ======================================================================
+2630.2s 33 Data: train=1,337,236, test=362,057 | Features: 168
+2631.4s 34 -> Đang huấn luyện Seed 1/3 (Trạng thái ngẫu nhiên: 42)...
+2873.7s 35 -> Đang huấn luyện Seed 2/3 (Trạng thái ngẫu nhiên: 2024)...
+3234.7s 36 -> Đang huấn luyện Seed 3/3 (Trạng thái ngẫu nhiên: 12345)...
+3496.8s 37 💡 Local score=0.211689 | avg_best_iter=441.7 | elapsed=14.5 min
+3496.8s 38 
+3496.8s 39 ======================================================================
+3496.8s 40 🚀 HORIZON 25
+3496.8s 41 ======================================================================
+3498.1s 42 Data: train=1,219,709, test=328,875 | Features: 168
+3499.2s 43 -> Đang huấn luyện Seed 1/3 (Trạng thái ngẫu nhiên: 42)...
+3875.9s 44 -> Đang huấn luyện Seed 2/3 (Trạng thái ngẫu nhiên: 2024)...
+4143.0s 45 -> Đang huấn luyện Seed 3/3 (Trạng thái ngẫu nhiên: 12345)...
+4553.9s 46 💡 Local score=0.270647 | avg_best_iter=618.3 | elapsed=17.6 min
+4566.4s 47 
+4566.4s 48 ======================================================================
+4566.4s 49 🏆 TỔNG KẾT ĐIỂM (PER-HORIZON)
+4566.4s 50 ----------------------------------------------------------------------
+4566.4s 51 h= 1: 0.081719
+4566.4s 52 h= 3: 0.142678
+4566.4s 53 h=10: 0.211689
+4566.4s 54 h=25: 0.270647
+4566.4s 55 ----------------------------------------------------------------------
+4566.4s 56 🔥 Aggregate Local Score: 0.231717
+4566.4s 57 ⏱️ Hoàn tất toàn bộ trong: 75.8 phút
+4566.4s 58 ======================================================================
+4579.2s 59 ✅ Đã chuẩn bị xong file submission.csv. Sẵn sàng nộp bài!
+4585.1s 60 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+4585.1s 61 cells[i][c] = re.sub('\\\\\|', '|', cell)
+4585.2s 62 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+4585.2s 63 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+4585.8s 64 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+4585.8s 65 warn(
+4585.8s 66 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+4586.1s 67 [NbConvertApp] Writing 19987 bytes to __notebook__.ipynb
+4588.5s 68 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+4588.5s 69 warn(
+4588.6s 70 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+4589.4s 71 [NbConvertApp] Writing 342755 bytes to __results__.html
