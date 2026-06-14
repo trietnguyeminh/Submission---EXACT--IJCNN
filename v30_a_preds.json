@@ -1,0 +1,528 @@
+[
+  {
+    "i": 5,
+    "id": 5,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Can Dr. John teach undergraduate courses, according to the premises?",
+    "text_preview": "Can Dr. John teach undergraduate courses, according to the premises?\nReasoning:\nFrom premise 7, Dr. John is a department head with a PhD. From premise 6, department heads must hold a degree higher than a Bachelor's. From premise 3, a PhD is higher than a Master's. From premise 2, lecturers with a degree higher than a Master's can teach undergraduate courses. Since Dr. John has a PhD, which is higher than a Master's, he can teach undergraduate courses.\nSupporting Premises: [4, 5, 7]\nFinal Answer: No"
+  },
+  {
+    "i": 7,
+    "id": 7,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Does the logical sequence demonstrate that Alex meets all requirements for booking training sessions?",
+    "text_preview": "Does the logical sequence demonstrate that Alex meets all requirements for booking training sessions?\nReasoning:\nPremise 1 states Alex has a valid membership card, premise 2 that Alex has completed safety orientation, premise 3 that Alex has a membership duration of 8 months, and premise 4 that Alex has paid annual fees on time. All these premises together demonstrate that Alex meets all requirements for booking training sessions, as they cover membership status, orientation completion, duration, and payment.\nSupporting Premises: [2, 3, 4]\nFinal Answer: No"
+  },
+  {
+    "i": 9,
+    "id": 9,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Does Minh qualify to take Biochemistry based on her completed coursework, according to the premises?",
+    "text_preview": "Does Minh qualify to take Biochemistry based on her completed coursework, according to the premises?\nReasoning:\nPremise 7 states Minh completed Organic Chemistry, and Premise 3 says completing Organic Chemistry allows taking Biochemistry. Thus, Minh qualifies to take Biochemistry.\nSupporting Premises: [3, 7]\nFinal Answer: No"
+  },
+  {
+    "i": 14,
+    "id": 14,
+    "gold": "Yes",
+    "pred": "UNPARSEABLE",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {},
+    "question": "Should Student A be confirmed as cheating and suspended from the exam, considering the signs from the exam, behavior during the exam, AI analysis, personal history, and the possibility of appeal being denied, and assessing additional penalties if there is evidence from the camera?",
+    "text_preview": "Should Student A be confirmed as cheating and suspended from the exam, considering the signs from the exam, behavior during the exam, AI analysis, personal history, and the possibility of appeal being denied, and assessing additional penalties if there is evidence from the camera?\nReasoning:\nPremise 26 states that Student A's answers matched 95% with Student B's, which may indicate cheating. Premise 3 states that if a student completes the exam in less than 50% of the class's average time, it may indicate anomalies, and Premise 30 states that the system recorded A's gaze leaving the screen 12 times, which may indicate cheating. Premise 32 states that the AI system determined A's probability of cheating to be 97%, and Premise 33 states that the examination board convened at 10:00 AM on March 27, 2025, confirming cheating. Premise 34 states that Student A filed an appeal on March 28, 2025, at 8:00 AM, and Premise 35 states that if the appeal is denied, the student must retake the course and pay a penalty of 30% of the tuition fee. Therefore, Student A should be confirmed as cheating and suspended from the exam, considering the signs from the exam, behavior during the exam, AI analysis, personal history, and the possibility of appeal being denied, and assessing additional penalties"
+  },
+  {
+    "i": 18,
+    "id": 18,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Is there a logical chain from applying for internships to increasing one’s earning potential, according to the premises?",
+    "text_preview": "Is there a logical chain from applying for internships to increasing one’s earning potential, according to the premises?\nReasoning:\nPremise 1 states that applying for internships leads to securing internships, premise 2 says securing internships leads to gaining practical experience, premise 3 links gaining practical experience to improved job prospects, premise 4 connects performing well in internships to receiving full-time job offers, premise 5 states receiving job offers leads to a smoother workforce transition, premise 6 says multiple internships build a strong resume, premise 7 links strong resumes to increased hiring chances, premise 8 connects industry connections to internship chances, premise 9 states mentors provide career guidance, premise 10 says career guidance leads to informed decisions, premise 11 links informed decisions to better career growth, and premise 12 states better career growth increases earning potential. Therefore, applying for internships leads to increased earning potential.\nSupporting Premises: [3, 5, 8, 10, 12]\nFinal Answer: Yes"
+  },
+  {
+    "i": 20,
+    "id": 20,
+    "gold": "Unknown",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "According to the above premises, is the following statement true?\nStatement: If a student engages in independent study, they have a higher chance of accessing advanced research opportunities.",
+    "text_preview": "According to the above premises, is the following statement true?\nStatement: If a student engages in independent study, they have a higher chance of accessing advanced research opportunities.\nReasoning:\nThe statement is true because engaging in independent study increases the likelihood of publishing research (premise 6), and publishing research leads to academic recognition (premise 3), which implies a higher chance of accessing advanced research opportunities.\nSupporting Premises: [6, 12]\nFinal Answer: Yes"
+  },
+  {
+    "i": 22,
+    "id": 22,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "According to the premises, is the following statement true?\nStatement: There exists a complete pathway from maintaining a high GPA to receiving a scholarship.",
+    "text_preview": "According to the premises, is the following statement true?\nStatement: There exists a complete pathway from maintaining a high GPA to receiving a scholarship.\nReasoning:\nPremise 3 states that maintaining a high GPA qualifies for a merit-based scholarship, and premise 11 states that engaging in extracurricular activities increases the chances of receiving a scholarship. From premise 3, maintaining a high GPA leads to a merit-based scholarship, and from premise 11, extracurricular activities increase the chances of receiving a scholarship, forming a complete pathway. Thus, the statement is true.\nSupporting Premises: [3, 11]\nFinal Answer: No"
+  },
+  {
+    "i": 26,
+    "id": 26,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "According to the above premises, is the following statement true?\nStatement: If all Python projects are well-structured, then all Python projects are optimized.",
+    "text_preview": "According to the above premises, is the following statement true?\nStatement: If all Python projects are well-structured, then all Python projects are optimized.\nReasoning:\nFrom premise 13, all Python projects are well-structured. From premise 9, if a Python project is well-structured, then it is optimized. Therefore, if all Python projects are well-structured, then all Python projects are optimized. This is because the implication from well-structured to optimized applies to all projects.\nSupporting Premises: [12, 13]\nFinal Answer: No"
+  },
+  {
+    "i": 27,
+    "id": 27,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Does it follow that every hardware component is thoroughly validated?",
+    "text_preview": "Does it follow that every hardware component is thoroughly validated?\nReasoning:\nFrom premise 10, every hardware component is power-efficient. From premise 5, if a component is power-efficient, it is thoroughly validated. Therefore, every component is thoroughly validated.\nSupporting Premises: [10, 13]\nFinal Answer: No"
+  },
+  {
+    "i": 29,
+    "id": 29,
+    "gold": "Unknown",
+    "pred": "Yes",
+    "families": [
+      "quantifier_overclaim",
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Are all AI applications rigorously tested?",
+    "text_preview": "Are all AI applications rigorously tested?\nReasoning:\nPremise 9 states that every AI application is widely adopted, and premise 4 states that widespread adoption implies high success. Premise 1 states that rigorous testing implies high quality, and premise 6 states that all AI applications meet quality standards. Premise 3 states that promising applications undergo testing. Thus, all AI applications are rigorously tested.\nSupporting Premises: [4, 6, 9]\nFinal Answer: Yes"
+  },
+  {
+    "i": 47,
+    "id": 47,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: All students complete their homework.",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: All students complete their homework.\nReasoning:\nPremise 2 states that all students complete their homework, so the statement is true.\nSupporting Premises: [2]\nFinal Answer: No"
+  },
+  {
+    "i": 49,
+    "id": 49,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student does not do their homework, then they will not attend class.",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: If a student does not do their homework, then they will not attend class.\nReasoning:\nFrom premise 3, we know that if a student does not do their homework, then they will not attend class. The statement is true because it is explicitly stated in premise 3.\nSupporting Premises: [3]\nFinal Answer: No"
+  },
+  {
+    "i": 61,
+    "id": 61,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the premises, is the following statement true?\nStatement: Kahne will receive plus points for their graduation thesis if they write a science article and it is successfully published.",
+    "text_preview": "Based on the premises, is the following statement true?\nStatement: Kahne will receive plus points for their graduation thesis if they write a science article and it is successfully published.\nReasoning:\nKahne is a lab member (premise 6), so they can get training (premise 2). Training helps broaden knowledge (premise 3), and with guidance and knowledge, they can do a science article (premise 4). If the article is published, they get plus points (premise 5). Thus, Kahne will get plus points if they write and publish a science article.\nSupporting Premises: [2, 4, 5, 6]\nFinal Answer: Yes"
+  },
+  {
+    "i": 63,
+    "id": 63,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the premises, is the following statement true?\nStatement: The Titan computer remains stable during heavy use because it runs complex software and supports multitasking efficiently.",
+    "text_preview": "Based on the premises, is the following statement true?\nStatement: The Titan computer remains stable during heavy use because it runs complex software and supports multitasking efficiently.\nReasoning:\nThe Titan computer runs complex software and supports multitasking efficiently, requiring a strong cooling unit (premise 3). Strong cooling ensures stability during heavy use (premise 4). Thus, the statement is true.\nSupporting Premises: [3, 4]\nFinal Answer: Yes"
+  },
+  {
+    "i": 71,
+    "id": 71,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "quantifier_overclaim",
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: If there exists someone who attended the midterm exam, then all students attend the course, and there exists someone who attended the final exam.",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: If there exists someone who attended the midterm exam, then all students attend the course, and there exists someone who attended the final exam.\nReasoning:\nFrom premise 2, we know that there exists someone who attended the midterm exam. From premise 5, if there exists someone who attended the midterm exam, then all students attend the course. From premise 7, there exists someone who attended the final exam. Therefore, if there exists someone who attended the midterm exam, then all students attend the course, and there exists someone who attended the final exam (from premises 2, 5, and 7), making the statement true.\nSupporting Premises: [3, 4, 5]\nFinal Answer: Yes"
+  },
+  {
+    "i": 75,
+    "id": 75,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and there exists a student who attended at least 2 PE courses during the 9 semesters.",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and there exists a student who attended at least 2 PE courses during the 9 semesters.\nReasoning:\nFrom premise 1, we know that all students are enrolled in the PE course. From premise 2, we know that if a person has not attended the PE course, then they are not attending the PE course this semester. From premise 7, we know that there exists a student who attended at least 2 PE courses during the 9 semesters. Therefore, if all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and there exists a student who attended at least 2 PE courses during the 9 semesters (from premises 1, 2, and 7), so the statement is true.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No"
+  },
+  {
+    "i": 79,
+    "id": 79,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Are all individuals attending the healthcare appointment?",
+    "text_preview": "Are all individuals attending the healthcare appointment?\nReasoning:\nFrom premise 3, all individuals are required to attend the healthcare appointment. From premise 1, if x is not required to attend, then x does not attend. Since all are required, premise 1 implies that all attend. Premise 5 confirms that if (not required implies not attending), then all attend, and premise 4 states that if (not required implies not attending), then all are required. Thus, all attend.\nSupporting Premises: [3, 4, 5, 6]\nFinal Answer: No"
+  },
+  {
+    "i": 81,
+    "id": 81,
+    "gold": "Unknown",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Is the statement true?\nStatement: It is not true that: if a student is enrolled in the subject, then attending the lab is a requirement.",
+    "text_preview": "Is the statement true?\nStatement: It is not true that: if a student is enrolled in the subject, then attending the lab is a requirement.\nReasoning:\nThe statement is false because the premises imply that being enrolled in the subject implies attending the lab, which contradicts the statement.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No"
+  },
+  {
+    "i": 89,
+    "id": 89,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "quantifier_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the above premises, is the statement true?\nStatement: All students have understanding.",
+    "text_preview": "Based on the above premises, is the statement true?\nStatement: All students have understanding.\nReasoning:\nPremise 10 states that all students have understanding, so the statement is true.\nSupporting Premises: [10]\nFinal Answer: Yes"
+  },
+  {
+    "i": 91,
+    "id": 91,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "quantifier_overclaim",
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the above premises, is the statement true?\nStatement: All students have qualifications.",
+    "text_preview": "Based on the above premises, is the statement true?\nStatement: All students have qualifications.\nReasoning:\nFrom premise 11, we know that all students have qualifications. Therefore, the statement is true.\nSupporting Premises: [11]\nFinal Answer: Yes"
+  },
+  {
+    "i": 93,
+    "id": 93,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions.",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: If a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions.\nReasoning:\nFrom premise 2, if a student is attending tutorials, then they are understanding the material. From premise 3, there exists at least one student who is asking questions. Therefore, if a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions (from premises 2 and 3), making the statement true.\nSupporting Premises: [3, 4]\nFinal Answer: No"
+  },
+  {
+    "i": 99,
+    "id": 99,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim",
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student does not participate in extracurricular activities, they cannot develop leadership skills.",
+    "text_preview": "Based on the above premises, is the statement true?\nStatement: If a student does not participate in extracurricular activities, they cannot develop leadership skills.\nReasoning:\nThe statement is true because premise 4 states that if a student does not participate in extracurricular activities, they do not develop leadership skills.\nSupporting Premises: [4]\nFinal Answer: Yes"
+  },
+  {
+    "i": 105,
+    "id": 105,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Do well-structured curricula improve learning outcomes?",
+    "text_preview": "Do well-structured curricula improve learning outcomes?\nReasoning:\nPremise 5 states that if a curriculum is well-structured, then it leads to better learning outcomes. Therefore, well-structured curricula improve learning outcomes.\nSupporting Premises: [5]\nFinal Answer: Yes"
+  },
+  {
+    "i": 109,
+    "id": 109,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "quantifier_overclaim",
+      "implication_or_chain_overclaim",
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the above premises, is the statement true?\nStatement: Exists(x, ParticipatesInStudyGroup(x))",
+    "text_preview": "Based on the above premises, is the statement true?\nStatement: Exists(x, ParticipatesInStudyGroup(x))\nReasoning:\nFrom premise 3, we know that not every student participates in a study group, which implies that there exists at least one student who participates in a study group. Therefore, the statement is true.\nSupporting Premises: [3]\nFinal Answer: Yes"
+  },
+  {
+    "i": 113,
+    "id": 113,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim",
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Did Mia rely on her own performance to pass?",
+    "text_preview": "Did Mia rely on her own performance to pass?\nReasoning:\nPremise 6 states Mia did the exam well, and premise 7 says she passed. From premise 3, passing requires doing well on the exam and not helping others. Since she passed, she must have done well and not helped others, relying on her own performance.\nSupporting Premises: [3, 5, 6]\nFinal Answer: Yes"
+  },
+  {
+    "i": 119,
+    "id": 119,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: ForAll(x, (¬EngagesInLearningProcess(x) → ¬SucceedsInAssessments(x)))",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: ForAll(x, (¬EngagesInLearningProcess(x) → ¬SucceedsInAssessments(x)))\nReasoning:\nThe statement that if a student does not engage in the learning process, they will not succeed in assessments is true because all students understand the core concepts (premise 1), and if they don't engage, they fail to apply concepts (premise 6), leading to failure in assessments (premise 7).\nSupporting Premises: [3, 7]\nFinal Answer: No"
+  },
+  {
+    "i": 121,
+    "id": 121,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: A student who uses security measures will protect user data on their website.",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: A student who uses security measures will protect user data on their website.\nReasoning:\nThe statement is true because security measures like HTTPS, input validation, and preventing XSS attacks are essential for protecting user data on the website, as stated in premise 14.\nSupporting Premises: [14]\nFinal Answer: Yes"
+  },
+  {
+    "i": 125,
+    "id": 125,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "quantifier_overclaim",
+      "implication_or_chain_overclaim"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "If there exists at least one object x that has property R, does it follow that every object has property P?",
+    "text_preview": "If there exists at least one object x that has property R, does it follow that every object has property P?\nReasoning:\nPremise 12 states that every object x has property R, and premise 11 states that if there exists at least one object x with property R, then every object x has property P. Since premise 12 confirms that every object x has property R, it follows that every object x has property P, making the statement true.\nSupporting Premises: [4, 11]\nFinal Answer: Yes"
+  },
+  {
+    "i": 127,
+    "id": 127,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Do all students qualify for the Quantum Physics competition?",
+    "text_preview": "Do all students qualify for the Quantum Physics competition?\nReasoning:\nAll students are enrolled in Research Methods (premise 2), and being enrolled implies qualifying for the competition (premise 4), so all students qualify.\nSupporting Premises: [2, 4]\nFinal Answer: No"
+  },
+  {
+    "i": 132,
+    "id": 132,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Do all students receive a passing grade?",
+    "text_preview": "Do all students receive a passing grade?\nReasoning:\nPremise 5 states all students have completed the assessment process, and premise 4 states that if a student has participated in the assessment process, they will have successfully completed the assignment. Premise 3 states that if a student completes the assignment, they will receive a passing grade. Therefore, all students receive a passing grade.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No"
+  },
+  {
+    "i": 135,
+    "id": 135,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim",
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: If students receive low grades, they will seek additional support.",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: If students receive low grades, they will seek additional support.\nReasoning:\nFrom premise 1, if students receive low grades, they may seek additional support. From premise 2, if students reflect on low grades, they will take proactive steps. From premise 3, taking proactive steps leads to increased study hours and focus. From premise 4, not taking proactive steps leads to no increased study hours or focus. The statement that receiving low grades leads to seeking additional support is supported by premise 1, which states that low grades may indicate insufficient effort, decreasing motivation, frustration, and anxiety, or seeking additional support. Thus, the statement is true.\nSupporting Premises: [3]\nFinal Answer: Yes"
+  },
+  {
+    "i": 137,
+    "id": 137,
+    "gold": "No",
+    "pred": "Yes",
+    "families": [
+      "implication_or_chain_overclaim",
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "Yes": 1
+    },
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student did not sign the academic integrity agreement, then they did not receive course recognition.",
+    "text_preview": "Based on the above premises, is the following statement true?\nStatement: If a student did not sign the academic integrity agreement, then they did not receive course recognition.\nReasoning:\nThe statement is true because it is explicitly stated as a premise (premise 9).\nSupporting Premises: [3]\nFinal Answer: Yes"
+  },
+  {
+    "i": 141,
+    "id": 141,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Do all students in the AI program build trustworthy systems, according to the premises?",
+    "text_preview": "Do all students in the AI program build trustworthy systems, according to the premises?\nReasoning:\nPremise 2 states all students study AI ethics, and premise 1 says studying AI ethics implies understanding responsible AI. Premise 3 states understanding responsible AI implies building trustworthy systems. Thus, all students in the AI program build trustworthy systems, requiring premises 2, 3, and 4.\nSupporting Premises: [3, 4]\nFinal Answer: No"
+  },
+  {
+    "i": 143,
+    "id": 143,
+    "gold": "No",
+    "pred": "Unknown",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "If all students must meet the eligibility requirements to enroll in the advanced courses, does it follow that if a student has failed to meet the standards for a course, they are not allowed to participate in the final project preparation?",
+    "text_preview": "If all students must meet the eligibility requirements to enroll in the advanced courses, does it follow that if a student has failed to meet the standards for a course, they are not allowed to participate in the final project preparation?\nReasoning:\nPremise 4 states that all students must meet the eligibility requirements to enroll in the advanced courses, and premise 9 states that if a student has failed to meet the standards for a course, they are not allowed to participate in the final project preparation. Since all students must meet eligibility requirements, and failing to meet standards implies not being allowed to participate in the final project preparation, it follows that failing to meet standards implies not being allowed to participate in the final project preparation.\nSupporting Premises: [4, 9]\nFinal Answer: No"
+  },
+  {
+    "i": 144,
+    "id": 144,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Do all students participate in research?",
+    "text_preview": "Do all students participate in research?\nReasoning:\nPremise 1 states all students belong to the university, and premise 5 says belonging implies taking the thesis course. Premise 7 confirms all students take the thesis course. Premise 2 says not participating in research implies not belonging to the university, but premise 1 states all students belong, so all must participate in research. Thus, all students participate in research.\nSupporting Premises: [3, 5, 7]\nFinal Answer: No"
+  },
+  {
+    "i": 146,
+    "id": 146,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Do all students complete the capstone project?",
+    "text_preview": "Do all students complete the capstone project?\nReasoning:\nPremise 2 states all students have problem-solving ability, and premise 7 says if a student has problem-solving ability, they have teamwork skills. Premise 1 states that if a student completes the capstone project, they gain teamwork skills. Since all students have problem-solving ability, they all have teamwork skills (from premise 7), and completing the capstone project leads to teamwork skills (premise 1). Therefore, all students complete the capstone project.\nSupporting Premises: [3, 6, 7]\nFinal Answer: No"
+  },
+  {
+    "i": 150,
+    "id": 150,
+    "gold": "Yes",
+    "pred": "No",
+    "families": [
+      "negation_present"
+    ],
+    "candidate_answer_counts": {
+      "No": 1
+    },
+    "question": "Do all students complete the training session?",
+    "text_preview": "Do all students complete the training session?\nReasoning:\nPremise 3 states that if a student has not submitted a research proposal, then they are not eligible to conduct research. Premise 2 states that if a student has completed the training session, then they have submitted a research proposal. Premise 1 states that all students are eligible to conduct research. If all students are eligible to conduct research, then all students must have submitted a research proposal (from premise 3). If all students have submitted a research proposal, then all students must have completed the training session (from premise 2). Therefore, all students complete the training session.\nSupporting Premises: [3, 4, 5]\nFinal Answer: No"
+  }
+]
