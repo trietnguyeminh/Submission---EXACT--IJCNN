@@ -1,0 +1,5950 @@
+{
+ "version": "v35_symbolic_fulltest_fixed",
+ "input_paths": {
+  "v2": "/kaggle/input/datasets/yixuanisthebest/v2333333/full_model_eval_v2_flatten_preds.json",
+  "v3_2": "/kaggle/input/datasets/yixuanisthebest/v2333333/full_model_eval_v3_2_preds.json"
+ },
+ "baseline_v32": {
+  "n": 600,
+  "correct": 491,
+  "acc": 0.8183333333333334,
+  "macro7": 0.791292894414504,
+  "mc_macro": 0.7757320717847034,
+  "ynu_macro": 0.8120406579209051,
+  "per_label": {
+   "A": {
+    "precision": 0.8275862068965517,
+    "recall": 0.96,
+    "f1": 0.888888888888889,
+    "support": 50,
+    "pred_count": 58
+   },
+   "B": {
+    "precision": 1.0,
+    "recall": 0.76,
+    "f1": 0.8636363636363636,
+    "support": 50,
+    "pred_count": 38
+   },
+   "C": {
+    "precision": 0.625,
+    "recall": 0.8,
+    "f1": 0.7017543859649122,
+    "support": 25,
+    "pred_count": 32
+   },
+   "D": {
+    "precision": 1.0,
+    "recall": 0.48,
+    "f1": 0.6486486486486487,
+    "support": 25,
+    "pred_count": 12
+   },
+   "Yes": {
+    "precision": 0.9012345679012346,
+    "recall": 0.8588235294117647,
+    "f1": 0.8795180722891566,
+    "support": 170,
+    "pred_count": 162
+   },
+   "No": {
+    "precision": 0.7395833333333334,
+    "recall": 0.6761904761904762,
+    "f1": 0.7064676616915423,
+    "support": 105,
+    "pred_count": 96
+   },
+   "Unknown": {
+    "precision": 0.8125,
+    "recall": 0.8914285714285715,
+    "f1": 0.8501362397820164,
+    "support": 175,
+    "pred_count": 192
+   }
+  },
+  "pred_distribution": {
+   "Unknown": 192,
+   "Yes": 162,
+   "B": 38,
+   "No": 96,
+   "A": 58,
+   "C": 32,
+   "D": 12,
+   "UNPARSEABLE": 10
+  },
+  "gold_distribution": {
+   "Unknown": 175,
+   "Yes": 170,
+   "No": 105,
+   "B": 50,
+   "A": 50,
+   "C": 25,
+   "D": 25
+  }
+ },
+ "final_v35": {
+  "n": 600,
+  "correct": 512,
+  "acc": 0.8533333333333334,
+  "macro7": 0.81637930331516,
+  "mc_macro": 0.7757320717847034,
+  "ynu_macro": 0.8705756120224354,
+  "per_label": {
+   "A": {
+    "precision": 0.8275862068965517,
+    "recall": 0.96,
+    "f1": 0.888888888888889,
+    "support": 50,
+    "pred_count": 58
+   },
+   "B": {
+    "precision": 1.0,
+    "recall": 0.76,
+    "f1": 0.8636363636363636,
+    "support": 50,
+    "pred_count": 38
+   },
+   "C": {
+    "precision": 0.625,
+    "recall": 0.8,
+    "f1": 0.7017543859649122,
+    "support": 25,
+    "pred_count": 32
+   },
+   "D": {
+    "precision": 1.0,
+    "recall": 0.48,
+    "f1": 0.6486486486486487,
+    "support": 25,
+    "pred_count": 12
+   },
+   "Yes": {
+    "precision": 0.954248366013072,
+    "recall": 0.8588235294117647,
+    "f1": 0.9040247678018575,
+    "support": 170,
+    "pred_count": 153
+   },
+   "No": {
+    "precision": 0.7863247863247863,
+    "recall": 0.8761904761904762,
+    "f1": 0.8288288288288289,
+    "support": 105,
+    "pred_count": 117
+   },
+   "Unknown": {
+    "precision": 0.8666666666666667,
+    "recall": 0.8914285714285715,
+    "f1": 0.8788732394366197,
+    "support": 175,
+    "pred_count": 180
+   }
+  },
+  "pred_distribution": {
+   "Unknown": 180,
+   "Yes": 153,
+   "No": 117,
+   "B": 38,
+   "A": 58,
+   "C": 32,
+   "D": 12,
+   "UNPARSEABLE": 10
+  },
+  "gold_distribution": {
+   "Unknown": 175,
+   "Yes": 170,
+   "No": 105,
+   "B": 50,
+   "A": 50,
+   "C": 25,
+   "D": 25
+  }
+ },
+ "no_recall_counts": {
+  "before": 71,
+  "after": 92,
+  "support": 105
+ },
+ "flips": [
+  {
+   "flat_id": "test_1_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "pos_proof_path": "∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_14_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EarnsCertificate",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsCertificate(x) → JoinsProfessionalBody(x))",
+    "pos_proof_path": "∀x (SubmitsPortfolio(x) → EarnsCertificate(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_16_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "UpdatesDatabase",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": false,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (UpdatesDatabase(x) → NotifiesPatrons(x))",
+    "pos_proof_path": null,
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_32_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EarnsCertificate",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsCertificate(x) → JoinsProfessionalBody(x))",
+    "pos_proof_path": "∀x (SubmitsPortfolio(x) → EarnsCertificate(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_71_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CollectsData",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CollectsData(x) → PublishesPaper(x))",
+    "pos_proof_path": "∀x (DesignsStudy(x) → CollectsData(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_77_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "AchievesHighGPA",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AchievesHighGPA(x) → ReceivesScholarship(x))",
+    "pos_proof_path": "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_99_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "PassesCertificationExam",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesCertificationExam(x) → ObtainsProfessionalLicense(x))",
+    "pos_proof_path": "∀x (FinishesAllModules(x) → PassesCertificationExam(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_103_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "pos_proof_path": "∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_117_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "pos_proof_path": "∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_127_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EligibleForPromotion",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EligibleForPromotion(x) → LeadsProject(x))",
+    "pos_proof_path": "∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_136_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "pos_proof_path": "∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_159_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "PassesCertificationExam",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesCertificationExam(x) → ObtainsProfessionalLicense(x))",
+    "pos_proof_path": "∀x (FinishesAllModules(x) → PassesCertificationExam(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_168_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "pos_proof_path": "∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_211_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "AchievesHighGPA",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AchievesHighGPA(x) → ReceivesScholarship(x))",
+    "pos_proof_path": "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_224_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ReceivesGroupGrade",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+    "pos_proof_path": "∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_240_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CompletesAssignedTask",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": false,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CompletesAssignedTask(x) → ReceivesMentorFeedback(x))",
+    "pos_proof_path": null,
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_242_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ReceivesGroupGrade",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+    "pos_proof_path": "∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_250_1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "WritesInternshipReport",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (WritesInternshipReport(x) → GetsReturnOffer(x))",
+    "pos_proof_path": "∀x (ReceivesMentorFeedback(x) → WritesInternshipReport(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_263_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "pos_proof_path": "∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_276_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EligibleForPromotion",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EligibleForPromotion(x) → LeadsProject(x))",
+    "pos_proof_path": "∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_289_1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CompletesWorkshop",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": false,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CompletesWorkshop(x) → SubmitsPortfolio(x))",
+    "pos_proof_path": null,
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  }
+ ],
+ "n_flips": 21,
+ "n_good": 21,
+ "n_bad": 0,
+ "sanity_warnings": [],
+ "all_y_verdicts": [
+  {
+   "flat_id": "test_0_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.00)"
+   }
+  },
+  {
+   "flat_id": "test_0_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_1_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "pos_proof_path": "∀x (TakesPracticeTest(x) → ReviewsMistakes(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_1_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "pos_proof_path": "∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_2_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (IdentifiesGap(x) → DesignsStudy(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_2_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PublishesPaper",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_3_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesGroupGrade",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_4_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DeploysToProduction",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (MergesBranch(x) → DeploysToProduction(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_5_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesClearance",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesComplianceQuiz(x) → ReceivesClearance(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_7_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PublishesPaper",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CollectsData(x) → PublishesPaper(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_8_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (IdentifiesGap(x) → DesignsStudy(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_9_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "GraduatesUniversity",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (QualifiesForDegree(x) → GraduatesUniversity(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_10_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "JoinsStudyGroup",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_10_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesGroupProject",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_11_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "TracksProgress",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (SetsDevelopmentGoals(x) → TracksProgress(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_13_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_14_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SubmitsPortfolio(x) → EarnsCertificate(x))",
+    "pos_proof_path": "∀x (CompletesWorkshop(x) → SubmitsPortfolio(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_14_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EarnsCertificate",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsCertificate(x) → JoinsProfessionalBody(x))",
+    "pos_proof_path": "∀x (SubmitsPortfolio(x) → EarnsCertificate(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_15_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCodeReview",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (RunsUnitTests(x) → PassesCodeReview(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_15_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DeploysToProduction",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_16_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "UpdatesDatabase",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": false,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (UpdatesDatabase(x) → NotifiesPatrons(x))",
+    "pos_proof_path": null,
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_17_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_17_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_18_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_18_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_19_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "HandlesClientAccounts",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AccessesSensitiveData(x) → HandlesClientAccounts(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_20_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SolvesProblems",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (UnderstandsConcepts(x) → SolvesProblems(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_21_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "FACT",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_22_1",
+   "gold": "Unknown",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_23_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesLabWork",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_23_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_24_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_26_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesWorkshop(x) → SubmitsPortfolio(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_26_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "JoinsProfessionalBody",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_27_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "HandlesClientAccounts",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AccessesSensitiveData(x) → HandlesClientAccounts(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_28_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "StudiesRegularly",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_28_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_29_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesScholarship",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AchievesHighGPA(x) → ReceivesScholarship(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_30_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_31_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "JoinsProfessionalBody",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (EarnsCertificate(x) → JoinsProfessionalBody(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_32_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SubmitsPortfolio(x) → EarnsCertificate(x))",
+    "pos_proof_path": "∀x (CompletesWorkshop(x) → SubmitsPortfolio(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_32_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EarnsCertificate",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsCertificate(x) → JoinsProfessionalBody(x))",
+    "pos_proof_path": "∀x (SubmitsPortfolio(x) → EarnsCertificate(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_33_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesScholarship",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AchievesHighGPA(x) → ReceivesScholarship(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_34_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_35_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesFinalExam(x) → EarnsCredit(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_36_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ConductsExperiment(x) → AnalyzesData(x))",
+    "pos_proof_path": "∀x (ReceivesGrant(x) → ConductsExperiment(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_36_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_37_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PresentsAtConference",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AnalyzesData(x) → PresentsAtConference(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_38_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_39_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCertificationExam",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_40_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCodeReview",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesCodeReview(x) → MergesBranch(x))",
+    "pos_proof_path": "∀x (RunsUnitTests(x) → PassesCodeReview(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_40_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_41_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesClearance",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesComplianceQuiz(x) → ReceivesClearance(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_41_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "HandlesClientAccounts",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_42_1",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_43_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ScoresAboveThreshold",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_44_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_45_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesLabComponent(x) → MeetsGraduationRequirement(x))",
+    "pos_proof_path": "∀x (SubmitsLabReport(x) → PassesLabComponent(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_46_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "StudiesRegularly",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_46_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_47_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_48_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ClearsInterview",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesWrittenTest(x) → ClearsInterview(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_49_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_50_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_51_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_51_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_52_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (SubmitsLabReport(x) → PassesLabComponent(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_54_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "StartsPosition",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReceivesOffer(x) → StartsPosition(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_55_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_56_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ProvidesFeedback(x) → SetsDevelopmentGoals(x))",
+    "pos_proof_path": "∀x (ReviewsMenteeWork(x) → ProvidesFeedback(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_57_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_58_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_59_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AttendsAllLectures",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_60_1",
+   "gold": "Unknown",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_61_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesFinalExam(x) → EarnsCredit(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_61_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_62_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_64_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsCredit(x) → QualifiesForDegree(x))",
+    "pos_proof_path": "∀x (PassesFinalExam(x) → EarnsCredit(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_64_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_65_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCodeReview",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesCodeReview(x) → MergesBranch(x))",
+    "pos_proof_path": "∀x (RunsUnitTests(x) → PassesCodeReview(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_66_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CatalogsNewBooks",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_66_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "NotifiesPatrons",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_68_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ObtainsDiploma",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (MeetsGraduationRequirement(x) → ObtainsDiploma(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_69_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_70_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_70_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesAcademicTerm",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_71_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (DesignsStudy(x) → CollectsData(x))",
+    "pos_proof_path": "∀x (IdentifiesGap(x) → DesignsStudy(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_71_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CollectsData",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CollectsData(x) → PublishesPaper(x))",
+    "pos_proof_path": "∀x (DesignsStudy(x) → CollectsData(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_72_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_73_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "BuildsModel",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (DocumentsFindings(x) → BuildsModel(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_73_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_74_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_75_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsGradeReport",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_76_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FulfilsTeamworkRequirement",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_77_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))",
+    "pos_proof_path": "∀x (AttendsAllLectures(x) → SubmitsAllAssignments(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_77_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "AchievesHighGPA",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AchievesHighGPA(x) → ReceivesScholarship(x))",
+    "pos_proof_path": "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_78_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (SubmitsLabReport(x) → PassesLabComponent(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_78_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_79_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (DesignsStudy(x) → CollectsData(x))",
+    "pos_proof_path": "∀x (IdentifiesGap(x) → DesignsStudy(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_80_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AttendsTrainingSession(x) → AssistsWithActivities(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_80_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesCommunityAward",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_82_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_84_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesAssignedTask(x) → ReceivesMentorFeedback(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_84_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "GetsReturnOffer",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_85_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_86_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesFinalExam(x) → EarnsCredit(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_87_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "WritesInternshipReport",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_88_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DeploysToProduction",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (MergesBranch(x) → DeploysToProduction(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_89_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.00)"
+   }
+  },
+  {
+   "flat_id": "test_89_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_90_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_90_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesHonors",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_91_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_91_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_92_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCodeReview",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (RunsUnitTests(x) → PassesCodeReview(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_94_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesWorkshop(x) → SubmitsPortfolio(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_94_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "JoinsProfessionalBody",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_95_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EligibleForPromotion",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_96_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_96_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesAcademicTerm",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_98_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesGroupProject",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ParticipatesInDiscussion(x) → CompletesGroupProject(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_98_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FulfilsTeamworkRequirement",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_99_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (FinishesAllModules(x) → PassesCertificationExam(x))",
+    "pos_proof_path": "∀x (CompletesOrientation(x) → FinishesAllModules(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_99_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "PassesCertificationExam",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesCertificationExam(x) → ObtainsProfessionalLicense(x))",
+    "pos_proof_path": "∀x (FinishesAllModules(x) → PassesCertificationExam(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_100_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "BuildsModel",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (BuildsModel(x) → ValidatesResults(x))",
+    "pos_proof_path": "∀x (DocumentsFindings(x) → BuildsModel(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_101_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_101_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_102_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "WritesProposal",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_102_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_103_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "pos_proof_path": "∀x (AttendsTrainingSession(x) → AssistsWithActivities(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_103_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "pos_proof_path": "∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_105_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AccessesSensitiveData",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_106_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FulfilsTeamworkRequirement",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_107_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_108_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ProvidesFeedback(x) → SetsDevelopmentGoals(x))",
+    "pos_proof_path": "∀x (ReviewsMenteeWork(x) → ProvidesFeedback(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_109_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesWorkshop(x) → SubmitsPortfolio(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_110_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesProbation(x) → ReceivesFullBenefits(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_111_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "BuildsModel",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (DocumentsFindings(x) → BuildsModel(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_112_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_114_0",
+   "gold": "Unknown",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_114_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_115_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (IdentifiesGap(x) → DesignsStudy(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_115_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PublishesPaper",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_116_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesProbation(x) → ReceivesFullBenefits(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_116_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "LeadsProject",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_117_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "pos_proof_path": "∀x (AttendsTrainingSession(x) → AssistsWithActivities(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_117_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "pos_proof_path": "∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_118_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReviewsMenteeWork(x) → ProvidesFeedback(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_119_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_120_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_121_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "NotifiesPatrons",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (UpdatesDatabase(x) → NotifiesPatrons(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_122_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_123_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_123_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_124_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCodeReview",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (RunsUnitTests(x) → PassesCodeReview(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_124_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DeploysToProduction",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_125_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesOrientation(x) → FinishesAllModules(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_125_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ObtainsProfessionalLicense",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_126_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AttendsComplianceTraining",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_126_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesClearance",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_127_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+    "pos_proof_path": "∀x (PassesProbation(x) → ReceivesFullBenefits(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_127_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EligibleForPromotion",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EligibleForPromotion(x) → LeadsProject(x))",
+    "pos_proof_path": "∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_128_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_129_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesOrientation(x) → FinishesAllModules(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_129_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ObtainsProfessionalLicense",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_130_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "MeetsGraduationRequirement",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_132_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "LeadsProject",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (EligibleForPromotion(x) → LeadsProject(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_133_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AttendsAllLectures(x) → SubmitsAllAssignments(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_134_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_134_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_136_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "pos_proof_path": "∀x (AttendsTrainingSession(x) → AssistsWithActivities(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_136_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "pos_proof_path": "∀x (AssistsWithActivities(x) → LogsServiceHours(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_139_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_139_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesHonors",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_140_1",
+   "gold": "Unknown",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_141_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProcessesReservations",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_143_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_144_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesProbation(x) → ReceivesFullBenefits(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_144_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "LeadsProject",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_145_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AttendsAllLectures",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_146_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCertificate",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_147_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "GradesAssignments",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (DeliversLectures(x) → GradesAssignments(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_150_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AnalyzesData",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_151_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReviewsMenteeWork(x) → ProvidesFeedback(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_151_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "TracksProgress",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_152_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SolvesProblems",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (UnderstandsConcepts(x) → SolvesProblems(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_154_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_155_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_155_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_156_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_157_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_159_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (FinishesAllModules(x) → PassesCertificationExam(x))",
+    "pos_proof_path": "∀x (CompletesOrientation(x) → FinishesAllModules(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_159_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "PassesCertificationExam",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesCertificationExam(x) → ObtainsProfessionalLicense(x))",
+    "pos_proof_path": "∀x (FinishesAllModules(x) → PassesCertificationExam(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_162_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "GetsReturnOffer",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (WritesInternshipReport(x) → GetsReturnOffer(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_163_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AttendsTrainingSession(x) → AssistsWithActivities(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_163_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesCommunityAward",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_164_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_165_0",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_165_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesCommunityAward",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_166_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ConductsExperiment(x) → AnalyzesData(x))",
+    "pos_proof_path": "∀x (ReceivesGrant(x) → ConductsExperiment(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_166_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_167_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_168_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "pos_proof_path": "∀x (TakesPracticeTest(x) → ReviewsMistakes(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_168_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "pos_proof_path": "∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_169_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ClearsInterview",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesWrittenTest(x) → ClearsInterview(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_170_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesWorkshop(x) → SubmitsPortfolio(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_172_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesProbation(x) → ReceivesFullBenefits(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_174_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_175_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReceivesGrant(x) → ConductsExperiment(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_175_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PresentsAtConference",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_176_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "LogsServiceHours",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_177_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesOrientation(x) → FinishesAllModules(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_178_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "NotifiesPatrons",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (NotifiesPatrons(x) → ProcessesReservations(x))",
+    "pos_proof_path": "∀x (UpdatesDatabase(x) → NotifiesPatrons(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_180_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_180_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_181_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_182_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_182_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_183_0",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_183_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ObtainsProfessionalLicense",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesCertificationExam(x) → ObtainsProfessionalLicense(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_184_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ConductsExperiment(x) → AnalyzesData(x))",
+    "pos_proof_path": "∀x (ReceivesGrant(x) → ConductsExperiment(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_184_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_185_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_185_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_186_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_187_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsCredit(x) → QualifiesForDegree(x))",
+    "pos_proof_path": "∀x (PassesFinalExam(x) → EarnsCredit(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_187_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_188_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesHonors",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PerformsWellOnExam(x) → ReceivesHonors(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_189_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_190_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesCommunityAward",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_191_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AttendsTrainingSession(x) → AssistsWithActivities(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_192_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_193_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesClearance",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesComplianceQuiz(x) → ReceivesClearance(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_193_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "HandlesClientAccounts",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_195_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "GetsReturnOffer",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (WritesInternshipReport(x) → GetsReturnOffer(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_196_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SchedulesSession",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_196_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_198_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_199_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_199_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_200_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesLabComponent(x) → MeetsGraduationRequirement(x))",
+    "pos_proof_path": "∀x (SubmitsLabReport(x) → PassesLabComponent(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_201_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_202_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_203_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_203_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_204_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "LeadsProject",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (EligibleForPromotion(x) → LeadsProject(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_206_0",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_206_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesCommunityAward",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (LogsServiceHours(x) → ReceivesCommunityAward(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_207_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_208_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FulfilsTeamworkRequirement",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_209_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "MergesBranch",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_210_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReceivesGrant(x) → ConductsExperiment(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_210_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PresentsAtConference",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_211_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))",
+    "pos_proof_path": "∀x (AttendsAllLectures(x) → SubmitsAllAssignments(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_211_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "AchievesHighGPA",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AchievesHighGPA(x) → ReceivesScholarship(x))",
+    "pos_proof_path": "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_213_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_213_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "BuildsModel",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_215_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "HandlesClientAccounts",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AccessesSensitiveData(x) → HandlesClientAccounts(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_216_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesInventory",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ProcessesReservations(x) → CompletesInventory(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_217_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "NotifiesPatrons",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (UpdatesDatabase(x) → NotifiesPatrons(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_217_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_219_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_221_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesFinalExam(x) → EarnsCredit(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_222_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_222_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_223_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "JoinsProfessionalBody",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (EarnsCertificate(x) → JoinsProfessionalBody(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_224_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesGroupProject",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))",
+    "pos_proof_path": "∀x (ParticipatesInDiscussion(x) → CompletesGroupProject(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_224_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ReceivesGroupGrade",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+    "pos_proof_path": "∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_225_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesClearance",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesClearance(x) → AccessesSensitiveData(x))",
+    "pos_proof_path": "∀x (PassesComplianceQuiz(x) → ReceivesClearance(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_226_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (PassesLabComponent(x) → MeetsGraduationRequirement(x))",
+    "pos_proof_path": "∀x (SubmitsLabReport(x) → PassesLabComponent(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_227_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PresentsAtConference",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AnalyzesData(x) → PresentsAtConference(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_229_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_230_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_230_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_231_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesGroupProject",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ParticipatesInDiscussion(x) → CompletesGroupProject(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_232_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AttendsAllLectures(x) → SubmitsAllAssignments(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_233_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesHonors",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PerformsWellOnExam(x) → ReceivesHonors(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_234_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (TakesPracticeTest(x) → ReviewsMistakes(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_235_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "TracksProgress",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (SetsDevelopmentGoals(x) → TracksProgress(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_237_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_238_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_239_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesAssignedTask(x) → ReceivesMentorFeedback(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_239_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "GetsReturnOffer",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_240_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CompletesAssignedTask",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": false,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CompletesAssignedTask(x) → ReceivesMentorFeedback(x))",
+    "pos_proof_path": null,
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_242_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesGroupProject",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))",
+    "pos_proof_path": "∀x (ParticipatesInDiscussion(x) → CompletesGroupProject(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_242_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ReceivesGroupGrade",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+    "pos_proof_path": "∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_243_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "GradesAssignments",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (DeliversLectures(x) → GradesAssignments(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_244_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "TracksProgress",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (SetsDevelopmentGoals(x) → TracksProgress(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_245_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesGroupProject",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ParticipatesInDiscussion(x) → CompletesGroupProject(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_245_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FulfilsTeamworkRequirement",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_247_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PerformsWellOnExam",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_248_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_249_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReviewsMenteeWork(x) → ProvidesFeedback(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_249_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "TracksProgress",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_250_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesMentorFeedback(x) → WritesInternshipReport(x))",
+    "pos_proof_path": "∀x (CompletesAssignedTask(x) → ReceivesMentorFeedback(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_250_1",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "WritesInternshipReport",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (WritesInternshipReport(x) → GetsReturnOffer(x))",
+    "pos_proof_path": "∀x (ReceivesMentorFeedback(x) → WritesInternshipReport(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_252_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesOffer",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_253_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ProvidesFeedback(x) → SetsDevelopmentGoals(x))",
+    "pos_proof_path": "∀x (ReviewsMenteeWork(x) → ProvidesFeedback(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_255_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_255_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCodeReview",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_257_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AttendsAllLectures(x) → SubmitsAllAssignments(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_258_1",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesAcademicTerm",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (SubmitsGradeReport(x) → CompletesAcademicTerm(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_259_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "NotifiesPatrons",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (UpdatesDatabase(x) → NotifiesPatrons(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_259_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_260_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_261_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DeliversReport",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ValidatesResults(x) → DeliversReport(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_262_0",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_262_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DeploysToProduction",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (MergesBranch(x) → DeploysToProduction(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_263_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "pos_proof_path": "∀x (TakesPracticeTest(x) → ReviewsMistakes(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_263_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "pos_proof_path": "∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_264_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesMentorFeedback(x) → WritesInternshipReport(x))",
+    "pos_proof_path": "∀x (CompletesAssignedTask(x) → ReceivesMentorFeedback(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_265_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AttendsAllLectures(x) → SubmitsAllAssignments(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_267_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_268_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (SubmitsLabReport(x) → PassesLabComponent(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_268_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_269_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ObtainsProfessionalLicense",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (PassesCertificationExam(x) → ObtainsProfessionalLicense(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_270_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_271_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (TakesPracticeTest(x) → ReviewsMistakes(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_271_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_272_1",
+   "gold": "Unknown",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_273_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "BuildsModel",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (DocumentsFindings(x) → BuildsModel(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_273_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_274_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SetsDevelopmentGoals",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_275_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesOrientation(x) → FinishesAllModules(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_276_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+    "pos_proof_path": "∀x (PassesProbation(x) → ReceivesFullBenefits(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_276_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EligibleForPromotion",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EligibleForPromotion(x) → LeadsProject(x))",
+    "pos_proof_path": "∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_277_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesAssignedTask(x) → ReceivesMentorFeedback(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_278_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_279_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "BuildsModel",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (BuildsModel(x) → ValidatesResults(x))",
+    "pos_proof_path": "∀x (DocumentsFindings(x) → BuildsModel(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_280_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (TakesPracticeTest(x) → ReviewsMistakes(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_280_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_281_0",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_281_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_282_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_282_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_283_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_284_0",
+   "gold": "Yes",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesClearance",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesClearance(x) → AccessesSensitiveData(x))",
+    "pos_proof_path": "∀x (PassesComplianceQuiz(x) → ReceivesClearance(x))",
+    "reason": "POSITIVE-PROOF CONFLICT (universal/atomic)"
+   }
+  },
+  {
+   "flat_id": "test_286_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PublishesPaper",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CollectsData(x) → PublishesPaper(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_287_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_288_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_288_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_289_1",
+   "gold": "No",
+   "old": "Yes",
+   "verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CompletesWorkshop",
+    "target_score": 1.0,
+    "neg_proof_universal": true,
+    "pos_proof_universal": false,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CompletesWorkshop(x) → SubmitsPortfolio(x))",
+    "pos_proof_path": null,
+    "rule": "E1 forall-neg entails not-exists"
+   }
+  },
+  {
+   "flat_id": "test_290_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (ReceivesGrant(x) → ConductsExperiment(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_291_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (CompletesAssignedTask(x) → ReceivesMentorFeedback(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_292_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.33)"
+   }
+  },
+  {
+   "flat_id": "test_292_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": false,
+    "neg_proof_path": null,
+    "pos_proof_path": null,
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_293_0",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_293_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_295_0",
+   "gold": "No",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "reason": "no predicate match (0.50)"
+   }
+  },
+  {
+   "flat_id": "test_295_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesAcademicTerm",
+    "target_score": 0.6666666666666666,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (SubmitsGradeReport(x) → CompletesAcademicTerm(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_296_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  },
+  {
+   "flat_id": "test_297_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PresentsAtConference",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (AnalyzesData(x) → PresentsAtConference(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_298_1",
+   "gold": "Yes",
+   "old": "Yes",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "target_score": 1.0,
+    "neg_proof_universal": false,
+    "pos_proof_universal": true,
+    "neg_proof_path": null,
+    "pos_proof_path": "∀x (IdentifiesGap(x) → DesignsStudy(x))",
+    "reason": "no universal negative proof"
+   }
+  },
+  {
+   "flat_id": "test_299_1",
+   "gold": "Unknown",
+   "old": "Unknown",
+   "verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "statement",
+    "reason": "statement/conditional form out of scope"
+   }
+  }
+ ],
+ "mc_option_proof_analysis_only": {
+  "stats": {
+   "n_proven=1": 71,
+   "unique_correct": 43,
+   "n_proven=2": 30,
+   "unique_wrong": 28,
+   "n_proven=0": 49
+  },
+  "unique_audit": [
+   {
+    "flat_id": "test_3_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_6_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_12_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_16_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_21_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_24_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_25_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_39_0",
+    "proven": "B",
+    "model": "C",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_44_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_47_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_49_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_53_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_63_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_67_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_69_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_72_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_74_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_75_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_81_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_83_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_85_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_87_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_93_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_95_0",
+    "proven": "B",
+    "model": "C",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_97_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_104_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_105_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_107_0",
+    "proven": "D",
+    "model": "UNPARSEABLE",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_119_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_128_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_130_0",
+    "proven": "B",
+    "model": "C",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_131_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_135_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_137_0",
+    "proven": "C",
+    "model": "UNPARSEABLE",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_141_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_146_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_148_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_150_0",
+    "proven": "B",
+    "model": "C",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_157_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_158_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_160_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_164_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_176_0",
+    "proven": "B",
+    "model": "C",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_179_0",
+    "proven": "C",
+    "model": "UNPARSEABLE",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_189_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_194_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_201_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_202_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_205_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_207_0",
+    "proven": "B",
+    "model": "UNPARSEABLE",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_209_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_212_0",
+    "proven": "C",
+    "model": "UNPARSEABLE",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_214_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_218_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_219_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_220_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_236_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_238_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_240_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_246_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_247_0",
+    "proven": "B",
+    "model": "C",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_248_0",
+    "proven": "D",
+    "model": "UNPARSEABLE",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_252_0",
+    "proven": "B",
+    "model": "C",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_256_0",
+    "proven": "C",
+    "model": "UNPARSEABLE",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_266_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_272_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_274_0",
+    "proven": "B",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_283_0",
+    "proven": "D",
+    "model": "B",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_285_0",
+    "proven": "D",
+    "model": "A",
+    "gold": "B"
+   },
+   {
+    "flat_id": "test_289_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   },
+   {
+    "flat_id": "test_294_0",
+    "proven": "C",
+    "model": "C",
+    "gold": "C"
+   }
+  ]
+ }
+}
