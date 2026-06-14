@@ -1,0 +1,48 @@
+{
+  "file": "test_set_400_combined.json",
+  "records": 400,
+  "questions": 800,
+  "source_breakdown": {
+    "gpt_5_5_records": 100,
+    "claude_records": 300
+  },
+  "validation_errors": 0,
+  "duplicates": 0,
+  "answer_distribution": {
+    "A": 150,
+    "Unknown": 140,
+    "Yes": 140,
+    "B": 125,
+    "No": 120,
+    "C": 75,
+    "D": 50
+  },
+  "mcq_distribution": {
+    "A": 150,
+    "B": 125,
+    "C": 75,
+    "D": 50
+  },
+  "yes_no_unknown_distribution": {
+    "Unknown": 140,
+    "Yes": 140,
+    "No": 120
+  },
+  "premise_count_min": 5,
+  "premise_count_max": 6,
+  "premise_count_avg": 5.0,
+  "reasoning_patterns_in_claude_300": {
+    "universal_forward_2step": 25,
+    "universal_forward_3step": 15,
+    "existential_propagation": 15,
+    "invalid_reverse_exist": 30,
+    "invalid_reverse_univ": 30,
+    "contrapositive_no_chain": 30,
+    "contrapositive_no_single": 25,
+    "mixed_forward_unknown": 25,
+    "denying_antecedent_trap": 25,
+    "conjunction_forward": 20,
+    "contrapositive_valid_forward": 25,
+    "no_from_chain_negation": 35
+  }
+}
