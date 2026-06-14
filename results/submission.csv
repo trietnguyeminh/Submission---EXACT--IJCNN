@@ -1,0 +1,1201 @@
+sample_id,q_idx,answer,qwen_answer,z3_answer,z3_definite,z3_conf,z3_grounded,qwen_sc_conf,question
+0,0,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all students course?
+0,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all students submits all assignments?
+1,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students reviews mistakes?
+1,1,No,Yes,No,1,0.6,1.0,0.6,Does at least one student improves technique?
+2,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all researchers designs a study?
+2,1,Unknown,Unknown,Unknown,0,1.0,0.8,0.6,Do all researchers publishes a paper?
+3,0,B,B,B,1,1.0,1.0,0.4,"Based on the premises, which statement can be inferred?
+A. At least one student joins the study group.
+B. No student joins the study group.
+C. Every student completes the group project.
+D. At least one student completes the group project."
+3,1,No,No,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? Every student receives the group grade."
+4,0,No,No,No,1,1.0,1.0,0.8,Does at least one developer code?
+4,1,Unknown,Unknown,Yes,1,1.0,0.4,0.4,Do all developers deploys to production?
+5,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every employee accesses sensitive data.
+B. No employee accesses sensitive data.
+C. Only some employees accesses sensitive data.
+D. The premises do not support any conclusion about accessesing."
+5,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every employee receives security clearance."
+6,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every student completes the coursework.
+B. It cannot be determined whether every student completes the coursework.
+C. No student completes the coursework.
+D. Every student who earns course credit must completes."
+6,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? If a student earns course credit, then the student completes the coursework."
+7,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one researcher designs a study.
+B. Every researcher designs a study.
+C. No researcher designs a study.
+D. At least one researcher reads the literature, but nothing about designs a study."
+7,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every researcher publishes a paper."
+8,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every researcher collects data.
+B. No researcher collects data.
+C. Only some researchers collects data.
+D. The premises do not support any conclusion about collectsing."
+8,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every researcher designs a study."
+9,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one student earns course credit.
+B. Every student earns course credit.
+C. No student earns course credit.
+D. At least one student completes the coursework, but nothing about earns course credit."
+9,1,Yes,Yes,Yes,1,1.0,1.0,0.8,"According to the premises, is the following statement true? Every student graduates from the university."
+10,0,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all students study group?
+10,1,No,No,Unknown,0,0.0,0.0,0.8,Do all students group project?
+11,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one mentor provides feedback.
+B. Every mentor provides feedback.
+C. No mentor provides feedback.
+D. At least one mentor schedules a session, but nothing about provides feedback."
+11,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every mentor tracks progress."
+12,0,B,B,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement is correct?
+A. Every student completes the lab work.
+B. It cannot be determined whether every student completes the lab work.
+C. No student completes the lab work.
+D. Every student who passes the lab component must completes."
+12,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work."
+13,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every developer writes the code.
+B. It cannot be determined whether every developer writes the code.
+C. No developer writes the code.
+D. Every developer who passes the code review must writes."
+13,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? If a developer passes the code review, then the developer writes the code."
+14,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all trainees submits a portfolio?
+14,1,No,No,No,1,1.0,1.0,0.6,Does at least one trainee earns a certificate?
+15,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all developers code review?
+15,1,Yes,Yes,Unknown,0,0.0,0.0,0.6,Do all developers deploys to production?
+16,0,C,C,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement can be inferred?
+A. Every librarian catalogs new books.
+B. At least one librarian updates the database.
+C. No librarian catalogs new books.
+D. Some librarians notifies patrons."
+16,1,No,No,No,1,1.0,1.0,0.8,"According to the premises, is the following statement true? At least one librarian updates the database."
+17,0,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all students coursework?
+17,1,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all students earns course credit?
+18,0,Unknown,Unknown,Unknown,0,1.0,1.0,1.0,Do all participants program?
+18,1,Unknown,Unknown,Unknown,0,1.0,0.6,0.8,Do all participants finishes all modules?
+19,0,No,No,No,1,1.0,1.0,1.0,Does at least one employee attends compliance training?
+19,1,Yes,No,Yes,1,1.0,1.0,0.6,Do all employees handles client accounts?
+20,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student performs well on the exam.
+B. No student performs well on the exam.
+C. Only some students performs well on the exam.
+D. The premises do not support any conclusion about performsing."
+20,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student solves the problems."
+21,0,B,B,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. Every student enrolls in the course.
+B. It cannot be determined whether every student enrolls in the course.
+C. No student enrolls in the course.
+D. Every student who submits all assignments must enrolls."
+21,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a student submits all assignments, then the student enrolls in the course."
+22,0,A,A,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No student passes the final exam.
+B. Every student passes the final exam.
+C. At least one student passes the final exam.
+D. It cannot be determined whether any student passes the final exam."
+22,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? No student passes the final exam."
+23,0,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all students lab work?
+23,1,Unknown,Unknown,Unknown,0,1.0,1.0,1.0,Do all students lab component?
+24,0,B,B,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement is correct?
+A. Every volunteer signs up for the event.
+B. It cannot be determined whether every volunteer signs up for the event.
+C. No volunteer signs up for the event.
+D. Every volunteer who assists with activities must signs."
+24,1,No,No,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? If a volunteer assists with activities, then the volunteer signs up for the event."
+25,0,C,C,C,1,1.0,0.6,0.6,"Based on the premises, which statement can be inferred?
+A. Every employee completes the onboarding program.
+B. At least one employee passes the probation period.
+C. No employee completes the onboarding program.
+D. Some employees receives full benefits."
+25,1,No,No,No,1,1.0,1.0,1.0,"According to the premises, is the following statement true? At least one employee passes the probation period."
+26,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all trainees submits a portfolio?
+26,1,Yes,Unknown,Yes,1,1.0,1.0,1.0,Do all trainees professional body?
+27,0,No,No,No,1,1.0,1.0,1.0,Does at least one employee attends compliance training?
+27,1,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all employees handles client accounts?
+28,0,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all students studies regularly?
+28,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.4,Do all students problems?
+29,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one student submits all assignments.
+B. Every student submits all assignments.
+C. No student submits all assignments.
+D. At least one student enrolls in the course, but nothing about submits all assignments."
+29,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student receives a scholarship."
+30,0,No,No,No,1,1.0,1.0,0.6,Does at least one analyst requirements?
+30,1,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all analysts report?
+31,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one trainee submits a portfolio.
+B. Every trainee submits a portfolio.
+C. No trainee submits a portfolio.
+D. At least one trainee attends the seminar, but nothing about submits a portfolio."
+31,1,Yes,Yes,Unknown,0,0.0,0.0,1.0,"According to the premises, is the following statement true? Every trainee joins the professional body."
+32,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all trainees submits a portfolio?
+32,1,No,No,No,1,1.0,1.0,0.8,Does at least one trainee earns a certificate?
+33,0,No,No,No,1,1.0,1.0,0.6,Does at least one student course?
+33,1,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students receives a scholarship?
+34,0,D,D,Unknown,0,0.0,0.0,0.6,"Based on the premises, which statement is correct?
+A. No intern completes the assigned task.
+B. Every intern completes the assigned task.
+C. At least one intern completes the assigned task.
+D. It cannot be determined whether any intern completes the assigned task."
+34,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? No intern completes the assigned task."
+35,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student qualifies for the degree.
+B. No student qualifies for the degree.
+C. Only some students qualifies for the degree.
+D. The premises do not support any conclusion about qualifiesing."
+35,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student earns course credit."
+36,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all researchers conducts experiments?
+36,1,No,No,No,1,0.6,1.0,0.8,Does at least one researcher data?
+37,0,No,No,No,1,1.0,1.0,0.6,Does at least one researcher writes a research proposal?
+37,1,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all researchers presents at a conference?
+38,0,D,D,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No student understands the concepts.
+B. Every student understands the concepts.
+C. At least one student understands the concepts.
+D. It cannot be determined whether any student understands the concepts."
+38,1,No,No,Unknown,0,1.0,1.0,0.4,"According to the premises, is the following statement true? No student understands the concepts."
+39,0,B,B,B,1,1.0,1.0,0.4,"Based on the premises, which statement can be inferred?
+A. At least one participant registers for the program.
+B. No participant registers for the program.
+C. Every participant finishes all modules.
+D. At least one participant finishes all modules."
+39,1,No,No,Unknown,0,0.0,0.0,0.8,"According to the premises, is the following statement true? Every participant passes the certification exam."
+40,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all developers code review?
+40,1,No,Unknown,No,1,1.0,1.0,0.6,Does at least one developer branch?
+41,0,Yes,Yes,Yes,1,0.8,1.0,1.0,Do all employees receives security clearance?
+41,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all employees handles client accounts?
+42,0,No,No,No,1,1.0,1.0,0.8,Does at least one student exam?
+42,1,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students threshold?
+43,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one student reviews mistakes.
+B. Every student reviews mistakes.
+C. No student reviews mistakes.
+D. At least one student registers for the exam, but nothing about reviews mistakes."
+43,1,Yes,Yes,Yes,1,1.0,1.0,0.8,"According to the premises, is the following statement true? Every student scores above the threshold."
+44,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every volunteer signs up for the event.
+B. It cannot be determined whether every volunteer signs up for the event.
+C. No volunteer signs up for the event.
+D. Every volunteer who assists with activities must signs."
+44,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a volunteer assists with activities, then the volunteer signs up for the event."
+45,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students lab component?
+45,1,No,No,No,1,1.0,1.0,0.8,Does at least one student graduation requirement?
+46,0,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all students studies regularly?
+46,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.8,Do all students problems?
+47,0,A,A,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement is correct?
+A. Every teacher prepares the curriculum.
+B. It cannot be determined whether every teacher prepares the curriculum.
+C. No teacher prepares the curriculum.
+D. Every teacher who grades the assignments must prepares."
+47,1,No,No,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a teacher grades the assignments, then the teacher prepares the curriculum."
+48,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every candidate receives an offer.
+B. No candidate receives an offer.
+C. Only some candidates receives an offer.
+D. The premises do not support any conclusion about receivesing."
+48,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every candidate clears the interview."
+49,0,B,B,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. Every student joins the study group.
+B. It cannot be determined whether every student joins the study group.
+C. No student joins the study group.
+D. Every student who completes the group project must joins."
+49,1,No,No,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a student completes the group project, then the student joins the study group."
+50,0,A,A,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. No student takes a practice test.
+B. Every student takes a practice test.
+C. At least one student takes a practice test.
+D. It cannot be determined whether any student takes a practice test."
+50,1,Yes,Yes,Yes,1,1.0,1.0,0.6,"According to the premises, is the following statement true? No student takes a practice test."
+51,0,Yes,Unknown,Yes,1,1.0,1.0,1.0,Do all candidates application?
+51,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.4,Do all candidates interview?
+52,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student meets the graduation requirement.
+B. No student meets the graduation requirement.
+C. Only some students meets the graduation requirement.
+D. The premises do not support any conclusion about meetsing."
+52,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student passes the lab component."
+53,0,C,C,C,1,1.0,0.2,0.8,"Based on the premises, which statement can be inferred?
+A. Every developer writes the code.
+B. At least one developer runs the unit tests.
+C. No developer writes the code.
+D. Some developers passes the code review."
+53,1,No,Yes,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one developer runs the unit tests."
+54,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one candidate clears the interview.
+B. Every candidate clears the interview.
+C. No candidate clears the interview.
+D. At least one candidate submits the application, but nothing about clears the interview."
+54,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every candidate starts the position."
+55,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every developer writes the code.
+B. It cannot be determined whether every developer writes the code.
+C. No developer writes the code.
+D. Every developer who passes the code review must writes."
+55,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a developer passes the code review, then the developer writes the code."
+56,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all mentors provides feedback?
+56,1,No,Yes,No,1,1.0,1.0,0.8,Does at least one mentor sets development goals?
+57,0,D,D,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. No intern completes the assigned task.
+B. Every intern completes the assigned task.
+C. At least one intern completes the assigned task.
+D. It cannot be determined whether any intern completes the assigned task."
+57,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? No intern completes the assigned task."
+58,0,D,D,Unknown,0,0.0,0.0,0.6,"Based on the premises, which statement is correct?
+A. No researcher receives a grant.
+B. Every researcher receives a grant.
+C. At least one researcher receives a grant.
+D. It cannot be determined whether any researcher receives a grant."
+58,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? No researcher receives a grant."
+59,0,B,B,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No student attends all lectures.
+B. Every student attends all lectures.
+C. At least one student attends all lectures.
+D. It cannot be determined whether any student attends all lectures."
+59,1,Yes,Yes,Unknown,0,1.0,1.0,1.0,"According to the premises, is the following statement true? No student attends all lectures."
+60,0,A,A,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. No employee passes the compliance quiz.
+B. Every employee passes the compliance quiz.
+C. At least one employee passes the compliance quiz.
+D. It cannot be determined whether any employee passes the compliance quiz."
+60,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? No employee passes the compliance quiz."
+61,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students earns course credit?
+61,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.8,Do all students university?
+62,0,D,D,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. No librarian updates the database.
+B. Every librarian updates the database.
+C. At least one librarian updates the database.
+D. It cannot be determined whether any librarian updates the database."
+62,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? No librarian updates the database."
+63,0,C,C,Unknown,0,0.0,0.0,0.6,"Based on the premises, which statement can be inferred?
+A. Every researcher reads the literature.
+B. At least one researcher identifies a research gap.
+C. No researcher reads the literature.
+D. Some researchers designs a study."
+63,1,No,Unknown,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one researcher identifies a research gap."
+64,0,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all students earns course credit?
+64,1,No,Unknown,No,1,1.0,1.0,0.6,Does at least one student degree?
+65,0,Yes,Yes,Yes,1,1.0,1.0,0.4,Do all developers code review?
+65,1,No,No,No,1,1.0,1.0,0.6,Does at least one developer branch?
+66,0,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all librarians catalogs new books?
+66,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all librarians notifies patrons?
+67,0,C,C,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement can be inferred?
+A. Every mentor schedules a session.
+B. At least one mentor reviews the mentee's work.
+C. No mentor schedules a session.
+D. Some mentors provides feedback."
+67,1,No,No,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one mentor reviews the mentee's work."
+68,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one student passes the lab component.
+B. Every student passes the lab component.
+C. No student passes the lab component.
+D. At least one student completes the lab work, but nothing about passes the lab component."
+68,1,Yes,Yes,Yes,1,1.0,1.0,0.8,"According to the premises, is the following statement true? Every student obtains the diploma."
+69,0,B,B,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. Every student joins the study group.
+B. It cannot be determined whether every student joins the study group.
+C. No student joins the study group.
+D. Every student who completes the group project must joins."
+69,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a student completes the group project, then the student joins the study group."
+70,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all teachers assignments?
+70,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all teachers academic term?
+71,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all researchers designs a study?
+71,1,No,No,No,1,1.0,1.0,0.8,Does at least one researcher collects data?
+72,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every librarian catalogs new books.
+B. It cannot be determined whether every librarian catalogs new books.
+C. No librarian catalogs new books.
+D. Every librarian who notifies patrons must catalogs."
+72,1,No,No,Unknown,0,1.0,1.0,1.0,"According to the premises, is the following statement true? If a librarian notifies patrons, then the librarian catalogs new books."
+73,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all analysts builds a model?
+73,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all analysts report?
+74,0,B,B,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement is correct?
+A. Every librarian catalogs new books.
+B. It cannot be determined whether every librarian catalogs new books.
+C. No librarian catalogs new books.
+D. Every librarian who notifies patrons must catalogs."
+74,1,No,No,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a librarian notifies patrons, then the librarian catalogs new books."
+75,0,B,B,B,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. At least one teacher prepares the curriculum.
+B. No teacher prepares the curriculum.
+C. Every teacher grades the assignments.
+D. At least one teacher grades the assignments."
+75,1,No,No,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? Every teacher submits the grade report."
+76,0,No,No,No,1,0.8,1.0,0.8,Does at least one student study group?
+76,1,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students teamwork requirement?
+77,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students submits all assignments?
+77,1,No,Yes,No,1,1.0,1.0,0.6,Does at least one student achieves a high GPA?
+78,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students lab component?
+78,1,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all students diploma?
+79,0,Yes,Yes,Yes,1,1.0,0.8,1.0,Do all researchers designs a study?
+79,1,No,Yes,No,1,1.0,1.0,0.6,Does at least one researcher collects data?
+80,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all volunteers assists with activities?
+80,1,No,No,Unknown,0,1.0,1.0,0.6,Do all volunteers receives a community award?
+81,0,C,C,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every researcher writes a research proposal.
+B. At least one researcher receives a grant.
+C. No researcher writes a research proposal.
+D. Some researchers conducts experiments."
+81,1,No,No,No,1,1.0,1.0,1.0,"According to the premises, is the following statement true? At least one researcher receives a grant."
+82,0,D,D,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No participant completes the orientation.
+B. Every participant completes the orientation.
+C. At least one participant completes the orientation.
+D. It cannot be determined whether any participant completes the orientation."
+82,1,Yes,Yes,Unknown,0,1.0,1.0,0.4,"According to the premises, is the following statement true? No participant completes the orientation."
+83,0,C,C,C,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student joins the study group.
+B. At least one student participates in discussion.
+C. No student joins the study group.
+D. Some students completes the group project."
+83,1,No,Yes,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one student participates in discussion."
+84,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all interns receives mentor feedback?
+84,1,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all interns gets a return offer?
+85,0,B,B,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. Every candidate submits the application.
+B. It cannot be determined whether every candidate submits the application.
+C. No candidate submits the application.
+D. Every candidate who clears the interview must submits."
+85,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a candidate clears the interview, then the candidate submits the application."
+86,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student qualifies for the degree.
+B. No student qualifies for the degree.
+C. Only some students qualifies for the degree.
+D. The premises do not support any conclusion about qualifiesing."
+86,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student earns course credit."
+87,0,B,B,B,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. At least one intern joins the team.
+B. No intern joins the team.
+C. Every intern receives mentor feedback.
+D. At least one intern receives mentor feedback."
+87,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.4,"According to the premises, is the following statement true? Every intern writes the internship report."
+88,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one developer passes the code review.
+B. Every developer passes the code review.
+C. No developer passes the code review.
+D. At least one developer writes the code, but nothing about passes the code review."
+88,1,No,No,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? Every developer deploys to production."
+89,0,Yes,Unknown,Yes,1,1.0,1.0,1.0,Do all students course?
+89,1,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all students submits all assignments?
+90,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students problems?
+90,1,Yes,Unknown,Yes,1,1.0,0.8,0.6,Do all students receives honors?
+91,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students problems?
+91,1,Yes,Yes,Yes,1,0.5,0.8,0.6,Does at least one student exam?
+92,0,A,A,A,1,1.0,0.8,0.8,"Based on the premises, which statement can be inferred?
+A. Every developer merges the branch.
+B. No developer merges the branch.
+C. Only some developers merges the branch.
+D. The premises do not support any conclusion about mergesing."
+92,1,Yes,Yes,Yes,1,1.0,1.0,0.8,"According to the premises, is the following statement true? Every developer passes the code review."
+93,0,C,C,C,1,1.0,0.2,1.0,"Based on the premises, which statement can be inferred?
+A. Every researcher reads the literature.
+B. At least one researcher identifies a research gap.
+C. No researcher reads the literature.
+D. Some researchers designs a study."
+93,1,No,Yes,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one researcher identifies a research gap."
+94,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all trainees submits a portfolio?
+94,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all trainees professional body?
+95,0,B,B,B,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. At least one employee completes the onboarding program.
+B. No employee completes the onboarding program.
+C. Every employee receives full benefits.
+D. At least one employee receives full benefits."
+95,1,No,No,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? Every employee is eligible for promotion."
+96,0,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all teachers assignments?
+96,1,Yes,Yes,Unknown,0,0.0,0.0,0.6,Do all teachers academic term?
+97,0,B,B,B,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. At least one student completes the coursework.
+B. No student completes the coursework.
+C. Every student earns course credit.
+D. At least one student earns course credit."
+97,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? Every student qualifies for the degree."
+98,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students group project?
+98,1,Yes,Yes,Unknown,0,0.0,0.0,0.8,Do all students teamwork requirement?
+99,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all participants finishes all modules?
+99,1,No,No,No,1,1.0,1.0,1.0,Does at least one participant certification exam?
+100,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all analysts builds a model?
+100,1,No,No,No,1,0.6,1.0,0.8,Does at least one analyst results?
+101,0,Unknown,Unknown,Unknown,0,1.0,0.6,1.0,Do all interns team?
+101,1,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all interns receives mentor feedback?
+102,0,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all researchers writes a research proposal?
+102,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all researchers conducts experiments?
+103,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all volunteers assists with activities?
+103,1,No,No,No,1,0.8,1.0,0.8,Does at least one volunteer logs service hours?
+104,0,C,C,Unknown,0,0.0,0.0,0.6,"Based on the premises, which statement can be inferred?
+A. Every analyst gathers the requirements.
+B. At least one analyst documents the findings.
+C. No analyst gathers the requirements.
+D. Some analysts builds a model."
+104,1,No,No,No,1,1.0,1.0,0.4,"According to the premises, is the following statement true? At least one analyst documents the findings."
+105,0,B,B,B,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. At least one employee attends compliance training.
+B. No employee attends compliance training.
+C. Every employee receives security clearance.
+D. At least one employee receives security clearance."
+105,1,No,No,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? Every employee accesses sensitive data."
+106,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one student completes the group project.
+B. Every student completes the group project.
+C. No student completes the group project.
+D. At least one student joins the study group, but nothing about completes the group project."
+106,1,Yes,Yes,Yes,1,1.0,1.0,0.6,"According to the premises, is the following statement true? Every student fulfils the teamwork requirement."
+107,0,B,B,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. Every student registers for the exam.
+B. It cannot be determined whether every student registers for the exam.
+C. No student registers for the exam.
+D. Every student who reviews mistakes must registers."
+107,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a student reviews mistakes, then the student registers for the exam."
+108,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all mentors provides feedback?
+108,1,No,No,No,1,1.0,1.0,0.8,Does at least one mentor sets development goals?
+109,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every trainee earns a certificate.
+B. No trainee earns a certificate.
+C. Only some trainees earns a certificate.
+D. The premises do not support any conclusion about earnsing."
+109,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every trainee submits a portfolio."
+110,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every employee is eligible for promotion.
+B. No employee is eligible for promotion.
+C. Only some employees is eligible for promotion.
+D. The premises do not support any conclusion about ising."
+110,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every employee receives full benefits."
+111,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every analyst validates the results.
+B. No analyst validates the results.
+C. Only some analysts validates the results.
+D. The premises do not support any conclusion about validatesing."
+111,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every analyst builds a model."
+112,0,D,D,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. No teacher delivers the lectures.
+B. Every teacher delivers the lectures.
+C. At least one teacher delivers the lectures.
+D. It cannot be determined whether any teacher delivers the lectures."
+112,1,Yes,Yes,Unknown,0,1.0,0.6,0.8,"According to the premises, is the following statement true? No teacher delivers the lectures."
+113,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students group project?
+113,1,No,No,No,1,0.8,1.0,0.8,Does at least one student group grade?
+114,0,Yes,Yes,Unknown,0,1.0,0.2,1.0,Do all trainees seminar?
+114,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all trainees submits a portfolio?
+115,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all researchers designs a study?
+115,1,Unknown,Unknown,Unknown,0,0.8,1.0,0.6,Do all researchers publishes a paper?
+116,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all employees receives full benefits?
+116,1,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all employees leads a project?
+117,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all volunteers assists with activities?
+117,1,No,No,No,1,1.0,1.0,0.6,Does at least one volunteer logs service hours?
+118,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every mentor sets development goals.
+B. No mentor sets development goals.
+C. Only some mentors sets development goals.
+D. The premises do not support any conclusion about setsing."
+118,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every mentor provides feedback."
+119,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every employee attends compliance training.
+B. It cannot be determined whether every employee attends compliance training.
+C. No employee attends compliance training.
+D. Every employee who receives security clearance must attends."
+119,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If an employee receives security clearance, then the employee attends compliance training."
+120,0,No,Yes,No,1,1.0,1.0,0.6,Does at least one candidate application?
+120,1,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all candidates position?
+121,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every librarian processes reservations.
+B. No librarian processes reservations.
+C. Only some librarians processes reservations.
+D. The premises do not support any conclusion about processesing."
+121,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every librarian notifies patrons."
+122,0,No,No,No,1,1.0,1.0,0.6,Does at least one analyst requirements?
+122,1,Yes,Unknown,Yes,1,1.0,1.0,0.4,Do all analysts report?
+123,0,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all volunteers event?
+123,1,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all volunteers assists with activities?
+124,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all developers code review?
+124,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all developers deploys to production?
+125,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all participants finishes all modules?
+125,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.6,Do all participants obtains a professional license?
+126,0,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all employees attends compliance training?
+126,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all employees receives security clearance?
+127,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all employees receives full benefits?
+127,1,No,No,No,1,1.0,1.0,0.6,Does at least one employee is eligible for promotion?
+128,0,B,B,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement is correct?
+A. Every mentor schedules a session.
+B. It cannot be determined whether every mentor schedules a session.
+C. No mentor schedules a session.
+D. Every mentor who provides feedback must schedules."
+128,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a mentor provides feedback, then the mentor schedules a session."
+129,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all participants finishes all modules?
+129,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.6,Do all participants obtains a professional license?
+130,0,B,B,B,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. At least one student completes the lab work.
+B. No student completes the lab work.
+C. Every student passes the lab component.
+D. At least one student passes the lab component."
+130,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,"According to the premises, is the following statement true? Every student meets the graduation requirement."
+131,0,B,B,B,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. At least one researcher reads the literature.
+B. No researcher reads the literature.
+C. Every researcher designs a study.
+D. At least one researcher designs a study."
+131,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,"According to the premises, is the following statement true? Every researcher collects data."
+132,0,No,No,No,1,1.0,1.0,0.6,Does at least one employee onboarding program?
+132,1,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all employees leads a project?
+133,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student achieves a high GPA.
+B. No student achieves a high GPA.
+C. Only some students achieves a high GPA.
+D. The premises do not support any conclusion about achievesing."
+133,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student submits all assignments."
+134,0,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all researchers literature?
+134,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all researchers designs a study?
+135,0,C,C,C,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. Every student completes the lab work.
+B. At least one student submits the lab report.
+C. No student completes the lab work.
+D. Some students passes the lab component."
+135,1,No,Yes,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one student submits the lab report."
+136,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all volunteers assists with activities?
+136,1,No,Unknown,No,1,1.0,1.0,0.6,Does at least one volunteer logs service hours?
+137,0,C,C,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every volunteer signs up for the event.
+B. At least one volunteer attends the training session.
+C. No volunteer signs up for the event.
+D. Some volunteers assists with activities."
+137,1,No,No,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one volunteer attends the training session."
+138,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all candidates interview?
+138,1,No,No,No,1,1.0,1.0,0.6,Does at least one candidate receives an offer?
+139,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students problems?
+139,1,Yes,Unknown,Yes,1,0.8,1.0,0.8,Do all students receives honors?
+140,0,A,A,Unknown,0,1.0,1.0,0.4,"Based on the premises, which statement is correct?
+A. No student submits the lab report.
+B. Every student submits the lab report.
+C. At least one student submits the lab report.
+D. It cannot be determined whether any student submits the lab report."
+140,1,Yes,Yes,Yes,1,0.6,1.0,0.8,"According to the premises, is the following statement true? No student submits the lab report."
+141,0,B,B,B,1,1.0,0.8,0.8,"Based on the premises, which statement can be inferred?
+A. At least one librarian catalogs new books.
+B. No librarian catalogs new books.
+C. Every librarian notifies patrons.
+D. At least one librarian notifies patrons."
+141,1,No,No,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? Every librarian processes reservations."
+142,0,C,B,C,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. Every student enrolls in the course.
+B. At least one student attends all lectures.
+C. No student enrolls in the course.
+D. Some students submits all assignments."
+142,1,No,Yes,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one student attends all lectures."
+143,0,No,Yes,No,1,1.0,1.0,0.4,Does at least one student coursework?
+143,1,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all students university?
+144,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all employees receives full benefits?
+144,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all employees leads a project?
+145,0,B,B,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No student attends all lectures.
+B. Every student attends all lectures.
+C. At least one student attends all lectures.
+D. It cannot be determined whether any student attends all lectures."
+145,1,Yes,Yes,Unknown,0,1.0,1.0,1.0,"According to the premises, is the following statement true? No student attends all lectures."
+146,0,B,B,B,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. At least one trainee attends the seminar.
+B. No trainee attends the seminar.
+C. Every trainee submits a portfolio.
+D. At least one trainee submits a portfolio."
+146,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,"According to the premises, is the following statement true? Every trainee earns a certificate."
+147,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every teacher submits the grade report.
+B. No teacher submits the grade report.
+C. Only some teachers submits the grade report.
+D. The premises do not support any conclusion about submitsing."
+147,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every teacher grades the assignments."
+148,0,B,B,B,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. At least one analyst gathers the requirements.
+B. No analyst gathers the requirements.
+C. Every analyst builds a model.
+D. At least one analyst builds a model."
+148,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? Every analyst validates the results."
+149,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all employees receives security clearance?
+149,1,No,No,No,1,1.0,1.0,1.0,Does at least one employee accesses sensitive data?
+150,0,B,B,B,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. At least one researcher writes a research proposal.
+B. No researcher writes a research proposal.
+C. Every researcher conducts experiments.
+D. At least one researcher conducts experiments."
+150,1,No,No,Unknown,0,0.0,0.0,0.4,"According to the premises, is the following statement true? Every researcher analyzes the data."
+151,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all mentors provides feedback?
+151,1,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all mentors tracks progress?
+152,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student performs well on the exam.
+B. No student performs well on the exam.
+C. Only some students performs well on the exam.
+D. The premises do not support any conclusion about performsing."
+152,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student solves the problems."
+153,0,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all candidates interview?
+153,1,No,No,No,1,0.6,1.0,0.8,Does at least one candidate receives an offer?
+154,0,A,A,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No participant completes the orientation.
+B. Every participant completes the orientation.
+C. At least one participant completes the orientation.
+D. It cannot be determined whether any participant completes the orientation."
+154,1,Unknown,Unknown,Unknown,0,0.8,1.0,0.6,"According to the premises, is the following statement true? No participant completes the orientation."
+155,0,Yes,Unknown,Yes,1,0.8,1.0,1.0,Do all employees onboarding program?
+155,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.6,Do all employees receives full benefits?
+156,0,A,A,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No mentor reviews the mentee's work.
+B. Every mentor reviews the mentee's work.
+C. At least one mentor reviews the mentee's work.
+D. It cannot be determined whether any mentor reviews the mentee's work."
+156,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? No mentor reviews the mentee's work."
+157,0,B,B,Unknown,0,1.0,0.8,1.0,"Based on the premises, which statement is correct?
+A. Every mentor schedules a session.
+B. It cannot be determined whether every mentor schedules a session.
+C. No mentor schedules a session.
+D. Every mentor who provides feedback must schedules."
+157,1,No,No,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? If a mentor provides feedback, then the mentor schedules a session."
+158,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every analyst gathers the requirements.
+B. It cannot be determined whether every analyst gathers the requirements.
+C. No analyst gathers the requirements.
+D. Every analyst who builds a model must gathers."
+158,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? If an analyst builds a model, then the analyst gathers the requirements."
+159,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all participants finishes all modules?
+159,1,No,No,No,1,1.0,1.0,0.8,Does at least one participant certification exam?
+160,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every employee completes the onboarding program.
+B. It cannot be determined whether every employee completes the onboarding program.
+C. No employee completes the onboarding program.
+D. Every employee who receives full benefits must completes."
+160,1,Yes,Yes,Unknown,0,1.0,1.0,0.4,"According to the premises, is the following statement true? If an employee receives full benefits, then the employee completes the onboarding program."
+161,0,A,A,Unknown,0,1.0,1.0,0.8,"Based on the premises, which statement is correct?
+A. No student participates in discussion.
+B. Every student participates in discussion.
+C. At least one student participates in discussion.
+D. It cannot be determined whether any student participates in discussion."
+161,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? No student participates in discussion."
+162,0,No,No,No,1,1.0,1.0,0.6,Does at least one intern team?
+162,1,Yes,No,Yes,1,1.0,1.0,0.6,Do all interns gets a return offer?
+163,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all volunteers assists with activities?
+163,1,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all volunteers receives a community award?
+164,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every researcher writes a research proposal.
+B. It cannot be determined whether every researcher writes a research proposal.
+C. No researcher writes a research proposal.
+D. Every researcher who conducts experiments must writes."
+164,1,Yes,Yes,Unknown,0,1.0,1.0,0.4,"According to the premises, is the following statement true? If a researcher conducts experiments, then the researcher writes a research proposal."
+165,0,No,No,No,1,1.0,1.0,0.6,Does at least one volunteer event?
+165,1,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all volunteers receives a community award?
+166,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all researchers conducts experiments?
+166,1,No,No,No,1,1.0,1.0,0.6,Does at least one researcher data?
+167,0,A,A,Unknown,0,1.0,1.0,0.8,"Based on the premises, which statement is correct?
+A. No candidate passes the written test.
+B. Every candidate passes the written test.
+C. At least one candidate passes the written test.
+D. It cannot be determined whether any candidate passes the written test."
+167,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? No candidate passes the written test."
+168,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students reviews mistakes?
+168,1,No,Yes,No,1,1.0,1.0,0.6,Does at least one student improves technique?
+169,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every candidate receives an offer.
+B. No candidate receives an offer.
+C. Only some candidates receives an offer.
+D. The premises do not support any conclusion about receivesing."
+169,1,Yes,Yes,Yes,1,1.0,1.0,0.8,"According to the premises, is the following statement true? Every candidate clears the interview."
+170,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every trainee earns a certificate.
+B. No trainee earns a certificate.
+C. Only some trainees earns a certificate.
+D. The premises do not support any conclusion about earnsing."
+170,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every trainee submits a portfolio."
+171,0,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all teachers assignments?
+171,1,No,Yes,No,1,1.0,1.0,0.4,Does at least one teacher grade report?
+172,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every employee is eligible for promotion.
+B. No employee is eligible for promotion.
+C. Only some employees is eligible for promotion.
+D. The premises do not support any conclusion about ising."
+172,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every employee receives full benefits."
+173,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students problems?
+173,1,No,No,No,1,0.8,1.0,0.4,Does at least one student exam?
+174,0,D,D,Unknown,0,1.0,1.0,0.4,"Based on the premises, which statement is correct?
+A. No trainee completes the workshop.
+B. Every trainee completes the workshop.
+C. At least one trainee completes the workshop.
+D. It cannot be determined whether any trainee completes the workshop."
+174,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? No trainee completes the workshop."
+175,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all researchers conducts experiments?
+175,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all researchers presents at a conference?
+176,0,B,B,B,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. At least one volunteer signs up for the event.
+B. No volunteer signs up for the event.
+C. Every volunteer assists with activities.
+D. At least one volunteer assists with activities."
+176,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.4,"According to the premises, is the following statement true? Every volunteer logs service hours."
+177,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every participant passes the certification exam.
+B. No participant passes the certification exam.
+C. Only some participants passes the certification exam.
+D. The premises do not support any conclusion about passesing."
+177,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every participant finishes all modules."
+178,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all librarians notifies patrons?
+178,1,No,Yes,No,1,1.0,1.0,0.8,Does at least one librarian processes reservations?
+179,0,A,A,Unknown,0,0.0,0.0,0.6,"Based on the premises, which statement can be inferred?
+A. Every employee attends compliance training.
+B. At least one employee passes the compliance quiz.
+C. No employee attends compliance training.
+D. Some employees receives security clearance."
+179,1,No,No,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one employee passes the compliance quiz."
+180,0,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all teachers curriculum?
+180,1,Yes,Unknown,Yes,1,1.0,1.0,1.0,Do all teachers assignments?
+181,0,D,D,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No teacher delivers the lectures.
+B. Every teacher delivers the lectures.
+C. At least one teacher delivers the lectures.
+D. It cannot be determined whether any teacher delivers the lectures."
+181,1,Yes,Yes,Unknown,0,1.0,0.2,0.4,"According to the premises, is the following statement true? No teacher delivers the lectures."
+182,0,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all students coursework?
+182,1,Unknown,Unknown,Unknown,0,1.0,0.8,1.0,Do all students earns course credit?
+183,0,No,No,No,1,1.0,1.0,0.6,Does at least one participant program?
+183,1,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all participants obtains a professional license?
+184,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all researchers conducts experiments?
+184,1,No,Unknown,No,1,1.0,1.0,0.6,Does at least one researcher data?
+185,0,Yes,Unknown,Yes,1,1.0,1.0,1.0,Do all trainees seminar?
+185,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all trainees submits a portfolio?
+186,0,A,A,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. No student understands the concepts.
+B. Every student understands the concepts.
+C. At least one student understands the concepts.
+D. It cannot be determined whether any student understands the concepts."
+186,1,Yes,Yes,Unknown,0,1.0,0.8,0.6,"According to the premises, is the following statement true? No student understands the concepts."
+187,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students earns course credit?
+187,1,No,No,No,1,1.0,1.0,1.0,Does at least one student degree?
+188,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one student solves the problems.
+B. Every student solves the problems.
+C. No student solves the problems.
+D. At least one student studies regularly, but nothing about solves the problems."
+188,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student receives honors."
+189,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every researcher writes a research proposal.
+B. It cannot be determined whether every researcher writes a research proposal.
+C. No researcher writes a research proposal.
+D. Every researcher who conducts experiments must writes."
+189,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a researcher conducts experiments, then the researcher writes a research proposal."
+190,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one volunteer assists with activities.
+B. Every volunteer assists with activities.
+C. No volunteer assists with activities.
+D. At least one volunteer signs up for the event, but nothing about assists with activities."
+190,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every volunteer receives a community award."
+191,0,A,A,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every volunteer logs service hours.
+B. No volunteer logs service hours.
+C. Only some volunteers logs service hours.
+D. The premises do not support any conclusion about logsing."
+191,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every volunteer assists with activities."
+192,0,No,No,No,1,1.0,1.0,1.0,Does at least one librarian catalogs new books?
+192,1,Yes,Yes,Yes,1,1.0,1.0,0.4,Do all librarians inventory?
+193,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all employees receives security clearance?
+193,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.4,Do all employees handles client accounts?
+194,0,C,C,Unknown,0,0.0,0.0,0.6,"Based on the premises, which statement can be inferred?
+A. Every teacher prepares the curriculum.
+B. At least one teacher delivers the lectures.
+C. No teacher prepares the curriculum.
+D. Some teachers grades the assignments."
+194,1,No,No,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one teacher delivers the lectures."
+195,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one intern receives mentor feedback.
+B. Every intern receives mentor feedback.
+C. No intern receives mentor feedback.
+D. At least one intern joins the team, but nothing about receives mentor feedback."
+195,1,Yes,Yes,Yes,1,1.0,1.0,0.8,"According to the premises, is the following statement true? Every intern gets a return offer."
+196,0,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all mentors schedules a session?
+196,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all mentors provides feedback?
+197,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all librarians notifies patrons?
+197,1,No,Yes,No,1,1.0,1.0,0.4,Does at least one librarian processes reservations?
+198,0,Yes,Unknown,Yes,1,1.0,1.0,0.6,Does at least one librarian catalogs new books?
+198,1,Yes,Yes,Yes,1,1.0,1.0,0.4,Do all librarians inventory?
+199,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all candidates interview?
+199,1,Yes,Unknown,Yes,1,1.0,1.0,0.8,Do all candidates position?
+200,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students lab component?
+200,1,Yes,Yes,Yes,1,0.8,1.0,0.6,Does at least one student graduation requirement?
+201,0,B,B,Unknown,0,1.0,0.2,1.0,"Based on the premises, which statement is correct?
+A. Every intern joins the team.
+B. It cannot be determined whether every intern joins the team.
+C. No intern joins the team.
+D. Every intern who receives mentor feedback must joins."
+201,1,No,No,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If an intern receives mentor feedback, then the intern joins the team."
+202,0,B,B,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement is correct?
+A. Every researcher reads the literature.
+B. It cannot be determined whether every researcher reads the literature.
+C. No researcher reads the literature.
+D. Every researcher who designs a study must reads."
+202,1,Yes,Yes,Unknown,0,1.0,1.0,1.0,"According to the premises, is the following statement true? If a researcher designs a study, then the researcher reads the literature."
+203,0,No,No,Unknown,0,0.0,0.0,0.6,Do all students exam?
+203,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all students reviews mistakes?
+204,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one employee receives full benefits.
+B. Every employee receives full benefits.
+C. No employee receives full benefits.
+D. At least one employee completes the onboarding program, but nothing about receives full benefits."
+204,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every employee leads a project."
+205,0,C,C,C,1,1.0,0.6,0.8,"Based on the premises, which statement can be inferred?
+A. Every student registers for the exam.
+B. At least one student takes a practice test.
+C. No student registers for the exam.
+D. Some students reviews mistakes."
+205,1,No,No,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one student takes a practice test."
+206,0,No,No,No,1,1.0,1.0,0.8,Does at least one volunteer event?
+206,1,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all volunteers receives a community award?
+207,0,B,B,B,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. At least one student registers for the exam.
+B. No student registers for the exam.
+C. Every student reviews mistakes.
+D. At least one student reviews mistakes."
+207,1,Yes,Yes,Unknown,0,0.0,0.0,0.4,"According to the premises, is the following statement true? Every student improves technique."
+208,0,No,No,No,1,1.0,1.0,0.6,Does at least one student study group?
+208,1,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all students teamwork requirement?
+209,0,B,B,B,1,1.0,0.4,0.6,"Based on the premises, which statement can be inferred?
+A. At least one developer writes the code.
+B. No developer writes the code.
+C. Every developer passes the code review.
+D. At least one developer passes the code review."
+209,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,"According to the premises, is the following statement true? Every developer merges the branch."
+210,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all researchers conducts experiments?
+210,1,Unknown,Unknown,Unknown,0,0.0,0.0,1.0,Do all researchers presents at a conference?
+211,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students submits all assignments?
+211,1,No,Yes,No,1,1.0,1.0,0.8,Does at least one student achieves a high GPA?
+212,0,C,C,C,1,1.0,1.0,0.4,"Based on the premises, which statement can be inferred?
+A. Every student completes the coursework.
+B. At least one student passes the final exam.
+C. No student completes the coursework.
+D. Some students earns course credit."
+212,1,No,No,No,1,1.0,1.0,0.8,"According to the premises, is the following statement true? At least one student passes the final exam."
+213,0,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all analysts requirements?
+213,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all analysts builds a model?
+214,0,Unknown,Unknown,C,1,1.0,0.4,0.4,"Based on the premises, which statement can be inferred?
+A. Every participant registers for the program.
+B. At least one participant completes the orientation.
+C. No participant registers for the program.
+D. Some participants finishes all modules."
+214,1,No,Yes,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one participant completes the orientation."
+215,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one employee receives security clearance.
+B. Every employee receives security clearance.
+C. No employee receives security clearance.
+D. At least one employee attends compliance training, but nothing about receives security clearance."
+215,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every employee handles client accounts."
+216,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one librarian notifies patrons.
+B. Every librarian notifies patrons.
+C. No librarian notifies patrons.
+D. At least one librarian catalogs new books, but nothing about notifies patrons."
+216,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every librarian completes the inventory."
+217,0,Yes,Yes,Yes,1,1.0,0.8,1.0,Do all librarians notifies patrons?
+217,1,Yes,Yes,Yes,1,1.0,1.0,0.4,Do all librarians inventory?
+218,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every employee attends compliance training.
+B. It cannot be determined whether every employee attends compliance training.
+C. No employee attends compliance training.
+D. Every employee who receives security clearance must attends."
+218,1,Yes,Yes,Unknown,0,1.0,1.0,1.0,"According to the premises, is the following statement true? If an employee receives security clearance, then the employee attends compliance training."
+219,0,B,B,Unknown,0,0.0,0.0,0.8,"Based on the premises, which statement is correct?
+A. Every analyst gathers the requirements.
+B. It cannot be determined whether every analyst gathers the requirements.
+C. No analyst gathers the requirements.
+D. Every analyst who builds a model must gathers."
+219,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If an analyst builds a model, then the analyst gathers the requirements."
+220,0,C,C,Unknown,0,0.0,0.0,0.6,"Based on the premises, which statement can be inferred?
+A. Every student studies regularly.
+B. At least one student understands the concepts.
+C. No student studies regularly.
+D. Some students solves the problems."
+220,1,No,No,No,1,1.0,1.0,0.4,"According to the premises, is the following statement true? At least one student understands the concepts."
+221,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students earns course credit?
+221,1,Unknown,Unknown,Yes,1,0.5,0.8,0.8,Do all students university?
+222,0,Unknown,Unknown,Unknown,0,0.75,0.8,0.8,Do all employees onboarding program?
+222,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.8,Do all employees receives full benefits?
+223,0,No,No,No,1,1.0,1.0,0.8,Does at least one trainee seminar?
+223,1,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all trainees professional body?
+224,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students group project?
+224,1,No,Yes,No,1,1.0,1.0,0.8,Does at least one student group grade?
+225,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all employees receives security clearance?
+225,1,No,No,No,1,1.0,1.0,1.0,Does at least one employee accesses sensitive data?
+226,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students lab component?
+226,1,No,Yes,No,1,0.6,1.0,0.8,Does at least one student graduation requirement?
+227,0,A,A,A,1,1.0,1.0,0.8,"Based on the premises, which conclusion follows?
+A. At least one researcher conducts experiments.
+B. Every researcher conducts experiments.
+C. No researcher conducts experiments.
+D. At least one researcher writes a research proposal, but nothing about conducts experiments."
+227,1,Yes,Yes,Unknown,0,0.0,0.0,1.0,"According to the premises, is the following statement true? Every researcher presents at a conference."
+228,0,B,Unknown,B,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. At least one student enrolls in the course.
+B. No student enrolls in the course.
+C. Every student submits all assignments.
+D. At least one student submits all assignments."
+228,1,No,No,Unknown,0,0.0,0.0,0.8,"According to the premises, is the following statement true? Every student achieves a high GPA."
+229,0,D,D,Unknown,0,0.0,0.0,0.6,"Based on the premises, which statement is correct?
+A. No developer runs the unit tests.
+B. Every developer runs the unit tests.
+C. At least one developer runs the unit tests.
+D. It cannot be determined whether any developer runs the unit tests."
+229,1,Yes,Yes,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? No developer runs the unit tests."
+230,0,No,No,Unknown,0,0.0,0.0,1.0,Do all researchers literature?
+230,1,No,No,Unknown,0,0.0,0.0,0.6,Do all researchers designs a study?
+231,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student receives the group grade.
+B. No student receives the group grade.
+C. Only some students receives the group grade.
+D. The premises do not support any conclusion about receivesing."
+231,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student completes the group project."
+232,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students submits all assignments?
+232,1,Unknown,Unknown,Unknown,0,1.0,0.2,1.0,Do all students receives a scholarship?
+233,0,No,Yes,No,1,1.0,1.0,0.4,Does at least one student studies regularly?
+233,1,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all students receives honors?
+234,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student improves technique.
+B. No student improves technique.
+C. Only some students improves technique.
+D. The premises do not support any conclusion about improvesing."
+234,1,Yes,Yes,Yes,1,1.0,1.0,0.8,"According to the premises, is the following statement true? Every student reviews mistakes."
+235,0,No,No,No,1,1.0,1.0,1.0,Does at least one mentor schedules a session?
+235,1,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all mentors tracks progress?
+236,0,C,C,C,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. Every candidate submits the application.
+B. At least one candidate passes the written test.
+C. No candidate submits the application.
+D. Some candidates clears the interview."
+236,1,No,Yes,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one candidate passes the written test."
+237,0,No,No,No,1,0.8,1.0,0.8,Does at least one student lab work?
+237,1,Yes,Unknown,Yes,1,1.0,1.0,0.8,Do all students diploma?
+238,0,B,B,Unknown,0,1.0,1.0,0.6,"Based on the premises, which statement is correct?
+A. Every student registers for the exam.
+B. It cannot be determined whether every student registers for the exam.
+C. No student registers for the exam.
+D. Every student who reviews mistakes must registers."
+238,1,No,No,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a student reviews mistakes, then the student registers for the exam."
+239,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all interns receives mentor feedback?
+239,1,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all interns gets a return offer?
+240,0,C,C,C,1,1.0,0.6,0.8,"Based on the premises, which statement can be inferred?
+A. Every intern joins the team.
+B. At least one intern completes the assigned task.
+C. No intern joins the team.
+D. Some interns receives mentor feedback."
+240,1,No,No,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one intern completes the assigned task."
+241,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all librarians notifies patrons?
+241,1,No,Yes,No,1,1.0,1.0,0.4,Does at least one librarian processes reservations?
+242,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students group project?
+242,1,No,Yes,No,1,1.0,1.0,0.6,Does at least one student group grade?
+243,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every teacher submits the grade report.
+B. No teacher submits the grade report.
+C. Only some teachers submits the grade report.
+D. The premises do not support any conclusion about submitsing."
+243,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every teacher grades the assignments."
+244,0,No,No,No,1,0.8,1.0,1.0,Does at least one mentor schedules a session?
+244,1,Yes,Yes,Yes,1,1.0,1.0,0.4,Do all mentors tracks progress?
+245,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all students group project?
+245,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all students teamwork requirement?
+246,0,C,C,C,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every trainee attends the seminar.
+B. At least one trainee completes the workshop.
+C. No trainee attends the seminar.
+D. Some trainees submits a portfolio."
+246,1,No,No,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one trainee completes the workshop."
+247,0,B,B,B,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. At least one student studies regularly.
+B. No student studies regularly.
+C. Every student solves the problems.
+D. At least one student solves the problems."
+247,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,"According to the premises, is the following statement true? Every student performs well on the exam."
+248,0,B,B,Unknown,0,1.0,1.0,1.0,"Based on the premises, which statement is correct?
+A. Every trainee attends the seminar.
+B. It cannot be determined whether every trainee attends the seminar.
+C. No trainee attends the seminar.
+D. Every trainee who submits a portfolio must attends."
+248,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a trainee submits a portfolio, then the trainee attends the seminar."
+249,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all mentors provides feedback?
+249,1,No,No,Unknown,0,0.0,0.0,0.6,Do all mentors tracks progress?
+250,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all interns receives mentor feedback?
+250,1,No,Unknown,No,1,1.0,1.0,0.6,Does at least one intern internship report?
+251,0,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all teachers assignments?
+251,1,No,No,No,1,1.0,1.0,0.6,Does at least one teacher grade report?
+252,0,B,B,B,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. At least one candidate submits the application.
+B. No candidate submits the application.
+C. Every candidate clears the interview.
+D. At least one candidate clears the interview."
+252,1,No,No,Unknown,0,0.6,1.0,0.8,"According to the premises, is the following statement true? Every candidate receives an offer."
+253,0,Yes,Yes,Yes,1,1.0,1.0,0.4,Do all mentors provides feedback?
+253,1,No,No,No,1,1.0,1.0,0.4,Does at least one mentor sets development goals?
+254,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all analysts builds a model?
+254,1,Yes,No,Yes,1,0.6,1.0,0.8,Does at least one analyst results?
+255,0,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all developers code?
+255,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all developers code review?
+256,0,C,C,C,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every employee completes the onboarding program.
+B. At least one employee passes the probation period.
+C. No employee completes the onboarding program.
+D. Some employees receives full benefits."
+256,1,No,Yes,No,1,1.0,1.0,0.4,"According to the premises, is the following statement true? At least one employee passes the probation period."
+257,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every student achieves a high GPA.
+B. No student achieves a high GPA.
+C. Only some students achieves a high GPA.
+D. The premises do not support any conclusion about achievesing."
+257,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every student submits all assignments."
+258,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one teacher grades the assignments.
+B. Every teacher grades the assignments.
+C. No teacher grades the assignments.
+D. At least one teacher prepares the curriculum, but nothing about grades the assignments."
+258,1,Yes,Unknown,Yes,1,1.0,1.0,0.4,"According to the premises, is the following statement true? Every teacher completes the academic term."
+259,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all librarians notifies patrons?
+259,1,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all librarians inventory?
+260,0,No,Unknown,No,1,1.0,1.0,0.6,Does at least one student exam?
+260,1,Yes,Unknown,Yes,1,1.0,1.0,0.6,Do all students threshold?
+261,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which conclusion follows?
+A. At least one analyst builds a model.
+B. Every analyst builds a model.
+C. No analyst builds a model.
+D. At least one analyst gathers the requirements, but nothing about builds a model."
+261,1,Yes,Yes,Yes,1,1.0,0.6,1.0,"According to the premises, is the following statement true? Every analyst delivers the report."
+262,0,No,No,No,1,1.0,1.0,0.6,Does at least one developer code?
+262,1,Yes,Yes,Yes,1,1.0,1.0,0.6,Do all developers deploys to production?
+263,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students reviews mistakes?
+263,1,No,Yes,No,1,1.0,1.0,0.8,Does at least one student improves technique?
+264,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all interns receives mentor feedback?
+264,1,No,No,No,1,1.0,1.0,0.8,Does at least one intern internship report?
+265,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students submits all assignments?
+265,1,No,No,Unknown,0,0.0,0.0,0.6,Do all students receives a scholarship?
+266,0,C,C,C,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. Every candidate submits the application.
+B. At least one candidate passes the written test.
+C. No candidate submits the application.
+D. Some candidates clears the interview."
+266,1,No,No,No,1,1.0,1.0,0.6,"According to the premises, is the following statement true? At least one candidate passes the written test."
+267,0,D,D,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. No analyst documents the findings.
+B. Every analyst documents the findings.
+C. At least one analyst documents the findings.
+D. It cannot be determined whether any analyst documents the findings."
+267,1,Yes,Yes,Unknown,0,1.0,1.0,1.0,"According to the premises, is the following statement true? No analyst documents the findings."
+268,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students lab component?
+268,1,Unknown,Unknown,Unknown,0,1.0,0.4,0.6,Do all students diploma?
+269,0,A,A,A,1,1.0,1.0,0.8,"Based on the premises, which conclusion follows?
+A. At least one participant finishes all modules.
+B. Every participant finishes all modules.
+C. No participant finishes all modules.
+D. At least one participant registers for the program, but nothing about finishes all modules."
+269,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every participant obtains a professional license."
+270,0,Yes,Unknown,Yes,1,1.0,1.0,0.4,Do all developers code review?
+270,1,No,Unknown,No,1,1.0,1.0,0.6,Does at least one developer branch?
+271,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students reviews mistakes?
+271,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.8,Do all students threshold?
+272,0,B,B,Unknown,0,0.0,0.0,1.0,"Based on the premises, which statement is correct?
+A. Every student completes the lab work.
+B. It cannot be determined whether every student completes the lab work.
+C. No student completes the lab work.
+D. Every student who passes the lab component must completes."
+272,1,No,No,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work."
+273,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all analysts builds a model?
+273,1,No,No,Unknown,0,0.0,0.0,0.4,Do all analysts report?
+274,0,B,B,B,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. At least one mentor schedules a session.
+B. No mentor schedules a session.
+C. Every mentor provides feedback.
+D. At least one mentor provides feedback."
+274,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,"According to the premises, is the following statement true? Every mentor sets development goals."
+275,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every participant passes the certification exam.
+B. No participant passes the certification exam.
+C. Only some participants passes the certification exam.
+D. The premises do not support any conclusion about passesing."
+275,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every participant finishes all modules."
+276,0,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all employees receives full benefits?
+276,1,Yes,No,Yes,1,0.6,1.0,0.8,Does at least one employee is eligible for promotion?
+277,0,A,A,A,1,1.0,1.0,0.8,"Based on the premises, which statement can be inferred?
+A. Every intern writes the internship report.
+B. No intern writes the internship report.
+C. Only some interns writes the internship report.
+D. The premises do not support any conclusion about writesing."
+277,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every intern receives mentor feedback."
+278,0,No,No,No,1,1.0,1.0,0.8,Does at least one student lab work?
+278,1,Yes,No,Yes,1,1.0,1.0,0.4,Do all students diploma?
+279,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all analysts builds a model?
+279,1,Yes,No,Yes,1,1.0,0.6,0.6,Does at least one analyst results?
+280,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all students reviews mistakes?
+280,1,Unknown,Unknown,Unknown,0,1.0,1.0,0.6,Do all students threshold?
+281,0,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all candidates interview?
+281,1,No,No,Unknown,0,0.75,0.8,0.6,Do all candidates position?
+282,0,Unknown,Unknown,Yes,1,1.0,0.2,1.0,Do all interns team?
+282,1,Unknown,Unknown,Unknown,0,1.0,1.0,1.0,Do all interns receives mentor feedback?
+283,0,B,B,Unknown,0,1.0,1.0,0.8,"Based on the premises, which statement is correct?
+A. Every student studies regularly.
+B. It cannot be determined whether every student studies regularly.
+C. No student studies regularly.
+D. Every student who solves the problems must studies."
+283,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? If a student solves the problems, then the student studies regularly."
+284,0,Yes,Yes,Yes,1,0.6,1.0,0.6,Do all employees receives security clearance?
+284,1,No,No,No,1,1.0,1.0,0.6,Does at least one employee accesses sensitive data?
+285,0,B,B,Unknown,0,1.0,0.8,0.6,"Based on the premises, which statement is correct?
+A. Every participant registers for the program.
+B. It cannot be determined whether every participant registers for the program.
+C. No participant registers for the program.
+D. Every participant who finishes all modules must registers."
+285,1,No,No,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? If a participant finishes all modules, then the participant registers for the program."
+286,0,No,No,No,1,1.0,0.8,1.0,Does at least one researcher literature?
+286,1,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all researchers publishes a paper?
+287,0,A,A,Unknown,0,0.0,0.0,0.4,"Based on the premises, which statement is correct?
+A. No volunteer attends the training session.
+B. Every volunteer attends the training session.
+C. At least one volunteer attends the training session.
+D. It cannot be determined whether any volunteer attends the training session."
+287,1,Yes,Yes,Unknown,0,1.0,1.0,0.8,"According to the premises, is the following statement true? No volunteer attends the training session."
+288,0,Unknown,Unknown,Unknown,0,0.0,0.0,0.8,Do all teachers curriculum?
+288,1,Yes,Unknown,Yes,1,1.0,1.0,1.0,Do all teachers assignments?
+289,0,C,B,C,1,1.0,1.0,0.6,"Based on the premises, which statement can be inferred?
+A. Every trainee attends the seminar.
+B. At least one trainee completes the workshop.
+C. No trainee attends the seminar.
+D. Some trainees submits a portfolio."
+289,1,No,Yes,No,1,1.0,1.0,1.0,"According to the premises, is the following statement true? At least one trainee completes the workshop."
+290,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every researcher analyzes the data.
+B. No researcher analyzes the data.
+C. Only some researchers analyzes the data.
+D. The premises do not support any conclusion about analyzesing."
+290,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every researcher conducts experiments."
+291,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every intern writes the internship report.
+B. No intern writes the internship report.
+C. Only some interns writes the internship report.
+D. The premises do not support any conclusion about writesing."
+291,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every intern receives mentor feedback."
+292,0,Yes,Unknown,Yes,1,1.0,1.0,0.8,Do all participants program?
+292,1,Unknown,Unknown,Unknown,0,0.0,0.0,0.6,Do all participants finishes all modules?
+293,0,Yes,Unknown,Yes,1,1.0,1.0,1.0,Do all candidates application?
+293,1,No,No,Unknown,0,1.0,1.0,0.6,Do all candidates interview?
+294,0,C,B,C,1,1.0,0.8,0.4,"Based on the premises, which statement can be inferred?
+A. Every student completes the coursework.
+B. At least one student passes the final exam.
+C. No student completes the coursework.
+D. Some students earns course credit."
+294,1,No,Yes,No,1,1.0,1.0,0.8,"According to the premises, is the following statement true? At least one student passes the final exam."
+295,0,No,Unknown,No,1,1.0,1.0,0.6,Does at least one teacher curriculum?
+295,1,Yes,Yes,Yes,1,1.0,1.0,0.8,Do all teachers academic term?
+296,0,D,D,Unknown,0,1.0,0.6,0.6,"Based on the premises, which statement is correct?
+A. No researcher identifies a research gap.
+B. Every researcher identifies a research gap.
+C. At least one researcher identifies a research gap.
+D. It cannot be determined whether any researcher identifies a research gap."
+296,1,Yes,Yes,Unknown,0,1.0,1.0,0.6,"According to the premises, is the following statement true? No researcher identifies a research gap."
+297,0,No,No,No,1,1.0,1.0,0.8,Does at least one researcher writes a research proposal?
+297,1,Yes,Yes,Yes,1,1.0,1.0,1.0,Do all researchers presents at a conference?
+298,0,A,A,A,1,1.0,1.0,1.0,"Based on the premises, which statement can be inferred?
+A. Every researcher collects data.
+B. No researcher collects data.
+C. Only some researchers collects data.
+D. The premises do not support any conclusion about collectsing."
+298,1,Yes,Yes,Yes,1,1.0,1.0,1.0,"According to the premises, is the following statement true? Every researcher designs a study."
+299,0,A,A,Unknown,0,1.0,1.0,0.8,"Based on the premises, which statement is correct?
+A. No employee passes the probation period.
+B. Every employee passes the probation period.
+C. At least one employee passes the probation period.
+D. It cannot be determined whether any employee passes the probation period."
+299,1,Yes,Yes,Yes,1,0.8,1.0,0.8,"According to the premises, is the following statement true? No employee passes the probation period."
