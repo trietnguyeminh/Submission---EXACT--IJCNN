@@ -1,0 +1,117 @@
+{
+  "artifact_risk": "LOW_RELOADED_SAVED_PREDS",
+  "overfit_risk": "LOWER_THAN_V34_POST_SWEEP_FILTER",
+  "rule_provenance": "No new sweep; only filters the 7 v34-selected flips with semantic guards and fallback certificate.",
+  "label_collapse": false,
+  "underfit_risk": "STILL_HIGH_MC_UNTOUCHED_AND_YES_NO_RESIDUAL",
+  "version": "v34_2_risk_report",
+  "final_decision": "SELECT_V34_2",
+  "metrics": {
+    "n": 156,
+    "acc": 0.6602564102564102,
+    "macro_f1": 0.6098313451254628,
+    "weighted_f1": 0.654243443836204,
+    "mc_macro": 0.551470588235294,
+    "ynu_macro": 0.6876456876456877,
+    "per_label": {
+      "A": {
+        "precision": 0.8125,
+        "recall": 0.4642857142857143,
+        "f1": 0.5909090909090908,
+        "support": 28,
+        "pred_count": 16
+      },
+      "B": {
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1": 0.7058823529411765,
+        "support": 8,
+        "pred_count": 9
+      },
+      "C": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.3636363636363636,
+        "support": 6,
+        "pred_count": 5
+      },
+      "D": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support": 5,
+        "pred_count": 6
+      },
+      "Yes": {
+        "precision": 0.59375,
+        "recall": 0.5588235294117647,
+        "f1": 0.5757575757575757,
+        "support": 34,
+        "pred_count": 32
+      },
+      "No": {
+        "precision": 0.6363636363636364,
+        "recall": 0.7,
+        "f1": 0.6666666666666666,
+        "support": 40,
+        "pred_count": 44
+      },
+      "Unknown": {
+        "precision": 0.7441860465116279,
+        "recall": 0.9142857142857143,
+        "f1": 0.8205128205128205,
+        "support": 35,
+        "pred_count": 43
+      }
+    },
+    "gold_count": {
+      "A": 28,
+      "Yes": 34,
+      "C": 6,
+      "B": 8,
+      "No": 40,
+      "Unknown": 35,
+      "D": 5
+    },
+    "pred_count": {
+      "A": 16,
+      "Yes": 32,
+      "C": 5,
+      "Unknown": 43,
+      "No": 44,
+      "B": 9,
+      "D": 6,
+      "UNPARSEABLE": 1
+    }
+  },
+  "kept_flips": [
+    132,
+    146,
+    150
+  ],
+  "removed_flips": [
+    [
+      69,
+      "fallback_G1 statement_form"
+    ],
+    [
+      79,
+      "fallback_G2 negative_near_conclusion"
+    ],
+    [
+      141,
+      "fallback_G4 insufficient_supports:[3, 4]"
+    ],
+    [
+      144,
+      "fallback_G2 negative_near_conclusion"
+    ]
+  ],
+  "delta_vs_v32_2": {
+    "acc": 0.019230769230769162,
+    "macro_f1": 0.012972796224027805,
+    "weighted_f1": 0.020676003434624057,
+    "mc_macro": 0.0,
+    "ynu_macro": 0.03026985785606473
+  }
+}
