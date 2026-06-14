@@ -1,0 +1,155 @@
+7.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.8s 3 0.00s - to python to disable frozen modules.
+7.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.5s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.5s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.5s 7 0.00s - to python to disable frozen modules.
+8.5s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+14.7s 9 OUT_DIR = /kaggle/working
+14.7s 10 RUN_INFERENCE = True
+14.7s 11 MAX_SAMPLES_PER_DATASET = None
+14.7s 12 Utilities ready.
+14.7s 13 v35 symbolic engine ready.
+14.7s 14 Model loader ready.
+14.8s 15 Dataset runner ready.
+14.9s 16 
+14.9s 17 ================================================================================
+14.9s 18 DATASET: generated_v4style_300
+14.9s 19 PATH: /kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json
+14.9s 20 flattened samples: 600 gold: Counter({'Unknown': 175, 'Yes': 170, 'No': 105, 'B': 50, 'A': 50, 'C': 25, 'D': 25}) is_mc: 150
+39.3s 21 Loading tokenizer: /kaggle/input/datasets/yixuanisthebest/v2333333
+40.2s 22 `torch_dtype` is deprecated! Use `dtype` instead!
+40.2s 23 
+40.2s 24 `torch_dtype` is deprecated! Use `dtype` instead!
+40.3s 25 Loading base model: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1 dtype= torch.float16 cuda= True
+79.4s 26 Loading LoRA adapter: /kaggle/input/datasets/yixuanisthebest/v2333333
+83.6s 27 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+83.6s 28 
+83.6s 29 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+366.5s 30 checkpoint generated_v4style_300: 25/600 elapsed=5.9m
+671.1s 31 checkpoint generated_v4style_300: 50/600 elapsed=10.9m
+952.4s 32 checkpoint generated_v4style_300: 75/600 elapsed=15.6m
+1289.5s 33 checkpoint generated_v4style_300: 100/600 elapsed=21.2m
+1567.3s 34 checkpoint generated_v4style_300: 125/600 elapsed=25.9m
+1885.9s 35 checkpoint generated_v4style_300: 150/600 elapsed=31.2m
+2223.2s 36 checkpoint generated_v4style_300: 175/600 elapsed=36.8m
+2577.0s 37 checkpoint generated_v4style_300: 200/600 elapsed=42.7m
+2871.3s 38 checkpoint generated_v4style_300: 225/600 elapsed=47.6m
+3171.8s 39 checkpoint generated_v4style_300: 250/600 elapsed=52.6m
+3497.6s 40 checkpoint generated_v4style_300: 275/600 elapsed=58.0m
+3862.5s 41 checkpoint generated_v4style_300: 300/600 elapsed=64.1m
+4172.5s 42 checkpoint generated_v4style_300: 325/600 elapsed=69.3m
+4491.9s 43 checkpoint generated_v4style_300: 350/600 elapsed=74.6m
+4819.0s 44 checkpoint generated_v4style_300: 375/600 elapsed=80.1m
+5121.4s 45 checkpoint generated_v4style_300: 400/600 elapsed=85.1m
+5488.6s 46 checkpoint generated_v4style_300: 425/600 elapsed=91.2m
+5776.2s 47 checkpoint generated_v4style_300: 450/600 elapsed=96.0m
+6072.0s 48 checkpoint generated_v4style_300: 475/600 elapsed=100.9m
+6405.8s 49 checkpoint generated_v4style_300: 500/600 elapsed=106.5m
+6741.4s 50 checkpoint generated_v4style_300: 525/600 elapsed=112.1m
+7090.8s 51 checkpoint generated_v4style_300: 550/600 elapsed=117.9m
+7412.1s 52 checkpoint generated_v4style_300: 575/600 elapsed=123.3m
+7711.5s 53 checkpoint generated_v4style_300: 600/600 elapsed=128.3m
+7711.5s 54 generated_v4style_300: raw acc=0.6100, parsefix acc=0.6100, v35 acc=0.6233
+7711.5s 55 generated_v4style_300: raw macro7=0.5735, parsefix macro7=0.5735, v35 macro7=0.5809
+7711.5s 56 generated_v4style_300: v35 flips=8 good=8 bad=0
+7711.5s 57 saved: /kaggle/working/rebuild_generated_v4style_300_preds.json /kaggle/working/rebuild_generated_v4style_300_summary.json /kaggle/working/rebuild_generated_v4style_300_confusion_v35.csv /kaggle/working/rebuild_generated_v4style_300_error_cases_preview.json
+7711.5s 58 
+7711.5s 59 ================================================================================
+7711.5s 60 DATASET: benchmark_v2_1000
+7711.5s 61 PATH: /kaggle/input/datasets/nguyenminhtric/test-pipeline/benchmark_v2_1000.json
+7711.7s 62 flattened samples: 2000 gold: Counter({'Unknown': 500, 'No': 500, 'Yes': 500, 'C': 125, 'A': 125, 'B': 125, 'D': 125}) is_mc: 500
+7970.2s 63 checkpoint benchmark_v2_1000: 25/2000 elapsed=4.3m
+8212.4s 64 checkpoint benchmark_v2_1000: 50/2000 elapsed=8.3m
+8515.8s 65 checkpoint benchmark_v2_1000: 75/2000 elapsed=13.4m
+8778.1s 66 checkpoint benchmark_v2_1000: 100/2000 elapsed=17.8m
+9102.9s 67 checkpoint benchmark_v2_1000: 125/2000 elapsed=23.2m
+9401.4s 68 checkpoint benchmark_v2_1000: 150/2000 elapsed=28.2m
+9694.7s 69 checkpoint benchmark_v2_1000: 175/2000 elapsed=33.1m
+9991.9s 70 checkpoint benchmark_v2_1000: 200/2000 elapsed=38.0m
+10303.4s 71 checkpoint benchmark_v2_1000: 225/2000 elapsed=43.2m
+10600.1s 72 checkpoint benchmark_v2_1000: 250/2000 elapsed=48.1m
+10909.8s 73 checkpoint benchmark_v2_1000: 275/2000 elapsed=53.3m
+11183.0s 74 checkpoint benchmark_v2_1000: 300/2000 elapsed=57.9m
+11461.6s 75 checkpoint benchmark_v2_1000: 325/2000 elapsed=62.5m
+11757.5s 76 checkpoint benchmark_v2_1000: 350/2000 elapsed=67.4m
+12091.7s 77 checkpoint benchmark_v2_1000: 375/2000 elapsed=73.0m
+12380.1s 78 checkpoint benchmark_v2_1000: 400/2000 elapsed=77.8m
+12681.3s 79 checkpoint benchmark_v2_1000: 425/2000 elapsed=82.8m
+13009.2s 80 checkpoint benchmark_v2_1000: 450/2000 elapsed=88.3m
+13308.9s 81 checkpoint benchmark_v2_1000: 475/2000 elapsed=93.3m
+13652.2s 82 checkpoint benchmark_v2_1000: 500/2000 elapsed=99.0m
+13965.9s 83 checkpoint benchmark_v2_1000: 525/2000 elapsed=104.2m
+14250.3s 84 checkpoint benchmark_v2_1000: 550/2000 elapsed=109.0m
+14599.7s 85 checkpoint benchmark_v2_1000: 575/2000 elapsed=114.8m
+14916.4s 86 checkpoint benchmark_v2_1000: 600/2000 elapsed=120.1m
+15231.7s 87 checkpoint benchmark_v2_1000: 625/2000 elapsed=125.3m
+15541.2s 88 checkpoint benchmark_v2_1000: 650/2000 elapsed=130.5m
+15829.7s 89 checkpoint benchmark_v2_1000: 675/2000 elapsed=135.3m
+16123.8s 90 checkpoint benchmark_v2_1000: 700/2000 elapsed=140.2m
+16411.1s 91 checkpoint benchmark_v2_1000: 725/2000 elapsed=145.0m
+16683.0s 92 checkpoint benchmark_v2_1000: 750/2000 elapsed=149.5m
+17010.6s 93 checkpoint benchmark_v2_1000: 775/2000 elapsed=155.0m
+17345.9s 94 checkpoint benchmark_v2_1000: 800/2000 elapsed=160.6m
+17650.4s 95 checkpoint benchmark_v2_1000: 825/2000 elapsed=165.6m
+17945.5s 96 checkpoint benchmark_v2_1000: 850/2000 elapsed=170.6m
+18260.8s 97 checkpoint benchmark_v2_1000: 875/2000 elapsed=175.8m
+18550.7s 98 checkpoint benchmark_v2_1000: 900/2000 elapsed=180.6m
+18858.3s 99 checkpoint benchmark_v2_1000: 925/2000 elapsed=185.8m
+19151.4s 100 checkpoint benchmark_v2_1000: 950/2000 elapsed=190.7m
+19457.4s 101 checkpoint benchmark_v2_1000: 975/2000 elapsed=195.8m
+19726.1s 102 checkpoint benchmark_v2_1000: 1000/2000 elapsed=200.2m
+19984.9s 103 checkpoint benchmark_v2_1000: 1025/2000 elapsed=204.6m
+20267.0s 104 checkpoint benchmark_v2_1000: 1050/2000 elapsed=209.3m
+20552.1s 105 checkpoint benchmark_v2_1000: 1075/2000 elapsed=214.0m
+20871.5s 106 checkpoint benchmark_v2_1000: 1100/2000 elapsed=219.3m
+21185.3s 107 checkpoint benchmark_v2_1000: 1125/2000 elapsed=224.6m
+21451.3s 108 checkpoint benchmark_v2_1000: 1150/2000 elapsed=229.0m
+21778.1s 109 checkpoint benchmark_v2_1000: 1175/2000 elapsed=234.4m
+22103.8s 110 checkpoint benchmark_v2_1000: 1200/2000 elapsed=239.9m
+22418.8s 111 checkpoint benchmark_v2_1000: 1225/2000 elapsed=245.1m
+22712.2s 112 checkpoint benchmark_v2_1000: 1250/2000 elapsed=250.0m
+22977.3s 113 checkpoint benchmark_v2_1000: 1275/2000 elapsed=254.4m
+23283.3s 114 checkpoint benchmark_v2_1000: 1300/2000 elapsed=259.5m
+23615.1s 115 checkpoint benchmark_v2_1000: 1325/2000 elapsed=265.1m
+23924.3s 116 checkpoint benchmark_v2_1000: 1350/2000 elapsed=270.2m
+24268.4s 117 checkpoint benchmark_v2_1000: 1375/2000 elapsed=275.9m
+24614.5s 118 checkpoint benchmark_v2_1000: 1400/2000 elapsed=281.7m
+24908.9s 119 checkpoint benchmark_v2_1000: 1425/2000 elapsed=286.6m
+25234.9s 120 checkpoint benchmark_v2_1000: 1450/2000 elapsed=292.1m
+25520.5s 121 checkpoint benchmark_v2_1000: 1475/2000 elapsed=296.8m
+25846.5s 122 checkpoint benchmark_v2_1000: 1500/2000 elapsed=302.2m
+26123.0s 123 checkpoint benchmark_v2_1000: 1525/2000 elapsed=306.9m
+26415.2s 124 checkpoint benchmark_v2_1000: 1550/2000 elapsed=311.7m
+26687.4s 125 checkpoint benchmark_v2_1000: 1575/2000 elapsed=316.3m
+27034.6s 126 checkpoint benchmark_v2_1000: 1600/2000 elapsed=322.0m
+27367.5s 127 checkpoint benchmark_v2_1000: 1625/2000 elapsed=327.6m
+27653.0s 128 checkpoint benchmark_v2_1000: 1650/2000 elapsed=332.4m
+27979.1s 129 checkpoint benchmark_v2_1000: 1675/2000 elapsed=337.8m
+28290.1s 130 checkpoint benchmark_v2_1000: 1700/2000 elapsed=343.0m
+28626.1s 131 checkpoint benchmark_v2_1000: 1725/2000 elapsed=348.6m
+28912.4s 132 checkpoint benchmark_v2_1000: 1750/2000 elapsed=353.3m
+29207.4s 133 checkpoint benchmark_v2_1000: 1775/2000 elapsed=358.3m
+29513.7s 134 checkpoint benchmark_v2_1000: 1800/2000 elapsed=363.4m
+29801.6s 135 checkpoint benchmark_v2_1000: 1825/2000 elapsed=368.2m
+30091.7s 136 checkpoint benchmark_v2_1000: 1850/2000 elapsed=373.0m
+30429.6s 137 checkpoint benchmark_v2_1000: 1875/2000 elapsed=378.6m
+30658.5s 138 checkpoint benchmark_v2_1000: 1900/2000 elapsed=382.4m
+30973.7s 139 checkpoint benchmark_v2_1000: 1925/2000 elapsed=387.7m
+31279.1s 140 checkpoint benchmark_v2_1000: 1950/2000 elapsed=392.8m
+31620.3s 141 checkpoint benchmark_v2_1000: 1975/2000 elapsed=398.5m
+31952.3s 142 checkpoint benchmark_v2_1000: 2000/2000 elapsed=404.0m
+31952.4s 143 benchmark_v2_1000: raw acc=0.8110, parsefix acc=0.8110, v35 acc=0.8500
+31952.4s 144 benchmark_v2_1000: raw macro7=0.7933, parsefix macro7=0.7933, v35 macro7=0.8162
+31952.4s 145 benchmark_v2_1000: v35 flips=82 good=80 bad=2
+31952.4s 146 saved: /kaggle/working/rebuild_benchmark_v2_1000_preds.json /kaggle/working/rebuild_benchmark_v2_1000_summary.json /kaggle/working/rebuild_benchmark_v2_1000_confusion_v35.csv /kaggle/working/rebuild_benchmark_v2_1000_error_cases_preview.json
+31952.4s 147 COMBINED SAVED: /kaggle/working/rebuild_combined_summary.json /kaggle/working/rebuild_v35_risk_report.json
+31958.6s 148 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+31958.6s 149 cells[i][c] = re.sub('\\\\\|', '|', cell)
+31958.8s 150 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+31958.8s 151 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+31959.5s 152 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+31959.9s 153 [NbConvertApp] Writing 55800 bytes to __notebook__.ipynb
+31962.7s 154 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+31963.8s 155 [NbConvertApp] Writing 425787 bytes to __results__.html
