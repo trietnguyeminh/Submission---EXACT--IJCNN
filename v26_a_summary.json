@@ -1,0 +1,98 @@
+{
+  "version": "v26_a_conservative",
+  "note": "Worst-case A: freeze MC, base YNU, conservative text repair only.",
+  "params": {
+    "w_vote": 1.0,
+    "w_cite": 0.3,
+    "w_short_supp": 0.15,
+    "yes_boost": 0.3,
+    "no_penalty": 0.15,
+    "unk_penalty": 0.35,
+    "p_long_supp": 0.2,
+    "p_contra_text": 0.4
+  },
+  "debug_loaded": true,
+  "option_preds_count": 47,
+  "missing_debug_count": 0,
+  "metric": {
+    "name": "v26_a_conservative_repair",
+    "n": 156,
+    "acc": 0.5384615384615384,
+    "macro_f1": 0.47863163565072325,
+    "weighted_f1": 0.5235850092448483,
+    "mc_macro_f1": 0.4074786324786325,
+    "ynu_macro_f1": 0.5735023065468442,
+    "per_label": {
+      "A": {
+        "precision": 0.875,
+        "recall": 0.25,
+        "f1": 0.3888888888888889,
+        "support": 28,
+        "pred_count": 8,
+        "tp": 7,
+        "fp": 1,
+        "fn": 21
+      },
+      "B": {
+        "precision": 0.5714285714285714,
+        "recall": 0.5,
+        "f1": 0.5333333333333333,
+        "support": 8,
+        "pred_count": 7,
+        "tp": 4,
+        "fp": 3,
+        "fn": 4
+      },
+      "C": {
+        "precision": 0.2857142857142857,
+        "recall": 0.3333333333333333,
+        "f1": 0.30769230769230765,
+        "support": 6,
+        "pred_count": 7,
+        "tp": 2,
+        "fp": 5,
+        "fn": 4
+      },
+      "D": {
+        "precision": 0.4,
+        "recall": 0.4,
+        "f1": 0.4000000000000001,
+        "support": 5,
+        "pred_count": 5,
+        "tp": 2,
+        "fp": 3,
+        "fn": 3
+      },
+      "Yes": {
+        "precision": 0.4838709677419355,
+        "recall": 0.4411764705882353,
+        "f1": 0.4615384615384615,
+        "support": 34,
+        "pred_count": 31,
+        "tp": 15,
+        "fp": 16,
+        "fn": 19
+      },
+      "No": {
+        "precision": 0.5306122448979592,
+        "recall": 0.65,
+        "f1": 0.5842696629213483,
+        "support": 40,
+        "pred_count": 49,
+        "tp": 26,
+        "fp": 23,
+        "fn": 14
+      },
+      "Unknown": {
+        "precision": 0.5833333333333334,
+        "recall": 0.8,
+        "f1": 0.674698795180723,
+        "support": 35,
+        "pred_count": 48,
+        "tp": 28,
+        "fp": 20,
+        "fn": 7
+      }
+    }
+  }
+}
