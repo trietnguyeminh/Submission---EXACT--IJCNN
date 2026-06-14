@@ -1,0 +1,131 @@
+7.3s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.3s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.3s 3 0.00s - to python to disable frozen modules.
+7.3s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.9s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.9s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.9s 7 0.00s - to python to disable frozen modules.
+7.9s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.0s 9 DATA_PATH: /kaggle/input/datasets/nguyenminhtric/test-pipeline/Logic_Based_Educational_Queries_v5_repair_tier1_dedup_normfol_drop_logicfallacy.json exists= True
+9.0s 10 TEST_PATH: /kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json exists= True
+9.0s 11 OUT_DIR: /kaggle/working
+9.1s 12 Loaded data_rows: 399
+9.1s 13 Loaded test_rows: 300
+9.1s 14 First test keys: ['answers', 'explanation', 'idx', 'premises-FOL', 'premises-NL', 'questions']
+9.1s 15 {"idx": [[1, 2], [3, 4]], "premises-FOL": ["∀x (EnrollsInCourse(x) → AttendsAllLectures(x))", "∃x (AttendsAllLectures(x))", "∀x (SubmitsAllAssignments(x) → AchievesHighGPA(x))", "∀x (AchievesHighGPA(x))", "∃x (ReceivesScholarship(x))", "∀x (ReadsSupplementaryMaterial(x) → TakesTutoringSession(x))", "∀x (CompletesInternship(x))", "∃x (AttendsPeerReview(x))", "∃x (TakesTutoringSession(x))"], "premises-NL": ["If a student enrolls in the course, then the student attends all lectures.", "At least one student attends all lectures.", "If a student submits all assignments, then the student achieves a high GPA.", "Every student achieves a high GPA.", "At least one student receives a scholarship.", "If a student reads supplementary material, then the student takes a tutoring session.", "Every student completes an internship.", "At least one student attends a peer review session.", "At least one student takes a tutoring session."], "questions": ["Do all students course?", "Do all students submits all assignments?"], "answers": ["Unknown", "Unknown"], "explanation": ["Premise 1 gives EnrollsInCourse→AttendsAllLectures and premise 2 gives ∃x AttendsAllLectures(x). There is no premise stating AttendsAllLectures→EnrollsInCourse. Knowing AttendsAllLectures exists does not let us conclude EnrollsInCourse. Also no ∀x EnrollsInCourse(x) premise. The answer is Unknown.", "Premise 3 gives SubmitsAllAssignments→AchievesHighGPA and premise 4 gives ∀x AchievesHighGPA(x). However, knowing ∀x AchievesHighGPA(x) does not allow reversing to ∀x SubmitsAllAssignments(x). That would be affirming the consequent. The answer is Unknown."]}
+9.1s 16 Gold availability: 0 / 300
+9.1s 17 MC count: 0 YNU count: 300
+9.1s 18 Gold distribution: Counter({'NO_GOLD': 300})
+9.1s 19 Prompt preview:
+9.1s 20 You are solving a logic-based educational QA problem. Use only the given premises. Do not use outside knowledge.
+9.1s 21 
+9.1s 22 Question:
+9.1s 23 
+9.1s 24 
+9.1s 25 Options:
+9.1s 26 A. Unknown
+9.1s 27 B. Unknown
+9.1s 28 
+9.1s 29 Reason step by step briefly, cite supporting premises if useful, and end with exactly one line: Final Answer: <Yes, No, or Unknown>
+9.1s 30 Model candidates (top 10):
+9.1s 31 /kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1
+9.1s 32 Adapter candidates (top 10):
+9.1s 33 /kaggle/input/datasets/yixuanisthebest/v2333333
+9.1s 34 Using BASE_MODEL_PATH: /kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1
+9.1s 35 Using ADAPTER_PATH: /kaggle/input/datasets/yixuanisthebest/v2333333
+168.1s 36 MODEL LOADED: sharded_dtype
+168.1s 37 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+168.1s 38 
+168.1s 39 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+176.0s 40 [1/300] pred=Unknown gold=None source=generated avg_latency=7.69s
+259.4s 41 [10/300] pred=Yes gold=None source=generated avg_latency=9.11s
+389.8s 42 [20/300] pred=Yes gold=None source=generated avg_latency=11.07s
+521.4s 43 [30/300] pred=Yes gold=None source=generated avg_latency=11.77s
+632.2s 44 [40/300] pred=Unknown gold=None source=generated avg_latency=11.60s
+731.5s 45 [50/300] pred=Unknown gold=None source=generated avg_latency=11.26s
+873.6s 46 [60/300] pred=Unknown gold=None source=generated avg_latency=11.76s
+1049.5s 47 [70/300] pred=Unknown gold=None source=generated avg_latency=12.59s
+1149.9s 48 [80/300] pred=Yes gold=None source=generated avg_latency=12.27s
+1317.0s 49 [90/300] pred=Unknown gold=None source=generated avg_latency=12.76s
+1444.4s 50 [100/300] pred=Yes gold=None source=generated avg_latency=12.76s
+1579.4s 51 [110/300] pred=Yes gold=None source=generated avg_latency=12.83s
+1667.4s 52 [120/300] pred=Unknown gold=None source=generated avg_latency=12.49s
+1752.7s 53 [130/300] pred=Unknown gold=None source=generated avg_latency=12.19s
+1928.1s 54 [140/300] pred=Unknown gold=None source=generated avg_latency=12.57s
+2074.4s 55 [150/300] pred=Yes gold=None source=generated avg_latency=12.71s
+2180.1s 56 [160/300] pred=Yes gold=None source=generated avg_latency=12.57s
+2289.6s 57 [170/300] pred=Yes gold=None source=generated avg_latency=12.48s
+2425.3s 58 [180/300] pred=A gold=None source=generated avg_latency=12.54s
+2524.6s 59 [190/300] pred=Unknown gold=None source=generated avg_latency=12.40s
+2648.2s 60 [200/300] pred=Unknown gold=None source=generated avg_latency=12.40s
+2794.2s 61 [210/300] pred=Unknown gold=None source=generated avg_latency=12.50s
+2959.9s 62 [220/300] pred=Unknown gold=None source=generated avg_latency=12.69s
+3098.9s 63 [230/300] pred=Unknown gold=None source=generated avg_latency=12.74s
+3226.6s 64 [240/300] pred=Unknown gold=None source=generated avg_latency=12.74s
+3399.9s 65 [250/300] pred=Unknown gold=None source=generated avg_latency=12.93s
+3533.1s 66 [260/300] pred=Unknown gold=None source=generated avg_latency=12.94s
+3665.4s 67 [270/300] pred=Yes gold=None source=generated avg_latency=12.95s
+3762.5s 68 [280/300] pred=Yes gold=None source=generated avg_latency=12.84s
+3895.4s 69 [290/300] pred=A gold=None source=generated avg_latency=12.85s
+4025.8s 70 [300/300] pred=Unknown gold=None source=generated avg_latency=12.86s
+4025.8s 71 Total inference/eval time sec: 3857.69
+4025.8s 72 Saved preds: /kaggle/working/full_model_eval_preds.json
+4025.8s 73 Saved summary: /kaggle/working/full_model_eval_summary.json
+4025.8s 74 Saved error cases: /kaggle/working/full_model_eval_error_cases.json
+4025.9s 75 
+4025.9s 76 ================ OVERALL ================
+4025.9s 77 Rows: 300
+4025.9s 78 Gold available: 0
+4025.9s 79 Prediction distribution: {'Unknown': 145, 'Yes': 130, 'A': 25}
+4025.9s 80 Gold distribution: {'NO_GOLD': 300}
+4025.9s 81 UNPARSEABLE: 0 (0.00%)
+4025.9s 82 Latency mean/sec: 12.858907779057821
+4025.9s 83 
+4025.9s 84 ================ ALL METRICS ================
+4025.9s 85 n: 0
+4025.9s 86 correct: 0
+4025.9s 87 accuracy: None
+4025.9s 88 micro_f1: None
+4025.9s 89 macro_f1: None
+4025.9s 90 weighted_f1: None
+4025.9s 91 
+4025.9s 92 ================ MC METRICS ================
+4025.9s 93 n: 0
+4025.9s 94 correct: 0
+4025.9s 95 accuracy: None
+4025.9s 96 micro_f1: None
+4025.9s 97 macro_f1: 0.0
+4025.9s 98 weighted_f1: None
+4025.9s 99 
+4025.9s 100 ================ YNU METRICS ================
+4025.9s 101 n: 0
+4025.9s 102 correct: 0
+4025.9s 103 accuracy: None
+4025.9s 104 micro_f1: None
+4025.9s 105 macro_f1: 0.0
+4025.9s 106 weighted_f1: None
+4025.9s 107 
+4025.9s 108 ================ CONFUSION MATRIX: rows=gold, cols=pred ================
+4025.9s 109 Saved confusion matrix: /kaggle/working/full_model_eval_confusion_matrix.csv
+4025.9s 110 Saved per-label metrics: /kaggle/working/full_model_eval_per_label_metrics.csv
+4025.9s 111 
+4025.9s 112 ================ ERROR CASES PREVIEW ================
+4025.9s 113 No errors, or gold labels unavailable.
+4025.9s 114 Rows by source:
+4026.0s 115 
+4026.0s 116 Rows by pred/is_mc:
+4026.0s 117 
+4026.0s 118 Output files:
+4026.0s 119 /kaggle/working/full_model_eval_preds.json
+4026.0s 120 /kaggle/working/full_model_eval_summary.json
+4026.0s 121 /kaggle/working/full_model_eval_confusion_matrix.csv
+4026.0s 122 /kaggle/working/full_model_eval_per_label_metrics.csv
+4026.0s 123 /kaggle/working/full_model_eval_error_cases.json
+4031.1s 124 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+4031.1s 125 cells[i][c] = re.sub('\\\\\|', '|', cell)
+4031.2s 126 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+4031.2s 127 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+4031.9s 128 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+4032.2s 129 [NbConvertApp] Writing 66231 bytes to __notebook__.ipynb
+4034.5s 130 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+4035.4s 131 [NbConvertApp] Writing 428779 bytes to __results__.html
