@@ -1,0 +1,1201 @@
+flat_id,row_i,q_i,gold,is_mc,question_type,target_predicate_guess,target_score,answer_explanation_mismatch,has_direct_fol_conflict,grammar_flags,expected_verifier_rules,question
+generated_v4style_300_0_0,0,0,Unknown,False,universal,AttendsAllLectures,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students course?
+generated_v4style_300_0_1,0,1,Unknown,False,universal,SubmitsAllAssignments,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students submits all assignments?
+generated_v4style_300_1_0,1,0,Yes,False,universal,ReviewsMistakes,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students reviews mistakes?
+generated_v4style_300_1_1,1,1,No,False,existential,ImprovesTechnique,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one student improves technique?
+generated_v4style_300_2_0,2,0,Yes,False,universal,DesignsStudy,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all researchers designs a study?
+generated_v4style_300_2_1,2,1,Unknown,False,universal,PublishesPaper,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers publishes a paper?
+generated_v4style_300_3_0,3,0,B,True,mc,CompletesGroupProject,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one student joins the study group.
+B. No student joins the study group.
+C. Every student completes the group project.
+D. At least one student completes the group project."
+generated_v4style_300_3_1,3,1,Unknown,False,universal,ReceivesGroupGrade,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every student receives the group grade."
+generated_v4style_300_4_0,4,0,No,False,existential,WritesCode,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one developer code?
+generated_v4style_300_4_1,4,1,Yes,False,universal,DeploysToProduction,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all developers deploys to production?
+generated_v4style_300_5_0,5,0,A,True,mc,AccessesSensitiveData,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every employee accesses sensitive data.
+B. No employee accesses sensitive data.
+C. Only some employees accesses sensitive data.
+D. The premises do not support any conclusion about accessesing."
+generated_v4style_300_5_1,5,1,Yes,False,universal,ReceivesClearance,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every employee receives security clearance."
+generated_v4style_300_6_0,6,0,B,True,mc,CompletesCoursework,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student completes the coursework.
+B. It cannot be determined whether every student completes the coursework.
+C. No student completes the coursework.
+D. Every student who earns course credit must completes."
+generated_v4style_300_6_1,6,1,Unknown,False,other_ynu,CompletesCoursework,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student earns course credit, then the student completes the coursework."
+generated_v4style_300_7_0,7,0,A,True,mc,DesignsStudy,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one researcher designs a study.
+B. Every researcher designs a study.
+C. No researcher designs a study.
+D. At least one researcher reads the literature, but nothing about designs a study."
+generated_v4style_300_7_1,7,1,Yes,False,universal,PublishesPaper,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every researcher publishes a paper."
+generated_v4style_300_8_0,8,0,A,True,mc,CollectsData,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every researcher collects data.
+B. No researcher collects data.
+C. Only some researchers collects data.
+D. The premises do not support any conclusion about collectsing."
+generated_v4style_300_8_1,8,1,Yes,False,universal,DesignsStudy,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every researcher designs a study."
+generated_v4style_300_9_0,9,0,A,True,mc,CompletesCoursework,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one student earns course credit.
+B. Every student earns course credit.
+C. No student earns course credit.
+D. At least one student completes the coursework, but nothing about earns course credit."
+generated_v4style_300_9_1,9,1,Yes,False,universal,GraduatesUniversity,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student graduates from the university."
+generated_v4style_300_10_0,10,0,Unknown,False,universal,JoinsStudyGroup,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students study group?
+generated_v4style_300_10_1,10,1,Unknown,False,universal,CompletesGroupProject,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students group project?
+generated_v4style_300_11_0,11,0,A,True,mc,ProvidesFeedback,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one mentor provides feedback.
+B. Every mentor provides feedback.
+C. No mentor provides feedback.
+D. At least one mentor schedules a session, but nothing about provides feedback."
+generated_v4style_300_11_1,11,1,Yes,False,universal,TracksProgress,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every mentor tracks progress."
+generated_v4style_300_12_0,12,0,B,True,mc,CompletesLabWork,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student completes the lab work.
+B. It cannot be determined whether every student completes the lab work.
+C. No student completes the lab work.
+D. Every student who passes the lab component must completes."
+generated_v4style_300_12_1,12,1,Unknown,False,other_ynu,CompletesLabWork,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work."
+generated_v4style_300_13_0,13,0,B,True,mc,PassesCodeReview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every developer writes the code.
+B. It cannot be determined whether every developer writes the code.
+C. No developer writes the code.
+D. Every developer who passes the code review must writes."
+generated_v4style_300_13_1,13,1,Unknown,False,other_ynu,PassesCodeReview,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a developer passes the code review, then the developer writes the code."
+generated_v4style_300_14_0,14,0,Yes,False,universal,SubmitsPortfolio,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all trainees submits a portfolio?
+generated_v4style_300_14_1,14,1,No,False,existential,EarnsCertificate,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one trainee earns a certificate?
+generated_v4style_300_15_0,15,0,Yes,False,universal,PassesCodeReview,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all developers code review?
+generated_v4style_300_15_1,15,1,Unknown,False,universal,DeploysToProduction,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all developers deploys to production?
+generated_v4style_300_16_0,16,0,C,True,mc,CatalogsNewBooks,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every librarian catalogs new books.
+B. At least one librarian updates the database.
+C. No librarian catalogs new books.
+D. Some librarians notifies patrons."
+generated_v4style_300_16_1,16,1,No,False,existential,UpdatesDatabase,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one librarian updates the database."
+generated_v4style_300_17_0,17,0,Unknown,False,universal,CompletesCoursework,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students coursework?
+generated_v4style_300_17_1,17,1,Unknown,False,universal,EarnsCredit,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students earns course credit?
+generated_v4style_300_18_0,18,0,Unknown,False,universal,FinishesAllModules,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all participants program?
+generated_v4style_300_18_1,18,1,Unknown,False,universal,FinishesAllModules,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all participants finishes all modules?
+generated_v4style_300_19_0,19,0,No,False,existential,AttendsComplianceTraining,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one employee attends compliance training?
+generated_v4style_300_19_1,19,1,Yes,False,universal,HandlesClientAccounts,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all employees handles client accounts?
+generated_v4style_300_20_0,20,0,A,True,mc,PerformsWellOnExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student performs well on the exam.
+B. No student performs well on the exam.
+C. Only some students performs well on the exam.
+D. The premises do not support any conclusion about performsing."
+generated_v4style_300_20_1,20,1,Yes,False,universal,SolvesProblems,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student solves the problems."
+generated_v4style_300_21_0,21,0,B,True,mc,EnrollsInCourse,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student enrolls in the course.
+B. It cannot be determined whether every student enrolls in the course.
+C. No student enrolls in the course.
+D. Every student who submits all assignments must enrolls."
+generated_v4style_300_21_1,21,1,Unknown,False,universal,EnrollsInCourse,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student submits all assignments, then the student enrolls in the course."
+generated_v4style_300_22_0,22,0,D,True,mc,PassesFinalExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No student passes the final exam.
+B. Every student passes the final exam.
+C. At least one student passes the final exam.
+D. It cannot be determined whether any student passes the final exam."
+generated_v4style_300_22_1,22,1,Unknown,False,universal_negative,PassesFinalExam,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No student passes the final exam."
+generated_v4style_300_23_0,23,0,Unknown,False,universal,CompletesLabWork,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students lab work?
+generated_v4style_300_23_1,23,1,Unknown,False,universal,PassesLabComponent,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students lab component?
+generated_v4style_300_24_0,24,0,B,True,mc,AssistsWithActivities,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every volunteer signs up for the event.
+B. It cannot be determined whether every volunteer signs up for the event.
+C. No volunteer signs up for the event.
+D. Every volunteer who assists with activities must signs."
+generated_v4style_300_24_1,24,1,Unknown,False,other_ynu,AssistsWithActivities,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a volunteer assists with activities, then the volunteer signs up for the event."
+generated_v4style_300_25_0,25,0,C,True,mc,CompletesOnboarding,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every employee completes the onboarding program.
+B. At least one employee passes the probation period.
+C. No employee completes the onboarding program.
+D. Some employees receives full benefits."
+generated_v4style_300_25_1,25,1,No,False,existential,PassesProbation,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one employee passes the probation period."
+generated_v4style_300_26_0,26,0,Yes,False,universal,SubmitsPortfolio,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all trainees submits a portfolio?
+generated_v4style_300_26_1,26,1,Unknown,False,universal,JoinsProfessionalBody,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all trainees professional body?
+generated_v4style_300_27_0,27,0,No,False,existential,AttendsComplianceTraining,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one employee attends compliance training?
+generated_v4style_300_27_1,27,1,Yes,False,universal,HandlesClientAccounts,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all employees handles client accounts?
+generated_v4style_300_28_0,28,0,Unknown,False,universal,StudiesRegularly,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students studies regularly?
+generated_v4style_300_28_1,28,1,Unknown,False,universal,SolvesProblems,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students problems?
+generated_v4style_300_29_0,29,0,A,True,mc,EnrollsInCourse,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one student submits all assignments.
+B. Every student submits all assignments.
+C. No student submits all assignments.
+D. At least one student enrolls in the course, but nothing about submits all assignments."
+generated_v4style_300_29_1,29,1,Yes,False,universal,ReceivesScholarship,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student receives a scholarship."
+generated_v4style_300_30_0,30,0,No,False,existential,GathersRequirements,0.5,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one analyst requirements?
+generated_v4style_300_30_1,30,1,Yes,False,universal,DeliversReport,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all analysts report?
+generated_v4style_300_31_0,31,0,A,True,mc,AttendsSeminar,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one trainee submits a portfolio.
+B. Every trainee submits a portfolio.
+C. No trainee submits a portfolio.
+D. At least one trainee attends the seminar, but nothing about submits a portfolio."
+generated_v4style_300_31_1,31,1,Yes,False,universal,JoinsProfessionalBody,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every trainee joins the professional body."
+generated_v4style_300_32_0,32,0,Yes,False,universal,SubmitsPortfolio,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all trainees submits a portfolio?
+generated_v4style_300_32_1,32,1,No,False,existential,EarnsCertificate,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one trainee earns a certificate?
+generated_v4style_300_33_0,33,0,No,False,existential,EnrollsInCourse,0.3333333333333333,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student course?
+generated_v4style_300_33_1,33,1,Yes,False,universal,ReceivesScholarship,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students receives a scholarship?
+generated_v4style_300_34_0,34,0,D,True,mc,CompletesAssignedTask,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No intern completes the assigned task.
+B. Every intern completes the assigned task.
+C. At least one intern completes the assigned task.
+D. It cannot be determined whether any intern completes the assigned task."
+generated_v4style_300_34_1,34,1,Unknown,False,universal_negative,CompletesAssignedTask,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No intern completes the assigned task."
+generated_v4style_300_35_0,35,0,A,True,mc,QualifiesForDegree,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student qualifies for the degree.
+B. No student qualifies for the degree.
+C. Only some students qualifies for the degree.
+D. The premises do not support any conclusion about qualifiesing."
+generated_v4style_300_35_1,35,1,Yes,False,universal,EarnsCredit,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student earns course credit."
+generated_v4style_300_36_0,36,0,Yes,False,universal,ConductsExperiment,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all researchers conducts experiments?
+generated_v4style_300_36_1,36,1,No,False,existential,AnalyzesData,0.5,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one researcher data?
+generated_v4style_300_37_0,37,0,No,False,existential,WritesProposal,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one researcher writes a research proposal?
+generated_v4style_300_37_1,37,1,Yes,False,universal,PresentsAtConference,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all researchers presents at a conference?
+generated_v4style_300_38_0,38,0,D,True,mc,UnderstandsConcepts,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No student understands the concepts.
+B. Every student understands the concepts.
+C. At least one student understands the concepts.
+D. It cannot be determined whether any student understands the concepts."
+generated_v4style_300_38_1,38,1,Unknown,False,universal_negative,UnderstandsConcepts,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No student understands the concepts."
+generated_v4style_300_39_0,39,0,B,True,mc,FinishesAllModules,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one participant registers for the program.
+B. No participant registers for the program.
+C. Every participant finishes all modules.
+D. At least one participant finishes all modules."
+generated_v4style_300_39_1,39,1,Unknown,False,universal,PassesCertificationExam,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every participant passes the certification exam."
+generated_v4style_300_40_0,40,0,Yes,False,universal,PassesCodeReview,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all developers code review?
+generated_v4style_300_40_1,40,1,No,False,existential,MergesBranch,0.5,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one developer branch?
+generated_v4style_300_41_0,41,0,Yes,False,universal,ReceivesClearance,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives security clearance?
+generated_v4style_300_41_1,41,1,Unknown,False,universal,HandlesClientAccounts,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees handles client accounts?
+generated_v4style_300_42_0,42,0,No,False,existential,RegistersForExam,0.3333333333333333,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student exam?
+generated_v4style_300_42_1,42,1,Yes,False,universal,ScoresAboveThreshold,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students threshold?
+generated_v4style_300_43_0,43,0,A,True,mc,RegistersForExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one student reviews mistakes.
+B. Every student reviews mistakes.
+C. No student reviews mistakes.
+D. At least one student registers for the exam, but nothing about reviews mistakes."
+generated_v4style_300_43_1,43,1,Yes,False,universal,ScoresAboveThreshold,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student scores above the threshold."
+generated_v4style_300_44_0,44,0,B,True,mc,AssistsWithActivities,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every volunteer signs up for the event.
+B. It cannot be determined whether every volunteer signs up for the event.
+C. No volunteer signs up for the event.
+D. Every volunteer who assists with activities must signs."
+generated_v4style_300_44_1,44,1,Unknown,False,other_ynu,AssistsWithActivities,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a volunteer assists with activities, then the volunteer signs up for the event."
+generated_v4style_300_45_0,45,0,Yes,False,universal,PassesLabComponent,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students lab component?
+generated_v4style_300_45_1,45,1,No,False,existential,MeetsGraduationRequirement,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student graduation requirement?
+generated_v4style_300_46_0,46,0,Unknown,False,universal,StudiesRegularly,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students studies regularly?
+generated_v4style_300_46_1,46,1,Unknown,False,universal,SolvesProblems,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students problems?
+generated_v4style_300_47_0,47,0,B,True,mc,GradesAssignments,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every teacher prepares the curriculum.
+B. It cannot be determined whether every teacher prepares the curriculum.
+C. No teacher prepares the curriculum.
+D. Every teacher who grades the assignments must prepares."
+generated_v4style_300_47_1,47,1,Unknown,False,other_ynu,GradesAssignments,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a teacher grades the assignments, then the teacher prepares the curriculum."
+generated_v4style_300_48_0,48,0,A,True,mc,ReceivesOffer,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every candidate receives an offer.
+B. No candidate receives an offer.
+C. Only some candidates receives an offer.
+D. The premises do not support any conclusion about receivesing."
+generated_v4style_300_48_1,48,1,Yes,False,universal,ClearsInterview,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every candidate clears the interview."
+generated_v4style_300_49_0,49,0,B,True,mc,CompletesGroupProject,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student joins the study group.
+B. It cannot be determined whether every student joins the study group.
+C. No student joins the study group.
+D. Every student who completes the group project must joins."
+generated_v4style_300_49_1,49,1,Unknown,False,other_ynu,CompletesGroupProject,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student completes the group project, then the student joins the study group."
+generated_v4style_300_50_0,50,0,D,True,mc,TakesPracticeTest,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No student takes a practice test.
+B. Every student takes a practice test.
+C. At least one student takes a practice test.
+D. It cannot be determined whether any student takes a practice test."
+generated_v4style_300_50_1,50,1,Unknown,False,universal_negative,TakesPracticeTest,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No student takes a practice test."
+generated_v4style_300_51_0,51,0,Unknown,False,universal,SubmitsApplication,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all candidates application?
+generated_v4style_300_51_1,51,1,Unknown,False,universal,ClearsInterview,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all candidates interview?
+generated_v4style_300_52_0,52,0,A,True,mc,MeetsGraduationRequirement,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student meets the graduation requirement.
+B. No student meets the graduation requirement.
+C. Only some students meets the graduation requirement.
+D. The premises do not support any conclusion about meetsing."
+generated_v4style_300_52_1,52,1,Yes,False,universal,PassesLabComponent,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student passes the lab component."
+generated_v4style_300_53_0,53,0,C,True,mc,PassesCodeReview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every developer writes the code.
+B. At least one developer runs the unit tests.
+C. No developer writes the code.
+D. Some developers passes the code review."
+generated_v4style_300_53_1,53,1,No,False,existential,RunsUnitTests,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one developer runs the unit tests."
+generated_v4style_300_54_0,54,0,A,True,mc,ClearsInterview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one candidate clears the interview.
+B. Every candidate clears the interview.
+C. No candidate clears the interview.
+D. At least one candidate submits the application, but nothing about clears the interview."
+generated_v4style_300_54_1,54,1,Yes,False,universal,StartsPosition,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every candidate starts the position."
+generated_v4style_300_55_0,55,0,B,True,mc,PassesCodeReview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every developer writes the code.
+B. It cannot be determined whether every developer writes the code.
+C. No developer writes the code.
+D. Every developer who passes the code review must writes."
+generated_v4style_300_55_1,55,1,Unknown,False,other_ynu,PassesCodeReview,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a developer passes the code review, then the developer writes the code."
+generated_v4style_300_56_0,56,0,Yes,False,universal,ProvidesFeedback,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all mentors provides feedback?
+generated_v4style_300_56_1,56,1,No,False,existential,SetsDevelopmentGoals,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one mentor sets development goals?
+generated_v4style_300_57_0,57,0,D,True,mc,CompletesAssignedTask,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No intern completes the assigned task.
+B. Every intern completes the assigned task.
+C. At least one intern completes the assigned task.
+D. It cannot be determined whether any intern completes the assigned task."
+generated_v4style_300_57_1,57,1,Unknown,False,universal_negative,CompletesAssignedTask,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No intern completes the assigned task."
+generated_v4style_300_58_0,58,0,D,True,mc,ReceivesGrant,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No researcher receives a grant.
+B. Every researcher receives a grant.
+C. At least one researcher receives a grant.
+D. It cannot be determined whether any researcher receives a grant."
+generated_v4style_300_58_1,58,1,Unknown,False,universal_negative,ReceivesGrant,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No researcher receives a grant."
+generated_v4style_300_59_0,59,0,D,True,mc,AttendsAllLectures,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No student attends all lectures.
+B. Every student attends all lectures.
+C. At least one student attends all lectures.
+D. It cannot be determined whether any student attends all lectures."
+generated_v4style_300_59_1,59,1,Unknown,False,universal,AttendsAllLectures,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No student attends all lectures."
+generated_v4style_300_60_0,60,0,D,True,mc,PassesComplianceQuiz,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No employee passes the compliance quiz.
+B. Every employee passes the compliance quiz.
+C. At least one employee passes the compliance quiz.
+D. It cannot be determined whether any employee passes the compliance quiz."
+generated_v4style_300_60_1,60,1,Unknown,False,universal_negative,PassesComplianceQuiz,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No employee passes the compliance quiz."
+generated_v4style_300_61_0,61,0,Yes,False,universal,EarnsCredit,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students earns course credit?
+generated_v4style_300_61_1,61,1,Unknown,False,universal,GraduatesUniversity,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students university?
+generated_v4style_300_62_0,62,0,D,True,mc,UpdatesDatabase,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No librarian updates the database.
+B. Every librarian updates the database.
+C. At least one librarian updates the database.
+D. It cannot be determined whether any librarian updates the database."
+generated_v4style_300_62_1,62,1,Unknown,False,universal_negative,UpdatesDatabase,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No librarian updates the database."
+generated_v4style_300_63_0,63,0,C,True,mc,DesignsStudy,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every researcher reads the literature.
+B. At least one researcher identifies a research gap.
+C. No researcher reads the literature.
+D. Some researchers designs a study."
+generated_v4style_300_63_1,63,1,No,False,existential,IdentifiesGap,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one researcher identifies a research gap."
+generated_v4style_300_64_0,64,0,Yes,False,universal,EarnsCredit,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students earns course credit?
+generated_v4style_300_64_1,64,1,No,False,existential,QualifiesForDegree,0.3333333333333333,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student degree?
+generated_v4style_300_65_0,65,0,Yes,False,universal,PassesCodeReview,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all developers code review?
+generated_v4style_300_65_1,65,1,No,False,existential,MergesBranch,0.5,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one developer branch?
+generated_v4style_300_66_0,66,0,Unknown,False,universal,CatalogsNewBooks,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all librarians catalogs new books?
+generated_v4style_300_66_1,66,1,Unknown,False,universal,NotifiesPatrons,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all librarians notifies patrons?
+generated_v4style_300_67_0,67,0,C,True,mc,ProvidesFeedback,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every mentor schedules a session.
+B. At least one mentor reviews the mentee's work.
+C. No mentor schedules a session.
+D. Some mentors provides feedback."
+generated_v4style_300_67_1,67,1,No,False,existential,ReviewsMenteeWork,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one mentor reviews the mentee's work."
+generated_v4style_300_68_0,68,0,A,True,mc,CompletesLabWork,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one student passes the lab component.
+B. Every student passes the lab component.
+C. No student passes the lab component.
+D. At least one student completes the lab work, but nothing about passes the lab component."
+generated_v4style_300_68_1,68,1,Yes,False,universal,ObtainsDiploma,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student obtains the diploma."
+generated_v4style_300_69_0,69,0,B,True,mc,CompletesGroupProject,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student joins the study group.
+B. It cannot be determined whether every student joins the study group.
+C. No student joins the study group.
+D. Every student who completes the group project must joins."
+generated_v4style_300_69_1,69,1,Unknown,False,other_ynu,CompletesGroupProject,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student completes the group project, then the student joins the study group."
+generated_v4style_300_70_0,70,0,Yes,False,universal,GradesAssignments,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all teachers assignments?
+generated_v4style_300_70_1,70,1,Unknown,False,universal,CompletesAcademicTerm,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all teachers academic term?
+generated_v4style_300_71_0,71,0,Yes,False,universal,DesignsStudy,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all researchers designs a study?
+generated_v4style_300_71_1,71,1,No,False,existential,CollectsData,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one researcher collects data?
+generated_v4style_300_72_0,72,0,B,True,mc,CatalogsNewBooks,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every librarian catalogs new books.
+B. It cannot be determined whether every librarian catalogs new books.
+C. No librarian catalogs new books.
+D. Every librarian who notifies patrons must catalogs."
+generated_v4style_300_72_1,72,1,Unknown,False,other_ynu,CatalogsNewBooks,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a librarian notifies patrons, then the librarian catalogs new books."
+generated_v4style_300_73_0,73,0,Yes,False,universal,BuildsModel,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all analysts builds a model?
+generated_v4style_300_73_1,73,1,Unknown,False,universal,DeliversReport,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all analysts report?
+generated_v4style_300_74_0,74,0,B,True,mc,CatalogsNewBooks,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every librarian catalogs new books.
+B. It cannot be determined whether every librarian catalogs new books.
+C. No librarian catalogs new books.
+D. Every librarian who notifies patrons must catalogs."
+generated_v4style_300_74_1,74,1,Unknown,False,other_ynu,CatalogsNewBooks,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a librarian notifies patrons, then the librarian catalogs new books."
+generated_v4style_300_75_0,75,0,B,True,mc,GradesAssignments,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one teacher prepares the curriculum.
+B. No teacher prepares the curriculum.
+C. Every teacher grades the assignments.
+D. At least one teacher grades the assignments."
+generated_v4style_300_75_1,75,1,Unknown,False,universal,SubmitsGradeReport,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every teacher submits the grade report."
+generated_v4style_300_76_0,76,0,No,False,existential,JoinsStudyGroup,0.6666666666666666,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student study group?
+generated_v4style_300_76_1,76,1,Yes,False,universal,FulfilsTeamworkRequirement,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students teamwork requirement?
+generated_v4style_300_77_0,77,0,Yes,False,universal,SubmitsAllAssignments,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students submits all assignments?
+generated_v4style_300_77_1,77,1,No,False,existential,AchievesHighGPA,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one student achieves a high GPA?
+generated_v4style_300_78_0,78,0,Yes,False,universal,PassesLabComponent,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students lab component?
+generated_v4style_300_78_1,78,1,Unknown,False,universal,ObtainsDiploma,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students diploma?
+generated_v4style_300_79_0,79,0,Yes,False,universal,DesignsStudy,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all researchers designs a study?
+generated_v4style_300_79_1,79,1,No,False,existential,CollectsData,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one researcher collects data?
+generated_v4style_300_80_0,80,0,Yes,False,universal,AssistsWithActivities,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all volunteers assists with activities?
+generated_v4style_300_80_1,80,1,Unknown,False,universal,ReceivesCommunityAward,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all volunteers receives a community award?
+generated_v4style_300_81_0,81,0,C,True,mc,ConductsExperiment,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every researcher writes a research proposal.
+B. At least one researcher receives a grant.
+C. No researcher writes a research proposal.
+D. Some researchers conducts experiments."
+generated_v4style_300_81_1,81,1,No,False,existential,ReceivesGrant,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one researcher receives a grant."
+generated_v4style_300_82_0,82,0,D,True,mc,CompletesOrientation,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No participant completes the orientation.
+B. Every participant completes the orientation.
+C. At least one participant completes the orientation.
+D. It cannot be determined whether any participant completes the orientation."
+generated_v4style_300_82_1,82,1,Unknown,False,universal_negative,CompletesOrientation,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No participant completes the orientation."
+generated_v4style_300_83_0,83,0,C,True,mc,CompletesGroupProject,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student joins the study group.
+B. At least one student participates in discussion.
+C. No student joins the study group.
+D. Some students completes the group project."
+generated_v4style_300_83_1,83,1,No,False,existential,ParticipatesInDiscussion,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one student participates in discussion."
+generated_v4style_300_84_0,84,0,Yes,False,universal,ReceivesMentorFeedback,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all interns receives mentor feedback?
+generated_v4style_300_84_1,84,1,Unknown,False,universal,GetsReturnOffer,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all interns gets a return offer?
+generated_v4style_300_85_0,85,0,B,True,mc,ClearsInterview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every candidate submits the application.
+B. It cannot be determined whether every candidate submits the application.
+C. No candidate submits the application.
+D. Every candidate who clears the interview must submits."
+generated_v4style_300_85_1,85,1,Unknown,False,other_ynu,ClearsInterview,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a candidate clears the interview, then the candidate submits the application."
+generated_v4style_300_86_0,86,0,A,True,mc,QualifiesForDegree,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student qualifies for the degree.
+B. No student qualifies for the degree.
+C. Only some students qualifies for the degree.
+D. The premises do not support any conclusion about qualifiesing."
+generated_v4style_300_86_1,86,1,Yes,False,universal,EarnsCredit,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student earns course credit."
+generated_v4style_300_87_0,87,0,B,True,mc,JoinsTeam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one intern joins the team.
+B. No intern joins the team.
+C. Every intern receives mentor feedback.
+D. At least one intern receives mentor feedback."
+generated_v4style_300_87_1,87,1,Unknown,False,universal,WritesInternshipReport,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every intern writes the internship report."
+generated_v4style_300_88_0,88,0,A,True,mc,PassesCodeReview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one developer passes the code review.
+B. Every developer passes the code review.
+C. No developer passes the code review.
+D. At least one developer writes the code, but nothing about passes the code review."
+generated_v4style_300_88_1,88,1,Yes,False,universal,DeploysToProduction,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every developer deploys to production."
+generated_v4style_300_89_0,89,0,Unknown,False,universal,AttendsAllLectures,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students course?
+generated_v4style_300_89_1,89,1,Unknown,False,universal,SubmitsAllAssignments,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students submits all assignments?
+generated_v4style_300_90_0,90,0,Yes,False,universal,SolvesProblems,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students problems?
+generated_v4style_300_90_1,90,1,Unknown,False,universal,ReceivesHonors,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students receives honors?
+generated_v4style_300_91_0,91,0,Yes,False,universal,SolvesProblems,0.5,False,True,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students problems?
+generated_v4style_300_91_1,91,1,No,False,existential,PerformsWellOnExam,0.5,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student exam?
+generated_v4style_300_92_0,92,0,A,True,mc,MergesBranch,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every developer merges the branch.
+B. No developer merges the branch.
+C. Only some developers merges the branch.
+D. The premises do not support any conclusion about mergesing."
+generated_v4style_300_92_1,92,1,Yes,False,universal,PassesCodeReview,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every developer passes the code review."
+generated_v4style_300_93_0,93,0,C,True,mc,DesignsStudy,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every researcher reads the literature.
+B. At least one researcher identifies a research gap.
+C. No researcher reads the literature.
+D. Some researchers designs a study."
+generated_v4style_300_93_1,93,1,No,False,existential,IdentifiesGap,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one researcher identifies a research gap."
+generated_v4style_300_94_0,94,0,Yes,False,universal,SubmitsPortfolio,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all trainees submits a portfolio?
+generated_v4style_300_94_1,94,1,Unknown,False,universal,JoinsProfessionalBody,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all trainees professional body?
+generated_v4style_300_95_0,95,0,B,True,mc,CompletesOnboarding,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one employee completes the onboarding program.
+B. No employee completes the onboarding program.
+C. Every employee receives full benefits.
+D. At least one employee receives full benefits."
+generated_v4style_300_95_1,95,1,Unknown,False,universal,EligibleForPromotion,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every employee is eligible for promotion."
+generated_v4style_300_96_0,96,0,Yes,False,universal,GradesAssignments,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all teachers assignments?
+generated_v4style_300_96_1,96,1,Unknown,False,universal,CompletesAcademicTerm,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all teachers academic term?
+generated_v4style_300_97_0,97,0,B,True,mc,CompletesCoursework,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one student completes the coursework.
+B. No student completes the coursework.
+C. Every student earns course credit.
+D. At least one student earns course credit."
+generated_v4style_300_97_1,97,1,Unknown,False,universal,QualifiesForDegree,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every student qualifies for the degree."
+generated_v4style_300_98_0,98,0,Yes,False,universal,CompletesGroupProject,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students group project?
+generated_v4style_300_98_1,98,1,Unknown,False,universal,FulfilsTeamworkRequirement,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students teamwork requirement?
+generated_v4style_300_99_0,99,0,Yes,False,universal,FinishesAllModules,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all participants finishes all modules?
+generated_v4style_300_99_1,99,1,No,False,existential,PassesCertificationExam,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one participant certification exam?
+generated_v4style_300_100_0,100,0,Yes,False,universal,BuildsModel,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all analysts builds a model?
+generated_v4style_300_100_1,100,1,No,False,existential,ValidatesResults,0.5,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one analyst results?
+generated_v4style_300_101_0,101,0,Unknown,False,universal,JoinsTeam,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all interns team?
+generated_v4style_300_101_1,101,1,Unknown,False,universal,ReceivesMentorFeedback,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all interns receives mentor feedback?
+generated_v4style_300_102_0,102,0,Unknown,False,universal,WritesProposal,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers writes a research proposal?
+generated_v4style_300_102_1,102,1,Unknown,False,universal,ConductsExperiment,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers conducts experiments?
+generated_v4style_300_103_0,103,0,Yes,False,universal,AssistsWithActivities,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all volunteers assists with activities?
+generated_v4style_300_103_1,103,1,No,False,existential,LogsServiceHours,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one volunteer logs service hours?
+generated_v4style_300_104_0,104,0,C,True,mc,BuildsModel,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every analyst gathers the requirements.
+B. At least one analyst documents the findings.
+C. No analyst gathers the requirements.
+D. Some analysts builds a model."
+generated_v4style_300_104_1,104,1,No,False,existential,DocumentsFindings,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one analyst documents the findings."
+generated_v4style_300_105_0,105,0,B,True,mc,AttendsComplianceTraining,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one employee attends compliance training.
+B. No employee attends compliance training.
+C. Every employee receives security clearance.
+D. At least one employee receives security clearance."
+generated_v4style_300_105_1,105,1,Unknown,False,universal,AccessesSensitiveData,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every employee accesses sensitive data."
+generated_v4style_300_106_0,106,0,A,True,mc,CompletesGroupProject,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one student completes the group project.
+B. Every student completes the group project.
+C. No student completes the group project.
+D. At least one student joins the study group, but nothing about completes the group project."
+generated_v4style_300_106_1,106,1,Yes,False,universal,FulfilsTeamworkRequirement,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student fulfils the teamwork requirement."
+generated_v4style_300_107_0,107,0,B,True,mc,RegistersForExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student registers for the exam.
+B. It cannot be determined whether every student registers for the exam.
+C. No student registers for the exam.
+D. Every student who reviews mistakes must registers."
+generated_v4style_300_107_1,107,1,Unknown,False,other_ynu,RegistersForExam,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student reviews mistakes, then the student registers for the exam."
+generated_v4style_300_108_0,108,0,Yes,False,universal,ProvidesFeedback,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all mentors provides feedback?
+generated_v4style_300_108_1,108,1,No,False,existential,SetsDevelopmentGoals,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one mentor sets development goals?
+generated_v4style_300_109_0,109,0,A,True,mc,EarnsCertificate,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every trainee earns a certificate.
+B. No trainee earns a certificate.
+C. Only some trainees earns a certificate.
+D. The premises do not support any conclusion about earnsing."
+generated_v4style_300_109_1,109,1,Yes,False,universal,SubmitsPortfolio,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every trainee submits a portfolio."
+generated_v4style_300_110_0,110,0,A,True,mc,EligibleForPromotion,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every employee is eligible for promotion.
+B. No employee is eligible for promotion.
+C. Only some employees is eligible for promotion.
+D. The premises do not support any conclusion about ising."
+generated_v4style_300_110_1,110,1,Yes,False,universal,ReceivesFullBenefits,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every employee receives full benefits."
+generated_v4style_300_111_0,111,0,A,True,mc,ValidatesResults,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every analyst validates the results.
+B. No analyst validates the results.
+C. Only some analysts validates the results.
+D. The premises do not support any conclusion about validatesing."
+generated_v4style_300_111_1,111,1,Yes,False,universal,BuildsModel,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every analyst builds a model."
+generated_v4style_300_112_0,112,0,D,True,mc,DeliversLectures,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No teacher delivers the lectures.
+B. Every teacher delivers the lectures.
+C. At least one teacher delivers the lectures.
+D. It cannot be determined whether any teacher delivers the lectures."
+generated_v4style_300_112_1,112,1,Unknown,False,universal_negative,DeliversLectures,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No teacher delivers the lectures."
+generated_v4style_300_113_0,113,0,Yes,False,universal,CompletesGroupProject,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students group project?
+generated_v4style_300_113_1,113,1,No,False,existential,ReceivesGroupGrade,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student group grade?
+generated_v4style_300_114_0,114,0,Unknown,False,universal,ParticipatesInSeminar,0.6666666666666666,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all trainees seminar?
+generated_v4style_300_114_1,114,1,Unknown,False,universal,SubmitsPortfolio,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all trainees submits a portfolio?
+generated_v4style_300_115_0,115,0,Yes,False,universal,DesignsStudy,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all researchers designs a study?
+generated_v4style_300_115_1,115,1,Unknown,False,universal,PublishesPaper,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers publishes a paper?
+generated_v4style_300_116_0,116,0,Yes,False,universal,ReceivesFullBenefits,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives full benefits?
+generated_v4style_300_116_1,116,1,Unknown,False,universal,LeadsProject,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees leads a project?
+generated_v4style_300_117_0,117,0,Yes,False,universal,AssistsWithActivities,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all volunteers assists with activities?
+generated_v4style_300_117_1,117,1,No,False,existential,LogsServiceHours,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one volunteer logs service hours?
+generated_v4style_300_118_0,118,0,A,True,mc,SetsDevelopmentGoals,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every mentor sets development goals.
+B. No mentor sets development goals.
+C. Only some mentors sets development goals.
+D. The premises do not support any conclusion about setsing."
+generated_v4style_300_118_1,118,1,Yes,False,universal,ProvidesFeedback,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every mentor provides feedback."
+generated_v4style_300_119_0,119,0,B,True,mc,AttendsComplianceTraining,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every employee attends compliance training.
+B. It cannot be determined whether every employee attends compliance training.
+C. No employee attends compliance training.
+D. Every employee who receives security clearance must attends."
+generated_v4style_300_119_1,119,1,Unknown,False,other_ynu,AttendsComplianceTraining,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If an employee receives security clearance, then the employee attends compliance training."
+generated_v4style_300_120_0,120,0,No,False,existential,SubmitsApplication,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one candidate application?
+generated_v4style_300_120_1,120,1,Yes,False,universal,StartsPosition,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all candidates position?
+generated_v4style_300_121_0,121,0,A,True,mc,ProcessesReservations,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every librarian processes reservations.
+B. No librarian processes reservations.
+C. Only some librarians processes reservations.
+D. The premises do not support any conclusion about processesing."
+generated_v4style_300_121_1,121,1,Yes,False,universal,NotifiesPatrons,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every librarian notifies patrons."
+generated_v4style_300_122_0,122,0,No,False,existential,GathersRequirements,0.5,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one analyst requirements?
+generated_v4style_300_122_1,122,1,Yes,False,universal,DeliversReport,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all analysts report?
+generated_v4style_300_123_0,123,0,Unknown,False,universal,SignsUpForEvent,0.25,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all volunteers event?
+generated_v4style_300_123_1,123,1,Unknown,False,universal,AssistsWithActivities,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all volunteers assists with activities?
+generated_v4style_300_124_0,124,0,Yes,False,universal,PassesCodeReview,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all developers code review?
+generated_v4style_300_124_1,124,1,Unknown,False,universal,DeploysToProduction,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all developers deploys to production?
+generated_v4style_300_125_0,125,0,Yes,False,universal,FinishesAllModules,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all participants finishes all modules?
+generated_v4style_300_125_1,125,1,Unknown,False,universal,ObtainsProfessionalLicense,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all participants obtains a professional license?
+generated_v4style_300_126_0,126,0,Unknown,False,universal,AttendsComplianceTraining,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees attends compliance training?
+generated_v4style_300_126_1,126,1,Unknown,False,universal,ReceivesClearance,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees receives security clearance?
+generated_v4style_300_127_0,127,0,Yes,False,universal,ReceivesFullBenefits,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives full benefits?
+generated_v4style_300_127_1,127,1,No,False,existential,EligibleForPromotion,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one employee is eligible for promotion?
+generated_v4style_300_128_0,128,0,B,True,mc,ProvidesFeedback,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every mentor schedules a session.
+B. It cannot be determined whether every mentor schedules a session.
+C. No mentor schedules a session.
+D. Every mentor who provides feedback must schedules."
+generated_v4style_300_128_1,128,1,Unknown,False,other_ynu,ProvidesFeedback,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a mentor provides feedback, then the mentor schedules a session."
+generated_v4style_300_129_0,129,0,Yes,False,universal,FinishesAllModules,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all participants finishes all modules?
+generated_v4style_300_129_1,129,1,Unknown,False,universal,ObtainsProfessionalLicense,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all participants obtains a professional license?
+generated_v4style_300_130_0,130,0,B,True,mc,CompletesLabWork,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one student completes the lab work.
+B. No student completes the lab work.
+C. Every student passes the lab component.
+D. At least one student passes the lab component."
+generated_v4style_300_130_1,130,1,Unknown,False,universal,MeetsGraduationRequirement,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every student meets the graduation requirement."
+generated_v4style_300_131_0,131,0,B,True,mc,DesignsStudy,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one researcher reads the literature.
+B. No researcher reads the literature.
+C. Every researcher designs a study.
+D. At least one researcher designs a study."
+generated_v4style_300_131_1,131,1,Unknown,False,universal,CollectsData,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every researcher collects data."
+generated_v4style_300_132_0,132,0,No,False,existential,CompletesOnboarding,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one employee onboarding program?
+generated_v4style_300_132_1,132,1,Yes,False,universal,LeadsProject,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all employees leads a project?
+generated_v4style_300_133_0,133,0,A,True,mc,AchievesHighGPA,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student achieves a high GPA.
+B. No student achieves a high GPA.
+C. Only some students achieves a high GPA.
+D. The premises do not support any conclusion about achievesing."
+generated_v4style_300_133_1,133,1,Yes,False,universal,SubmitsAllAssignments,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student submits all assignments."
+generated_v4style_300_134_0,134,0,Unknown,False,universal,ReadsLiterature,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers literature?
+generated_v4style_300_134_1,134,1,Unknown,False,universal,DesignsStudy,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers designs a study?
+generated_v4style_300_135_0,135,0,C,True,mc,CompletesLabWork,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student completes the lab work.
+B. At least one student submits the lab report.
+C. No student completes the lab work.
+D. Some students passes the lab component."
+generated_v4style_300_135_1,135,1,No,False,existential,SubmitsLabReport,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one student submits the lab report."
+generated_v4style_300_136_0,136,0,Yes,False,universal,AssistsWithActivities,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all volunteers assists with activities?
+generated_v4style_300_136_1,136,1,No,False,existential,LogsServiceHours,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one volunteer logs service hours?
+generated_v4style_300_137_0,137,0,C,True,mc,AssistsWithActivities,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every volunteer signs up for the event.
+B. At least one volunteer attends the training session.
+C. No volunteer signs up for the event.
+D. Some volunteers assists with activities."
+generated_v4style_300_137_1,137,1,No,False,existential,AttendsTrainingSession,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one volunteer attends the training session."
+generated_v4style_300_138_0,138,0,Yes,False,universal,ClearsInterview,0.5,False,True,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all candidates interview?
+generated_v4style_300_138_1,138,1,No,False,existential,ReceivesOffer,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one candidate receives an offer?
+generated_v4style_300_139_0,139,0,Yes,False,universal,SolvesProblems,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students problems?
+generated_v4style_300_139_1,139,1,Unknown,False,universal,ReceivesHonors,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students receives honors?
+generated_v4style_300_140_0,140,0,D,True,mc,SubmitsLabReport,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No student submits the lab report.
+B. Every student submits the lab report.
+C. At least one student submits the lab report.
+D. It cannot be determined whether any student submits the lab report."
+generated_v4style_300_140_1,140,1,Unknown,False,universal_negative,SubmitsLabReport,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No student submits the lab report."
+generated_v4style_300_141_0,141,0,B,True,mc,CatalogsNewBooks,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one librarian catalogs new books.
+B. No librarian catalogs new books.
+C. Every librarian notifies patrons.
+D. At least one librarian notifies patrons."
+generated_v4style_300_141_1,141,1,Unknown,False,universal,ProcessesReservations,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every librarian processes reservations."
+generated_v4style_300_142_0,142,0,C,True,mc,AttendsAllLectures,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student enrolls in the course.
+B. At least one student attends all lectures.
+C. No student enrolls in the course.
+D. Some students submits all assignments."
+generated_v4style_300_142_1,142,1,No,False,existential,AttendsAllLectures,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one student attends all lectures."
+generated_v4style_300_143_0,143,0,No,False,existential,CompletesCoursework,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student coursework?
+generated_v4style_300_143_1,143,1,Yes,False,universal,GraduatesUniversity,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students university?
+generated_v4style_300_144_0,144,0,Yes,False,universal,ReceivesFullBenefits,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives full benefits?
+generated_v4style_300_144_1,144,1,Unknown,False,universal,LeadsProject,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees leads a project?
+generated_v4style_300_145_0,145,0,D,True,mc,AttendsAllLectures,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No student attends all lectures.
+B. Every student attends all lectures.
+C. At least one student attends all lectures.
+D. It cannot be determined whether any student attends all lectures."
+generated_v4style_300_145_1,145,1,Unknown,False,universal,AttendsAllLectures,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No student attends all lectures."
+generated_v4style_300_146_0,146,0,B,True,mc,AttendsSeminar,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one trainee attends the seminar.
+B. No trainee attends the seminar.
+C. Every trainee submits a portfolio.
+D. At least one trainee submits a portfolio."
+generated_v4style_300_146_1,146,1,Unknown,False,universal,EarnsCertificate,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every trainee earns a certificate."
+generated_v4style_300_147_0,147,0,A,True,mc,SubmitsGradeReport,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every teacher submits the grade report.
+B. No teacher submits the grade report.
+C. Only some teachers submits the grade report.
+D. The premises do not support any conclusion about submitsing."
+generated_v4style_300_147_1,147,1,Yes,False,universal,GradesAssignments,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every teacher grades the assignments."
+generated_v4style_300_148_0,148,0,B,True,mc,BuildsModel,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one analyst gathers the requirements.
+B. No analyst gathers the requirements.
+C. Every analyst builds a model.
+D. At least one analyst builds a model."
+generated_v4style_300_148_1,148,1,Unknown,False,universal,ValidatesResults,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every analyst validates the results."
+generated_v4style_300_149_0,149,0,Yes,False,universal,ReceivesClearance,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives security clearance?
+generated_v4style_300_149_1,149,1,No,False,existential,AccessesSensitiveData,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one employee accesses sensitive data?
+generated_v4style_300_150_0,150,0,B,True,mc,ConductsExperiment,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one researcher writes a research proposal.
+B. No researcher writes a research proposal.
+C. Every researcher conducts experiments.
+D. At least one researcher conducts experiments."
+generated_v4style_300_150_1,150,1,Unknown,False,universal,AnalyzesData,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every researcher analyzes the data."
+generated_v4style_300_151_0,151,0,Yes,False,universal,ProvidesFeedback,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all mentors provides feedback?
+generated_v4style_300_151_1,151,1,Unknown,False,universal,TracksProgress,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all mentors tracks progress?
+generated_v4style_300_152_0,152,0,A,True,mc,PerformsWellOnExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student performs well on the exam.
+B. No student performs well on the exam.
+C. Only some students performs well on the exam.
+D. The premises do not support any conclusion about performsing."
+generated_v4style_300_152_1,152,1,Yes,False,universal,SolvesProblems,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student solves the problems."
+generated_v4style_300_153_0,153,0,Yes,False,universal,ClearsInterview,0.5,False,True,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all candidates interview?
+generated_v4style_300_153_1,153,1,No,False,existential,ReceivesOffer,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one candidate receives an offer?
+generated_v4style_300_154_0,154,0,D,True,mc,CompletesOrientation,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No participant completes the orientation.
+B. Every participant completes the orientation.
+C. At least one participant completes the orientation.
+D. It cannot be determined whether any participant completes the orientation."
+generated_v4style_300_154_1,154,1,Unknown,False,universal_negative,CompletesOrientation,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No participant completes the orientation."
+generated_v4style_300_155_0,155,0,Unknown,False,universal,CompletesOnboarding,0.5,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees onboarding program?
+generated_v4style_300_155_1,155,1,Unknown,False,universal,ReceivesFullBenefits,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees receives full benefits?
+generated_v4style_300_156_0,156,0,D,True,mc,ReviewsMenteeWork,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No mentor reviews the mentee's work.
+B. Every mentor reviews the mentee's work.
+C. At least one mentor reviews the mentee's work.
+D. It cannot be determined whether any mentor reviews the mentee's work."
+generated_v4style_300_156_1,156,1,Unknown,False,universal_negative,ReviewsMenteeWork,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No mentor reviews the mentee's work."
+generated_v4style_300_157_0,157,0,B,True,mc,ProvidesFeedback,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every mentor schedules a session.
+B. It cannot be determined whether every mentor schedules a session.
+C. No mentor schedules a session.
+D. Every mentor who provides feedback must schedules."
+generated_v4style_300_157_1,157,1,Unknown,False,other_ynu,ProvidesFeedback,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a mentor provides feedback, then the mentor schedules a session."
+generated_v4style_300_158_0,158,0,B,True,mc,BuildsModel,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every analyst gathers the requirements.
+B. It cannot be determined whether every analyst gathers the requirements.
+C. No analyst gathers the requirements.
+D. Every analyst who builds a model must gathers."
+generated_v4style_300_158_1,158,1,Unknown,False,other_ynu,BuildsModel,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If an analyst builds a model, then the analyst gathers the requirements."
+generated_v4style_300_159_0,159,0,Yes,False,universal,FinishesAllModules,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all participants finishes all modules?
+generated_v4style_300_159_1,159,1,No,False,existential,PassesCertificationExam,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one participant certification exam?
+generated_v4style_300_160_0,160,0,B,True,mc,CompletesOnboarding,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every employee completes the onboarding program.
+B. It cannot be determined whether every employee completes the onboarding program.
+C. No employee completes the onboarding program.
+D. Every employee who receives full benefits must completes."
+generated_v4style_300_160_1,160,1,Unknown,False,other_ynu,CompletesOnboarding,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If an employee receives full benefits, then the employee completes the onboarding program."
+generated_v4style_300_161_0,161,0,D,True,mc,ParticipatesInDiscussion,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No student participates in discussion.
+B. Every student participates in discussion.
+C. At least one student participates in discussion.
+D. It cannot be determined whether any student participates in discussion."
+generated_v4style_300_161_1,161,1,Unknown,False,universal_negative,ParticipatesInDiscussion,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No student participates in discussion."
+generated_v4style_300_162_0,162,0,No,False,existential,JoinsTeam,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one intern team?
+generated_v4style_300_162_1,162,1,Yes,False,universal,GetsReturnOffer,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all interns gets a return offer?
+generated_v4style_300_163_0,163,0,Yes,False,universal,AssistsWithActivities,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all volunteers assists with activities?
+generated_v4style_300_163_1,163,1,Unknown,False,universal,ReceivesCommunityAward,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all volunteers receives a community award?
+generated_v4style_300_164_0,164,0,B,True,mc,ConductsExperiment,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every researcher writes a research proposal.
+B. It cannot be determined whether every researcher writes a research proposal.
+C. No researcher writes a research proposal.
+D. Every researcher who conducts experiments must writes."
+generated_v4style_300_164_1,164,1,Unknown,False,other_ynu,ConductsExperiment,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a researcher conducts experiments, then the researcher writes a research proposal."
+generated_v4style_300_165_0,165,0,No,False,existential,SignsUpForEvent,0.25,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one volunteer event?
+generated_v4style_300_165_1,165,1,Yes,False,universal,ReceivesCommunityAward,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all volunteers receives a community award?
+generated_v4style_300_166_0,166,0,Yes,False,universal,ConductsExperiment,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all researchers conducts experiments?
+generated_v4style_300_166_1,166,1,No,False,existential,AnalyzesData,0.5,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one researcher data?
+generated_v4style_300_167_0,167,0,D,True,mc,PassesWrittenTest,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No candidate passes the written test.
+B. Every candidate passes the written test.
+C. At least one candidate passes the written test.
+D. It cannot be determined whether any candidate passes the written test."
+generated_v4style_300_167_1,167,1,Unknown,False,universal_negative,PassesWrittenTest,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No candidate passes the written test."
+generated_v4style_300_168_0,168,0,Yes,False,universal,ReviewsMistakes,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students reviews mistakes?
+generated_v4style_300_168_1,168,1,No,False,existential,ImprovesTechnique,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one student improves technique?
+generated_v4style_300_169_0,169,0,A,True,mc,ReceivesOffer,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every candidate receives an offer.
+B. No candidate receives an offer.
+C. Only some candidates receives an offer.
+D. The premises do not support any conclusion about receivesing."
+generated_v4style_300_169_1,169,1,Yes,False,universal,ClearsInterview,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every candidate clears the interview."
+generated_v4style_300_170_0,170,0,A,True,mc,EarnsCertificate,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every trainee earns a certificate.
+B. No trainee earns a certificate.
+C. Only some trainees earns a certificate.
+D. The premises do not support any conclusion about earnsing."
+generated_v4style_300_170_1,170,1,Yes,False,universal,SubmitsPortfolio,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every trainee submits a portfolio."
+generated_v4style_300_171_0,171,0,Yes,False,universal,GradesAssignments,0.5,False,True,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all teachers assignments?
+generated_v4style_300_171_1,171,1,No,False,existential,SubmitsGradeReport,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one teacher grade report?
+generated_v4style_300_172_0,172,0,A,True,mc,EligibleForPromotion,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every employee is eligible for promotion.
+B. No employee is eligible for promotion.
+C. Only some employees is eligible for promotion.
+D. The premises do not support any conclusion about ising."
+generated_v4style_300_172_1,172,1,Yes,False,universal,ReceivesFullBenefits,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every employee receives full benefits."
+generated_v4style_300_173_0,173,0,Yes,False,universal,SolvesProblems,0.5,False,True,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students problems?
+generated_v4style_300_173_1,173,1,No,False,existential,PerformsWellOnExam,0.5,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student exam?
+generated_v4style_300_174_0,174,0,D,True,mc,CompletesWorkshop,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No trainee completes the workshop.
+B. Every trainee completes the workshop.
+C. At least one trainee completes the workshop.
+D. It cannot be determined whether any trainee completes the workshop."
+generated_v4style_300_174_1,174,1,Unknown,False,universal_negative,CompletesWorkshop,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No trainee completes the workshop."
+generated_v4style_300_175_0,175,0,Yes,False,universal,ConductsExperiment,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all researchers conducts experiments?
+generated_v4style_300_175_1,175,1,Unknown,False,universal,PresentsAtConference,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers presents at a conference?
+generated_v4style_300_176_0,176,0,B,True,mc,AssistsWithActivities,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one volunteer signs up for the event.
+B. No volunteer signs up for the event.
+C. Every volunteer assists with activities.
+D. At least one volunteer assists with activities."
+generated_v4style_300_176_1,176,1,Unknown,False,universal,LogsServiceHours,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every volunteer logs service hours."
+generated_v4style_300_177_0,177,0,A,True,mc,PassesCertificationExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every participant passes the certification exam.
+B. No participant passes the certification exam.
+C. Only some participants passes the certification exam.
+D. The premises do not support any conclusion about passesing."
+generated_v4style_300_177_1,177,1,Yes,False,universal,FinishesAllModules,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every participant finishes all modules."
+generated_v4style_300_178_0,178,0,Yes,False,universal,NotifiesPatrons,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all librarians notifies patrons?
+generated_v4style_300_178_1,178,1,No,False,existential,ProcessesReservations,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one librarian processes reservations?
+generated_v4style_300_179_0,179,0,C,True,mc,AttendsComplianceTraining,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every employee attends compliance training.
+B. At least one employee passes the compliance quiz.
+C. No employee attends compliance training.
+D. Some employees receives security clearance."
+generated_v4style_300_179_1,179,1,No,False,existential,PassesComplianceQuiz,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one employee passes the compliance quiz."
+generated_v4style_300_180_0,180,0,Unknown,False,universal,PreparesCurriculum,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all teachers curriculum?
+generated_v4style_300_180_1,180,1,Unknown,False,universal,GradesAssignments,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all teachers assignments?
+generated_v4style_300_181_0,181,0,D,True,mc,DeliversLectures,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No teacher delivers the lectures.
+B. Every teacher delivers the lectures.
+C. At least one teacher delivers the lectures.
+D. It cannot be determined whether any teacher delivers the lectures."
+generated_v4style_300_181_1,181,1,Unknown,False,universal_negative,DeliversLectures,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No teacher delivers the lectures."
+generated_v4style_300_182_0,182,0,Unknown,False,universal,CompletesCoursework,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students coursework?
+generated_v4style_300_182_1,182,1,Unknown,False,universal,EarnsCredit,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students earns course credit?
+generated_v4style_300_183_0,183,0,No,False,existential,RegistersForProgram,0.3333333333333333,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one participant program?
+generated_v4style_300_183_1,183,1,Yes,False,universal,ObtainsProfessionalLicense,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all participants obtains a professional license?
+generated_v4style_300_184_0,184,0,Yes,False,universal,ConductsExperiment,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all researchers conducts experiments?
+generated_v4style_300_184_1,184,1,No,False,existential,AnalyzesData,0.5,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one researcher data?
+generated_v4style_300_185_0,185,0,Unknown,False,universal,AttendsSeminar,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all trainees seminar?
+generated_v4style_300_185_1,185,1,Unknown,False,universal,SubmitsPortfolio,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all trainees submits a portfolio?
+generated_v4style_300_186_0,186,0,D,True,mc,UnderstandsConcepts,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No student understands the concepts.
+B. Every student understands the concepts.
+C. At least one student understands the concepts.
+D. It cannot be determined whether any student understands the concepts."
+generated_v4style_300_186_1,186,1,Unknown,False,universal_negative,UnderstandsConcepts,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No student understands the concepts."
+generated_v4style_300_187_0,187,0,Yes,False,universal,EarnsCredit,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students earns course credit?
+generated_v4style_300_187_1,187,1,No,False,existential,QualifiesForDegree,0.3333333333333333,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student degree?
+generated_v4style_300_188_0,188,0,A,True,mc,SolvesProblems,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one student solves the problems.
+B. Every student solves the problems.
+C. No student solves the problems.
+D. At least one student studies regularly, but nothing about solves the problems."
+generated_v4style_300_188_1,188,1,Yes,False,universal,ReceivesHonors,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student receives honors."
+generated_v4style_300_189_0,189,0,B,True,mc,ConductsExperiment,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every researcher writes a research proposal.
+B. It cannot be determined whether every researcher writes a research proposal.
+C. No researcher writes a research proposal.
+D. Every researcher who conducts experiments must writes."
+generated_v4style_300_189_1,189,1,Unknown,False,other_ynu,ConductsExperiment,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a researcher conducts experiments, then the researcher writes a research proposal."
+generated_v4style_300_190_0,190,0,A,True,mc,AssistsWithActivities,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one volunteer assists with activities.
+B. Every volunteer assists with activities.
+C. No volunteer assists with activities.
+D. At least one volunteer signs up for the event, but nothing about assists with activities."
+generated_v4style_300_190_1,190,1,Yes,False,universal,ReceivesCommunityAward,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every volunteer receives a community award."
+generated_v4style_300_191_0,191,0,A,True,mc,LogsServiceHours,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every volunteer logs service hours.
+B. No volunteer logs service hours.
+C. Only some volunteers logs service hours.
+D. The premises do not support any conclusion about logsing."
+generated_v4style_300_191_1,191,1,Yes,False,universal,AssistsWithActivities,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every volunteer assists with activities."
+generated_v4style_300_192_0,192,0,No,False,existential,CatalogsNewBooks,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one librarian catalogs new books?
+generated_v4style_300_192_1,192,1,Yes,False,universal,CompletesInventory,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all librarians inventory?
+generated_v4style_300_193_0,193,0,Yes,False,universal,ReceivesClearance,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives security clearance?
+generated_v4style_300_193_1,193,1,Unknown,False,universal,HandlesClientAccounts,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees handles client accounts?
+generated_v4style_300_194_0,194,0,C,True,mc,DeliversLectures,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every teacher prepares the curriculum.
+B. At least one teacher delivers the lectures.
+C. No teacher prepares the curriculum.
+D. Some teachers grades the assignments."
+generated_v4style_300_194_1,194,1,No,False,existential,DeliversLectures,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one teacher delivers the lectures."
+generated_v4style_300_195_0,195,0,A,True,mc,JoinsTeam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one intern receives mentor feedback.
+B. Every intern receives mentor feedback.
+C. No intern receives mentor feedback.
+D. At least one intern joins the team, but nothing about receives mentor feedback."
+generated_v4style_300_195_1,195,1,Yes,False,universal,GetsReturnOffer,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every intern gets a return offer."
+generated_v4style_300_196_0,196,0,Unknown,False,universal,SchedulesSession,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all mentors schedules a session?
+generated_v4style_300_196_1,196,1,Unknown,False,universal,ProvidesFeedback,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all mentors provides feedback?
+generated_v4style_300_197_0,197,0,Yes,False,universal,NotifiesPatrons,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all librarians notifies patrons?
+generated_v4style_300_197_1,197,1,No,False,existential,ProcessesReservations,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one librarian processes reservations?
+generated_v4style_300_198_0,198,0,No,False,existential,CatalogsNewBooks,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one librarian catalogs new books?
+generated_v4style_300_198_1,198,1,Yes,False,universal,CompletesInventory,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all librarians inventory?
+generated_v4style_300_199_0,199,0,Yes,False,universal,ClearsInterview,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all candidates interview?
+generated_v4style_300_199_1,199,1,Unknown,False,universal,StartsPosition,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all candidates position?
+generated_v4style_300_200_0,200,0,Yes,False,universal,PassesLabComponent,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students lab component?
+generated_v4style_300_200_1,200,1,No,False,existential,MeetsGraduationRequirement,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student graduation requirement?
+generated_v4style_300_201_0,201,0,B,True,mc,JoinsTeam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every intern joins the team.
+B. It cannot be determined whether every intern joins the team.
+C. No intern joins the team.
+D. Every intern who receives mentor feedback must joins."
+generated_v4style_300_201_1,201,1,Unknown,False,other_ynu,JoinsTeam,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If an intern receives mentor feedback, then the intern joins the team."
+generated_v4style_300_202_0,202,0,B,True,mc,DesignsStudy,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every researcher reads the literature.
+B. It cannot be determined whether every researcher reads the literature.
+C. No researcher reads the literature.
+D. Every researcher who designs a study must reads."
+generated_v4style_300_202_1,202,1,Unknown,False,other_ynu,DesignsStudy,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a researcher designs a study, then the researcher reads the literature."
+generated_v4style_300_203_0,203,0,Unknown,False,universal,RegistersForExam,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students exam?
+generated_v4style_300_203_1,203,1,Unknown,False,universal,ReviewsMistakes,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students reviews mistakes?
+generated_v4style_300_204_0,204,0,A,True,mc,CompletesOnboarding,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one employee receives full benefits.
+B. Every employee receives full benefits.
+C. No employee receives full benefits.
+D. At least one employee completes the onboarding program, but nothing about receives full benefits."
+generated_v4style_300_204_1,204,1,Yes,False,universal,LeadsProject,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every employee leads a project."
+generated_v4style_300_205_0,205,0,C,True,mc,RegistersForExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student registers for the exam.
+B. At least one student takes a practice test.
+C. No student registers for the exam.
+D. Some students reviews mistakes."
+generated_v4style_300_205_1,205,1,No,False,existential,TakesPracticeTest,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one student takes a practice test."
+generated_v4style_300_206_0,206,0,No,False,existential,SignsUpForEvent,0.25,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one volunteer event?
+generated_v4style_300_206_1,206,1,Yes,False,universal,ReceivesCommunityAward,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all volunteers receives a community award?
+generated_v4style_300_207_0,207,0,B,True,mc,RegistersForExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one student registers for the exam.
+B. No student registers for the exam.
+C. Every student reviews mistakes.
+D. At least one student reviews mistakes."
+generated_v4style_300_207_1,207,1,Unknown,False,universal,ImprovesTechnique,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every student improves technique."
+generated_v4style_300_208_0,208,0,No,False,existential,JoinsStudyGroup,0.6666666666666666,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student study group?
+generated_v4style_300_208_1,208,1,Yes,False,universal,FulfilsTeamworkRequirement,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students teamwork requirement?
+generated_v4style_300_209_0,209,0,B,True,mc,PassesCodeReview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one developer writes the code.
+B. No developer writes the code.
+C. Every developer passes the code review.
+D. At least one developer passes the code review."
+generated_v4style_300_209_1,209,1,Unknown,False,universal,MergesBranch,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every developer merges the branch."
+generated_v4style_300_210_0,210,0,Yes,False,universal,ConductsExperiment,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all researchers conducts experiments?
+generated_v4style_300_210_1,210,1,Unknown,False,universal,PresentsAtConference,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers presents at a conference?
+generated_v4style_300_211_0,211,0,Yes,False,universal,SubmitsAllAssignments,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students submits all assignments?
+generated_v4style_300_211_1,211,1,No,False,existential,AchievesHighGPA,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one student achieves a high GPA?
+generated_v4style_300_212_0,212,0,C,True,mc,CompletesCoursework,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student completes the coursework.
+B. At least one student passes the final exam.
+C. No student completes the coursework.
+D. Some students earns course credit."
+generated_v4style_300_212_1,212,1,No,False,existential,PassesFinalExam,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one student passes the final exam."
+generated_v4style_300_213_0,213,0,Unknown,False,universal,GathersRequirements,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all analysts requirements?
+generated_v4style_300_213_1,213,1,Unknown,False,universal,BuildsModel,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all analysts builds a model?
+generated_v4style_300_214_0,214,0,C,True,mc,CompletesOrientation,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every participant registers for the program.
+B. At least one participant completes the orientation.
+C. No participant registers for the program.
+D. Some participants finishes all modules."
+generated_v4style_300_214_1,214,1,No,False,existential,CompletesOrientation,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one participant completes the orientation."
+generated_v4style_300_215_0,215,0,A,True,mc,AttendsComplianceTraining,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one employee receives security clearance.
+B. Every employee receives security clearance.
+C. No employee receives security clearance.
+D. At least one employee attends compliance training, but nothing about receives security clearance."
+generated_v4style_300_215_1,215,1,Yes,False,universal,HandlesClientAccounts,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every employee handles client accounts."
+generated_v4style_300_216_0,216,0,A,True,mc,CatalogsNewBooks,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one librarian notifies patrons.
+B. Every librarian notifies patrons.
+C. No librarian notifies patrons.
+D. At least one librarian catalogs new books, but nothing about notifies patrons."
+generated_v4style_300_216_1,216,1,Yes,False,universal,CompletesInventory,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every librarian completes the inventory."
+generated_v4style_300_217_0,217,0,Yes,False,universal,NotifiesPatrons,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all librarians notifies patrons?
+generated_v4style_300_217_1,217,1,Unknown,False,universal,CompletesInventory,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all librarians inventory?
+generated_v4style_300_218_0,218,0,B,True,mc,AttendsComplianceTraining,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every employee attends compliance training.
+B. It cannot be determined whether every employee attends compliance training.
+C. No employee attends compliance training.
+D. Every employee who receives security clearance must attends."
+generated_v4style_300_218_1,218,1,Unknown,False,other_ynu,AttendsComplianceTraining,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If an employee receives security clearance, then the employee attends compliance training."
+generated_v4style_300_219_0,219,0,B,True,mc,BuildsModel,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every analyst gathers the requirements.
+B. It cannot be determined whether every analyst gathers the requirements.
+C. No analyst gathers the requirements.
+D. Every analyst who builds a model must gathers."
+generated_v4style_300_219_1,219,1,Unknown,False,other_ynu,BuildsModel,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If an analyst builds a model, then the analyst gathers the requirements."
+generated_v4style_300_220_0,220,0,C,True,mc,SolvesProblems,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student studies regularly.
+B. At least one student understands the concepts.
+C. No student studies regularly.
+D. Some students solves the problems."
+generated_v4style_300_220_1,220,1,No,False,existential,UnderstandsConcepts,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one student understands the concepts."
+generated_v4style_300_221_0,221,0,Yes,False,universal,EarnsCredit,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students earns course credit?
+generated_v4style_300_221_1,221,1,Unknown,False,universal,GraduatesUniversity,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students university?
+generated_v4style_300_222_0,222,0,Unknown,False,universal,CompletesOnboarding,0.5,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees onboarding program?
+generated_v4style_300_222_1,222,1,Unknown,False,universal,ReceivesFullBenefits,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all employees receives full benefits?
+generated_v4style_300_223_0,223,0,No,False,existential,AttendsSeminar,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one trainee seminar?
+generated_v4style_300_223_1,223,1,Yes,False,universal,JoinsProfessionalBody,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all trainees professional body?
+generated_v4style_300_224_0,224,0,Yes,False,universal,CompletesGroupProject,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students group project?
+generated_v4style_300_224_1,224,1,No,False,existential,ReceivesGroupGrade,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student group grade?
+generated_v4style_300_225_0,225,0,Yes,False,universal,ReceivesClearance,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives security clearance?
+generated_v4style_300_225_1,225,1,No,False,existential,AccessesSensitiveData,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one employee accesses sensitive data?
+generated_v4style_300_226_0,226,0,Yes,False,universal,PassesLabComponent,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students lab component?
+generated_v4style_300_226_1,226,1,No,False,existential,MeetsGraduationRequirement,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student graduation requirement?
+generated_v4style_300_227_0,227,0,A,True,mc,ConductsExperiment,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one researcher conducts experiments.
+B. Every researcher conducts experiments.
+C. No researcher conducts experiments.
+D. At least one researcher writes a research proposal, but nothing about conducts experiments."
+generated_v4style_300_227_1,227,1,Yes,False,universal,PresentsAtConference,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every researcher presents at a conference."
+generated_v4style_300_228_0,228,0,B,True,mc,EnrollsInCourse,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one student enrolls in the course.
+B. No student enrolls in the course.
+C. Every student submits all assignments.
+D. At least one student submits all assignments."
+generated_v4style_300_228_1,228,1,Unknown,False,universal,AchievesHighGPA,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every student achieves a high GPA."
+generated_v4style_300_229_0,229,0,D,True,mc,RunsUnitTests,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No developer runs the unit tests.
+B. Every developer runs the unit tests.
+C. At least one developer runs the unit tests.
+D. It cannot be determined whether any developer runs the unit tests."
+generated_v4style_300_229_1,229,1,Unknown,False,universal_negative,RunsUnitTests,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No developer runs the unit tests."
+generated_v4style_300_230_0,230,0,Unknown,False,universal,ReadsLiterature,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers literature?
+generated_v4style_300_230_1,230,1,Unknown,False,universal,DesignsStudy,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all researchers designs a study?
+generated_v4style_300_231_0,231,0,A,True,mc,ReceivesGroupGrade,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student receives the group grade.
+B. No student receives the group grade.
+C. Only some students receives the group grade.
+D. The premises do not support any conclusion about receivesing."
+generated_v4style_300_231_1,231,1,Yes,False,universal,CompletesGroupProject,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student completes the group project."
+generated_v4style_300_232_0,232,0,Yes,False,universal,SubmitsAllAssignments,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students submits all assignments?
+generated_v4style_300_232_1,232,1,Unknown,False,universal,ReceivesScholarship,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students receives a scholarship?
+generated_v4style_300_233_0,233,0,No,False,existential,StudiesRegularly,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one student studies regularly?
+generated_v4style_300_233_1,233,1,Yes,False,universal,ReceivesHonors,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students receives honors?
+generated_v4style_300_234_0,234,0,A,True,mc,ImprovesTechnique,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student improves technique.
+B. No student improves technique.
+C. Only some students improves technique.
+D. The premises do not support any conclusion about improvesing."
+generated_v4style_300_234_1,234,1,Yes,False,universal,ReviewsMistakes,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student reviews mistakes."
+generated_v4style_300_235_0,235,0,No,False,existential,SchedulesSession,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one mentor schedules a session?
+generated_v4style_300_235_1,235,1,Yes,False,universal,TracksProgress,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all mentors tracks progress?
+generated_v4style_300_236_0,236,0,C,True,mc,ClearsInterview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every candidate submits the application.
+B. At least one candidate passes the written test.
+C. No candidate submits the application.
+D. Some candidates clears the interview."
+generated_v4style_300_236_1,236,1,No,False,existential,PassesWrittenTest,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one candidate passes the written test."
+generated_v4style_300_237_0,237,0,No,False,existential,CompletesLabWork,0.6666666666666666,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student lab work?
+generated_v4style_300_237_1,237,1,Yes,False,universal,ObtainsDiploma,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students diploma?
+generated_v4style_300_238_0,238,0,B,True,mc,RegistersForExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student registers for the exam.
+B. It cannot be determined whether every student registers for the exam.
+C. No student registers for the exam.
+D. Every student who reviews mistakes must registers."
+generated_v4style_300_238_1,238,1,Unknown,False,other_ynu,RegistersForExam,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student reviews mistakes, then the student registers for the exam."
+generated_v4style_300_239_0,239,0,Yes,False,universal,ReceivesMentorFeedback,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all interns receives mentor feedback?
+generated_v4style_300_239_1,239,1,Unknown,False,universal,GetsReturnOffer,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all interns gets a return offer?
+generated_v4style_300_240_0,240,0,C,True,mc,CompletesAssignedTask,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every intern joins the team.
+B. At least one intern completes the assigned task.
+C. No intern joins the team.
+D. Some interns receives mentor feedback."
+generated_v4style_300_240_1,240,1,No,False,existential,CompletesAssignedTask,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one intern completes the assigned task."
+generated_v4style_300_241_0,241,0,Yes,False,universal,NotifiesPatrons,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all librarians notifies patrons?
+generated_v4style_300_241_1,241,1,No,False,existential,ProcessesReservations,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one librarian processes reservations?
+generated_v4style_300_242_0,242,0,Yes,False,universal,CompletesGroupProject,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students group project?
+generated_v4style_300_242_1,242,1,No,False,existential,ReceivesGroupGrade,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student group grade?
+generated_v4style_300_243_0,243,0,A,True,mc,SubmitsGradeReport,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every teacher submits the grade report.
+B. No teacher submits the grade report.
+C. Only some teachers submits the grade report.
+D. The premises do not support any conclusion about submitsing."
+generated_v4style_300_243_1,243,1,Yes,False,universal,GradesAssignments,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every teacher grades the assignments."
+generated_v4style_300_244_0,244,0,No,False,existential,SchedulesSession,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one mentor schedules a session?
+generated_v4style_300_244_1,244,1,Yes,False,universal,TracksProgress,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all mentors tracks progress?
+generated_v4style_300_245_0,245,0,Yes,False,universal,CompletesGroupProject,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students group project?
+generated_v4style_300_245_1,245,1,Unknown,False,universal,FulfilsTeamworkRequirement,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students teamwork requirement?
+generated_v4style_300_246_0,246,0,C,True,mc,AttendsSeminar,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every trainee attends the seminar.
+B. At least one trainee completes the workshop.
+C. No trainee attends the seminar.
+D. Some trainees submits a portfolio."
+generated_v4style_300_246_1,246,1,No,False,existential,CompletesWorkshop,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one trainee completes the workshop."
+generated_v4style_300_247_0,247,0,B,True,mc,SolvesProblems,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one student studies regularly.
+B. No student studies regularly.
+C. Every student solves the problems.
+D. At least one student solves the problems."
+generated_v4style_300_247_1,247,1,Unknown,False,universal,PerformsWellOnExam,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every student performs well on the exam."
+generated_v4style_300_248_0,248,0,B,True,mc,AttendsSeminar,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every trainee attends the seminar.
+B. It cannot be determined whether every trainee attends the seminar.
+C. No trainee attends the seminar.
+D. Every trainee who submits a portfolio must attends."
+generated_v4style_300_248_1,248,1,Unknown,False,other_ynu,AttendsSeminar,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a trainee submits a portfolio, then the trainee attends the seminar."
+generated_v4style_300_249_0,249,0,Yes,False,universal,ProvidesFeedback,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all mentors provides feedback?
+generated_v4style_300_249_1,249,1,Unknown,False,universal,TracksProgress,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all mentors tracks progress?
+generated_v4style_300_250_0,250,0,Yes,False,universal,ReceivesMentorFeedback,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all interns receives mentor feedback?
+generated_v4style_300_250_1,250,1,No,False,existential,WritesInternshipReport,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one intern internship report?
+generated_v4style_300_251_0,251,0,Yes,False,universal,GradesAssignments,0.5,False,True,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all teachers assignments?
+generated_v4style_300_251_1,251,1,No,False,existential,SubmitsGradeReport,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one teacher grade report?
+generated_v4style_300_252_0,252,0,B,True,mc,ClearsInterview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one candidate submits the application.
+B. No candidate submits the application.
+C. Every candidate clears the interview.
+D. At least one candidate clears the interview."
+generated_v4style_300_252_1,252,1,Unknown,False,universal,ReceivesOffer,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every candidate receives an offer."
+generated_v4style_300_253_0,253,0,Yes,False,universal,ProvidesFeedback,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all mentors provides feedback?
+generated_v4style_300_253_1,253,1,No,False,existential,SetsDevelopmentGoals,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one mentor sets development goals?
+generated_v4style_300_254_0,254,0,Yes,False,universal,BuildsModel,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all analysts builds a model?
+generated_v4style_300_254_1,254,1,No,False,existential,ValidatesResults,0.5,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one analyst results?
+generated_v4style_300_255_0,255,0,Unknown,False,universal,WritesCode,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all developers code?
+generated_v4style_300_255_1,255,1,Unknown,False,universal,PassesCodeReview,0.6666666666666666,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all developers code review?
+generated_v4style_300_256_0,256,0,C,True,mc,CompletesOnboarding,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every employee completes the onboarding program.
+B. At least one employee passes the probation period.
+C. No employee completes the onboarding program.
+D. Some employees receives full benefits."
+generated_v4style_300_256_1,256,1,No,False,existential,PassesProbation,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one employee passes the probation period."
+generated_v4style_300_257_0,257,0,A,True,mc,AchievesHighGPA,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student achieves a high GPA.
+B. No student achieves a high GPA.
+C. Only some students achieves a high GPA.
+D. The premises do not support any conclusion about achievesing."
+generated_v4style_300_257_1,257,1,Yes,False,universal,SubmitsAllAssignments,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every student submits all assignments."
+generated_v4style_300_258_0,258,0,A,True,mc,GradesAssignments,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one teacher grades the assignments.
+B. Every teacher grades the assignments.
+C. No teacher grades the assignments.
+D. At least one teacher prepares the curriculum, but nothing about grades the assignments."
+generated_v4style_300_258_1,258,1,Yes,False,universal,CompletesAcademicTerm,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every teacher completes the academic term."
+generated_v4style_300_259_0,259,0,Yes,False,universal,NotifiesPatrons,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all librarians notifies patrons?
+generated_v4style_300_259_1,259,1,Unknown,False,universal,CompletesInventory,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all librarians inventory?
+generated_v4style_300_260_0,260,0,No,False,existential,RegistersForExam,0.3333333333333333,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student exam?
+generated_v4style_300_260_1,260,1,Yes,False,universal,ScoresAboveThreshold,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students threshold?
+generated_v4style_300_261_0,261,0,A,True,mc,BuildsModel,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one analyst builds a model.
+B. Every analyst builds a model.
+C. No analyst builds a model.
+D. At least one analyst gathers the requirements, but nothing about builds a model."
+generated_v4style_300_261_1,261,1,Yes,False,universal,DeliversReport,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every analyst delivers the report."
+generated_v4style_300_262_0,262,0,No,False,existential,WritesCode,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one developer code?
+generated_v4style_300_262_1,262,1,Yes,False,universal,DeploysToProduction,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all developers deploys to production?
+generated_v4style_300_263_0,263,0,Yes,False,universal,ReviewsMistakes,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all students reviews mistakes?
+generated_v4style_300_263_1,263,1,No,False,existential,ImprovesTechnique,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one student improves technique?
+generated_v4style_300_264_0,264,0,Yes,False,universal,ReceivesMentorFeedback,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all interns receives mentor feedback?
+generated_v4style_300_264_1,264,1,No,False,existential,WritesInternshipReport,0.6666666666666666,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one intern internship report?
+generated_v4style_300_265_0,265,0,Yes,False,universal,SubmitsAllAssignments,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students submits all assignments?
+generated_v4style_300_265_1,265,1,Unknown,False,universal,ReceivesScholarship,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students receives a scholarship?
+generated_v4style_300_266_0,266,0,C,True,mc,ClearsInterview,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every candidate submits the application.
+B. At least one candidate passes the written test.
+C. No candidate submits the application.
+D. Some candidates clears the interview."
+generated_v4style_300_266_1,266,1,No,False,existential,PassesWrittenTest,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one candidate passes the written test."
+generated_v4style_300_267_0,267,0,D,True,mc,DocumentsFindings,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No analyst documents the findings.
+B. Every analyst documents the findings.
+C. At least one analyst documents the findings.
+D. It cannot be determined whether any analyst documents the findings."
+generated_v4style_300_267_1,267,1,Unknown,False,universal_negative,DocumentsFindings,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No analyst documents the findings."
+generated_v4style_300_268_0,268,0,Yes,False,universal,PassesLabComponent,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students lab component?
+generated_v4style_300_268_1,268,1,Unknown,False,universal,ObtainsDiploma,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students diploma?
+generated_v4style_300_269_0,269,0,A,True,mc,FinishesAllModules,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which conclusion follows?
+A. At least one participant finishes all modules.
+B. Every participant finishes all modules.
+C. No participant finishes all modules.
+D. At least one participant registers for the program, but nothing about finishes all modules."
+generated_v4style_300_269_1,269,1,Yes,False,universal,ObtainsProfessionalLicense,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every participant obtains a professional license."
+generated_v4style_300_270_0,270,0,Yes,False,universal,PassesCodeReview,0.6666666666666666,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all developers code review?
+generated_v4style_300_270_1,270,1,No,False,existential,MergesBranch,0.5,False,True,,E1_FORALL_NEG_NOT_EXISTS,Does at least one developer branch?
+generated_v4style_300_271_0,271,0,Yes,False,universal,ReviewsMistakes,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students reviews mistakes?
+generated_v4style_300_271_1,271,1,Unknown,False,universal,ScoresAboveThreshold,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students threshold?
+generated_v4style_300_272_0,272,0,B,True,mc,CompletesLabWork,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student completes the lab work.
+B. It cannot be determined whether every student completes the lab work.
+C. No student completes the lab work.
+D. Every student who passes the lab component must completes."
+generated_v4style_300_272_1,272,1,Unknown,False,other_ynu,CompletesLabWork,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work."
+generated_v4style_300_273_0,273,0,Yes,False,universal,BuildsModel,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all analysts builds a model?
+generated_v4style_300_273_1,273,1,Unknown,False,universal,DeliversReport,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all analysts report?
+generated_v4style_300_274_0,274,0,B,True,mc,ProvidesFeedback,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. At least one mentor schedules a session.
+B. No mentor schedules a session.
+C. Every mentor provides feedback.
+D. At least one mentor provides feedback."
+generated_v4style_300_274_1,274,1,Unknown,False,universal,SetsDevelopmentGoals,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? Every mentor sets development goals."
+generated_v4style_300_275_0,275,0,A,True,mc,PassesCertificationExam,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every participant passes the certification exam.
+B. No participant passes the certification exam.
+C. Only some participants passes the certification exam.
+D. The premises do not support any conclusion about passesing."
+generated_v4style_300_275_1,275,1,Yes,False,universal,FinishesAllModules,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every participant finishes all modules."
+generated_v4style_300_276_0,276,0,Yes,False,universal,ReceivesFullBenefits,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives full benefits?
+generated_v4style_300_276_1,276,1,No,False,existential,EligibleForPromotion,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one employee is eligible for promotion?
+generated_v4style_300_277_0,277,0,A,True,mc,WritesInternshipReport,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every intern writes the internship report.
+B. No intern writes the internship report.
+C. Only some interns writes the internship report.
+D. The premises do not support any conclusion about writesing."
+generated_v4style_300_277_1,277,1,Yes,False,universal,ReceivesMentorFeedback,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every intern receives mentor feedback."
+generated_v4style_300_278_0,278,0,No,False,existential,CompletesLabWork,0.6666666666666666,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one student lab work?
+generated_v4style_300_278_1,278,1,Yes,False,universal,ObtainsDiploma,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all students diploma?
+generated_v4style_300_279_0,279,0,Yes,False,universal,BuildsModel,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all analysts builds a model?
+generated_v4style_300_279_1,279,1,No,False,existential,ValidatesResults,0.5,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one analyst results?
+generated_v4style_300_280_0,280,0,Yes,False,universal,ReviewsMistakes,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all students reviews mistakes?
+generated_v4style_300_280_1,280,1,Unknown,False,universal,ScoresAboveThreshold,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all students threshold?
+generated_v4style_300_281_0,281,0,Yes,False,universal,ClearsInterview,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNIVERSAL_FORWARD_CHAIN,Do all candidates interview?
+generated_v4style_300_281_1,281,1,Unknown,False,universal,StartsPosition,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all candidates position?
+generated_v4style_300_282_0,282,0,Unknown,False,universal,JoinsTeam,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all interns team?
+generated_v4style_300_282_1,282,1,Unknown,False,universal,ReceivesMentorFeedback,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all interns receives mentor feedback?
+generated_v4style_300_283_0,283,0,B,True,mc,SolvesProblems,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every student studies regularly.
+B. It cannot be determined whether every student studies regularly.
+C. No student studies regularly.
+D. Every student who solves the problems must studies."
+generated_v4style_300_283_1,283,1,Unknown,False,other_ynu,SolvesProblems,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a student solves the problems, then the student studies regularly."
+generated_v4style_300_284_0,284,0,Yes,False,universal,ReceivesClearance,1.0,False,True,,UNIVERSAL_FORWARD_CHAIN,Do all employees receives security clearance?
+generated_v4style_300_284_1,284,1,No,False,existential,AccessesSensitiveData,1.0,False,True,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one employee accesses sensitive data?
+generated_v4style_300_285_0,285,0,B,True,mc,FinishesAllModules,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. Every participant registers for the program.
+B. It cannot be determined whether every participant registers for the program.
+C. No participant registers for the program.
+D. Every participant who finishes all modules must registers."
+generated_v4style_300_285_1,285,1,Unknown,False,universal,FinishesAllModules,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? If a participant finishes all modules, then the participant registers for the program."
+generated_v4style_300_286_0,286,0,No,False,existential,ReadsLiterature,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one researcher literature?
+generated_v4style_300_286_1,286,1,Yes,False,universal,PublishesPaper,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all researchers publishes a paper?
+generated_v4style_300_287_0,287,0,D,True,mc,AttendsTrainingSession,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No volunteer attends the training session.
+B. Every volunteer attends the training session.
+C. At least one volunteer attends the training session.
+D. It cannot be determined whether any volunteer attends the training session."
+generated_v4style_300_287_1,287,1,Unknown,False,universal_negative,AttendsTrainingSession,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No volunteer attends the training session."
+generated_v4style_300_288_0,288,0,Unknown,False,universal,PreparesCurriculum,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all teachers curriculum?
+generated_v4style_300_288_1,288,1,Unknown,False,universal,GradesAssignments,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all teachers assignments?
+generated_v4style_300_289_0,289,0,C,True,mc,AttendsSeminar,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every trainee attends the seminar.
+B. At least one trainee completes the workshop.
+C. No trainee attends the seminar.
+D. Some trainees submits a portfolio."
+generated_v4style_300_289_1,289,1,No,False,existential,CompletesWorkshop,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one trainee completes the workshop."
+generated_v4style_300_290_0,290,0,A,True,mc,AnalyzesData,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every researcher analyzes the data.
+B. No researcher analyzes the data.
+C. Only some researchers analyzes the data.
+D. The premises do not support any conclusion about analyzesing."
+generated_v4style_300_290_1,290,1,Yes,False,universal,ConductsExperiment,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every researcher conducts experiments."
+generated_v4style_300_291_0,291,0,A,True,mc,WritesInternshipReport,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every intern writes the internship report.
+B. No intern writes the internship report.
+C. Only some interns writes the internship report.
+D. The premises do not support any conclusion about writesing."
+generated_v4style_300_291_1,291,1,Yes,False,universal,ReceivesMentorFeedback,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every intern receives mentor feedback."
+generated_v4style_300_292_0,292,0,Unknown,False,universal,FinishesAllModules,0.3333333333333333,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all participants program?
+generated_v4style_300_292_1,292,1,Unknown,False,universal,FinishesAllModules,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all participants finishes all modules?
+generated_v4style_300_293_0,293,0,Unknown,False,universal,SubmitsApplication,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all candidates application?
+generated_v4style_300_293_1,293,1,Unknown,False,universal,ClearsInterview,0.5,False,False,UNNATURAL_QUESTION_GRAMMAR,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,Do all candidates interview?
+generated_v4style_300_294_0,294,0,C,True,mc,CompletesCoursework,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every student completes the coursework.
+B. At least one student passes the final exam.
+C. No student completes the coursework.
+D. Some students earns course credit."
+generated_v4style_300_294_1,294,1,No,False,existential,PassesFinalExam,1.0,False,False,,E1_FORALL_NEG_NOT_EXISTS,"According to the premises, is the following statement true? At least one student passes the final exam."
+generated_v4style_300_295_0,295,0,No,False,existential,PreparesCurriculum,0.5,False,False,,E1_FORALL_NEG_NOT_EXISTS,Does at least one teacher curriculum?
+generated_v4style_300_295_1,295,1,Yes,False,universal,CompletesAcademicTerm,0.6666666666666666,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all teachers academic term?
+generated_v4style_300_296_0,296,0,D,True,mc,IdentifiesGap,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No researcher identifies a research gap.
+B. Every researcher identifies a research gap.
+C. At least one researcher identifies a research gap.
+D. It cannot be determined whether any researcher identifies a research gap."
+generated_v4style_300_296_1,296,1,Unknown,False,universal_negative,IdentifiesGap,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No researcher identifies a research gap."
+generated_v4style_300_297_0,297,0,No,False,existential,WritesProposal,1.0,False,False,VERB_AGREEMENT_ODD,E1_FORALL_NEG_NOT_EXISTS,Does at least one researcher writes a research proposal?
+generated_v4style_300_297_1,297,1,Yes,False,universal,PresentsAtConference,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,Do all researchers presents at a conference?
+generated_v4style_300_298_0,298,0,A,True,mc,CollectsData,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement can be inferred?
+A. Every researcher collects data.
+B. No researcher collects data.
+C. Only some researchers collects data.
+D. The premises do not support any conclusion about collectsing."
+generated_v4style_300_298_1,298,1,Yes,False,universal,DesignsStudy,1.0,False,False,,UNIVERSAL_FORWARD_CHAIN,"According to the premises, is the following statement true? Every researcher designs a study."
+generated_v4style_300_299_0,299,0,D,True,mc,PassesProbation,1.0,False,False,,MC_OPTION_PROOF_ANALYSIS,"Based on the premises, which statement is correct?
+A. No employee passes the probation period.
+B. Every employee passes the probation period.
+C. At least one employee passes the probation period.
+D. It cannot be determined whether any employee passes the probation period."
+generated_v4style_300_299_1,299,1,Unknown,False,universal_negative,PassesProbation,1.0,False,False,,UNKNOWN_UNSUPPORTED_OR_AMBIGUOUS,"According to the premises, is the following statement true? No employee passes the probation period."
