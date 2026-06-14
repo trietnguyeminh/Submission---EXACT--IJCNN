@@ -1,0 +1,860 @@
+[
+  {
+    "idx": 9,
+    "question_index": 0,
+    "premises-NL": [
+      "There exists at least one student who is enrolled in a specific course.",
+      "Every student must complete a qualifying exam.",
+      "Every student is enrolled in the specific course.",
+      "If every student must complete a qualifying exam, then every student is enrolled in the specific course.",
+      "If at least one student is enrolled in the course, then all students must be enrolled in the course.",
+      "There exists at least one student who has received a scholarship.",
+      "Every student has received a scholarship."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. (∃x (Enrolled(x)) → ∀x (Enrolled(x)))\nB. ((∃x (Enrolled(x)) → ∀x (Enrolled(x))) ∧ ¬(∃x (Enrolled(x)) → ∀x (Enrolled(x))))\nC. ¬(∃x (Enrolled(x)) → ∀x (Enrolled(x)))\nD. ((∃x (Enrolled(x)) → ∀x (Enrolled(x))) → (∃x (Enrolled(x)) → ∀x (Enrolled(x))))"
+  },
+  {
+    "idx": 17,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student does not pass the exam, then they will not qualify for the scholarship.",
+      "If a student attends tutoring sessions, then they will pass the exam.",
+      "If a student passes the exam, then they will graduate.",
+      "If passing the exam leads to graduation, then attending tutoring sessions leads to passing the exam.",
+      "If passing the exam leads to graduation, then not passing the exam leads to not qualifying for the scholarship.",
+      "Every student must submit a final project.",
+      "If a student does not graduate, then they did not attend tutoring sessions."
+    ],
+    "question": "Do all students graduate?"
+  },
+  {
+    "idx": 31,
+    "question_index": 1,
+    "premises-NL": [
+      "If a person reads a book, then they gain knowledge.",
+      "All people who read books gain knowledge.",
+      "If a person does not understand the content, they do not gain knowledge.",
+      "If a person reads a book, they gain wisdom.",
+      "All people who read books gain wisdom.",
+      "If a person gains wisdom, they gain knowledge.",
+      "If a person does not gain knowledge, they have not understood the content.",
+      "If a person reads a book and gains wisdom, they gain knowledge.",
+      "Everyone who reads books gains knowledge.",
+      "If a person has gained knowledge and wisdom, they have mastered the content.",
+      "Everyone who has gained knowledge has read a book."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a person gains both knowledge and wisdom, they have mastered the content."
+  },
+  {
+    "idx": 32,
+    "question_index": 0,
+    "premises-NL": [
+      "In C++ language, variables that are in classes are stored in 3 types of access specifiers: Public, Protected, and Private.",
+      "Variables in the Public specifier are accessible within the class, by inherited classes, and outside the class.",
+      "An access specifier that allows access in inherited classes but not outside is different from Public and Private.",
+      "Variables in the Private specifier are only accessible within the class.",
+      "If a person creates a setter and getter function and uses it for a variable inside a class, then the variable can be accessed within the class and from outside.",
+      "John is coding and making a class called 'Subject'.",
+      "John creates an inherited class 'Science_subject'.",
+      "John assigns an access specifier to 'Math' that allows access in inherited classes but not outside the class.",
+      "There is no getter function for 'Math' in 'Subject'.",
+      "There is no setter function for 'Math' in 'Subject'."
+    ],
+    "question": "Can the variable 'Math' be accessed in the class 'Science_subject'?\nA. Math can be accessed in Science_subject.\nB. Math cannot be accessed in Science_subject because it is Private.\nC. Math can be accessed in Science_subject because it is Public.\nD. Math cannot be accessed in Science_subject because a getter is required."
+  },
+  {
+    "idx": 33,
+    "question_index": 0,
+    "premises-NL": [
+      "If it's raining, then I'm going to sleep.",
+      "If I'm going to sleep, then I don't study.",
+      "If I don't study, then I fail the test.",
+      "You fail the test if and only if you don't pass the test.",
+      "I don’t fail the test."
+    ],
+    "question": "Based on the premises, which of the following must be true?\nA. I ate a Banh Mi.\nB. I passed the test.\nC. It is raining.\nD. I slept."
+  },
+  {
+    "idx": 61,
+    "question_index": 0,
+    "premises-NL": [
+      "Every student is stressed during exam season.",
+      "If a student reviews regularly, then they understand the material.",
+      "If a student understands the material, then they are not stressed.",
+      "If a student does not understand the material, then they must have procrastinated.",
+      "If a student does not review regularly, then they did not procrastinate.",
+      "All students procrastinate.",
+      "If a student is stressed, then they must have procrastinated.",
+      "If a student joins a study group, then they understand the material.",
+      "All students drink coffee during exams.",
+      "If a student does not review regularly, then they do not drink coffee.",
+      "If a student procrastinates, then they join a study group.",
+      "If at least one student drinks coffee, then at least one student reviews regularly.",
+      "If reviewing leads to understanding, then all students drink coffee.",
+      "If procrastinating leads to joining a study group, then not understanding leads to procrastination.",
+      "If at least one student drinks coffee, then all students procrastinate.",
+      "(If procrastinating implies joining a study group leads to not understanding implies procrastination), then every student must be stressed.",
+      "If a student joins a study group, then they review regularly.",
+      "If a student does not join a study group, then they do not review regularly.",
+      "Every student joins a study group.",
+      "If a student is stressed, then they join a study group."
+    ],
+    "question": "Do all students understand the material?"
+  },
+  {
+    "idx": 72,
+    "question_index": 1,
+    "premises-NL": [
+      "If a person did not participate in organizing the cultural festival, then they did not present any performance or exhibit.",
+      "There exists someone who learned about different cultures through the festival.",
+      "There exists someone who attended the cultural festival.",
+      "If someone attended the cultural festival, then someone learned about different cultures.",
+      "If (a person not participating in organizing implies they did not present), then there exists someone who learned about different cultures.",
+      "If a person participated in organizing the festival, then they developed teamwork skills.",
+      "Everyone learned about different cultures through the festival."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a person did not participate in organizing the cultural festival, then they did not present any performance or exhibit, and if someone attended the festival, then someone learned about different cultures."
+  },
+  {
+    "idx": 75,
+    "question_index": 1,
+    "premises-NL": [
+      "All individuals attend soft skill seminars.",
+      "If a person learns new soft skills in the seminar, then they improve their communication or leadership skills.",
+      "If a person did not participate in the previous seminar, then they did not learn new soft skills in the seminar.",
+      "If (not participating in the previous seminar implies not learning new skills), then (learning new skills implies improving communication or leadership skills).",
+      "If all individuals attend soft skill seminars, then learning new skills implies improving communication or leadership skills.",
+      "Everyone learns new soft skills in the seminar.",
+      "If a person participated in the seminar, then they successfully apply the soft skills in their daily activities."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If all individuals attend soft skill seminars, then learning new skills implies improving communication or leadership skills, and everyone learns new soft skills in the seminar."
+  },
+  {
+    "idx": 100,
+    "question_index": 1,
+    "premises-NL": [
+      "All students use the library from 12:00 PM to 1:00 PM for sleeping.",
+      "If x uses the library for sleeping, then x sleeps in the library during the designated time.",
+      "If x does not use the library for sleeping, then x is not allowed to sleep in the library."
+    ],
+    "question": "Is it true that all students are allowed to sleep in the library?"
+  },
+  {
+    "idx": 129,
+    "question_index": 1,
+    "premises-NL": [
+      "Every student is preparing for an exam.",
+      "If a student is not asking questions, then they are not attending tutorials.",
+      "There exists at least one student who is attending tutorials.",
+      "If (a student not asking questions implies they are not attending tutorials), then there exists at least one student who is attending tutorials.",
+      "If there exists at least one student who is attending tutorials, then (if a student is not asking questions, they are not attending tutorials).",
+      "Every student is understanding the material.",
+      "There exists at least one student who is preparing for an exam."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If there exists at least one student who is attending tutorials, then if a student is not asking questions, they are not attending tutorials, and every student is preparing for an exam."
+  },
+  {
+    "idx": 139,
+    "question_index": 1,
+    "premises-NL": [
+      "Every high school student is diligent.",
+      "If a high school student attends tutoring sessions, then they improve their grades.",
+      "There exists at least one high school student who attends tutoring sessions.",
+      "If every high school student is diligent, then (if a high school student attends tutoring sessions, then they improve their grades).",
+      "If (if a high school student attends tutoring sessions, then they improve their grades), then every high school student is diligent.",
+      "Every high school student is inquisitive.",
+      "If a high school student improves their grades, then they achieve academic success."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a high school student attends tutoring sessions, then they improve their grades, and there exists at least one high school student who attends tutoring sessions."
+  },
+  {
+    "idx": 143,
+    "question_index": 0,
+    "premises-NL": [
+      "All students follow the classroom rules",
+      "There exists at least one student who is a member of the student council",
+      "All students receive positive participation marks"
+    ],
+    "question": "Which of the following can be inferred about students?\nA. Some students are members of the student council\nB. All students complete all assignments on time\nC. Some students do not follow the classroom rules\nD. Some students do not receive positive participation marks"
+  },
+  {
+    "idx": 159,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student has not gained international experience through an exchange program, then they are not ready to actively join the international community",
+      "If a student has applied for an exchange program, then they have gained international experience",
+      "If a student has received support from the university’s international office, then they have gained international experience",
+      "If a student has not applied for an exchange program, then they are not selected for an international leadership role",
+      "There exists at least one student who has applied for an exchange program"
+    ],
+    "question": "Is the following statement true? Statement: If a student has received support from the international office, then they have gained international experience"
+  },
+  {
+    "idx": 166,
+    "question_index": 0,
+    "premises-NL": [
+      "All students qualify for a scholarship.",
+      "There is at least one student who attends tutoring sessions.",
+      "If a student does not receive a recommendation letter, then they do not understand the material.",
+      "All students receive a recommendation letter.",
+      "All students pass the exam.",
+      "If a student studies regularly, then they pass the exam.",
+      "If a student understands the material, then they receive a recommendation letter.",
+      "If a student does not receive a recommendation letter, then they do not study regularly.",
+      "There is at least one student who qualifies for a scholarship.",
+      "There is at least one student who studies regularly.",
+      "If a student does not receive a recommendation letter, then they do not pass the exam.",
+      "If a student does not pass the exam, then they do not receive a recommendation letter.",
+      "If not receiving a recommendation letter implies not passing the exam, then there is at least one student who qualifies for a scholarship.",
+      "If there is at least one student who attends tutoring sessions, then if a student does not pass the exam, they do not receive a recommendation letter.",
+      "If the implication (if not receiving a recommendation letter then not passing the exam) guarantees the existence of a student who qualifies for a scholarship, then there is at least one student who studies regularly.",
+      "If a student passes the exam, then they attend tutoring sessions.",
+      "If a student does not understand the material, then they are not considered to qualify for a scholarship.",
+      "There is at least one student who passes the exam.",
+      "If a student does not pass the exam, then they do not understand the material."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. There exists a student who does not receive a recommendation letter.\nB. There exists a student who does not pass the exam.\nC. All students attend tutoring sessions.\nD. All students do not study regularly."
+  },
+  {
+    "idx": 171,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student understands the material, then they attend tutoring sessions.",
+      "If a student understands the material, then they receive a recommendation letter.",
+      "There is at least one student who attends tutoring sessions.",
+      "If a student does not receive a recommendation letter, then they do not understand the material.",
+      "If a student receives a recommendation letter, then they study regularly.",
+      "If a student does not qualify for a scholarship, then they do not study regularly.",
+      "All students pass the exam.",
+      "If a student does not pass the exam, then they do not qualify for a scholarship.",
+      "There is at least one student who receives a recommendation letter.",
+      "If a student does not study regularly, then they do not qualify for a scholarship.",
+      "If a student Trần tutoring sessions, then they qualify for a scholarship.",
+      "If a student studies regularly, then they qualify for a scholarship.",
+      "If there is at least one student who attends tutoring sessions, then there is at least one student who receives a recommendation letter.",
+      "If studying regularly implies qualifying for a scholarship, then there is at least one student who attends tutoring sessions.",
+      "All students attend tutoring sessions.",
+      "If a student understands the material, then they qualify for a scholarship.",
+      "If a student passes the exam, then they understands the material.",
+      "All students study regularly."
+    ],
+    "question": "Based on the above premises, is the statement true?\nStatement: ((AttendsTutoring(x) → QualifiesScholarship(x)) → (ReceivesRecommendation(x) → StudiesRegularly(x)))"
+  },
+  {
+    "idx": 181,
+    "question_index": 1,
+    "premises-NL": [
+      "There exists at least one teaching assistant in the computer science department.",
+      "There exists at least one student who participates in research projects.",
+      "If a student qualifies for graduate programs, then that student participates in research projects.",
+      "If a student does not submit all assignments, then that student does not receive academic honors.",
+      "There exists at least one student who utilizes university resources.",
+      "If there exists a student who participates in research projects, then it is true that students who don't submit all assignments won't receive academic honors.",
+      "If the existence of research project participants implies that non-submitters don't receive honors, then there exists a teaching assistant.",
+      "If there exists a research participant, then if the existence of research participants implies non-submitters don't receive honors, there must be a teaching assistant.",
+      "If a student doesn't qualify for graduate programs, then that student doesn't submit all assignments.",
+      "There exists at least one student who receives academic honors."
+    ],
+    "question": "If there exists at least one teaching assistant in the computer science department, does it follow that if there exists a student who participates in research projects, then it is true that students who don't submit all assignments won't receive academic honors?"
+  },
+  {
+    "idx": 190,
+    "question_index": 1,
+    "premises-NL": [
+      "There exists at least one research-based educational program.",
+      "There exists at least one student who qualifies for honors distinction.",
+      "If an educational program isn't research-based, then it doesn't incorporate thesis requirements.",
+      "All students participate in peer learning communities.",
+      "If a program incorporates thesis requirements, then it is research-based.",
+      "If all students participate in peer learning communities, then there exists a research-based educational program.",
+      "If it's true that non-research programs lack thesis requirements, then it's also true that universal peer learning participation implies the existence of research-based programs.",
+      "If programs incorporating thesis requirements are research-based, then there exists a student who qualifies for honors distinction.",
+      "If a student doesn't submit a substantial portfolio, then that student doesn't complete thesis requirements.",
+      "If a student doesn't submit a substantial portfolio, then that student doesn't qualify for honors distinction."
+    ],
+    "question": "If there exists at least one student who qualifies for honors distinction, does it follow that if a program incorporates thesis requirements, then it is research-based?"
+  },
+  {
+    "idx": 193,
+    "question_index": 1,
+    "premises-NL": [
+      "If students are highly competitive, they tend to push themselves harder to achieve better results.",
+      "If students suffer from excessive competition, they will experience higher stress and burnout.",
+      "If students compete in a healthy environment, they often experience improved motivation and performance.",
+      "If students face intense academic competition, they will experience feelings of inadequacy and anxiety.",
+      "If students focus on personal growth, they will achieve more sustainable academic success.",
+      "If students experience cooperative learning environments, they can improve learning and enhance performance.",
+      "If students engage in excessive competition, they will prioritize grades over deep understanding.",
+      "If students receive proper mentorship, they can balance competition with well-being.",
+      "If students develop self-reflection habits, they can mitigate negative competition effects.",
+      "If institutions implement balanced evaluation systems, students experience reduced toxic competition."
+    ],
+    "question": "Can students with excessive competition mitigate stress through self-reflection?"
+  },
+  {
+    "idx": 207,
+    "question_index": 0,
+    "premises-NL": [
+      "All students have knowledge.",
+      "At least one student conducts research.",
+      "If a student conducts research, then they publish papers.",
+      "At least one student publishes papers.",
+      "If a student teaches, then they conduct research.",
+      "All students conduct research.",
+      "If a student has knowledge, then they teach.",
+      "If a student does not publish papers, then they do not give seminars.",
+      "If a student does not teach, then they do not understand the subject.",
+      "At least one student teaches.",
+      "If a student publishes papers, then they conduct research.",
+      "At least one student has knowledge.",
+      "If having knowledge leads to teaching, then teaching leads to conducting research.",
+      "If at least one student teaches, then at least one student conducts research.",
+      "All students teach.",
+      "If a student has knowledge, then they give seminars."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (publishes_papers(x) → teaches(x))\nB. (∀x (teaches(x) → publishes_papers(x)) ∧ ¬∀x (teaches(x) → publishes_papers(x)))\nC. ∀x (teaches(x) → publishes_papers(x))\nD. ¬∀x (teaches(x) → publishes_papers(x))"
+  },
+  {
+    "idx": 216,
+    "question_index": 0,
+    "premises-NL": [
+      "If a student has training, then they have proficiency.",
+      "If a student lacks qualifications, then they lack proficiency.",
+      "All students have qualifications.",
+      "If a student lacks understanding, then they lack skills.",
+      "There exists at least one student with skills.",
+      "There exists at least one student with proficiency.",
+      "If a student lacks proficiency, then they lack qualifications.",
+      "If a student has skills, then they have understanding.",
+      "If a student lacks training, then they lack proficiency.",
+      "All students have understanding.",
+      "If a student has understanding, then they have qualifications.",
+      "If a student lacks proficiency, then they lack recognition.",
+      "If lacking proficiency leads to lacking recognition, then lacking qualifications leads to lacking proficiency.",
+      "If lacking training leads to lacking proficiency, then training leads to proficiency.",
+      "If a student has proficiency, then they receive recognition.",
+      "If a student has understanding, then they have skills."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (R(x) → T(x))\nB. ¬∀x (T(x) → R(x))\nC. ∀x (T(x) → R(x))\nD. (∀x (T(x) → R(x)) ∧ ¬∀x (T(x) → R(x)))"
+  },
+  {
+    "idx": 226,
+    "question_index": 0,
+    "premises-NL": [
+      "Every student is attending tutorials.",
+      "There exists at least one student who is revising.",
+      "If a student is revising, then they are studying.",
+      "If every student is attending tutorials, then (if a student is revising, they are studying).",
+      "If there exists at least one student who is revising, then (if a student is revising, they are studying).",
+      "If a student is studying, then they are revising.",
+      "There exists at least one student who is preparing for an exam."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. If there exists at least one student who is revising, then if a student is revising, they are studying, and if a student is studying, then they are revising.\nB. If there exists at least one student who is revising, then if a student is revising, they are studying, but if a student is studying, then they are not revising.\nC. If there exists at least one student who is revising, then if a student is revising, they are studying, and every student is attending tutorials.\nD. If there exists at least one student who is revising, then if a student is revising, they are studying, but not every student is attending tutorials."
+  },
+  {
+    "idx": 231,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student is not studying, then they are not asking questions.",
+      "If a student is attending tutorials, then they are understanding the material.",
+      "There exists at least one student who is asking questions.",
+      "If (a student attending tutorials implies they are understanding the material), then there exists at least one student who is asking questions.",
+      "If (a student attending tutorials implies they are understanding the material), then (if a student attending tutorials implies they are understanding the material, there exists at least one student who is asking questions).",
+      "There exists at least one student who is preparing for an exam.",
+      "Every student is studying."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions."
+  },
+  {
+    "idx": 232,
+    "question_index": 1,
+    "premises-NL": [
+      "Every student is studying.",
+      "If a student is attending tutorials, then they are understanding the material.",
+      "There exists at least one student who is understanding the material.",
+      "If (a student attending tutorials implies they are understanding the material), then every student is studying.",
+      "If there exists at least one student who is understanding the material, then (if a student is attending tutorials, they are understanding the material).",
+      "There exists at least one student who is preparing for an exam.",
+      "If a student is revising, then they are studying."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If there exists at least one student who is understanding the material, then if a student is attending tutorials, they are understanding the material, and every student is studying."
+  },
+  {
+    "idx": 235,
+    "question_index": 1,
+    "premises-NL": [
+      "If a university student is revising, then they are preparing for an exam.",
+      "Every university student is asking questions.",
+      "If a university student is studying, then they are understanding the material.",
+      "If (a university student revising implies they are preparing for an exam), then (a university student studying implies they are understanding the material).",
+      "If (the statement that 'if a university student revising implies they are preparing for an exam, then a university student studying implies they are understanding the material') is true, then (if a university student is studying, they are understanding the material).",
+      "There exists at least one university student who is studying.",
+      "If a university student is understanding the material, then they are asking questions."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a university student is revising, then they are preparing for an exam, and if a university student is studying, then they are understanding the material."
+  },
+  {
+    "idx": 236,
+    "question_index": 0,
+    "premises-NL": [
+      "Every student is studying.",
+      "There exists at least one student who is attending tutorials.",
+      "There exists at least one student who is revising.",
+      "If there exists at least one student who is attending tutorials, then every student is studying.",
+      "If there exists at least one student who is revising, then every student is studying.",
+      "Every student is attending tutorials.",
+      "If a student is not revising, then they are not asking questions."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. If there exists at least one student who is revising, then every student is studying, and every student is attending tutorials.\nB. If there exists at least one student who is revising, then every student is studying, but not every student is attending tutorials.\nC. If there exists at least one student who is revising, then every student is studying, and if a student is not revising, then they are not asking questions.\nD. If there exists at least one student who is revising, then every student is studying, but if a student is not revising, then they are asking questions."
+  },
+  {
+    "idx": 237,
+    "question_index": 1,
+    "premises-NL": [
+      "If a high school student studies math diligently, then they understand trigonometry.",
+      "There exists at least one high school student who understands trigonometry.",
+      "If a high school student is not proficient in algebra, then they will not ace calculus.",
+      "If (if a high school student is not proficient in algebra, then they will not ace calculus), then there exists at least one high school student who understands trigonometry.",
+      "If (if (if a high school student is not proficient in algebra, then they will not ace calculus), then there exists at least one high school student who understands trigonometry), then there exists at least one high school student who understands trigonometry.",
+      "If a high school student does not practice math problems regularly, then they will not ace calculus.",
+      "If a high school student does not practice math problems regularly, then they do not study math diligently."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a high school student is not proficient in algebra, then they will not ace calculus, and there exists at least one high school student who understands trigonometry."
+  },
+  {
+    "idx": 238,
+    "question_index": 0,
+    "premises-NL": [
+      "Every high school student is studious.",
+      "Every high school student participates in extracurricular activities.",
+      "Every high school student upholds school values.",
+      "If every high school student upholds school values, then every high school student is studious.",
+      "If every high school student is studious, then every high school student upholds school values.",
+      "If a high school student does not join school clubs, then they do not participate in extracurricular activities.",
+      "If a high school student does not volunteer in community events, then they do not uphold school values."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. Every high school student is studious, and if every high school student is studious, then every high school student upholds school values.\nB. Every high school student is studious, but if every high school student is studious, then every high school student does not uphold school values.\nC. Every high school student is studious, and every high school student participates in extracurricular activities.\nD. Every high school student is studious, but not every high school student participates in extracurricular activities."
+  },
+  {
+    "idx": 242,
+    "question_index": 1,
+    "premises-NL": [
+      "All online students have logged into the online learning platform",
+      "There exists at least one online student who has completed a module quiz",
+      "If an online student has logged into the learning platform, then they have viewed at least one lecture video",
+      "There exists at least one online student who has submitted a course feedback form"
+    ],
+    "question": "Is the following statement true? Statement: There exists at least one online student who has completed a module quiz"
+  },
+  {
+    "idx": 253,
+    "question_index": 1,
+    "premises-NL": [
+      "If a person has not been trained to recognize scams, then they are vulnerable to scammers",
+      "All individuals in the university environment are not vulnerable to scammers",
+      "All individuals have been trained to recognize scams"
+    ],
+    "question": "Is the following statement true? Statement: If a person has not been trained to recognize scams, then they are vulnerable to scammers"
+  },
+  {
+    "idx": 259,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student has not gained international experience through an exchange program, then they are not ready to actively join the international community",
+      "If a student has applied for an exchange program, then they have gained international experience",
+      "If a student has received support from the university’s international office, then they have gained international experience",
+      "If a student has not applied for an exchange program, then they are not selected for an international leadership role",
+      "There exists at least one student who has applied for an exchange program"
+    ],
+    "question": "Is the following statement true? Statement: If a student has received support from the international office, then they have gained international experience"
+  },
+  {
+    "idx": 260,
+    "question_index": 0,
+    "premises-NL": [
+      "All students complete fundamental courses.",
+      "All students submit research papers.",
+      "At least one student participates in extracurricular activities.",
+      "If a student does not participate in extracurricular activities, they do not develop leadership skills.",
+      "If a student does not complete fundamental courses, they are not eligible for graduation.",
+      "If a student is enrolled in the honors program, they have access to advanced materials.",
+      "All students are enrolled in the honors program.",
+      "If a student does not participate in extracurricular activities, they cannot join the student council.",
+      "If a student not completing fundamental courses implies they are not eligible for graduation, then being enrolled in the honors program implies having access to advanced materials.",
+      "If a student not completing fundamental courses implies they are not eligible for graduation, then all students are enrolled in the honors program.",
+      "If not participating in extracurricular activities implies not developing leadership skills, then (if not completing fundamental courses implies not being eligible for graduation, then all students are enrolled in the honors program).",
+      "The previous complex implication implies that being enrolled in the honors program implies having access to advanced materials.",
+      "If not completing fundamental courses implies having access to advanced materials, then all students complete fundamental courses.",
+      "Being enrolled in the honors program implies completing fundamental courses.",
+      "All students participate in group projects.",
+      "If a student does not submit a research paper, they do not receive a passing grade."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∃x G(x)\nB. ∀x ¬S(x)\nC. ∀x ¬F(x)\nD. ∀x A(x)"
+  },
+  {
+    "idx": 263,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student does not complete core courses, they cannot graduate.",
+      "At least one student is enrolled in advanced research seminars.",
+      "If a student does not attend advanced research seminars, they cannot earn research credits.",
+      "If a student does not have research credits, they cannot join advanced research programs.",
+      "All students maintain academic excellence.",
+      "If a student does not maintain academic excellence, they are removed from research programs.",
+      "If a student completes advanced research seminars, they develop specialized research skills.",
+      "If a student develops specialized research skills, they become eligible for research grants.",
+      "If a student receives a research grant, they gain access to advanced research facilities.",
+      "There exists at least one opportunity for advanced research.",
+      "All students are required to participate in research projects.",
+      "If a student does not participate in research projects, they lose academic standing.",
+      "Students with advanced research access can attend specialized workshops.",
+      "If a student loses academic standing, they cannot receive research grants.",
+      "Completing research projects implies developing specialized research skills."
+    ],
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student receives a research grant, they automatically maintain academic excellence."
+  },
+  {
+    "idx": 271,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student understands the material, then they attend tutoring sessions.",
+      "If a student understands the material, then they receive a recommendation letter.",
+      "There is at least one student who attends tutoring sessions.",
+      "If a student does not receive a recommendation letter, then they do not understand the material.",
+      "If a student receives a recommendation letter, then they study regularly.",
+      "If a student does not qualify for a scholarship, then they do not study regularly.",
+      "All students pass the exam.",
+      "If a student does not pass the exam, then they do not qualify for a scholarship.",
+      "There is at least one student who receives a recommendation letter.",
+      "If a student does not study regularly, then they do not qualify for a scholarship.",
+      "If a student attends tutoring sessions, then they qualify for a scholarship.",
+      "If a student studies regularly, then they qualify for a scholarship.",
+      "If there is at least one student who attends tutoring sessions, then there is at least one student who receives a recommendation letter.",
+      "If studying regularly implies qualifying for a scholarship, then there is at least one student who attends tutoring sessions.",
+      "All students attend tutoring sessions.",
+      "If a student understands the material, then they qualify for a scholarship.",
+      "If a student passes the exam, then they understand the material.",
+      "All students study regularly."
+    ],
+    "question": "Based on the above premises, is the statement true?\nStatement: ((AttendsTutoring(x) → QualifiesScholarship(x)) → (ReceivesRecommendation(x) → StudiesRegularly(x)))"
+  },
+  {
+    "idx": 281,
+    "question_index": 1,
+    "premises-NL": [
+      "There exists at least one teaching assistant in the computer science department.",
+      "There exists at least one student who participates in research projects.",
+      "If a student qualifies for graduate programs, then that student participates in research projects.",
+      "If a student does not submit all assignments, then that student does not receive academic honors.",
+      "There exists at least one student who utilizes university resources.",
+      "If there exists a student who participates in research projects, then it is true that students who don't submit all assignments won't receive academic honors.",
+      "If the existence of research project participants implies that non-submitters don't receive honors, then there exists a teaching assistant.",
+      "If there exists a research participant, then if the existence of research participants implies non-submitters don't receive honors, there must be a teaching assistant.",
+      "If a student doesn't qualify for graduate programs, then that student doesn't submit all assignments.",
+      "There exists at least one student who receives academic honors."
+    ],
+    "question": "If there exists at least one teaching assistant in the computer science department, does it follow that if there exists a student who participates in research projects, then it is true that students who don't submit all assignments won't receive academic honors?"
+  },
+  {
+    "idx": 295,
+    "question_index": 1,
+    "premises-NL": [
+      "There exists at least one educational policy that improves student engagement.",
+      "Every education reform is aimed at increasing student success.",
+      "If a teaching method is research-backed, then it is effective.",
+      "If an educational policy is ineffective, then it does not improve student engagement.",
+      "If a curriculum is well-structured, then it leads to better learning outcomes.",
+      "If every teacher is well-trained, then student performance increases.",
+      "If a school has modern facilities, then it provides a better learning environment.",
+      "If a school provides personalized learning, then it enhances student motivation.",
+      "Every well-funded school has access to better resources.",
+      "There exists at least one school that implements innovative teaching strategies."
+    ],
+    "question": "Do modern facilities enhance learning environments?"
+  },
+  {
+    "idx": 309,
+    "question_index": 0,
+    "premises-NL": [
+      "If a Python script does not have error handling, then it does not handle exceptions.",
+      "If a Python script does not have error handling, then it does not produce reliable outputs.",
+      "If a Python program follows best practices, then it is optimized.",
+      "There exists at least one Python script with error handling.",
+      "All well-structured Python programs are optimized.",
+      "All Python projects adhere to best practices.",
+      "There exists at least one optimized Python program.",
+      "If a Python script does not have error handling, then it does not follow best practices.",
+      "If a Python program is optimized, then it has error handling.",
+      "If a Python script has error handling, then it handles exceptions.",
+      "If a Python script has error handling, then it follows best practices.",
+      "All Python scripts have error handling.",
+      "There exists at least one Python project that follows best practices.",
+      "All Python programs produce reliable outputs.",
+      "If a Python project follows best practices, then it produces reliable outputs.",
+      "If all well-structured Python programs are optimized, then a script without error handling does not handle exceptions.",
+      "If a Python program is not optimized, then it does not follow best practices.",
+      "If a Python script does not have error handling, then it does not follow PEP 8.",
+      "If a Python program produces reliable outputs, then it is optimized."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. There exists a script without error handling.\nB. There exists a program that does not produce reliable outputs.\nC. All Python programs are optimized.\nD. There exists a program that does not follow best practices."
+  },
+  {
+    "idx": 312,
+    "question_index": 0,
+    "premises-NL": [
+      "All students can register BKA program if they did not register it last semester.",
+      "OISP students are not allowed to delay the tutor fee.",
+      "Students must either pay the tutor fee, delay it, or register for the BKA program.",
+      "Frieren is an OISP student and she can't pay the tutor fee.",
+      "Frieren did not register the BKA program last semester."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. Frieren is required to pay the tutor fee.\nB. Frieren must register for the BKA program due to her status as an OISP student.\nC. Frieren can choose to delay the tutor fee.\nD. Frieren must register for the BKA program."
+  },
+  {
+    "idx": 321,
+    "question_index": 0,
+    "premises-NL": [
+      "All students are people.",
+      "All teachers are people.",
+      "All schools have students.",
+      "Every student is enrolled in at least one school.",
+      "If a person is a teacher, they work at a school.",
+      "If a person works at a school, they contribute to education.",
+      "Every student who attends a school has access to education.",
+      "If a person has access to education, they can gain knowledge.",
+      "If a person gains knowledge, they can apply it in life.",
+      "If a person applies knowledge in life, they increase their opportunities.",
+      "If a student increases their opportunities, they can achieve success.",
+      "A teacher guides students in gaining knowledge.",
+      "If a teacher guides a student, the student benefits from education.",
+      "If a student benefits from education, they develop skills.",
+      "If a person develops skills, they contribute to society."
+    ],
+    "question": "What can be inferred about students’ societal impact?\nA. No student develops skills.\nB. All students achieve success.\nC. Some student contributes to society.\nD. No student accesses education."
+  },
+  {
+    "idx": 325,
+    "question_index": 0,
+    "premises-NL": [
+      "All students are people.",
+      "All teachers are people.",
+      "Every student attends at least one school.",
+      "Every school provides education.",
+      "If a person receives education, they gain knowledge.",
+      "If a person gains knowledge, they can develop critical thinking skills.",
+      "If a person develops critical thinking skills, they make better decisions.",
+      "Teachers are responsible for delivering education.",
+      "If a teacher delivers education, their students gain knowledge.",
+      "If students gain knowledge, they can use it to solve problems.",
+      "If students can solve problems, they can improve their communities.",
+      "If someone improves their community, they contribute to society.",
+      "If a person contributes to society, they can inspire others.",
+      "If someone inspires others, they have a meaningful impact.",
+      "A meaningful impact leads to long-term change.",
+      "Some students are interested in sports.",
+      "Many people like to travel during holidays.",
+      "Some animals can recognize their own reflection in a mirror."
+    ],
+    "question": "What follows from students attending school?\nA. Some like sports.\nB. All gain knowledge.\nC. None solve problems.\nD. Some skip education."
+  },
+  {
+    "idx": 328,
+    "question_index": 1,
+    "premises-NL": [
+      "For all students, they possess the fundamental knowledge of the subject.",
+      "If a student understands the core concepts, they are able to apply those concepts in practice.",
+      "If a student can apply concepts, they are likely to succeed in assessments.",
+      "If a student does not succeed in assessments, it indicates that they lack understanding of the core concepts.",
+      "If a student attends all classes, they are likely to gain a better understanding of the subject.",
+      "If a student fails to apply the core concepts, they may struggle with the subject matter.",
+      "If a student misses classes, they might not understand key concepts, leading to failure in assessments.",
+      "If a student does not complete their coursework, it suggests they are not engaging with the learning process.",
+      "Attending all classes ensures that students receive the full scope of education in the subject.",
+      "There exists at least one student who understands the core concepts of the subject.",
+      "If a student does not understand the subject, they are unlikely to complete the coursework successfully.",
+      "All students possess the necessary understanding to succeed in assessments.",
+      "If a student engages in self-directed study, they will be more likely to succeed in assessments.",
+      "If a student engages in extracurricular activities, it will support their understanding of the subject.",
+      "If a student is able to engage in the learning process, they will succeed academically."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: ∀x ((¬EngagesInLearningProcess(x) → ¬SucceedsInAssessments(x)))"
+  },
+  {
+    "idx": 331,
+    "question_index": 0,
+    "premises-NL": [
+      "If a student successfully completes a prerequisite course, they are eligible to enroll in the next level course.",
+      "If a student demonstrates competence in one subject, they are qualified to advance to a more challenging subject.",
+      "All students enrolled in the course are actively engaging in the learning material.",
+      "At least one student has enrolled in the prerequisite course.",
+      "If a student passes the final exam, they are considered to have mastered the course content.",
+      "If a student does not demonstrate mastery, they are not considered to have passed the course.",
+      "If a student does not meet the course prerequisites, they cannot take the final exam.",
+      "All students are expected to complete the assigned coursework on time.",
+      "All students are required to complete assignments in accordance with the syllabus.",
+      "If a student demonstrates mastery of the course material, they will be recommended for advanced coursework.",
+      "If a student passes a course, they are eligible to move on to the next subject.",
+      "If a student fails to meet the prerequisites, they cannot take more advanced courses.",
+      "If a student fails to meet the course requirements, they will not be eligible for further academic opportunities.",
+      "If a student has demonstrated understanding of the core principles, they are encouraged to pursue further academic challenges.",
+      "For students who have mastered the necessary content, additional learning opportunities will be provided."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (P(x) → S(x))\nB. ¬∀x (P(x) → S(x))\nC. ∀x (P(x) → ¬S(x))\nD. ∀x (S(x) → ¬P(x))"
+  },
+  {
+    "idx": 335,
+    "question_index": 0,
+    "premises-NL": [
+      "To study effectively, a student must manage their time, set goals, and eliminate distractions.",
+      "Breaking down large topics into smaller chunks and using active recall can improve information retention.",
+      "Spaced repetition, along with regular testing, boosts long-term memory retention.",
+      "Studying in a focused and distraction-free environment increases productivity.",
+      "Studying in groups or studying solo can both be effective, depending on the individual’s learning style.",
+      "Regular breaks and maintaining a balanced lifestyle promote better cognitive function.",
+      "Consistent review of learned material, coupled with practical application, strengthens both memory and understanding."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x ((B(x) ∧ A(x) ∧ (S(x) ∨ T(x))) → (R(x) ∧ L(x)))\nB. ∀x ((R2(x) ∧ T3(x)) → B3(x))\nC. ∀x ((I(x) ∧ O(x)) → K(x))\nD. ∀x (¬V(x) → ¬U(x))"
+  },
+  {
+    "idx": 355,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student attends classes regularly, then they will understand the material better.",
+      "If a student participates in extracurricular activities, then they will develop social skills.",
+      "If a student understands the material, then they will perform well in exams.",
+      "If a student participates in extracurricular activities, then they will perform well in exams."
+    ],
+    "question": "Which activities contribute to students performing well in exams?\nA. Attending classes regularly, participating in extracurricular activities.\nB. Developing social skills, pursuing interests.\nC. Accessing quality education, understanding material.\nD. Participating in extracurricular activities, pursuing interests."
+  },
+  {
+    "idx": 356,
+    "question_index": 1,
+    "premises-NL": [
+      "There exists at least one student who has qualified for the Quantum Physics competition.",
+      "All students are enrolled in Research Methods.",
+      "If a student receives a Scholarship, then they are enrolled in Research Methods.",
+      "If a student is enrolled in Research Methods, then they have qualified for the Quantum Physics competition.",
+      "If there exists at least one student who has completed the Thesis Writing course, then all students are enrolled in Research Methods.",
+      "All students have completed the Thesis Writing course.",
+      "If a student does not receive a Scholarship, then they have not qualified for the Quantum Physics competition."
+    ],
+    "question": "Do all students qualify for the Quantum Physics competition?"
+  },
+  {
+    "idx": 362,
+    "question_index": 0,
+    "premises-NL": [
+      "Every subject contains knowledge.",
+      "If a student has knowledge of a subject, they can explain it to their friends.",
+      "If a student explains a subject to their friends and the friends understand it, the student has mastered the subject.",
+      "If a student masters a subject, they can earn an A or A+.",
+      "If a student earns at least five A or A+ grades, they can receive a scholarship.",
+      "Tuấn has earned three A grades.",
+      "Tuấn has not earned any additional A+ grades.",
+      "If a student earns an A in a subject, they must have mastered the subject.",
+      "If Tuấn's friends do not understand a subject, Tuấn has not mastered it.",
+      "If a student cannot explain a subject, they do not have knowledge of it."
+    ],
+    "question": "Can Tuan receive a scholarship?\nA. Yes, he has five A grades.\nB. No.\nC. Only with A+ grades.\nD. Only if friends understand."
+  },
+  {
+    "idx": 364,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student wants to understand the lesson, they must pay attention to the teacher's lecture.",
+      "If a student does not follow the school's rules, they are not considered exemplary.",
+      "Every student must do extra exercises at home.",
+      "There exists at least one student who wants to understand the lesson.",
+      "If a student wants to understand the lesson, then there exists at least one student who does extra exercises at home.",
+      "If a student follows the school's rules, they are considered exemplary.",
+      "If a student wants to understand the lesson, they are considered exemplary."
+    ],
+    "question": "Do all students who want to understand the lesson pay attention?"
+  },
+  {
+    "idx": 375,
+    "question_index": 1,
+    "premises-NL": [
+      "There exists at least one student who has passed the prerequisite course in programming.",
+      "If a student does not meet the minimum grade requirement, they are not allowed to proceed to advanced courses.",
+      "All students are required to complete the foundational courses before proceeding to specialized courses.",
+      "If a student has not passed the core course, they cannot proceed with the elective courses.",
+      "If a student has not completed the prerequisite course, they are not allowed to enroll in any advanced courses.",
+      "If a student has passed the prerequisite course, they are allowed to proceed to specialized courses.",
+      "If a student has completed the foundational courses, then they must have met the prerequisites for elective courses.",
+      "If a student has failed to meet the required standards, they cannot participate in the final project preparation.",
+      "There exists at least one student who is eligible to participate in the final project preparation."
+    ],
+    "question": "Based on the above premises, is the following statement true?\nStatement: If students fail to meet the standards, they must take up the project the following semester."
+  },
+  {
+    "idx": 378,
+    "question_index": 1,
+    "premises-NL": [
+      "Full-time students must take at least 14 credits per semester, but in special cases (e.g., weak academic performance or health issues), they can take a minimum of 11 credits for up to 2 semesters.",
+      "Part-time (work-study) students must take at least 11 credits per semester, but in special cases (e.g., weak academic performance, health issues, or work reasons), they can take a minimum of 9 credits for up to 3 semesters.",
+      "Linh is a full-time student with health issues, taking 12 credits this semester.",
+      "This is Linh’s first semester using the special case exception.",
+      "Part-time students must submit a work schedule to the registrar each semester.",
+      "Full-time students taking fewer than 14 credits must meet with an advisor annually.",
+      "Linh is enrolled in a 4-credit lab course and two 4-credit lecture courses.",
+      "Another student, Minh, is a part-time student taking 10 credits due to work reasons.",
+      "Courses worth more than 3 credits require attendance at 80% of classes.",
+      "The university offers a tuition discount for students taking exactly 12 credits.",
+      "Linh has not exceeded the 2-semester limit for special cases.",
+      "Minh’s employer requires him to work 20 hours per week.",
+      "Full-time students must declare a major by their third semester, and Linh is in her second."
+    ],
+    "question": "If Linh is taking exactly 12 credits this semester, does it follow that Linh is eligible for the tuition discount?"
+  },
+  {
+    "idx": 396,
+    "question_index": 1,
+    "premises-NL": [
+      "If a student does not pass the course, then they did not submit the assignment.",
+      "If a student submits their assignment, then they qualify for graduation.",
+      "All students attend the university.",
+      "All students take the exam.",
+      "All students qualify for graduation.",
+      "All students pass the course.",
+      "If a student completes the research project, then they submit the assignment."
+    ],
+    "question": "Which activities do all students perform?\nA. Attending university, taking exam, submitting assignment, passing course, qualifying for graduation.\nB. Attending university, submitting assignment, completing research project.\nC. Taking exam, passing course, completing research project.\nD. Submitting assignment, qualifying for graduation, completing research project."
+  },
+  {
+    "idx": 405,
+    "question_index": 0,
+    "premises-NL": [
+      "Every book in the library is available.",
+      "If a book is well-catalogued, then it is available.",
+      "Every book is in high demand.",
+      "If a book is in good condition, then it is well-catalogued.",
+      "If a book is well-catalogued, then it is recommended.",
+      "If a book is not available, then it is not well-catalogued.",
+      "If a book is available, then it is in good condition.",
+      "Every book is in good condition.",
+      "If a book is not in high demand, then it is not available.",
+      "There is at least one book in good condition.",
+      "There is at least one available book.",
+      "If a book is not in good condition, then it is not well-catalogued.",
+      "If a book is well-catalogued, then it is in good condition.",
+      "There is at least one well-catalogued book.",
+      "If a book is not frequently borrowed, then it is not in good condition.",
+      "If a book is frequently borrowed, then it is recommended.",
+      "If a book is frequently borrowed, then it is well-catalogued.",
+      "If a book is recommended, then it is in good condition.",
+      "Every book is frequently borrowed.",
+      "If a book is not available, then it is not frequently borrowed.",
+      "If not being in high demand implies a book is not available, then if a book is not available, it is not frequently borrowed.",
+      "If being frequently borrowed implies a book is well-catalogued, then if a book is not available, it is not well-catalogued.",
+      "If every book is available, then every book is frequently borrowed.",
+      "If the fact that frequently borrowed books are well-catalogued implies that unavailable books are not well-catalogued, then every book is in high demand.",
+      "If having a good condition implies a book is well-catalogued, then if frequently borrowed books are well-catalogued, an unavailable book is not well-catalogued.",
+      "If the previous implication holds, then every book is in good condition.",
+      "There is at least one recommended book.",
+      "If a book is not in high demand, then it is not well-catalogued.",
+      "If a book is not in high demand, then it is not frequently borrowed."
+    ],
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (F(x) → (W(x) ∧ R(x)))\nB. ∀x (¬F(x) → W(x))\nC. ∃x (¬A(x) ∧ W(x))\nD. ∀x (R(x) → ¬G(x))"
+  }
+]
