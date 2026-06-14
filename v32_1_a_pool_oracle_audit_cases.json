@@ -1,0 +1,423 @@
+[
+  {
+    "idx": 5,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Can Dr. John teach undergraduate courses, according to the premises?"
+  },
+  {
+    "idx": 7,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Does the logical sequence demonstrate that Alex meets all requirements for booking training sessions?"
+  },
+  {
+    "idx": 9,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Does Minh qualify to take Biochemistry based on her completed coursework, according to the premises?"
+  },
+  {
+    "idx": 14,
+    "gold": "Yes",
+    "pred": "UNPARSEABLE",
+    "family": "D_parse_fail_all",
+    "vote": {},
+    "n_cands": 3,
+    "parse_fails": 3,
+    "question": "Should Student A be confirmed as cheating and suspended from the exam, considering the signs from the exam, behavior during the exam, AI analysis, personal history, and the possibility of appeal being denied, and assessi"
+  },
+  {
+    "idx": 18,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "No": 2,
+      "Yes": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Is there a logical chain from applying for internships to increasing one’s earning potential, according to the premises?"
+  },
+  {
+    "idx": 20,
+    "gold": "Unknown",
+    "pred": "Yes",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "Yes": 2,
+      "No": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "According to the above premises, is the following statement true?\nStatement: If a student engages in independent study, they have a higher chance of accessing advanced research opportunities."
+  },
+  {
+    "idx": 22,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "According to the premises, is the following statement true?\nStatement: There exists a complete pathway from maintaining a high GPA to receiving a scholarship."
+  },
+  {
+    "idx": 26,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "According to the above premises, is the following statement true?\nStatement: If all Python projects are well-structured, then all Python projects are optimized."
+  },
+  {
+    "idx": 27,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Does it follow that every hardware component is thoroughly validated?"
+  },
+  {
+    "idx": 29,
+    "gold": "Unknown",
+    "pred": "Yes",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "Yes": 1,
+      "No": 2
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Are all AI applications rigorously tested?"
+  },
+  {
+    "idx": 47,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the following statement true?\nStatement: All students complete their homework."
+  },
+  {
+    "idx": 49,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student does not do their homework, then they will not attend class."
+  },
+  {
+    "idx": 61,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "No": 2,
+      "Yes": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the premises, is the following statement true?\nStatement: Kahne will receive plus points for their graduation thesis if they write a science article and it is successfully published."
+  },
+  {
+    "idx": 63,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "Yes": 1,
+      "No": 2
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the premises, is the following statement true?\nStatement: The Titan computer remains stable during heavy use because it runs complex software and supports multitasking efficiently."
+  },
+  {
+    "idx": 75,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the following statement true?\nStatement: If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester,"
+  },
+  {
+    "idx": 79,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Are all individuals attending the healthcare appointment?"
+  },
+  {
+    "idx": 81,
+    "gold": "Unknown",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Is the statement true?\nStatement: It is not true that: if a student is enrolled in the subject, then attending the lab is a requirement."
+  },
+  {
+    "idx": 89,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "Yes": 2,
+      "No": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the statement true?\nStatement: All students have understanding."
+  },
+  {
+    "idx": 91,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "No": 2,
+      "Yes": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the statement true?\nStatement: All students have qualifications."
+  },
+  {
+    "idx": 93,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions."
+  },
+  {
+    "idx": 99,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "No": 2,
+      "Yes": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student does not participate in extracurricular activities, they cannot develop leadership skills."
+  },
+  {
+    "idx": 105,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "Yes": 2,
+      "No": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Do well-structured curricula improve learning outcomes?"
+  },
+  {
+    "idx": 113,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "No": 2,
+      "Yes": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Did Mia rely on her own performance to pass?"
+  },
+  {
+    "idx": 119,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 2
+    },
+    "n_cands": 3,
+    "parse_fails": 1,
+    "question": "Based on the above premises, is the following statement true?\nStatement: ForAll(x, (¬EngagesInLearningProcess(x) → ¬SucceedsInAssessments(x)))"
+  },
+  {
+    "idx": 121,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "No": 1,
+      "Yes": 2
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the following statement true?\nStatement: A student who uses security measures will protect user data on their website."
+  },
+  {
+    "idx": 127,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Do all students qualify for the Quantum Physics competition?"
+  },
+  {
+    "idx": 132,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Do all students receive a passing grade?"
+  },
+  {
+    "idx": 135,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "Unknown": 1,
+      "Yes": 1,
+      "No": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the following statement true?\nStatement: If students receive low grades, they will seek additional support."
+  },
+  {
+    "idx": 137,
+    "gold": "No",
+    "pred": "Yes",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "Yes": 2,
+      "No": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student did not sign the academic integrity agreement, then they did not receive course recognition."
+  },
+  {
+    "idx": 141,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Do all students in the AI program build trustworthy systems, according to the premises?"
+  },
+  {
+    "idx": 143,
+    "gold": "No",
+    "pred": "Unknown",
+    "family": "A_gold_in_pool",
+    "vote": {
+      "No": 2,
+      "Unknown": 1
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "If all students must meet the eligibility requirements to enroll in the advanced courses, does it follow that if a student has failed to meet the standards for a course, they are not allowed to participate in the final p"
+  },
+  {
+    "idx": 144,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Do all students participate in research?"
+  },
+  {
+    "idx": 146,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Do all students complete the capstone project?"
+  },
+  {
+    "idx": 150,
+    "gold": "Yes",
+    "pred": "No",
+    "family": "B_no_gold_candidate",
+    "vote": {
+      "No": 3
+    },
+    "n_cands": 3,
+    "parse_fails": 0,
+    "question": "Do all students complete the training session?"
+  }
+]
