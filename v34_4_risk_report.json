@@ -1,0 +1,15 @@
+{
+ "version": "v34_4_formula_mp_targeted_fixed_nested_alignment_risk_report",
+ "final_decision": "KEEP_V34_3",
+ "artifact_risk": "LOW_RELOADED_SAVED_PREDS",
+ "overfit_risk": "LOW_TARGETED_ONLY_79_141_NO_SWEEP_PROOF_CERTIFIED",
+ "underfit_risk": "STILL_PRESENT_MC_UNTOUCHED_AND_RESIDUAL_YNU",
+ "label_collapse": false,
+ "flips": [],
+ "metrics": {
+  "acc": 0.6666666666666666,
+  "macro_f1": 0.6140155562868364,
+  "mc_macro": 0.551470588235294
+ },
+ "note": "Patched nested questions[]/premises-FOL alignment before formula-level MP."
+}
