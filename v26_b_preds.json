@@ -1,0 +1,1250 @@
+[
+  {
+    "idx": 0,
+    "gold": "A",
+    "pred": "A",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which conclusion logically follows?\nA. John qualifies for the graduate fellowship program\nB. John needs faculty recommendation for the fellowship\nC. John must complete an internship to qualify\nD. John’s GPA is insufficient for honors"
+  },
+  {
+    "idx": 1,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Does John receive academic distinction, according to the premises?"
+  },
+  {
+    "idx": 2,
+    "gold": "C",
+    "pred": "C",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on Professor John's qualifications, which capabilities does he have?\nA. Can teach graduate courses but cannot supervise research\nB. Can supervise Master's students but not graduate research\nC. Can both teach graduate courses and supervise research\nD. Needs additional certification to supervise"
+  },
+  {
+    "idx": 3,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Can Professor John supervise graduate-level research based on his PhD qualification, according to the premises?"
+  },
+  {
+    "idx": 4,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on Dr. John's qualifications, which statement is correct?\nA. He can teach undergraduate courses\nB. He qualifies as department head but cannot teach\nC. He needs a Master's degree to teach undergraduates\nD. His PhD is insufficient for teaching"
+  },
+  {
+    "idx": 5,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Can Dr. John teach undergraduate courses, according to the premises?"
+  },
+  {
+    "idx": 6,
+    "gold": "B",
+    "pred": "B",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on Alex's status, which statement is correct?\nA. Alex can use equipment but can't book training\nB. Alex can book personal training sessions\nC. Alex needs longer membership duration\nD. Alex must pay additional fees"
+  },
+  {
+    "idx": 7,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Does the logical sequence demonstrate that Alex meets all requirements for booking training sessions?"
+  },
+  {
+    "idx": 8,
+    "gold": "A",
+    "pred": "B",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on Minh's academic progress, which of the following is logically supported?\nA. Minh has met the criteria to pursue Biochemistry\nB. Minh cannot take Biochemistry without Lab Safety Certification\nC. Minh is not eligible to enroll in Organic Chemistry\nD. Minh needs to repeat Chemistry 101"
+  },
+  {
+    "idx": 9,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Does Minh qualify to take Biochemistry based on her completed coursework, according to the premises?"
+  },
+  {
+    "idx": 10,
+    "gold": "A",
+    "pred": "A",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the premises, which conclusion is correct?\nA. A student who develops through the quantum theory chain, from duality to advanced research preparation, can make academic contributions through publication or seminar\nB. Laboratory access is independent of publication/seminar participation\nC. Interpretation critique alone qualifies for research positions\nD. Understanding wave-particle duality guarantees lab access"
+  },
+  {
+    "idx": 11,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "According to the premises, is the following statement true?\nStatement: A student who reaches advanced research preparation but avoids both publication and seminar opportunities will still qualify for laboratory access"
+  },
+  {
+    "idx": 12,
+    "gold": "A",
+    "pred": "A",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the learning science principles, which statement is correct?\nA. Spaced repetition improves both memory and academic performance\nB. Excessively long intervals preserve knowledge without review\nC. AI cannot optimize study schedules for memory retention\nD. Passive reading is more effective than active recall"
+  },
+  {
+    "idx": 13,
+    "gold": "B",
+    "pred": "B",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which of these conclusions is supported by the forgetting curve research?\nA. Review timing has no impact on retention\nB. Optimal intervals prevent both premature review and excessive forgetting\nC. Sleep has no effect on memory consolidation\nD. All learning methods yield identical results"
+  },
+  {
+    "idx": 14,
+    "gold": "Yes",
+    "pred": "UNPARSEABLE",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Should Student A be confirmed as cheating and suspended from the exam, considering the signs from the exam, behavior during the exam, AI analysis, personal history, and the possibility of appeal being denied, and assessing additional penalties if there is evidence from the camera?"
+  },
+  {
+    "idx": 15,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the premises, which statement is correct?\nA. Anyone with experience in their field must be hardworking.\nB. Some people are responsible but not punctual.\nC. All hardworking people are responsible."
+  },
+  {
+    "idx": 16,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "According to the premises, is the following statement true?\nStatement: If a person is promoted, they will become a leader in their organization."
+  },
+  {
+    "idx": 17,
+    "gold": "B",
+    "pred": "B",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which conclusion is most supported?\nA. Students who do not perform well in internships will never receive full-time job offers.\nB. Having industry connections can help a student gain practical experience indirectly.\nC. Building a strong resume directly increases a student’s earning potential.\nD. Students who do not have a mentor cannot make any career decisions."
+  },
+  {
+    "idx": 18,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Is there a logical chain from applying for internships to increasing one’s earning potential, according to the premises?"
+  },
+  {
+    "idx": 19,
+    "gold": "D",
+    "pred": "C",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which conclusion is correct?\nA. If a student gains academic recognition, they must have received a research grant.\nB. A student who does not publish research can still receive a research grant.\nC. If a student does not engage in independent study, they will never publish research.\nD. If a student engages in independent study, they are likely to publish research and may gain academic recognition."
+  },
+  {
+    "idx": 20,
+    "gold": "Unknown",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "According to the above premises, is the following statement true?\nStatement: If a student engages in independent study, they have a higher chance of accessing advanced research opportunities."
+  },
+  {
+    "idx": 21,
+    "gold": "A",
+    "pred": "A",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the premises, which statement is correct?\nA. If a student maintains a high GPA, they are more likely to receive a scholarship.\nB. A student who does not maintain a high GPA can still qualify for a merit-based scholarship.\nC. If a student does not engage in extracurricular activities, they will never receive a scholarship."
+  },
+  {
+    "idx": 22,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "According to the premises, is the following statement true?\nStatement: There exists a complete pathway from maintaining a high GPA to receiving a scholarship."
+  },
+  {
+    "idx": 23,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be logically inferred?\nA. Practicing Python regularly always results in worse coding skills.\nB. Practicing Python regularly improves coding skills.\nC. Students who do not practice Python regularly become proficient in Python.\nD. Practicing Python has no effect on a student’s coding abilities."
+  },
+  {
+    "idx": 24,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student never practices coding, they will still become proficient in Python."
+  },
+  {
+    "idx": 25,
+    "gold": "B",
+    "pred": "D",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which conclusion is correct?\nA. If a Python project is not optimized, then it is unlikely to be well-tested.\nB. If all Python projects are well-structured, then all Python projects are optimized.\nC. If a Python project follows PEP 8 standards, then it must be well-tested.\nD. If a Python project is not well-structured, then it might not follow PEP 8 standards."
+  },
+  {
+    "idx": 26,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "According to the above premises, is the following statement true?\nStatement: If all Python projects are well-structured, then all Python projects are optimized."
+  },
+  {
+    "idx": 27,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Does it follow that every hardware component is thoroughly validated?"
+  },
+  {
+    "idx": 28,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Does every AI application receive notable academic recognition?"
+  },
+  {
+    "idx": 29,
+    "gold": "Unknown",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Are all AI applications rigorously tested?"
+  },
+  {
+    "idx": 30,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Are all biometric systems secure?"
+  },
+  {
+    "idx": 31,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Are all biometric systems portable?"
+  },
+  {
+    "idx": 32,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If a student does not complete their assignments, then they do not achieve high scores.\nB. If a student submits homework on time, then they receive bonus points.\nC. If a student does not attend class, they will achieve high scores.\nD. If a student achieves high scores, then they did not study regularly."
+  },
+  {
+    "idx": 33,
+    "gold": "Yes",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student studies regularly, then they complete their assignments."
+  },
+  {
+    "idx": 34,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If a student does not achieve good grades, then they do not receive extra credit.\nB. If a student receives extra credit, then they achieve good grades.\nC. If a student does not attend class, they receive extra credit.\nD. If a student submits assignments on time, then they do not receive extra credit."
+  },
+  {
+    "idx": 35,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student attends classes, then they receive extra credit."
+  },
+  {
+    "idx": 36,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If a student wins a scholarship, then they publish research.\nB. If a student publishes research, then they take advanced courses.\nC. If a student is not a student, then they do not win a scholarship.\nD. If someone does not take advanced courses, then they cannot publish research."
+  },
+  {
+    "idx": 37,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: There exists someone who wins a scholarship."
+  },
+  {
+    "idx": 38,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If at least one student has achieved outstanding academic performance and if having at least one student achieve outstanding academic performance leads to at least one student receiving a scholarship, then all students must comply with the examination regulations.\nB. If at least one student has achieved outstanding academic performance and if having at least one student achieve outstanding academic performance leads to at least one student receiving a scholarship, then not all students must comply with the examination regulations.\nC. If at least one student has achieved outstanding academic performance and if having at least one student achieve outstanding academic performance leads to at least one student receiving a scholarship, then some students must comply with the examination regulations.\nD. If at least one student has achieved outstanding academic performance and if having at least one student achieve outstanding a"
+  },
+  {
+    "idx": 39,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If at least one student has been found violating the examination regulations and if a student violates the examination regulations, they will be subject to disciplinary action, then the university will take disciplinary action."
+  },
+  {
+    "idx": 40,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the rules above, which of the following statements is true?\nA. If a student does not follow the school rules and if a student violates the school rules, they will be disciplined and banned from extracurricular activities, and if a student does not follow the dress code, they will be asked to change their clothes.\nB. If a student does not follow the school rules and if a student violates the school rules, they will not be disciplined and banned from extracurricular activities, and if a student does not follow the dress code, they will be asked to change their clothes.\nC. If a student does not follow the school rules and if a student violates the school rules, they will be disciplined and banned from extracurricular activities, and if a student does not follow the dress code, they will not be asked to change their clothes.\nD. If a student does not follow the school rules and if a student violates the school rules, they will be disciplined and banned from extracurricular activiti"
+  },
+  {
+    "idx": 41,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the rules above, is the following statement true?\nStatement: If there exists at least one student who has been disciplined for violating the school rules, then a student who violates the traffic safety rules will be fined according to the school's regulations."
+  },
+  {
+    "idx": 42,
+    "gold": "D",
+    "pred": "D",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. ((ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x)))) ∧ ¬(ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x))))\nB. ((ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x)))) → (ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x))))\nC. ¬(ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x))))\nD. (ForAll(x, ResearchProject(x)) → (ForAll(x, Extracurricular(x)) → (Enrolled(x) → Resources(x))))"
+  },
+  {
+    "idx": 43,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: ForAll(x, ResearchProject(x))"
+  },
+  {
+    "idx": 44,
+    "gold": "C",
+    "pred": "B",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the premises above, which of the following statements can be logically concluded?\nA. ((∀x U(x) → (R(x) → P(x))) ∧ ¬(∀x U(x) → (R(x) → P(x))))\nB. ¬(∀x U(x) → (R(x) → P(x)))\nC. (∀x U(x) → (R(x) → P(x)))\nD. ((∀x U(x) → (R(x) → P(x))) → (∀x U(x) → (R(x) → P(x))))"
+  },
+  {
+    "idx": 45,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the premises, is the following statement true?\nStatement: ∃x U(x)"
+  },
+  {
+    "idx": 46,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If not doing homework leads to failing the course, then all students attend class regularly.\nB. It is false that if not doing homework leads to failing the course, then all students attend class regularly.\nC. The statement 'If not doing homework leads to failing the course, then all students attend class regularly' is both true and false simultaneously.\nD. The statement 'If not doing homework leads to failing the course, then all students attend class regularly' is a tautology."
+  },
+  {
+    "idx": 47,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: All students complete their homework."
+  },
+  {
+    "idx": 48,
+    "gold": "A",
+    "pred": "C",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If all students attend class, then at least one student is conducting research.\nB. It is false that if all students attend class, then at least one student is conducting research.\nC. The statement 'If all students attend class, then at least one student is conducting research' is always true.\nD. The statement 'If all students attend class, then at least one student is conducting research' is both true and false at the same time."
+  },
+  {
+    "idx": 49,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student does not do their homework, then they will not attend class."
+  },
+  {
+    "idx": 50,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students excel academically?"
+  },
+  {
+    "idx": 51,
+    "gold": "Unknown",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students take advanced courses?"
+  },
+  {
+    "idx": 52,
+    "gold": "Unknown",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students qualify for the scholarship?"
+  },
+  {
+    "idx": 53,
+    "gold": "Unknown",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students graduate?"
+  },
+  {
+    "idx": 54,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Does at least one student submit a thesis?"
+  },
+  {
+    "idx": 55,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students take a qualifying exam?"
+  },
+  {
+    "idx": 56,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If a programmer understands loops, then they understand object-oriented programming.\nB. If a programmer does not understand recursion, then they do not understand loops.\nC. If a programmer does not study regularly, they will not improve debugging skills.\nD. If a programmer does not use functions, then they do not understand modular programming."
+  },
+  {
+    "idx": 57,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: There exists at least one programmer who understands object-oriented programming."
+  },
+  {
+    "idx": 58,
+    "gold": "C",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the premises, which of the following can be inferred?\nA) John has enough social work days to graduate.\nB) John cannot graduate because he didn't gain enough social work days and has spent 6 years at BK university.\nC) John will have to study more if he does not graduate within 6 years and is out of school.\nD) John can graduate as long as he has 15 social work days and has not spent 6 years at BK university."
+  },
+  {
+    "idx": 59,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the premises, is the following statement true?\nStatement: John has to study more if he does not graduate within 6 years and is out of school."
+  },
+  {
+    "idx": 60,
+    "gold": "B",
+    "pred": "C",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the premises, which of the following can be inferred?\nA) Kahne will not receive guidance because they are not a BK student.\nB) Kahne can write a science article if they receive guidance and broaden their knowledge through training.\nC) Kahne will not get plus points in their graduation thesis because they have not published an article.\nD) Kahne needs to complete more training before they can write the article, even though they are a lab member."
+  },
+  {
+    "idx": 61,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the premises, is the following statement true?\nStatement: Kahne will receive plus points for their graduation thesis if they write a science article and it is successfully published."
+  },
+  {
+    "idx": 62,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the premises, which of the following can be inferred?\nA) The Titan computer is likely to have a strong cooling unit because it runs complex software and supports multitasking efficiently.\nB) The Titan computer does not support multitasking efficiently because it lacks enough RAM.\nC) The Titan computer does not require a cooling unit because it runs complex software.\nD) The Titan computer has enough RAM because it supports multitasking efficiently."
+  },
+  {
+    "idx": 63,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the premises, is the following statement true?\nStatement: The Titan computer remains stable during heavy use because it runs complex software and supports multitasking efficiently."
+  },
+  {
+    "idx": 64,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students attend the tutorial?"
+  },
+  {
+    "idx": 65,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students pass the prerequisite?"
+  },
+  {
+    "idx": 66,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Are all employees skilled?"
+  },
+  {
+    "idx": 67,
+    "gold": "Yes",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Are all employees productive?"
+  },
+  {
+    "idx": 68,
+    "gold": "B",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If all students are active in school activities, then participating in the workshop implies teamwork improvement, and there exists someone who received positive feedback from peers.\nB. If all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person participated in the workshop, they improved their teamwork ability.\nC. If all students are active in school activities, then participating in the workshop implies teamwork improvement, but if a person participated in the workshop, they did not improve their teamwork ability.\nD. If all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person did not improve their teamwork ability, they were not selected to represent the class in a school event."
+  },
+  {
+    "idx": 69,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If all students are active in school activities, then participating in the workshop implies teamwork improvement, and if a person participated in the workshop, they improved their teamwork ability."
+  },
+  {
+    "idx": 70,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If there exists someone who attended the midterm exam, then all students attend the course, and there exists someone who attended the final exam.\nB. If there exists someone who attended the midterm exam, then all students attend the course, and if a person did not complete the required attendance, then they did not attend the course.\nC. If there exists someone who attended the midterm exam, then all students attend the course, but if a person did not complete the required attendance, they still attended the course.\nD. If there exists someone who attended the midterm exam, then all students attend the course, and if a person did not attend the course, they did not attend the final exam."
+  },
+  {
+    "idx": 71,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If there exists someone who attended the midterm exam, then all students attend the course, and there exists someone who attended the final exam."
+  },
+  {
+    "idx": 72,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If there exists someone who uses university facilities responsibly, then a person having the maturity to use facilities responsibly implies they use them responsibly, and if a person uses university facilities responsibly, they respect the university’s policies.\nB. If there exists someone who uses university facilities responsibly, then a person having the maturity to use facilities responsibly implies they use them responsibly, but if a person uses university facilities responsibly, they do not respect the university’s policies.\nC. If there exists someone who uses university facilities responsibly, then a person having the maturity to use facilities responsibly implies they use them responsibly, and if a person misuses university facilities, they cannot understand the proper rules and usage.\nD. If there exists someone who uses university facilities responsibly, then a person having the maturity to use facilities responsi"
+  },
+  {
+    "idx": 73,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If there exists someone who uses university facilities responsibly, then a person having the maturity to use facilities responsibly implies they use them responsibly, and if a person uses university facilities responsibly, they respect the university’s policies."
+  },
+  {
+    "idx": 74,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and there exists a student who is enrolled in the PE course.\nB. If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, but there does not exist a student who is enrolled in the PE course.\nC. If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and if a person has not attended the PE course, they have not fulfilled all course requirements.\nD. If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, but if a person has not attended the PE course, they have fulfilled all course requirements."
+  },
+  {
+    "idx": 75,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If all students are enrolled in the PE course, then if a person has not attended the PE course, they are not attending the PE course this semester, and there exists a student who attended at least 2 PE courses during the 9 semesters."
+  },
+  {
+    "idx": 76,
+    "gold": "C",
+    "pred": "C",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the premises, which statement can be inferred?\nA. If someone is eligible for the seminar, they have completed registration requirements.\nB. Everyone who submits a report has both certifications.\nC. Someone eligible for the seminar has both certifications.\nD. Not registering for the seminar means you have certifications."
+  },
+  {
+    "idx": 77,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Is it true that registering for the seminar does not imply completing all requirements to register, according to the premises?"
+  },
+  {
+    "idx": 78,
+    "gold": "A",
+    "pred": "B",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which of the following can be inferred about healthcare eligibility?\nA. All individuals are eligible for healthcare services.\nB. Some individuals are not eligible for healthcare services.\nC. No individuals are eligible for healthcare services.\nD. Eligibility depends on attending the appointment."
+  },
+  {
+    "idx": 79,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Are all individuals attending the healthcare appointment?"
+  },
+  {
+    "idx": 80,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Which of the following can be inferred about students and the subject?\nA. If a student is enrolled, they complete the subject successfully.\nB. If a student attends the lab, they are not enrolled.\nC. All students are required to attend the lab.\nD. No student completes the subject successfully."
+  },
+  {
+    "idx": 81,
+    "gold": "Unknown",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Is the statement true?\nStatement: It is not true that: if a student is enrolled in the subject, then attending the lab is a requirement."
+  },
+  {
+    "idx": 82,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Which of the following can be inferred about students based on the premises?\nA. All students are eligible for training.\nB. All students raised issues about paying fees.\nC. No students received confirmation of payment.\nD. All students are not eligible for training."
+  },
+  {
+    "idx": 83,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Is it true that all students who did not raise an issue have paid the fees?"
+  },
+  {
+    "idx": 84,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Which of the following can be inferred about students based on the premises?\nA. All students are eligible for the final exam.\nB. All students have not completed course requirements.\nC. No students are eligible for the final exam.\nD. Some students complete quizzes but are not eligible."
+  },
+  {
+    "idx": 85,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Is it true that all students have completed all course requirements?"
+  },
+  {
+    "idx": 86,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Which of the following can be inferred about students based on the premises?\nA. All students have met the safety requirements for the lab.\nB. All students are not enrolled in the chemistry course.\nC. No students are required to wear a blouse in the lab.\nD. Some students meet safety requirements but do not wear a blouse."
+  },
+  {
+    "idx": 87,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Is it true that all students are required to wear a blouse in the chemistry lab?"
+  },
+  {
+    "idx": 88,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (R(x) → T(x))\nB. ¬∀x (T(x) → R(x))\nC. ∀x (T(x) → R(x))\nD. (∀x (T(x) → R(x)) ∧ ¬∀x (T(x) → R(x)))"
+  },
+  {
+    "idx": 89,
+    "gold": "No",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: All students have understanding."
+  },
+  {
+    "idx": 90,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (S(x) → R(x))\nB. ∀x (R(x) → S(x))\nC. ¬∀x (R(x) → S(x))\nD. (∀x (R(x) → S(x)) ∧ ¬∀x (R(x) → S(x)))"
+  },
+  {
+    "idx": 91,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: All students have qualifications."
+  },
+  {
+    "idx": 92,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions.\nB. If a student is attending tutorials, then they are understanding the material, but there does not exist at least one student who is asking questions.\nC. If a student is attending tutorials, then they are understanding the material, and every student is studying.\nD. If a student is attending tutorials, then they are understanding the material, but not every student is studying."
+  },
+  {
+    "idx": 93,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student is attending tutorials, then they are understanding the material, and there exists at least one student who is asking questions."
+  },
+  {
+    "idx": 94,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If a student is not understanding the material, then they are not revising, and if a student is attending tutorials, then they are revising.\nB. If a student is not understanding the material, then they are not revising, but if a student is attending tutorials, then they are not revising.\nC. If a student is not understanding the material, then they are not revising, and every student is revising.\nD. If a student is not understanding the material, then they are not revising, but not every student is revising."
+  },
+  {
+    "idx": 95,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student is not understanding the material, then they are not revising, and if a student is attending tutorials, then they are revising."
+  },
+  {
+    "idx": 96,
+    "gold": "C",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If a high school student is not proficient in algebra, then they will not ace calculus, and if a high school student studies math diligently, then they understand trigonometry.\nB. If a high school student is not proficient in algebra, then they will not ace calculus, but if a high school student studies math diligently, then they do not understand trigonometry.\nC. If a high school student is not proficient in algebra, then they will not ace calculus, and there exists at least one high school student who understands trigonometry.\nD. If a high school student is not proficient in algebra, then they will not ace calculus, but there does not exist at least one high school student who understands trigonometry."
+  },
+  {
+    "idx": 97,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a high school student is not proficient in algebra, then they will not ace calculus, and there exists at least one high school student who understands trigonometry."
+  },
+  {
+    "idx": 98,
+    "gold": "D",
+    "pred": "A",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∃x G(x)\nB. ∀x ¬S(x)\nC. ∀x ¬F(x)\nD. ∀x A(x)"
+  },
+  {
+    "idx": 99,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: If a student does not participate in extracurricular activities, they cannot develop leadership skills."
+  },
+  {
+    "idx": 100,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred if we know that all researchers write publications?\nA. If a researcher writes a publication and provides novel insights, then if students enrolled in advanced courses excel, they will remain successful.\nB. It is not the case that researchers who write publications provide novel insights that sustain student excellence in advanced courses.\nC. If a researcher writes a publication, then the researcher provides novel insights, ensuring that students who excel continue to excel.\nD. If publishing a paper leads to providing novel insights, then publishing a paper leads to providing novel insights."
+  },
+  {
+    "idx": 101,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred if we know that all students take final examinations?\nA. Both the statement that all students qualifying for graduation implies all programs use digital resources and its negation are simultaneously true.\nB. It is not the case that all students qualifying for graduation implies all educational programs use digital resources.\nC. The statement that all students qualifying for graduation implies all programs use digital resources implies itself.\nD. If all students qualify for graduation, then all educational programs use digital resources."
+  },
+  {
+    "idx": 102,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "If all students take final examinations, does it follow that if there is a research program at the university, then there is at least one student who takes final examinations?"
+  },
+  {
+    "idx": 103,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred if we know that there exists at least one student who has completed an immersion program?\nA. The necessary connection between native speaker engagement, immersion program completion, and conversational fluency is logically inconsistent.\nB. It is not the case that failure to engage with native speakers preventing immersion program completion implies completing immersion programs develops conversational fluency.\nC. If not engaging with native speakers prevents completing immersion programs, then completing immersion programs leads to achieving conversational fluency.\nD. Language students who engage with native speakers both do and do not achieve conversational fluency through immersion programs."
+  },
+  {
+    "idx": 104,
+    "gold": "A",
+    "pred": "A",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which can be inferred about effective policies?\nA. Some policies are effective.\nB. All policies are effective.\nC. No policies are effective.\nD. Effectiveness is unrelated to engagement."
+  },
+  {
+    "idx": 105,
+    "gold": "No",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do well-structured curricula improve learning outcomes?"
+  },
+  {
+    "idx": 106,
+    "gold": "D",
+    "pred": "D",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which can be inferred about students with clear learning objectives?\nA. Some students improve cognitive function.\nB. All students lack motivation.\nC. No students apply practical knowledge.\nD. Some students set better academic goals."
+  },
+  {
+    "idx": 107,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Can students in problem-based learning improve self-learning?"
+  },
+  {
+    "idx": 108,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. Every student attends office hours.\nB. There exists a student with no good chance to pass the exam.\nC. There exists a student likely to pass the exam.\nD. Every student participates in a study group."
+  },
+  {
+    "idx": 109,
+    "gold": "No",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: Exists(x, ParticipatesInStudyGroup(x))"
+  },
+  {
+    "idx": 110,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. There exists a script without error handling.\nB. There exists a program that does not produce reliable outputs.\nC. All Python programs are optimized.\nD. There exists a program that does not follow best practices."
+  },
+  {
+    "idx": 111,
+    "gold": "Yes",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: ForAll(x, (PythonScript(x) → HasErrorHandling(x)))"
+  },
+  {
+    "idx": 112,
+    "gold": "D",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "How did Mia pass the course?\nA. Mia lacked knowledge but got help.\nB. Mia studied hard.\nC. Mia helped others.\nD. Mia did well without helping others."
+  },
+  {
+    "idx": 113,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Did Mia rely on her own performance to pass?"
+  },
+  {
+    "idx": 114,
+    "gold": "C",
+    "pred": "D",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "What can be inferred about Iruma’s academic progress?\nA. Iruma completed a graduation project.\nB. Iruma gained enough labor days.\nC. Iruma’s graduation status is uncertain.\nD. Iruma is eligible for the graduation project."
+  },
+  {
+    "idx": 115,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Can Iruma do a graduation project?"
+  },
+  {
+    "idx": 116,
+    "gold": "B",
+    "pred": "B",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "What can be inferred about students taught by teachers?\nA. They don’t learn.\nB. Some have motivation.\nC. They don’t improve.\nD. They lack experience."
+  },
+  {
+    "idx": 117,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Does Mia have motivation?"
+  },
+  {
+    "idx": 118,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. If a student cannot apply concepts, they cannot engage in the learning process.\nB. If a student does not engage, they do not understand the core concepts.\nC. All students apply concepts.\nD. There exists a student who does not apply concepts but engages in the learning process."
+  },
+  {
+    "idx": 119,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: ForAll(x, (¬EngagesInLearningProcess(x) → ¬SucceedsInAssessments(x)))"
+  },
+  {
+    "idx": 120,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (B(x) → P2(x))\nB. ∀x (G(x) → ¬V(x))\nC. ∀x (F(x) → ¬D(x))\nD. ∀x (T2(x) → ¬L2(x))"
+  },
+  {
+    "idx": 121,
+    "gold": "No",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: A student who uses security measures will protect user data on their website."
+  },
+  {
+    "idx": 122,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on university policies, which conclusion is valid if we know that all students are required to submit a Research project?\nA. The Thesis-Research rule is a tautology.\nB. The policy is contradictory.\nC. The rule 'No Research → No Thesis' ensures Thesis completion.\nD. The rule is both true and false."
+  },
+  {
+    "idx": 123,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "If all students are required to submit a Research project, does it follow that Research project completion grants housing access?"
+  },
+  {
+    "idx": 124,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises provided in the context of a university, which of the following statements can be logically deduced if we know that there exists at least one object x that has property R?\nA. If there exists at least one object with property R, then every object has property P.\nB. It is not true that if there exists at least one object with property R then every object has property P.\nC. It is both true and not true that if there exists at least one object with property R then every object has property P.\nD. If it is true that if there exists at least one object with property R then every object has property P, then if there exists at least one object with property R every object has property P."
+  },
+  {
+    "idx": 125,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "If there exists at least one object x that has property R, does it follow that every object has property P?"
+  },
+  {
+    "idx": 126,
+    "gold": "A",
+    "pred": "C",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which statement can be inferred?\nA. It is both true and false that if there exists at least one student who has completed the Thesis Writing course, then all students are enrolled in Research Methods.\nB. It is false that if there exists at least one student who has completed the Thesis Writing course, then all students are enrolled in Research Methods.\nC. If there exists at least one student who has completed the Thesis Writing course, then all students are enrolled in Research Methods.\nD. If there exists at least one student who has completed the Thesis Writing course, then all students can't enroll in Research Methods."
+  },
+  {
+    "idx": 127,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students qualify for the Quantum Physics competition?"
+  },
+  {
+    "idx": 128,
+    "gold": "B",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Can Tuan receive a scholarship?\nA. Yes, he has five A grades.\nB. No.\nC. Only with A+ grades.\nD. Only if friends understand."
+  },
+  {
+    "idx": 129,
+    "gold": "Yes",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Does Tuan have knowledge of his A-grade subjects?"
+  },
+  {
+    "idx": 130,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students attend Programming Fundamentals?"
+  },
+  {
+    "idx": 131,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which courses have all students passed?\nA. Programming Fundamentals, Mathematics for Computer Science.\nB. Advanced Programming, Programming Fundamentals.\nC. Mathematics for Computer Science, Advanced Programming.\nD. Programming Fundamentals, Advanced Programming, Mathematics for Computer Science."
+  },
+  {
+    "idx": 132,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students receive a passing grade?"
+  },
+  {
+    "idx": 133,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which outcomes are guaranteed for all students?\nA. Meeting the standard, completing the assignment, receiving a passing grade.\nB. Meeting the standard, attending the course, receiving a passing grade.\nC. Completing the assignment, assessment process, attending the course.\nD. Receiving a passing grade, meeting the standard, completing training."
+  },
+  {
+    "idx": 134,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (R(x) → (H(x) ∧ W(x)))\nB. ∀x (P(x) → ¬W(x))\nC. ∀x (R(x) → ¬H(x))\nD. ∀x (¬P(x) → (H(x) ∧ ¬S(x)))"
+  },
+  {
+    "idx": 135,
+    "gold": "No",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If students receive low grades, they will seek additional support."
+  },
+  {
+    "idx": 136,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be logically inferred?\nA. ∀x (¬A(x) → (¬R(x) ∧ ¬P(x)))\nB. ∃x (¬A(x) ∧ F(x))\nC. ∀x (A(x) → ¬R(x))\nD. ∀x (¬S(x) → F(x))"
+  },
+  {
+    "idx": 137,
+    "gold": "No",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the following statement true?\nStatement: If a student did not sign the academic integrity agreement, then they did not receive course recognition."
+  },
+  {
+    "idx": 138,
+    "gold": "A",
+    "pred": "A",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred if we know that Kelvin submitted his CH3002 lab report on time?\nA. Kelvin is allowed to take the exam for CH3002.\nB. Liam is allowed to take the exam for CH3002.\nC. Kelvin must submit a project for CH3002.\nD. Kelvin’s Homework score in CH3001 affects his eligibility for CH3002’s exam."
+  },
+  {
+    "idx": 139,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "If Kelvin submitted his CH3002 lab report on time, does it follow that Kelvin is allowed to take the exam for CH3002?"
+  },
+  {
+    "idx": 140,
+    "gold": "A",
+    "pred": "C",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the premises, which statement can be inferred?\nA. All students in the AI program can build trustworthy systems.\nB. Some students who study AI ethics cannot build trustworthy systems.\nC. Following ethical guidelines ensures trustworthy systems.\nD. Studying AI ethics is optional for AI program students."
+  },
+  {
+    "idx": 141,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students in the AI program build trustworthy systems, according to the premises?"
+  },
+  {
+    "idx": 142,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, which statement can be logically inferred if we know that all students must meet the eligibility requirements to enroll in the advanced courses?\nA. It is a tautology that completing the prerequisite course implies eligibility for the advanced courses.\nB. Completing the prerequisite course implies eligibility for advanced courses.\nC. If completing the prerequisite course implies eligibility for advanced courses and its negation holds, then there is a contradiction.\nD. It is not true that completing the prerequisite course implies eligibility for the advanced courses."
+  },
+  {
+    "idx": 143,
+    "gold": "No",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "If all students must meet the eligibility requirements to enroll in the advanced courses, does it follow that if a student has failed to meet the standards for a course, they are not allowed to participate in the final project preparation?"
+  },
+  {
+    "idx": 144,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students participate in research?"
+  },
+  {
+    "idx": 145,
+    "gold": "A",
+    "pred": "D",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which activities do all students perform?\nA. Participating in research, taking thesis course, being registered, receiving scholarship.\nB. Participating in research, being registered, honors program.\nC. Taking thesis course, receiving scholarship, honors program.\nD. Participating in research, taking thesis course, honors program."
+  },
+  {
+    "idx": 146,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students complete the capstone project?"
+  },
+  {
+    "idx": 147,
+    "gold": "A",
+    "pred": "A",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which skills do all students possess?\nA. Problem-solving, communication, critical thinking, teamwork, research skills.\nB. Problem-solving, communication, completing capstone project.\nC. Critical thinking, teamwork, research skills.\nD. Communication, critical thinking, completing capstone project."
+  },
+  {
+    "idx": 148,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students receive a recommendation?"
+  },
+  {
+    "idx": 149,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which activities do all students perform?\nA. Completing training module, participating in project, giving seminar, earning certification.\nB. Completing training module, writing paper, giving seminar.\nC. Participating in project, earning certification, writing paper.\nD. Completing training module, giving seminar, receiving recommendation."
+  },
+  {
+    "idx": 150,
+    "gold": "Yes",
+    "pred": "No",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students complete the training session?"
+  },
+  {
+    "idx": 151,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which activities do all students perform?\nA. Completing training session, submitting research proposal, presenting at seminar, meeting qualification criteria.\nB. Completing training session, submitting research proposal, enrolling in research program.\nC. Submitting research proposal, presenting at seminar, meeting qualification criteria.\nD. Completing training session, presenting at seminar, enrolling in research program."
+  },
+  {
+    "idx": 152,
+    "gold": "Unknown",
+    "pred": "Unknown",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Do all students submit their final assignment?"
+  },
+  {
+    "idx": 153,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Which activities do all students perform?\nA. Enrolling in an online course, accessing LMS, attending live sessions, viewing lecture recordings.\nB. Enrolling in an online course, accessing LMS, attending live sessions, joining discussion forums.\nC. Enrolling in an online course, viewing lecture recordings, joining discussion forums.\nD. Accessing LMS, attending live sessions, submitting final assignments."
+  },
+  {
+    "idx": 154,
+    "gold": "A",
+    "pred": "Unknown",
+    "is_mc": true,
+    "source": "mc_optionwise_v241_goldstrict",
+    "question": "Based on the above premises, which statement can be inferred?\nA. ∀x (E(x) → (A(x) ∧ N(x)))\nB. ∃x (¬F(x) ∧ L(x))\nC. ∀x (¬S(x) → A(x))\nD. ∀x (N(x) → ¬E(x))"
+  },
+  {
+    "idx": 155,
+    "gold": "Yes",
+    "pred": "Yes",
+    "is_mc": false,
+    "source": "ynu_rerank_repair_aggressive",
+    "question": "Based on the above premises, is the statement true?\nStatement: ∀x L(x)"
+  }
+]
