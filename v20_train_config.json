@@ -1,0 +1,19 @@
+{
+  "version": "v20",
+  "lora_r": 16,
+  "lora_alpha": 16,
+  "lora_dropout": 0,
+  "epochs": 2,
+  "batch_size": 2,
+  "grad_accum": 4,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "use_neftune": false,
+  "neftune_noise_alpha": 0,
+  "use_class_balance": true,
+  "oversample_no": 3,
+  "oversample_unknown": 1,
+  "training_loss_final": 0.4241345773531696,
+  "duration_min": 54.778346125284834,
+  "n_train_examples": 1014
+}
