@@ -1,0 +1,5402 @@
+[
+ {
+  "flat_id": "test_0_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students course?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_0_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students submits all assignments?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_1_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students reviews mistakes?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_1_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student improves technique?",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_2_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers designs a study?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_2_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers publishes a paper?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_3_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one student joins the study group.\nB. No student joins the study group.\nC. Every student completes the group project.\nD. At least one student completes the group project.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_3_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student receives the group grade.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_4_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one developer code?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_4_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers deploys to production?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_5_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every employee accesses sensitive data.\nB. No employee accesses sensitive data.\nC. Only some employees accesses sensitive data.\nD. The premises do not support any conclusion about accessesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_5_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every employee receives security clearance.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_6_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student completes the coursework.\nB. It cannot be determined whether every student completes the coursework.\nC. No student completes the coursework.\nD. Every student who earns course credit must completes.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_6_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student earns course credit, then the student completes the coursework.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_7_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one researcher designs a study.\nB. Every researcher designs a study.\nC. No researcher designs a study.\nD. At least one researcher reads the literature, but nothing about designs a study.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_7_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every researcher publishes a paper.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_8_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every researcher collects data.\nB. No researcher collects data.\nC. Only some researchers collects data.\nD. The premises do not support any conclusion about collectsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_8_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every researcher designs a study.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_9_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one student earns course credit.\nB. Every student earns course credit.\nC. No student earns course credit.\nD. At least one student completes the coursework, but nothing about earns course credit.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_9_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student graduates from the university.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_10_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students study group?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_10_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students group project?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_11_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one mentor provides feedback.\nB. Every mentor provides feedback.\nC. No mentor provides feedback.\nD. At least one mentor schedules a session, but nothing about provides feedback.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_11_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every mentor tracks progress.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_12_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student completes the lab work.\nB. It cannot be determined whether every student completes the lab work.\nC. No student completes the lab work.\nD. Every student who passes the lab component must completes.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_12_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_13_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every developer writes the code.\nB. It cannot be determined whether every developer writes the code.\nC. No developer writes the code.\nD. Every developer who passes the code review must writes.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_13_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a developer passes the code review, then the developer writes the code.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_14_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees submits a portfolio?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_14_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one trainee earns a certificate?",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_15_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers code review?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_15_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers deploys to production?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_16_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every librarian catalogs new books.\nB. At least one librarian updates the database.\nC. No librarian catalogs new books.\nD. Some librarians notifies patrons.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_16_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one librarian updates the database.",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_17_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students coursework?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_17_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students earns course credit?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_18_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants program?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_18_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants finishes all modules?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_19_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one employee attends compliance training?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_19_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees handles client accounts?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_20_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student performs well on the exam.\nB. No student performs well on the exam.\nC. Only some students performs well on the exam.\nD. The premises do not support any conclusion about performsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_20_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student solves the problems.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_21_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student enrolls in the course.\nB. It cannot be determined whether every student enrolls in the course.\nC. No student enrolls in the course.\nD. Every student who submits all assignments must enrolls.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_21_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student submits all assignments, then the student enrolls in the course.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_22_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No student passes the final exam.\nB. Every student passes the final exam.\nC. At least one student passes the final exam.\nD. It cannot be determined whether any student passes the final exam.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_22_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No student passes the final exam.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_23_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students lab work?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_23_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students lab component?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_24_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every volunteer signs up for the event.\nB. It cannot be determined whether every volunteer signs up for the event.\nC. No volunteer signs up for the event.\nD. Every volunteer who assists with activities must signs.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_24_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a volunteer assists with activities, then the volunteer signs up for the event.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_25_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every employee completes the onboarding program.\nB. At least one employee passes the probation period.\nC. No employee completes the onboarding program.\nD. Some employees receives full benefits.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_25_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one employee passes the probation period.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_26_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees submits a portfolio?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_26_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees professional body?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_27_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one employee attends compliance training?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_27_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees handles client accounts?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_28_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students studies regularly?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_28_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students problems?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_29_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one student submits all assignments.\nB. Every student submits all assignments.\nC. No student submits all assignments.\nD. At least one student enrolls in the course, but nothing about submits all assignments.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_29_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student receives a scholarship.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_30_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one analyst requirements?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_30_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts report?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_31_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one trainee submits a portfolio.\nB. Every trainee submits a portfolio.\nC. No trainee submits a portfolio.\nD. At least one trainee attends the seminar, but nothing about submits a portfolio.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_31_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every trainee joins the professional body.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_32_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees submits a portfolio?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_32_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one trainee earns a certificate?",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_33_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student course?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_33_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students receives a scholarship?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_34_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No intern completes the assigned task.\nB. Every intern completes the assigned task.\nC. At least one intern completes the assigned task.\nD. It cannot be determined whether any intern completes the assigned task.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_34_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No intern completes the assigned task.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_35_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student qualifies for the degree.\nB. No student qualifies for the degree.\nC. Only some students qualifies for the degree.\nD. The premises do not support any conclusion about qualifiesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_35_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student earns course credit.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_36_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers conducts experiments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_36_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one researcher data?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_37_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one researcher writes a research proposal?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_37_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers presents at a conference?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_38_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No student understands the concepts.\nB. Every student understands the concepts.\nC. At least one student understands the concepts.\nD. It cannot be determined whether any student understands the concepts.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_38_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No student understands the concepts.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_39_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one participant registers for the program.\nB. No participant registers for the program.\nC. Every participant finishes all modules.\nD. At least one participant finishes all modules.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_39_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every participant passes the certification exam.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_40_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers code review?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_40_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one developer branch?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_41_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives security clearance?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_41_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees handles client accounts?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_42_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student exam?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_42_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students threshold?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_43_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one student reviews mistakes.\nB. Every student reviews mistakes.\nC. No student reviews mistakes.\nD. At least one student registers for the exam, but nothing about reviews mistakes.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_43_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student scores above the threshold.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_44_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every volunteer signs up for the event.\nB. It cannot be determined whether every volunteer signs up for the event.\nC. No volunteer signs up for the event.\nD. Every volunteer who assists with activities must signs.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_44_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a volunteer assists with activities, then the volunteer signs up for the event.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_45_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students lab component?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_45_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student graduation requirement?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_46_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students studies regularly?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_46_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students problems?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_47_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every teacher prepares the curriculum.\nB. It cannot be determined whether every teacher prepares the curriculum.\nC. No teacher prepares the curriculum.\nD. Every teacher who grades the assignments must prepares.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_47_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a teacher grades the assignments, then the teacher prepares the curriculum.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_48_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every candidate receives an offer.\nB. No candidate receives an offer.\nC. Only some candidates receives an offer.\nD. The premises do not support any conclusion about receivesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_48_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every candidate clears the interview.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_49_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student joins the study group.\nB. It cannot be determined whether every student joins the study group.\nC. No student joins the study group.\nD. Every student who completes the group project must joins.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_49_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student completes the group project, then the student joins the study group.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_50_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No student takes a practice test.\nB. Every student takes a practice test.\nC. At least one student takes a practice test.\nD. It cannot be determined whether any student takes a practice test.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_50_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No student takes a practice test.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_51_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates application?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_51_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates interview?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_52_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student meets the graduation requirement.\nB. No student meets the graduation requirement.\nC. Only some students meets the graduation requirement.\nD. The premises do not support any conclusion about meetsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_52_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student passes the lab component.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_53_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every developer writes the code.\nB. At least one developer runs the unit tests.\nC. No developer writes the code.\nD. Some developers passes the code review.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_53_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one developer runs the unit tests.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_54_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one candidate clears the interview.\nB. Every candidate clears the interview.\nC. No candidate clears the interview.\nD. At least one candidate submits the application, but nothing about clears the interview.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_54_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every candidate starts the position.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_55_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every developer writes the code.\nB. It cannot be determined whether every developer writes the code.\nC. No developer writes the code.\nD. Every developer who passes the code review must writes.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_55_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a developer passes the code review, then the developer writes the code.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_56_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors provides feedback?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_56_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one mentor sets development goals?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_57_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No intern completes the assigned task.\nB. Every intern completes the assigned task.\nC. At least one intern completes the assigned task.\nD. It cannot be determined whether any intern completes the assigned task.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_57_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No intern completes the assigned task.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_58_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No researcher receives a grant.\nB. Every researcher receives a grant.\nC. At least one researcher receives a grant.\nD. It cannot be determined whether any researcher receives a grant.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_58_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No researcher receives a grant.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_59_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No student attends all lectures.\nB. Every student attends all lectures.\nC. At least one student attends all lectures.\nD. It cannot be determined whether any student attends all lectures.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_59_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No student attends all lectures.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_60_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No employee passes the compliance quiz.\nB. Every employee passes the compliance quiz.\nC. At least one employee passes the compliance quiz.\nD. It cannot be determined whether any employee passes the compliance quiz.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_60_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No employee passes the compliance quiz.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_61_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students earns course credit?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_61_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students university?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_62_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No librarian updates the database.\nB. Every librarian updates the database.\nC. At least one librarian updates the database.\nD. It cannot be determined whether any librarian updates the database.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_62_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No librarian updates the database.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_63_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every researcher reads the literature.\nB. At least one researcher identifies a research gap.\nC. No researcher reads the literature.\nD. Some researchers designs a study.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_63_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one researcher identifies a research gap.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_64_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students earns course credit?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_64_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student degree?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_65_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers code review?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_65_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one developer branch?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_66_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians catalogs new books?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_66_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians notifies patrons?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_67_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every mentor schedules a session.\nB. At least one mentor reviews the mentee's work.\nC. No mentor schedules a session.\nD. Some mentors provides feedback.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_67_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one mentor reviews the mentee's work.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_68_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one student passes the lab component.\nB. Every student passes the lab component.\nC. No student passes the lab component.\nD. At least one student completes the lab work, but nothing about passes the lab component.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_68_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student obtains the diploma.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_69_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student joins the study group.\nB. It cannot be determined whether every student joins the study group.\nC. No student joins the study group.\nD. Every student who completes the group project must joins.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_69_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student completes the group project, then the student joins the study group.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_70_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers assignments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_70_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers academic term?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_71_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers designs a study?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_71_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one researcher collects data?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_72_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every librarian catalogs new books.\nB. It cannot be determined whether every librarian catalogs new books.\nC. No librarian catalogs new books.\nD. Every librarian who notifies patrons must catalogs.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_72_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a librarian notifies patrons, then the librarian catalogs new books.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_73_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts builds a model?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_73_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts report?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_74_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every librarian catalogs new books.\nB. It cannot be determined whether every librarian catalogs new books.\nC. No librarian catalogs new books.\nD. Every librarian who notifies patrons must catalogs.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_74_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a librarian notifies patrons, then the librarian catalogs new books.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_75_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one teacher prepares the curriculum.\nB. No teacher prepares the curriculum.\nC. Every teacher grades the assignments.\nD. At least one teacher grades the assignments.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_75_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every teacher submits the grade report.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_76_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student study group?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_76_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students teamwork requirement?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_77_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students submits all assignments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_77_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student achieves a high GPA?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_78_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students lab component?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_78_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students diploma?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_79_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers designs a study?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_79_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one researcher collects data?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_80_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers assists with activities?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_80_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers receives a community award?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_81_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every researcher writes a research proposal.\nB. At least one researcher receives a grant.\nC. No researcher writes a research proposal.\nD. Some researchers conducts experiments.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_81_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one researcher receives a grant.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_82_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No participant completes the orientation.\nB. Every participant completes the orientation.\nC. At least one participant completes the orientation.\nD. It cannot be determined whether any participant completes the orientation.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_82_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No participant completes the orientation.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_83_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student joins the study group.\nB. At least one student participates in discussion.\nC. No student joins the study group.\nD. Some students completes the group project.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_83_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one student participates in discussion.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_84_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns receives mentor feedback?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_84_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns gets a return offer?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_85_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every candidate submits the application.\nB. It cannot be determined whether every candidate submits the application.\nC. No candidate submits the application.\nD. Every candidate who clears the interview must submits.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_85_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a candidate clears the interview, then the candidate submits the application.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_86_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student qualifies for the degree.\nB. No student qualifies for the degree.\nC. Only some students qualifies for the degree.\nD. The premises do not support any conclusion about qualifiesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_86_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student earns course credit.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_87_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one intern joins the team.\nB. No intern joins the team.\nC. Every intern receives mentor feedback.\nD. At least one intern receives mentor feedback.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_87_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every intern writes the internship report.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_88_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one developer passes the code review.\nB. Every developer passes the code review.\nC. No developer passes the code review.\nD. At least one developer writes the code, but nothing about passes the code review.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_88_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every developer deploys to production.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_89_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students course?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_89_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students submits all assignments?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_90_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students problems?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_90_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students receives honors?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_91_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students problems?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_91_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student exam?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_92_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every developer merges the branch.\nB. No developer merges the branch.\nC. Only some developers merges the branch.\nD. The premises do not support any conclusion about mergesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_92_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every developer passes the code review.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_93_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every researcher reads the literature.\nB. At least one researcher identifies a research gap.\nC. No researcher reads the literature.\nD. Some researchers designs a study.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_93_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one researcher identifies a research gap.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_94_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees submits a portfolio?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_94_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees professional body?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_95_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one employee completes the onboarding program.\nB. No employee completes the onboarding program.\nC. Every employee receives full benefits.\nD. At least one employee receives full benefits.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_95_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every employee is eligible for promotion.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_96_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers assignments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_96_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers academic term?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_97_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one student completes the coursework.\nB. No student completes the coursework.\nC. Every student earns course credit.\nD. At least one student earns course credit.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_97_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student qualifies for the degree.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_98_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students group project?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_98_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students teamwork requirement?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_99_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants finishes all modules?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_99_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one participant certification exam?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_100_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts builds a model?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_100_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one analyst results?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_101_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns team?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_101_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns receives mentor feedback?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_102_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers writes a research proposal?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_102_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers conducts experiments?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_103_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers assists with activities?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_103_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one volunteer logs service hours?",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_104_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every analyst gathers the requirements.\nB. At least one analyst documents the findings.\nC. No analyst gathers the requirements.\nD. Some analysts builds a model.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_104_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one analyst documents the findings.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_105_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one employee attends compliance training.\nB. No employee attends compliance training.\nC. Every employee receives security clearance.\nD. At least one employee receives security clearance.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_105_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every employee accesses sensitive data.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_106_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one student completes the group project.\nB. Every student completes the group project.\nC. No student completes the group project.\nD. At least one student joins the study group, but nothing about completes the group project.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_106_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student fulfils the teamwork requirement.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_107_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student registers for the exam.\nB. It cannot be determined whether every student registers for the exam.\nC. No student registers for the exam.\nD. Every student who reviews mistakes must registers.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_107_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student reviews mistakes, then the student registers for the exam.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_108_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors provides feedback?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_108_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one mentor sets development goals?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_109_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every trainee earns a certificate.\nB. No trainee earns a certificate.\nC. Only some trainees earns a certificate.\nD. The premises do not support any conclusion about earnsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_109_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every trainee submits a portfolio.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_110_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every employee is eligible for promotion.\nB. No employee is eligible for promotion.\nC. Only some employees is eligible for promotion.\nD. The premises do not support any conclusion about ising.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_110_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every employee receives full benefits.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_111_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every analyst validates the results.\nB. No analyst validates the results.\nC. Only some analysts validates the results.\nD. The premises do not support any conclusion about validatesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_111_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every analyst builds a model.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_112_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No teacher delivers the lectures.\nB. Every teacher delivers the lectures.\nC. At least one teacher delivers the lectures.\nD. It cannot be determined whether any teacher delivers the lectures.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_112_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No teacher delivers the lectures.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_113_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students group project?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_113_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student group grade?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_114_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees seminar?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_114_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees submits a portfolio?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_115_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers designs a study?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_115_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers publishes a paper?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_116_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives full benefits?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_116_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees leads a project?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_117_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers assists with activities?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_117_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one volunteer logs service hours?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_118_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every mentor sets development goals.\nB. No mentor sets development goals.\nC. Only some mentors sets development goals.\nD. The premises do not support any conclusion about setsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_118_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every mentor provides feedback.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_119_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every employee attends compliance training.\nB. It cannot be determined whether every employee attends compliance training.\nC. No employee attends compliance training.\nD. Every employee who receives security clearance must attends.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_119_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If an employee receives security clearance, then the employee attends compliance training.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_120_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one candidate application?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_120_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates position?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_121_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every librarian processes reservations.\nB. No librarian processes reservations.\nC. Only some librarians processes reservations.\nD. The premises do not support any conclusion about processesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_121_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every librarian notifies patrons.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_122_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one analyst requirements?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_122_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts report?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_123_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers event?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_123_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers assists with activities?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_124_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers code review?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_124_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers deploys to production?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_125_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants finishes all modules?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_125_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants obtains a professional license?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_126_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees attends compliance training?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_126_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives security clearance?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_127_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives full benefits?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_127_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one employee is eligible for promotion?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_128_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every mentor schedules a session.\nB. It cannot be determined whether every mentor schedules a session.\nC. No mentor schedules a session.\nD. Every mentor who provides feedback must schedules.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_128_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a mentor provides feedback, then the mentor schedules a session.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_129_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants finishes all modules?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_129_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants obtains a professional license?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_130_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one student completes the lab work.\nB. No student completes the lab work.\nC. Every student passes the lab component.\nD. At least one student passes the lab component.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_130_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student meets the graduation requirement.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_131_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one researcher reads the literature.\nB. No researcher reads the literature.\nC. Every researcher designs a study.\nD. At least one researcher designs a study.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_131_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every researcher collects data.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_132_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one employee onboarding program?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_132_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees leads a project?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_133_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student achieves a high GPA.\nB. No student achieves a high GPA.\nC. Only some students achieves a high GPA.\nD. The premises do not support any conclusion about achievesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_133_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student submits all assignments.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_134_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers literature?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_134_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers designs a study?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_135_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student completes the lab work.\nB. At least one student submits the lab report.\nC. No student completes the lab work.\nD. Some students passes the lab component.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_135_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one student submits the lab report.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_136_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers assists with activities?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_136_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one volunteer logs service hours?",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_137_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every volunteer signs up for the event.\nB. At least one volunteer attends the training session.\nC. No volunteer signs up for the event.\nD. Some volunteers assists with activities.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_137_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one volunteer attends the training session.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_138_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates interview?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_138_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one candidate receives an offer?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_139_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students problems?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_139_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students receives honors?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_140_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No student submits the lab report.\nB. Every student submits the lab report.\nC. At least one student submits the lab report.\nD. It cannot be determined whether any student submits the lab report.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_140_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No student submits the lab report.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_141_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one librarian catalogs new books.\nB. No librarian catalogs new books.\nC. Every librarian notifies patrons.\nD. At least one librarian notifies patrons.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_141_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every librarian processes reservations.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_142_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student enrolls in the course.\nB. At least one student attends all lectures.\nC. No student enrolls in the course.\nD. Some students submits all assignments.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_142_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one student attends all lectures.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_143_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student coursework?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_143_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students university?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_144_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives full benefits?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_144_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees leads a project?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_145_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No student attends all lectures.\nB. Every student attends all lectures.\nC. At least one student attends all lectures.\nD. It cannot be determined whether any student attends all lectures.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_145_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No student attends all lectures.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_146_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one trainee attends the seminar.\nB. No trainee attends the seminar.\nC. Every trainee submits a portfolio.\nD. At least one trainee submits a portfolio.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_146_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every trainee earns a certificate.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_147_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every teacher submits the grade report.\nB. No teacher submits the grade report.\nC. Only some teachers submits the grade report.\nD. The premises do not support any conclusion about submitsing.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_147_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every teacher grades the assignments.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_148_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one analyst gathers the requirements.\nB. No analyst gathers the requirements.\nC. Every analyst builds a model.\nD. At least one analyst builds a model.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_148_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every analyst validates the results.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_149_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives security clearance?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_149_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one employee accesses sensitive data?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_150_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one researcher writes a research proposal.\nB. No researcher writes a research proposal.\nC. Every researcher conducts experiments.\nD. At least one researcher conducts experiments.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_150_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every researcher analyzes the data.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_151_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors provides feedback?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_151_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors tracks progress?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_152_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student performs well on the exam.\nB. No student performs well on the exam.\nC. Only some students performs well on the exam.\nD. The premises do not support any conclusion about performsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_152_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student solves the problems.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_153_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates interview?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_153_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one candidate receives an offer?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_154_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No participant completes the orientation.\nB. Every participant completes the orientation.\nC. At least one participant completes the orientation.\nD. It cannot be determined whether any participant completes the orientation.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_154_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No participant completes the orientation.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_155_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees onboarding program?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_155_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives full benefits?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_156_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No mentor reviews the mentee's work.\nB. Every mentor reviews the mentee's work.\nC. At least one mentor reviews the mentee's work.\nD. It cannot be determined whether any mentor reviews the mentee's work.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_156_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No mentor reviews the mentee's work.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_157_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every mentor schedules a session.\nB. It cannot be determined whether every mentor schedules a session.\nC. No mentor schedules a session.\nD. Every mentor who provides feedback must schedules.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_157_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a mentor provides feedback, then the mentor schedules a session.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_158_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every analyst gathers the requirements.\nB. It cannot be determined whether every analyst gathers the requirements.\nC. No analyst gathers the requirements.\nD. Every analyst who builds a model must gathers.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_158_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If an analyst builds a model, then the analyst gathers the requirements.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_159_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants finishes all modules?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_159_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one participant certification exam?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_160_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every employee completes the onboarding program.\nB. It cannot be determined whether every employee completes the onboarding program.\nC. No employee completes the onboarding program.\nD. Every employee who receives full benefits must completes.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_160_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If an employee receives full benefits, then the employee completes the onboarding program.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_161_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No student participates in discussion.\nB. Every student participates in discussion.\nC. At least one student participates in discussion.\nD. It cannot be determined whether any student participates in discussion.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_161_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No student participates in discussion.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_162_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one intern team?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_162_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns gets a return offer?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_163_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers assists with activities?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_163_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers receives a community award?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_164_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every researcher writes a research proposal.\nB. It cannot be determined whether every researcher writes a research proposal.\nC. No researcher writes a research proposal.\nD. Every researcher who conducts experiments must writes.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_164_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a researcher conducts experiments, then the researcher writes a research proposal.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_165_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one volunteer event?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_165_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers receives a community award?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_166_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers conducts experiments?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_166_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one researcher data?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_167_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No candidate passes the written test.\nB. Every candidate passes the written test.\nC. At least one candidate passes the written test.\nD. It cannot be determined whether any candidate passes the written test.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_167_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No candidate passes the written test.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_168_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students reviews mistakes?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_168_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student improves technique?",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_169_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every candidate receives an offer.\nB. No candidate receives an offer.\nC. Only some candidates receives an offer.\nD. The premises do not support any conclusion about receivesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_169_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every candidate clears the interview.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_170_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every trainee earns a certificate.\nB. No trainee earns a certificate.\nC. Only some trainees earns a certificate.\nD. The premises do not support any conclusion about earnsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_170_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every trainee submits a portfolio.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_171_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers assignments?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_171_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one teacher grade report?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_172_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every employee is eligible for promotion.\nB. No employee is eligible for promotion.\nC. Only some employees is eligible for promotion.\nD. The premises do not support any conclusion about ising.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_172_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every employee receives full benefits.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_173_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students problems?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_173_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student exam?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_174_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No trainee completes the workshop.\nB. Every trainee completes the workshop.\nC. At least one trainee completes the workshop.\nD. It cannot be determined whether any trainee completes the workshop.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_174_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No trainee completes the workshop.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_175_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers conducts experiments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_175_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers presents at a conference?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_176_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one volunteer signs up for the event.\nB. No volunteer signs up for the event.\nC. Every volunteer assists with activities.\nD. At least one volunteer assists with activities.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_176_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every volunteer logs service hours.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_177_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every participant passes the certification exam.\nB. No participant passes the certification exam.\nC. Only some participants passes the certification exam.\nD. The premises do not support any conclusion about passesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_177_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every participant finishes all modules.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_178_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians notifies patrons?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_178_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one librarian processes reservations?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_179_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every employee attends compliance training.\nB. At least one employee passes the compliance quiz.\nC. No employee attends compliance training.\nD. Some employees receives security clearance.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_179_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one employee passes the compliance quiz.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_180_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers curriculum?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_180_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers assignments?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_181_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No teacher delivers the lectures.\nB. Every teacher delivers the lectures.\nC. At least one teacher delivers the lectures.\nD. It cannot be determined whether any teacher delivers the lectures.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_181_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No teacher delivers the lectures.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_182_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students coursework?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_182_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students earns course credit?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_183_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one participant program?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_183_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants obtains a professional license?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_184_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers conducts experiments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_184_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one researcher data?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_185_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees seminar?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_185_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees submits a portfolio?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_186_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No student understands the concepts.\nB. Every student understands the concepts.\nC. At least one student understands the concepts.\nD. It cannot be determined whether any student understands the concepts.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_186_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No student understands the concepts.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_187_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students earns course credit?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_187_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student degree?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_188_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one student solves the problems.\nB. Every student solves the problems.\nC. No student solves the problems.\nD. At least one student studies regularly, but nothing about solves the problems.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_188_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student receives honors.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_189_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every researcher writes a research proposal.\nB. It cannot be determined whether every researcher writes a research proposal.\nC. No researcher writes a research proposal.\nD. Every researcher who conducts experiments must writes.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_189_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a researcher conducts experiments, then the researcher writes a research proposal.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_190_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one volunteer assists with activities.\nB. Every volunteer assists with activities.\nC. No volunteer assists with activities.\nD. At least one volunteer signs up for the event, but nothing about assists with activities.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_190_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every volunteer receives a community award.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_191_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every volunteer logs service hours.\nB. No volunteer logs service hours.\nC. Only some volunteers logs service hours.\nD. The premises do not support any conclusion about logsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_191_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every volunteer assists with activities.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_192_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one librarian catalogs new books?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_192_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians inventory?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_193_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives security clearance?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_193_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees handles client accounts?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_194_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every teacher prepares the curriculum.\nB. At least one teacher delivers the lectures.\nC. No teacher prepares the curriculum.\nD. Some teachers grades the assignments.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_194_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one teacher delivers the lectures.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_195_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one intern receives mentor feedback.\nB. Every intern receives mentor feedback.\nC. No intern receives mentor feedback.\nD. At least one intern joins the team, but nothing about receives mentor feedback.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_195_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every intern gets a return offer.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_196_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors schedules a session?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_196_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors provides feedback?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_197_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians notifies patrons?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_197_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one librarian processes reservations?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_198_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one librarian catalogs new books?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_198_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians inventory?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_199_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates interview?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_199_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates position?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_200_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students lab component?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_200_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student graduation requirement?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_201_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every intern joins the team.\nB. It cannot be determined whether every intern joins the team.\nC. No intern joins the team.\nD. Every intern who receives mentor feedback must joins.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_201_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If an intern receives mentor feedback, then the intern joins the team.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_202_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every researcher reads the literature.\nB. It cannot be determined whether every researcher reads the literature.\nC. No researcher reads the literature.\nD. Every researcher who designs a study must reads.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_202_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a researcher designs a study, then the researcher reads the literature.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_203_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students exam?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_203_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students reviews mistakes?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_204_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one employee receives full benefits.\nB. Every employee receives full benefits.\nC. No employee receives full benefits.\nD. At least one employee completes the onboarding program, but nothing about receives full benefits.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_204_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every employee leads a project.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_205_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student registers for the exam.\nB. At least one student takes a practice test.\nC. No student registers for the exam.\nD. Some students reviews mistakes.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_205_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one student takes a practice test.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_206_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one volunteer event?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_206_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all volunteers receives a community award?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_207_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one student registers for the exam.\nB. No student registers for the exam.\nC. Every student reviews mistakes.\nD. At least one student reviews mistakes.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_207_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student improves technique.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_208_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student study group?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_208_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students teamwork requirement?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_209_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one developer writes the code.\nB. No developer writes the code.\nC. Every developer passes the code review.\nD. At least one developer passes the code review.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_209_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every developer merges the branch.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_210_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers conducts experiments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_210_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers presents at a conference?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_211_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students submits all assignments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_211_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student achieves a high GPA?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_212_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student completes the coursework.\nB. At least one student passes the final exam.\nC. No student completes the coursework.\nD. Some students earns course credit.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_212_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one student passes the final exam.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_213_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts requirements?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_213_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts builds a model?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_214_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every participant registers for the program.\nB. At least one participant completes the orientation.\nC. No participant registers for the program.\nD. Some participants finishes all modules.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_214_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one participant completes the orientation.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_215_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one employee receives security clearance.\nB. Every employee receives security clearance.\nC. No employee receives security clearance.\nD. At least one employee attends compliance training, but nothing about receives security clearance.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_215_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every employee handles client accounts.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_216_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one librarian notifies patrons.\nB. Every librarian notifies patrons.\nC. No librarian notifies patrons.\nD. At least one librarian catalogs new books, but nothing about notifies patrons.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_216_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every librarian completes the inventory.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_217_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians notifies patrons?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_217_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians inventory?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_218_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every employee attends compliance training.\nB. It cannot be determined whether every employee attends compliance training.\nC. No employee attends compliance training.\nD. Every employee who receives security clearance must attends.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_218_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If an employee receives security clearance, then the employee attends compliance training.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_219_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every analyst gathers the requirements.\nB. It cannot be determined whether every analyst gathers the requirements.\nC. No analyst gathers the requirements.\nD. Every analyst who builds a model must gathers.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_219_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If an analyst builds a model, then the analyst gathers the requirements.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_220_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student studies regularly.\nB. At least one student understands the concepts.\nC. No student studies regularly.\nD. Some students solves the problems.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_220_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one student understands the concepts.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_221_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students earns course credit?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_221_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students university?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_222_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees onboarding program?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_222_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives full benefits?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_223_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one trainee seminar?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_223_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all trainees professional body?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_224_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students group project?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_224_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student group grade?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_225_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives security clearance?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_225_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one employee accesses sensitive data?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_226_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students lab component?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_226_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student graduation requirement?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_227_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one researcher conducts experiments.\nB. Every researcher conducts experiments.\nC. No researcher conducts experiments.\nD. At least one researcher writes a research proposal, but nothing about conducts experiments.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_227_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every researcher presents at a conference.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_228_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one student enrolls in the course.\nB. No student enrolls in the course.\nC. Every student submits all assignments.\nD. At least one student submits all assignments.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_228_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student achieves a high GPA.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_229_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No developer runs the unit tests.\nB. Every developer runs the unit tests.\nC. At least one developer runs the unit tests.\nD. It cannot be determined whether any developer runs the unit tests.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_229_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No developer runs the unit tests.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_230_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers literature?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_230_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers designs a study?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_231_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student receives the group grade.\nB. No student receives the group grade.\nC. Only some students receives the group grade.\nD. The premises do not support any conclusion about receivesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_231_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student completes the group project.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_232_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students submits all assignments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_232_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students receives a scholarship?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_233_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student studies regularly?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_233_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students receives honors?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_234_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student improves technique.\nB. No student improves technique.\nC. Only some students improves technique.\nD. The premises do not support any conclusion about improvesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_234_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student reviews mistakes.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_235_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one mentor schedules a session?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_235_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors tracks progress?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_236_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every candidate submits the application.\nB. At least one candidate passes the written test.\nC. No candidate submits the application.\nD. Some candidates clears the interview.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_236_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one candidate passes the written test.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_237_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student lab work?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_237_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students diploma?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_238_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student registers for the exam.\nB. It cannot be determined whether every student registers for the exam.\nC. No student registers for the exam.\nD. Every student who reviews mistakes must registers.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_238_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student reviews mistakes, then the student registers for the exam.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_239_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns receives mentor feedback?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_239_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns gets a return offer?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_240_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every intern joins the team.\nB. At least one intern completes the assigned task.\nC. No intern joins the team.\nD. Some interns receives mentor feedback.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_240_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one intern completes the assigned task.",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_241_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians notifies patrons?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_241_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one librarian processes reservations?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_242_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students group project?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_242_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student group grade?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_243_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every teacher submits the grade report.\nB. No teacher submits the grade report.\nC. Only some teachers submits the grade report.\nD. The premises do not support any conclusion about submitsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_243_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every teacher grades the assignments.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_244_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one mentor schedules a session?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_244_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors tracks progress?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_245_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students group project?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_245_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students teamwork requirement?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_246_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every trainee attends the seminar.\nB. At least one trainee completes the workshop.\nC. No trainee attends the seminar.\nD. Some trainees submits a portfolio.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_246_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one trainee completes the workshop.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_247_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one student studies regularly.\nB. No student studies regularly.\nC. Every student solves the problems.\nD. At least one student solves the problems.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_247_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student performs well on the exam.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_248_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every trainee attends the seminar.\nB. It cannot be determined whether every trainee attends the seminar.\nC. No trainee attends the seminar.\nD. Every trainee who submits a portfolio must attends.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_248_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a trainee submits a portfolio, then the trainee attends the seminar.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_249_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors provides feedback?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_249_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors tracks progress?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_250_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns receives mentor feedback?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_250_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one intern internship report?",
+  "pred_v32": "Unknown",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_251_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers assignments?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_251_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one teacher grade report?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_252_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one candidate submits the application.\nB. No candidate submits the application.\nC. Every candidate clears the interview.\nD. At least one candidate clears the interview.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_252_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every candidate receives an offer.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_253_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all mentors provides feedback?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_253_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one mentor sets development goals?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_254_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts builds a model?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_254_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one analyst results?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_255_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers code?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_255_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers code review?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_256_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every employee completes the onboarding program.\nB. At least one employee passes the probation period.\nC. No employee completes the onboarding program.\nD. Some employees receives full benefits.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_256_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one employee passes the probation period.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_257_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student achieves a high GPA.\nB. No student achieves a high GPA.\nC. Only some students achieves a high GPA.\nD. The premises do not support any conclusion about achievesing.",
+  "pred_v32": "UNPARSEABLE",
+  "pred_v35": "UNPARSEABLE"
+ },
+ {
+  "flat_id": "test_257_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every student submits all assignments.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_258_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one teacher grades the assignments.\nB. Every teacher grades the assignments.\nC. No teacher grades the assignments.\nD. At least one teacher prepares the curriculum, but nothing about grades the assignments.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_258_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every teacher completes the academic term.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_259_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians notifies patrons?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_259_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all librarians inventory?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_260_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student exam?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_260_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students threshold?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_261_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one analyst builds a model.\nB. Every analyst builds a model.\nC. No analyst builds a model.\nD. At least one analyst gathers the requirements, but nothing about builds a model.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_261_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every analyst delivers the report.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_262_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one developer code?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_262_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers deploys to production?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_263_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students reviews mistakes?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_263_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student improves technique?",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_264_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns receives mentor feedback?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_264_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one intern internship report?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_265_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students submits all assignments?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_265_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students receives a scholarship?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_266_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every candidate submits the application.\nB. At least one candidate passes the written test.\nC. No candidate submits the application.\nD. Some candidates clears the interview.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_266_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one candidate passes the written test.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_267_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No analyst documents the findings.\nB. Every analyst documents the findings.\nC. At least one analyst documents the findings.\nD. It cannot be determined whether any analyst documents the findings.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_267_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No analyst documents the findings.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_268_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students lab component?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_268_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students diploma?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_269_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which conclusion follows?\nA. At least one participant finishes all modules.\nB. Every participant finishes all modules.\nC. No participant finishes all modules.\nD. At least one participant registers for the program, but nothing about finishes all modules.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_269_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every participant obtains a professional license.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_270_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all developers code review?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_270_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one developer branch?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_271_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students reviews mistakes?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_271_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students threshold?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_272_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student completes the lab work.\nB. It cannot be determined whether every student completes the lab work.\nC. No student completes the lab work.\nD. Every student who passes the lab component must completes.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_272_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_273_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts builds a model?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_273_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts report?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_274_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. At least one mentor schedules a session.\nB. No mentor schedules a session.\nC. Every mentor provides feedback.\nD. At least one mentor provides feedback.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_274_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every mentor sets development goals.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_275_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every participant passes the certification exam.\nB. No participant passes the certification exam.\nC. Only some participants passes the certification exam.\nD. The premises do not support any conclusion about passesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_275_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every participant finishes all modules.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_276_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives full benefits?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_276_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one employee is eligible for promotion?",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_277_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every intern writes the internship report.\nB. No intern writes the internship report.\nC. Only some interns writes the internship report.\nD. The premises do not support any conclusion about writesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_277_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every intern receives mentor feedback.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_278_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one student lab work?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_278_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students diploma?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_279_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all analysts builds a model?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_279_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one analyst results?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_280_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students reviews mistakes?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_280_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all students threshold?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_281_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates interview?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_281_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates position?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_282_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns team?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_282_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all interns receives mentor feedback?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_283_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every student studies regularly.\nB. It cannot be determined whether every student studies regularly.\nC. No student studies regularly.\nD. Every student who solves the problems must studies.",
+  "pred_v32": "B",
+  "pred_v35": "B"
+ },
+ {
+  "flat_id": "test_283_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a student solves the problems, then the student studies regularly.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_284_0",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all employees receives security clearance?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_284_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one employee accesses sensitive data?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_285_0",
+  "gold": "B",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. Every participant registers for the program.\nB. It cannot be determined whether every participant registers for the program.\nC. No participant registers for the program.\nD. Every participant who finishes all modules must registers.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_285_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? If a participant finishes all modules, then the participant registers for the program.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_286_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one researcher literature?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_286_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers publishes a paper?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_287_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No volunteer attends the training session.\nB. Every volunteer attends the training session.\nC. At least one volunteer attends the training session.\nD. It cannot be determined whether any volunteer attends the training session.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_287_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No volunteer attends the training session.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_288_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers curriculum?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_288_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers assignments?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_289_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every trainee attends the seminar.\nB. At least one trainee completes the workshop.\nC. No trainee attends the seminar.\nD. Some trainees submits a portfolio.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_289_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one trainee completes the workshop.",
+  "pred_v32": "Yes",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_290_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every researcher analyzes the data.\nB. No researcher analyzes the data.\nC. Only some researchers analyzes the data.\nD. The premises do not support any conclusion about analyzesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_290_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every researcher conducts experiments.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_291_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every intern writes the internship report.\nB. No intern writes the internship report.\nC. Only some interns writes the internship report.\nD. The premises do not support any conclusion about writesing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_291_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every intern receives mentor feedback.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_292_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants program?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_292_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all participants finishes all modules?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_293_0",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates application?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_293_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all candidates interview?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_294_0",
+  "gold": "C",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every student completes the coursework.\nB. At least one student passes the final exam.\nC. No student completes the coursework.\nD. Some students earns course credit.",
+  "pred_v32": "C",
+  "pred_v35": "C"
+ },
+ {
+  "flat_id": "test_294_1",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? At least one student passes the final exam.",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_295_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one teacher curriculum?",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_295_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all teachers academic term?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_296_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No researcher identifies a research gap.\nB. Every researcher identifies a research gap.\nC. At least one researcher identifies a research gap.\nD. It cannot be determined whether any researcher identifies a research gap.",
+  "pred_v32": "D",
+  "pred_v35": "D"
+ },
+ {
+  "flat_id": "test_296_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No researcher identifies a research gap.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ },
+ {
+  "flat_id": "test_297_0",
+  "gold": "No",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Does at least one researcher writes a research proposal?",
+  "pred_v32": "No",
+  "pred_v35": "No"
+ },
+ {
+  "flat_id": "test_297_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "Do all researchers presents at a conference?",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_298_0",
+  "gold": "A",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement can be inferred?\nA. Every researcher collects data.\nB. No researcher collects data.\nC. Only some researchers collects data.\nD. The premises do not support any conclusion about collectsing.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_298_1",
+  "gold": "Yes",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? Every researcher designs a study.",
+  "pred_v32": "Yes",
+  "pred_v35": "Yes"
+ },
+ {
+  "flat_id": "test_299_0",
+  "gold": "D",
+  "is_mc": true,
+  "is_ynu": false,
+  "question": "Based on the premises, which statement is correct?\nA. No employee passes the probation period.\nB. Every employee passes the probation period.\nC. At least one employee passes the probation period.\nD. It cannot be determined whether any employee passes the probation period.",
+  "pred_v32": "A",
+  "pred_v35": "A"
+ },
+ {
+  "flat_id": "test_299_1",
+  "gold": "Unknown",
+  "is_mc": false,
+  "is_ynu": true,
+  "question": "According to the premises, is the following statement true? No employee passes the probation period.",
+  "pred_v32": "Unknown",
+  "pred_v35": "Unknown"
+ }
+]
