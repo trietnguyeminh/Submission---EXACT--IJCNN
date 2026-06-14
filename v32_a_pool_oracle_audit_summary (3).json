@@ -1,0 +1,10 @@
+{
+ "version": "v32_a_pool_oracle_audit",
+ "families": {
+  "B_no_gold_candidate": 21,
+  "D_parse_fail_all": 1,
+  "A_gold_in_pool": 12
+ },
+ "routing": "v32_candidate_generation_refresh (advocate prompts) + verifier rerank",
+ "n_wrong": 34
+}
