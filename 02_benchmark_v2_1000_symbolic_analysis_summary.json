@@ -1,0 +1,20 @@
+{
+  "dataset": "benchmark_v2_1000",
+  "source_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/benchmark_v2_1000.json",
+  "pred_path": null,
+  "mc_analysis": {
+    "n": 500,
+    "candidate_n": 11,
+    "good": 2,
+    "bad": 9,
+    "precision": 0.18181818181818182
+  },
+  "statement_analysis": {
+    "n": 734,
+    "candidate_n": 39,
+    "good": 26,
+    "bad": 13,
+    "precision": 0.6666666666666666
+  },
+  "correction_mode": "ANALYSIS_ONLY"
+}
