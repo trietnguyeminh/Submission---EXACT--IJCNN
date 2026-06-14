@@ -1,0 +1,2102 @@
+[
+  {
+    "sample_id": 0,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 1,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 2,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 3,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 4,
+    "answers": [
+      "No",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 5,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 6,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 7,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 8,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 9,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 10,
+    "answers": [
+      "Unknown",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 11,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 12,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 13,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 14,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 15,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 16,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 17,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 18,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 19,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 20,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 21,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 22,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 23,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 24,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 25,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 26,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 27,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 28,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 29,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 30,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 31,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 32,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 33,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 34,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 35,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 36,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 37,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 38,
+    "answers": [
+      "D",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 39,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 40,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 41,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 42,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 43,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 44,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 45,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 46,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 47,
+    "answers": [
+      "A",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 48,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 49,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 50,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 51,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 52,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 53,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 54,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 55,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 56,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 57,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 58,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 59,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 60,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 61,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 62,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 63,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 64,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 65,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 66,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 67,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 68,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 69,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 70,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 71,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 72,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 73,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 74,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 75,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 76,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 77,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 78,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 79,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 80,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 81,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 82,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 83,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 84,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 85,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 86,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 87,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 88,
+    "answers": [
+      "A",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 89,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 90,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 91,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 92,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 93,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 94,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 95,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 96,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 97,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 98,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 99,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 100,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 101,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 102,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 103,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 104,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 105,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 106,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 107,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 108,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 109,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 110,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 111,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 112,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 113,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 114,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 115,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 116,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 117,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 118,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 119,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 120,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 121,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 122,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 123,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 124,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 125,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 126,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 127,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 128,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 129,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 130,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 131,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 132,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 133,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 134,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 135,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 136,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 137,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 138,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 139,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 140,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 141,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 142,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 143,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 144,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 145,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 146,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 147,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 148,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 149,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 150,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 151,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 152,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 153,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 154,
+    "answers": [
+      "A",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 155,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 156,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 157,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 158,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 159,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 160,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 161,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 162,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 163,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 164,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 165,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 166,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 167,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 168,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 169,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 170,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 171,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 172,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 173,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 174,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 175,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 176,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 177,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 178,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 179,
+    "answers": [
+      "A",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 180,
+    "answers": [
+      "Unknown",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 181,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 182,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 183,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 184,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 185,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 186,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 187,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 188,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 189,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 190,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 191,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 192,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 193,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 194,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 195,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 196,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 197,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 198,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 199,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 200,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 201,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 202,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 203,
+    "answers": [
+      "No",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 204,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 205,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 206,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 207,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 208,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 209,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 210,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 211,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 212,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 213,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 214,
+    "answers": [
+      "Unknown",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 215,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 216,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 217,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 218,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 219,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 220,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 221,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 222,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 223,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 224,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 225,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 226,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 227,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 228,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 229,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 230,
+    "answers": [
+      "No",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 231,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 232,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 233,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 234,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 235,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 236,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 237,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 238,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 239,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 240,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 241,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 242,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 243,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 244,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 245,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 246,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 247,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 248,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 249,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 250,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 251,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 252,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 253,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 254,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 255,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 256,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 257,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 258,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 259,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 260,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 261,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 262,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 263,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 264,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 265,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 266,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 267,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 268,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 269,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 270,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 271,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 272,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 273,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 274,
+    "answers": [
+      "B",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 275,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 276,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 277,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 278,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 279,
+    "answers": [
+      "Yes",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 280,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 281,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 282,
+    "answers": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 283,
+    "answers": [
+      "B",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 284,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 285,
+    "answers": [
+      "B",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 286,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 287,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 288,
+    "answers": [
+      "Unknown",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 289,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 290,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 291,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 292,
+    "answers": [
+      "Yes",
+      "Unknown"
+    ]
+  },
+  {
+    "sample_id": 293,
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 294,
+    "answers": [
+      "C",
+      "No"
+    ]
+  },
+  {
+    "sample_id": 295,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 296,
+    "answers": [
+      "D",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 297,
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 298,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  },
+  {
+    "sample_id": 299,
+    "answers": [
+      "A",
+      "Yes"
+    ]
+  }
+]
