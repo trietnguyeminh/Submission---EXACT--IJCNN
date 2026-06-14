@@ -1,0 +1,142 @@
+# Normalization dictionary for physics retrieval.
+
+notation_aliases:
+  "q'": q_prime
+  "qprime": q_prime
+  "q0": test_charge
+  "qo": test_charge
+  "q_0": test_charge
+  "q₀": test_charge
+  "U": voltage
+  "V": voltage
+  "potential difference": voltage
+  "field intensity": electric_field
+  "field strength": electric_field
+  "electric field strength": electric_field
+  "electromotive force": emf
+  "e.m.f.": emf
+  "emf": emf
+  "reactance Xc": capacitive_reactance
+  "Xc": capacitive_reactance
+  "XL": inductive_reactance
+
+unit_aliases:
+  "C": coulomb
+  "mC": millicoulomb
+  "uC": microcoulomb
+  "μC": microcoulomb
+  "nC": nanocoulomb
+  "F": farad
+  "mF": millifarad
+  "uF": microfarad
+  "μF": microfarad
+  "pF": picofarad
+  "H": henry
+  "mH": millihenry
+  "Ohm": ohm
+  "Ω": ohm
+  "V/m": newton_per_coulomb
+  "N/C": newton_per_coulomb
+  "Wb": weber
+  "T": tesla
+
+phrase_to_topic:
+  "force acting on": electrostatics.coulomb_force
+  "net electric force": electrostatics.coulomb_force
+  "electric field at": electrostatics.electric_field
+  "electric field strength": electrostatics.electric_field
+  "charged under": capacitor.basic
+  "energy stored in capacitor": capacitor.energy
+  "dielectric constant": capacitor.dielectric
+  "oscillating LC circuit": ac_lc_rlc.lc_oscillation
+  "RLC series circuit": ac_lc_rlc.rlc
+  "resonance occurs": ac_lc_rlc.resonance_check
+  "magnetic field inside solenoid": magnetism_induction.solenoid
+  "magnetic flux": magnetism_induction.flux
+  "induced emf": magnetism_induction.faraday
+  "relative error": measurement_error.relative
+  "absolute error": measurement_error.absolute
+  "parallel circuit": dc_circuit.parallel
+
+phrase_to_geometry:
+  "equilateral triangle": geometry_equilateral_triangle
+  "regular triangle": geometry_equilateral_triangle
+  "right-angled": geometry_right_triangle_from_sides
+  "right triangle": geometry_right_triangle_from_sides
+  "straight line": geometry_collinear_two_sources_target
+  "collinear": geometry_collinear_two_sources_target
+  "midpoint": geometry_midpoint_ab
+  "middle point": geometry_midpoint_ab
+  "perpendicular bisector": geometry_perpendicular_bisector
+  "remaining vertex": geometry_equilateral_triangle
+  "center O": geometry_center_of_equilateral
+  "square ABCD": geometry_square_vertices
+
+target_quantity_phrases:
+  force:
+    - "force acting on"
+    - "net force"
+    - "resultant force"
+    - "electric force"
+  electric_field:
+    - "electric field"
+    - "field strength"
+    - "field intensity"
+  capacitance:
+    - "capacitance"
+    - "capacitance C"
+  charge:
+    - "find q"
+    - "determine q"
+    - "charge q"
+  voltage:
+    - "voltage"
+    - "potential difference"
+  energy:
+    - "energy"
+    - "stored energy"
+  frequency:
+    - "frequency"
+    - "period"
+    - "angular frequency"
+  reactance:
+    - "reactance"
+    - "Xc"
+    - "XL"
+  magnetic_field:
+    - "magnetic field"
+    - "magnetic induction"
+  error:
+    - "error"
+    - "uncertainty"
+
+unit_conversion_factors_to_si:
+  cm: 0.01
+  mm: 0.001
+  km: 1000
+  "cm^2": 0.0001
+  mC: 0.001
+  uC: 0.000001
+  microC: 0.000001
+  nC: 0.000000001
+  pC: 0.000000000001
+  mF: 0.001
+  uF: 0.000001
+  microF: 0.000001
+  nF: 0.000000001
+  pF: 0.000000000001
+  mH: 0.001
+  kOhm: 1000
+  ms: 0.001
+  us: 0.000001
+  mJ: 0.001
+  uJ: 0.000001
+  nJ: 0.000000001
+
+answer_format_rules:
+  answer_must_be_short: true
+  answer_should_include_unit: true
+  explanation_contains_reasoning: true
+  cot_steps_should_be_numbered: true
+  cot_step_prefix: "Step "
+
