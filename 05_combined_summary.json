@@ -1,0 +1,91 @@
+{
+  "smoke_gate": {
+    "dataset": "generated_v4style_300",
+    "n": 50,
+    "old_comparable": 50,
+    "old_correct": 31,
+    "new_correct": 36,
+    "allowed_drop": 3,
+    "pass": true,
+    "new_metrics": {
+      "n": 50,
+      "correct": 36,
+      "acc": 0.72,
+      "micro_f1": 0.72,
+      "macro7": 0.7105718355718356,
+      "weighted_f1": 0.7138247863247864,
+      "mc_macro": 0.7307692307692307,
+      "ynu_macro": 0.6836419753086419,
+      "per_label": {
+        "A": {
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923,
+          "support": 6,
+          "pred_count": 7
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 6,
+          "pred_count": 6
+        },
+        "C": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "pred_count": 1
+        },
+        "D": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "pred_count": 0
+        },
+        "Yes": {
+          "precision": 0.5333333333333333,
+          "recall": 0.6666666666666666,
+          "f1": 0.5925925925925926,
+          "support": 12,
+          "pred_count": 15
+        },
+        "No": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333,
+          "support": 5,
+          "pred_count": 7
+        },
+        "Unknown": {
+          "precision": 0.7692307692307693,
+          "recall": 0.5263157894736842,
+          "f1": 0.625,
+          "support": 19,
+          "pred_count": 13
+        }
+      },
+      "pred_distribution": {
+        "Unknown": 13,
+        "Yes": 15,
+        "No": 7,
+        "B": 6,
+        "A": 7,
+        "UNPARSEABLE": 1,
+        "C": 1
+      },
+      "gold_distribution": {
+        "Unknown": 19,
+        "Yes": 12,
+        "No": 5,
+        "B": 6,
+        "A": 6,
+        "C": 1,
+        "D": 1
+      }
+    }
+  },
+  "datasets": {}
+}
