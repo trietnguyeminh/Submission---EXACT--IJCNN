@@ -1,0 +1,442 @@
+{
+ "version": "rebuild_from_scratch_v35",
+ "dataset": "generated_v4style_300",
+ "input_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json",
+ "n": 600,
+ "n_mc": 150,
+ "n_ynu": 450,
+ "metrics_raw": {
+  "n": 600,
+  "correct": 366,
+  "acc": 0.61,
+  "micro_f1": 0.61,
+  "macro7": 0.5734564536413621,
+  "weighted_f1": 0.5875702035594739,
+  "mc_macro": 0.5451039570757881,
+  "ynu_macro": 0.6112597823954607,
+  "per_label": {
+   "A": {
+    "precision": 0.5434782608695652,
+    "recall": 1.0,
+    "f1": 0.704225352112676,
+    "support": 50,
+    "pred_count": 92
+   },
+   "B": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "support": 50,
+    "pred_count": 25
+   },
+   "C": {
+    "precision": 1.0,
+    "recall": 0.68,
+    "f1": 0.8095238095238095,
+    "support": 25,
+    "pred_count": 17
+   },
+   "D": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 25,
+    "pred_count": 16
+   },
+   "Yes": {
+    "precision": 0.5921052631578947,
+    "recall": 0.7941176470588235,
+    "f1": 0.678391959798995,
+    "support": 170,
+    "pred_count": 228
+   },
+   "No": {
+    "precision": 0.6620689655172414,
+    "recall": 0.9142857142857143,
+    "f1": 0.768,
+    "support": 105,
+    "pred_count": 145
+   },
+   "Unknown": {
+    "precision": 0.9148936170212766,
+    "recall": 0.24571428571428572,
+    "f1": 0.38738738738738737,
+    "support": 175,
+    "pred_count": 47
+   }
+  },
+  "pred_distribution": {
+   "Unknown": 47,
+   "Yes": 228,
+   "B": 25,
+   "No": 145,
+   "A": 92,
+   "D": 16,
+   "UNPARSEABLE": 30,
+   "C": 17
+  },
+  "gold_distribution": {
+   "Unknown": 175,
+   "Yes": 170,
+   "No": 105,
+   "B": 50,
+   "A": 50,
+   "C": 25,
+   "D": 25
+  }
+ },
+ "metrics_parsefix": {
+  "n": 600,
+  "correct": 366,
+  "acc": 0.61,
+  "micro_f1": 0.61,
+  "macro7": 0.5734564536413621,
+  "weighted_f1": 0.5875702035594739,
+  "mc_macro": 0.5451039570757881,
+  "ynu_macro": 0.6112597823954607,
+  "per_label": {
+   "A": {
+    "precision": 0.5434782608695652,
+    "recall": 1.0,
+    "f1": 0.704225352112676,
+    "support": 50,
+    "pred_count": 92
+   },
+   "B": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "support": 50,
+    "pred_count": 25
+   },
+   "C": {
+    "precision": 1.0,
+    "recall": 0.68,
+    "f1": 0.8095238095238095,
+    "support": 25,
+    "pred_count": 17
+   },
+   "D": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 25,
+    "pred_count": 16
+   },
+   "Yes": {
+    "precision": 0.5921052631578947,
+    "recall": 0.7941176470588235,
+    "f1": 0.678391959798995,
+    "support": 170,
+    "pred_count": 228
+   },
+   "No": {
+    "precision": 0.6620689655172414,
+    "recall": 0.9142857142857143,
+    "f1": 0.768,
+    "support": 105,
+    "pred_count": 145
+   },
+   "Unknown": {
+    "precision": 0.9148936170212766,
+    "recall": 0.24571428571428572,
+    "f1": 0.38738738738738737,
+    "support": 175,
+    "pred_count": 47
+   }
+  },
+  "pred_distribution": {
+   "Unknown": 47,
+   "Yes": 228,
+   "B": 25,
+   "No": 145,
+   "A": 92,
+   "D": 16,
+   "UNPARSEABLE": 30,
+   "C": 17
+  },
+  "gold_distribution": {
+   "Unknown": 175,
+   "Yes": 170,
+   "No": 105,
+   "B": 50,
+   "A": 50,
+   "C": 25,
+   "D": 25
+  }
+ },
+ "metrics_v35": {
+  "n": 600,
+  "correct": 374,
+  "acc": 0.6233333333333333,
+  "micro_f1": 0.6233333333333333,
+  "macro7": 0.5808992477975626,
+  "weighted_f1": 0.598207851378164,
+  "mc_macro": 0.5451039570757881,
+  "ynu_macro": 0.6286263020932622,
+  "per_label": {
+   "A": {
+    "precision": 0.5434782608695652,
+    "recall": 1.0,
+    "f1": 0.704225352112676,
+    "support": 50,
+    "pred_count": 92
+   },
+   "B": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "support": 50,
+    "pred_count": 25
+   },
+   "C": {
+    "precision": 1.0,
+    "recall": 0.68,
+    "f1": 0.8095238095238095,
+    "support": 25,
+    "pred_count": 17
+   },
+   "D": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 25,
+    "pred_count": 16
+   },
+   "Yes": {
+    "precision": 0.6108597285067874,
+    "recall": 0.7941176470588235,
+    "f1": 0.6905370843989771,
+    "support": 170,
+    "pred_count": 221
+   },
+   "No": {
+    "precision": 0.6797385620915033,
+    "recall": 0.9904761904761905,
+    "f1": 0.8062015503875969,
+    "support": 105,
+    "pred_count": 153
+   },
+   "Unknown": {
+    "precision": 0.9347826086956522,
+    "recall": 0.24571428571428572,
+    "f1": 0.3891402714932127,
+    "support": 175,
+    "pred_count": 46
+   }
+  },
+  "pred_distribution": {
+   "Unknown": 46,
+   "Yes": 221,
+   "No": 153,
+   "B": 25,
+   "A": 92,
+   "D": 16,
+   "UNPARSEABLE": 30,
+   "C": 17
+  },
+  "gold_distribution": {
+   "Unknown": 175,
+   "Yes": 170,
+   "No": 105,
+   "B": 50,
+   "A": 50,
+   "C": 25,
+   "D": 25
+  }
+ },
+ "v35_flips": [
+  {
+   "flat_id": "generated_v4style_300:1:1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "question": "Does at least one student improves technique?",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "target_words": [
+     "improves",
+     "technique"
+    ],
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "pos_proof_path": "∀x RegistersForExam(x) + ∀x (RegistersForExam(x) → TakesPracticeTest(x)) + ∀x (TakesPracticeTest(x) → ReviewsMistakes(x)) + ∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "generated_v4style_300:14:1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "question": "Does at least one trainee earns a certificate?",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EarnsCertificate",
+    "target_score": 1.0,
+    "target_words": [
+     "certificate",
+     "earns"
+    ],
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EarnsCertificate(x) → JoinsProfessionalBody(x))",
+    "pos_proof_path": "∀x AttendsSeminar(x) + ∀x (AttendsSeminar(x) → CompletesWorkshop(x)) + ∀x (CompletesWorkshop(x) → SubmitsPortfolio(x)) + ∀x (SubmitsPortfolio(x) → EarnsCertificate(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "generated_v4style_300:36:1",
+   "old": "Unknown",
+   "new": "No",
+   "gold": "No",
+   "question": "Does at least one researcher data?",
+   "certificate": {
+    "qtype": "existential",
+    "target": "AnalyzesData",
+    "target_score": 0.5,
+    "target_words": [
+     "analyzes",
+     "data"
+    ],
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (AnalyzesData(x) → PresentsAtConference(x))",
+    "pos_proof_path": "∀x WritesProposal(x) + ∀x (WritesProposal(x) → ReceivesGrant(x)) + ∀x (ReceivesGrant(x) → ConductsExperiment(x)) + ∀x (ConductsExperiment(x) → AnalyzesData(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "generated_v4style_300:71:1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "question": "Does at least one researcher collects data?",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CollectsData",
+    "target_score": 1.0,
+    "target_words": [
+     "collects",
+     "data"
+    ],
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (CollectsData(x) → PublishesPaper(x))",
+    "pos_proof_path": "∀x ReadsLiterature(x) + ∀x (ReadsLiterature(x) → IdentifiesGap(x)) + ∀x (IdentifiesGap(x) → DesignsStudy(x)) + ∀x (DesignsStudy(x) → CollectsData(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "generated_v4style_300:127:1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "question": "Does at least one employee is eligible for promotion?",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EligibleForPromotion",
+    "target_score": 1.0,
+    "target_words": [
+     "eligible",
+     "for",
+     "promotion"
+    ],
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EligibleForPromotion(x) → LeadsProject(x))",
+    "pos_proof_path": "∀x CompletesOnboarding(x) + ∀x (CompletesOnboarding(x) → PassesProbation(x)) + ∀x (PassesProbation(x) → ReceivesFullBenefits(x)) + ∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "generated_v4style_300:224:1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "question": "Does at least one student group grade?",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ReceivesGroupGrade",
+    "target_score": 0.6666666666666666,
+    "target_words": [
+     "grade",
+     "group",
+     "receives"
+    ],
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ReceivesGroupGrade(x) → FulfilsTeamworkRequirement(x))",
+    "pos_proof_path": "∀x JoinsStudyGroup(x) + ∀x (JoinsStudyGroup(x) → ParticipatesInDiscussion(x)) + ∀x (ParticipatesInDiscussion(x) → CompletesGroupProject(x)) + ∀x (CompletesGroupProject(x) → ReceivesGroupGrade(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "generated_v4style_300:263:1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "question": "Does at least one student improves technique?",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "target_score": 1.0,
+    "target_words": [
+     "improves",
+     "technique"
+    ],
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (ImprovesTechnique(x) → ScoresAboveThreshold(x))",
+    "pos_proof_path": "∀x RegistersForExam(x) + ∀x (RegistersForExam(x) → TakesPracticeTest(x)) + ∀x (TakesPracticeTest(x) → ReviewsMistakes(x)) + ∀x (ReviewsMistakes(x) → ImprovesTechnique(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "generated_v4style_300:276:1",
+   "old": "Yes",
+   "new": "No",
+   "gold": "No",
+   "question": "Does at least one employee is eligible for promotion?",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EligibleForPromotion",
+    "target_score": 1.0,
+    "target_words": [
+     "eligible",
+     "for",
+     "promotion"
+    ],
+    "neg_proof_universal": true,
+    "pos_proof_universal": true,
+    "neg_proof_path": "CONTRAPOSITIVE_OF: ∀x (EligibleForPromotion(x) → LeadsProject(x))",
+    "pos_proof_path": "∀x CompletesOnboarding(x) + ∀x (CompletesOnboarding(x) → PassesProbation(x)) + ∀x (PassesProbation(x) → ReceivesFullBenefits(x)) + ∀x (ReceivesFullBenefits(x) → EligibleForPromotion(x))",
+    "rule": "E1 forall-neg entails not-exists"
+   },
+   "posthoc": "GOOD_FLIP"
+  }
+ ],
+ "n_v35_flips": 8,
+ "posthoc_good": 8,
+ "posthoc_bad": 0,
+ "latency": {
+  "total_sec": 7627.148582935333,
+  "mean_sec": 12.711914304892222
+ },
+ "invalid_counts": {
+  "raw": 30,
+  "parsefix": 30,
+  "v35": 30
+ },
+ "output_pred_file": "rebuild_generated_v4style_300_preds.json"
+}
