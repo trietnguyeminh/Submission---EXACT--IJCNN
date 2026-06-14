@@ -1,0 +1,55 @@
+WARNING 06-13 21:33:19 [config.py:70] Support for Transformers v4 is deprecated. The Transformers v4 codepath will become unmaintained in vLLM v0.22.0 and will be removed in vLLM v0.24.0. Please upgrade to Transformers v5: pip install --upgrade transformers
+(APIServer pid=266) INFO 06-13 21:33:21 [utils.py:344] 
+(APIServer pid=266) INFO 06-13 21:33:21 [utils.py:344]        █     █     █▄   ▄█
+(APIServer pid=266) INFO 06-13 21:33:21 [utils.py:344]  ▄▄ ▄█ █     █     █ ▀▄▀ █  version 0.22.1
+(APIServer pid=266) INFO 06-13 21:33:21 [utils.py:344]   █▄█▀ █     █     █     █  model   /kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1
+(APIServer pid=266) INFO 06-13 21:33:21 [utils.py:344]    ▀▀  ▀▀▀▀▀ ▀▀▀▀▀ ▀     ▀
+(APIServer pid=266) INFO 06-13 21:33:21 [utils.py:344] 
+(APIServer pid=266) INFO 06-13 21:33:21 [utils.py:278] non-default args: {'lora_modules': [LoRAModulePath(name='qwen3-8b-exact-type1', path='/kaggle/input/datasets/nguyenminhtric/exact-test/DATASET_DATA_TYPE_1', base_model_name=None, is_3d_lora_weight=False)], 'host': '127.0.0.1', 'port': 8001, 'model': '/kaggle/input/models/qwen-lm/qwen-3/transformers/8b/1', 'dtype': 'half', 'max_model_len': 4096, 'enforce_eager': True, 'served_model_name': ['qwen3-8b-base'], 'generation_config': 'vllm', 'attention_backend': 'TRITON_ATTN', 'tensor_parallel_size': 2, 'disable_custom_all_reduce': True, 'gpu_memory_utilization': 0.85, 'enable_prefix_caching': False, 'enable_lora': True, 'max_num_batched_tokens': 512, 'max_num_seqs': 1, 'enable_chunked_prefill': False}
+(APIServer pid=266) INFO 06-13 21:33:36 [model.py:617] Resolved architecture: Qwen3ForCausalLM
+(APIServer pid=266) WARNING 06-13 21:33:36 [model.py:2090] Casting torch.bfloat16 to torch.float16.
+(APIServer pid=266) INFO 06-13 21:33:36 [model.py:1752] Using max model len 4096
+(APIServer pid=266) WARNING 06-13 21:33:36 [arg_utils.py:2383] This model does not officially support disabling chunked prefill. Disabling this manually may cause the engine to crash or produce incorrect outputs.
+(APIServer pid=266) Traceback (most recent call last):
+(APIServer pid=266)   File "<frozen runpy>", line 198, in _run_module_as_main
+(APIServer pid=266)   File "<frozen runpy>", line 88, in _run_code
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py", line 718, in <module>
+(APIServer pid=266)     uvloop.run(run_server(args))
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/uvloop/__init__.py", line 96, in run
+(APIServer pid=266)     return __asyncio.run(
+(APIServer pid=266)            ^^^^^^^^^^^^^^
+(APIServer pid=266)   File "/usr/lib/python3.12/asyncio/runners.py", line 195, in run
+(APIServer pid=266)     return runner.run(main)
+(APIServer pid=266)            ^^^^^^^^^^^^^^^^
+(APIServer pid=266)   File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+(APIServer pid=266)     return self._loop.run_until_complete(task)
+(APIServer pid=266)            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=266)   File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/uvloop/__init__.py", line 48, in wrapper
+(APIServer pid=266)     return await main
+(APIServer pid=266)            ^^^^^^^^^^
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py", line 678, in run_server
+(APIServer pid=266)     await run_server_worker(listen_address, sock, args, **uvicorn_kwargs)
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py", line 692, in run_server_worker
+(APIServer pid=266)     async with build_async_engine_client(
+(APIServer pid=266)                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=266)   File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+(APIServer pid=266)     return await anext(self.gen)
+(APIServer pid=266)            ^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py", line 100, in build_async_engine_client
+(APIServer pid=266)     async with build_async_engine_client_from_engine_args(
+(APIServer pid=266)                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=266)   File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+(APIServer pid=266)     return await anext(self.gen)
+(APIServer pid=266)            ^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py", line 124, in build_async_engine_client_from_engine_args
+(APIServer pid=266)     vllm_config = engine_args.create_engine_config(usage_context=usage_context)
+(APIServer pid=266)                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/vllm/engine/arg_utils.py", line 2028, in create_engine_config
+(APIServer pid=266)     scheduler_config = SchedulerConfig(
+(APIServer pid=266)                        ^^^^^^^^^^^^^^^^
+(APIServer pid=266)   File "/usr/local/lib/python3.12/dist-packages/pydantic/_internal/_dataclasses.py", line 121, in __init__
+(APIServer pid=266)     s.__pydantic_validator__.validate_python(ArgsKwargs(args, kwargs), self_instance=s)
+(APIServer pid=266) pydantic_core._pydantic_core.ValidationError: 1 validation error for SchedulerConfig
+(APIServer pid=266)   Value error, max_num_batched_tokens (512) is smaller than max_model_len (4096). This effectively limits the maximum sequence length to max_num_batched_tokens and makes vLLM reject longer sequences. Please increase max_num_batched_tokens or decrease max_model_len. [type=value_error, input_value=ArgsKwargs((), {'runner_t..., 'stream_interval': 1}), input_type=ArgsKwargs]
+(APIServer pid=266)     For further information visit https://errors.pydantic.dev/2.12/v/value_error
