@@ -1,0 +1,1017 @@
+{
+ "version": "full_model_eval_v3_2_typed_conflict_guard",
+ "bug_note": "v3 notebook shipped the wide prove_no by mistake; v3.2 is the pre-measured typed rule",
+ "acc": {
+  "v2": 0.7933333333333333,
+  "parsefix": 0.8133333333333334,
+  "v32": 0.8183333333333334
+ },
+ "macro7": {
+  "v2": 0.7590857142857143,
+  "parsefix": 0.7875,
+  "v32": 0.7912857142857143
+ },
+ "n_flips": 3,
+ "audit": [
+  {
+   "flat_id": "test_1_0",
+   "q": "Do all students reviews mistakes?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_1_1",
+   "q": "Does at least one student improves technique?",
+   "gold": "No",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_14_0",
+   "q": "Do all trainees submits a portfolio?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_14_1",
+   "q": "Does at least one trainee earns a certificate?",
+   "gold": "No",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EarnsCertificate",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_32_0",
+   "q": "Do all trainees submits a portfolio?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsPortfolio",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_32_1",
+   "q": "Does at least one trainee earns a certificate?",
+   "gold": "No",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EarnsCertificate",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_36_0",
+   "q": "Do all researchers conducts experiments?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_40_0",
+   "q": "Do all developers code review?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCodeReview",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_45_0",
+   "q": "Do all students lab component?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_56_0",
+   "q": "Do all mentors provides feedback?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_64_0",
+   "q": "Do all students earns course credit?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_65_0",
+   "q": "Do all developers code review?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesCodeReview",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_71_0",
+   "q": "Do all researchers designs a study?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_71_1",
+   "q": "Does at least one researcher collects data?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CollectsData",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_77_0",
+   "q": "Do all students submits all assignments?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_77_1",
+   "q": "Does at least one student achieves a high GPA?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "AchievesHighGPA",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_79_0",
+   "q": "Do all researchers designs a study?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "DesignsStudy",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_99_0",
+   "q": "Do all participants finishes all modules?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_99_1",
+   "q": "Does at least one participant certification exam?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "PassesCertificationExam",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_100_0",
+   "q": "Do all analysts builds a model?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "BuildsModel",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_103_0",
+   "q": "Do all volunteers assists with activities?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_103_1",
+   "q": "Does at least one volunteer logs service hours?",
+   "gold": "No",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_108_0",
+   "q": "Do all mentors provides feedback?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_117_0",
+   "q": "Do all volunteers assists with activities?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_117_1",
+   "q": "Does at least one volunteer logs service hours?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_127_0",
+   "q": "Do all employees receives full benefits?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_127_1",
+   "q": "Does at least one employee is eligible for promotion?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EligibleForPromotion",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_136_0",
+   "q": "Do all volunteers assists with activities?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "AssistsWithActivities",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_136_1",
+   "q": "Does at least one volunteer logs service hours?",
+   "gold": "No",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "LogsServiceHours",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_159_0",
+   "q": "Do all participants finishes all modules?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "FinishesAllModules",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_159_1",
+   "q": "Does at least one participant certification exam?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "PassesCertificationExam",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_166_0",
+   "q": "Do all researchers conducts experiments?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_168_0",
+   "q": "Do all students reviews mistakes?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_168_1",
+   "q": "Does at least one student improves technique?",
+   "gold": "No",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_178_0",
+   "q": "Do all librarians notifies patrons?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "NotifiesPatrons",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_184_0",
+   "q": "Do all researchers conducts experiments?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ConductsExperiment",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_187_0",
+   "q": "Do all students earns course credit?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "EarnsCredit",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_198_0",
+   "q": "Does at least one librarian catalogs new books?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CatalogsNewBooks",
+    "neg_proof": true,
+    "pos_conflict_u": false,
+    "pos_conflict_e": false
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_200_0",
+   "q": "Do all students lab component?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_211_0",
+   "q": "Do all students submits all assignments?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "SubmitsAllAssignments",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_211_1",
+   "q": "Does at least one student achieves a high GPA?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "AchievesHighGPA",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_224_0",
+   "q": "Do all students group project?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesGroupProject",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_224_1",
+   "q": "Does at least one student group grade?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ReceivesGroupGrade",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_225_0",
+   "q": "Do all employees receives security clearance?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesClearance",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_226_0",
+   "q": "Do all students lab component?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "PassesLabComponent",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_233_0",
+   "q": "Does at least one student studies regularly?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "StudiesRegularly",
+    "neg_proof": true,
+    "pos_conflict_u": false,
+    "pos_conflict_e": false
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_242_0",
+   "q": "Do all students group project?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "CompletesGroupProject",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_242_1",
+   "q": "Does at least one student group grade?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ReceivesGroupGrade",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_250_0",
+   "q": "Do all interns receives mentor feedback?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_250_1",
+   "q": "Does at least one intern internship report?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "WritesInternshipReport",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_253_0",
+   "q": "Do all mentors provides feedback?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ProvidesFeedback",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_263_0",
+   "q": "Do all students reviews mistakes?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReviewsMistakes",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_263_1",
+   "q": "Does at least one student improves technique?",
+   "gold": "No",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "ImprovesTechnique",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_264_0",
+   "q": "Do all interns receives mentor feedback?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesMentorFeedback",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_276_0",
+   "q": "Do all employees receives full benefits?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesFullBenefits",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_276_1",
+   "q": "Does at least one employee is eligible for promotion?",
+   "gold": "No",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "existential",
+    "target": "EligibleForPromotion",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (existential)"
+   },
+   "posthoc": "MISSED_NO"
+  },
+  {
+   "flat_id": "test_278_0",
+   "q": "Does at least one student lab work?",
+   "gold": "No",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "PROVE_NO",
+   "certificate": {
+    "qtype": "existential",
+    "target": "CompletesLabWork",
+    "neg_proof": true,
+    "pos_conflict_u": false,
+    "pos_conflict_e": false
+   },
+   "posthoc": "GOOD_FLIP"
+  },
+  {
+   "flat_id": "test_279_0",
+   "q": "Do all analysts builds a model?",
+   "gold": "Yes",
+   "pred_parsefix": "Yes",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "BuildsModel",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  },
+  {
+   "flat_id": "test_284_0",
+   "q": "Do all employees receives security clearance?",
+   "gold": "Yes",
+   "pred_parsefix": "Unknown",
+   "wide_triggered": true,
+   "v32_verdict": "ABSTAIN",
+   "certificate": {
+    "qtype": "universal",
+    "target": "ReceivesClearance",
+    "neg_proof": true,
+    "pos_conflict_u": true,
+    "pos_conflict_e": true,
+    "reason": "POSITIVE-PROOF CONFLICT (universal)"
+   },
+   "posthoc": "CORRECTLY_BLOCKED"
+  }
+ ]
+}
