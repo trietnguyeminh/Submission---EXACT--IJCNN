@@ -1,0 +1,20 @@
+{
+  "dataset": "generated_v4style_300",
+  "source_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/generated_v4style_300.json",
+  "pred_path": "/kaggle/input/datasets/yixuanisthebest/v2333333/full_model_eval_v3_2_preds.json",
+  "mc_analysis": {
+    "n": 150,
+    "candidate_n": 83,
+    "good": 45,
+    "bad": 38,
+    "precision": 0.5421686746987951
+  },
+  "statement_analysis": {
+    "n": 0,
+    "candidate_n": 0,
+    "good": 0,
+    "bad": 0,
+    "precision": null
+  },
+  "correction_mode": "ANALYSIS_ONLY"
+}
