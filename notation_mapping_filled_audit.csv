@@ -1,0 +1,75 @@
+canonical_latex,meaning,your_notation,evidence_note
+\times,multiplication,*; x; ×,evidence: literal/system occurrence
+\cdot,dot multiplication,*; ·,evidence: literal/system occurrence
+\div,division,/,evidence: literal/system occurrence
+/,fraction slash,/,evidence: literal/system occurrence
+\frac{a}{b},fraction,a/b; /,evidence: literal/system occurrence
++,addition,+,evidence: literal/system occurrence
+-,subtraction / minus,-,evidence: literal/system occurrence
+\pm,plus-minus,+/-; ±,evidence: literal/system occurrence
+\mp,minus-plus,-/+; ∓,evidence: literal/system occurrence
+=,equals,=,evidence: literal/system occurrence
+\approx,approximately equal,approx; ~; ≈,evidence: literal/system occurrence
+\neq,not equal,!=; ≠,evidence: literal/system occurrence
+<,less than,<,evidence: literal/system occurrence
+>,greater than,>,evidence: literal/system occurrence
+\leq,less than or equal,<=; ≤,evidence: literal/system occurrence
+\geq,greater than or equal,>=; ≥,evidence: literal/system occurrence
+\propto,proportional to,proportional; propto; ∝,evidence: literal/system occurrence
+\infty,infinity,inf; infinity; ∞,evidence: literal/system occurrence
+a^b,power / superscript,**; ^,evidence: literal/system occurrence
+a_b,subscript,_; subscript,evidence: literal/system occurrence
+\sqrt{},square root,sqrt; sqrt(),evidence: literal/system occurrence
+\sqrt[n]{},nth root,nth_root; root,evidence: literal/system occurrence
+\times 10^{n},scientific notation,e; E; *10^,evidence: literal/system occurrence
+\alpha,alpha,alpha,evidence: literal/system occurrence
+\beta,beta,beta,evidence: literal/system occurrence
+\gamma,gamma,gamma,evidence: literal/system occurrence
+\delta,delta (lowercase),delta,evidence: literal/system occurrence
+\Delta,Delta (change in),delta; Delta; d,evidence: literal/system occurrence
+\epsilon,epsilon / permittivity,epsilon; eps,evidence: literal/system occurrence
+\varepsilon,var-epsilon,epsilon; eps,evidence: literal/system occurrence
+\theta,theta,theta,evidence: literal/system occurrence
+\lambda,lambda / linear charge density,lambda; wavelength,evidence: literal/system occurrence
+\mu,mu / micro prefix / permeability,mu; micro; u,evidence: literal/system occurrence
+\pi,pi,pi; math.pi,evidence: literal/system occurrence
+\rho,rho / resistivity / volume charge density,rho; density,evidence: literal/system occurrence
+\sigma,sigma / conductivity / surface charge density,sigma,evidence: literal/system occurrence
+\tau,tau / time constant,tau,evidence: literal/system occurrence
+\phi,phi / potential / flux,phi,evidence: literal/system occurrence
+\varphi,var-phi,phi,evidence: literal/system occurrence
+\Phi,Phi / flux,Phi; flux,evidence: literal/system occurrence
+\omega,omega / angular frequency,omega; angular_frequency,evidence: literal/system occurrence
+\Omega,Omega / ohm,ohm; Ω,evidence: literal/system occurrence
+\int,integral,integral; integrate,evidence: literal/system occurrence
+\sum,summation,sum; summation,evidence: literal/system occurrence
+\partial,partial derivative,partial,evidence: literal/system occurrence
+\nabla,nabla / del,nabla; gradient,evidence: literal/system occurrence
+\vec{},vector,vector; vec,evidence: literal/system occurrence
+\hat{},unit vector,hat; unit_vector,evidence: literal/system occurrence
+\degree,degree,degree; deg; °,evidence: literal/system occurrence
+\%,percent,%; percent,evidence: literal/system occurrence
+\angle,angle,angle,evidence: literal/system occurrence
+V,volt,V; U,evidence: voltage/volt or U/R found
+A,ampere,A; I,evidence: current/I or ampere found
+ohm,ohm (unit),ohm; R,evidence: ohm/R/resistance found
+W,watt,W; P,evidence: power/P found
+J,joule,J; joule; energy,evidence: literal/system occurrence
+C,coulomb,C; q,evidence: coulomb/charge/q found
+F,farad,F; C_cap,evidence: capacitance/farad found
+H,henry,H; henry; inductance,evidence: literal/system occurrence
+T,tesla,T; tesla,evidence: literal/system occurrence
+Wb,weber,Wb; weber,evidence: literal/system occurrence
+N,newton,N; F,evidence: force/F/newton found
+V/m,volt per meter (electric field),V/m; E,evidence: electric field/E found
+N/C,newton per coulomb,N/C; E,evidence: electric field/E found
+Hz,hertz,Hz; f,evidence: frequency/f found
+s,second,s; t,evidence: time/t found
+m,meter,m; r,evidence: distance/length/r found
+eV,electron volt,eV; electronvolt,evidence: literal/system occurrence
+p,pico (prefix),p; pico,evidence: literal/system occurrence
+n,nano (prefix),n; nano,evidence: literal/system occurrence
+u,micro (prefix; ASCII for mu),u; micro; µ,evidence: literal/system occurrence
+k,kilo (prefix),k; kilo,evidence: literal/system occurrence
+M,mega (prefix),M; mega,evidence: literal/system occurrence
+G,giga (prefix),G; giga,evidence: literal/system occurrence
