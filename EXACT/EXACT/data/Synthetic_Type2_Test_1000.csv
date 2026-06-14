@@ -1,0 +1,1001 @@
+id,question,cot,answer,unit
+THCB9157,A resistor of 55 ohm is connected to a 12 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.21818,A
+LD9087,A particle carrying charge 5 uC is placed in a uniform electric field of 35 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.175,N
+DDT9129,"A long solenoid has 2000 turns, length 100 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,1.2566 x 10^-3,T
+THCB9075,A resistor of 6 ohm is connected to a 36 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,6,A
+THCB9047,A current of 3 A flows through a 33 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,297,W
+LD9116,Two positive charges q1 = 9 uC and q2 = 18 uC are separated by 30 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,12.42641,cm
+CH9036,"A current of 0.8 A flows through a series R-C section with R = 120 ohm, C = 80 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",97.31034,V
+TD9196,Capacitors of 4 uF and 8 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",12,uF
+CH9007,What capacitance in uF is required for resonance at 200 Hz with an inductor L = 10 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",63.32574,uF
+DDT9136,Current in a 200 mH coil changes from 1 A to 1.8 A in 2 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,80,V
+TD9111,Two capacitors C1 = 6 uF and C2 = 5 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",2.72727,uF
+TD9114,"A parallel-plate capacitor has plate area 120 cm^2 in air. If breakdown field is 5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,5.3124 x 10^-7,C
+TD9221,Two capacitors C1 = 8 uF and C2 = 50 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",6.89655,uF
+TD9059,A capacitor C = 10 uF remains connected to a 48 V source while a dielectric k = 5 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",2.4 x 10^-3,C
+TD9211,Two capacitors C1 = 3 uF and C2 = 9 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",2.25,uF
+TD9139,"A parallel-plate capacitor has plate area 80 cm^2 in air. If breakdown field is 2 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,1.4166 x 10^-7,C
+NL9082,An LC circuit stores maximum electric energy 0.2 mJ in a capacitor of 0.5 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",28.28427,V
+DDT9055,A flat coil area is 120 cm^2 in a uniform magnetic field 0.08 T. The normal makes 60 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,4.8 x 10^-4,Wb
+LD9213,Two positive charges q1 = 4 uC and q2 = 3 uC are separated by 12 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,6.43078,cm
+LD9052,A particle carrying charge 2 uC is placed in a uniform electric field of 8 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.016,N
+DDT9138,A flat coil area is 80 cm^2 in a uniform magnetic field 0.2 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,1.6 x 10^-3,Wb
+CH9096,"In a series RLC circuit R = 18 ohm, L = 50 mH, C = 4.7 uF at f = 50 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.0272,-
+NL9071,"For an LC oscillator with inductance 60 mH and capacitance 0.47 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,947.75389,Hz
+CH9077,"A current of 0.8 A flows through a series R-C section with R = 50 ohm, C = 10 uF at 500 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",47.41788,V
+TD9159,A capacitor of capacitance 9 uF carries charge 48 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,5.33333,V
+DDT9020,"A solenoid has 1200 turns, length 60 cm, and cross-sectional area 25 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,7.5398 x 10^-3,H
+LD9044,What is the electric field magnitude at a point 4 cm from a charge Q = 6.8 uC in air?,point_field: Use E = k |Q|/r^2.,3.8207 x 10^7,N/C
+TD9032,"A parallel-plate capacitor has plate area 20 cm^2 in air. If breakdown field is 2 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,3.5416 x 10^-8,C
+NL9043,"For an LC oscillator with inductance 5 mH and capacitance 10 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,711.76254,Hz
+LD9048,"At point M, charge q1 = 2.5 uC is 5 cm away along the x direction and charge q2 = 1.2 uC is 15 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",9.0028 x 10^6,N/C
+THCB9071,A resistor of 40 ohm is connected to a 24 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.6,A
+CH9049,"A series RLC circuit has R = 10 ohm, L = 60 mH, C = 6.8 uF and is driven by 24 V at 800 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.08807,A
+TD9078,Capacitors of 2.5 uF and 8 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",10.5,uF
+LD9094,A particle carrying charge 0.5 uC is placed in a uniform electric field of 6 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,3 x 10^-3,N
+LD9089,Two positive charges q1 = 9 uC and q2 = 12 uC are separated by 40 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,18.56406,cm
+NL9059,"For an LC oscillator with inductance 8 mH and capacitance 10 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,562.6977,Hz
+LD9043,An electron enters a uniform electric field of 8 kV/m opposite to its motion with speed 6 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,0.01279,m
+NL9083,An ideal LC circuit has L = 150 mH and C = 22 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,550.48188,rad/s
+LD9200,Two point charges 3.5 uC and 5.5 uC are 10 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,17.30575,N
+LD9206,An electron enters a uniform electric field of 6 kV/m opposite to its motion with speed 5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,0.01185,m
+TD9106,A capacitor has capacitance C = 10 uF and voltage U = 60 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.018,J
+THCB9143,A true value is 80 cm and the measured value is 81 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,1.25,%
+THCB9064,Resistors R1 = 15 ohm and R2 = 100 ohm are in series across 60 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",7.82609; 52.17391,V; V
+TD9201,A capacitor C = 10 uF remains connected to a 12 V source while a dielectric k = 2 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",2.4 x 10^-4,C
+TD9103,Capacitors of 15 uF and 39 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",54,uF
+CH9038,"A series RLC circuit has R = 68 ohm, L = 100 mH, C = 2.2 uF and is driven by 12 V at 800 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.02872,A
+TD9193,"A 15 uF capacitor is charged to 40 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",10,V
+TD9160,A capacitor C = 80 uF remains connected to a 36 V source while a dielectric k = 5 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",0.0144,C
+LD9067,Two point charges 9 uC and 2.8 uC are 12 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,15.7325,N
+THCB9007,A current of 0.75 A flows through a 22 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,12.375,W
+THCB9161,Calculate the equivalent resistance of two parallel resistors 36 ohm and 40 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",18.94737,ohm
+LD9054,A dust grain of mass 4 mg and charge 8 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",4900,N/C
+THCB9042,A resistor of 55 ohm is connected to a 5 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.09091,A
+DDT9105,The flux through each turn of a 100-turn coil changes from 1.5 mWb to 1.9 mWb in 100 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,0.4,V
+LD9145,Two point charges 3.5 uC and 10 uC are 4 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,196.65625,N
+CH9084,"In a series RLC circuit R = 25 ohm, L = 30 mH, C = 3.3 uF at f = 50 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.02616,-
+THCB9114,Calculate the equivalent resistance of two parallel resistors 8 ohm and 6 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",3.42857,ohm
+CH9090,"A series RLC circuit has R = 68 ohm, L = 60 mH, C = 4.7 uF and is driven by 12 V at 800 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.04477,A
+TD9102,Two capacitors C1 = 5 uF and C2 = 50 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",4.54545,uF
+TD9079,Find the charge on a 8 uF capacitor when it is connected across 20 V.,cap_charge: Use Q = C U with C in farads.,1.6 x 10^-4,C
+TD9145,"A 4 uF capacitor is charged to 300 V, disconnected from the battery, then a dielectric with relative permittivity 3 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",100,V
+LD9076,Two source charges q1 = 7 uC and q2 = 2.5 uC are both 5 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,3.2163 x 10^7,N/C
+DDT9144,Current in a 500 mH coil changes from 0.5 A to 4 A in 2 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,875,V
+DDT9007,Current in a 20 mH coil changes from 1.5 A to 5 A in 2 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,35,V
+DDT9154,Current in a 80 mH coil changes from 2 A to 7 A in 10 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,40,V
+DDT9101,"A solenoid has 400 turns, length 40 cm, and cross-sectional area 25 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,1.2566 x 10^-3,H
+LD9084,An electron enters a uniform electric field of 2.5 kV/m opposite to its motion with speed 1.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,2.5587 x 10^-3,m
+THCB9136,Resistors R1 = 10 ohm and R2 = 40 ohm are in series across 60 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",12; 48,V; V
+THCB9124,Two resistors R1 = 12 ohm and R2 = 60 ohm are connected in parallel across 12 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1; 0.2,A; A
+THCB9022,A true value is 40 cm and the measured value is 38.5 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,3.75,%
+THCB9051,Two resistors R1 = 20 ohm and R2 = 30 ohm are connected in parallel across 18 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.9; 0.6,A; A
+LD9006,An electron enters a uniform electric field of 4 kV/m opposite to its motion with speed 6 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,0.02559,m
+CH9087,"A series RLC circuit has R = 10 ohm, L = 60 mH, C = 47 uF and is driven by 220 V at 50 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",4.40984,A
+LD9209,Two positive charges q1 = 4 uC and q2 = 5 uC are separated by 40 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,18.88544,cm
+CH9101,"In a series RLC circuit R = 12 ohm, L = 30 mH, C = 33 uF at f = 250 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.39592,-
+CH9044,"A current of 0.2 A flows through a series R-C section with R = 50 ohm, C = 5 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",127.71605,V
+THCB9093,Two resistors R1 = 20 ohm and R2 = 30 ohm are connected in parallel across 9 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.45; 0.3,A; A
+THCB9076,Resistors R1 = 20 ohm and R2 = 60 ohm are in series across 9 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",2.25; 6.75,V; V
+NL9073,An LC circuit stores maximum electric energy 6 mJ in a capacitor of 2 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",77.45967,V
+NL9056,An LC circuit stores maximum electric energy 1 mJ in a capacitor of 1 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",44.72136,V
+TD9224,A capacitor C = 2 uF remains connected to a 9 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",5.4 x 10^-5,C
+CH9102,"A series RLC circuit has R = 47 ohm, L = 20 mH, C = 10 uF and is driven by 50 V at 50 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.15846,A
+THCB9069,Calculate the equivalent resistance of two parallel resistors 24 ohm and 60 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",17.14286,ohm
+NL9090,An ideal LC circuit has L = 100 mH and C = 47 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,461.2656,rad/s
+TD9022,"A parallel-plate capacitor has plate area 35 cm^2 in air. If breakdown field is 1.5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,4.6483 x 10^-8,C
+LD9085,Two source charges q1 = 2 uC and q2 = 4.5 uC are both 8 cm from point M. The angle between their field directions at M is 120 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,5.4855 x 10^6,N/C
+DDT9015,A flat coil area is 120 cm^2 in a uniform magnetic field 0.5 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,4.2426 x 10^-3,Wb
+LD9190,Two positive charges q1 = 1 uC and q2 = 18 uC are separated by 50 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,9.53718,cm
+NL9017,The maximum magnetic energy in an LC circuit is 7 mJ and L = 50 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.52915,A
+TD9096,"A parallel-plate capacitor has plate area 120 cm^2 in air. If breakdown field is 2.5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,2.6562 x 10^-7,C
+TD9010,"A 15 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",3,V
+TD9127,A parallel-plate capacitor has circular plates of radius 10 cm separated by 0.8 mm. The dielectric constant is 5.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.9123 x 10^-9,F
+CH9041,"A current of 0.35 A flows through a series R-C section with R = 20 ohm, C = 5 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",222.92685,V
+THCB9015,A resistor of 15 ohm is connected to a 9 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.6,A
+CH9048,"A current of 0.5 A flows through a series R-C section with R = 50 ohm, C = 5 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",161.10647,V
+TD9142,A capacitor of capacitance 6 uF carries charge 96 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,16,V
+TD9240,A capacitor has capacitance C = 3.3 uF and voltage U = 9 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,1.3365 x 10^-4,J
+THCB9154,Resistors R1 = 20 ohm and R2 = 60 ohm are in series across 24 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",6; 18,V; V
+NL9044,The maximum magnetic energy in an LC circuit is 0.8 mJ and L = 120 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.11547,A
+LD9142,An electron enters a uniform electric field of 6 kV/m opposite to its motion with speed 2.8 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,3.7149 x 10^-3,m
+TD9188,A capacitor of capacitance 9 uF carries charge 24 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,2.66667,V
+TD9126,"A 47 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",3,V
+LD9040,A dust grain of mass 0.8 mg and charge 20 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",392,N/C
+LD9207,"At point M, charge q1 = 2.5 uC is 8 cm away along the x direction and charge q2 = 1.2 uC is 4 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",7.6022 x 10^6,N/C
+TD9041,A capacitor has capacitance C = 6.8 uF and voltage U = 18 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,1.1016 x 10^-3,J
+CH9027,"A current of 0.35 A flows through a series R-C section with R = 50 ohm, C = 40 uF at 200 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",18.83438,V
+THCB9029,Calculate the equivalent resistance of two parallel resistors 18 ohm and 60 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",13.84615,ohm
+DDT9026,"A solenoid has 600 turns, length 40 cm, and cross-sectional area 4 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,4.5239 x 10^-4,H
+LD9124,Two point charges 6 uC and 8 uC are 5 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,172.608,N
+CH9065,"A current of 0.5 A flows through a series R-C section with R = 80 ohm, C = 80 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",44.67422,V
+TD9095,A capacitor has capacitance C = 3.3 uF and voltage U = 6 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,5.94 x 10^-5,J
+THCB9101,A current of 0.4 A flows through a 33 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,5.28,W
+TD9244,A capacitor C = 2 uF remains connected to a 12 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",7.2 x 10^-5,C
+DDT9052,An inductor of 500 mH carries current 2.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,1.5625,J
+LD9197,Two source charges q1 = 3.5 uC and q2 = 8.5 uC are both 10 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.0114 x 10^7,N/C
+LD9139,"At point M, charge q1 = 1.5 uC is 8 cm away along the x direction and charge q2 = 7.5 uC is 7 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",1.3921 x 10^7,N/C
+THCB9127,A current of 3 A flows through a 15 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,135,W
+DDT9077,Current in a 200 mH coil changes from 0.5 A to 5.5 A in 20 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,50,V
+TD9171,Capacitors of 10 uF and 5 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",15,uF
+LD9141,Two positive charges q1 = 4 uC and q2 = 2 uC are separated by 50 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,29.28932,cm
+NL9055,The maximum magnetic energy in an LC circuit is 1.5 mJ and L = 50 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.24495,A
+LD9003,What is the electric field magnitude at a point 8 cm from a charge Q = 3.3 uC in air?,point_field: Use E = k |Q|/r^2.,4.6355 x 10^6,N/C
+THCB9049,Calculate the equivalent resistance of two parallel resistors 12 ohm and 12 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",6,ohm
+TD9037,Find the charge on a 75 uF capacitor when it is connected across 50 V.,cap_charge: Use Q = C U with C in farads.,3.75 x 10^-3,C
+LD9105,Two source charges q1 = 1 uC and q2 = 4.5 uC are both 6 cm from point M. The angle between their field directions at M is 120 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.022 x 10^7,N/C
+LD9171,What is the electric field magnitude at a point 25 cm from a charge Q = 2.2 uC in air?,point_field: Use E = k |Q|/r^2.,3.1645 x 10^5,N/C
+DDT9109,The flux through each turn of a 50-turn coil changes from 1.5 mWb to 3.5 mWb in 5 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,20,V
+TD9227,A capacitor has capacitance C = 100 uF and voltage U = 24 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.0288,J
+NL9016,"For an LC oscillator with inductance 5 mH and capacitance 0.22 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,4798.70209,Hz
+LD9118,An electron enters a uniform electric field of 1.5 kV/m opposite to its motion with speed 1.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,4.2645 x 10^-3,m
+LD9035,A particle carrying charge 5 uC is placed in a uniform electric field of 2 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,1 x 10^-2,N
+DDT9031,An inductor of 10 mH carries current 4 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.08,J
+THCB9160,A resistor of 2 ohm is connected to a 5 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,2.5,A
+NL9100,An ideal LC circuit has L = 75 mH and C = 10 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1154.70054,rad/s
+DDT9076,An inductor of 100 mH carries current 0.2 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,2 x 10^-3,J
+THCB9017,Two resistors R1 = 15 ohm and R2 = 12 ohm are connected in parallel across 6 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.4; 0.5,A; A
+TD9192,A capacitor of capacitance 30 uF carries charge 72 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,2.4,V
+THCB9163,A resistor of 100 ohm is connected to a 5 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.05,A
+TD9091,Find the charge on a 2 uF capacitor when it is connected across 10 V.,cap_charge: Use Q = C U with C in farads.,2 x 10^-5,C
+DDT9067,"A solenoid has 400 turns, length 25 cm, and cross-sectional area 2 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,1.6085 x 10^-4,H
+TD9109,A capacitor has capacitance C = 220 uF and voltage U = 30 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.099,J
+LD9024,"At point M, charge q1 = 2.5 uC is 6 cm away along the x direction and charge q2 = 1.2 uC is 15 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",6.2614 x 10^6,N/C
+THCB9025,Two resistors R1 = 12 ohm and R2 = 18 ohm are connected in parallel across 48 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",4; 2.66667,A; A
+TD9243,"A 4 uF capacitor is charged to 60 V, disconnected from the battery, then a dielectric with relative permittivity 2.5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",24,V
+TD9151,Find the charge on a 25 uF capacitor when it is connected across 10 V.,cap_charge: Use Q = C U with C in farads.,2.5 x 10^-4,C
+LD9041,Two point charges 3.5 uC and 2.8 uC are 6 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,24.47278,N
+CH9018,"A current of 1.2 A flows through a series R-C section with R = 120 ohm, C = 40 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",172.78572,V
+LD9186,Two positive charges q1 = 3 uC and q2 = 8 uC are separated by 12 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,4.55755,cm
+NL9096,An ideal LC circuit has L = 10 mH and C = 4.7 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,4612.65604,rad/s
+THCB9058,A resistor of 55 ohm is connected to a 220 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,4,A
+TD9214,"A 15 uF capacitor is charged to 90 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",22.5,V
+NL9084,An ideal LC circuit has L = 10 mH and C = 10 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,3162.27766,rad/s
+NL9093,An LC circuit stores maximum electric energy 2 mJ in a capacitor of 10 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",20,V
+NL9014,The maximum magnetic energy in an LC circuit is 7 mJ and L = 80 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.41833,A
+THCB9081,Resistors R1 = 50 ohm and R2 = 40 ohm are in series across 18 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",10; 8,V; V
+THCB9036,A true value is 80 cm and the measured value is 83 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,3.75,%
+CH9031,"In a series RLC circuit R = 25 ohm, L = 200 mH, C = 3.3 uF at f = 250 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.20195,-
+THCB9151,Two resistors R1 = 6 ohm and R2 = 10 ohm are connected in parallel across 48 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",8; 4.8,A; A
+LD9127,A dust grain of mass 0.8 mg and charge 3 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",2613.33333,N/C
+NL9038,"For an LC oscillator with inductance 120 mH and capacitance 10 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,145.28792,Hz
+DDT9075,The flux through each turn of a 100-turn coil changes from 0.5 mWb to 2.5 mWb in 50 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,4,V
+TD9148,A capacitor of capacitance 90 uF carries charge 12 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,0.13333,V
+TD9043,A capacitor C = 120 uF remains connected to a 48 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",0.01728,C
+TD9248,A capacitor has capacitance C = 6.8 uF and voltage U = 9 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,2.754 x 10^-4,J
+LD9102,What is the electric field magnitude at a point 2 cm from a charge Q = 1.5 uC in air?,point_field: Use E = k |Q|/r^2.,3.3712 x 10^7,N/C
+THCB9090,A resistor of 6 ohm is connected to a 12 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,2,A
+TD9021,A parallel-plate capacitor has circular plates of radius 2 cm separated by 0.4 mm. The dielectric constant is 1. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,2.7816 x 10^-11,F
+TD9202,"A parallel-plate capacitor has plate area 12 cm^2 in air. If breakdown field is 5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,5.3124 x 10^-8,C
+THCB9099,Resistors R1 = 50 ohm and R2 = 100 ohm are in series across 36 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",12; 24,V; V
+TD9172,A capacitor of capacitance 9 uF carries charge 150 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,16.66667,V
+THCB9147,Two resistors R1 = 15 ohm and R2 = 40 ohm are connected in parallel across 36 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",2.4; 0.9,A; A
+TD9176,"A parallel-plate capacitor has plate area 80 cm^2 in air. If breakdown field is 5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,3.5416 x 10^-7,C
+NL9045,An LC circuit stores maximum electric energy 1 mJ in a capacitor of 2 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",31.62278,V
+TD9149,Capacitors of 2.5 uF and 27 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",29.5,uF
+CH9029,"In a series RLC circuit R = 60 ohm, L = 80 mH, C = 4.7 uF at f = 50 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.09162,-
+THCB9119,A true value is 120 cm and the measured value is 118 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,1.66667,%
+DDT9124,An inductor of 100 mH carries current 2.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.3125,J
+LD9167,Two source charges q1 = 3.5 uC and q2 = 8.5 uC are both 5 cm from point M. The angle between their field directions at M is 60 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,3.8437 x 10^7,N/C
+LD9203,Two positive charges q1 = 2 uC and q2 = 3 uC are separated by 60 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,26.96938,cm
+DDT9064,Current in a 500 mH coil changes from 2 A to 5.5 A in 5 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,350,V
+NL9036,"For an LC oscillator with inductance 2 mH and capacitance 0.22 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,7587.41421,Hz
+LD9083,Two positive charges q1 = 6 uC and q2 = 12 uC are separated by 24 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,9.94113,cm
+LD9039,Two source charges q1 = 5 uC and q2 = 4.5 uC are both 10 cm from point M. The angle between their field directions at M is 60 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,7.3997 x 10^6,N/C
+NL9088,The maximum magnetic energy in an LC circuit is 7 mJ and L = 120 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.34157,A
+TD9025,A capacitor C = 20 uF remains connected to a 9 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",5.4 x 10^-4,C
+DDT9034,An inductor of 50 mH carries current 1 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.025,J
+NL9075,An LC circuit stores maximum electric energy 0.5 mJ in a capacitor of 0.5 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",44.72136,V
+LD9004,"At point M, charge q1 = 4 uC is 10 cm away along the x direction and charge q2 = 5 uC is 4 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",2.8323 x 10^7,N/C
+THCB9104,A current of 3 A flows through a 22 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,198,W
+DDT9058,An inductor of 20 mH carries current 4 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.16,J
+NL9030,An ideal LC circuit has L = 150 mH and C = 10 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,816.49658,rad/s
+NL9051,An ideal LC circuit has L = 40 mH and C = 4.7 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,2306.32802,rad/s
+NL9032,An LC circuit stores maximum electric energy 2 mJ in a capacitor of 50 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",8.94427,V
+TD9116,A capacitor of capacitance 6 uF carries charge 48 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,8,V
+DDT9039,A flat coil area is 10 cm^2 in a uniform magnetic field 0.5 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,5 x 10^-4,Wb
+DDT9044,Current in a 120 mH coil changes from 2 A to 4 A in 10 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,24,V
+THCB9100,Two resistors R1 = 6 ohm and R2 = 18 ohm are connected in parallel across 36 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",6; 2,A; A
+THCB9096,Resistors R1 = 15 ohm and R2 = 25 ohm are in series across 24 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",9; 15,V; V
+LD9042,A particle carrying charge 3.6 uC is placed in a uniform electric field of 6 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.0216,N
+LD9068,An electron enters a uniform electric field of 8 kV/m opposite to its motion with speed 4.2 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,6.2688 x 10^-3,m
+DDT9041,Current in a 80 mH coil changes from 2 A to 7 A in 20 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,20,V
+LD9065,An electron enters a uniform electric field of 12 kV/m opposite to its motion with speed 3.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,2.9022 x 10^-3,m
+CH9107,"In a series RLC circuit R = 12 ohm, L = 120 mH, C = 33 uF at f = 50 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.2001,-
+DDT9114,"A long solenoid has 300 turns, length 40 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,4.7124 x 10^-4,T
+LD9214,Two point charges 7.5 uC and 1.5 uC are 4 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,63.21094,N
+TD9156,A parallel-plate capacitor has circular plates of radius 10 cm separated by 0.8 mm. The dielectric constant is 4. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.3908 x 10^-9,F
+LD9106,Two positive charges q1 = 9 uC and q2 = 8 uC are separated by 30 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,15.44156,cm
+CH9088,"In a series RLC circuit R = 12 ohm, L = 80 mH, C = 10 uF at f = 100 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.10954,-
+THCB9072,A current of 0.4 A flows through a 10 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,1.6,W
+CH9105,"A series RLC circuit has R = 15 ohm, L = 40 mH, C = 22 uF and is driven by 110 V at 200 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",5.34435,A
+DDT9016,The flux through each turn of a 500-turn coil changes from 0.2 mWb to 2.2 mWb in 20 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,50,V
+TD9217,A parallel-plate capacitor has circular plates of radius 6 cm separated by 0.4 mm. The dielectric constant is 2.2. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,5.5075 x 10^-10,F
+DDT9120,Current in a 20 mH coil changes from 1.5 A to 5 A in 50 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,1.4,V
+TD9184,A parallel-plate capacitor has circular plates of radius 5 cm separated by 0.6 mm. The dielectric constant is 1. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.159 x 10^-10,F
+TD9023,"A 47 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 3 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",4,V
+NL9061,The maximum magnetic energy in an LC circuit is 4 mJ and L = 120 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.2582,A
+TD9049,A parallel-plate capacitor has circular plates of radius 6 cm separated by 1 mm. The dielectric constant is 5.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,5.5075 x 10^-10,F
+TD9158,Two capacitors C1 = 3 uF and C2 = 18 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",2.57143,uF
+TD9071,Capacitors of 6 uF and 8 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",14,uF
+NL9033,"For an LC oscillator with inductance 30 mH and capacitance 0.47 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,1340.32641,Hz
+NL9019,An ideal LC circuit has L = 150 mH and C = 4.7 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1190.98267,rad/s
+CH9079,"A current of 1.2 A flows through a series R-C section with R = 20 ohm, C = 20 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",98.46272,V
+NL9060,The maximum magnetic energy in an LC circuit is 4 mJ and L = 10 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.89443,A
+TD9047,"A 6 uF capacitor is charged to 150 V, disconnected from the battery, then a dielectric with relative permittivity 2.5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",60,V
+THCB9082,A true value is 25 cm and the measured value is 26.5 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,6,%
+DDT9002,Current in a 80 mH coil changes from 1.5 A to 5 A in 50 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,5.6,V
+NL9023,"For an LC oscillator with inductance 2 mH and capacitance 2.2 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,2399.35104,Hz
+NL9086,An LC circuit stores maximum electric energy 3.5 mJ in a capacitor of 50 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",11.83216,V
+THCB9102,A resistor of 100 ohm is connected to a 48 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.48,A
+THCB9122,Resistors R1 = 5 ohm and R2 = 15 ohm are in series across 24 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",6; 18,V; V
+THCB9046,Calculate the equivalent resistance of two parallel resistors 36 ohm and 60 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",22.5,ohm
+LD9169,Two source charges q1 = 1 uC and q2 = 6.5 uC are both 6 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.8084 x 10^7,N/C
+CH9040,What capacitance in uF is required for resonance at 60 Hz with an inductor L = 100 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",70.36193,uF
+NL9007,An ideal LC circuit has L = 100 mH and C = 10 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1000,rad/s
+DDT9135,The flux through each turn of a 100-turn coil changes from 1.5 mWb to 2.3 mWb in 10 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,8,V
+LD9121,Two point charges 1.8 uC and 2.8 uC are 6 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,12.586,N
+CH9012,What capacitance in uF is required for resonance at 200 Hz with an inductor L = 50 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",12.66515,uF
+DDT9092,"A long solenoid has 1500 turns, length 30 cm, and current 3 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,0.01885,T
+NL9095,"For an LC oscillator with inductance 60 mH and capacitance 0.22 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,1385.26597,Hz
+CH9068,What capacitance in uF is required for resonance at 1000 Hz with an inductor L = 100 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",0.2533,uF
+TD9112,Capacitors of 33 uF and 27 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",60,uF
+LD9047,Two source charges q1 = 5 uC and q2 = 1.5 uC are both 6 cm from point M. The angle between their field directions at M is 60 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.4721 x 10^7,N/C
+CH9053,"A series RLC circuit has R = 20 ohm, L = 150 mH, C = 22 uF and is driven by 50 V at 50 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.50205,A
+CH9011,"In a series RLC circuit R = 25 ohm, L = 120 mH, C = 15 uF at f = 1000 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.03361,-
+TD9150,A capacitor has capacitance C = 22 uF and voltage U = 240 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.6336,J
+THCB9065,Calculate the equivalent resistance of two parallel resistors 8 ohm and 60 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",7.05882,ohm
+CH9006,"A current of 0.8 A flows through a series R-C section with R = 20 ohm, C = 5 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",509.54708,V
+NL9039,An LC circuit stores maximum electric energy 1 mJ in a capacitor of 20 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",10,V
+NL9009,The maximum magnetic energy in an LC circuit is 4 mJ and L = 50 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.4,A
+CH9075,"In a series RLC circuit R = 90 ohm, L = 50 mH, C = 4.7 uF at f = 1000 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.30572,-
+TD9161,A capacitor has capacitance C = 3.3 uF and voltage U = 24 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,9.504 x 10^-4,J
+THCB9043,Calculate the equivalent resistance of two parallel resistors 36 ohm and 12 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",9,ohm
+CH9051,What capacitance in uF is required for resonance at 50 Hz with an inductor L = 20 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",506.60592,uF
+THCB9050,Calculate the equivalent resistance of two parallel resistors 12 ohm and 9 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",5.14286,ohm
+LD9143,Two positive charges q1 = 1 uC and q2 = 12 uC are separated by 30 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,6.72028,cm
+LD9205,What is the electric field magnitude at a point 5 cm from a charge Q = 4.7 uC in air?,point_field: Use E = k |Q|/r^2.,1.6901 x 10^7,N/C
+TD9182,"A 22 uF capacitor is charged to 60 V, disconnected from the battery, then a dielectric with relative permittivity 2 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",30,V
+THCB9105,Two resistors R1 = 30 ohm and R2 = 12 ohm are connected in parallel across 6 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.2; 0.5,A; A
+DDT9125,Current in a 120 mH coil changes from 1 A to 4.5 A in 20 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,21,V
+CH9002,"A series RLC circuit has R = 15 ohm, L = 60 mH, C = 47 uF and is driven by 12 V at 200 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.19881,A
+CH9047,What capacitance in uF is required for resonance at 400 Hz with an inductor L = 100 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",1.58314,uF
+TD9228,Find the charge on a 75 uF capacitor when it is connected across 220 V.,cap_charge: Use Q = C U with C in farads.,0.0165,C
+TD9100,Find the charge on a 75 uF capacitor when it is connected across 110 V.,cap_charge: Use Q = C U with C in farads.,8.25 x 10^-3,C
+CH9070,"In a series RLC circuit R = 12 ohm, L = 30 mH, C = 33 uF at f = 1000 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.06519,-
+DDT9005,The flux through each turn of a 100-turn coil changes from 1.5 mWb to 4.5 mWb in 10 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,30,V
+LD9092,Two point charges 4.8 uC and 5.5 uC are 4 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,148.335,N
+TD9173,Capacitors of 33 uF and 3.5 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",36.5,uF
+THCB9048,Two resistors R1 = 8 ohm and R2 = 60 ohm are connected in parallel across 24 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",3; 0.4,A; A
+THCB9121,A true value is 100 cm and the measured value is 101 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,1,%
+TD9063,A capacitor of capacitance 90 uF carries charge 18 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,0.2,V
+CH9067,"A series RLC circuit has R = 68 ohm, L = 150 mH, C = 6.8 uF and is driven by 110 V at 400 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.33778,A
+NL9099,An LC circuit stores maximum electric energy 3.5 mJ in a capacitor of 10 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",26.45751,V
+TD9036,A parallel-plate capacitor has circular plates of radius 10 cm separated by 1.5 mm. The dielectric constant is 5.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.0199 x 10^-9,F
+THCB9080,A current of 0.75 A flows through a 10 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,5.625,W
+LD9137,A dust grain of mass 6.5 mg and charge 3 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",2.1233 x 10^4,N/C
+TD9177,"A parallel-plate capacitor has plate area 180 cm^2 in air. If breakdown field is 2 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,3.1874 x 10^-7,C
+NL9010,An LC circuit stores maximum electric energy 6 mJ in a capacitor of 20 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",24.4949,V
+DDT9121,The flux through each turn of a 100-turn coil changes from 1.5 mWb to 1.9 mWb in 5 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,8,V
+THCB9149,Calculate the equivalent resistance of two parallel resistors 36 ohm and 9 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",7.2,ohm
+THCB9155,Calculate the equivalent resistance of two parallel resistors 6 ohm and 20 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",4.61538,ohm
+LD9015,Two positive charges q1 = 2 uC and q2 = 2 uC are separated by 18 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,9,cm
+NL9025,An ideal LC circuit has L = 75 mH and C = 4.7 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1684.30384,rad/s
+TD9146,A parallel-plate capacitor has circular plates of radius 8 cm separated by 1.5 mm. The dielectric constant is 3.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,4.1538 x 10^-10,F
+LD9096,A dust grain of mass 9 mg and charge 12 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",7350,N/C
+LD9060,Two point charges 1.8 uC and 10 uC are 4 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,101.1375,N
+CH9023,"A series RLC circuit has R = 47 ohm, L = 60 mH, C = 4.7 uF and is driven by 50 V at 60 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.09195,A
+LD9195,A particle carrying charge 10 uC is placed in a uniform electric field of 4 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.04,N
+DDT9100,An inductor of 10 mH carries current 1.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.01125,J
+TD9168,A capacitor C = 80 uF remains connected to a 24 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",5.76 x 10^-3,C
+CH9022,"A series RLC circuit has R = 15 ohm, L = 150 mH, C = 6.8 uF and is driven by 12 V at 400 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.03764,A
+TD9195,A parallel-plate capacitor has circular plates of radius 4 cm separated by 0.8 mm. The dielectric constant is 1. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,5.5631 x 10^-11,F
+LD9204,What is the electric field magnitude at a point 10 cm from a charge Q = 1.5 uC in air?,point_field: Use E = k |Q|/r^2.,1.3485 x 10^6,N/C
+THCB9033,A true value is 10 cm and the measured value is 8 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,20,%
+CH9015,"In a series RLC circuit R = 40 ohm, L = 80 mH, C = 33 uF at f = 500 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.16329,-
+LD9029,Two source charges q1 = 5 uC and q2 = 8.5 uC are both 6 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,3.1325 x 10^7,N/C
+DDT9079,An inductor of 250 mH carries current 1.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.28125,J
+LD9061,Two source charges q1 = 3.5 uC and q2 = 2.5 uC are both 8 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,7.8051 x 10^6,N/C
+THCB9001,A resistor of 6 ohm is connected to a 24 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,4,A
+TD9129,Find the charge on a 12 uF capacitor when it is connected across 15 V.,cap_charge: Use Q = C U with C in farads.,1.8 x 10^-4,C
+THCB9010,Calculate the equivalent resistance of two parallel resistors 4 ohm and 40 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",3.63636,ohm
+LD9051,What is the electric field magnitude at a point 15 cm from a charge Q = 3.3 uC in air?,point_field: Use E = k |Q|/r^2.,1.3185 x 10^6,N/C
+LD9064,A particle carrying charge 10 uC is placed in a uniform electric field of 6 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.06,N
+LD9164,What is the electric field magnitude at a point 2 cm from a charge Q = 6.8 uC in air?,point_field: Use E = k |Q|/r^2.,1.5283 x 10^8,N/C
+DDT9065,An inductor of 250 mH carries current 2.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.78125,J
+THCB9078,A resistor of 100 ohm is connected to a 9 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.09,A
+THCB9067,"A length is measured with an instrument whose least count is 0.1 cm. Taking uncertainty as half the least count, find the absolute uncertainty.",least_count_uncertainty: Absolute uncertainty = least count/2.,0.05,cm
+LD9188,Two positive charges q1 = 4 uC and q2 = 18 uC are separated by 18 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,5.76679,cm
+LD9097,An electron enters a uniform electric field of 4 kV/m opposite to its motion with speed 3.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,8.7067 x 10^-3,m
+TD9136,A capacitor C = 2 uF remains connected to a 72 V source while a dielectric k = 4 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",5.76 x 10^-4,C
+NL9057,An ideal LC circuit has L = 20 mH and C = 2.2 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,4767.31295,rad/s
+CH9021,"A current of 0.5 A flows through a series R-C section with R = 20 ohm, C = 10 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",159.46879,V
+LD9009,What is the electric field magnitude at a point 10 cm from a charge Q = 2.2 uC in air?,point_field: Use E = k |Q|/r^2.,1.9778 x 10^6,N/C
+DDT9046,"A long solenoid has 1000 turns, length 20 cm, and current 3 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,0.01885,T
+LD9107,An electron enters a uniform electric field of 2.5 kV/m opposite to its motion with speed 2 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,4.5488 x 10^-3,m
+LD9133,A particle carrying charge 1.2 uC is placed in a uniform electric field of 12 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.0144,N
+CH9083,"In a series RLC circuit R = 40 ohm, L = 50 mH, C = 4.7 uF at f = 100 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.12911,-
+NL9087,The maximum magnetic energy in an LC circuit is 1.5 mJ and L = 5 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.7746,A
+THCB9084,Calculate the equivalent resistance of two parallel resistors 36 ohm and 6 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",5.14286,ohm
+LD9189,Two source charges q1 = 7 uC and q2 = 6.5 uC are both 12 cm from point M. The angle between their field directions at M is 90 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,5.9637 x 10^6,N/C
+LD9184,"At point M, charge q1 = 2.5 uC is 6 cm away along the x direction and charge q2 = 7.5 uC is 15 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",6.925 x 10^6,N/C
+CH9056,"A series RLC circuit has R = 30 ohm, L = 100 mH, C = 6.8 uF and is driven by 12 V at 60 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.03393,A
+THCB9061,Calculate the equivalent resistance of two parallel resistors 18 ohm and 15 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",8.18182,ohm
+TD9001,Find the charge on a 180 uF capacitor when it is connected across 36 V.,cap_charge: Use Q = C U with C in farads.,6.48 x 10^-3,C
+DDT9014,"A long solenoid has 2000 turns, length 40 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,3.1416 x 10^-3,T
+TD9094,"A 22 uF capacitor is charged to 300 V, disconnected from the battery, then a dielectric with relative permittivity 6 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",50,V
+TD9015,"A 6 uF capacitor is charged to 60 V, disconnected from the battery, then a dielectric with relative permittivity 5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",12,V
+THCB9045,"A length is measured with an instrument whose least count is 0.5 cm. Taking uncertainty as half the least count, find the absolute uncertainty.",least_count_uncertainty: Absolute uncertainty = least count/2.,0.25,cm
+LD9157,A particle carrying charge 3.6 uC is placed in a uniform electric field of 20 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.072,N
+LD9014,An electron enters a uniform electric field of 6 kV/m opposite to its motion with speed 3.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,5.8045 x 10^-3,m
+TD9249,Find the charge on a 8 uF capacitor when it is connected across 36 V.,cap_charge: Use Q = C U with C in farads.,2.88 x 10^-4,C
+LD9025,What is the electric field magnitude at a point 8 cm from a charge Q = 8.2 uC in air?,point_field: Use E = k |Q|/r^2.,1.1518 x 10^7,N/C
+LD9066,Two positive charges q1 = 2 uC and q2 = 2 uC are separated by 30 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,15,cm
+CH9025,What capacitance in uF is required for resonance at 50 Hz with an inductor L = 500 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",20.26424,uF
+TD9040,Two capacitors C1 = 5 uF and C2 = 9 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",3.21429,uF
+THCB9109,A current of 0.2 A flows through a 22 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,0.88,W
+THCB9079,A resistor of 100 ohm is connected to a 110 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,1.1,A
+THCB9140,A true value is 40 cm and the measured value is 41 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,2.5,%
+DDT9151,The flux through each turn of a 20-turn coil changes from 1.5 mWb to 4.5 mWb in 10 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,6,V
+CH9045,What capacitance in uF is required for resonance at 100 Hz with an inductor L = 20 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",126.65148,uF
+NL9046,An ideal LC circuit has L = 5 mH and C = 47 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,2062.84249,rad/s
+TD9088,A parallel-plate capacitor has circular plates of radius 6 cm separated by 0.8 mm. The dielectric constant is 5.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,6.8844 x 10^-10,F
+TD9128,Two capacitors C1 = 2 uF and C2 = 15 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",1.76471,uF
+TD9077,"A 100 uF capacitor is charged to 300 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",75,V
+TD9051,Two capacitors C1 = 10 uF and C2 = 35 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",7.77778,uF
+LD9033,Two point charges 4.8 uC and 10 uC are 5 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,172.608,N
+TD9190,A capacitor has capacitance C = 100 uF and voltage U = 6 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,1.8 x 10^-3,J
+TD9143,Capacitors of 10 uF and 3.5 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",13.5,uF
+LD9159,Two source charges q1 = 1 uC and q2 = 1.5 uC are both 4 cm from point M. The angle between their field directions at M is 120 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,7.4329 x 10^6,N/C
+TD9234,"A 47 uF capacitor is charged to 24 V, disconnected from the battery, then a dielectric with relative permittivity 2.5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",9.6,V
+DDT9084,"A solenoid has 400 turns, length 25 cm, and cross-sectional area 6 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,4.8255 x 10^-4,H
+DDT9056,"A solenoid has 400 turns, length 25 cm, and cross-sectional area 10 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,8.0425 x 10^-4,H
+THCB9126,Calculate the equivalent resistance of two parallel resistors 10 ohm and 6 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",3.75,ohm
+TD9005,A parallel-plate capacitor has circular plates of radius 4 cm separated by 1.5 mm. The dielectric constant is 4. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.1868 x 10^-10,F
+THCB9083,A resistor of 55 ohm is connected to a 3 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.05455,A
+TD9006,"A 4 uF capacitor is charged to 40 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",10,V
+TD9046,A capacitor of capacitance 60 uF carries charge 12 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,0.2,V
+DDT9059,"A long solenoid has 2000 turns, length 20 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,6.2832 x 10^-3,T
+THCB9159,A true value is 10 cm and the measured value is 8.5 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,15,%
+CH9034,What capacitance in uF is required for resonance at 100 Hz with an inductor L = 500 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",5.06606,uF
+DDT9057,A flat coil area is 50 cm^2 in a uniform magnetic field 0.35 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,1.2374 x 10^-3,Wb
+DDT9042,"A long solenoid has 800 turns, length 40 cm, and current 1.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,3.7699 x 10^-3,T
+THCB9020,A resistor of 12 ohm is connected to a 5 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.41667,A
+TD9026,A capacitor of capacitance 12 uF carries charge 24 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,2,V
+TD9076,A parallel-plate capacitor has circular plates of radius 4 cm separated by 2 mm. The dielectric constant is 2.2. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,4.8956 x 10^-11,F
+THCB9095,A current of 1.5 A flows through a 33 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,74.25,W
+CH9081,"In a series RLC circuit R = 40 ohm, L = 200 mH, C = 33 uF at f = 500 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.06452,-
+DDT9112,An inductor of 10 mH carries current 2.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.03125,J
+NL9002,"For an LC oscillator with inductance 30 mH and capacitance 0.22 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,1959.06192,Hz
+THCB9123,A resistor of 40 ohm is connected to a 220 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,5.5,A
+DDT9049,"A long solenoid has 500 turns, length 20 cm, and current 1.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,4.7124 x 10^-3,T
+TD9197,A capacitor has capacitance C = 33 uF and voltage U = 60 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.0594,J
+LD9010,A particle carrying charge 1.2 uC is placed in a uniform electric field of 2 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,2.4 x 10^-3,N
+TD9105,A parallel-plate capacitor has circular plates of radius 5 cm separated by 1 mm. The dielectric constant is 3.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,2.4339 x 10^-10,F
+DDT9095,Current in a 200 mH coil changes from 0.5 A to 2.5 A in 10 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,40,V
+DDT9029,The flux through each turn of a 20-turn coil changes from 0.2 mWb to 0.6 mWb in 10 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,0.8,V
+THCB9068,Calculate the equivalent resistance of two parallel resistors 4 ohm and 9 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",2.76923,ohm
+TD9137,Two capacitors C1 = 3 uF and C2 = 12 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",2.4,uF
+CH9052,"A current of 1.2 A flows through a series R-C section with R = 120 ohm, C = 5 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",408.2138,V
+CH9064,"In a series RLC circuit R = 25 ohm, L = 30 mH, C = 10 uF at f = 50 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.08067,-
+DDT9069,The flux through each turn of a 500-turn coil changes from 1 mWb to 1.8 mWb in 20 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,20,V
+TD9220,A capacitor has capacitance C = 6.8 uF and voltage U = 240 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.19584,J
+TD9122,A capacitor C = 20 uF remains connected to a 24 V source while a dielectric k = 2 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",9.6 x 10^-4,C
+TD9068,"A parallel-plate capacitor has plate area 50 cm^2 in air. If breakdown field is 1.5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,6.6405 x 10^-8,C
+LD9058,"At point M, charge q1 = 1.5 uC is 4 cm away along the x direction and charge q2 = 5 uC is 15 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",8.6617 x 10^6,N/C
+TD9053,A parallel-plate capacitor has circular plates of radius 4 cm separated by 0.4 mm. The dielectric constant is 3.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,3.8942 x 10^-10,F
+LD9131,A dust grain of mass 4 mg and charge 5 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",7840,N/C
+TD9008,Find the charge on a 5 uF capacitor when it is connected across 10 V.,cap_charge: Use Q = C U with C in farads.,5 x 10^-5,C
+TD9169,"A parallel-plate capacitor has plate area 35 cm^2 in air. If breakdown field is 4 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,1.2396 x 10^-7,C
+THCB9135,Two resistors R1 = 6 ohm and R2 = 10 ohm are connected in parallel across 6 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1; 0.6,A; A
+DDT9033,A flat coil area is 20 cm^2 in a uniform magnetic field 0.05 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,7.0711 x 10^-5,Wb
+THCB9125,Resistors R1 = 5 ohm and R2 = 10 ohm are in series across 18 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",6; 12,V; V
+NL9001,An ideal LC circuit has L = 100 mH and C = 2.2 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,2132.00716,rad/s
+THCB9035,A true value is 20 cm and the measured value is 18 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,10,%
+TD9119,Two capacitors C1 = 12 uF and C2 = 5 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",3.52941,uF
+CH9016,What capacitance in uF is required for resonance at 200 Hz with an inductor L = 200 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",3.16629,uF
+DDT9062,A flat coil area is 20 cm^2 in a uniform magnetic field 0.2 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,2.8284 x 10^-4,Wb
+TD9019,"A 22 uF capacitor is charged to 90 V, disconnected from the battery, then a dielectric with relative permittivity 6 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",15,V
+THCB9139,Calculate the equivalent resistance of two parallel resistors 4 ohm and 12 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",3,ohm
+LD9136,An electron enters a uniform electric field of 1.5 kV/m opposite to its motion with speed 6 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,0.06823,m
+DDT9045,Current in a 80 mH coil changes from 1.5 A to 2.3 A in 50 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,1.28,V
+LD9075,A dust grain of mass 2.5 mg and charge 12 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",2041.66667,N/C
+LD9152,An electron enters a uniform electric field of 12 kV/m opposite to its motion with speed 4.2 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,4.1792 x 10^-3,m
+THCB9138,Two resistors R1 = 8 ohm and R2 = 18 ohm are connected in parallel across 18 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",2.25; 1,A; A
+DDT9063,An inductor of 500 mH carries current 1 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.25,J
+THCB9087,A true value is 50 cm and the measured value is 49 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,2,%
+THCB9106,Resistors R1 = 30 ohm and R2 = 100 ohm are in series across 18 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",4.15385; 13.84615,V; V
+NL9026,An ideal LC circuit has L = 20 mH and C = 4.7 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,3261.64037,rad/s
+LD9063,What is the electric field magnitude at a point 4 cm from a charge Q = 4.7 uC in air?,point_field: Use E = k |Q|/r^2.,2.6408 x 10^7,N/C
+DDT9047,"A solenoid has 900 turns, length 80 cm, and cross-sectional area 2 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,2.5447 x 10^-4,H
+THCB9097,A current of 3 A flows through a 5 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,45,W
+TD9135,A capacitor has capacitance C = 22 uF and voltage U = 24 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,6.336 x 10^-3,J
+NL9024,The maximum magnetic energy in an LC circuit is 12 mJ and L = 5 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",2.19089,A
+LD9108,"At point M, charge q1 = 2.5 uC is 8 cm away along the x direction and charge q2 = 5 uC is 5 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",1.832 x 10^7,N/C
+DDT9053,A flat coil area is 10 cm^2 in a uniform magnetic field 0.08 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,5.6569 x 10^-5,Wb
+LD9201,What is the electric field magnitude at a point 8 cm from a charge Q = 12 uC in air?,point_field: Use E = k |Q|/r^2.,1.6856 x 10^7,N/C
+TD9121,"A 47 uF capacitor is charged to 40 V, disconnected from the battery, then a dielectric with relative permittivity 2.5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",16,V
+TD9162,Find the charge on a 8 uF capacitor when it is connected across 5 V.,cap_charge: Use Q = C U with C in farads.,4 x 10^-5,C
+DDT9096,"A long solenoid has 300 turns, length 30 cm, and current 3 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,3.7699 x 10^-3,T
+LD9181,A dust grain of mass 4 mg and charge 12 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",3266.66667,N/C
+DDT9123,"A solenoid has 600 turns, length 60 cm, and cross-sectional area 10 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,7.5398 x 10^-4,H
+DDT9146,"A long solenoid has 2000 turns, length 40 cm, and current 3 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,0.01885,T
+LD9053,An electron enters a uniform electric field of 6 kV/m opposite to its motion with speed 2 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,1.8953 x 10^-3,m
+CH9095,"A current of 0.35 A flows through a series R-C section with R = 30 ohm, C = 20 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",56.68519,V
+CH9032,"A series RLC circuit has R = 47 ohm, L = 40 mH, C = 6.8 uF and is driven by 220 V at 60 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.5821,A
+TD9093,Capacitors of 4 uF and 12 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",16,uF
+THCB9021,Two resistors R1 = 12 ohm and R2 = 10 ohm are connected in parallel across 6 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.5; 0.6,A; A
+TD9183,A parallel-plate capacitor has circular plates of radius 4 cm separated by 0.6 mm. The dielectric constant is 2.2. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.6319 x 10^-10,F
+TD9223,Two capacitors C1 = 16 uF and C2 = 3 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",2.52632,uF
+TD9061,"A parallel-plate capacitor has plate area 12 cm^2 in air. If breakdown field is 2.5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,2.6562 x 10^-8,C
+DDT9066,"A solenoid has 1800 turns, length 25 cm, and cross-sectional area 15 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,0.02443,H
+CH9009,"A current of 0.5 A flows through a series R-C section with R = 30 ohm, C = 40 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",24.91557,V
+THCB9098,Two resistors R1 = 10 ohm and R2 = 12 ohm are connected in parallel across 9 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.9; 0.75,A; A
+DDT9139,An inductor of 250 mH carries current 0.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.03125,J
+THCB9103,A resistor of 12 ohm is connected to a 3 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.25,A
+CH9085,"A series RLC circuit has R = 100 ohm, L = 20 mH, C = 47 uF and is driven by 50 V at 200 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.49833,A
+THCB9107,Calculate the equivalent resistance of two parallel resistors 6 ohm and 60 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",5.45455,ohm
+TD9081,Two capacitors C1 = 20 uF and C2 = 50 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",14.28571,uF
+LD9125,Two point charges 4.8 uC and 8 uC are 10 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,34.5216,N
+LD9120,Two point charges 9 uC and 8 uC are 4 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,404.55,N
+LD9055,Two point charges 3.5 uC and 1.5 uC are 20 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,1.17994,N
+CH9072,"A current of 0.35 A flows through a series R-C section with R = 120 ohm, C = 40 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",44.24856,V
+TD9207,"A 47 uF capacitor is charged to 150 V, disconnected from the battery, then a dielectric with relative permittivity 6 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",25,V
+TD9140,A capacitor has capacitance C = 47 uF and voltage U = 48 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.05414,J
+DDT9017,The flux through each turn of a 200-turn coil changes from 1.5 mWb to 2.3 mWb in 100 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,1.6,V
+TD9133,A parallel-plate capacitor has circular plates of radius 4 cm separated by 0.8 mm. The dielectric constant is 4. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,2.2253 x 10^-10,F
+TD9138,Two capacitors C1 = 30 uF and C2 = 25 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",13.63636,uF
+TD9031,Two capacitors C1 = 16 uF and C2 = 7 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",4.86957,uF
+NL9076,An ideal LC circuit has L = 20 mH and C = 47 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1031.42125,rad/s
+DDT9028,Current in a 500 mH coil changes from 2 A to 3.2 A in 10 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,60,V
+CH9098,"A current of 0.8 A flows through a series R-C section with R = 20 ohm, C = 5 uF at 500 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",53.38373,V
+NL9066,An LC circuit stores maximum electric energy 0.5 mJ in a capacitor of 10 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",10,V
+DDT9147,Current in a 200 mH coil changes from 1 A to 6 A in 2 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,500,V
+CH9001,"In a series RLC circuit R = 25 ohm, L = 200 mH, C = 15 uF at f = 1000 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.02006,-
+THCB9063,A resistor of 100 ohm is connected to a 220 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,2.2,A
+THCB9009,Resistors R1 = 5 ohm and R2 = 60 ohm are in series across 60 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",4.61538; 55.38462,V; V
+NL9089,An LC circuit stores maximum electric energy 6 mJ in a capacitor of 1 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",109.54451,V
+TD9246,A capacitor C = 20 uF remains connected to a 24 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",1.44 x 10^-3,C
+CH9089,What capacitance in uF is required for resonance at 200 Hz with an inductor L = 20 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",31.66287,uF
+CH9060,"In a series RLC circuit R = 25 ohm, L = 80 mH, C = 33 uF at f = 250 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.22879,-
+TD9132,A capacitor C = 120 uF remains connected to a 72 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",0.02592,C
+LD9119,A dust grain of mass 4 mg and charge 3 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",1.3067 x 10^4,N/C
+TD9174,"A 15 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 6 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",2,V
+THCB9137,A current of 1 A flows through a 10 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,10,W
+LD9091,Two source charges q1 = 5 uC and q2 = 8.5 uC are both 4 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,7.0482 x 10^7,N/C
+DDT9137,"A long solenoid has 800 turns, length 100 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,5.0265 x 10^-4,T
+THCB9148,Resistors R1 = 20 ohm and R2 = 10 ohm are in series across 24 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",16; 8,V; V
+LD9202,Two source charges q1 = 3.5 uC and q2 = 2.5 uC are both 5 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.9981 x 10^7,N/C
+TD9233,Two capacitors C1 = 6 uF and C2 = 18 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",4.5,uF
+TD9033,A capacitor has capacitance C = 4.7 uF and voltage U = 48 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,5.4144 x 10^-3,J
+TD9060,A parallel-plate capacitor has circular plates of radius 2 cm separated by 1.5 mm. The dielectric constant is 5.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,4.0796 x 10^-11,F
+DDT9113,"A long solenoid has 1000 turns, length 100 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,6.2832 x 10^-4,T
+LD9111,"At point M, charge q1 = 2.5 uC is 5 cm away along the x direction and charge q2 = 9 uC is 7 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",1.8801 x 10^7,N/C
+CH9074,"A series RLC circuit has R = 30 ohm, L = 20 mH, C = 4.7 uF and is driven by 110 V at 400 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",2.41031,A
+LD9034,A particle carrying charge 3.6 uC is placed in a uniform electric field of 35 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.126,N
+LD9138,Two positive charges q1 = 3 uC and q2 = 5 uC are separated by 18 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,7.85685,cm
+THCB9120,A resistor of 2 ohm is connected to a 3 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,1.5,A
+LD9176,"At point M, charge q1 = 8 uC is 4 cm away along the x direction and charge q2 = 9 uC is 5 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",5.5389 x 10^7,N/C
+TD9072,A capacitor has capacitance C = 47 uF and voltage U = 60 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.0846,J
+TD9187,A capacitor C = 2 uF remains connected to a 36 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",2.16 x 10^-4,C
+NL9077,The maximum magnetic energy in an LC circuit is 0.4 mJ and L = 120 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.08165,A
+TD9070,"A 100 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 2.5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",4.8,V
+LD9095,Two positive charges q1 = 6 uC and q2 = 8 uC are separated by 18 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,8.35383,cm
+NL9053,An ideal LC circuit has L = 40 mH and C = 22 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1066.00358,rad/s
+LD9013,A dust grain of mass 2.5 mg and charge 20 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",1225,N/C
+NL9047,An LC circuit stores maximum electric energy 1 mJ in a capacitor of 50 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",6.32456,V
+TD9014,"A 100 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",2.4,V
+TD9199,Find the charge on a 25 uF capacitor when it is connected across 80 V.,cap_charge: Use Q = C U with C in farads.,2 x 10^-3,C
+LD9016,A particle carrying charge 0.5 uC is placed in a uniform electric field of 4 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,2 x 10^-3,N
+THCB9110,A resistor of 12 ohm is connected to a 36 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,3,A
+DDT9025,"A long solenoid has 800 turns, length 30 cm, and current 1.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,5.0265 x 10^-3,T
+THCB9088,Calculate the equivalent resistance of two parallel resistors 6 ohm and 30 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",5,ohm
+DDT9048,An inductor of 50 mH carries current 6 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.9,J
+NL9013,"For an LC oscillator with inductance 120 mH and capacitance 2.2 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,309.75489,Hz
+DDT9027,The flux through each turn of a 500-turn coil changes from 0.2 mWb to 3.2 mWb in 100 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,15,V
+THCB9005,A resistor of 40 ohm is connected to a 3 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.075,A
+CH9039,"In a series RLC circuit R = 90 ohm, L = 50 mH, C = 33 uF at f = 250 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.83526,-
+TD9164,Two capacitors C1 = 12 uF and C2 = 50 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",9.67742,uF
+DDT9107,Current in a 120 mH coil changes from 0 A to 1.2 A in 2 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,72,V
+LD9103,"At point M, charge q1 = 6 uC is 10 cm away along the x direction and charge q2 = 1.2 uC is 7 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",5.826 x 10^6,N/C
+TD9208,A capacitor has capacitance C = 22 uF and voltage U = 60 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.0396,J
+NL9035,An LC circuit stores maximum electric energy 1 mJ in a capacitor of 10 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",14.14214,V
+LD9022,A dust grain of mass 4 mg and charge 2 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",1.96 x 10^4,N/C
+LD9086,Two point charges 4.8 uC and 5.5 uC are 3 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,263.70667,N
+DDT9131,"A long solenoid has 2000 turns, length 80 cm, and current 2 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,6.2832 x 10^-3,T
+LD9199,A dust grain of mass 6.5 mg and charge 8 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",7962.5,N/C
+THCB9003,"A length is measured with an instrument whose least count is 0.05 cm. Taking uncertainty as half the least count, find the absolute uncertainty.",least_count_uncertainty: Absolute uncertainty = least count/2.,0.025,cm
+LD9144,Two point charges 7.5 uC and 2 uC are 3 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,149.83333,N
+LD9140,Two source charges q1 = 1 uC and q2 = 2.5 uC are both 6 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,8.2012 x 10^6,N/C
+TD9231,Find the charge on a 25 uF capacitor when it is connected across 110 V.,cap_charge: Use Q = C U with C in farads.,2.75 x 10^-3,C
+DDT9040,An inductor of 500 mH carries current 0.2 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.01,J
+NL9080,An LC circuit stores maximum electric energy 1 mJ in a capacitor of 5 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",20,V
+TD9085,A parallel-plate capacitor has circular plates of radius 2 cm separated by 2 mm. The dielectric constant is 1. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,5.5631 x 10^-12,F
+LD9132,What is the electric field magnitude at a point 2 cm from a charge Q = 12 uC in air?,point_field: Use E = k |Q|/r^2.,2.697 x 10^8,N/C
+NL9020,The maximum magnetic energy in an LC circuit is 0.8 mJ and L = 10 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.4,A
+TD9030,Find the charge on a 40 uF capacitor when it is connected across 20 V.,cap_charge: Use Q = C U with C in farads.,8 x 10^-4,C
+DDT9051,A flat coil area is 80 cm^2 in a uniform magnetic field 0.5 T. The normal makes 30 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,3.4641 x 10^-3,Wb
+LD9031,A dust grain of mass 0.8 mg and charge 12 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",653.33333,N/C
+LD9062,A particle carrying charge 10 uC is placed in a uniform electric field of 2 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.02,N
+THCB9002,Two resistors R1 = 15 ohm and R2 = 30 ohm are connected in parallel across 18 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1.2; 0.6,A; A
+CH9086,"In a series RLC circuit R = 90 ohm, L = 30 mH, C = 4.7 uF at f = 500 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.95922,-
+LD9028,A particle carrying charge 1.2 uC is placed in a uniform electric field of 20 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.024,N
+CH9082,"A current of 0.35 A flows through a series R-C section with R = 80 ohm, C = 40 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",39.49355,V
+THCB9039,Two resistors R1 = 30 ohm and R2 = 30 ohm are connected in parallel across 36 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1.2; 1.2,A; A
+DDT9103,A flat coil area is 200 cm^2 in a uniform magnetic field 0.08 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,1.6 x 10^-3,Wb
+TD9099,A capacitor has capacitance C = 4.7 uF and voltage U = 24 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,1.3536 x 10^-3,J
+THCB9134,A current of 0.75 A flows through a 5 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,2.8125,W
+LD9211,Two positive charges q1 = 1 uC and q2 = 5 uC are separated by 18 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,5.56231,cm
+CH9035,"A current of 0.5 A flows through a series R-C section with R = 80 ohm, C = 20 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",89.065,V
+DDT9156,A flat coil area is 200 cm^2 in a uniform magnetic field 0.12 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,1.6971 x 10^-3,Wb
+CH9003,"A current of 0.35 A flows through a series R-C section with R = 30 ohm, C = 5 uF at 200 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",56.68519,V
+DDT9097,The flux through each turn of a 100-turn coil changes from 1 mWb to 1.4 mWb in 20 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,2,V
+DDT9071,An inductor of 10 mH carries current 1 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,5 x 10^-3,J
+LD9023,What is the electric field magnitude at a point 15 cm from a charge Q = 8.2 uC in air?,point_field: Use E = k |Q|/r^2.,3.2764 x 10^6,N/C
+DDT9117,Current in a 120 mH coil changes from 1 A to 3 A in 10 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,24,V
+LD9128,A particle carrying charge 7.5 uC is placed in a uniform electric field of 12 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.09,N
+LD9005,Two positive charges q1 = 3 uC and q2 = 18 uC are separated by 60 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,17.39388,cm
+TD9012,"A 6 uF capacitor is charged to 300 V, disconnected from the battery, then a dielectric with relative permittivity 3 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",100,V
+TD9018,Capacitors of 47 uF and 5 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",52,uF
+DDT9110,Current in a 50 mH coil changes from 0 A to 1.2 A in 50 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,1.2,V
+TD9092,A capacitor of capacitance 3 uF carries charge 36 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,12,V
+NL9031,The maximum magnetic energy in an LC circuit is 2.5 mJ and L = 50 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.31623,A
+THCB9162,A resistor of 4 ohm is connected to a 220 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,55,A
+DDT9118,"A solenoid has 900 turns, length 100 cm, and cross-sectional area 25 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,2.5447 x 10^-3,H
+CH9037,"A current of 1.2 A flows through a series R-C section with R = 30 ohm, C = 80 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",43.19643,V
+LD9002,Two point charges 6 uC and 10 uC are 20 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,13.485,N
+TD9210,A capacitor of capacitance 30 uF carries charge 48 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,1.6,V
+LD9149,"At point M, charge q1 = 2.5 uC is 6 cm away along the x direction and charge q2 = 1.2 uC is 9 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",6.3835 x 10^6,N/C
+CH9028,"A series RLC circuit has R = 100 ohm, L = 100 mH, C = 22 uF and is driven by 24 V at 100 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.23892,A
+DDT9132,"A solenoid has 400 turns, length 25 cm, and cross-sectional area 4 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,3.217 x 10^-4,H
+TD9039,A capacitor C = 80 uF remains connected to a 12 V source while a dielectric k = 2 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",1.92 x 10^-3,C
+TD9181,A parallel-plate capacitor has circular plates of radius 3 cm separated by 1 mm. The dielectric constant is 5.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.3769 x 10^-10,F
+TD9045,Find the charge on a 5 uF capacitor when it is connected across 15 V.,cap_charge: Use Q = C U with C in farads.,7.5 x 10^-5,C
+LD9026,A dust grain of mass 1.2 mg and charge 20 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",588,N/C
+LD9210,A dust grain of mass 6.5 mg and charge 12 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",5308.33333,N/C
+TD9203,A capacitor C = 2 uF remains connected to a 12 V source while a dielectric k = 4 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",9.6 x 10^-5,C
+TD9056,"A 47 uF capacitor is charged to 300 V, disconnected from the battery, then a dielectric with relative permittivity 5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",60,V
+TD9175,A capacitor C = 20 uF remains connected to a 72 V source while a dielectric k = 2 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",2.88 x 10^-3,C
+CH9106,"In a series RLC circuit R = 12 ohm, L = 50 mH, C = 3.3 uF at f = 100 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.02661,-
+TD9057,A capacitor of capacitance 45 uF carries charge 72 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,1.6,V
+LD9170,Two positive charges q1 = 2 uC and q2 = 2 uC are separated by 60 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,30,cm
+LD9185,What is the electric field magnitude at a point 25 cm from a charge Q = 6.8 uC in air?,point_field: Use E = k |Q|/r^2.,9.7811 x 10^5,N/C
+LD9160,A dust grain of mass 9 mg and charge 2 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",4.41 x 10^4,N/C
+TD9241,A capacitor C = 50 uF remains connected to a 12 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",1.8 x 10^-3,C
+CH9099,"In a series RLC circuit R = 60 ohm, L = 200 mH, C = 33 uF at f = 100 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.61249,-
+CH9050,"In a series RLC circuit R = 25 ohm, L = 50 mH, C = 4.7 uF at f = 500 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.26944,-
+LD9098,Two source charges q1 = 2 uC and q2 = 8.5 uC are both 5 cm from point M. The angle between their field directions at M is 90 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,3.1401 x 10^7,N/C
+TD9082,Capacitors of 22 uF and 39 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",61,uF
+TD9238,Two capacitors C1 = 16 uF and C2 = 35 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",10.98039,uF
+DDT9141,"A long solenoid has 1500 turns, length 40 cm, and current 5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,0.02356,T
+TD9069,A parallel-plate capacitor has circular plates of radius 8 cm separated by 1.5 mm. The dielectric constant is 4. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,4.7472 x 10^-10,F
+NL9062,"For an LC oscillator with inductance 15 mH and capacitance 2.2 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,876.11913,Hz
+CH9091,"In a series RLC circuit R = 90 ohm, L = 50 mH, C = 33 uF at f = 100 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.98299,-
+TD9090,A capacitor has capacitance C = 1 uF and voltage U = 120 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,7.2 x 10^-3,J
+DDT9003,The flux through each turn of a 500-turn coil changes from 2.5 mWb to 4.5 mWb in 100 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,10,V
+LD9155,"At point M, charge q1 = 8 uC is 6 cm away along the x direction and charge q2 = 5 uC is 7 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",2.1983 x 10^7,N/C
+CH9043,What capacitance in uF is required for resonance at 50 Hz with an inductor L = 100 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",101.32118,uF
+TD9189,Capacitors of 6 uF and 39 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",45,uF
+DDT9081,"A solenoid has 1800 turns, length 25 cm, and cross-sectional area 6 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,9.7716 x 10^-3,H
+TD9064,Two capacitors C1 = 4 uF and C2 = 15 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",3.15789,uF
+CH9030,What capacitance in uF is required for resonance at 200 Hz with an inductor L = 500 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",1.26651,uF
+THCB9030,A current of 3 A flows through a 10 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,90,W
+NL9063,An ideal LC circuit has L = 5 mH and C = 10 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,4472.13595,rad/s
+LD9072,An electron enters a uniform electric field of 12 kV/m opposite to its motion with speed 5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,5.9229 x 10^-3,m
+TD9180,A capacitor has capacitance C = 10 uF and voltage U = 120 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.072,J
+NL9092,The maximum magnetic energy in an LC circuit is 2.5 mJ and L = 20 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.5,A
+THCB9118,Two resistors R1 = 6 ohm and R2 = 18 ohm are connected in parallel across 24 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",4; 1.33333,A; A
+THCB9152,Two resistors R1 = 6 ohm and R2 = 60 ohm are connected in parallel across 6 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1; 0.1,A; A
+TD9044,Find the charge on a 75 uF capacitor when it is connected across 5 V.,cap_charge: Use Q = C U with C in farads.,3.75 x 10^-4,C
+NL9011,An LC circuit stores maximum electric energy 0.2 mJ in a capacitor of 50 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",2.82843,V
+TD9247,A capacitor C = 10 uF remains connected to a 12 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",3.6 x 10^-4,C
+DDT9038,A flat coil area is 20 cm^2 in a uniform magnetic field 0.35 T. The normal makes 30 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,6.0622 x 10^-4,Wb
+LD9038,Two point charges 3.5 uC and 4 uC are 6 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,34.96111,N
+NL9078,An LC circuit stores maximum electric energy 3.5 mJ in a capacitor of 0.5 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",118.3216,V
+CH9005,"A series RLC circuit has R = 15 ohm, L = 20 mH, C = 2.2 uF and is driven by 12 V at 400 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.09129,A
+TD9178,"A parallel-plate capacitor has plate area 20 cm^2 in air. If breakdown field is 5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,8.854 x 10^-8,C
+THCB9158,Resistors R1 = 15 ohm and R2 = 25 ohm are in series across 12 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",4.5; 7.5,V; V
+NL9028,An LC circuit stores maximum electric energy 0.2 mJ in a capacitor of 20 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",4.47214,V
+LD9198,Two positive charges q1 = 1 uC and q2 = 2 uC are separated by 30 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,12.42641,cm
+NL9050,An LC circuit stores maximum electric energy 6 mJ in a capacitor of 10 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",34.64102,V
+TD9017,Two capacitors C1 = 30 uF and C2 = 7 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",5.67568,uF
+DDT9153,A flat coil area is 20 cm^2 in a uniform magnetic field 0.08 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,1.6 x 10^-4,Wb
+DDT9011,Current in a 20 mH coil changes from 1.5 A to 6.5 A in 5 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,20,V
+TD9239,A capacitor C = 50 uF remains connected to a 72 V source while a dielectric k = 4 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",0.0144,C
+LD9126,What is the electric field magnitude at a point 4 cm from a charge Q = 8.2 uC in air?,point_field: Use E = k |Q|/r^2.,4.6074 x 10^7,N/C
+THCB9026,Calculate the equivalent resistance of two parallel resistors 6 ohm and 9 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",3.6,ohm
+TD9124,"A parallel-plate capacitor has plate area 12 cm^2 in air. If breakdown field is 2 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,2.125 x 10^-8,C
+DDT9133,"A long solenoid has 1500 turns, length 100 cm, and current 1.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,2.8274 x 10^-3,T
+THCB9132,Resistors R1 = 10 ohm and R2 = 10 ohm are in series across 60 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",30; 30,V; V
+THCB9034,Calculate the equivalent resistance of two parallel resistors 8 ohm and 12 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",4.8,ohm
+DDT9142,"A solenoid has 600 turns, length 100 cm, and cross-sectional area 15 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,6.7858 x 10^-4,H
+CH9104,"A current of 0.35 A flows through a series R-C section with R = 30 ohm, C = 40 uF at 500 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",10.86312,V
+CH9080,"A current of 0.35 A flows through a series R-C section with R = 20 ohm, C = 10 uF at 200 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",28.71829,V
+THCB9059,A resistor of 2 ohm is connected to a 48 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,24,A
+NL9041,The maximum magnetic energy in an LC circuit is 2.5 mJ and L = 80 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.25,A
+CH9024,What capacitance in uF is required for resonance at 60 Hz with an inductor L = 10 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",703.61933,uF
+TD9024,Capacitors of 6 uF and 2 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",8,uF
+DDT9099,The flux through each turn of a 50-turn coil changes from 0.5 mWb to 0.9 mWb in 10 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,2,V
+THCB9167,A current of 3 A flows through a 47 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,423,W
+THCB9066,A true value is 50 cm and the measured value is 52 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,4,%
+TD9186,A capacitor C = 10 uF remains connected to a 72 V source while a dielectric k = 5 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",3.6 x 10^-3,C
+TD9107,"A 4 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 2.5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",4.8,V
+DDT9035,The flux through each turn of a 50-turn coil changes from 0.2 mWb to 0.6 mWb in 5 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,4,V
+THCB9116,Resistors R1 = 20 ohm and R2 = 100 ohm are in series across 24 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",4; 20,V; V
+DDT9111,A flat coil area is 80 cm^2 in a uniform magnetic field 0.08 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,6.4 x 10^-4,Wb
+LD9168,What is the electric field magnitude at a point 25 cm from a charge Q = 1.5 uC in air?,point_field: Use E = k |Q|/r^2.,2.1576 x 10^5,N/C
+LD9050,An electron enters a uniform electric field of 2.5 kV/m opposite to its motion with speed 5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,0.02843,m
+TD9219,Capacitors of 47 uF and 8 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",55,uF
+LD9001,Two point charges 7.5 uC and 10 uC are 4 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,421.40625,N
+THCB9085,Two resistors R1 = 12 ohm and R2 = 18 ohm are connected in parallel across 6 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.5; 0.33333,A; A
+DDT9102,"A solenoid has 1200 turns, length 60 cm, and cross-sectional area 15 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,4.5239 x 10^-3,H
+LD9153,Two positive charges q1 = 1 uC and q2 = 3 uC are separated by 12 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,4.3923,cm
+LD9115,Two source charges q1 = 5 uC and q2 = 1.5 uC are both 6 cm from point M. The angle between their field directions at M is 90 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.3036 x 10^7,N/C
+LD9122,Two point charges 7.5 uC and 8 uC are 3 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,599.33333,N
+DDT9043,A flat coil area is 80 cm^2 in a uniform magnetic field 0.5 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,2.8284 x 10^-3,Wb
+LD9147,"At point M, charge q1 = 8 uC is 3 cm away along the x direction and charge q2 = 1.2 uC is 4 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",8.0195 x 10^7,N/C
+NL9048,An ideal LC circuit has L = 10 mH and C = 22 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,2132.00716,rad/s
+DDT9152,An inductor of 5 mH carries current 1.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,5.625 x 10^-3,J
+NL9072,The maximum magnetic energy in an LC circuit is 0.4 mJ and L = 50 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.12649,A
+LD9074,An electron enters a uniform electric field of 2.5 kV/m opposite to its motion with speed 6 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,0.04094,m
+THCB9113,Resistors R1 = 5 ohm and R2 = 25 ohm are in series across 36 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",6; 30,V; V
+TD9120,Capacitors of 15 uF and 2 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",17,uF
+THCB9031,Resistors R1 = 50 ohm and R2 = 10 ohm are in series across 12 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",10; 2,V; V
+NL9065,The maximum magnetic energy in an LC circuit is 12 mJ and L = 20 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",1.09545,A
+LD9073,An electron enters a uniform electric field of 4 kV/m opposite to its motion with speed 1.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,1.5992 x 10^-3,m
+THCB9070,A true value is 80 cm and the measured value is 82 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,2.5,%
+TD9067,A parallel-plate capacitor has circular plates of radius 10 cm separated by 1 mm. The dielectric constant is 2.2. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,6.1194 x 10^-10,F
+DDT9074,"A solenoid has 1200 turns, length 100 cm, and cross-sectional area 4 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,7.2382 x 10^-4,H
+TD9163,A capacitor of capacitance 12 uF carries charge 18 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,1.5,V
+DDT9008,"A long solenoid has 1500 turns, length 20 cm, and current 5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,0.04712,T
+DDT9050,"A long solenoid has 500 turns, length 100 cm, and current 1.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,9.4248 x 10^-4,T
+TD9065,Find the charge on a 8 uF capacitor when it is connected across 10 V.,cap_charge: Use Q = C U with C in farads.,8 x 10^-5,C
+DDT9083,The flux through each turn of a 500-turn coil changes from 1.5 mWb to 4.5 mWb in 10 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,150,V
+LD9059,An electron enters a uniform electric field of 8 kV/m opposite to its motion with speed 2.8 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,2.7861 x 10^-3,m
+THCB9056,"A length is measured with an instrument whose least count is 0.01 cm. Taking uncertainty as half the least count, find the absolute uncertainty.",least_count_uncertainty: Absolute uncertainty = least count/2.,5 x 10^-3,cm
+THCB9129,Calculate the equivalent resistance of two parallel resistors 12 ohm and 6 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",4,ohm
+DDT9106,An inductor of 20 mH carries current 6 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.36,J
+THCB9006,Two resistors R1 = 20 ohm and R2 = 10 ohm are connected in parallel across 24 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1.2; 2.4,A; A
+LD9163,Two point charges 1.8 uC and 1.5 uC are 8 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,3.79266,N
+THCB9150,A true value is 120 cm and the measured value is 121 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,0.83333,%
+TD9011,A parallel-plate capacitor has circular plates of radius 3 cm separated by 0.6 mm. The dielectric constant is 4. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.6689 x 10^-10,F
+CH9076,What capacitance in uF is required for resonance at 400 Hz with an inductor L = 200 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",0.79157,uF
+CH9061,What capacitance in uF is required for resonance at 50 Hz with an inductor L = 200 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",50.66059,uF
+TD9230,Capacitors of 6 uF and 3.5 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",9.5,uF
+LD9117,A dust grain of mass 6.5 mg and charge 2 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",3.185 x 10^4,N/C
+LD9146,"At point M, charge q1 = 2.5 uC is 8 cm away along the x direction and charge q2 = 9 uC is 4 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",5.0691 x 10^7,N/C
+LD9162,An electron enters a uniform electric field of 2.5 kV/m opposite to its motion with speed 2.8 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,8.9157 x 10^-3,m
+LD9012,Two source charges q1 = 7 uC and q2 = 2.5 uC are both 5 cm from point M. The angle between their field directions at M is 120 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,2.2094 x 10^7,N/C
+THCB9016,A current of 0.2 A flows through a 10 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,0.4,W
+CH9004,"A series RLC circuit has R = 47 ohm, L = 150 mH, C = 22 uF and is driven by 24 V at 100 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.46284,A
+DDT9157,Current in a 50 mH coil changes from 1.5 A to 5 A in 5 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,35,V
+TD9157,"A parallel-plate capacitor has plate area 180 cm^2 in air. If breakdown field is 2.5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,3.9843 x 10^-7,C
+TD9080,A capacitor of capacitance 90 uF carries charge 48 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,0.53333,V
+DDT9088,A flat coil area is 20 cm^2 in a uniform magnetic field 0.5 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,7.0711 x 10^-4,Wb
+DDT9018,An inductor of 20 mH carries current 0.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,2.5 x 10^-3,J
+LD9135,A dust grain of mass 1.2 mg and charge 5 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",2352,N/C
+TD9198,A capacitor has capacitance C = 15 uF and voltage U = 6 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,2.7 x 10^-4,J
+TD9002,"A parallel-plate capacitor has plate area 20 cm^2 in air. If breakdown field is 3 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,5.3124 x 10^-8,C
+TD9232,A capacitor of capacitance 6 uF carries charge 12 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,2,V
+TD9206,Find the charge on a 40 uF capacitor when it is connected across 15 V.,cap_charge: Use Q = C U with C in farads.,6 x 10^-4,C
+TD9130,Two capacitors C1 = 3 uF and C2 = 25 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",2.67857,uF
+TD9141,Find the charge on a 120 uF capacitor when it is connected across 36 V.,cap_charge: Use Q = C U with C in farads.,4.32 x 10^-3,C
+LD9172,An electron enters a uniform electric field of 8 kV/m opposite to its motion with speed 3.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,4.3534 x 10^-3,m
+THCB9092,A current of 2 A flows through a 68 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,272,W
+LD9110,A dust grain of mass 1.2 mg and charge 3 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",3920,N/C
+DDT9104,The flux through each turn of a 50-turn coil changes from 1.5 mWb to 3.5 mWb in 10 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,10,V
+DDT9072,Current in a 120 mH coil changes from 0.5 A to 5.5 A in 2 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,300,V
+LD9114,"At point M, charge q1 = 1.5 uC is 5 cm away along the x direction and charge q2 = 5 uC is 4 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",2.8607 x 10^7,N/C
+TD9034,A capacitor of capacitance 3 uF carries charge 96 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,32,V
+LD9191,Two point charges 4.8 uC and 8 uC are 5 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,138.0864,N
+CH9071,What capacitance in uF is required for resonance at 60 Hz with an inductor L = 50 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",140.72387,uF
+TD9117,Find the charge on a 12 uF capacitor when it is connected across 20 V.,cap_charge: Use Q = C U with C in farads.,2.4 x 10^-4,C
+TD9222,A capacitor of capacitance 18 uF carries charge 12 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,0.66667,V
+DDT9130,Current in a 80 mH coil changes from 0.5 A to 4 A in 20 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,14,V
+THCB9023,"A length is measured with an instrument whose least count is 0.02 cm. Taking uncertainty as half the least count, find the absolute uncertainty.",least_count_uncertainty: Absolute uncertainty = least count/2.,0.01,cm
+DDT9023,An inductor of 250 mH carries current 6 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,4.5,J
+LD9166,An electron enters a uniform electric field of 2.5 kV/m opposite to its motion with speed 4.2 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,0.02006,m
+LD9112,Two point charges 4.8 uC and 5.5 uC are 10 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,23.7336,N
+DDT9022,"A long solenoid has 300 turns, length 20 cm, and current 1 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,1.885 x 10^-3,T
+THCB9130,Resistors R1 = 5 ohm and R2 = 40 ohm are in series across 18 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",2; 16,V; V
+TD9165,Capacitors of 10 uF and 2 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",12,uF
+THCB9073,Two resistors R1 = 30 ohm and R2 = 24 ohm are connected in parallel across 9 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.3; 0.375,A; A
+LD9148,A particle carrying charge 5 uC is placed in a uniform electric field of 4 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.02,N
+LD9161,"At point M, charge q1 = 1.5 uC is 5 cm away along the x direction and charge q2 = 3 uC is 15 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",5.5256 x 10^6,N/C
+LD9177,Two source charges q1 = 1 uC and q2 = 4.5 uC are both 4 cm from point M. The angle between their field directions at M is 90 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,2.5901 x 10^7,N/C
+LD9104,"At point M, charge q1 = 2.5 uC is 8 cm away along the x direction and charge q2 = 5 uC is 9 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",6.5672 x 10^6,N/C
+LD9192,What is the electric field magnitude at a point 5 cm from a charge Q = 12 uC in air?,point_field: Use E = k |Q|/r^2.,4.3152 x 10^7,N/C
+NL9085,The maximum magnetic energy in an LC circuit is 0.8 mJ and L = 50 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.17889,A
+NL9006,An ideal LC circuit has L = 150 mH and C = 1 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,2581.9889,rad/s
+LD9208,Two source charges q1 = 2 uC and q2 = 2.5 uC are both 5 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.4966 x 10^7,N/C
+TD9194,A capacitor C = 120 uF remains connected to a 12 V source while a dielectric k = 2 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",2.88 x 10^-3,C
+TD9166,A capacitor C = 50 uF remains connected to a 12 V source while a dielectric k = 4 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",2.4 x 10^-3,C
+DDT9001,"A solenoid has 900 turns, length 25 cm, and cross-sectional area 15 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,6.1073 x 10^-3,H
+DDT9143,The flux through each turn of a 500-turn coil changes from 0.2 mWb to 3.2 mWb in 5 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,300,V
+LD9093,What is the electric field magnitude at a point 2 cm from a charge Q = 3.3 uC in air?,point_field: Use E = k |Q|/r^2.,7.4168 x 10^7,N/C
+LD9193,A particle carrying charge 2 uC is placed in a uniform electric field of 2 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,4 x 10^-3,N
+DDT9126,"A long solenoid has 500 turns, length 80 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,3.927 x 10^-4,T
+NL9054,"For an LC oscillator with inductance 60 mH and capacitance 1 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,649.74733,Hz
+CH9046,"A series RLC circuit has R = 68 ohm, L = 20 mH, C = 4.7 uF and is driven by 220 V at 60 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.39217,A
+LD9018,A dust grain of mass 9 mg and charge 8 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",1.1025 x 10^4,N/C
+THCB9052,A current of 0.2 A flows through a 68 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,2.72,W
+NL9074,An ideal LC circuit has L = 40 mH and C = 0.5 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,7071.06781,rad/s
+LD9109,Two source charges q1 = 3.5 uC and q2 = 2.5 uC are both 10 cm from point M. The angle between their field directions at M is 90 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,3.8667 x 10^6,N/C
+LD9082,A dust grain of mass 4 mg and charge 20 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",1960,N/C
+DDT9009,"A solenoid has 400 turns, length 100 cm, and cross-sectional area 15 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,3.0159 x 10^-4,H
+DDT9073,"A long solenoid has 2000 turns, length 30 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,4.1888 x 10^-3,T
+DDT9145,A flat coil area is 50 cm^2 in a uniform magnetic field 0.08 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,2.8284 x 10^-4,Wb
+DDT9158,"A long solenoid has 800 turns, length 50 cm, and current 5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,0.01005,T
+LD9007,An electron enters a uniform electric field of 12 kV/m opposite to its motion with speed 2.8 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,1.8574 x 10^-3,m
+CH9033,"A current of 1.2 A flows through a series R-C section with R = 30 ohm, C = 10 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",383.66457,V
+TD9131,Capacitors of 33 uF and 12 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",45,uF
+NL9069,"For an LC oscillator with inductance 15 mH and capacitance 4.7 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,599.41219,Hz
+LD9179,What is the electric field magnitude at a point 8 cm from a charge Q = 0.8 uC in air?,point_field: Use E = k |Q|/r^2.,1.1238 x 10^6,N/C
+LD9156,A dust grain of mass 1.2 mg and charge 8 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",1470,N/C
+CH9055,"A series RLC circuit has R = 30 ohm, L = 20 mH, C = 47 uF and is driven by 110 V at 400 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",2.13795,A
+THCB9040,Resistors R1 = 5 ohm and R2 = 60 ohm are in series across 36 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",2.76923; 33.23077,V; V
+LD9099,Two positive charges q1 = 2 uC and q2 = 2 uC are separated by 12 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,6,cm
+THCB9142,A true value is 120 cm and the measured value is 123 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,2.5,%
+DDT9080,Current in a 50 mH coil changes from 0 A to 3.5 A in 20 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,8.75,V
+TD9110,A capacitor of capacitance 9 uF carries charge 240 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,26.66667,V
+THCB9086,Calculate the equivalent resistance of two parallel resistors 24 ohm and 12 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",8,ohm
+DDT9098,An inductor of 20 mH carries current 1.5 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.0225,J
+THCB9153,Two resistors R1 = 20 ohm and R2 = 12 ohm are connected in parallel across 6 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.3; 0.5,A; A
+LD9078,What is the electric field magnitude at a point 4 cm from a charge Q = 12 uC in air?,point_field: Use E = k |Q|/r^2.,6.7425 x 10^7,N/C
+TD9226,"A parallel-plate capacitor has plate area 180 cm^2 in air. If breakdown field is 4 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,6.3749 x 10^-7,C
+NL9008,"For an LC oscillator with inductance 30 mH and capacitance 1 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,918.88149,Hz
+THCB9094,A true value is 100 cm and the measured value is 98.5 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,1.5,%
+THCB9144,A true value is 50 cm and the measured value is 51.5 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,3,%
+NL9079,"For an LC oscillator with inductance 2 mH and capacitance 4.7 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,1641.5579,Hz
+THCB9037,Two resistors R1 = 30 ohm and R2 = 18 ohm are connected in parallel across 9 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.3; 0.5,A; A
+TD9209,Capacitors of 2.5 uF and 12 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",14.5,uF
+NL9012,An ideal LC circuit has L = 150 mH and C = 47 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,376.62179,rad/s
+LD9080,"At point M, charge q1 = 1.5 uC is 3 cm away along the x direction and charge q2 = 1.2 uC is 15 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",1.4991 x 10^7,N/C
+LD9187,Two positive charges q1 = 3 uC and q2 = 3 uC are separated by 30 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,15,cm
+TD9042,A capacitor of capacitance 3 uF carries charge 18 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,6,V
+DDT9116,"A solenoid has 600 turns, length 100 cm, and cross-sectional area 6 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,2.7143 x 10^-4,H
+LD9030,An electron enters a uniform electric field of 6 kV/m opposite to its motion with speed 1.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,1.0661 x 10^-3,m
+TD9123,A parallel-plate capacitor has circular plates of radius 3 cm separated by 0.4 mm. The dielectric constant is 3.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,2.1905 x 10^-10,F
+DDT9024,Current in a 120 mH coil changes from 0 A to 3.5 A in 5 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,84,V
+THCB9038,Two resistors R1 = 6 ohm and R2 = 18 ohm are connected in parallel across 18 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",3; 1,A; A
+CH9073,What capacitance in uF is required for resonance at 1000 Hz with an inductor L = 500 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",0.05066,uF
+LD9088,Two source charges q1 = 5 uC and q2 = 1.5 uC are both 10 cm from point M. The angle between their field directions at M is 60 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,5.2995 x 10^6,N/C
+THCB9062,Calculate the equivalent resistance of two parallel resistors 24 ohm and 20 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",10.90909,ohm
+LD9212,Two source charges q1 = 5 uC and q2 = 1.5 uC are both 5 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,2.2125 x 10^7,N/C
+TD9245,A parallel-plate capacitor has circular plates of radius 6 cm separated by 1.5 mm. The dielectric constant is 4. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,2.6703 x 10^-10,F
+THCB9108,A true value is 120 cm and the measured value is 118.5 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,1.25,%
+LD9090,An electron enters a uniform electric field of 12 kV/m opposite to its motion with speed 1.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,5.3306 x 10^-4,m
+CH9100,"A current of 0.35 A flows through a series R-C section with R = 50 ohm, C = 20 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",32.89362,V
+LD9150,Two source charges q1 = 7 uC and q2 = 4.5 uC are both 4 cm from point M. The angle between their field directions at M is 60 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,5.6398 x 10^7,N/C
+THCB9133,A true value is 20 cm and the measured value is 19 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,5,%
+THCB9053,A resistor of 12 ohm is connected to a 48 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,4,A
+DDT9036,Current in a 200 mH coil changes from 0.5 A to 2.5 A in 5 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,80,V
+TD9113,"A 6 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",2.4,V
+THCB9077,Two resistors R1 = 10 ohm and R2 = 30 ohm are connected in parallel across 18 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1.8; 0.6,A; A
+LD9129,Two positive charges q1 = 4 uC and q2 = 2 uC are separated by 40 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,23.43146,cm
+TD9185,"A parallel-plate capacitor has plate area 50 cm^2 in air. If breakdown field is 5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,2.2135 x 10^-7,C
+NL9052,An ideal LC circuit has L = 20 mH and C = 0.5 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1 x 10^4,rad/s
+LD9165,What is the electric field magnitude at a point 10 cm from a charge Q = 8.2 uC in air?,point_field: Use E = k |Q|/r^2.,7.3718 x 10^6,N/C
+TD9004,A capacitor of capacitance 45 uF carries charge 150 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,3.33333,V
+DDT9085,Current in a 500 mH coil changes from 0.5 A to 5.5 A in 50 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,50,V
+CH9014,"In a series RLC circuit R = 12 ohm, L = 80 mH, C = 15 uF at f = 50 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.06401,-
+NL9034,An ideal LC circuit has L = 10 mH and C = 0.5 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1.4142 x 10^4,rad/s
+TD9167,A parallel-plate capacitor has circular plates of radius 10 cm separated by 1 mm. The dielectric constant is 5.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.5299 x 10^-9,F
+TD9104,"A 22 uF capacitor is charged to 90 V, disconnected from the battery, then a dielectric with relative permittivity 5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",18,V
+THCB9146,A current of 0.4 A flows through a 15 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,2.4,W
+TD9016,A capacitor has capacitance C = 220 uF and voltage U = 6 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,3.96 x 10^-3,J
+THCB9131,Two resistors R1 = 20 ohm and R2 = 60 ohm are connected in parallel across 18 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.9; 0.3,A; A
+TD9087,Two capacitors C1 = 12 uF and C2 = 35 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",8.93617,uF
+TD9035,Two capacitors C1 = 8 uF and C2 = 25 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",6.06061,uF
+TD9205,"A parallel-plate capacitor has plate area 180 cm^2 in air. If breakdown field is 5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,7.9686 x 10^-7,C
+TD9003,"A 10 uF capacitor is charged to 150 V, disconnected from the battery, then a dielectric with relative permittivity 5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",30,V
+DDT9021,Current in a 200 mH coil changes from 0.5 A to 1.7 A in 10 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,24,V
+TD9089,"A 22 uF capacitor is charged to 90 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",22.5,V
+DDT9115,A flat coil area is 120 cm^2 in a uniform magnetic field 0.08 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,9.6 x 10^-4,Wb
+TD9007,A capacitor has capacitance C = 47 uF and voltage U = 18 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,7.614 x 10^-3,J
+TD9075,"A 4 uF capacitor is charged to 12 V, disconnected from the battery, then a dielectric with relative permittivity 2 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",6,V
+CH9059,"In a series RLC circuit R = 18 ohm, L = 30 mH, C = 4.7 uF at f = 50 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.02694,-
+LD9032,What is the electric field magnitude at a point 3 cm from a charge Q = 12 uC in air?,point_field: Use E = k |Q|/r^2.,1.1987 x 10^8,N/C
+THCB9117,A current of 1 A flows through a 15 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,15,W
+NL9049,"For an LC oscillator with inductance 60 mH and capacitance 10 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,205.46815,Hz
+DDT9128,The flux through each turn of a 100-turn coil changes from 0.5 mWb to 3.5 mWb in 20 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,15,V
+TD9212,Capacitors of 4 uF and 2 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",6,uF
+NL9081,The maximum magnetic energy in an LC circuit is 1.5 mJ and L = 20 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.3873,A
+TD9052,"A 10 uF capacitor is charged to 150 V, disconnected from the battery, then a dielectric with relative permittivity 2 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",75,V
+DDT9140,Current in a 500 mH coil changes from 1 A to 2.2 A in 5 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,120,V
+DDT9019,"A long solenoid has 1500 turns, length 30 cm, and current 2 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,0.01257,T
+DDT9068,"A long solenoid has 500 turns, length 20 cm, and current 3 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,9.4248 x 10^-3,T
+TD9097,A capacitor has capacitance C = 1 uF and voltage U = 240 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.0288,J
+TD9118,Two capacitors C1 = 2 uF and C2 = 7 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",1.55556,uF
+DDT9148,"A long solenoid has 1000 turns, length 50 cm, and current 1 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,2.5133 x 10^-3,T
+LD9173,What is the electric field magnitude at a point 5 cm from a charge Q = 8.2 uC in air?,point_field: Use E = k |Q|/r^2.,2.9487 x 10^7,N/C
+DDT9061,A flat coil area is 120 cm^2 in a uniform magnetic field 0.12 T. The normal makes 60 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,7.2 x 10^-4,Wb
+CH9042,"In a series RLC circuit R = 60 ohm, L = 50 mH, C = 15 uF at f = 100 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.62629,-
+TD9242,A capacitor of capacitance 60 uF carries charge 96 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,1.6,V
+LD9182,Two point charges 1.2 uC and 1.5 uC are 12 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,1.12375,N
+DDT9127,A flat coil area is 200 cm^2 in a uniform magnetic field 0.12 T. The normal makes 30 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,2.0785 x 10^-3,Wb
+LD9011,"At point M, charge q1 = 2.5 uC is 6 cm away along the x direction and charge q2 = 7.5 uC is 7 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",1.511 x 10^7,N/C
+TD9213,Find the charge on a 25 uF capacitor when it is connected across 220 V.,cap_charge: Use Q = C U with C in farads.,5.5 x 10^-3,C
+NL9091,An ideal LC circuit has L = 10 mH and C = 47 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1458.64991,rad/s
+THCB9166,A true value is 80 cm and the measured value is 79 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,1.25,%
+TD9225,A capacitor C = 120 uF remains connected to a 24 V source while a dielectric k = 5 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",0.0144,C
+THCB9011,A true value is 100 cm and the measured value is 99 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,1,%
+THCB9019,Calculate the equivalent resistance of two parallel resistors 12 ohm and 20 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",7.5,ohm
+CH9057,What capacitance in uF is required for resonance at 1000 Hz with an inductor L = 200 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",0.12665,uF
+CH9092,"A current of 0.8 A flows through a series R-C section with R = 30 ohm, C = 80 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",28.79762,V
+TD9252,A parallel-plate capacitor has circular plates of radius 6 cm separated by 2 mm. The dielectric constant is 2.2. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,1.1015 x 10^-10,F
+TD9054,A parallel-plate capacitor has circular plates of radius 2 cm separated by 1.5 mm. The dielectric constant is 3.5. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,2.5961 x 10^-11,F
+LD9027,Two point charges 4.8 uC and 2 uC are 8 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,13.485,N
+TD9074,Find the charge on a 120 uF capacitor when it is connected across 10 V.,cap_charge: Use Q = C U with C in farads.,1.2 x 10^-3,C
+THCB9004,Two resistors R1 = 30 ohm and R2 = 30 ohm are connected in parallel across 6 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.2; 0.2,A; A
+NL9022,An LC circuit stores maximum electric energy 0.2 mJ in a capacitor of 5 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",8.94427,V
+LD9019,"At point M, charge q1 = 4 uC is 6 cm away along the x direction and charge q2 = 3 uC is 7 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",1.1405 x 10^7,N/C
+TD9191,Find the charge on a 120 uF capacitor when it is connected across 80 V.,cap_charge: Use Q = C U with C in farads.,9.6 x 10^-3,C
+LD9008,Two point charges 9 uC and 1.5 uC are 3 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,134.85,N
+TD9134,Capacitors of 22 uF and 18 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",40,uF
+TD9084,Capacitors of 1.5 uF and 2 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",3.5,uF
+LD9180,An electron enters a uniform electric field of 2.5 kV/m opposite to its motion with speed 3.5 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,0.01393,m
+TD9027,A capacitor C = 10 uF remains connected to a 9 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",2.7 x 10^-4,C
+DDT9013,An inductor of 5 mH carries current 4 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,0.04,J
+TD9204,A parallel-plate capacitor has circular plates of radius 4 cm separated by 1.5 mm. The dielectric constant is 1. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,2.967 x 10^-11,F
+TD9229,Find the charge on a 2 uF capacitor when it is connected across 50 V.,cap_charge: Use Q = C U with C in farads.,1 x 10^-4,C
+LD9194,Two point charges 6 uC and 2.8 uC are 12 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,10.48833,N
+LD9056,What is the electric field magnitude at a point 10 cm from a charge Q = 12 uC in air?,point_field: Use E = k |Q|/r^2.,1.0788 x 10^7,N/C
+DDT9122,A flat coil area is 50 cm^2 in a uniform magnetic field 0.12 T. The normal makes 60 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,3 x 10^-4,Wb
+NL9037,An ideal LC circuit has L = 10 mH and C = 2.2 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,6741.99862,rad/s
+LD9046,"At point M, charge q1 = 8 uC is 5 cm away along the x direction and charge q2 = 3 uC is 7 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",2.929 x 10^7,N/C
+THCB9091,A resistor of 15 ohm is connected to a 12 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.8,A
+NL9021,"For an LC oscillator with inductance 120 mH and capacitance 0.47 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,670.16321,Hz
+LD9123,A dust grain of mass 9 mg and charge 3 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",2.94 x 10^4,N/C
+LD9079,A particle carrying charge 0.5 uC is placed in a uniform electric field of 8 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,4 x 10^-3,N
+DDT9010,A flat coil area is 120 cm^2 in a uniform magnetic field 0.08 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,6.7882 x 10^-4,Wb
+THCB9012,Two resistors R1 = 8 ohm and R2 = 30 ohm are connected in parallel across 24 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",3; 0.8,A; A
+TD9029,A capacitor has capacitance C = 2.2 uF and voltage U = 120 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,0.01584,J
+LD9130,"At point M, charge q1 = 1.5 uC is 8 cm away along the x direction and charge q2 = 9 uC is 5 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",3.2433 x 10^7,N/C
+THCB9111,A true value is 10 cm and the measured value is 11.5 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,15,%
+TD9152,A capacitor of capacitance 30 uF carries charge 240 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,8,V
+NL9097,An ideal LC circuit has L = 20 mH and C = 22 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,1507.55672,rad/s
+LD9196,"At point M, charge q1 = 6 uC is 10 cm away along the x direction and charge q2 = 1.2 uC is 15 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",5.4153 x 10^6,N/C
+DDT9091,A flat coil area is 10 cm^2 in a uniform magnetic field 0.12 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,1.2 x 10^-4,Wb
+NL9040,An ideal LC circuit has L = 75 mH and C = 22 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,778.49894,rad/s
+TD9009,"A 6 uF capacitor is charged to 90 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",22.5,V
+THCB9057,A current of 0.4 A flows through a 47 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,7.52,W
+LD9175,A particle carrying charge 3.6 uC is placed in a uniform electric field of 4 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.0144,N
+THCB9115,Resistors R1 = 30 ohm and R2 = 60 ohm are in series across 18 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",6; 12,V; V
+CH9103,What capacitance in uF is required for resonance at 1000 Hz with an inductor L = 20 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",1.26651,uF
+CH9069,"A current of 0.5 A flows through a series R-C section with R = 80 ohm, C = 40 uF at 200 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",41.21828,V
+CH9017,What capacitance in uF is required for resonance at 400 Hz with an inductor L = 20 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",7.91572,uF
+DDT9032,"A long solenoid has 1000 turns, length 40 cm, and current 0.5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,1.5708 x 10^-3,T
+DDT9090,Current in a 80 mH coil changes from 2 A to 5.5 A in 20 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,14,V
+TD9028,A capacitor C = 2 uF remains connected to a 12 V source while a dielectric k = 5 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",1.2 x 10^-4,C
+THCB9018,A true value is 100 cm and the measured value is 102 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,2,%
+TD9215,Find the charge on a 2 uF capacitor when it is connected across 110 V.,cap_charge: Use Q = C U with C in farads.,2.2 x 10^-4,C
+THCB9074,Resistors R1 = 50 ohm and R2 = 60 ohm are in series across 9 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",4.09091; 4.90909,V; V
+NL9058,An ideal LC circuit has L = 75 mH and C = 2.2 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,2461.82982,rad/s
+THCB9054,Two resistors R1 = 12 ohm and R2 = 60 ohm are connected in parallel across 18 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1.5; 0.3,A; A
+TD9200,Two capacitors C1 = 4 uF and C2 = 18 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",3.27273,uF
+TD9098,A parallel-plate capacitor has circular plates of radius 3 cm separated by 0.8 mm. The dielectric constant is 2.2. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,6.8844 x 10^-11,F
+CH9093,"A series RLC circuit has R = 30 ohm, L = 20 mH, C = 47 uF and is driven by 12 V at 50 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.1755,A
+CH9054,"A current of 0.5 A flows through a series R-C section with R = 120 ohm, C = 80 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",63.21223,V
+NL9029,An LC circuit stores maximum electric energy 3.5 mJ in a capacitor of 2 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",59.1608,V
+DDT9134,The flux through each turn of a 50-turn coil changes from 0.2 mWb to 0.6 mWb in 20 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,1,V
+TD9125,Capacitors of 4 uF and 27 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",31,uF
+CH9097,"A current of 0.8 A flows through a series R-C section with R = 120 ohm, C = 5 uF at 200 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",159.45968,V
+TD9153,Capacitors of 15 uF and 3.5 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",18.5,uF
+LD9071,Two point charges 3.5 uC and 10 uC are 12 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,21.85069,N
+DDT9150,A flat coil area is 50 cm^2 in a uniform magnetic field 0.08 T. The normal makes 30 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,3.4641 x 10^-4,Wb
+LD9020,Two source charges q1 = 3.5 uC and q2 = 8.5 uC are both 4 cm from point M. The angle between their field directions at M is 120 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,4.1575 x 10^7,N/C
+DDT9082,A flat coil area is 50 cm^2 in a uniform magnetic field 0.05 T. The normal makes 45 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,1.7678 x 10^-4,Wb
+DDT9006,The flux through each turn of a 200-turn coil changes from 1 mWb to 1.4 mWb in 50 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,1.6,V
+THCB9014,Resistors R1 = 5 ohm and R2 = 60 ohm are in series across 18 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",1.38462; 16.61538,V; V
+TD9073,A capacitor of capacitance 90 uF carries charge 72 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,0.8,V
+CH9058,"A current of 0.8 A flows through a series R-C section with R = 20 ohm, C = 80 uF at 200 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",17.86969,V
+TD9237,"A parallel-plate capacitor has plate area 20 cm^2 in air. If breakdown field is 2.5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,4.427 x 10^-8,C
+NL9015,The maximum magnetic energy in an LC circuit is 0.8 mJ and L = 80 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.14142,A
+CH9013,"A current of 0.35 A flows through a series R-C section with R = 50 ohm, C = 10 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",112.77453,V
+NL9064,"For an LC oscillator with inductance 8 mH and capacitance 4.7 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,820.77895,Hz
+THCB9164,A current of 2 A flows through a 5 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,20,W
+LD9113,What is the electric field magnitude at a point 10 cm from a charge Q = 3.3 uC in air?,point_field: Use E = k |Q|/r^2.,2.9667 x 10^6,N/C
+CH9010,"A series RLC circuit has R = 20 ohm, L = 150 mH, C = 47 uF and is driven by 50 V at 800 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",0.06667,A
+DDT9030,The flux through each turn of a 500-turn coil changes from 0.2 mWb to 3.2 mWb in 50 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,30,V
+LD9049,A dust grain of mass 0.8 mg and charge 8 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",980,N/C
+DDT9089,A flat coil area is 200 cm^2 in a uniform magnetic field 0.12 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,2.4 x 10^-3,Wb
+TD9179,"A 15 uF capacitor is charged to 40 V, disconnected from the battery, then a dielectric with relative permittivity 2.5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",16,V
+LD9183,What is the electric field magnitude at a point 4 cm from a charge Q = 2.2 uC in air?,point_field: Use E = k |Q|/r^2.,1.2361 x 10^7,N/C
+NL9094,The maximum magnetic energy in an LC circuit is 0.4 mJ and L = 5 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.4,A
+CH9008,What capacitance in uF is required for resonance at 60 Hz with an inductor L = 500 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",14.07239,uF
+LD9154,A dust grain of mass 0.8 mg and charge 5 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",1568,N/C
+LD9045,A particle carrying charge 7.5 uC is placed in a uniform electric field of 2 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.015,N
+DDT9149,"A solenoid has 600 turns, length 100 cm, and cross-sectional area 4 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,1.8096 x 10^-4,H
+DDT9094,An inductor of 50 mH carries current 0.2 A. Calculate the magnetic energy stored in it.,inductor_energy: Use W = 1/2 L I^2.,1 x 10^-3,J
+NL9070,An ideal LC circuit has L = 40 mH and C = 2.2 uF. Calculate the angular frequency of free oscillation.,lc_omega: Use omega = 1/sqrt(LC).,3370.99931,rad/s
+TD9066,Two capacitors C1 = 20 uF and C2 = 3 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",2.6087,uF
+TD9101,A capacitor of capacitance 45 uF carries charge 96 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,2.13333,V
+THCB9112,Two resistors R1 = 20 ohm and R2 = 18 ohm are connected in parallel across 12 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.6; 0.66667,A; A
+NL9018,An LC circuit stores maximum electric energy 2 mJ in a capacitor of 1 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",63.24555,V
+DDT9087,"A solenoid has 600 turns, length 60 cm, and cross-sectional area 15 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,1.131 x 10^-3,H
+CH9020,What capacitance in uF is required for resonance at 60 Hz with an inductor L = 200 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",35.18097,uF
+TD9083,"A 15 uF capacitor is charged to 60 V, disconnected from the battery, then a dielectric with relative permittivity 5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",12,V
+LD9151,Two positive charges q1 = 1 uC and q2 = 18 uC are separated by 40 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,7.62974,cm
+NL9067,"For an LC oscillator with inductance 5 mH and capacitance 2.2 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,1517.48284,Hz
+LD9036,Two source charges q1 = 1 uC and q2 = 1.5 uC are both 10 cm from point M. The angle between their field directions at M is 120 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.1893 x 10^6,N/C
+DDT9037,"A long solenoid has 1500 turns, length 50 cm, and current 1 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,3.7699 x 10^-3,T
+DDT9119,The flux through each turn of a 200-turn coil changes from 2.5 mWb to 3.3 mWb in 5 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,32,V
+NL9005,"For an LC oscillator with inductance 2 mH and capacitance 10 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,1125.3954,Hz
+CH9026,"A current of 0.2 A flows through a series R-C section with R = 20 ohm, C = 5 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",127.38677,V
+LD9158,"At point M, charge q1 = 2.5 uC is 4 cm away along the x direction and charge q2 = 9 uC is 12 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",1.5129 x 10^7,N/C
+TD9216,A capacitor of capacitance 18 uF carries charge 240 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,13.33333,V
+THCB9032,Calculate the equivalent resistance of two parallel resistors 12 ohm and 60 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",10,ohm
+LD9101,Two point charges 6 uC and 1.5 uC are 20 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,2.02275,N
+THCB9128,Two resistors R1 = 30 ohm and R2 = 60 ohm are connected in parallel across 18 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",0.6; 0.3,A; A
+DDT9070,Current in a 20 mH coil changes from 1 A to 6 A in 5 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,20,V
+LD9021,Two source charges q1 = 7 uC and q2 = 1.5 uC are both 4 cm from point M. The angle between their field directions at M is 45 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,4.5681 x 10^7,N/C
+THCB9024,Two resistors R1 = 15 ohm and R2 = 12 ohm are connected in parallel across 24 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",1.6; 2,A; A
+LD9100,A particle carrying charge 3.6 uC is placed in a uniform electric field of 2 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,7.2 x 10^-3,N
+TD9115,A capacitor has capacitance C = 2.2 uF and voltage U = 9 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,8.91 x 10^-5,J
+DDT9155,Current in a 20 mH coil changes from 0 A to 0.8 A in 20 ms. Find the magnitude of the self-induced emf.,self_induced_emf: Use |e| = L |Delta I|/Delta t.,0.8,V
+LD9057,Two positive charges q1 = 3 uC and q2 = 5 uC are separated by 60 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,26.1895,cm
+CH9066,"In a series RLC circuit R = 18 ohm, L = 30 mH, C = 4.7 uF at f = 1000 Hz. Find the power factor.",rlc_power_factor: Power factor in series RLC is cos phi = R/Z.,0.11562,-
+THCB9008,A true value is 120 cm and the measured value is 117 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,2.5,%
+TD9236,A parallel-plate capacitor has circular plates of radius 3 cm separated by 0.8 mm. The dielectric constant is 1. Find its capacitance.,cap_parallel_plate: Use C = eps0 er A/d with A = pi r^2.,3.1293 x 10^-11,F
+NL9098,"For an LC oscillator with inductance 30 mH and capacitance 10 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,290.57584,Hz
+DDT9012,A flat coil area is 10 cm^2 in a uniform magnetic field 0.35 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,3.5 x 10^-4,Wb
+LD9017,A particle carrying charge 2 uC is placed in a uniform electric field of 12 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.024,N
+THCB9168,Calculate the equivalent resistance of two parallel resistors 36 ohm and 30 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",16.36364,ohm
+TD9144,Capacitors of 47 uF and 27 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",74,uF
+LD9215,An electron enters a uniform electric field of 4 kV/m opposite to its motion with speed 2 x 10^6 m/s. Find the stopping distance.,electron_stopping_distance: Use work-energy eEd = 1/2 mv^2.,2.843 x 10^-3,m
+LD9069,A particle carrying charge 5 uC is placed in a uniform electric field of 8 kV/m. Calculate the electric force magnitude.,force_in_uniform_field: Use F = qE after converting kV/m to V/m.,0.04,N
+TD9038,"A 10 uF capacitor is charged to 40 V, disconnected from the battery, then a dielectric with relative permittivity 2 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",20,V
+TD9013,Find the charge on a 180 uF capacitor when it is connected across 5 V.,cap_charge: Use Q = C U with C in farads.,9 x 10^-4,C
+NL9042,An LC circuit stores maximum electric energy 0.2 mJ in a capacitor of 10 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",6.32456,V
+CH9094,"A series RLC circuit has R = 30 ohm, L = 20 mH, C = 10 uF and is driven by 220 V at 400 Hz. Calculate the RMS current.","rlc_current: Use Z = sqrt(R^2+(XL-XC)^2), I = U/Z.",6.9233,A
+TD9050,Two capacitors C1 = 30 uF and C2 = 35 uF are connected in series. Calculate the equivalent capacitance in uF.,"cap_series: For series capacitors, Ceq = C1 C2/(C1+C2).",16.15385,uF
+LD9037,A dust grain of mass 6.5 mg and charge 5 nC is held at rest by a vertical electric field. Find the required field magnitude.,"charged_dust_equilibrium: For equilibrium qE = mg, so E = mg/q.",1.274 x 10^4,N/C
+TD9218,A capacitor C = 50 uF remains connected to a 24 V source while a dielectric k = 4 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",4.8 x 10^-3,C
+LD9134,"At point M, charge q1 = 6 uC is 8 cm away along the x direction and charge q2 = 7.5 uC is 4 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",4.2975 x 10^7,N/C
+TD9170,A capacitor of capacitance 30 uF carries charge 150 uC. Determine the voltage across it.,cap_voltage_from_charge: Use U = Q/C; uC/uF gives volts.,5,V
+DDT9054,The flux through each turn of a 100-turn coil changes from 0.5 mWb to 2.5 mWb in 100 ms. Find the average induced emf magnitude.,faraday_emf: Use |e| = N |Delta Phi|/Delta t.,2,V
+TD9108,Capacitors of 10 uF and 12 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",22,uF
+THCB9145,A resistor of 100 ohm is connected to a 36 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.36,A
+NL9068,The maximum magnetic energy in an LC circuit is 0.4 mJ and L = 20 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.2,A
+THCB9089,A true value is 10 cm and the measured value is 12 cm. Find the relative error in percent.,relative_error: Relative error percent = |measured-true|/true * 100%.,20,%
+LD9174,Two point charges 4.8 uC and 10 uC are 10 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,43.152,N
+TD9251,"A 100 uF capacitor is charged to 150 V, disconnected from the battery, then a dielectric with relative permittivity 6 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",25,V
+TD9048,A capacitor C = 80 uF remains connected to a 24 V source while a dielectric k = 2 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",3.84 x 10^-3,C
+THCB9041,A resistor of 8 ohm is connected to a 5 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,0.625,A
+THCB9165,Two resistors R1 = 6 ohm and R2 = 40 ohm are connected in parallel across 48 V. Find both branch currents I1 and I2.,"parallel_branch_currents: In parallel, each branch has the same voltage, so I1=U/R1 and I2=U/R2.",8; 1.2,A; A
+CH9078,"A current of 1.2 A flows through a series R-C section with R = 50 ohm, C = 20 uF at 100 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",112.77813,V
+LD9070,"At point M, charge q1 = 6 uC is 8 cm away along the x direction and charge q2 = 1.2 uC is 15 cm away along the y direction. The field components are perpendicular. Find the resultant electric field magnitude at M.","perpendicular_fields: Compute E1 and E2, then use E = sqrt(E1^2+E2^2).",8.4418 x 10^6,N/C
+DDT9004,"A long solenoid has 500 turns, length 30 cm, and current 5 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,0.01047,T
+CH9063,What capacitance in uF is required for resonance at 400 Hz with an inductor L = 500 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",0.31663,uF
+TD9055,Find the charge on a 330 uF capacitor when it is connected across 15 V.,cap_charge: Use Q = C U with C in farads.,4.95 x 10^-3,C
+THCB9055,Calculate the equivalent resistance of two parallel resistors 10 ohm and 40 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",8,ohm
+TD9235,A capacitor C = 2 uF remains connected to a 9 V source while a dielectric k = 5 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",9 x 10^-5,C
+NL9004,An LC circuit stores maximum electric energy 3.5 mJ in a capacitor of 1 uF. Find the maximum capacitor voltage.,"lc_voltage_from_energy: At maximum voltage, W = 1/2 C Umax^2.",83.666,V
+NL9027,"For an LC oscillator with inductance 2 mH and capacitance 0.47 uF, find the oscillation frequency.",lc_frequency: Use f = 1/(2 pi sqrt(LC)).,5191.06187,Hz
+THCB9156,Resistors R1 = 5 ohm and R2 = 100 ohm are in series across 18 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",0.85714; 17.14286,V; V
+TD9062,Find the charge on a 120 uF capacitor when it is connected across 5 V.,cap_charge: Use Q = C U with C in farads.,6 x 10^-4,C
+TD9250,Capacitors of 22 uF and 56 uF are joined in parallel. What is their total capacitance?,"cap_parallel: For parallel capacitors, capacitances add directly.",78,uF
+TD9020,A capacitor C = 10 uF remains connected to a 48 V source while a dielectric k = 2 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",9.6 x 10^-4,C
+THCB9060,A current of 1 A flows through a 68 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,68,W
+TD9154,"A 10 uF capacitor is charged to 40 V, disconnected from the battery, then a dielectric with relative permittivity 4 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",10,V
+THCB9027,"A length is measured with an instrument whose least count is 0.2 cm. Taking uncertainty as half the least count, find the absolute uncertainty.",least_count_uncertainty: Absolute uncertainty = least count/2.,0.1,cm
+THCB9013,A resistor of 24 ohm is connected to a 48 V source. Calculate the current.,ohm_current: Use Ohm law I = U/R.,2,A
+DDT9078,"A solenoid has 900 turns, length 60 cm, and cross-sectional area 6 cm^2. Estimate its inductance in air.",solenoid_inductance: Use L = mu0 N^2 A/l.,1.0179 x 10^-3,H
+NL9003,The maximum magnetic energy in an LC circuit is 1.5 mJ and L = 10 mH. Determine the maximum current.,"lc_current_from_energy: At maximum current, W = 1/2 L Imax^2.",0.54772,A
+CH9062,"A current of 1.2 A flows through a series R-C section with R = 120 ohm, C = 80 uF at 50 Hz. Find the RMS voltage across the section.","segment_rc_voltage: For an R-C section, U = I sqrt(R^2+XC^2).",151.70935,V
+DDT9108,A flat coil area is 20 cm^2 in a uniform magnetic field 0.12 T. The normal makes 30 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,2.0785 x 10^-4,Wb
+TD9155,A capacitor C = 50 uF remains connected to a 24 V source while a dielectric k = 3 is inserted. Calculate the final charge.,"cap_connected_dielectric_charge: Connected capacitor keeps U constant, so Q' = k C U.",3.6 x 10^-3,C
+THCB9028,Resistors R1 = 15 ohm and R2 = 15 ohm are in series across 9 V. Calculate the voltage drops U1 and U2.,"series_voltage_divider: Series current is I=U/(R1+R2), then U1=IR1 and U2=IR2.",4.5; 4.5,V; V
+DDT9093,A flat coil area is 50 cm^2 in a uniform magnetic field 0.05 T. The normal makes 60 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,1.25 x 10^-4,Wb
+LD9077,Two point charges 1.8 uC and 5.5 uC are 10 cm apart in air. Find the magnitude of the electrostatic force.,coulomb_force: Apply Coulomb law F = k |q1 q2|/r^2.,8.9001,N
+THCB9044,Calculate the equivalent resistance of two parallel resistors 36 ohm and 20 ohm.,"parallel_equivalent: For two parallel resistors, Req=R1R2/(R1+R2).",12.85714,ohm
+DDT9060,A flat coil area is 10 cm^2 in a uniform magnetic field 0.08 T. The normal makes 0 degrees with the field. Calculate the magnetic flux.,magnetic_flux: Use Phi = B A cos(theta).,8 x 10^-5,Wb
+TD9086,A capacitor has capacitance C = 6.8 uF and voltage U = 6 V. Calculate the stored electric energy.,cap_energy: Use W = 1/2 C U^2 after converting uF to F.,1.224 x 10^-4,J
+DDT9086,"A long solenoid has 300 turns, length 30 cm, and current 2 A. Calculate the magnetic field inside.",solenoid_b: Use B = mu0 (N/l) I.,2.5133 x 10^-3,T
+TD9058,"A 22 uF capacitor is charged to 150 V, disconnected from the battery, then a dielectric with relative permittivity 5 is inserted. Find the new voltage.","cap_disconnected_dielectric_voltage: Disconnected capacitor keeps Q constant, so U' = U/k.",30,V
+TD9147,"A parallel-plate capacitor has plate area 12 cm^2 in air. If breakdown field is 1.5 kV/mm, calculate the maximum charge before breakdown.",cap_breakdown_charge: At breakdown Qmax = C Umax = eps0 A Emax.,1.5937 x 10^-8,C
+CH9019,What capacitance in uF is required for resonance at 100 Hz with an inductor L = 10 mH?,"resonance_capacitance: At resonance, C = 1/((2 pi f)^2 L).",253.30296,uF
+THCB9141,A current of 2 A flows through a 47 ohm resistor. Determine the electrical power dissipated.,resistor_power: Use P = I^2 R.,188,W
+LD9081,Two source charges q1 = 3.5 uC and q2 = 1.5 uC are both 5 cm from point M. The angle between their field directions at M is 120 degrees. Calculate the resultant field.,angled_fields: Use vector addition E = sqrt(E1^2+E2^2+2E1E2 cos theta).,1.0937 x 10^7,N/C
+LD9178,Two positive charges q1 = 2 uC and q2 = 12 uC are separated by 24 cm. Find the distance from q1 to the point between them where the electric field is zero.,zero_field_between_charges: Set kq1/x^2 = kq2/(d-x)^2 and solve for x.,6.95755,cm
