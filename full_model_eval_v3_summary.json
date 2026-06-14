@@ -1,0 +1,11 @@
+{
+ "version": "full_model_eval_v3_offline",
+ "acc_v2": 0.7933333333333333,
+ "acc_parsefix": 0.8133333333333334,
+ "acc_final": 0.8,
+ "macro7_v2": 0.7590893360826848,
+ "macro7_final": 0.7836153363072638,
+ "n_parsefix_changes": 34,
+ "n_verifier_flips": 59,
+ "verifier_rule": "typed PROVE_NO only; PROVE_YES(0.73)/OVERCLAIM(0.00 here) intentionally unused"
+}
