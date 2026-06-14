@@ -1,0 +1,48 @@
+{
+ "version": "v31_unified_one_run_report",
+ "best_before": "v30.1",
+ "locked_v30_1_macro": 0.5934206145879246,
+ "final_selection": "ROLLBACK_TO_V30_1",
+ "final_source": "ROLLBACK_v30_1",
+ "final_metrics": {
+  "n": 156,
+  "acc": 0.6346153846153846,
+  "macro_f1": 0.5934206145879246,
+  "weighted_f1": 0.6283223867694294,
+  "mc_macro": 0.551470588235294,
+  "ynu_macro": 0.6493539830580987
+ },
+ "final_delta_vs_v30_1": {
+  "acc": 0.0,
+  "macro_f1": 0.0,
+  "weighted_f1": 0.0,
+  "mc_macro": 0.0,
+  "ynu_macro": 0.0
+ },
+ "artifacts": {
+  "v31_a_summary": "v31_a_summary.json",
+  "v31_standard_summary": "v31_standard_summary.json",
+  "v31_b_summary": "v31_b_summary.json",
+  "v31_full_summary": "v31_full_summary.json",
+  "v31_1_full_summary": "v31_1_full_summary.json"
+ },
+ "warnings": [
+  "v31_b is ablation/prototype; do not feed v31_b_preds into best selector unless explicitly verified.",
+  "Future versions must verify saved preds, not only summary metrics.",
+  "If v31 rolls back, candidate pool signals were insufficient under high-precision gates; consider new candidate generation or external symbolic candidate scoring."
+ ],
+ "questions_for_claude": [
+  "Is the R3 precision gate leaking validation labels too directly? Should it be reported only as diagnostic while standard thresholds remain fixed?",
+  "Should v31_full require bootstrap p_positive >= 0.8, or is exact macro gain enough for this small validation set?",
+  "Are yes_share thresholds 0.60/0.80 too permissive given v30 fixed Yes->No overclaim cases by flipping Yes to No?",
+  "Can candidate citation_valid be gamed by hallucinated premise IDs? Should we validate IDs against actual premise count if data file is available?",
+  "Should R5 UNPARSEABLE->majority be disabled unless majority is unanimous, since idx 14 is high-risk?",
+  "What is the safest v32 direction if v31 rolls back: new structured generation, symbolic premise graph, or candidate reranking with no trained model?"
+ ],
+ "proposed_next_directions": [
+  "v32_candidate_generation_refresh: generate a small new candidate pool for remaining YNU errors with stricter output schema and no training.",
+  "v32_symbolic_premise_graph: parse natural-language premise chains into a graph and detect missing links / converse fallacy without overriding MC.",
+  "v32_pool_oracle_audit: compute for each wrong case whether any candidate has gold answer; if no, training/generation is needed; if yes, selector is the bottleneck.",
+  "v32_yes_no_directional_verifier: separate verifier for No->Yes and Yes->No with asymmetric thresholds to avoid Yes collapse."
+ ]
+}
