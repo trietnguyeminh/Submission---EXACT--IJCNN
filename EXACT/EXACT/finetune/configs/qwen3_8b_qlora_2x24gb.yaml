@@ -1,0 +1,50 @@
+base_model: Qwen/Qwen3-8B
+output_dir: outputs/qwen3_8b_exact_corrector_lora
+train_file: finetune/data/train.jsonl
+valid_file: finetune/data/valid.jsonl
+test_file: finetune/data/test.jsonl
+
+method: qlora
+load_in_4bit: true
+bnb_4bit_quant_type: nf4
+bnb_4bit_compute_dtype: bfloat16
+bnb_4bit_use_double_quant: true
+device_map: balanced
+max_memory:
+  - 20GiB
+  - 20GiB
+
+max_seq_length: 3072
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16
+num_train_epochs: 3
+learning_rate: 1.5e-4
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+weight_decay: 0.01
+max_grad_norm: 1.0
+
+lora_r: 32
+lora_alpha: 64
+lora_dropout: 0.05
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+
+optim: paged_adamw_8bit
+bf16: true
+fp16: false
+gradient_checkpointing: true
+save_strategy: steps
+save_steps: 20
+eval_strategy: "no"
+eval_steps: 100
+per_device_eval_batch_size: 1
+prediction_loss_only: true
+logging_steps: 10
+save_total_limit: 5
