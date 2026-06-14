@@ -1,0 +1,75 @@
+canonical_latex,meaning,your_notation
+\times,multiplication,*
+\cdot,dot multiplication,*
+\div,division,/
+/,fraction slash,/
+\frac{a}{b},fraction,a/b
++,addition,+
+-,subtraction / minus,-
+\pm,plus-minus,+/-
+\mp,minus-plus,-/+
+=,equals,=
+\approx,approximately equal,approx
+\neq,not equal,!=
+<,less than,<
+>,greater than,>
+\leq,less than or equal,<=
+\geq,greater than or equal,>=
+\propto,proportional to,proportional
+\infty,infinity,inf
+a^b,power / superscript,**
+a_b,subscript,_
+\sqrt{},square root,sqrt
+\sqrt[n]{},nth root,nth_root
+\times 10^{n},scientific notation,e
+\alpha,alpha,alpha
+\beta,beta,beta
+\gamma,gamma,gamma
+\delta,delta (lowercase),delta
+\Delta,Delta (change in),delta
+\epsilon,epsilon / permittivity,epsilon
+\varepsilon,var-epsilon,epsilon
+\theta,theta,theta
+\lambda,lambda / linear charge density,lambda
+\mu,mu / micro prefix / permeability,mu
+\pi,pi,pi
+\rho,rho / resistivity / volume charge density,rho
+\sigma,sigma / conductivity / surface charge density,sigma
+\tau,tau / time constant,tau
+\phi,phi / potential / flux,phi
+\varphi,var-phi,phi
+\Phi,Phi / flux,Phi
+\omega,omega / angular frequency,omega
+\Omega,Omega / ohm,ohm
+\int,integral,integral
+\sum,summation,sum
+\partial,partial derivative,partial
+\nabla,nabla / del,nabla
+\vec{},vector,vector
+\hat{},unit vector,hat
+\degree,degree,degree
+\%,percent,%
+\angle,angle,angle
+V,volt,V
+A,ampere,A
+ohm,ohm (unit),ohm
+W,watt,W
+J,joule,J
+C,coulomb,C
+F,farad,F
+H,henry,H
+T,tesla,T
+Wb,weber,Wb
+N,newton,N
+V/m,volt per meter (electric field),V/m
+N/C,newton per coulomb,N/C
+Hz,hertz,Hz
+s,second,s
+m,meter,m
+eV,electron volt,eV
+p,pico (prefix),p
+n,nano (prefix),n
+u,micro (prefix; ASCII for mu),u
+k,kilo (prefix),k
+M,mega (prefix),M
+G,giga (prefix),G
